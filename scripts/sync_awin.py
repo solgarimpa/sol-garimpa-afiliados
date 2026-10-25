@@ -126,15 +126,21 @@ def request(url, method='GET', token=None, body=None, timeout=45):
 
 
 def read_csv_stream(url, max_rows=None):
-    """Read gzip CSV incrementally; never store huge catalogs in memory."""
+    """CSV Awin em streaming, com detecção do gzip pelo conteúdo real."""
     with request(url, timeout=120) as response:
-        fileobj = gzip.GzipFile(fileobj=response) if '/compression/gzip' in url.lower() or url.lower().endswith('.gz') else response
+        buffered = io.BufferedReader(response)
+        if buffered.peek(2)[:2] == b'\x1f\x8b':
+            fileobj = gzip.GzipFile(fileobj=buffered)
+        else:
+            fileobj = buffered
         text_io = io.TextIOWrapper(fileobj, encoding='utf-8-sig', errors='replace', newline='')
         reader = csv.DictReader(text_io)
         if not reader.fieldnames: return
         for idx, row in enumerate(reader):
             if max_rows is not None and idx >= max_rows: break
-            yield {str(k).strip().lower(): (v or '') for k, v in row.items() if k is not None}
+            # Normaliza colunas do CSV sem alterar valores e URLs de afiliados.
+            yield {re.sub(r'[^a-z0-9]+', '_', str(k).strip().lower()).strip('_'): (v or '')
+                   for k, v in row.items() if k is not None}
 
 
 def price_old(row):
@@ -160,19 +166,44 @@ def product_candidate(row, store):
 
 
 def product_feeds(api_key):
-    # The KEY IS NEVER written to the generated JSON/logs.
-    list_url = f'https://productdata.awin.com/datafeed/list/apikey/{api_key}'
-    feeds = defaultdict(list)
-    for row in read_csv_stream(list_url, max_rows=5000):
-        store = identify(row.get('advertiser name') or row.get('advertiser_name') or '')
-        if not store or not dict(STORES)[store]: continue
-        m = compact(row.get('membership status') or row.get('membership_status') or '')
-        if m and m not in ('joined', 'approved', 'active'): continue
-        raw_url = safe_url(row.get('url'))
-        host = (urlparse(raw_url).hostname or '').lower()
-        if raw_url and host in ('datafeed.api.productserve.com', 'productdata.awin.com'):
-            if raw_url not in feeds[store]: feeds[store].append(raw_url)
-    return feeds
+    """Primeiro tenta lista Darwin (interface atual), depois o endpoint documentado.
+
+    A chave é lida somente do ambiente e nunca é escrita nos arquivos publicados.
+    """
+    feed_list_urls = [
+        f'https://ui.awin.com/productdata-darwin-download/publisher/{PUBLISHER_ID}/{api_key}/1/feedList',
+        f'https://productdata.awin.com/datafeed/list/apikey/{api_key}',
+    ]
+    for source_num, list_url in enumerate(feed_list_urls, start=1):
+        feeds = defaultdict(list)
+        try:
+            csv_valid = False
+            for row in read_csv_stream(list_url, max_rows=5000):
+                if not csv_valid:
+                    # HTML de login e respostas não-CSV não são catálogos.
+                    if not (row.get('advertiser_name') or row.get('advertisername')):
+                        raise ValueError('Feed List não contém as colunas esperadas')
+                    csv_valid = True
+                store = identify(row.get('advertiser_name') or row.get('advertisername') or '')
+                if not store or not dict(STORES)[store]: continue
+                status = compact(row.get('membership_status') or row.get('membershipstatus') or '')
+                if status and status not in ('joined', 'approved', 'active'): continue
+                raw_url = safe_url(row.get('url') or row.get('download_url') or row.get('downloadurl'))
+                parsed = urlparse(raw_url)
+                host = (parsed.hostname or '').lower()
+                host_ok = (host in ('datafeed.api.productserve.com', 'productdata.awin.com')
+                           or (host == 'ui.awin.com' and parsed.path.startswith('/productdata-darwin-download/')))
+                if host_ok and raw_url not in feeds[store]:
+                    feeds[store].append(raw_url)
+            if not csv_valid:
+                raise ValueError('Lista de feeds vazia')
+            print(f'Lista de produtos Awin: fonte {source_num}; {len(feeds)} anunciantes com feed')
+            return feeds
+        except Exception as err:
+            # Não incluir URL nem exceção completa: podem conter a chave de download.
+            print(f'Lista Awin fonte {source_num} indisponível ({type(err).__name__}); tentando alternativa',
+                  file=sys.stderr)
+    raise RuntimeError('Falha nas duas URLs oficiais de lista de produtos Awin')
 
 
 def get_products(api_key):
