@@ -1,0 +1,49 @@
+
+name: Atualizar ofertas Awin SOL GARIMPA
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Buscar feeds e ofertas oficiais da Awin
+        env:
+          AWIN_PUBLISHER_TOKEN: ${{ secrets.AWIN_PUBLISHER_TOKEN }}
+          AWIN_DATAFEED_KEY: ${{ secrets.AWIN_DATAFEED_KEY }}
+        run: python scripts/sync_awin.py
+
+      - name: Preparar hospedagem no GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Empacotar vitrine e dados atualizados
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./docs
+
+      - name: Publicar atualização no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
