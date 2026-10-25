@@ -1,0 +1,6 @@
+SOL GARIMPA | Instalação sem CMS
+1. Leia PASSO_A_PASSO.md
+2. Crie o GitHub Pages com catálogo Awin
+3. Wix Editor: Add a Router -> oferta
+4. Cole wix_router/routers.js e código de pagina
+5. Publique e teste links reais
