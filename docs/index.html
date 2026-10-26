@@ -21,11 +21,11 @@ h2{font-size:clamp(20px,4vw,29px);margin:0;letter-spacing:-.6px;line-height:1.1}
 .image{height:211px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;background:var(--bg)}
 .image img.product{width:100%;height:100%;object-fit:contain;background:white;padding:10px}
 .imgtext{background:radial-gradient(circle at 83% 20%,#fffacb 0 12%,transparent 35%),linear-gradient(150deg,#ffcc00,#ffed99);height:100%;width:100%;padding:15px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
-.logo-stage{display:flex;align-items:center;justify-content:center;width:100%;height:100%}.logo-stage img{max-width:68%;max-height:58%;object-fit:contain;filter:drop-shadow(0 2px 6px rgba(0,0,0,.08))}
+.logo-stage{display:flex;align-items:center;justify-content:center;width:100%;height:100%}.logo-stage img{max-width:78%;max-height:70%;object-fit:contain;filter:drop-shadow(0 2px 6px rgba(0,0,0,.08))}.logo-stage img.brand-icon{max-width:132px;max-height:132px;width:57%;height:57%;object-fit:contain;background:#fff;padding:12px;border-radius:18px;box-shadow:0 4px 14px rgba(0,0,0,.09)}
 .logo-stage .fallbackword{font-weight:950;font-size:clamp(18px,6vw,29px);line-height:1.1;overflow-wrap:anywhere;max-width:95%;padding:5px;color:#111}
 .partner-cap{position:absolute;bottom:10px;left:10px;right:10px;font-size:10px;letter-spacing:1.2px;font-weight:900;text-transform:uppercase;color:#111;opacity:.85}
 .logo-chip{position:absolute;top:10px;left:10px;background:rgba(255,255,255,.94);border:1px solid rgba(0,0,0,.08);border-radius:10px;padding:6px 8px;min-width:64px;min-height:34px;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(0,0,0,.06)}
-.logo-chip img{max-width:84px;max-height:20px;object-fit:contain}
+.logo-chip img{max-width:84px;max-height:20px;object-fit:contain}.logo-chip img.brand-icon{max-width:29px;max-height:29px;width:26px;height:26px}
 .ribbon{position:absolute;top:10px;right:10px;font-size:11px;background:#111;color:#fff;padding:5px 8px;border-radius:8px;font-weight:800;max-width:70%}.ribbon.discount{background:#248547}
 .content{padding:13px;display:flex;flex:1;flex-direction:column;gap:7px}.store{color:#5d6470;font-size:12px;font-weight:800}.name{font-size:16px;font-weight:820;letter-spacing:-.3px;line-height:1.25;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;min-height:40px}
 .price{font-size:21px;font-weight:900;margin-top:1px;letter-spacing:-.5px}.old{color:var(--sub);font-size:12px;text-decoration:line-through;font-weight:500;margin-left:6px}
@@ -87,27 +87,38 @@ const timestamp = value => {const d=new Date(value); return isNaN(d.getTime()) ?
 const fmtdate = value => {const d=timestamp(value);return d?d.toLocaleDateString('pt-BR',{timeZone:'UTC'}):'';};
 let all=[], visible=[], selected='Todas', paused=matchMedia('(prefers-reduced-motion: reduce)').matches, loaded=false;
 const el=(tag,cls,content)=>{let d=document.createElement(tag);if(cls)d.className=cls;if(content!==undefined)d.textContent=content;return d;};
-function logoUrl(store){
-  const domain = STORE_DOMAINS[store];
-  return domain ? `https://logo.clearbit.com/${domain}` : '';
-}
-function attachLogo(container, store, compact=false){
-  const url = logoUrl(store);
-  const holder = el('div', compact ? 'logo-chip' : 'logo-stage');
-  if(url){
-    const img = el('img');
-    img.src = url;
-    img.alt = `Logo ${store}`;
-    img.loading = 'lazy';
-    img.decoding = 'async';
-    img.onerror = () => {
-      holder.replaceChildren(el('div','fallbackword',store));
-    };
-    holder.appendChild(img);
-  } else {
-    holder.appendChild(el('div','fallbackword',store));
+// Clearbit foi desativada em 2025: não utilizar logo.clearbit.com.
+// Opcional: cadastre gratuitamente seu Client ID público em developers.brandfetch.com
+ // para obter as logomarcas horizontais completas. Sem ele, usa os ícones reais dos sites.
+const BRANDFETCH_CLIENT_ID = '';  // Cliente público, não é senha/token privado.
+function logoSources(store) {
+  const domain=STORE_DOMAINS[store];
+  if(!domain) return [];
+  const sources=[];
+  if(BRANDFETCH_CLIENT_ID.trim()) {
+    sources.push({url:'https://cdn.brandfetch.io/domain/'+encodeURIComponent(domain)+'/logo?c='+encodeURIComponent(BRANDFETCH_CLIENT_ID.trim()),full:true});
   }
-  container.appendChild(holder);
+  sources.push({url:'https://www.google.com/s2/favicons?domain='+encodeURIComponent(domain)+'&sz=256',full:false});
+  sources.push({url:'https://icons.duckduckgo.com/ip3/'+encodeURIComponent(domain)+'.ico',full:false});
+  return sources;
+}
+function attachLogo(container,store,compact=false){
+  const holder=el('div',compact?'logo-chip':'logo-stage');
+  const sources=logoSources(store);
+  let i=0;
+  const next=()=>{
+    if(i>=sources.length){holder.replaceChildren(el('div','fallbackword',store));return;}
+    const source=sources[i++];
+    const img=el('img',source.full?'brand-full':'brand-icon');
+    img.alt='Logomarca '+store;
+    img.decoding='async';
+    // Não usar loading=lazy na capa: evita atraso para logomarcas acima da dobra.
+    img.referrerPolicy='strict-origin-when-cross-origin';
+    img.addEventListener('error',next,{once:true});
+    img.src=source.url;
+    holder.replaceChildren(img);
+  };
+  next();container.appendChild(holder);
 }
 function message(p){
   if(!p||!safe(p.link)||p.tipo==='sem_oferta') return '';
@@ -123,7 +134,7 @@ function message(p){
 function card(p){
  const inactive=p.tipo==='sem_oferta'||!safe(p.link);
  const box=el('article','card'+(inactive?' inactive':''));const image=el('div','image');
- if(p.imagem&&safe(p.imagem)&&!inactive){const pic=el('img','product');pic.src=p.imagem;pic.alt=p.titulo||'Produto';pic.loading='lazy';pic.decoding='async';pic.onerror=()=>{pic.remove();image.appendChild(art(p));attachLogo(image,p.loja,true);};image.appendChild(pic);attachLogo(image,p.loja,true);}else{image.appendChild(art(p));}
+ if(p.imagem&&safe(p.imagem)&&!inactive){const pic=el('img','product');pic.src=p.imagem;pic.alt=p.titulo||'Produto';pic.loading='lazy';pic.decoding='async';pic.onerror=()=>{pic.remove();image.appendChild(art(p));};image.appendChild(pic);attachLogo(image,p.loja,true);}else{image.appendChild(art(p));}
  if(!inactive){const badgeText=p.desconto_pct>=5?`${p.desconto_pct}% OFF`:p.tipo==='cupom'?'Cupom':'Promoção';const badge=el('div','ribbon'+(p.desconto_pct>=5?' discount':''),badgeText);image.appendChild(badge);} 
  box.appendChild(image);const content=el('div','content');content.appendChild(el('div','store',p.loja));content.appendChild(el('div','name',p.titulo));
  if(!inactive&&p.preco!=null){const price=el('div','price',brl(p.preco));if(p.preco_anterior&&p.preco_anterior>p.preco)price.appendChild(el('span','old',brl(p.preco_anterior)));content.appendChild(price);} else if(!inactive) {content.appendChild(el('div','description','Confira o preço atualizado na loja parceira.'));}
