@@ -1,0 +1,50 @@
+
+name: Rakuten - Ofertas Sol Garimpa
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */3 * * *'
+    - cron: '45 */3 * * *'
+    - cron: '30 1-23/3 * * *'
+    - cron: '15 2-23/3 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sol-garimpa-rakuten
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Consultar ofertas Rakuten
+        env:
+          RAKUTEN_ACCOUNT_ID: ${{ secrets.RAKUTEN_ACCOUNT_ID }}
+          RAKUTEN_CLIENT_ID: ${{ secrets.RAKUTEN_CLIENT_ID }}
+          RAKUTEN_CLIENT_SECRET: ${{ secrets.RAKUTEN_CLIENT_SECRET }}
+          RAKUTEN_PRODUCT_PAGES_PER_STORE: '5'
+          RAKUTEN_COUPON_PAGES: '20'
+          RAKUTEN_MAX_CARDS: '40000'
+        run: python scripts/sync_rakuten.py
+
+      - name: Publicar ofertas Rakuten
+        run: |
+          git config user.name 'sol-garimpa-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add docs/rakuten/ofertas.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Atualiza ofertas Rakuten'
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
