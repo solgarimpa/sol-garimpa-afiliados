@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Rakuten | Achadinhos das lojas parceiras - Sol Garimpa</title>
+<title>Achadinhos das Lojas Queridinhas do Brasil | Sol Garimpa</title>
 <meta name="description" content="Ofertas, cupons e produtos das lojas parceiras Rakuten selecionados pela Sol Garimpa. Os preços são confirmados na loja.">
 <style>
 :root{color-scheme:light;--sol:#fdd329;--ink:#1d1d1d;--sub:#69717a;--border:#e5e8eb;--white:#fff;--bg:#f6f7f9}
@@ -42,7 +42,7 @@ h2{font-size:clamp(20px,4vw,29px);margin:0;letter-spacing:-.6px;line-height:1.1}
 </head>
 <body>
 <main>
-  <header class="head"><div><div class="kicker">Ofertas de lojas parceiras • Rakuten</div><h2>Achadinhos da <span class="solar">Sol</span> pra você!</h2><div class="eyebrow">Produtos, promoções e cupons das lojas parceiras da Sol Garimpa.</div></div><div class="brandtag">SOL GARIMPA ✦</div></header>
+  <header class="head"><div><div class="kicker">Ofertas de lojas parceiras</div><h2>Achadinhos das <span class="solar">Lojas Queridinhas</span> do Brasil</h2><div class="eyebrow">Produtos, promoções e cupons das lojas parceiras da Sol Garimpa.</div></div><div class="brandtag">SOL GARIMPA ✦</div></header>
   <div class="filters-wrap">
     <button class="filterctl" type="button" id="filtersPrev" aria-label="Ver parceiros anteriores">‹</button>
     <nav class="bar" id="filters" aria-label="Filtrar lojas"></nav>
@@ -55,7 +55,7 @@ h2{font-size:clamp(20px,4vw,29px);margin:0;letter-spacing:-.6px;line-height:1.1}
 <script>
 (() => {
 'use strict';
-const PUBLIC_JSON_URL = './ofertas.json';
+const PUBLIC_JSON_URL = 'https://raw.githubusercontent.com/solgarimpa/sol-garimpa-afiliados/main/docs/rakuten/ofertas.json';
 let STORES = [];
 const STORE_DOMAINS = {};
 const $ = id => document.getElementById(id), rail=$('rail'), view=$('viewport'), filters=$('filters'), feedback=$('feedback');
@@ -123,7 +123,7 @@ function card(p){
  if(p.imagem&&safe(p.imagem)&&!inactive){const pic=el('img','product');pic.src=p.imagem;pic.alt=p.titulo||'Produto';pic.loading='lazy';pic.decoding='async';pic.onerror=()=>{pic.remove();image.appendChild(art(p));};image.appendChild(pic);attachLogo(image,p,true);}else{image.appendChild(art(p));}
  if(!inactive){const badgeText=p.tipo==='cupom'?'Cupom':validPrice(p.preco)&&validPrice(p.preco_anterior)&&Number(p.preco_anterior)>Number(p.preco)?`${Math.round((1-Number(p.preco)/Number(p.preco_anterior))*100)}% OFF`:'Oferta';const badge=el('div','ribbon'+(validPrice(p.preco)&&validPrice(p.preco_anterior)&&Number(p.preco_anterior)>Number(p.preco)?' discount':''),badgeText);image.appendChild(badge);} 
  box.appendChild(image);const content=el('div','content');content.appendChild(el('div','store',p.loja));content.appendChild(el('div','name',p.titulo));
- if(!inactive&&validPrice(p.preco)){const price=el('div','price',money(p.preco,p.moeda));if(validPrice(p.preco_anterior)&&Number(p.preco_anterior)>Number(p.preco))price.appendChild(el('span','old',money(p.preco_anterior,p.moeda)));content.appendChild(price);} else if(!inactive) {content.appendChild(el('div','description','Confira o preço atualizado na loja parceira.'));}
+ if(!inactive&&validPrice(p.preco)){const price=el('div','price',money(p.preco,p.moeda));if(validPrice(p.preco_anterior)&&Number(p.preco_anterior)>Number(p.preco))price.appendChild(el('span','old',money(p.preco_anterior,p.moeda)));content.appendChild(price);} else if(!inactive&&p.tipo==='produto') {content.appendChild(el('div','price','Consulte o preço'));}
  if(p.cupom&&!inactive)content.appendChild(el('div','code',`Cupom: ${p.cupom}`));
  if(p.descricao&&!inactive)content.appendChild(el('div','description',p.descricao));
  const acts=el('div','actions');if(inactive){const b=el('div','act buy','Sem oferta ativa');acts.appendChild(b);}else{
@@ -147,11 +147,11 @@ function accept(data){
  const d=timestamp(data.atualizado_em);
  if(!d||Date.now()-d.getTime()>48*3600*1000||d.getTime()>Date.now()+3600*1000){placeholder();feedback.textContent='Dados ausentes ou antigos. Aguardando uma atualização válida das ofertas.';return;}
  STORES=[...new Set((data.parceiros||[]).map(p=>String(p.loja||'').trim()).filter(Boolean))];
- const known=new Set(STORES);const sanitized=[];
- for(const p of data.cards){if(!known.has(p.loja)||!['produto','promocao','cupom','sem_oferta'].includes(p.tipo))continue;
+ const known=new Set(STORES);const canonicalNameByMid=new Map((data.parceiros||[]).map(p=>[String(p.mid),String(p.loja||'').trim()]));const sanitized=[];
+ for(const p of data.cards){const loja=canonicalNameByMid.get(String(p.mid))||p.loja;if(!known.has(loja)||!['produto','promocao','cupom','sem_oferta'].includes(p.tipo))continue;
   const inactive=p.tipo==='sem_oferta';
   if(!inactive&&!safe(p.link))continue;
-  sanitized.push({...p,preco:validPrice(p.preco)?Number(p.preco):null,preco_anterior:validPrice(p.preco_anterior)?Number(p.preco_anterior):null,imagem:safe(p.imagem),link:safe(p.link)});
+  sanitized.push({...p,loja,preco:validPrice(p.preco)?Number(p.preco):null,preco_anterior:validPrice(p.preco_anterior)?Number(p.preco_anterior):null,imagem:safe(p.imagem),link:safe(p.link)});
  }
  for(const s of STORES)if(!sanitized.some(x=>x.loja===s))sanitized.push({loja:s,tipo:'sem_oferta',titulo:'Nenhuma oferta vigente encontrada'});
  all=rotateRoundRobin(sanitized);loaded=true;
@@ -167,7 +167,27 @@ filters.addEventListener('scroll',syncFilterButtons,{passive:true});
 setInterval(()=>{if(paused||!visible.length||document.hidden)return;const max=view.scrollWidth-view.clientWidth;const step=rail.firstElementChild?rail.firstElementChild.getBoundingClientRect().width+12:300;view.scrollTo({left:view.scrollLeft+step>max+5?0:view.scrollLeft+step,behavior:'smooth'});},4500);
 window.addEventListener('message',ev=>{if(ev.data?.tipo==='SOL_GARIMPA_AWIN_22')accept(ev.data.payload);});
 function ready(){try{window.parent.postMessage({tipo:'SOL_GARIMPA_AWIN_22_READY'},'*');}catch(e){}}
-async function refresh(){if(!PUBLIC_JSON_URL)return ready();try{const url=new URL(PUBLIC_JSON_URL,location.href);if(url.protocol!=='https:')throw new Error('HTTPS obrigatório');url.searchParams.set('_t',String(Date.now()));const r=await fetch(url.href,{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);accept(await r.json());}catch(e){placeholder();feedback.textContent='Sem conexão com o arquivo de ofertas. Verifique a URL pública configurada.';}}
+async function refresh(){
+ if(!PUBLIC_JSON_URL)return ready();
+ try {
+   let payload=null;
+   const sources=[PUBLIC_JSON_URL,'./ofertas.json'];
+   for(const source of sources){
+     try{
+       const url=new URL(source,location.href);
+       if(url.protocol!=='https:')continue;
+       url.searchParams.set('_t',String(Date.now()));
+       const response=await fetch(url.href,{cache:'no-store'});
+       if(!response.ok)throw Error('HTTP '+response.status);
+       const candidate=await response.json();
+       if(!Array.isArray(candidate.cards)||!Array.isArray(candidate.parceiros))throw Error('Catálogo inválido');
+       payload=candidate;break;
+     }catch(e){console.warn('Fonte de ofertas indisponível:',source,e.message)}
+   }
+   if(!payload)throw Error('Nenhuma fonte disponível');
+   accept(payload);
+ }catch(e){placeholder();feedback.textContent='Sem conexão com o arquivo de ofertas. Confira a publicação do catálogo no GitHub.';}
+}
 placeholder();$('pause').textContent=paused?'Continuar':'Pausar';refresh();setInterval(refresh,5*60*1000);window.addEventListener('resize',syncFilterButtons);setTimeout(syncFilterButtons,150);
 })();
 </script>
