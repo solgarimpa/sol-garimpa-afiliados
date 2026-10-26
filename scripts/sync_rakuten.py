@@ -136,7 +136,7 @@ def txt(e: ET.Element | None, path: str, default: str = '') -> str:
 def money(text: str):
     try:
         num = float((text or '').strip().replace(',', '.'))
-        if num >= 0 and num < 10**12:
+        if num > 0 and num < 10**12:
             return round(num, 2)
     except ValueError:
         pass
