@@ -4,8 +4,10 @@ name: Atualizar ofertas Awin SOL GARIMPA
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 */6 * * *'
-
+    - cron: '17 */3 * * *'
+    - cron: '2 1-23/3 * * *'
+    - cron: '47 1-23/3 * * *'
+    - cron: '32 2-23/3 * * *'
 permissions:
   contents: read
   pages: write
