@@ -328,12 +328,80 @@ def whatsapp_message(item):
     return '\n'.join(parts)
 
 
+
+
+def logo_https(raw):
+    """Normaliza URLs públicas de logos da Awin sem baixar/copiar as imagens."""
+    try:
+        from urllib.parse import urlsplit, urlunsplit
+        raw = str(raw or '').strip()
+        if not raw: return ''
+        u = urlsplit(raw)
+        if u.scheme not in ('http', 'https') or not u.hostname or u.username or u.password:
+            return ''
+        # Conteúdo misto (HTTP) costuma ser bloqueado em GitHub Pages; usa HTTPS.
+        return urlunsplit(('https', u.netloc, u.path, u.query, ''))
+    except (ValueError, TypeError):
+        return ''
+
+
+def loja_dominio(programme):
+    """Extrai o domínio do anunciante, sem usar o domínio da Awin."""
+    from urllib.parse import urlsplit
+    urls = [programme.get('displayUrl') or '']
+    for item in programme.get('validDomains') or []:
+        if isinstance(item, dict): urls.append(item.get('domain') or '')
+        elif isinstance(item, str): urls.append(item)
+    for raw in urls:
+        try:
+            text = str(raw).strip()
+            u = urlsplit(text if '://' in text else 'https://' + text)
+            host = str(u.hostname or '').lower().removeprefix('www.')
+            if host and '.' in host and all(c.isalnum() or c in '.-' for c in host):
+                if not host.endswith(('awin.com', 'awin1.com')):
+                    return host
+        except ValueError:
+            continue
+    return ''
+
+
+def get_branding(token):
+    """Lê metadados de lojas aprovadas da API oficial de programas da Awin.
+
+    Cada resultado pode conter logoUrl e displayUrl/validDomains. Uma falha na API
+    NÃO deve interromper a busca de ofertas nem a publicação da vitrine.
+    """
+    url = f'https://api.awin.com/publishers/{PUBLISHER_ID}/programmes?relationship=joined'
+    try:
+        with request(url, token=token, timeout=35) as response:
+            programmes = json.load(response)
+        if isinstance(programmes, dict):
+            programmes = (programmes.get('programmes') or programmes.get('results')
+                          or programmes.get('data') or [])
+        if not isinstance(programmes, list): raise ValueError('Resposta de programas não é lista')
+        metadata = {}
+        for programme in programmes:
+            if not isinstance(programme, dict): continue
+            store = identify(programme.get('name'))
+            if not store: continue
+            metadata[store] = {
+                'logo_url': logo_https(programme.get('logoUrl')),
+                'dominio_loja': loja_dominio(programme)
+            }
+        print(f'Metadados oficiais de logos: {len(metadata)} lojas aprovadas identificadas')
+        return metadata
+    except Exception as err:
+        print(f'Metadados de logos indisponíveis ({type(err).__name__}); ofertas preservadas', file=sys.stderr)
+        return {}
+
+
 def main():
     token = os.environ.get('AWIN_PUBLISHER_TOKEN', '').strip()
     key = os.environ.get('AWIN_DATAFEED_KEY', '').strip()
     if not token: sys.exit('AWIN_PUBLISHER_TOKEN não configurado. Nenhum arquivo atualizado.')
     if not key: sys.exit('AWIN_DATAFEED_KEY não configurado. Nenhum arquivo atualizado.')
     try:
+        branding = get_branding(token)
         promos = get_offers(token)
         products, report = get_products(key)
         cards = []; active = []
@@ -349,10 +417,17 @@ def main():
                     'desconto_pct': None, 'link': None, 'cupom': None, 'validade': None,
                     'termos': ''})
         for item in cards:
+            # Adiciona logos oficiais e domínios sem pedir arquivos manuais.
+            meta = branding.get(item['loja'], {})
+            item['logo_url'] = meta.get('logo_url', '')
+            item['dominio_loja'] = meta.get('dominio_loja', '')
             attach_sol_page(item)
         now = dt.datetime.now(UTC).isoformat(timespec='seconds')
         output = {'fonte': 'Awin', 'publisher_id': PUBLISHER_ID, 'atualizado_em': now,
-                  'anunciantes': [{'nome': n, 'possui_feed': f, 'ofertas_encontradas':
+                  'anunciantes': [{'nome': n, 'possui_feed': f,
+                      'logo_url': branding.get(n, {}).get('logo_url', ''),
+                      'dominio_loja': branding.get(n, {}).get('dominio_loja', ''),
+                      'ofertas_encontradas':
                       sum(1 for item in cards if item['loja'] == n and item['tipo'] != 'sem_oferta')}
                       for n, f in STORES],
                   'status': {'anunciantes_listados':len(STORES), 'com_ofertas':len(active),
