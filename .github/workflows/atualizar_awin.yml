@@ -22,7 +22,6 @@ jobs:
   atualizar:
     runs-on: ubuntu-latest
     timeout-minutes: 35
-
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -39,14 +38,6 @@ jobs:
           AWIN_PUBLISHER_TOKEN: ${{ secrets.AWIN_PUBLISHER_TOKEN }}
           AWIN_DATAFEED_KEY: ${{ secrets.AWIN_DATAFEED_KEY }}
         run: python scripts/sync_awin.py
-
-      - name: Atualizar cupons e produtos Lomadee
-        continue-on-error: true
-        env:
-          LOMADEE_API_TOKEN: ${{ secrets.LOMADEE_API_TOKEN }}
-          LOMADEE_CHANNEL_ID: ${{ vars.LOMADEE_CHANNEL_ID }}
-          LOMADEE_CHANNEL_NAME: 'Sol Garimpa'
-        run: python scripts/sync_lomadee.py
 
       - name: Preparar hospedagem no GitHub Pages
         uses: actions/configure-pages@v5
