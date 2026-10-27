@@ -1,1 +1,10 @@
-
+{
+  "fonte": "Lomadee",
+  "atualizado_em": null,
+  "parceiros": [],
+  "cards": [],
+  "status": {
+    "integracao": "Aguardando endpoint oficial de consulta autorizado.",
+    "com_ofertas": 0
+  }
+}
