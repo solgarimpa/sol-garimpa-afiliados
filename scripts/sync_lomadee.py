@@ -1,6 +1,6 @@
 
 #!/usr/bin/env python3
-"""SOL GARIMPA - Sincronização oficial Lomadee."""
+"""SOL GARIMPA: coleta Lomadee, sem publicar links sem rastreamento."""
 from __future__ import annotations
 
 import datetime as dt
@@ -17,694 +17,522 @@ from collections import defaultdict
 from pathlib import Path
 
 API = "https://api.lomadee.com.br"
-TARGET = (
-    Path(__file__).resolve().parents[1]
-    / "docs" / "lomadee" / "ofertas.json"
-)
+TARGET = Path(__file__).resolve().parents[1] / "docs" / "lomadee" / "ofertas.json"
 KEY = os.getenv("LOMADEE_API_TOKEN", "").strip()
 CHANNEL_ID = os.getenv("LOMADEE_CHANNEL_ID", "").strip()
-CHANNEL_NAME = os.getenv(
-    "LOMADEE_CHANNEL_NAME", "Sol Garimpa"
-).strip()
+CHANNEL_NAME = os.getenv("LOMADEE_CHANNEL_NAME", "Sol Garimpa").strip()
 
-MAX_BRANDS_PAGES = 25
-MAX_CAMPAIGN_PAGES = 15
-MAX_PRODUCT_PAGES = 2
-MAX_GENERATED_LINKS = 40
+MAX_LINKS = 45
 MAX_CARDS = 160
-
 NOW = dt.datetime.now(dt.timezone.utc)
-NEXT_REQUEST = 0.0
-GENERATED = 0
+next_request_at = 0.0
+links_generated = 0
 
 
-def log(*items):
-    print(*items, flush=True)
-
-
-def https_url(raw):
-    if not isinstance(raw, str):
+def safe_url(value):
+    if not isinstance(value, str):
         return ""
     try:
-        p = urllib.parse.urlsplit(raw.strip())
-        if (
-            p.scheme != "https"
-            or not p.netloc
-            or p.username
-            or p.password
-        ):
-            return ""
-        return p.geturl()
+        u = urllib.parse.urlsplit(value.strip())
+        if u.scheme == "https" and u.netloc and not u.username and not u.password:
+            return u.geturl()
     except ValueError:
-        return ""
+        pass
+    return ""
 
 
-def timestamp(raw):
-    if not isinstance(raw, str) or not raw.strip():
+def date(value):
+    if not value or not isinstance(value, str):
         return None
     try:
-        t = dt.datetime.fromisoformat(
-            raw.strip().replace("Z", "+00:00")
-        )
-        if t.tzinfo is None:
-            return t.replace(tzinfo=dt.timezone.utc)
-        return t.astimezone(dt.timezone.utc)
+        x = dt.datetime.fromisoformat(value.replace("Z", "+00:00"))
+        return x.replace(tzinfo=dt.timezone.utc) if not x.tzinfo else x.astimezone(dt.timezone.utc)
     except ValueError:
         return None
 
 
-def valid_campaign(c):
-    if c.get("status") != "onTime":
-        return False
-    period = c.get("period") or {}
-    start = timestamp(period.get("startAt"))
-    end = timestamp(period.get("endAt"))
-    return (
-        (not start or start <= NOW)
-        and (not end or end >= NOW)
-    )
+def text(value, n=200):
+    if not isinstance(value, str):
+        return ""
+    return re.sub(r"<[^>]*>", " ", value).replace("\x00", "").strip()[:n]
 
 
 def request(path, params=None, payload=None):
-    global NEXT_REQUEST
-
-    if not KEY:
-        raise RuntimeError(
-            "Secret LOMADEE_API_TOKEN ausente"
-        )
-
-    url = API + path
-    if params:
-        url += "?" + urllib.parse.urlencode(params)
-
-    body = (
-        json.dumps(payload).encode("utf-8")
-        if payload is not None else None
-    )
-
+    global next_request_at
+    query = "?" + urllib.parse.urlencode(params) if params else ""
+    body = json.dumps(payload, ensure_ascii=False).encode("utf-8") if payload is not None else None
     headers = {
         "x-api-key": KEY,
         "Accept": "application/json",
-        "User-Agent": "SolGarimpa/1.0",
+        "User-Agent": "SolGarimpa/1.1"
     }
 
     if body is not None:
         headers["Content-Type"] = "application/json"
 
     for attempt in range(3):
-        gap = NEXT_REQUEST - time.monotonic()
-        if gap > 0:
-            time.sleep(gap)
+        wait = next_request_at - time.monotonic()
+        if wait > 0:
+            time.sleep(wait)
 
-        NEXT_REQUEST = time.monotonic() + 1.15
-
+        next_request_at = time.monotonic() + 1.1
         req = urllib.request.Request(
-            url,
-            data=body,
+            API + path + query,
             headers=headers,
-            method="POST" if body is not None else "GET",
+            data=body,
+            method="POST" if body is not None else "GET"
         )
 
         try:
-            with urllib.request.urlopen(
-                req, timeout=35
-            ) as response:
-                raw = response.read(4 * 1024 * 1024 + 1)
+            with urllib.request.urlopen(req, timeout=45) as response:
+                raw = response.read(5_000_001)
 
-            if len(raw) > 4 * 1024 * 1024:
-                raise RuntimeError(
-                    "Resposta excedeu o limite"
-                )
+            if len(raw) > 5_000_000:
+                raise RuntimeError(f"Resposta excessiva em {path}")
 
             data = json.loads(raw)
 
-            if (
-                isinstance(data, dict)
-                and data.get("success") is False
-            ):
-                raise RuntimeError(
-                    "API retornou success=false em " + path
-                )
+            if isinstance(data, dict) and data.get("success") is False:
+                raise RuntimeError(f"API retornou success=false em {path}")
 
             return data
 
-        except urllib.error.HTTPError as e:
-            if e.code in (429, 500, 502, 503, 504) and attempt < 2:
-                retry = e.headers.get("Retry-After", "")
-                wait = (
-                    int(retry) if retry.isdecimal()
-                    else 2 ** (attempt + 2)
-                )
-                time.sleep(max(1, min(65, wait)))
+        except urllib.error.HTTPError as exc:
+            if exc.code in (429, 500, 502, 503, 504) and attempt < 2:
+                retry_after = exc.headers.get("Retry-After", "")
+                delay = int(retry_after) if retry_after.isdecimal() else 3 * (2 ** attempt)
+                time.sleep(min(max(delay, 2), 65))
                 continue
+            raise RuntimeError(f"HTTP {exc.code} em {path}") from None
 
-            raise RuntimeError(
-                f"Erro HTTP {e.code} em {path}"
-            ) from None
-
-        except (TimeoutError, urllib.error.URLError) as e:
+        except (urllib.error.URLError, TimeoutError):
             if attempt < 2:
-                time.sleep(2 ** (attempt + 1))
+                time.sleep(3 * (attempt + 1))
                 continue
-            raise RuntimeError(
-                f"Erro de rede: {type(e).__name__}"
-            ) from None
+            raise RuntimeError(f"Sem resposta da rede em {path}") from None
 
-        except json.JSONDecodeError:
-            raise RuntimeError(
-                "Resposta não é JSON: " + path
-            ) from None
+        except (ValueError, UnicodeError):
+            raise RuntimeError(f"Resposta JSON inválida em {path}") from None
 
-    raise RuntimeError("Tentativas esgotadas")
+    raise RuntimeError(f"Falha persistente em {path}")
 
 
-def extract_rows(response):
-    data = (
-        response.get("data", [])
-        if isinstance(response, dict)
-        else response
-    )
+def rows(response):
+    data = response.get("data", []) if isinstance(response, dict) else response
 
     if isinstance(data, list):
-        return data
+        return [x for x in data if isinstance(x, dict)]
 
     if isinstance(data, dict):
         if isinstance(data.get("items"), list):
-            return data["items"]
-        if isinstance(data.get("data"), list):
-            return data["data"]
+            return [x for x in data["items"] if isinstance(x, dict)]
         if "id" in data:
             return [data]
 
-    raise RuntimeError(
-        "Formato inesperado na resposta da API"
-    )
+    raise RuntimeError("Formato de resposta desconhecido")
 
 
-def page_all(path, max_pages, limit, params=None,
-             pagination_key="meta"):
-    out = []
+def paginate(path, limit, max_pages, params=None, meta_key="meta"):
+    result = []
 
     for page in range(1, max_pages + 1):
-        query = {"page": page, "limit": limit}
-        query.update(params or {})
+        args = {"page": page, "limit": limit, **(params or {})}
+        response = request(path, args)
+        batch = rows(response)
+        result.extend(batch)
 
-        response = request(path, query)
-        rows = extract_rows(response)
-        out.extend(
-            row for row in rows
-            if isinstance(row, dict)
-        )
+        pagination = response.get(meta_key) or {} if isinstance(response, dict) else {}
+        total_pages = pagination.get("totalPages") if isinstance(pagination, dict) else None
 
-        meta = (
-            response.get(pagination_key, {})
-            if isinstance(response, dict) else {}
-        )
-
-        total_pages = (
-            meta.get("totalPages")
-            if isinstance(meta, dict) else None
-        )
-
-        if total_pages is not None:
-            try:
-                if page >= int(total_pages):
-                    break
-            except (ValueError, TypeError):
-                pass
-
-        if len(rows) < limit:
+        if not batch or len(batch) < limit:
             break
 
-    return out
+        if total_pages is not None and page >= int(total_pages):
+            break
+
+        if meta_key == "count" and isinstance(response.get("count"), int):
+            if page * limit >= response["count"]:
+                break
+
+    return result
 
 
-def choose_channel(channels):
-    possible = [
-        x for x in (channels or [])
-        if isinstance(x, dict)
-        and any(
-            https_url(y)
-            for y in (x.get("shortUrls") or [])
-        )
+def fetch_campaigns():
+    # Caso ocorra HTTP 500, tentar filtros mais simples.
+    attempts = [
+        {"status": "onTime", "types": "GenericCoupon,Offer"},
+        {"types": "GenericCoupon"},
+        {"types": "Offer"},
+        {}
+    ]
+
+    failures = []
+
+    for filters in attempts:
+        try:
+            result = paginate("/affiliate/campaigns", 10, 12, filters)
+            print(
+                f"Campanhas: consulta {filters or 'sem filtros'} retornou {len(result)} registros",
+                flush=True
+            )
+            return result, "ok"
+        except RuntimeError as e:
+            failures.append(str(e))
+            print(
+                f"Campanhas: tentativa {filters or 'sem filtros'} falhou: {e}",
+                flush=True
+            )
+
+    print("Campanhas indisponíveis nesta execução.", flush=True)
+    return [], "falha: " + "; ".join(failures[:2])
+
+
+def select_link(channels):
+    # A API de encurtamento retorna uma lista de canais.
+    if isinstance(channels, dict):
+        channels = channels.get("data") or channels.get("channels") or []
+
+    if not isinstance(channels, list):
+        return ""
+
+    valid = [
+        c for c in channels
+        if isinstance(c, dict)
+        and any(safe_url(u) for u in (c.get("shortUrls") or []))
     ]
 
     if CHANNEL_ID:
-        possible = [
-            x for x in possible
-            if str(x.get("id")) == CHANNEL_ID
+        valid = [
+            c for c in valid
+            if str(c.get("id")) == CHANNEL_ID
         ]
-
-    elif CHANNEL_NAME:
-        matched = [
-            x for x in possible
-            if CHANNEL_NAME.casefold()
-            in str(x.get("name", "")).casefold()
+    elif CHANNEL_NAME and len(valid) > 1:
+        matches = [
+            c for c in valid
+            if CHANNEL_NAME.casefold() in str(c.get("name") or "").casefold()
         ]
-        if len(matched) == 1:
-            possible = matched
-        elif len(possible) > 1:
-            possible = []
+        valid = matches if len(matches) == 1 else []
 
-    elif len(possible) > 1:
-        possible = []
-
-    if len(possible) != 1:
+    if len(valid) != 1:
         return ""
 
     return next(
-        (
-            https_url(u)
-            for u in possible[0].get("shortUrls", [])
-            if https_url(u)
-        ),
-        "",
+        (safe_url(u) for u in valid[0].get("shortUrls", []) if safe_url(u)),
+        ""
     )
 
 
-def build_shortlink(
-    brand_id, link_type,
-    feature_id="", merchant_url=""
-):
-    global GENERATED
+def shortlink(organization_id, kind, feature_id=None, url=None):
+    global links_generated
 
-    if GENERATED >= MAX_GENERATED_LINKS:
+    if links_generated >= MAX_LINKS or not organization_id:
         return ""
 
-    if not brand_id:
-        return ""
-
-    body = {
-        "organizationId": brand_id,
-        "type": link_type,
+    payload = {
+        "organizationId": str(organization_id),
+        "type": kind
     }
 
-    if link_type in ("Coupon", "Offer"):
+    if kind in ("Coupon", "Offer"):
         if not feature_id:
             return ""
-        body["featureId"] = feature_id
+        payload["featureId"] = str(feature_id)
 
-    elif link_type == "Custom":
-        url = https_url(merchant_url)
-        if not url:
+    elif kind == "Custom":
+        if not safe_url(url):
             return ""
-        body["url"] = url
+        payload["url"] = safe_url(url)
 
     else:
         return ""
 
-    GENERATED += 1
+    links_generated += 1
 
     try:
-        response = request(
-            "/affiliate/shortener/url",
-            payload=body,
+        return select_link(
+            request("/affiliate/shortener/url", payload=payload)
         )
-        return choose_channel(response)
-
     except RuntimeError as e:
-        log("Falha ao gerar link:", str(e))
-        if "403" in str(e):
-            GENERATED = MAX_GENERATED_LINKS
+        print("Falha ao gerar link:", e, flush=True)
         return ""
 
 
-def ident(prefix, *values):
-    content = "|".join(map(str, values))
-    code = hashlib.sha256(
-        content.encode("utf-8")
+def ident(prefix, *args):
+    content = "|".join(map(str, args))
+    return prefix + hashlib.sha256(
+        content.encode()
     ).hexdigest()[:20]
-    return prefix + code
 
 
-def clean_text(value, size=400):
-    if not isinstance(value, str):
-        return ""
-    return re.sub(
-        r"<[^>]*>", " ", value
-    ).replace("\x00", "").strip()[:size]
+def active_campaign(c):
+    period = c.get("period") if isinstance(c.get("period"), dict) else {}
+    start = date(period.get("startAt"))
+    end = date(period.get("endAt"))
+
+    return (
+        c.get("status") == "onTime"
+        and (not start or start <= NOW)
+        and (not end or end >= NOW)
+    )
 
 
 def campaign_card(c, brand):
-    if not valid_campaign(c) or not brand:
-        return None
-
     kind = c.get("type")
-    if kind not in ("GenericCoupon", "Offer"):
+
+    if not brand or kind not in ("GenericCoupon", "Offer") or not active_campaign(c):
         return None
 
-    brand_id = str(c.get("organizationId") or "")
-    name = clean_text(c.get("name"), 180)
+    bid = str(c.get("organizationId") or "")
+    title = text(c.get("name"), 180)
 
-    if not brand_id or not name:
+    if not bid or not title:
         return None
 
-    link = choose_channel(c.get("channels") or [])
+    link = select_link(c.get("channels"))
 
     if not link:
-        link = build_shortlink(
-            brand_id,
+        link = shortlink(
+            bid,
             "Coupon" if kind == "GenericCoupon" else "Offer",
-            str(c.get("id") or ""),
+            c.get("id")
         )
 
     if not link:
         return None
 
-    banners = (
-        (c.get("mediaKit") or {}).get("banners") or []
-    )
+    banners = (c.get("mediaKit") or {}).get("banners") or []
     image = next(
-        (
-            https_url(u)
-            for u in banners
-            if https_url(u)
-        ),
-        "",
+        (safe_url(x) for x in banners if safe_url(x)),
+        ""
     )
 
     return {
-        "id": ident("lc-", c.get("id"), brand_id),
+        "id": ident("lc-", bid, c.get("id")),
         "loja": brand["name"],
-        "dominio_loja": brand.get("site", ""),
-        "logo_url": brand.get("logo", ""),
-        "tipo": (
-            "cupom" if kind == "GenericCoupon"
-            else "promocao"
-        ),
-        "titulo": name,
+        "tipo": "cupom" if kind == "GenericCoupon" else "promocao",
+        "titulo": title,
         "imagem": image,
+        "link": link,
         "preco": None,
         "preco_anterior": None,
-        "cupom": (
-            clean_text(c.get("code"), 80)
-            if kind == "GenericCoupon" else None
-        ),
-        "validade": (
-            (c.get("period") or {}).get("endAt")
-        ),
-        "descricao": clean_text(
-            c.get("description"), 250
-        ),
-        "link": link,
-        "origem": "Lomadee",
+        "cupom": text(c.get("code"), 80) or None,
+        "validade": (c.get("period") or {}).get("endAt"),
+        "descricao": text(c.get("description"), 240),
+        "origem": "Lomadee"
     }
 
 
-def as_money_cents(value):
-    if (
-        isinstance(value, bool)
-        or not isinstance(value, (int, float))
-        or value <= 0
-    ):
-        return None
-    return round(value / 100, 2)
+def cents(x):
+    if isinstance(x, (int, float)) and not isinstance(x, bool) and x > 0:
+        return round(x / 100, 2)
+    return None
 
 
 def product_card(p, brand):
     if not brand or p.get("available") is False:
         return None
 
-    brand_id = str(p.get("organizationId") or "")
-    name = clean_text(p.get("name"), 180)
-    product_url = https_url(p.get("url"))
+    bid = str(p.get("organizationId") or "")
+    url = safe_url(p.get("url"))
 
-    if not (brand_id and name and product_url):
+    if not bid or not url or not text(p.get("name")):
         return None
 
-    options = p.get("options") or []
-    active = [
-        o for o in options
-        if isinstance(o, dict)
-        and o.get("available") is not False
+    options = [
+        o for o in (p.get("options") or [])
+        if isinstance(o, dict) and o.get("available") is not False
     ]
-
-    if options and not active:
-        return None
 
     price = None
     old = None
 
     image = next(
         (
-            https_url(x.get("url"))
+            safe_url(x.get("url"))
             for x in (p.get("images") or [])
-            if isinstance(x, dict)
-            and https_url(x.get("url"))
+            if isinstance(x, dict) and safe_url(x.get("url"))
         ),
-        "",
+        ""
     )
 
-    for option in active:
+    for option in options:
         if not image:
             image = next(
                 (
-                    https_url(x.get("url"))
+                    safe_url(x.get("url"))
                     for x in (option.get("images") or [])
-                    if isinstance(x, dict)
-                    and https_url(x.get("url"))
+                    if isinstance(x, dict) and safe_url(x.get("url"))
                 ),
-                "",
+                ""
             )
 
         for pricing in option.get("pricing") or []:
             if not isinstance(pricing, dict):
                 continue
 
-            new = as_money_cents(
-                pricing.get("price")
-            )
-            if new is None:
-                continue
+            new = cents(pricing.get("price"))
 
-            before = as_money_cents(
-                pricing.get("listPrice")
-            )
-
-            if price is None or new < price:
+            if new is not None and (price is None or new < price):
                 price = new
-                old = (
-                    before if before and before > new
-                    else None
-                )
+                before = cents(pricing.get("listPrice"))
+                old = before if before and before > new else None
 
-    link = build_shortlink(
-        brand_id,
-        "Custom",
-        merchant_url=product_url,
-    )
+    link = shortlink(bid, "Custom", url=url)
 
     if not link:
         return None
 
     return {
-        "id": ident("lp-", p.get("id"), brand_id),
+        "id": ident("lp-", bid, p.get("id")),
         "loja": brand["name"],
-        "dominio_loja": brand.get("site", ""),
-        "logo_url": brand.get("logo", ""),
         "tipo": "produto",
-        "titulo": name,
+        "titulo": text(p.get("name"), 180),
         "imagem": image,
+        "link": link,
         "preco": price,
         "preco_anterior": old,
         "cupom": None,
         "validade": None,
-        "descricao": clean_text(
-            p.get("description"), 220
-        ),
-        "link": link,
-        "origem": "Lomadee",
+        "descricao": text(p.get("description"), 220),
+        "origem": "Lomadee"
     }
 
 
-def round_robin(cards):
-    groups = defaultdict(list)
+def ordered(cards):
+    by_store = defaultdict(list)
 
-    for c in cards:
-        groups[c["loja"]].append(c)
+    for card in cards:
+        by_store[card["loja"]].append(card)
 
-    names = sorted(groups, key=str.casefold)
     output = []
 
-    while (
-        any(groups.values())
-        and len(output) < MAX_CARDS
-    ):
-        for name in names:
-            if (
-                groups[name]
-                and len(output) < MAX_CARDS
-            ):
-                output.append(
-                    groups[name].pop(0)
-                )
+    while len(output) < MAX_CARDS and any(by_store.values()):
+        for store in sorted(by_store, key=str.casefold):
+            if by_store[store] and len(output) < MAX_CARDS:
+                output.append(by_store[store].pop(0))
 
     return output
 
 
 def main():
     if not KEY:
-        raise RuntimeError(
-            "Configure LOMADEE_API_TOKEN "
-            "nos Secrets do GitHub."
-        )
+        raise RuntimeError("GitHub Secret LOMADEE_API_TOKEN ausente")
 
-    brands = page_all(
+    if not KEY.isascii() or "•" in KEY or "…" in KEY:
+        raise RuntimeError("Chave mascarada ou inválida no GitHub Secret")
+
+    brands = paginate(
         "/affiliate/brands",
-        MAX_BRANDS_PAGES,
         20,
-        pagination_key="pagination",
+        25,
+        meta_key="pagination"
     )
 
-    brand_by_id = {}
+    brands_by_id = {
+        str(b["id"]): b
+        for b in brands
+        if b.get("id") and b.get("name")
+    }
 
-    for brand in brands:
-        brand_id = str(brand.get("id") or "")
-        network = brand.get("network") or {}
+    print("Marcas encontradas:", len(brands_by_id), flush=True)
 
-        if (
-            brand_id
-            and brand.get("name")
-            and network.get("active", True)
-        ):
-            brand_by_id[brand_id] = brand
-
-    log("Marcas ativas:", len(brand_by_id))
-
-    campaigns = page_all(
-        "/affiliate/campaigns",
-        MAX_CAMPAIGN_PAGES,
-        20,
-        params={
-            "status": "onTime",
-            "types": "GenericCoupon,Offer",
-        },
-    )
-
-    log("Campanhas encontradas:", len(campaigns))
+    campaigns, camp_status = fetch_campaigns()
 
     cards = []
 
-    for campaign in campaigns:
-        brand = brand_by_id.get(
-            str(campaign.get("organizationId"))
+    for c in campaigns:
+        obj = campaign_card(
+            c,
+            brands_by_id.get(str(c.get("organizationId")))
         )
-        result = campaign_card(
-            campaign, brand
+        if obj:
+            cards.append(obj)
+
+    try:
+        products = paginate(
+            "/affiliate/products",
+            20,
+            3,
+            {"isAvailable": "true"},
+            "count"
         )
-        if result:
-            cards.append(result)
+        product_status = "ok"
 
-    if MAX_PRODUCT_PAGES:
-        try:
-            products = page_all(
-                "/affiliate/products",
-                MAX_PRODUCT_PAGES,
-                100,
-                params={"isAvailable": "true"},
-                pagination_key="count",
-            )
-        except RuntimeError as e:
-            log("Produtos indisponíveis:", str(e))
-            products = []
+    except RuntimeError as e:
+        print("Produtos indisponíveis:", e, flush=True)
+        products = []
+        product_status = "falha: " + str(e)
 
-        log("Produtos encontrados:", len(products))
+    print("Produtos recebidos:", len(products), flush=True)
 
-        for product in products:
-            if GENERATED >= MAX_GENERATED_LINKS:
-                break
+    for p in products:
+        if links_generated >= MAX_LINKS:
+            break
 
-            brand = brand_by_id.get(
-                str(product.get("organizationId"))
-            )
-
-            result = product_card(
-                product, brand
-            )
-
-            if result:
-                cards.append(result)
-
-    unique = {}
-    for c in cards:
-        unique[c["id"]] = c
-
-    cards = round_robin(list(unique.values()))
-
-    partners = [
-        {
-            "id": b["id"],
-            "loja": b["name"],
-            "dominio_loja": b.get("site", ""),
-            "logo_url": https_url(
-                b.get("logo")
-            ),
-        }
-        for b in sorted(
-            brand_by_id.values(),
-            key=lambda x: x["name"].casefold(),
+        obj = product_card(
+            p,
+            brands_by_id.get(str(p.get("organizationId")))
         )
-    ]
 
-    data = {
+        if obj:
+            cards.append(obj)
+
+    if camp_status != "ok" and product_status != "ok":
+        raise RuntimeError(
+            "Campanhas e produtos falharam; catálogo anterior mantido."
+        )
+
+    unique = {c["id"]: c for c in cards}
+    ordered_cards = ordered(list(unique.values()))
+
+    catalog = {
         "fonte": "Lomadee",
-        "atualizado_em": NOW.isoformat(
-            timespec="seconds"
-        ),
-        "parceiros": partners,
-        "cards": cards,
+        "atualizado_em": NOW.isoformat(timespec="seconds"),
+        "parceiros": [
+            {"id": k, "loja": v["name"]}
+            for k, v in brands_by_id.items()
+        ],
+        "cards": ordered_cards,
         "status": {
             "integracao": "api_oficial",
-            "com_ofertas": len(cards),
-            "campanhas_recebidas": len(campaigns),
-            "marcas_ativas": len(brand_by_id),
-            "links_gerados": GENERATED,
-        },
+            "com_ofertas": len(ordered_cards),
+            "marcas": len(brands_by_id),
+            "campanhas": len(campaigns),
+            "produtos": len(products),
+            "links_solicitados": links_generated,
+            "consulta_campanhas": camp_status,
+            "consulta_produtos": product_status
+        }
     }
 
-    TARGET.parent.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
-
-    temp = TARGET.with_suffix(
-        ".json.tmp"
-    )
+    TARGET.parent.mkdir(parents=True, exist_ok=True)
+    temp = TARGET.with_suffix(".tmp")
 
     temp.write_text(
-        json.dumps(
-            data,
-            ensure_ascii=False,
-            indent=2,
-        ) + "\n",
-        encoding="utf-8",
+        json.dumps(catalog, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8"
     )
 
     temp.replace(TARGET)
 
-    log(
-        "Lomadee atualizada:",
-        len(cards),
-        "ofertas;",
-        len(partners),
-        "marcas;",
-        GENERATED,
-        "links solicitados.",
+    print(
+        "Catálogo Lomadee salvo:",
+        len(ordered_cards),
+        "ofertas rastreáveis",
+        flush=True
     )
 
-    if not cards:
-        log(
-            "Sem ofertas elegíveis ou links "
-            "rastreados para o canal selecionado."
+    if not ordered_cards:
+        print(
+            "Nenhuma oferta com link rastreável foi confirmada; "
+            "não são criadas ofertas fictícias.",
+            flush=True
         )
 
 
 if __name__ == "__main__":
     try:
         main()
-    except Exception as exc:
-        print(
-            "ERRO LOMADEE:", str(exc),
-            file=sys.stderr,
-        )
+    except Exception as e:
+        print("ERRO LOMADEE:", str(e), file=sys.stderr)
         sys.exit(1)
