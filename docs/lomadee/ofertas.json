@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-10-28T17:59:02+00:00",
+  "atualizado_em": "2026-10-28T19:07:49+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -143,6 +143,10 @@
       "loja": "AmoKarité"
     },
     {
+      "id": "37eb2500-9232-4491-9ab1-e1880025f7e3",
+      "loja": "Revest Acabamentos"
+    },
+    {
       "id": "33ff67b5-7c9b-4af7-82a1-f4b7445e59f9",
       "loja": "Santander Abertura de Conta - PJ"
     },
@@ -157,10 +161,6 @@
     {
       "id": "3552ad95-3da1-4ffd-b579-7887a5031780",
       "loja": "ECO FLAME GARDEN"
-    },
-    {
-      "id": "1e871d07-56ef-4e82-8081-ac759a10e424",
-      "loja": "Walita"
     },
     {
       "id": "6d69265c-6b83-4ff4-916f-95a75057947d",
@@ -207,16 +207,16 @@
       "loja": "Hunter Fan"
     },
     {
+      "id": "77936e43-fa01-4b39-b22d-f0e729b22aed",
+      "loja": "Hugart "
+    },
+    {
       "id": "4a2f41d4-099d-4c8d-a003-5a37bef52ac8",
       "loja": "Hipervarejo"
     },
     {
       "id": "72288273-4399-49f3-ace5-f3e34e26fa85",
       "loja": "Bradesco Saúde"
-    },
-    {
-      "id": "37eb2500-9232-4491-9ab1-e1880025f7e3",
-      "loja": "Revest Acabamentos"
     },
     {
       "id": "392fe765-2ba9-47b5-8b41-d2540d6c24b2",
@@ -275,16 +275,16 @@
       "loja": "Ferramentas Kennedy"
     },
     {
+      "id": "9efd44a3-ec80-488e-afe3-86b2394d5f93",
+      "loja": "WSS Brasil"
+    },
+    {
       "id": "7ca3d59d-fd91-4759-82f4-cc4f4ce65d42",
       "loja": "TeraByte"
     },
     {
       "id": "98afcf91-599a-47fc-9e6d-b1d77396c85a",
       "loja": "Aéropostale Brasil"
-    },
-    {
-      "id": "77936e43-fa01-4b39-b22d-f0e729b22aed",
-      "loja": "Hugart "
     },
     {
       "id": "83f1f988-d5ca-489a-938d-1bcd2824f448",
@@ -335,16 +335,16 @@
       "loja": "Gazin"
     },
     {
-      "id": "9efd44a3-ec80-488e-afe3-86b2394d5f93",
-      "loja": "WSS Brasil"
-    },
-    {
       "id": "b08af64e-f7bd-434c-b0ac-6baec265f9fc",
       "loja": "BabyStock"
     },
     {
       "id": "ac21d19c-3590-4a86-a9df-16bf6151e570",
       "loja": "Noble Nature"
+    },
+    {
+      "id": "c0520326-00a8-4064-b4fe-ba1b8cd3bfe7",
+      "loja": "Homedock"
     },
     {
       "id": "a0124a6a-c622-4b7d-a560-bc75a515b542",
@@ -415,6 +415,10 @@
       "loja": "China in Box"
     },
     {
+      "id": "e03cdaaf-233d-4019-9171-0e12be587de0",
+      "loja": "Vapza Alimentos"
+    },
+    {
       "id": "cb4ebfb0-1586-446d-a86b-b894d92d4dea",
       "loja": "Mobly"
     },
@@ -445,10 +449,6 @@
     {
       "id": "ce68e7de-f212-44e3-bec6-16f5bec419ef",
       "loja": "MiniPreço"
-    },
-    {
-      "id": "c0520326-00a8-4064-b4fe-ba1b8cd3bfe7",
-      "loja": "Homedock"
     },
     {
       "id": "c43edf8e-c151-474a-83e8-d52ec3e13a24",
@@ -483,12 +483,24 @@
       "loja": "Zinco"
     },
     {
-      "id": "eb6d987f-29a4-41ef-a47f-ae133e736df0",
-      "loja": "Tiktok"
+      "id": "e5f81b99-b74b-488f-9fd8-ef44e2c7aa87",
+      "loja": "Webfones"
     },
     {
-      "id": "e03cdaaf-233d-4019-9171-0e12be587de0",
-      "loja": "Vapza Alimentos"
+      "id": "e36f5bbb-3e5f-42e2-be4c-6c32dac101c2",
+      "loja": "Friopeças"
+    },
+    {
+      "id": "f31e32be-c116-4739-85a3-43f85681b237",
+      "loja": "Móveis Carraro"
+    },
+    {
+      "id": "e1d43df5-8c98-4f7a-9f75-e507ecbd649c",
+      "loja": "Xiaomi Brasil"
+    },
+    {
+      "id": "ecd9089c-0147-41aa-b974-bdfbf220a3d4",
+      "loja": "Catran"
     },
     {
       "id": "eea9e7f4-4b3a-4ef1-ab69-c2f550b6bc84",
@@ -499,44 +511,28 @@
       "loja": "Simple Organic"
     },
     {
-      "id": "e1d43df5-8c98-4f7a-9f75-e507ecbd649c",
-      "loja": "Xiaomi Brasil"
+      "id": "efd916a7-faa3-417b-8581-d3afe03e849c",
+      "loja": "Líquido"
     },
     {
       "id": "e198615b-4c17-4180-b06f-43376f162714",
       "loja": "Amoedo"
     },
     {
-      "id": "efd916a7-faa3-417b-8581-d3afe03e849c",
-      "loja": "Líquido"
-    },
-    {
-      "id": "e36f5bbb-3e5f-42e2-be4c-6c32dac101c2",
-      "loja": "Friopeças"
-    },
-    {
       "id": "e556ed73-0e02-421e-9393-860b040bfbb7",
       "loja": "Prime Video"
-    },
-    {
-      "id": "f901efab-f85c-4546-bacc-375795b8c52d",
-      "loja": "Descomplica"
     },
     {
       "id": "e2c06410-a5e3-47c1-bcb2-d5f65f355c4f",
       "loja": "Relax Saboaria"
     },
     {
-      "id": "ecd9089c-0147-41aa-b974-bdfbf220a3d4",
-      "loja": "Catran"
+      "id": "f901efab-f85c-4546-bacc-375795b8c52d",
+      "loja": "Descomplica"
     },
     {
-      "id": "f31e32be-c116-4739-85a3-43f85681b237",
-      "loja": "Móveis Carraro"
-    },
-    {
-      "id": "e5f81b99-b74b-488f-9fd8-ef44e2c7aa87",
-      "loja": "Webfones"
+      "id": "eb6d987f-29a4-41ef-a47f-ae133e736df0",
+      "loja": "Tiktok"
     }
   ],
   "cards": [
@@ -1731,20 +1727,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-43bafea200a862bb0c74",
-      "loja": "Friopeças",
-      "tipo": "promocao",
-      "titulo": "Produtos selecionados Frio Peças com cupons ativos",
-      "imagem": "https://cdn.lomadee.com.br/offer/6ec257ed-59d1-42dc-b9f3-f92915c43b33/banners/Visualiza%C3%A7%C3%A3o%20da%20imagem%20%2823%29.png",
-      "link": "https://lmdee.link/PQfNR2uXZIXy",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-32cfbd3a4e988315c1d3",
       "loja": "Maria Valentina",
       "tipo": "promocao",
@@ -2303,26 +2285,12 @@
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
       "origem": "Lomadee"
-    },
-    {
-      "id": "lp-9bbfdbdb27b52593f946",
-      "loja": "ECO FLAME GARDEN",
-      "tipo": "produto",
-      "titulo": "2 Espreguiçadeira Uni + Ombrelone 2,75M",
-      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Copiade7Terracota.webp?v=1775768989",
-      "link": "https://lmdee.link/essSfPhgGfOd",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
     }
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 127,
-    "marcas": 134,
+    "com_ofertas": 125,
+    "marcas": 133,
     "campanhas": 120,
     "produtos": 60,
     "links_solicitados": 45,
