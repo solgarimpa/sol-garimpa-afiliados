@@ -4,17 +4,17 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Exclusivo das MELHORES LOJAS do Brasil pra vc! | SOL GARIMPA</title>
 <style>
-:root{color-scheme:light;--sol:#fdd329;--ink:#1d1d1d;--sub:#69717a;--border:#e5e8eb;--white:#fff;--bg:#f6f7f9}
-*{box-sizing:border-box}body{margin:0;background:#fff;color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
-main{max-width:1450px;margin:auto;padding:18px 12px 12px}.head{display:flex;align-items:center;justify-content:center;text-align:center;gap:12px;flex-wrap:wrap}
-h2{font-size:clamp(20px,4vw,29px);margin:0;letter-spacing:-.6px;line-height:1.1}.solar{display:inline-block;background:var(--sol);padding:0 8px;border-radius:7px}
-.kicker{font-size:11px;font-weight:800;letter-spacing:2px;text-transform:uppercase}.eyebrow{color:var(--sub);font-size:12px;margin-top:7px}
+:root{color-scheme:light;--sol:#ffd12a;--ink:#1d1d1d;--sub:#656c78;--border:#e5e8ed;--white:#fff;--bg:#f6f7f9}
+*{box-sizing:border-box}body{margin:0;background:#fff;color:var(--ink);font:14px/1.36 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}button{font:inherit}
+main{max-width:1450px;margin:0 auto;padding:9px 10px 4px;width:100%}.head{width:100%;display:flex;align-items:center;justify-content:center;text-align:center;min-height:58px;padding:4px 12px 5px}.head>div{width:100%;min-width:0;text-align:center}
+h2{font-size:clamp(19px,3vw,26px);line-height:1.16;letter-spacing:-.5px;margin:3px 0 3px;text-align:center}.solar{display:inline-block;background:var(--sol);color:#141414;padding:0 7px;border-radius:5px}
+.kicker{font-size:11px;font-weight:800;letter-spacing:2px;text-transform:uppercase}.eyebrow{color:var(--sub);font-size:11px;margin:0;text-align:center}
 .brandtag{background:var(--ink);border-radius:60px;padding:7px 11px;color:var(--sol);font-size:10px;font-weight:900;letter-spacing:1px;white-space:nowrap}
-.filters-wrap{display:flex;align-items:center;gap:7px;margin:10px 0 0}.filterctl{cursor:pointer;border:1px solid #dedede;background:#fff;border-radius:9px;padding:7px 10px;color:#333;font-size:12px;font-weight:800;flex:0 0 auto}.filterctl:disabled{opacity:.45;cursor:default}
-.bar{display:flex;gap:7px;overflow-x:auto;scrollbar-width:none;padding:5px 0 13px;flex:1}.bar::-webkit-scrollbar{display:none}
-.pill{white-space:nowrap;cursor:pointer;border-radius:40px;padding:8px 12px;border:1px solid var(--border);background:white;color:#333;font-size:12px;font-weight:750}
+.filters-wrap{display:flex;align-items:center;gap:6px;margin:8px 0 5px;width:100%;min-width:0}.filterctl{cursor:pointer;border:1px solid #dedede;background:#fff;border-radius:9px;padding:6px 10px;color:#222;font-size:14px;font-weight:800;flex:0 0 auto}.filterctl:disabled{opacity:.45;cursor:default}
+.bar{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:2px 0;flex:1;min-width:0}.bar::-webkit-scrollbar{display:none}
+.pill{white-space:nowrap;cursor:pointer;border-radius:24px;padding:7px 11px;border:1px solid #e1e2e5;background:white;color:#343434;font-size:11px;font-weight:750;flex:0 0 auto}
 .pill[aria-pressed="true"]{border-color:var(--ink);background:var(--ink);color:#fff}
-#feedback{color:#515861;font-size:12px;min-height:20px;padding:0 1px 8px}
+#feedback{color:var(--sub);font-size:11px;height:18px;margin-bottom:4px;padding:0 1px}
 .viewport{overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;scroll-behavior:smooth;padding-bottom:6px;touch-action:pan-x pan-y}
 .viewport::-webkit-scrollbar{display:none}.rail{display:flex;gap:12px;padding:3px 2px 10px;min-width:min-content}
 .card{position:relative;border:1px solid var(--border);border-radius:17px;width:clamp(238px,80vw,312px);background:#fff;overflow:hidden;box-shadow:0 4px 18px rgba(0,0,0,.045);scroll-snap-align:start;display:flex;flex-direction:column}
@@ -27,21 +27,22 @@ h2{font-size:clamp(20px,4vw,29px);margin:0;letter-spacing:-.6px;line-height:1.1}
 .logo-chip{position:absolute;top:8px;left:8px;background:rgba(255,255,255,.96);border:1px solid rgba(0,0,0,.08);border-radius:11px;padding:5px;min-width:64px;min-height:44px;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(0,0,0,.06)}
 .logo-chip img{max-width:95px;max-height:38px;object-fit:contain}.logo-chip img.brand-icon{max-width:38px;max-height:34px;width:32px;height:32px}
 .ribbon{position:absolute;top:10px;right:10px;font-size:11px;background:#111;color:#fff;padding:5px 8px;border-radius:8px;font-weight:800;max-width:70%}.ribbon.discount{background:#248547}
-.content{padding:13px;display:flex;flex:1;flex-direction:column;gap:7px}.store{color:#5d6470;font-size:12px;font-weight:800}.name{font-size:16px;font-weight:820;letter-spacing:-.3px;line-height:1.25;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;min-height:40px}
-.price{font-size:21px;font-weight:900;margin-top:1px;letter-spacing:-.5px}.old{color:var(--sub);font-size:12px;text-decoration:line-through;font-weight:500;margin-left:6px}
+.content{padding:9px 10px 10px;display:flex;flex:1;flex-direction:column;gap:5px}.store{color:#56606d;font-size:11px;font-weight:850}.name{font-size:13px;font-weight:850;letter-spacing:0;line-height:1.25;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:32px}
+.price{font-size:18px;font-weight:950;margin-top:1px;letter-spacing:0}.old{color:var(--sub);font-size:12px;text-decoration:line-through;font-weight:500;margin-left:6px}
 .code{align-self:flex-start;background:#fff3c2;border:1px dashed #c49b0f;border-radius:7px;padding:4px 8px;font-size:12px;font-weight:800}
 .description{font-size:12px;color:#67717d;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.actions{display:flex;gap:7px;margin-top:auto;padding-top:7px}.act{flex:1;cursor:pointer;text-align:center;border:none;text-decoration:none;padding:11px 8px;border-radius:10px;font-weight:850;font-size:12px;display:flex;align-items:center;justify-content:center;gap:4px}
+.actions{display:flex;gap:6px;margin-top:auto;padding-top:5px}.act{flex:1;cursor:pointer;text-align:center;border:none;text-decoration:none;min-height:35px;padding:7px 6px;border-radius:9px;font-weight:850;font-size:11px;display:flex;align-items:center;justify-content:center;gap:4px}
 .buy{background:var(--sol);color:#171717}.share{background:#eff9f1;color:#14642c;border:1px solid #c6e9ca}.act:focus-visible,.pill:focus-visible,button:focus-visible{outline:3px solid #1a73e8;outline-offset:2px}
 .inactive .image{filter:grayscale(.1)}.inactive .buy{background:#ececec;color:#667;cursor:default}.empty{padding:35px 20px;border:1px dashed #ddd;border-radius:12px;text-align:center;color:#555;max-width:560px}
-.footer{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;border-top:1px solid #eee;padding:10px 2px 3px;font-size:11px;color:#69717a}.controls{display:flex;gap:7px;align-items:center}.ctl{cursor:pointer;border:1px solid #dedede;background:white;border-radius:9px;padding:7px 10px;color:#333;font-size:12px;font-weight:800}.ctl:disabled{opacity:.5;cursor:default}
-@media(min-width:920px){main{padding:18px}.card{width:306px}.image{height:220px}}
+.footer{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;border-top:1px solid #eee;padding:10px 2px 3px;font-size:11px;color:#69717a}.controls{display:flex;gap:7px;align-items:center}.ctl{cursor:pointer;border:1px solid #ddd;background:white;border-radius:8px;padding:6px 10px;color:#333;font-size:11px;font-weight:800}.ctl:disabled{opacity:.5;cursor:default}
+@media(min-width:920px){.card{width:306px}.image{height:220px}}
+@media(max-width:580px){main{padding:7px 5px 3px}.head{min-height:70px;padding:4px 3px 5px}h2{font-size:18px}.eyebrow{font-size:10px}#feedback{font-size:10px}}
 @media(prefers-reduced-motion:reduce){.viewport,.bar{scroll-behavior:auto}}
 </style>
 </head>
 <body>
 <main>
-  <header class="head"><div><h2>Exclusivo das <span class="solar">MELHORES LOJAS</span> do Brasil pra vc!</h2><div class="eyebrow">Produtos, promoções e cupons publicados pelos parceiros.</div></div></header>
+  <header class="head"><div><h2>Exclusivo das <span class="solar">MELHORES LOJAS</span> do Brasil pra vc!</h2><div class="eyebrow">Produtos, promoções e cupons publicados pelas lojas.</div></div></header>
   <div class="filters-wrap">
     <button class="filterctl" type="button" id="filtersPrev" aria-label="Ver parceiros anteriores">‹</button>
     <nav class="bar" id="filters" aria-label="Filtrar lojas"></nav>
