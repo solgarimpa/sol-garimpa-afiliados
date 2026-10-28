@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-10-28T02:07:20+00:00",
+  "atualizado_em": "2026-10-28T02:59:50+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -555,20 +555,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-d9b14380405b6460eb53",
-      "loja": "Amoedo",
-      "tipo": "cupom",
-      "titulo": "Use VIRADA5 e ganhe 5% de desconto + cashback",
-      "imagem": "",
-      "link": "https://lmdee.link/fRPp56Rlx2yE",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "VIRADA5",
-      "validade": "2026-10-28T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-ab105cd0fcb1fd9e13d8",
       "loja": "AmoKarité",
       "tipo": "promocao",
@@ -821,20 +807,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-cc616c88554c846a7ede",
-      "loja": "Lojas REDE",
-      "tipo": "promocao",
-      "titulo": "Kit Salon Line Gelatina 1kg + Creme de Pentear 1kg (De 92,98 por 65,99)",
-      "imagem": "",
-      "link": "https://lmdee.link/U3K8s9wKOIBI",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-10-28T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-be128ff5c50c83246333",
       "loja": "Lojão dos Esportes",
       "tipo": "cupom",
@@ -953,6 +925,20 @@
       "titulo": "Temporada de Bermudas, Shorts e Saias",
       "imagem": "",
       "link": "https://lmdee.link/GkWJOtX32N7Q",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-c0ede4a730b7833a7eae",
+      "loja": "Sem Parar",
+      "tipo": "promocao",
+      "titulo": "Sem Parar com 98% OFF de desconto",
+      "imagem": "https://cdn.lomadee.com.br/offer/96faec90-03b8-4056-9a64-422f2cab7e90/banners/Ideal-98off3m-728x90%20%282%29.png",
+      "link": "https://lmdee.link/bltpikIJWdi1",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1241,20 +1227,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-b39376320fc823ea9170",
-      "loja": "Lojas REDE",
-      "tipo": "promocao",
-      "titulo": "Kit Dove Shampoo 600ml + Condicionador 600ml Bond Repair + Peptídeo: (De 87,98 por 59,99)",
-      "imagem": "",
-      "link": "https://lmdee.link/aa9xW7dOszOr",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-10-28T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-04227468c8e6f7c4e323",
       "loja": "Maria Valentina",
       "tipo": "promocao",
@@ -1535,30 +1507,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lp-cdc08742338f712bb676",
+      "id": "lc-efe085815a28e045627e",
       "loja": "LITTLE DUCK",
-      "tipo": "produto",
-      "titulo": "150 Bolinhas Transparentes Extras",
-      "imagem": "https://cdn.shopify.com/s/files/1/0566/0298/4497/files/150-bolinhas-transparentes-extras-Imagem-30410523246641.png?v=1787834788",
-      "link": "https://lmdee.link/nba0gMhlZrhf",
-      "preco": 0.72,
-      "preco_anterior": 1.35,
-      "cupom": null,
-      "validade": null,
-      "descricao": "As 150 Bolinhas Transparentes Extras são perfeitas para complementar piscinas de bolinhas, proporcionando mais diversão e cor ao cantinho das crianças. Produzidas com material seguro e resistente, garantem brincadeiras s",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-8a2d9af69961046b309a",
-      "loja": "Lojas REDE",
       "tipo": "promocao",
-      "titulo": "Compre R$179,90 em produtos Wella e ganhe Oil Reflections 30ml:",
-      "imagem": "",
-      "link": "https://lmdee.link/ENgVusOiHfOd",
+      "titulo": "Mês das crianças: Garanta 10% Off no Pix",
+      "imagem": "https://cdn.lomadee.com.br/offer/8df1f306-2333-48b9-97a8-6e25862a3f58/banners/1%20LD_M%C3%8AS%20DAS%20CRIAN%C3%87AS_HORIZONTAL.png",
+      "link": "https://lmdee.link/XzVNOW141wVF",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-10-28T02:30:00.000Z",
+      "validade": "2026-10-31T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1714,6 +1672,20 @@
       "cupom": null,
       "validade": "2026-11-01T02:30:00.000Z",
       "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lp-cdc08742338f712bb676",
+      "loja": "LITTLE DUCK",
+      "tipo": "produto",
+      "titulo": "150 Bolinhas Transparentes Extras",
+      "imagem": "https://cdn.shopify.com/s/files/1/0566/0298/4497/files/150-bolinhas-transparentes-extras-Imagem-30410523246641.png?v=1787834788",
+      "link": "https://lmdee.link/nba0gMhlZrhf",
+      "preco": 0.72,
+      "preco_anterior": 1.35,
+      "cupom": null,
+      "validade": null,
+      "descricao": "As 150 Bolinhas Transparentes Extras são perfeitas para complementar piscinas de bolinhas, proporcionando mais diversão e cor ao cantinho das crianças. Produzidas com material seguro e resistente, garantem brincadeiras s",
       "origem": "Lomadee"
     },
     {
@@ -1927,6 +1899,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-84a70805b3cdd0e0ab72",
+      "loja": "Friopeças",
+      "tipo": "cupom",
+      "titulo": "Cupom de R$ 150,00 em produtos selecionados do link",
+      "imagem": "",
+      "link": "https://lmdee.link/KokdteHfIR4h",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "QUEROMIDEA150",
+      "validade": "2026-11-01T02:59:59.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-0558efff842b122b0e7f",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -1969,6 +1955,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-8c510dc26aaacc584c6c",
+      "loja": "Friopeças",
+      "tipo": "cupom",
+      "titulo": "Cupom de R$ 150,00 em produtos selecionados do link",
+      "imagem": "",
+      "link": "https://lmdee.link/iPigeZbXWxzc",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "QUEROLG150",
+      "validade": "2026-11-01T02:59:59.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-aeb70be9f1bbb2ac1ac4",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -2008,6 +2008,20 @@
       "cupom": null,
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-f831bef0e7a023c1814f",
+      "loja": "Friopeças",
+      "tipo": "cupom",
+      "titulo": "Cupom de R$ 150,00 em produtos selecionados",
+      "imagem": "",
+      "link": "https://lmdee.link/fcnrTCZQhszo",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "VIX150",
+      "validade": "2026-11-01T02:59:59.000Z",
+      "descricao": "",
       "origem": "Lomadee"
     },
     {
@@ -2317,11 +2331,25 @@
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
       "origem": "Lomadee"
+    },
+    {
+      "id": "lp-bf6dbec72bbcbad989d2",
+      "loja": "ECO FLAME GARDEN",
+      "tipo": "produto",
+      "titulo": "2 Espreguiçadeiras Casal Duo",
+      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/ecoflame_site_produtos_2-duo_verde.webp?v=1750962143",
+      "link": "https://lmdee.link/pl8vQq0o80vR",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
+      "origem": "Lomadee"
     }
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 127,
+    "com_ofertas": 129,
     "marcas": 134,
     "campanhas": 120,
     "produtos": 60,
