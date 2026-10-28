@@ -1,28 +1,415 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Achadinhos das Lojas Queridinhas do Brasil</title>
+<meta name="color-scheme" content="light">
+<title>Achadinhos das Lojas Queridinhas do Brasil | SOL GARIMPA</title>
 <style>
-  *, *::before, *::after { box-sizing: border-box; }
-  html, body { width: 100%; margin: 0; padding: 0; overflow: hidden; background: #fff; }
-  .vitrine-rakuten { width: 100%; max-width: 100%; margin: 0 auto; overflow: hidden; background: #fff; }
-  .vitrine-rakuten iframe { display: block; width: 100%; height: 760px; border: 0; background: #fff; }
-  @media (max-width: 767px) {
-    .vitrine-rakuten iframe { height: 770px; }
-  }
+:root{--yellow:#ffd12a;--ink:#1d1d1d;--muted:#656c78;--line:#e5e8ed;--gap:12px;color-scheme:light}
+*,*:before,*:after{box-sizing:border-box}
+html,body{margin:0;width:100%;overflow:hidden!important;background:#fff;color:var(--ink);font:14px/1.36 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+button{font:inherit;cursor:pointer}
+button:disabled{opacity:.4;cursor:default}
+.shell{max-width:1450px;margin:0 auto;padding:9px 10px 4px;width:100%;overflow:hidden}
+.head{position:relative;display:flex;align-items:center;justify-content:center;text-align:center;gap:12px;min-height:58px;padding:4px 12px 5px}
+.head-content{width:100%;min-width:0}
+h2{font-size:clamp(19px,3vw,26px);line-height:1.16;letter-spacing:-.5px;margin:3px 0 3px}
+h2 mark{background:var(--yellow);color:#141414;border-radius:5px;padding:0 7px}
+.sub{font-size:11px;color:var(--muted);margin:0;text-align:center}
+.filters{display:flex;gap:6px;align-items:center;margin:8px 0 5px;width:100%;min-width:0}
+.scroll{display:flex;gap:6px;flex:1;min-width:0;overflow-x:auto;scrollbar-width:none;scroll-behavior:smooth;padding:2px 0}
+.scroll::-webkit-scrollbar{display:none}
+.pill{border:1px solid #e1e2e5;background:#fff;color:#343434;border-radius:24px;padding:7px 11px;white-space:nowrap;font-size:11px;font-weight:750;flex:0 0 auto}
+.pill[aria-pressed="true"]{color:#fff;background:#252525;border-color:#252525}
+.nav{flex:0 0 auto;background:#fff;color:#222;border:1px solid #dedede;padding:6px 10px;border-radius:9px;font-weight:800}
+.results{font-size:11px;color:var(--muted);height:18px;margin-bottom:4px}
+.viewport{position:relative;width:100%;overflow:hidden;touch-action:pan-y}
+.rail{display:flex;gap:var(--gap);padding:2px 0 6px;will-change:transform;align-items:stretch}
+.card{display:flex;flex-direction:column;flex:0 0 268px;width:268px;min-width:0;border:1px solid var(--line);border-radius:14px;background:#fff;overflow:hidden;box-shadow:0 3px 12px #00000008}
+.cover{height:162px;position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden;background:#fff;border-bottom:1px solid #f1f2f4}
+.cover>img.photo{display:block;width:100%;height:100%;object-fit:contain;padding:5px;background:white}
+.logo-box{width:100%;height:100%;display:flex;justify-content:center;align-items:center;padding:12px 14px;background:#fff}
+.logo-box img{display:block;width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 2px 3px #00000010)}
+.logo-box img.favicon{width:65%;height:88%;object-fit:contain}
+.logo-fallback{width:80px;height:80px;display:flex;justify-content:center;align-items:center;border-radius:19px;background:#f6f7f9;color:#5d6570}
+.logo-mini{position:absolute;top:6px;left:6px;background:#fff;border:1px solid #ddd;border-radius:8px;width:54px;height:37px;padding:3px;display:flex;justify-content:center;align-items:center;box-shadow:0 1px 4px #0001}
+.logo-mini img{max-width:100%;max-height:100%;object-fit:contain}
+.flag{position:absolute;top:6px;right:6px;font-weight:850;font-size:10px;color:white;background:#222;padding:4px 8px;border-radius:7px}
+.flag.discount{background:#16763c}
+.content{display:flex;flex-direction:column;flex:1;gap:5px;padding:9px 10px 10px;min-height:176px}
+.store{font-size:11px;font-weight:850;color:#56606d;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.name{font-size:13px;font-weight:850;line-height:1.25;min-height:32px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.price{font-size:18px;font-weight:950;line-height:1.2}
+.old{font-size:10px;color:#767676;font-weight:500;text-decoration:line-through;margin-left:5px}
+.desc{font-size:10px;color:#66717b;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.coupon{align-self:flex-start;background:#fff2bc;border:1px dashed #c9a42a;border-radius:5px;padding:3px 7px;font-size:10px;font-weight:800}
+.actions{margin-top:auto;display:flex;gap:6px;padding-top:5px}
+.action{flex:1;display:flex;align-items:center;justify-content:center;text-align:center;border:none;border-radius:9px;min-height:35px;padding:7px 6px;font-size:11px;font-weight:850;text-decoration:none}
+.go{background:var(--yellow);color:#141414}
+.share{background:#ecf8ef;color:#176538;border:1px solid #c9e8ce}
+.action.off{color:#686868;background:#eee;cursor:default}
+.bottom{border-top:1px solid #ededed;display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:4px;padding-top:7px}
+.stamp{font-size:10px;color:#727783}
+.controls{display:flex;gap:6px}
+.ctrl{background:#fff;border:1px solid #ddd;color:#333;border-radius:8px;padding:6px 10px;font-size:11px;font-weight:800}
+.empty{font-size:13px;border:1px dashed #ccc;padding:25px;border-radius:14px;color:#555;max-width:570px}
+:focus-visible{outline:3px solid #1567c1;outline-offset:2px}
+@media(max-width:900px){.head{padding:4px 3px 5px}}
+@media(max-width:580px){.shell{padding:7px 5px 3px}.head{gap:5px;min-height:70px}h2{font-size:18px}.sub{font-size:10px}.card{flex-basis:250px;width:250px}.cover{height:164px}.bottom{flex-wrap:wrap}.results{font-size:10px}}
+@media(prefers-reduced-motion:reduce){.scroll{scroll-behavior:auto}}
 </style>
 </head>
 <body>
-<div class="vitrine-rakuten">
-  <iframe
-    src="https://solgarimpa.github.io/sol-garimpa-afiliados/rakuten/?layout=limpo-20261028"
-    title="Achadinhos das Lojas Queridinhas do Brasil"
-    loading="eager"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allow="clipboard-write">
-  </iframe>
+<main class="shell">
+<header class="head">
+<div class="head-content">
+<h2>Achadinhos das <mark>Lojas Queridinhas</mark> do Brasil</h2>
+<p class="sub">Produtos, promoções e cupons publicados pelas lojas.</p>
 </div>
+</header>
+<div class="filters">
+<button class="nav" id="brandPrev" aria-label="Marcas anteriores">‹</button>
+<nav class="scroll" id="brands" aria-label="Selecionar loja"></nav>
+<button class="nav" id="brandNext" aria-label="Mais marcas">›</button>
+</div>
+<div class="results" id="status" aria-live="polite">Consultando as ofertas...</div>
+<section class="viewport" id="viewport" aria-label="Ofertas. Deslize horizontalmente ou use as setas.">
+<div class="rail" id="rail"></div>
+</section>
+<div class="bottom">
+<div class="stamp" id="stamp">Publicidade • Preços e disponibilidade sujeitos à confirmação nas lojas.</div>
+<div class="controls">
+<button class="ctrl" id="prev" aria-label="Oferta anterior">‹</button>
+<button class="ctrl" id="pause">Pausar</button>
+<button class="ctrl" id="next" aria-label="Próxima oferta">›</button>
+</div>
+</div>
+</main>
+<script>
+(()=>{'use strict';
+const SOURCE='https://raw.githubusercontent.com/solgarimpa/sol-garimpa-afiliados/main/docs/rakuten/ofertas.json';
+const REFRESH=5*60*1000;
+const AUTO=4700;
+const BRANDFETCH_CLIENT_ID='';
+const DOMAINS={
+'ASUS BR':'asus.com',
+'Cruzeiro Store':'cruzeiro.com.br',
+'Insider Store BR':'insiderstore.com.br',
+'Inter Store':'inter.co',
+'Keeta BR':'keeta.com.br',
+'Leroy Merlin BR':'leroymerlin.com.br',
+'Movida BR':'movida.com.br',
+'Netshoes WL':'netshoes.com.br'
+};
+const $=id=>document.getElementById(id);
+const rail=$('rail');
+const brands=$('brands');
+const money=(v,moeda='BRL')=>{
+try{
+return new Intl.NumberFormat('pt-BR',{
+style:'currency',currency:moeda||'BRL'
+}).format(+v);
+}catch{
+return 'R$ '+(+v).toFixed(2);
+}
+};
+const safe=v=>{
+try{
+const u=new URL(String(v||''));
+return u.protocol==='https:'?u.href:'';
+}catch{return ''}
+};
+const node=(tag,cls='',txt)=>{
+const n=document.createElement(tag);
+if(cls)n.className=cls;
+if(txt!==undefined)n.textContent=String(txt);
+return n;
+};
+let all=[];
+let visible=[];
+let metadata=new Map();
+let choice='Todas';
+let cursor=0;
+let paused=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+let animating=false;
+let busy=false;
+let updated='';
+const FALLBACK_ICON='<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="#363636" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 1.5-5h15L21 9"/><path d="M5 9v11h14V9"/><path d="M3 9c0 2 3 2 3 0 0 2 3 2 3 0 0 2 3 2 3 0 0 2 3 2 3 0 0 2 3 2 3 0 0 2 3 2 3 0 0 2 3 2 3 0"/><path d="M9 20v-7h6v7"/></svg>';
+function hostname(s){
+try{
+const u=new URL(s.includes('://')?s:'https://'+s);
+return /^(?:[a-z\d-]+\.)+[a-z]{2,}$/i.test(u.hostname)&&!u.username&&!u.password
+?u.hostname.replace(/^www\./,''):'';
+}catch{return ''}
+}
+function domain(p){
+const m=metadata.get(String(p.mid));
+return hostname(String(p.dominio_loja||m?.dominio_loja||DOMAINS[p.loja]||''));
+}
+function sources(p){
+const arr=[];
+const m=metadata.get(String(p.mid));
+const logo=safe(p.logo_url||m?.logo_url);
+if(logo)arr.push({src:logo,mini:false});
+const d=domain(p);
+if(d&&BRANDFETCH_CLIENT_ID){
+arr.push({
+src:'https://cdn.brandfetch.io/domain/'+encodeURIComponent(d)+'?c='+encodeURIComponent(BRANDFETCH_CLIENT_ID),
+mini:false
+});
+}
+if(d){
+arr.push({
+src:'https://www.google.com/s2/favicons?domain='+encodeURIComponent(d)+'&sz=256',
+mini:true
+});
+}
+return arr;
+}
+function showLogo(cover,p,tiny=false){
+const wrap=node('div',tiny?'logo-mini':'logo-box');
+const urls=sources(p);
+let idx=0;
+function tryNext(){
+if(idx>=urls.length){
+if(tiny){
+wrap.remove();
+}else{
+const f=node('div','logo-fallback');
+f.innerHTML=FALLBACK_ICON;
+wrap.replaceChildren(f);
+}
+return;
+}
+const entry=urls[idx++];
+const im=node('img',entry.mini?'favicon':'');
+im.src=entry.src;
+im.alt='Logomarca de '+p.loja;
+im.decoding='async';
+im.addEventListener('error',tryNext,{once:true});
+wrap.replaceChildren(im);
+}
+tryNext();
+cover.append(wrap);
+}
+function wa(p){
+let lines=[
+'🛍️ *ACHADINHO SOL GARIMPA*',
+'🏬 '+p.loja,
+'✨ '+p.titulo
+];
+if(+p.preco>0)lines.push('💰 '+money(p.preco,p.moeda));
+if(p.cupom)lines.push('🎟️ Cupom: '+p.cupom);
+lines.push('👉 '+p.link,'⚠️ Confira valores e disponibilidade na loja.');
+return 'https://wa.me/?text='+encodeURIComponent(lines.join('\n'));
+}
+function card(p){
+const inactive=p.tipo==='sem_oferta'||!safe(p.link);
+const a=node('article','card');
+const cover=node('div','cover');
+if(!inactive&&safe(p.imagem)){
+const photo=node('img','photo');
+photo.src=safe(p.imagem);
+photo.alt=p.titulo||p.loja;
+photo.loading='lazy';
+photo.decoding='async';
+photo.addEventListener('error',()=>{
+photo.remove();
+showLogo(cover,p);
+},{once:true});
+cover.append(photo);
+showLogo(cover,p,true);
+}else{
+showLogo(cover,p);
+}
+if(!inactive){
+let type=p.tipo==='cupom'?'Cupom':p.tipo==='produto'?'Produto':'Oferta';
+let discount=0;
+if(+p.preco>0&&+p.preco_anterior>+p.preco)
+discount=Math.round(100*(1-(+p.preco/+p.preco_anterior)));
+if(discount>=5)type=discount+'% OFF';
+cover.append(node('span','flag'+(discount>=5?' discount':''),type));
+}
+a.append(cover);
+const inner=node('div','content');
+inner.append(node('div','store',p.loja),node('div','name',p.titulo));
+if(!inactive&&+p.preco>0){
+const price=node('div','price',money(p.preco,p.moeda));
+if(+p.preco_anterior>+p.preco)
+price.append(node('span','old',money(p.preco_anterior,p.moeda)));
+inner.append(price);
+}
+if(!inactive&&p.cupom)inner.append(node('span','coupon','Cupom: '+p.cupom));
+if(!inactive&&p.descricao)inner.append(node('div','desc',p.descricao));
+const actions=node('div','actions');
+if(inactive){
+actions.append(node('span','action off','Sem oferta ativa'));
+}else{
+const go=node('a','action go','Ver oferta ↗');
+const share=node('a','action share','WhatsApp');
+go.href=safe(p.link);
+go.target='_blank';
+go.rel='sponsored noopener noreferrer';
+share.href=wa(p);
+share.target='_blank';
+share.rel='noopener noreferrer';
+actions.append(go,share);
+}
+inner.append(actions);
+a.append(inner);
+return a;
+}
+const step=()=>{
+const card=rail.querySelector('.card');
+return (card?card.getBoundingClientRect().width:(innerWidth<580?250:268))+12;
+};
+function paint(){
+rail.replaceChildren();
+if(!visible.length){
+rail.append(node('div','empty','Nenhuma oferta encontrada nesta seleção.'));
+return;
+}
+let n=visible.length;
+let amount=Math.min(9,Math.max(3,n));
+for(let offset=-1;offset<amount;offset++)
+rail.append(card(visible[(cursor+offset+n)%n]));
+rail.style.transition='none';
+rail.style.transform='translate3d('+(-step())+'px,0,0)';
+}
+function rotate(dir){
+if(animating||visible.length<2)return;
+animating=true;
+const s=step();
+rail.style.transition='transform .45s ease';
+rail.style.transform='translate3d('+(-(dir>0?2:0)*s)+'px,0,0)';
+setTimeout(()=>{
+cursor=(cursor+dir+visible.length)%visible.length;
+paint();
+animating=false;
+},490);
+}
+function display(){
+visible=all.filter(p=>choice==='Todas'||p.loja===choice);
+cursor=0;
+paint();
+$('status').textContent=
+`${visible.filter(p=>p.tipo!=='sem_oferta').length} ofertas encontradas • ${new Set(visible.filter(p=>p.tipo!=='sem_oferta').map(p=>p.loja)).size} lojas com ofertas disponíveis`;
+}
+function filters(){
+const names=['Todas',...new Set(all.map(p=>p.loja))];
+brands.replaceChildren();
+for(const name of names){
+const btn=node('button','pill',name);
+btn.type='button';
+btn.setAttribute('aria-pressed',String(name===choice));
+btn.addEventListener('click',()=>{
+choice=name;
+filters();
+display();
+});
+brands.append(btn);
+}
+updateNav();
+}
+function updateNav(){
+const max=brands.scrollWidth-brands.clientWidth;
+$('brandPrev').disabled=brands.scrollLeft<=4;
+$('brandNext').disabled=max<=4||brands.scrollLeft>=max-4;
+}
+$('brandPrev').addEventListener('click',()=>{
+brands.scrollBy({left:-220,behavior:'smooth'});
+});
+$('brandNext').addEventListener('click',()=>{
+brands.scrollBy({left:220,behavior:'smooth'});
+});
+brands.addEventListener('scroll',updateNav,{passive:true});
+$('prev').addEventListener('click',()=>rotate(-1));
+$('next').addEventListener('click',()=>rotate(1));
+$('pause').addEventListener('click',()=>{
+paused=!paused;
+$('pause').textContent=paused?'Continuar':'Pausar';
+});
+let tx=null;
+const vp=$('viewport');
+vp.addEventListener('touchstart',e=>{
+if(e.touches.length===1)tx=e.touches[0].clientX;
+},{passive:true});
+vp.addEventListener('touchend',e=>{
+if(tx===null)return;
+const diff=e.changedTouches[0].clientX-tx;
+tx=null;
+if(Math.abs(diff)>38)rotate(diff<0?1:-1);
+},{passive:true});
+window.addEventListener('resize',()=>{
+paint();
+updateNav();
+});
+setInterval(()=>{
+if(!paused&&!document.hidden&&!animating&&!vp.matches(':hover'))rotate(1);
+},AUTO);
+async function update(){
+if(busy)return;
+busy=true;
+try{
+const r=await fetch(
+SOURCE+'?v='+Math.floor(Date.now()/REFRESH),
+{mode:'cors',cache:'no-store'}
+);
+if(!r.ok)throw Error('HTTP '+r.status);
+const d=await r.json();
+if(!Array.isArray(d.cards)||!Array.isArray(d.parceiros))
+throw Error('Catálogo inválido');
+const date=Date.parse(d.atualizado_em);
+if(!Number.isFinite(date)||date>Date.now()+3600000||Date.now()-date>48*3600000)
+throw Error('Catálogo fora do prazo');
+if(d.atualizado_em===updated)return;
+updated=d.atualizado_em;
+metadata=new Map(d.parceiros.map(p=>[String(p.mid),p]));
+const names=d.parceiros.map(p=>String(p.loja||'').trim()).filter(Boolean);
+const valid=new Set(names);
+const canonical=new Map(d.parceiros.map(p=>[String(p.mid),p.loja]));
+let items=d.cards
+.filter(p=>p&&['produto','cupom','promocao'].includes(p.tipo)&&safe(p.link))
+.map(p=>({...p,loja:canonical.get(String(p.mid))||p.loja}))
+.filter(p=>valid.has(p.loja));
+const pools=new Map(names.map(n=>[n,[]]));
+for(const p of items)pools.get(p.loja).push(p);
+all=[];
+let remaining=true;
+while(remaining){
+remaining=false;
+for(const [name,list] of pools){
+if(list.length){
+all.push(list.shift());
+remaining=true;
+}else if(!all.some(x=>x.loja===name)){
+all.push({
+loja:name,
+mid:(d.parceiros.find(p=>p.loja===name)||{}).mid,
+tipo:'sem_oferta',
+titulo:'Nenhuma oferta vigente encontrada'
+});
+}
+}
+}
+filters();
+display();
+$('stamp').textContent=
+'Atualizado em '+new Date(date).toLocaleString('pt-BR',{timeZone:'America/Sao_Paulo'})+
+' • Preços sujeitos a confirmação • Links de afiliado';
+}catch(e){
+if(!all.length)
+$('status').textContent='Não foi possível carregar as ofertas agora. Tente atualizar a página.';
+console.warn('SOL GARIMPA: falha ao atualizar vitrine',e.message);
+}finally{
+busy=false;
+}
+}
+update();
+setInterval(update,REFRESH);
+})();
+</script>
 </body>
 </html>
