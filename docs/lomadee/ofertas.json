@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-10-28T16:06:45+00:00",
+  "atualizado_em": "2026-10-28T17:06:01+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -933,6 +933,34 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-cfa848bb947a33b94882",
+      "loja": "Móveis Carraro",
+      "tipo": "promocao",
+      "titulo": "ESQUENTA BLACK: ofertas imperdíveis para sua casa! A hora de renovar seus ambientes é agora! Aproveite condições especiais, com até 18x sem juros, frete reduzido e 7% OFF no Pix.",
+      "imagem": "https://cdn.lomadee.com.br/offer/403c81f1-9f6d-45c8-86f5-82695f3bffb1/banners/imagem%20-%202026-10-28T132915.479.png",
+      "link": "https://lmdee.link/KHKzzVqkayoA",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-985fc5085d221ea63419",
+      "loja": "PromoFarma",
+      "tipo": "promocao",
+      "titulo": "A Promofarma está com uma campanha de aumento de CPA para produtos de suas marcas próprias, contemplando as seguintes marcas : Vivacitá, Vivacitá Gold, Dermacitá ,Dermacitá Baby, C",
+      "imagem": "",
+      "link": "https://lmdee.link/lUcyLABiN0hZ",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-10-29T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-f7de0ae70b64cfab6f59",
       "loja": "Sawary",
       "tipo": "promocao",
@@ -1801,20 +1829,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-aa3540bb0987790b7a64",
-      "loja": "Friopeças",
-      "tipo": "cupom",
-      "titulo": "Cupom de R$ 300,00 em produtos selecionados do link",
-      "imagem": "",
-      "link": "https://lmdee.link/CbSuMmHmc796",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "ALTAMIDEA300",
-      "validade": "2026-11-01T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-2fbebfaa5d37fe66de12",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -1868,20 +1882,6 @@
       "cupom": null,
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-6e6842f3f6d9dc4e34b3",
-      "loja": "Friopeças",
-      "tipo": "cupom",
-      "titulo": "Cupom de R$ 300,00 em produtos selecionados do link",
-      "imagem": "",
-      "link": "https://lmdee.link/yRfZXgoChyfZ",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "ALTALG300",
-      "validade": "2026-11-01T02:59:59.000Z",
-      "descricao": "",
       "origem": "Lomadee"
     },
     {
