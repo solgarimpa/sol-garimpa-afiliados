@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-10-28T19:59:20+00:00",
+  "atualizado_em": "2026-10-28T20:58:09+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -227,16 +227,16 @@
       "loja": "Lauri Esporte"
     },
     {
-      "id": "65e2c720-48d0-451a-9f89-88aa98b8c9a1",
-      "loja": "Santander Abertura de Contas - PF"
-    },
-    {
       "id": "3b075380-4af3-492b-a335-1369c3c27e4f",
       "loja": "Make Norte"
     },
     {
       "id": "53d73adc-5131-4adc-98d2-181706347a09",
       "loja": "eles.®"
+    },
+    {
+      "id": "784b9d36-c373-4bf3-86d4-b1ca859e1ebe",
+      "loja": "Vittal Calçados"
     },
     {
       "id": "6fe8dae4-a946-4c32-8142-18de9ac8b608",
@@ -291,6 +291,10 @@
       "loja": "Cirurgica Sinete"
     },
     {
+      "id": "a0124a6a-c622-4b7d-a560-bc75a515b542",
+      "loja": "Kidy Calçados"
+    },
+    {
       "id": "7d64bc79-584c-4621-9cc4-754c0f95647a",
       "loja": "Sou Nuaá"
     },
@@ -299,16 +303,12 @@
       "loja": "Up4you"
     },
     {
-      "id": "8b2cf0e4-f183-479a-bcc9-d4ca9ed1dc9a",
-      "loja": "Loungerie"
-    },
-    {
       "id": "9aad28fe-dddf-4b4e-81c7-cdfaf5f00ee7",
       "loja": "Ortope"
     },
     {
-      "id": "784b9d36-c373-4bf3-86d4-b1ca859e1ebe",
-      "loja": "Vittal Calçados"
+      "id": "a13dab7d-c16d-4de9-a70a-8181cd7c6e49",
+      "loja": "Colorstone"
     },
     {
       "id": "9ece9607-ed88-4c25-80e5-1d079f2b444c",
@@ -335,6 +335,10 @@
       "loja": "Gazin"
     },
     {
+      "id": "c364d4e3-56e2-4da9-a6ea-195716da559a",
+      "loja": "Malwee"
+    },
+    {
       "id": "b08af64e-f7bd-434c-b0ac-6baec265f9fc",
       "loja": "BabyStock"
     },
@@ -345,10 +349,6 @@
     {
       "id": "c0520326-00a8-4064-b4fe-ba1b8cd3bfe7",
       "loja": "Homedock"
-    },
-    {
-      "id": "a0124a6a-c622-4b7d-a560-bc75a515b542",
-      "loja": "Kidy Calçados"
     },
     {
       "id": "a463682f-09a7-420a-9858-1e9681591513",
@@ -387,8 +387,8 @@
       "loja": "Maria Valentina"
     },
     {
-      "id": "a13dab7d-c16d-4de9-a70a-8181cd7c6e49",
-      "loja": "Colorstone"
+      "id": "c0e3dfb9-f402-4267-940d-ae2c4f06b421",
+      "loja": "Zinco"
     },
     {
       "id": "ae6c268a-3b83-4d4a-9e51-6dc4bf6408e5",
@@ -431,16 +431,20 @@
       "loja": "Toymania"
     },
     {
-      "id": "c364d4e3-56e2-4da9-a6ea-195716da559a",
-      "loja": "Malwee"
-    },
-    {
       "id": "d855f505-7e26-4961-a182-c2139aeadd2c",
       "loja": "Drogasmil"
     },
     {
       "id": "df3a5d1f-150c-4ce8-9b98-cf85dad06b6d",
       "loja": "Honor"
+    },
+    {
+      "id": "e1d43df5-8c98-4f7a-9f75-e507ecbd649c",
+      "loja": "Xiaomi Brasil"
+    },
+    {
+      "id": "e198615b-4c17-4180-b06f-43376f162714",
+      "loja": "Amoedo"
     },
     {
       "id": "d676d9b8-e52f-4ea1-bf2f-d98cd563418e",
@@ -479,10 +483,6 @@
       "loja": "Candide"
     },
     {
-      "id": "c0e3dfb9-f402-4267-940d-ae2c4f06b421",
-      "loja": "Zinco"
-    },
-    {
       "id": "e5f81b99-b74b-488f-9fd8-ef44e2c7aa87",
       "loja": "Webfones"
     },
@@ -493,10 +493,6 @@
     {
       "id": "f31e32be-c116-4739-85a3-43f85681b237",
       "loja": "Móveis Carraro"
-    },
-    {
-      "id": "e1d43df5-8c98-4f7a-9f75-e507ecbd649c",
-      "loja": "Xiaomi Brasil"
     },
     {
       "id": "ecd9089c-0147-41aa-b974-bdfbf220a3d4",
@@ -513,10 +509,6 @@
     {
       "id": "efd916a7-faa3-417b-8581-d3afe03e849c",
       "loja": "Líquido"
-    },
-    {
-      "id": "e198615b-4c17-4180-b06f-43376f162714",
-      "loja": "Amoedo"
     },
     {
       "id": "e556ed73-0e02-421e-9393-860b040bfbb7",
@@ -2290,7 +2282,7 @@
   "status": {
     "integracao": "api_oficial",
     "com_ofertas": 125,
-    "marcas": 133,
+    "marcas": 131,
     "campanhas": 120,
     "produtos": 60,
     "links_solicitados": 45,
