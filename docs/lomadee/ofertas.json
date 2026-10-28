@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-10-28T15:08:01+00:00",
+  "atualizado_em": "2026-10-28T16:06:45+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -943,6 +943,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-49585bae84cda7d6d00f",
+      "loja": "Shopee",
+      "tipo": "cupom",
+      "titulo": "R$15 OFF para compras acima de R$75 ( Regras: Todos usuários e Volume: 100)",
+      "imagem": "",
+      "link": "https://lmdee.link/NNYJIyZgIHYZ",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "L0M4DEE2810SHOPB",
+      "validade": "2026-10-29T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1910,20 +1924,6 @@
       "cupom": null,
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-84a70805b3cdd0e0ab72",
-      "loja": "Friopeças",
-      "tipo": "cupom",
-      "titulo": "Cupom de R$ 150,00 em produtos selecionados do link",
-      "imagem": "",
-      "link": "https://lmdee.link/KokdteHfIR4h",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "QUEROMIDEA150",
-      "validade": "2026-11-01T02:59:59.000Z",
-      "descricao": "",
       "origem": "Lomadee"
     },
     {
