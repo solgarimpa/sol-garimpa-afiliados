@@ -3,345 +3,604 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Achadinhos das Lojas Queridinhas do Brasil | SOL GARIMPA</title>
 <style>
-:root{--yellow:#ffd12a;--ink:#1d1d1d;--muted:#656c78;--line:#e5e8ed;--gap:12px}
+:root{--amarelo:#ffd12a;--texto:#1d1d1d;--cinza:#656c78;--borda:#e5e8ed}
 *{box-sizing:border-box}
-html,body{margin:0;width:100%;overflow:hidden;background:white;color:var(--ink);font:14px/1.36 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+html,body{margin:0;width:100%;background:#fff;color:var(--texto);font:14px/1.36 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
 button{font:inherit;cursor:pointer}
-button:disabled{opacity:.4}
-.shell{max-width:1450px;margin:0 auto;padding:9px 10px 4px}
-.head{text-align:center;display:flex;align-items:center;justify-content:center;min-height:58px}
+button:disabled{opacity:.4;cursor:default}
+.pagina{width:100%;max-width:1450px;margin:auto;padding:9px 10px 6px;overflow:hidden}
+.cabecalho{text-align:center;display:flex;justify-content:center;align-items:center;min-height:58px}
 h2{font-size:clamp(19px,3vw,26px);line-height:1.16;letter-spacing:-.5px;margin:3px 0}
-mark{background:var(--yellow);color:#141414;border-radius:5px;padding:0 7px}
-.sub{font-size:11px;color:var(--muted);margin:0;text-align:center}
-.filters{display:flex;gap:6px;align-items:center;margin:8px 0 5px;min-width:0}
-.scroll{display:flex;gap:6px;flex:1;min-width:0;overflow:auto;scrollbar-width:none;padding:2px 0}
-.scroll::-webkit-scrollbar{display:none}
-.pill{border:1px solid #e1e2e5;background:#fff;color:#343434;border-radius:24px;padding:7px 11px;white-space:nowrap;font-size:11px;font-weight:750}
-.pill[aria-pressed="true"]{background:#252525;color:white}
-.nav{background:white;border:1px solid #dedede;border-radius:9px;padding:6px 10px;font-weight:800}
-.results{font-size:11px;color:var(--muted);height:18px;margin-bottom:4px}
-.viewport{width:100%;overflow:hidden;touch-action:pan-y}
-.rail{display:flex;gap:var(--gap);padding:2px 0 6px;will-change:transform;align-items:stretch}
-.card{flex:0 0 268px;width:268px;display:flex;flex-direction:column;background:white;overflow:hidden;border:1px solid var(--line);border-radius:14px}
-.cover{height:162px;background:white;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;border-bottom:1px solid #f1f2f4}
-.cover img{max-width:92%;max-height:88%;width:auto;height:auto;object-fit:contain}
-.fallback{display:flex;align-items:center;justify-content:center;width:100%;height:100%;background:white}
-.fallback svg{width:55px;height:55px;opacity:.45}
-.flag{position:absolute;top:6px;right:6px;font-weight:850;font-size:10px;color:white;background:#222;padding:4px 8px;border-radius:7px}
-.flag.discount{background:#16763c}
-.content{display:flex;flex-direction:column;flex:1;gap:5px;padding:9px 10px 10px;min-height:176px}
-.store{font-size:11px;font-weight:850;color:#56606d}
-.name{font-size:13px;font-weight:850;line-height:1.25;min-height:32px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.price{font-size:18px;font-weight:950}
-.old{font-size:10px;color:#777;text-decoration:line-through;margin-left:5px}
-.desc{font-size:10px;color:#66717b;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.coupon{align-self:flex-start;background:#fff2bc;border:1px dashed #c9a42a;border-radius:6px;padding:3px 7px;font-size:10px;font-weight:800}
-.actions{margin-top:auto;display:flex;gap:6px;padding-top:5px}
-.action{flex:1;display:flex;align-items:center;justify-content:center;text-align:center;min-height:35px;border:0;border-radius:9px;padding:7px 6px;font-size:11px;font-weight:850;text-decoration:none}
-.go{background:var(--yellow);color:#141414}
-.share{background:#ecf8ef;color:#176538;border:1px solid #c9e8ce}
-.off{background:#eee;color:#666}
-.bottom{display:flex;justify-content:space-between;align-items:center;gap:10px;border-top:1px solid #ededed;margin-top:4px;padding-top:7px}
-.stamp{font-size:10px;color:#727783}
-.controls{display:flex;gap:6px}
-.ctrl{background:white;border:1px solid #ddd;color:#333;border-radius:8px;padding:6px 10px;font-size:11px;font-weight:800}
-@media(max-width:580px){.shell{padding:7px 5px 3px}h2{font-size:18px}.card{flex-basis:250px;width:250px}.cover{height:164px}.bottom{flex-wrap:wrap}}
+h2 mark{background:var(--amarelo);color:#141414;border-radius:5px;padding:0 7px}
+.subtitulo{font-size:11px;color:var(--cinza);margin:0}
+.filtros{display:flex;align-items:center;gap:6px;margin:8px 0 5px;min-width:0}
+.marcas{flex:1;min-width:0;display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:2px 0;scroll-behavior:smooth}
+.marcas::-webkit-scrollbar{display:none}
+.pilula{flex:0 0 auto;white-space:nowrap;border:1px solid #e1e2e5;background:#fff;border-radius:24px;padding:7px 11px;color:#343434;font-size:11px;font-weight:750}
+.pilula[aria-pressed="true"]{background:#252525;color:white;border-color:#252525}
+.seta{flex:0 0 auto;background:white;border:1px solid #dedede;border-radius:9px;padding:6px 10px;font-weight:800}
+.resultado{height:18px;font-size:11px;color:var(--cinza);margin-bottom:4px}
+.janela{width:100%;overflow:hidden;touch-action:pan-y}
+.trilho{display:flex;gap:12px;padding:2px 0 6px;align-items:stretch;will-change:transform}
+.cartao{flex:0 0 268px;width:268px;min-width:0;display:flex;flex-direction:column;overflow:hidden;background:white;border:1px solid var(--borda);border-radius:14px;box-shadow:0 3px 12px #00000008}
+.capa{height:162px;background:white;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;border-bottom:1px solid #f1f2f4}
+.capa img.foto,.capa img.marca-raster{display:block;max-width:92%;max-height:88%;width:auto;height:auto;object-fit:contain}
+.capa img.marca-vetor{display:block;width:86%;height:82%;object-fit:contain}
+.sem-imagem{height:100%;width:100%;display:flex;align-items:center;justify-content:center;background:#fff}
+.sem-imagem svg{width:57px;height:57px;opacity:.52}
+.selo{position:absolute;top:6px;right:6px;background:#222;color:white;font-size:10px;font-weight:850;padding:4px 8px;border-radius:7px}
+.selo.desconto{background:#16763c}
+.informacoes{padding:9px 10px 10px;display:flex;flex-direction:column;flex:1;min-height:176px;gap:5px}
+.loja{color:#56606d;font-size:11px;font-weight:850;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.produto{font-size:13px;font-weight:850;line-height:1.25;min-height:32px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.preco{font-size:18px;font-weight:950;line-height:1.2}
+.anterior{text-decoration:line-through;font-size:10px;color:#777;font-weight:500;margin-left:5px}
+.descricao{font-size:10px;color:#66717b;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cupom{align-self:flex-start;background:#fff2bc;border:1px dashed #c9a42a;border-radius:6px;padding:3px 7px;font-size:10px;font-weight:800}
+.acoes{margin-top:auto;padding-top:5px;display:flex;gap:6px}
+.botao{flex:1;min-height:35px;display:flex;align-items:center;justify-content:center;text-align:center;text-decoration:none;border:0;border-radius:9px;padding:7px 6px;font-size:11px;font-weight:850}
+.comprar{background:var(--amarelo);color:#141414}
+.whatsapp{background:#ecf8ef;color:#176538;border:1px solid #c9e8ce}
+.inativo{background:#eee;color:#666}
+.rodape{display:flex;justify-content:space-between;align-items:center;gap:10px;border-top:1px solid #ededed;margin-top:4px;padding-top:7px}
+.data{font-size:10px;color:#727783}
+.controles{display:flex;gap:6px}
+.controle{background:#fff;border:1px solid #ddd;color:#333;border-radius:8px;padding:6px 10px;font-size:11px;font-weight:800}
+.vazio{padding:25px;font-size:13px;color:#555;border:1px dashed #ddd;border-radius:12px}
+:focus-visible{outline:3px solid #1567c1;outline-offset:2px}
+@media(max-width:580px){.pagina{padding:7px 5px 5px}.cabecalho{min-height:70px}h2{font-size:18px}.subtitulo{font-size:10px}.cartao{width:250px;flex-basis:250px}.capa{height:164px}.rodape{flex-wrap:wrap}}
+@media(prefers-reduced-motion:reduce){.marcas{scroll-behavior:auto}}
 </style>
 </head>
 <body>
-<main class="shell">
-<header class="head">
-<div>
+<main class="pagina">
+<header class="cabecalho"><div>
 <h2>Achadinhos das <mark>Lojas Queridinhas</mark> do Brasil</h2>
-<p class="sub">Produtos, promoções e cupons publicados pelas lojas.</p>
+<p class="subtitulo">Produtos, promoções e cupons publicados pelas lojas.</p>
+</div></header>
+<div class="filtros">
+<button type="button" class="seta" id="marcasAntes" aria-label="Marcas anteriores">‹</button>
+<nav class="marcas" id="marcas" aria-label="Filtrar por loja"></nav>
+<button type="button" class="seta" id="marcasDepois" aria-label="Próximas marcas">›</button>
 </div>
-</header>
-<div class="filters">
-<button class="nav" id="brandPrev" aria-label="Marcas anteriores">‹</button>
-<nav class="scroll" id="brands" aria-label="Selecionar loja"></nav>
-<button class="nav" id="brandNext" aria-label="Mais marcas">›</button>
+<div class="resultado" id="estado" role="status" aria-live="polite">Consultando ofertas...</div>
+<section class="janela" id="janela" aria-label="Carrossel de produtos e promoções"><div class="trilho" id="trilho"></div></section>
+<footer class="rodape">
+<span class="data" id="data">Ofertas e preços sujeitos à confirmação nas lojas.</span>
+<div class="controles">
+<button type="button" class="controle" id="anterior" aria-label="Oferta anterior">‹</button>
+<button type="button" class="controle" id="pausa">Pausar</button>
+<button type="button" class="controle" id="proxima" aria-label="Próxima oferta">›</button>
 </div>
-<div class="results" id="status">Consultando ofertas...</div>
-<section class="viewport" id="viewport">
-<div class="rail" id="rail"></div>
-</section>
-<div class="bottom">
-<span class="stamp" id="stamp">Preços e disponibilidade sujeitos à confirmação nas lojas.</span>
-<div class="controls">
-<button class="ctrl" id="prev">‹</button>
-<button class="ctrl" id="pause">Pausar</button>
-<button class="ctrl" id="next">›</button>
-</div>
-</div>
+</footer>
 </main>
 <script>
 (()=>{
 'use strict';
-const SOURCE='https://raw.githubusercontent.com/solgarimpa/sol-garimpa-afiliados/main/docs/rakuten/ofertas.json';
-const REFRESH=300000,AUTO=4700;
-const DOMAINS={
-'ASUS BR':'asus.com',
-'Cruzeiro Store':'cruzeiro.com.br',
-'Insider Store BR':'insiderstore.com.br',
-'Inter Store':'inter.co',
-'Keeta BR':'keeta.com.br',
-'Leroy Merlin BR':'leroymerlin.com.br',
-'Movida BR':'movida.com.br',
-'Netshoes WL':'netshoes.com.br'
-};
-const ICONS={'ASUS BR':'asus','Lenovo':'lenovo','Adidas':'adidas'};
+
+// Exclusivamente Rakuten.
+const CATALOGO='https://raw.githubusercontent.com/solgarimpa/sol-garimpa-afiliados/main/docs/rakuten/ofertas.json';
+const INTERVALO=5*60*1000;
+const ROTACAO=4700;
+const VETORES={'ASUS BR':'asus'};
+
 const $=id=>document.getElementById(id);
-const rail=$('rail'),brands=$('brands'),viewport=$('viewport');
-const node=(tag,cls='',text)=>{
-const e=document.createElement(tag);
-if(cls)e.className=cls;
-if(text!==undefined)e.textContent=String(text);
-return e;
+const trilho=$('trilho'),janela=$('janela'),marcas=$('marcas');
+
+const cria=(tag,classe='',texto)=>{
+ const el=document.createElement(tag);
+ if(classe)el.className=classe;
+ if(texto!==undefined)el.textContent=String(texto);
+ return el;
 };
-const safe=value=>{
-try{
-const u=new URL(String(value||''));
-return u.protocol==='https:'&&!u.username&&!u.password?u.href:'';
-}catch{return '';}
+
+const linkSeguro=valor=>{
+ try{
+  const u=new URL(String(valor||''));
+  return u.protocol==='https:'&&!u.username&&!u.password?u.href:'';
+ }catch{return '';}
 };
-const money=(v,c='BRL')=>{
-try{
-return new Intl.NumberFormat('pt-BR',{
-style:'currency',currency:c||'BRL'
-}).format(Number(v));
-}catch{return 'R$ '+Number(v).toFixed(2);}
+
+const moeda=(valor,codigo='BRL')=>{
+ try{
+  return new Intl.NumberFormat('pt-BR',{
+   style:'currency',currency:codigo||'BRL'
+  }).format(Number(valor));
+ }catch{
+  return 'R$ '+Number(valor).toFixed(2);
+ }
 };
-let all=[],visible=[],partners=new Map();
-let selected='Todas',cursor=0,paused=false,busy=false,animating=false,updated='';
-const icon='<svg viewBox="0 0 24 24" fill="none" stroke="#5d6570" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="8" width="18" height="12" rx="2"/><path d="M2 8 4 3h16l2 5M9 20v-7h6v7"/></svg>';
-function fallback(cover,p){
-const wrap=node('div','fallback');
-wrap.innerHTML=icon;
-cover.append(wrap);
-const slug=ICONS[p.loja];
-if(slug){
-const v=node('img');
-v.alt='Logomarca '+p.loja;
-v.onload=()=>{
-if(v.naturalWidth>0&&wrap.isConnected)wrap.replaceChildren(v);
+
+const valorValido=n=>
+ n!==null&&n!==undefined&&n!==''&&
+ Number(n)>0&&Number.isFinite(Number(n));
+
+const desenhoLoja='<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#5d6570" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9 6 4h12l2 5M5 10v10h14V10M9 20v-7h6v7M3 9h18M3 9c0 2 3 2 3 0 0 2 3 2 3 0 0 2 3 2 3 0 0 2 3 2 3 0 0 2 3 2 3 0 0 2 3 2 3 0 0 2 3 2 3 0"/></svg>';
+
+let todos=[],visiveis=[],detalhes=new Map();
+let selecionada='Todas',indice=0;
+let pausado=matchMedia('(prefers-reduced-motion: reduce)').matches;
+let animando=false,atualizando=false,ultimaData='';
+
+// Rejeita imagens pequenas para não mostrar logos borradas.
+function imagensCandidatas(p){
+ const meta=detalhes.get(String(p.mid))||{};
+ const fontes=[];
+
+ if(p.tipo!=='sem_oferta'&&linkSeguro(p.imagem)){
+  fontes.push({
+   url:linkSeguro(p.imagem),
+   tipo:'foto',
+   largura:155,
+   altura:115
+  });
+ }
+
+ const logo=linkSeguro(p.logo_url||meta.logo_url);
+
+ if(logo){
+  fontes.push({
+   url:logo,
+   tipo:'logo',
+   largura:175,
+   altura:55
+  });
+ }
+
+ const vetor=VETORES[p.loja];
+
+ if(vetor){
+  fontes.push({
+   url:'https://cdn.simpleicons.org/'+vetor,
+   tipo:'vetor',
+   largura:0,
+   altura:0
+  });
+ }
+
+ return fontes;
+}
+
+function carregarImagem(candidato){
+ return new Promise(resolve=>{
+  const img=new Image();
+  const url=candidato.url;
+
+  img.onload=()=>{
+   const ehSvg=/\.svg(?:[?#]|$)/i.test(url)||
+    candidato.tipo==='vetor';
+
+   const bom=img.naturalWidth>0&&
+    img.naturalHeight>0&&(
+     ehSvg||(
+      img.naturalWidth>=candidato.largura&&
+      img.naturalHeight>=candidato.altura
+     )
+    );
+
+   if(!bom)return resolve(null);
+
+   img.className=ehSvg?'marca-vetor':
+    candidato.tipo==='foto'?'foto':'marca-raster';
+
+   resolve(img);
+  };
+
+  img.onerror=()=>resolve(null);
+  img.decoding='async';
+  img.alt=candidato.tipo==='foto'?
+   'Foto do produto':'Logomarca da loja';
+  img.src=url;
+ });
+}
+
+async function preencherCapa(capa,p){
+ // Aguarda o cartão entrar na página antes de validar a foto.
+ await Promise.resolve();
+
+ if(!capa.isConnected)return;
+
+ for(const fonte of imagensCandidatas(p)){
+  const img=await carregarImagem(fonte);
+
+  if(!capa.isConnected)return;
+
+  if(img){
+   img.alt=fonte.tipo==='foto'?
+    p.titulo:'Logomarca '+p.loja;
+   capa.appendChild(img);
+   return;
+  }
+ }
+
+ if(capa.isConnected){
+  const base=cria('div','sem-imagem');
+  base.innerHTML=desenhoLoja;
+  capa.appendChild(base);
+ }
+}
+
+function criarCartao(p){
+ const ativo=p.tipo!=='sem_oferta'&&!!linkSeguro(p.link);
+ const cartao=cria('article','cartao');
+ const capa=cria('div','capa');
+
+ if(ativo){
+  let texto=p.tipo==='cupom'?'Cupom':
+   p.tipo==='produto'?'Produto':'Oferta';
+
+  let desconto=0;
+
+  if(valorValido(p.preco)&&
+     valorValido(p.preco_anterior)&&
+     Number(p.preco_anterior)>Number(p.preco)){
+   desconto=Math.round(
+    100*(1-Number(p.preco)/Number(p.preco_anterior))
+   );
+  }
+
+  if(desconto>=5)texto=desconto+'% OFF';
+
+  capa.appendChild(
+   cria('span','selo'+(desconto>=5?' desconto':''),texto)
+  );
+ }
+
+ cartao.appendChild(capa);
+
+ // A correção de carregamento já está integrada aqui.
+ preencherCapa(capa,p);
+
+ const info=cria('div','informacoes');
+
+ info.append(
+  cria('div','loja',p.loja),
+  cria('div','produto',p.titulo)
+ );
+
+ if(ativo&&valorValido(p.preco)){
+  const preco=cria('div','preco',moeda(p.preco,p.moeda));
+
+  if(valorValido(p.preco_anterior)&&
+     Number(p.preco_anterior)>Number(p.preco)){
+   preco.appendChild(
+    cria('span','anterior',moeda(p.preco_anterior,p.moeda))
+   );
+  }
+
+  info.appendChild(preco);
+ }
+
+ if(ativo&&p.cupom){
+  info.appendChild(
+   cria('span','cupom','Cupom: '+p.cupom)
+  );
+ }
+
+ if(ativo&&p.descricao){
+  info.appendChild(
+   cria('div','descricao',p.descricao)
+  );
+ }
+
+ const botoes=cria('div','acoes');
+
+ if(!ativo){
+  botoes.appendChild(
+   cria('span','botao inativo','Sem oferta ativa')
+  );
+ }else{
+  const visitar=cria('a','botao comprar','Ver oferta ↗');
+
+  visitar.href=linkSeguro(p.link);
+  visitar.target='_blank';
+  visitar.rel='sponsored noopener noreferrer';
+
+  const zap=cria('a','botao whatsapp','WhatsApp');
+
+  const texto=[
+   '🛍️ ACHADINHO SOL GARIMPA',
+   '🏬 '+p.loja,
+   '✨ '+p.titulo,
+   valorValido(p.preco)?
+    '💰 '+moeda(p.preco,p.moeda):'',
+   p.cupom?'🎟️ Cupom: '+p.cupom:'',
+   '👉 '+p.link,
+   '⚠️ Confira o preço e a disponibilidade na loja.'
+  ].filter(Boolean).join('\n');
+
+  zap.href='https://wa.me/?text='+encodeURIComponent(texto);
+  zap.target='_blank';
+  zap.rel='noopener noreferrer';
+
+  botoes.append(visitar,zap);
+ }
+
+ info.appendChild(botoes);
+ cartao.appendChild(info);
+
+ return cartao;
+}
+
+function passo(){
+ const c=trilho.querySelector('.cartao');
+ return (c?c.getBoundingClientRect().width:268)+12;
+}
+
+function desenhar(){
+ trilho.replaceChildren();
+
+ if(!visiveis.length){
+  trilho.appendChild(
+   cria('div','vazio','Nenhuma oferta ativa nesta seleção.')
+  );
+  trilho.style.transform='none';
+  return;
+ }
+
+ const total=visiveis.length;
+ const quantidade=Math.min(9,Math.max(3,total));
+
+ for(let desloc=-1;desloc<quantidade;desloc++){
+  trilho.appendChild(
+   criarCartao(visiveis[(indice+desloc+total)%total])
+  );
+ }
+
+ trilho.style.transition='none';
+ trilho.style.transform=
+  'translate3d('+(-passo())+'px,0,0)';
+}
+
+function mover(direcao){
+ if(animando||visiveis.length<2)return;
+
+ animando=true;
+ const distancia=passo();
+
+ trilho.style.transition='transform .45s ease';
+ trilho.style.transform=
+  'translate3d('+
+  (-(direcao>0?2:0)*distancia)+
+  'px,0,0)';
+
+ setTimeout(()=>{
+  indice=(indice+direcao+visiveis.length)%visiveis.length;
+  desenhar();
+  animando=false;
+ },490);
+}
+
+function exibir(){
+ visiveis=todos.filter(p=>
+  selecionada==='Todas'?
+   p.tipo!=='sem_oferta':
+   p.loja===selecionada
+ );
+
+ indice=0;
+ animando=false;
+ desenhar();
+
+ const ativas=visiveis.filter(p=>p.tipo!=='sem_oferta');
+
+ $('estado').textContent=
+  ativas.length+' ofertas encontradas • '+
+  new Set(ativas.map(p=>p.loja)).size+
+  ' lojas com ofertas disponíveis';
+
+ $('anterior').disabled=
+  $('proxima').disabled=visiveis.length<2;
+}
+
+function filtros(){
+ marcas.replaceChildren();
+
+ const nomes=['Todas',...new Set(todos.map(p=>p.loja))];
+
+ for(const nome of nomes){
+  const b=cria('button','pilula',nome);
+  b.type='button';
+  b.setAttribute(
+   'aria-pressed',String(nome===selecionada)
+  );
+
+  b.onclick=()=>{
+   selecionada=nome;
+   filtros();
+   exibir();
+  };
+
+  marcas.appendChild(b);
+ }
+}
+
+$('marcasAntes').onclick=()=>
+ marcas.scrollBy({left:-220,behavior:'smooth'});
+
+$('marcasDepois').onclick=()=>
+ marcas.scrollBy({left:220,behavior:'smooth'});
+
+$('anterior').onclick=()=>mover(-1);
+$('proxima').onclick=()=>mover(1);
+
+$('pausa').onclick=()=>{
+ pausado=!pausado;
+ $('pausa').textContent=pausado?'Continuar':'Pausar';
 };
-v.src='https://cdn.simpleicons.org/'+slug;
-}
-}
-function validate(url,w,h){
-return new Promise(resolve=>{
-if(!safe(url))return resolve(false);
-const img=new Image();
-img.onload=()=>{
-const svg=/\.svg(?:[?#]|$)/i.test(url);
-resolve(svg||
-(img.naturalWidth>=w&&img.naturalHeight>=h));
-};
-img.onerror=()=>resolve(false);
-img.src=url;
-});
-}
-function attachCover(cover,p){
-const meta=partners.get(String(p.mid))||{};
-const domain=p.dominio_loja||meta.dominio_loja||DOMAINS[p.loja]||'';
-const urls=[];
-if(p.tipo!=='sem_oferta'&&safe(p.imagem)){
-urls.push({url:p.imagem,w:145,h:110,product:true});
-}
-if(safe(p.logo_url||meta.logo_url)){
-urls.push({url:p.logo_url||meta.logo_url,w:180,h:45});
-}
-if(/^[a-z0-9.-]+$/i.test(domain)&&domain){
-urls.push({
-url:'https://www.google.com/s2/favicons?domain='+encodeURIComponent(domain)+'&sz=256',
-w:100,h:100
-});
-}
-const slug=ICONS[p.loja];
-if(slug)urls.push({
-url:'https://cdn.simpleicons.org/'+slug,w:1,h:1
-});
-(async()=>{
-for(const item of urls){
-if(!cover.isConnected)return;
-if(await validate(item.url,item.w,item.h)){
-if(!cover.isConnected)return;
-const img=node('img');
-img.src=item.url;
-img.alt=item.product?p.titulo:'Logomarca '+p.loja;
-cover.append(img);
-return;
-}
-}
-if(cover.isConnected)fallback(cover,p);
-})();
-}
-function card(p){
-const inactive=p.tipo==='sem_oferta'||!safe(p.link);
-const box=node('article','card');
-const cover=node('div','cover');
-attachCover(cover,p);
-if(!inactive){
-let label=p.tipo==='cupom'?'Cupom':p.tipo==='produto'?'Produto':'Oferta';
-let discount=0;
-if(Number(p.preco)>0&&Number(p.preco_anterior)>Number(p.preco)){
-discount=Math.round(100*(1-Number(p.preco)/Number(p.preco_anterior)));
-}
-if(discount>=5)label=discount+'% OFF';
-cover.append(node('span','flag'+(discount>=5?' discount':''),label));
-}
-box.append(cover);
-const inner=node('div','content');
-inner.append(node('div','store',p.loja),
-node('div','name',p.titulo));
-if(!inactive&&Number(p.preco)>0){
-const price=node('div','price',money(p.preco,p.moeda));
-if(Number(p.preco_anterior)>Number(p.preco)){
-price.append(node('span','old',money(p.preco_anterior,p.moeda)));
-}
-inner.append(price);
-}
-if(!inactive&&p.cupom)inner.append(node('span','coupon','Cupom: '+p.cupom));
-if(!inactive&&p.descricao)inner.append(node('div','desc',p.descricao));
-const actions=node('div','actions');
-if(inactive){
-actions.append(node('span','action off','Sem oferta ativa'));
-}else{
-const go=node('a','action go','Ver oferta ↗');
-go.href=safe(p.link);
-go.target='_blank';go.rel='sponsored noopener noreferrer';
-const share=node('a','action share','WhatsApp');
-share.href='https://wa.me/?text='+encodeURIComponent([
-'🛍️ ACHADINHO SOL GARIMPA',p.loja,p.titulo,
-Number(p.preco)>0?'💰 '+money(p.preco,p.moeda):'',
-p.cupom?'🎟️ Cupom: '+p.cupom:'',
-'👉 '+p.link
-].filter(Boolean).join('\n'));
-share.target='_blank';share.rel='noopener noreferrer';
-actions.append(go,share);
-}
-inner.append(actions);
-box.append(inner);
-return box;
-}
-function step(){
-const card=rail.querySelector('.card');
-return (card?card.getBoundingClientRect().width:268)+12;
-}
-function paint(){
-rail.replaceChildren();
-if(!visible.length){
-rail.append(node('div','content','Nenhuma oferta disponível.'));
-return;
-}
-const n=visible.length;
-const amount=Math.min(8,n);
-for(let offset=-1;offset<amount;offset++){
-rail.append(card(visible[(cursor+offset+n)%n]));
-}
-rail.style.transition='none';
-rail.style.transform='translate3d('+(-step())+'px,0,0)';
-}
-function rotate(dir){
-if(animating||visible.length<2)return;
-animating=true;
-const amount=step();
-rail.style.transition='transform .45s ease';
-rail.style.transform='translate3d('+(-(dir>0?2:0)*amount)+'px,0,0)';
-setTimeout(()=>{
-cursor=(cursor+dir+visible.length)%visible.length;
-paint();
-animating=false;
-},490);
-}
-function display(){
-visible=all.filter(p=>selected==='Todas'?
-p.tipo!=='sem_oferta':p.loja===selected);
-cursor=0;
-paint();
-$('status').textContent=
-visible.filter(p=>p.tipo!=='sem_oferta').length+
-' ofertas encontradas • '+
-new Set(visible.filter(p=>p.tipo!=='sem_oferta').map(p=>p.loja)).size+
-' lojas com ofertas disponíveis';
-}
-function showFilters(){
-brands.replaceChildren();
-for(const name of ['Todas',...new Set(all.map(p=>p.loja))]){
-const button=node('button','pill',name);
-button.setAttribute('aria-pressed',String(name===selected));
-button.onclick=()=>{
-selected=name;showFilters();display();
-};
-brands.append(button);
-}
-}
-$('brandPrev').onclick=()=>brands.scrollBy({left:-220,behavior:'smooth'});
-$('brandNext').onclick=()=>brands.scrollBy({left:220,behavior:'smooth'});
-$('prev').onclick=()=>rotate(-1);
-$('next').onclick=()=>rotate(1);
-$('pause').onclick=()=>{
-paused=!paused;
-$('pause').textContent=paused?'Continuar':'Pausar';
-};
-let touchX=null;
-viewport.addEventListener('touchstart',e=>{
-if(e.touches.length===1)touchX=e.touches[0].clientX;
+
+$('pausa').textContent=pausado?'Continuar':'Pausar';
+
+let toque=null;
+
+janela.addEventListener('touchstart',e=>{
+ if(e.touches.length===1){
+  toque=e.touches[0].clientX;
+ }
 },{passive:true});
-viewport.addEventListener('touchend',e=>{
-if(touchX===null)return;
-const diff=e.changedTouches[0].clientX-touchX;
-touchX=null;
-if(Math.abs(diff)>38)rotate(diff<0?1:-1);
+
+janela.addEventListener('touchend',e=>{
+ if(toque===null)return;
+
+ const delta=e.changedTouches[0].clientX-toque;
+ toque=null;
+
+ if(Math.abs(delta)>38){
+  mover(delta<0?1:-1);
+ }
 },{passive:true});
+
+window.addEventListener('resize',()=>{
+ if(!animando)desenhar();
+});
+
 setInterval(()=>{
-if(!paused&&!document.hidden&&!viewport.matches(':hover'))rotate(1);
-},AUTO);
-async function refresh(){
-if(busy)return;
-busy=true;
-try{
-const response=await fetch(SOURCE+'?v='+Date.now(),{cache:'no-store'});
-if(!response.ok)throw Error('HTTP '+response.status);
-const data=await response.json();
-if(!Array.isArray(data.cards)||!Array.isArray(data.parceiros)){
-throw Error('Catálogo inválido');
+ if(
+  !pausado&&
+  !document.hidden&&
+  !animando&&
+  !janela.matches(':hover')
+ ){
+  mover(1);
+ }
+},ROTACAO);
+
+async function atualizar(){
+ if(atualizando)return;
+ atualizando=true;
+
+ try{
+  const r=await fetch(
+   CATALOGO+'?t='+Math.floor(Date.now()/INTERVALO),
+   {cache:'no-store'}
+  );
+
+  if(!r.ok)throw Error('HTTP '+r.status);
+
+  const dados=await r.json();
+
+  if(
+   !Array.isArray(dados.cards)||
+   !Array.isArray(dados.parceiros)
+  ){
+   throw Error('Catálogo inválido');
+  }
+
+  const instante=Date.parse(dados.atualizado_em);
+
+  if(
+   !Number.isFinite(instante)||
+   instante>Date.now()+3600000||
+   Date.now()-instante>48*3600000
+  ){
+   throw Error('Catálogo desatualizado');
+  }
+
+  if(ultimaData===dados.atualizado_em)return;
+  ultimaData=dados.atualizado_em;
+
+  detalhes=new Map(
+   dados.parceiros.map(p=>[String(p.mid),p])
+  );
+
+  const nomes=new Map(
+   dados.parceiros.map(p=>[
+    String(p.mid),
+    String(p.loja||'').trim()
+   ])
+  );
+
+  const participantes=new Set(nomes.values());
+
+  const validos=dados.cards
+   .filter(p=>
+    p&&
+    ['produto','cupom','promocao'].includes(p.tipo)&&
+    linkSeguro(p.link)
+   )
+   .map(p=>({
+    ...p,
+    loja:nomes.get(String(p.mid))||
+     String(p.loja||'').trim()
+   }))
+   .filter(p=>participantes.has(p.loja));
+
+  // Intercala as ofertas das diferentes lojas.
+  const grupos=new Map(
+   [...participantes]
+    .filter(Boolean)
+    .map(loja=>[loja,[]])
+  );
+
+  for(const produto of validos){
+   grupos.get(produto.loja).push(produto);
+  }
+
+  todos=[];
+  let continuar=true;
+
+  while(continuar){
+   continuar=false;
+
+   for(const lista of grupos.values()){
+    if(lista.length){
+     todos.push(lista.shift());
+     continuar=true;
+    }
+   }
+  }
+
+  for(const [loja] of grupos){
+   if(!validos.some(p=>p.loja===loja)){
+    const parceiro=dados.parceiros.find(p=>
+     String(p.loja||'').trim()===loja
+    )||{};
+
+    todos.push({
+     loja,
+     mid:parceiro.mid,
+     tipo:'sem_oferta',
+     titulo:'Nenhuma oferta vigente encontrada'
+    });
+   }
+  }
+
+  if(
+   selecionada!=='Todas'&&
+   !todos.some(p=>p.loja===selecionada)
+  ){
+   selecionada='Todas';
+  }
+
+  filtros();
+  exibir();
+
+  $('data').textContent=
+   'Atualizado em '+
+   new Date(instante).toLocaleString('pt-BR',{
+    timeZone:'America/Sao_Paulo'
+   })+
+   ' • Preços sujeitos à confirmação • Links de afiliado';
+
+ }catch(e){
+  if(!todos.length){
+   $('estado').textContent=
+    'Não foi possível consultar as ofertas. Confira a atualização do catálogo.';
+  }
+
+  console.warn('Rakuten — atualização:',e.message);
+
+ }finally{
+  atualizando=false;
+ }
 }
-const date=Date.parse(data.atualizado_em);
-if(!Number.isFinite(date)||Date.now()-date>48*3600000){
-throw Error('Catálogo desatualizado');
-}
-if(updated===data.atualizado_em)return;
-updated=data.atualizado_em;
-partners=new Map(data.parceiros.map(p=>[String(p.mid),p]));
-const known=new Map(data.parceiros.map(p=>[String(p.mid),p.loja]));
-all=data.cards
-.filter(p=>p&&['produto','promocao','cupom'].includes(p.tipo)&&safe(p.link))
-.map(p=>({...p,loja:known.get(String(p.mid))||p.loja}));
-for(const partner of data.parceiros){
-if(!all.some(p=>p.loja===partner.loja)){
-all.push({
-loja:partner.loja,mid:partner.mid,
-tipo:'sem_oferta',titulo:'Nenhuma oferta vigente encontrada'
-});
-}
-}
-showFilters();
-display();
-$('stamp').textContent='Atualizado em '+
-new Date(date).toLocaleString('pt-BR',{
-timeZone:'America/Sao_Paulo'
-})+' • Preços sujeitos à confirmação • Links de afiliado';
-}catch(e){
-$('status').textContent='Não foi possível atualizar as ofertas.';
-console.warn('Rakuten:',e.message);
-}finally{busy=false;}
-}
-refresh();
-setInterval(refresh,REFRESH);
+
+atualizar();
+setInterval(atualizar,INTERVALO);
+
 })();
 </script>
 </body>
