@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-10-28T14:13:00+00:00",
+  "atualizado_em": "2026-10-28T15:08:01+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -723,6 +723,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-2639b9241b13fd3ea84d",
+      "loja": "Ferramentas Kennedy",
+      "tipo": "promocao",
+      "titulo": "Esquenta Black Friday !! Até 60% off em produtos selecionados",
+      "imagem": "https://cdn.lomadee.com.br/offer/ad23ed20-1bde-4fbb-8de5-59e5a9c6200a/banners/imagem%20-%202026-10-28T112207.166.png",
+      "link": "https://lmdee.link/7NEXvYNmZbtr",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-4f7c9e7a31e39a2b5f25",
       "loja": "Friopeças",
       "tipo": "cupom",
@@ -933,20 +947,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-c0ede4a730b7833a7eae",
-      "loja": "Sem Parar",
-      "tipo": "promocao",
-      "titulo": "Sem Parar com 98% OFF de desconto",
-      "imagem": "https://cdn.lomadee.com.br/offer/96faec90-03b8-4056-9a64-422f2cab7e90/banners/Ideal-98off3m-728x90%20%282%29.png",
-      "link": "https://lmdee.link/bltpikIJWdi1",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-10424950003525b55a16",
       "loja": "Sofá na Caixa",
       "tipo": "promocao",
@@ -971,6 +971,20 @@
       "preco_anterior": null,
       "cupom": "LOMADEE12",
       "validade": "2027-01-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-e21dcb4311888ca21b47",
+      "loja": "Super Pro Atacado",
+      "tipo": "promocao",
+      "titulo": "Super Esquenta Black Friday!! Ferramentas Elétricas com até 60% off em produtos selecionados!",
+      "imagem": "https://cdn.lomadee.com.br/offer/b33394d6-6815-4578-affa-9948164b3039/banners/Ferramentas%20El%C3%A9tricas.png",
+      "link": "https://lmdee.link/IOziY3h921Uk",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1311,6 +1325,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-49e2e0fcaf42e1f48500",
+      "loja": "Super Pro Atacado",
+      "tipo": "promocao",
+      "titulo": "Super Esquenta Black Friday! Mais de 5 mil produtos com até 60% off e as melhores condições de pagamento",
+      "imagem": "https://cdn.lomadee.com.br/offer/153f215f-8651-4da8-a16f-5daff65c25bd/banners/Esquenta%20Black%20Friday.png",
+      "link": "https://lmdee.link/UtKxSZm8Mj6I",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-605b7de934fc532cada3",
       "loja": "TeraByte",
       "tipo": "cupom",
@@ -1507,17 +1535,17 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-efe085815a28e045627e",
+      "id": "lp-cdc08742338f712bb676",
       "loja": "LITTLE DUCK",
-      "tipo": "promocao",
-      "titulo": "Mês das crianças: Garanta 10% Off no Pix",
-      "imagem": "https://cdn.lomadee.com.br/offer/8df1f306-2333-48b9-97a8-6e25862a3f58/banners/1%20LD_M%C3%8AS%20DAS%20CRIAN%C3%87AS_HORIZONTAL.png",
-      "link": "https://lmdee.link/XzVNOW141wVF",
-      "preco": null,
-      "preco_anterior": null,
+      "tipo": "produto",
+      "titulo": "150 Bolinhas Transparentes Extras",
+      "imagem": "https://cdn.shopify.com/s/files/1/0566/0298/4497/files/150-bolinhas-transparentes-extras-Imagem-30410523246641.png?v=1787834788",
+      "link": "https://lmdee.link/nba0gMhlZrhf",
+      "preco": 0.72,
+      "preco_anterior": 1.35,
       "cupom": null,
-      "validade": "2026-10-31T02:30:00.000Z",
-      "descricao": "",
+      "validade": null,
+      "descricao": "As 150 Bolinhas Transparentes Extras são perfeitas para complementar piscinas de bolinhas, proporcionando mais diversão e cor ao cantinho das crianças. Produzidas com material seguro e resistente, garantem brincadeiras s",
       "origem": "Lomadee"
     },
     {
@@ -1672,20 +1700,6 @@
       "cupom": null,
       "validade": "2026-11-01T02:30:00.000Z",
       "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lp-cdc08742338f712bb676",
-      "loja": "LITTLE DUCK",
-      "tipo": "produto",
-      "titulo": "150 Bolinhas Transparentes Extras",
-      "imagem": "https://cdn.shopify.com/s/files/1/0566/0298/4497/files/150-bolinhas-transparentes-extras-Imagem-30410523246641.png?v=1787834788",
-      "link": "https://lmdee.link/nba0gMhlZrhf",
-      "preco": 0.72,
-      "preco_anterior": 1.35,
-      "cupom": null,
-      "validade": null,
-      "descricao": "As 150 Bolinhas Transparentes Extras são perfeitas para complementar piscinas de bolinhas, proporcionando mais diversão e cor ao cantinho das crianças. Produzidas com material seguro e resistente, garantem brincadeiras s",
       "origem": "Lomadee"
     },
     {
@@ -1955,20 +1969,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-8c510dc26aaacc584c6c",
-      "loja": "Friopeças",
-      "tipo": "cupom",
-      "titulo": "Cupom de R$ 150,00 em produtos selecionados do link",
-      "imagem": "",
-      "link": "https://lmdee.link/iPigeZbXWxzc",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "QUEROLG150",
-      "validade": "2026-11-01T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-aeb70be9f1bbb2ac1ac4",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -2008,20 +2008,6 @@
       "cupom": null,
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-f831bef0e7a023c1814f",
-      "loja": "Friopeças",
-      "tipo": "cupom",
-      "titulo": "Cupom de R$ 150,00 em produtos selecionados",
-      "imagem": "",
-      "link": "https://lmdee.link/fcnrTCZQhszo",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "VIX150",
-      "validade": "2026-11-01T02:59:59.000Z",
-      "descricao": "",
       "origem": "Lomadee"
     },
     {
@@ -2331,25 +2317,11 @@
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
       "origem": "Lomadee"
-    },
-    {
-      "id": "lp-bf6dbec72bbcbad989d2",
-      "loja": "ECO FLAME GARDEN",
-      "tipo": "produto",
-      "titulo": "2 Espreguiçadeiras Casal Duo",
-      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/ecoflame_site_produtos_2-duo_verde.webp?v=1750962143",
-      "link": "https://lmdee.link/pl8vQq0o80vR",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
     }
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 129,
+    "com_ofertas": 127,
     "marcas": 134,
     "campanhas": 120,
     "produtos": 60,
