@@ -7,6 +7,7 @@ import { fetch } from 'wix-fetch';
 import wixData from 'wix-data';
 
 const CATALOGO_URL = 'https://raw.githubusercontent.com/solgarimpa/sol-garimpa-afiliados/main/docs/paginas_ofertas.json';
+const CATALOGO_AWIN_ANTIGO = 'https://solgarimpa.github.io/sol-garimpa-afiliados/ofertas.json';
 const PAGINA_MODELO = 'oferta-page';
 const SITE_URL = 'https://www.ofertaspravc.com.br';
 const VALIDADE_CATALOGO_HORAS = 72;
@@ -27,6 +28,19 @@ function httpsSeguro(valor) {
   }
 }
 
+// Mantém apenas os domínios de rastreamento que as integrações utilizam.
+function linkAfiliado(valor, rede) {
+  const url = httpsSeguro(valor);
+  if (!url) return '';
+  const host = new URL(url).hostname.toLowerCase();
+  const dominios = {
+    Awin: ['awin1.com', 'www.awin1.com', 'awin.com', 'www.awin.com'],
+    Rakuten: ['click.linksynergy.com'],
+    Lomadee: ['lmdee.link']
+  };
+  return (dominios[rede] || []).includes(host) ? url : '';
+}
+
 function valorBRL(valor) {
   return typeof valor === 'number' && Number.isFinite(valor) && valor > 0 ? valor : null;
 }
@@ -40,7 +54,7 @@ function expirou(valor) {
 function produtoNormalizado(dados, slug) {
   if (!dados || dados.slug !== slug || !dados.titulo || !dados.loja) return null;
   if (expirou(dados.validade)) return null;
-  const link = httpsSeguro(dados.link);
+  const link = linkAfiliado(dados.link, dados.rede);
   if (!link) return null;
   const moeda = texto(dados.moeda || 'BRL', 3).toUpperCase();
   const preco = moeda === 'BRL' ? valorBRL(dados.preco) : null;
@@ -77,12 +91,12 @@ async function obterCatalogo() {
 
 async function buscarAwinNoWix(slug) {
   const id = slug.slice(5);
-  if (!/^([0-9a-f]{8}-){1}[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/.test(id)) return null;
+  if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/.test(id)) return null;
   const item = await wixData.get('Ofertas', id, { suppressAuth: true });
   if (!item || item.active !== true ||
       String(item.source || '').toLowerCase() !== 'awin') return null;
   if (expirou(item.expiresAt)) return null;
-  const link = httpsSeguro(item.affiliateUrl);
+  const link = linkAfiliado(item.affiliateUrl, 'Awin');
   if (!link) return null;
   return produtoNormalizado({
     slug,
@@ -97,6 +111,25 @@ async function buscarAwinNoWix(slug) {
     validade: item.expiresAt || null,
     link
   }, slug);
+}
+
+// Compatibilidade: mantém URLs antigas da Awin enquanto houver produtos no feed anterior.
+async function buscarAwinLegado(slug) {
+  const resposta = await fetch(CATALOGO_AWIN_ANTIGO, { method: 'get' });
+  if (!resposta.ok) return null;
+  const catalogo = await resposta.json();
+  if (!catalogo || !Array.isArray(catalogo.cards)) return null;
+  const atualizado = Date.parse(catalogo.atualizado_em);
+  if (!Number.isFinite(atualizado) ||
+      Date.now() - atualizado > VALIDADE_CATALOGO_HORAS * 3600000 ||
+      atualizado > Date.now() + 3600000) return null;
+  const registro = catalogo.cards.find(
+    p => p.slug === slug && p.tipo !== 'sem_oferta'
+  );
+  return produtoNormalizado(
+    registro ? { ...registro, rede: 'Awin' } : null,
+    slug
+  );
 }
 
 function criarResposta(produto, sugestoes = []) {
@@ -133,7 +166,8 @@ export async function oferta_Router(request) {
   }
   try {
     if (slug.startsWith('awin-')) {
-      const produto = await buscarAwinNoWix(slug);
+      let produto = await buscarAwinNoWix(slug);
+      if (!produto) produto = await buscarAwinLegado(slug);
       return produto ? criarResposta(produto) : notFound();
     }
     const catalogo = await obterCatalogo();
