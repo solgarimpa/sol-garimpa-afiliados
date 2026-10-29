@@ -1,0 +1,43 @@
+
+name: SOL GARIMPA - Paginas de Ofertas
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 */3 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sol-garimpa-paginas-ofertas
+  cancel-in-progress: false
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Gerar catalogo
+        run: python scripts/build_paginas_ofertas.py
+
+      - name: Publicar catalogo
+        run: |
+          git config user.name 'sol-garimpa-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add docs/paginas_ofertas.json
+
+          if ! git diff --cached --quiet; then
+            git commit -m 'Atualiza paginas de ofertas'
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
