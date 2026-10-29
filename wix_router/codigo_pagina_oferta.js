@@ -1,20 +1,27 @@
-// SOL GARIMPA — código da página Router: oferta-page
-// IDs dos elementos a criar no Wix Editor, veja PASSO_A_PASSO.md
+// SOL GARIMPA — Código da Router Page "oferta-page" no Wix Editor.
+// Elementos necessários: tituloProduto, nomeLoja, fotoProduto,
+// precoAtual, precoAnterior, textoCupom, descricaoProduto,
+// btnComprar, btnWhatsapp, btnVoltar, observacao.
 import wixWindowFrontend from 'wix-window-frontend';
 
-const reais = valor => Number(valor).toLocaleString('pt-BR', {style:'currency',currency:'BRL'});
-const textoSeguro = texto => String(texto || '').trim();
+function moeda(valor) {
+  return Number(valor).toLocaleString('pt-BR', {
+    style: 'currency',
+    currency: 'BRL'
+  });
+}
 
 $w.onReady(function () {
   const p = wixWindowFrontend.getRouterData();
-  if (!p || !p.link || !p.titulo) {
+  if (!p || !p.titulo || !p.link) {
     $w('#tituloProduto').text = 'Oferta indisponível';
     $w('#btnComprar').hide();
     $w('#btnWhatsapp').hide();
     return;
   }
+
   $w('#tituloProduto').text = p.titulo;
-  $w('#nomeLoja').text = 'Loja parceira: ' + p.loja;
+  $w('#nomeLoja').text = p.loja + (p.rede ? ' • ' + p.rede : '');
 
   if (p.imagem && p.imagem.startsWith('https://')) {
     $w('#fotoProduto').src = p.imagem;
@@ -22,36 +29,55 @@ $w.onReady(function () {
   } else {
     $w('#fotoProduto').collapse();
   }
-  if (p.preco !== null && Number.isFinite(p.preco)) {
-    $w('#precoAtual').text = reais(p.preco);
+
+  if (typeof p.preco === 'number' && p.preco > 0) {
+    $w('#precoAtual').text = moeda(p.preco);
   } else {
     $w('#precoAtual').text = 'Confira o preço na loja';
   }
-  if (p.preco_anterior && p.preco_anterior > p.preco) {
-    $w('#precoAnterior').text = 'Antes: ' + reais(p.preco_anterior);
+
+  if (typeof p.preco_anterior === 'number' &&
+      typeof p.preco === 'number' &&
+      p.preco_anterior > p.preco) {
+    $w('#precoAnterior').text = 'Antes: ' + moeda(p.preco_anterior);
   } else {
     $w('#precoAnterior').collapse();
   }
+
   if (p.cupom) {
     $w('#textoCupom').text = 'Cupom: ' + p.cupom;
   } else {
     $w('#textoCupom').collapse();
   }
+
   if (p.descricao) {
-    $w('#descricaoProduto').text = textoSeguro(p.descricao);
+    $w('#descricaoProduto').text = p.descricao;
   } else {
     $w('#descricaoProduto').collapse();
   }
-  $w('#btnComprar').label = 'IR PARA A LOJA';
-  $w('#btnComprar').link = p.link; // Link Awin original: mantém comissão/rastreamento
 
-  const partes = ['🛍️ *OFERTA SOL GARIMPA*', '🏬 ' + p.loja, '✨ ' + p.titulo];
-  if (p.preco !== null && Number.isFinite(p.preco)) partes.push('💰 ' + reais(p.preco));
+  $w('#btnComprar').label = 'IR PARA A LOJA';
+  $w('#btnComprar').link = p.link; // Preserva o link rastreado da rede.
+
+  const partes = [
+    '🛍️ *OFERTA SOL GARIMPA*',
+    '🏬 ' + p.loja,
+    '✨ ' + p.titulo
+  ];
+  if (typeof p.preco === 'number' && p.preco > 0) {
+    partes.push('💰 ' + moeda(p.preco));
+  }
   if (p.cupom) partes.push('🎟️ Cupom: ' + p.cupom);
   partes.push('👉 Confira: ' + p.url_sol_garimpa);
-  partes.push('⚠️ Preço e disponibilidade devem ser conferidos na loja.');
+  partes.push('⚠️ Preço, condições e estoque devem ser confirmados na loja.');
+
   $w('#btnWhatsapp').label = 'COMPARTILHAR NO WHATSAPP';
-  $w('#btnWhatsapp').link = 'https://wa.me/?text=' + encodeURIComponent(partes.join('\n'));
+  $w('#btnWhatsapp').link =
+    'https://wa.me/?text=' + encodeURIComponent(partes.join('\n'));
+
+  $w('#btnVoltar').label = 'VER MAIS OFERTAS';
   $w('#btnVoltar').link = 'https://www.ofertaspravc.com.br/';
-  $w('#observacao').text = 'Publicidade • Podemos receber comissão. Os valores e estoques são definidos pela loja parceira e podem mudar.';
+  $w('#observacao').text =
+    'Publicidade • Podemos receber comissão pelas compras elegíveis. ' +
+    'Preços e disponibilidade são definidos pelas lojas parceiras.';
 });
