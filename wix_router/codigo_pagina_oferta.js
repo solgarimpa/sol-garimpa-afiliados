@@ -2,6 +2,8 @@
 // Elementos necessários: tituloProduto, nomeLoja, fotoProduto,
 // precoAtual, precoAnterior, textoCupom, descricaoProduto,
 // btnComprar, btnWhatsapp, btnVoltar, observacao.
+// Feed adicional: feedOfertas (repetidor), feedImagem, feedTitulo, feedPreco,
+// feedLoja, feedAbrir (todos os IDs internos dentro de um item do repetidor).
 import wixWindowFrontend from 'wix-window-frontend';
 
 function moeda(valor) {
@@ -80,4 +82,27 @@ $w.onReady(function () {
   $w('#observacao').text =
     'Publicidade • Podemos receber comissão pelas compras elegíveis. ' +
     'Preços e disponibilidade são definidos pelas lojas parceiras.';
+  // Feed vertical de ofertas: o Wix replica o modelo de cada item.
+  // IMPORTANTE: onItemReady antes da propriedade data.
+  const feed = $w('#feedOfertas');
+  feed.onItemReady(($item, oferta) => {
+    $item('#feedTitulo').text = oferta.titulo;
+    $item('#feedLoja').text = oferta.loja + (oferta.rede ? ' • ' + oferta.rede : '');
+    $item('#feedPreco').text =
+      typeof oferta.preco === 'number' && oferta.preco > 0
+        ? moeda(oferta.preco)
+        : 'Confira o preço na loja';
+    $item('#feedImagem').src = oferta.imagem;
+    $item('#feedImagem').alt = oferta.titulo;
+    $item('#feedAbrir').label = 'VER OFERTA';
+    $item('#feedAbrir').link = oferta.url;
+  });
+
+  const ofertas = Array.isArray(p.sugestoes) ? p.sugestoes : [];
+  const itens = ofertas
+    .filter(x => x && x._id && x.imagem && x.titulo && x.url)
+    .slice(0, 12);
+  feed.data = itens;
+  if (!itens.length) feed.collapse();
+
 });
