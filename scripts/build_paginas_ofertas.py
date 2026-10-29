@@ -11,7 +11,7 @@ from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "docs" / "paginas_ofertas.json"
-LIMITE = int(os.getenv("SG_MAX_POR_REDE", "300"))
+LIMITE = max(1, min(1000, int(os.getenv("SG_MAX_POR_REDE", "300"))))
 
 FONTES = {
     "Awin": ROOT / "docs" / "ofertas.json",
@@ -92,8 +92,10 @@ def normalizar(rede, item, agora):
     ).hexdigest()[:20]
     slug = rede.lower() + "-" + codigo
 
-    valor = preco(item.get("preco"))
-    anterior = preco(item.get("preco_anterior"))
+    # Não apresentar preços de outra moeda como reais.
+    moeda = texto(item.get("moeda") or "BRL", 3).upper()
+    valor = preco(item.get("preco")) if moeda == "BRL" else None
+    anterior = preco(item.get("preco_anterior")) if moeda == "BRL" else None
 
     return {
         "slug": slug,
@@ -101,6 +103,7 @@ def normalizar(rede, item, agora):
         "tipo": item["tipo"],
         "titulo": titulo,
         "loja": loja,
+        "moeda": moeda,
         "imagem": url_segura(item.get("imagem")),
         "preco": valor,
         "preco_anterior": (
