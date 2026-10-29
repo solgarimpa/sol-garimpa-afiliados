@@ -3,6 +3,14 @@ name: SOL GARIMPA - Paginas de Ofertas
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/ofertas.json'
+      - 'docs/rakuten/ofertas.json'
+      - 'docs/lomadee/ofertas.json'
+      - 'scripts/build_paginas_ofertas.py'
+      - '.github/workflows/atualizar_paginas_ofertas.yml'
   pull_request:
     paths:
       - 'scripts/build_paginas_ofertas.py'
