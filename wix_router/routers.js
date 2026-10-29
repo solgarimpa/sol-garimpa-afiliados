@@ -140,7 +140,7 @@ function criarResposta(produto, sugestoes = []) {
     { property: 'og:title', content: titulo },
     { property: 'og:description', content: resumo },
     { property: 'og:url', content: produto.url_sol_garimpa },
-    { property: 'og:type', content: 'product' }
+    { property: 'og:type', content: 'website' }
   ];
   if (produto.imagem) tags.push({ property: 'og:image', content: produto.imagem });
   const head = {
