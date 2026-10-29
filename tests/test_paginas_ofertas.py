@@ -86,5 +86,50 @@ class TestPaginasOfertas(unittest.TestCase):
             self.assertEqual(dados["redes"]["Lomadee"], 1)
 
 
+    def test_preserva_link_anterior_sem_preco_desatualizado(self):
+        with tempfile.TemporaryDirectory() as pasta:
+            destino = Path(pasta) / "saida.json"
+            anterior = mod.normalizar(
+                "Rakuten", self.card(id="produto-antigo"), self.agora
+            )
+            anterior.pop("ultima_confirmacao")
+            destino.write_text(json.dumps({
+                "gerado_em": (self.agora - timedelta(hours=2)).isoformat(),
+                "cards": [anterior],
+            }), encoding="utf-8")
+            with patch.object(mod, "OUTPUT", destino):
+                mantidas = mod.preservar_historico([], self.agora)
+            self.assertEqual(len(mantidas), 1)
+            self.assertTrue(mantidas[0]["historico"])
+            self.assertEqual(mantidas[0]["link"], anterior["link"])
+            self.assertIsNone(mantidas[0]["preco"])
+            self.assertIsNone(mantidas[0]["preco_anterior"])
+            self.assertIn("não estão confirmados", mantidas[0]["descricao"])
+
+    def test_remove_historico_antigo_e_expirado(self):
+        with tempfile.TemporaryDirectory() as pasta:
+            destino = Path(pasta) / "saida.json"
+            muito_antigo = mod.normalizar(
+                "Rakuten", self.card(id="muito-antigo"), self.agora
+            )
+            muito_antigo["ultima_confirmacao"] = (
+                self.agora - timedelta(days=20)
+            ).isoformat()
+            expirado = mod.normalizar(
+                "Lomadee", self.card(id="vencido"), self.agora
+            )
+            expirado["validade"] = (
+                self.agora - timedelta(minutes=5)
+            ).isoformat()
+            destino.write_text(json.dumps({
+                "gerado_em": self.agora.isoformat(),
+                "cards": [muito_antigo, expirado],
+            }), encoding="utf-8")
+            with patch.object(mod, "OUTPUT", destino):
+                mantidas = mod.preservar_historico([], self.agora)
+            self.assertEqual(mantidas, [])
+
+
+
 if __name__ == "__main__":
     unittest.main()

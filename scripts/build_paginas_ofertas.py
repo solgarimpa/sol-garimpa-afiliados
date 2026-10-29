@@ -12,6 +12,9 @@ from urllib.parse import urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "docs" / "paginas_ofertas.json"
 LIMITE = max(1, min(1000, int(os.getenv("SG_MAX_POR_REDE", "300"))))
+# Manter temporariamente páginas já compartilhadas, sem divulgar preço não confirmado.
+MAX_HISTORICO = 1500
+DIAS_HISTORICO = 14
 
 FONTES = {
     "Awin": ROOT / "docs" / "ofertas.json",
@@ -99,6 +102,8 @@ def normalizar(rede, item, agora):
 
     return {
         "slug": slug,
+        "ultima_confirmacao": agora.isoformat(),
+        "historico": False,
         "rede": rede,
         "tipo": item["tipo"],
         "titulo": titulo,
@@ -124,6 +129,65 @@ def normalizar(rede, item, agora):
             + slug
         )
     }
+
+def preservar_historico(atuais, agora):
+    """Evita 404 quando uma oferta sai da seleção, sem manter preço antigo."""
+    if not OUTPUT.exists():
+        return []
+    try:
+        anterior = json.loads(OUTPUT.read_text(encoding="utf-8"))
+        if not isinstance(anterior, dict):
+            return []
+        registros = anterior.get("cards")
+        if not isinstance(registros, list):
+            return []
+    except (OSError, ValueError, TypeError):
+        return []
+
+    slugs_atuais = {p["slug"] for p in atuais}
+    historico = []
+    for antigo in registros:
+        if not isinstance(antigo, dict):
+            continue
+        slug = texto(antigo.get("slug"), 85)
+        rede = antigo.get("rede")
+        confirmado = data_hora(
+            antigo.get("ultima_confirmacao") or anterior.get("gerado_em")
+        )
+        expiracao = data_hora(antigo.get("validade"))
+        if (
+            not slug or slug in slugs_atuais
+            or rede not in FONTES
+            or not slug.startswith(rede.lower() + "-")
+            or not antigo.get("titulo")
+            or not antigo.get("loja")
+            or not url_segura(antigo.get("link"))
+            or not confirmado
+            or confirmado > agora
+            or (agora - confirmado).total_seconds() > DIAS_HISTORICO * 86400
+            or (antigo.get("validade") and not expiracao)
+            or (expiracao and expiracao <= agora)
+        ):
+            continue
+
+        seguro = dict(antigo)
+        seguro.update({
+            "historico": True,
+            "ultima_confirmacao": confirmado.isoformat(),
+            "preco": None,
+            "preco_anterior": None,
+            "cupom": "",
+            "descricao": (
+                "Esta oferta não apareceu na última atualização da SOL GARIMPA. "
+                "O preço e a disponibilidade não estão confirmados. "
+                "Confira as condições atuais diretamente na loja parceira."
+            ),
+        })
+        historico.append(seguro)
+
+    historico.sort(key=lambda p: p["ultima_confirmacao"], reverse=True)
+    return historico[:MAX_HISTORICO]
+
 
 def gerar():
     agora = datetime.now(timezone.utc)
@@ -172,11 +236,14 @@ def gerar():
         except (OSError, ValueError, TypeError):
             status[rede] = "erro_na_fonte"
 
+    historico = preservar_historico(ofertas, agora)
     resultado = {
         "gerado_em": agora.isoformat(),
-        "total": len(ofertas),
+        "total": len(ofertas) + len(historico),
+        "ativas": len(ofertas),
+        "historicas": len(historico),
         "redes": status,
-        "cards": ofertas
+        "cards": ofertas + historico,
     }
 
     OUTPUT.parent.mkdir(
