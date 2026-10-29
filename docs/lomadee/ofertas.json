@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-10-29T02:08:32+00:00",
+  "atualizado_em": "2026-10-29T03:01:58+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -935,20 +935,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-985fc5085d221ea63419",
-      "loja": "PromoFarma",
-      "tipo": "promocao",
-      "titulo": "A Promofarma está com uma campanha de aumento de CPA para produtos de suas marcas próprias, contemplando as seguintes marcas : Vivacitá, Vivacitá Gold, Dermacitá ,Dermacitá Baby, C",
-      "imagem": "",
-      "link": "https://lmdee.link/lUcyLABiN0hZ",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-10-29T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-f7de0ae70b64cfab6f59",
       "loja": "Sawary",
       "tipo": "promocao",
@@ -959,20 +945,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-49585bae84cda7d6d00f",
-      "loja": "Shopee",
-      "tipo": "cupom",
-      "titulo": "R$15 OFF para compras acima de R$75 ( Regras: Todos usuários e Volume: 100)",
-      "imagem": "",
-      "link": "https://lmdee.link/NNYJIyZgIHYZ",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "L0M4DEE2810SHOPB",
-      "validade": "2026-10-29T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1043,20 +1015,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-ffe0c2b01dba92c38990",
-      "loja": "Vinícola Jolimont",
-      "tipo": "promocao",
-      "titulo": "PRÉ BLACK FRIDAY - R$ 599 = Brindes. R$ 899 + 10%OFF = Brindes. Brindes: Corta Gotas + Saca Rolhas + Tampa Capacete + Kit Canudo + 2 Taças",
-      "imagem": "https://cdn.lomadee.com.br/offer/a07148dc-89f3-4315-a97c-1ad8309b6d13/banners/Lomadee%201.png",
-      "link": "https://lmdee.link/eB93eY7ToY1t",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-10-29T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1719,6 +1677,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-43bafea200a862bb0c74",
+      "loja": "Friopeças",
+      "tipo": "promocao",
+      "titulo": "Produtos selecionados Frio Peças com cupons ativos",
+      "imagem": "https://cdn.lomadee.com.br/offer/6ec257ed-59d1-42dc-b9f3-f92915c43b33/banners/Visualiza%C3%A7%C3%A3o%20da%20imagem%20%2823%29.png",
+      "link": "https://lmdee.link/PQfNR2uXZIXy",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-32cfbd3a4e988315c1d3",
       "loja": "Maria Valentina",
       "tipo": "promocao",
@@ -1803,6 +1775,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-aa3540bb0987790b7a64",
+      "loja": "Friopeças",
+      "tipo": "cupom",
+      "titulo": "Cupom de R$ 300,00 em produtos selecionados do link",
+      "imagem": "",
+      "link": "https://lmdee.link/CbSuMmHmc796",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "ALTAMIDEA300",
+      "validade": "2026-11-01T02:59:59.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-2fbebfaa5d37fe66de12",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -1856,6 +1842,20 @@
       "cupom": null,
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-6e6842f3f6d9dc4e34b3",
+      "loja": "Friopeças",
+      "tipo": "cupom",
+      "titulo": "Cupom de R$ 300,00 em produtos selecionados do link",
+      "imagem": "",
+      "link": "https://lmdee.link/yRfZXgoChyfZ",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "ALTALG300",
+      "validade": "2026-11-01T02:59:59.000Z",
+      "descricao": "",
       "origem": "Lomadee"
     },
     {
