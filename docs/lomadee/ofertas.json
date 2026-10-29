@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-10-29T17:09:14+00:00",
+  "atualizado_em": "2026-10-29T18:00:48+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -645,12 +645,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-79926791e90d333c50bd",
+      "id": "lc-dd882ba3c03d487126e7",
       "loja": "Colorstone",
       "tipo": "promocao",
-      "titulo": "Achadinhos até R$99,99",
+      "titulo": "Esquenta Black: Descontos e até 12x",
       "imagem": "",
-      "link": "https://lmdee.link/RkrGwcMkwrw1",
+      "link": "https://lmdee.link/wUHAiYNHzmAU",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -669,6 +669,20 @@
       "preco_anterior": null,
       "cupom": "BLACK35",
       "validade": "2026-12-11T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-7e79b337e1d12a26ceeb",
+      "loja": "Dona Coelha",
+      "tipo": "promocao",
+      "titulo": "Promoções e Descontos: vibradores, cosméticos e acessórios",
+      "imagem": "",
+      "link": "https://lmdee.link/VKhMohCmd5wk",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -813,20 +827,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-be128ff5c50c83246333",
-      "loja": "Lojão dos Esportes",
-      "tipo": "cupom",
-      "titulo": "Cupom de 15% de desconto em produtos selecionados",
-      "imagem": "",
-      "link": "https://lmdee.link/ESl848jyvcIW",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "PROMO15",
-      "validade": "2026-11-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-319d2f8c9df2083b0f76",
       "loja": "Líquido",
       "tipo": "cupom",
@@ -837,6 +837,20 @@
       "preco_anterior": null,
       "cupom": "LOMADEE10",
       "validade": "2027-01-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-6d87caf5dc613e875d8e",
+      "loja": "Mais Mu",
+      "tipo": "promocao",
+      "titulo": "Favoritos com até 40% OFF!",
+      "imagem": "https://cdn.lomadee.com.br/offer/d60de480-0cfc-4216-b260-f8057c8519ba/banners/Carrossel%201%20%281%29.png",
+      "link": "https://lmdee.link/VEmSn84Ak1fQ",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1023,6 +1037,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-e21e37518dc1a63274ad",
+      "loja": "WebBar",
+      "tipo": "promocao",
+      "titulo": "Holloween Webbar: os preços vão te assustar",
+      "imagem": "",
+      "link": "https://lmdee.link/RGAA0KH1WthJ",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-694a1bf97451808bb959",
       "loja": "Xiaomi Brasil",
       "tipo": "promocao",
@@ -1121,12 +1149,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-551a54a40009924ef67b",
+      "id": "lc-79926791e90d333c50bd",
       "loja": "Colorstone",
       "tipo": "promocao",
-      "titulo": "Descontão - Linha Bambu",
+      "titulo": "Achadinhos até R$99,99",
       "imagem": "",
-      "link": "https://lmdee.link/YBAdILsoZlbm",
+      "link": "https://lmdee.link/RkrGwcMkwrw1",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1429,12 +1457,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-7b844533920b3dad95c9",
+      "id": "lc-551a54a40009924ef67b",
       "loja": "Colorstone",
       "tipo": "promocao",
-      "titulo": "25%Off Color Stone",
+      "titulo": "Descontão - Linha Bambu",
       "imagem": "",
-      "link": "https://lmdee.link/Ysd7bnrMwdmo",
+      "link": "https://lmdee.link/YBAdILsoZlbm",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1653,6 +1681,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-7b844533920b3dad95c9",
+      "loja": "Colorstone",
+      "tipo": "promocao",
+      "titulo": "25%Off Color Stone",
+      "imagem": "",
+      "link": "https://lmdee.link/Ysd7bnrMwdmo",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lp-eb35fd6840641a14b2bd",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
@@ -1677,20 +1719,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-43bafea200a862bb0c74",
-      "loja": "Friopeças",
-      "tipo": "promocao",
-      "titulo": "Produtos selecionados Frio Peças com cupons ativos",
-      "imagem": "https://cdn.lomadee.com.br/offer/6ec257ed-59d1-42dc-b9f3-f92915c43b33/banners/Visualiza%C3%A7%C3%A3o%20da%20imagem%20%2823%29.png",
-      "link": "https://lmdee.link/PQfNR2uXZIXy",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1779,20 +1807,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-aa3540bb0987790b7a64",
-      "loja": "Friopeças",
-      "tipo": "cupom",
-      "titulo": "Cupom de R$ 300,00 em produtos selecionados do link",
-      "imagem": "",
-      "link": "https://lmdee.link/CbSuMmHmc796",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "ALTAMIDEA300",
-      "validade": "2026-11-01T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-2fbebfaa5d37fe66de12",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -1846,20 +1860,6 @@
       "cupom": null,
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-6e6842f3f6d9dc4e34b3",
-      "loja": "Friopeças",
-      "tipo": "cupom",
-      "titulo": "Cupom de R$ 300,00 em produtos selecionados do link",
-      "imagem": "",
-      "link": "https://lmdee.link/yRfZXgoChyfZ",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "ALTALG300",
-      "validade": "2026-11-01T02:59:59.000Z",
-      "descricao": "",
       "origem": "Lomadee"
     },
     {
