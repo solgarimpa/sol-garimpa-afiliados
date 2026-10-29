@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-10-29T13:18:29+00:00",
+  "atualizado_em": "2026-10-29T14:16:55+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -17,10 +17,6 @@
     {
       "id": "0eac9aa6-184f-4166-a25e-1b71f716ce22",
       "loja": "FATOR 5"
-    },
-    {
-      "id": "1ba96890-8d3b-45d6-8e55-247bf62f6b4e",
-      "loja": "Pneunet"
     },
     {
       "id": "07365f74-02b7-481f-bb71-98a4929240b6",
@@ -79,6 +75,10 @@
       "loja": "Sofá na Caixa"
     },
     {
+      "id": "10e724d4-c30e-4d5a-993d-5d65efd1099e",
+      "loja": "Sestini"
+    },
+    {
       "id": "124df9f6-2449-4bf5-ae80-dfc1fac6d46a",
       "loja": "Shopee"
     },
@@ -111,6 +111,10 @@
       "loja": "Continental Brasil"
     },
     {
+      "id": "1ba96890-8d3b-45d6-8e55-247bf62f6b4e",
+      "loja": "Pneunet"
+    },
+    {
       "id": "304e46ab-9e6f-462d-87e7-9afad02997aa",
       "loja": "BioVittare Farmácia de Manipulação"
     },
@@ -141,10 +145,6 @@
     {
       "id": "20b5cefc-3f15-4d49-a046-ef56904ed270",
       "loja": "AmoKarité"
-    },
-    {
-      "id": "37eb2500-9232-4491-9ab1-e1880025f7e3",
-      "loja": "Revest Acabamentos"
     },
     {
       "id": "33ff67b5-7c9b-4af7-82a1-f4b7445e59f9",
@@ -219,6 +219,10 @@
       "loja": "Bradesco Saúde"
     },
     {
+      "id": "37eb2500-9232-4491-9ab1-e1880025f7e3",
+      "loja": "Revest Acabamentos"
+    },
+    {
       "id": "392fe765-2ba9-47b5-8b41-d2540d6c24b2",
       "loja": "Anhanguera Ferramentas"
     },
@@ -233,10 +237,6 @@
     {
       "id": "53d73adc-5131-4adc-98d2-181706347a09",
       "loja": "eles.®"
-    },
-    {
-      "id": "784b9d36-c373-4bf3-86d4-b1ca859e1ebe",
-      "loja": "Vittal Calçados"
     },
     {
       "id": "6fe8dae4-a946-4c32-8142-18de9ac8b608",
@@ -307,8 +307,8 @@
       "loja": "Ortope"
     },
     {
-      "id": "a13dab7d-c16d-4de9-a70a-8181cd7c6e49",
-      "loja": "Colorstone"
+      "id": "784b9d36-c373-4bf3-86d4-b1ca859e1ebe",
+      "loja": "Vittal Calçados"
     },
     {
       "id": "9ece9607-ed88-4c25-80e5-1d079f2b444c",
@@ -333,10 +333,6 @@
     {
       "id": "bb109aaa-cf69-45ba-8d0f-c3feb6fe8997",
       "loja": "Gazin"
-    },
-    {
-      "id": "c364d4e3-56e2-4da9-a6ea-195716da559a",
-      "loja": "Malwee"
     },
     {
       "id": "b08af64e-f7bd-434c-b0ac-6baec265f9fc",
@@ -387,6 +383,10 @@
       "loja": "Maria Valentina"
     },
     {
+      "id": "a13dab7d-c16d-4de9-a70a-8181cd7c6e49",
+      "loja": "Colorstone"
+    },
+    {
       "id": "c0e3dfb9-f402-4267-940d-ae2c4f06b421",
       "loja": "Zinco"
     },
@@ -431,16 +431,16 @@
       "loja": "Toymania"
     },
     {
+      "id": "c364d4e3-56e2-4da9-a6ea-195716da559a",
+      "loja": "Malwee"
+    },
+    {
       "id": "d855f505-7e26-4961-a182-c2139aeadd2c",
       "loja": "Drogasmil"
     },
     {
       "id": "df3a5d1f-150c-4ce8-9b98-cf85dad06b6d",
       "loja": "Honor"
-    },
-    {
-      "id": "e1d43df5-8c98-4f7a-9f75-e507ecbd649c",
-      "loja": "Xiaomi Brasil"
     },
     {
       "id": "e198615b-4c17-4180-b06f-43376f162714",
@@ -493,6 +493,10 @@
     {
       "id": "f31e32be-c116-4739-85a3-43f85681b237",
       "loja": "Móveis Carraro"
+    },
+    {
+      "id": "e1d43df5-8c98-4f7a-9f75-e507ecbd649c",
+      "loja": "Xiaomi Brasil"
     },
     {
       "id": "ecd9089c-0147-41aa-b974-bdfbf220a3d4",
@@ -2282,7 +2286,7 @@
   "status": {
     "integracao": "api_oficial",
     "com_ofertas": 125,
-    "marcas": 131,
+    "marcas": 132,
     "campanhas": 120,
     "produtos": 60,
     "links_solicitados": 45,
