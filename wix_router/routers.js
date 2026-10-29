@@ -132,6 +132,40 @@ async function buscarAwinLegado(slug) {
   );
 }
 
+// Seleciona ofertas com foto, link rastreado e prazo válido para o feed.
+// Prioriza a mesma loja e depois diversifica as lojas.
+function montarSugestoes(catalogo, slug, lojaAtual) {
+  if (!catalogo || !Array.isArray(catalogo.cards)) return [];
+  const validas = catalogo.cards
+    .filter(p => p && p.slug !== slug && p.imagem && !expirou(p.validade))
+    .map(p => produtoNormalizado(p, p.slug))
+    .filter(p => p && p.imagem);
+  const mesmaLoja = validas.filter(p => p.loja === lojaAtual).slice(0, 4);
+  const outras = validas.filter(p => p.loja !== lojaAtual);
+  const escolhidas = [...mesmaLoja];
+  const lojas = new Set(mesmaLoja.map(p => p.loja));
+  for (const p of outras) {
+    if (escolhidas.length >= 12) break;
+    if (lojas.has(p.loja)) continue;
+    escolhidas.push(p);
+    lojas.add(p.loja);
+  }
+  for (const p of outras) {
+    if (escolhidas.length >= 12) break;
+    if (escolhidas.some(x => x.url_sol_garimpa === p.url_sol_garimpa)) continue;
+    escolhidas.push(p);
+  }
+  return escolhidas.map(p => ({
+    _id: p.url_sol_garimpa.split('/').pop(),
+    titulo: p.titulo,
+    loja: p.loja,
+    rede: p.rede,
+    imagem: p.imagem,
+    preco: p.preco,
+    url: p.url_sol_garimpa
+  }));
+}
+
 function criarResposta(produto, sugestoes = []) {
   const titulo = (produto.titulo + ' | ' + produto.loja + ' | SOL GARIMPA').slice(0, 160);
   const resumo = (produto.descricao || ('Confira esta oferta da ' + produto.loja +
@@ -168,22 +202,21 @@ export async function oferta_Router(request) {
     if (slug.startsWith('awin-')) {
       let produto = await buscarAwinNoWix(slug);
       if (!produto) produto = await buscarAwinLegado(slug);
-      return produto ? criarResposta(produto) : notFound();
+      if (!produto) return notFound();
+      let sugestoes = [];
+      try {
+        sugestoes = montarSugestoes(await obterCatalogo(), slug, produto.loja);
+      } catch (erroCatalogo) {
+        console.warn('SOL GARIMPA: sem feed relacionado para Awin', String(erroCatalogo));
+      }
+      return criarResposta(produto, sugestoes);
     }
     const catalogo = await obterCatalogo();
     const registro = catalogo.cards.find(p => p.slug === slug);
     const produto = produtoNormalizado(registro, slug);
     if (!produto) return notFound();
 
-    const sugestoes = catalogo.cards
-      .filter(p => p.slug !== slug && p.loja === produto.loja && !expirou(p.validade))
-      .slice(0, 4)
-      .map(p => ({
-        titulo: texto(p.titulo, 120),
-        imagem: httpsSeguro(p.imagem),
-        preco: valorBRL(p.preco),
-        url: SITE_URL + '/oferta/' + p.slug
-      }));
+    const sugestoes = montarSugestoes(catalogo, slug, produto.loja);
     return criarResposta(produto, sugestoes);
   } catch (erro) {
     console.error('SOL GARIMPA: erro ao abrir oferta', String(erro));
