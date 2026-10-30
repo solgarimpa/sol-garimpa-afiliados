@@ -1,0 +1,63 @@
+name: SOL GARIMPA - Telegram (teste controlado)
+
+on:
+  workflow_dispatch:
+    inputs:
+      publicar:
+        description: 'Publicar 1 oferta no canal? (false = apenas testar)'
+        required: true
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sol-garimpa-postagem-telegram
+  cancel-in-progress: false
+
+jobs:
+  postar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Ler catalogos
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Verificar codigo
+        run: python -m py_compile scripts/postar_telegram.py
+
+      - name: Testar ou publicar
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: '@solgarimpaofertas'
+          PUBLICAR: ${{ inputs.publicar }}
+        run: |
+          if [ "$PUBLICAR" = "true" ]; then
+            python scripts/postar_telegram.py
+          else
+            python scripts/postar_telegram.py --dry-run
+          fi
+
+      - name: Registrar envio bem-sucedido
+        if: ${{ inputs.publicar == true }}
+        run: |
+          if [ ! -f docs/telegram/publicados.json ]; then
+            echo "Nenhuma nova oferta foi publicada."
+            exit 0
+          fi
+          git config user.name 'sol-garimpa-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add docs/telegram/publicados.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Registrar publicacao Telegram Sol Garimpa'
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
