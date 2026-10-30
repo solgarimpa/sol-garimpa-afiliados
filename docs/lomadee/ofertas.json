@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-10-30T20:56:18+00:00",
+  "atualizado_em": "2026-10-30T21:52:51+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -561,6 +561,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-ab8c31921b04f6dffa6b",
+      "loja": "Autoamerica Store",
+      "tipo": "promocao",
+      "titulo": "Lançamento Autoamerica Store",
+      "imagem": "https://cdn.lomadee.com.br/offer/263beb4d-1c28-45be-85b8-d48ff27637c7/banners/PROMO%20Luva%20de%20lavagem%20-%20Mobile.jpg",
+      "link": "https://lmdee.link/yt4UkIouqEWb",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2027-01-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1657,12 +1671,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lp-d4396222a51321787411",
+      "id": "lp-1f2bd58e68d70eb2166b",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
       "titulo": "2 Espreguiçadeira Uni + Ombrelone 2,75M",
-      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Copiade3Cinza.webp?v=1775768989",
-      "link": "https://lmdee.link/bNRn8STFXlpn",
+      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Copiade4Preto.webp?v=1775768989",
+      "link": "https://lmdee.link/F53N10cbOHE9",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1671,12 +1685,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lp-1f2bd58e68d70eb2166b",
+      "id": "lp-d4396222a51321787411",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
       "titulo": "2 Espreguiçadeira Uni + Ombrelone 2,75M",
-      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Copiade4Preto.webp?v=1775768989",
-      "link": "https://lmdee.link/F53N10cbOHE9",
+      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Copiade3Cinza.webp?v=1775768989",
+      "link": "https://lmdee.link/bNRn8STFXlpn",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1783,12 +1797,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lp-427e390765147541199b",
+      "id": "lp-33dc8ad956e5420f20a2",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
       "titulo": "2 Espreguiçadeiras Casal Duo",
-      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/ecoflame_site_produtos_2-duo_cinza.webp?v=1774290227",
-      "link": "https://lmdee.link/oKuXtzbhfi6D",
+      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/ecoflame_site_produtos_2-duo_preto.webp?v=1774290227",
+      "link": "https://lmdee.link/WCjLtniRXf5c",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1797,12 +1811,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lp-33dc8ad956e5420f20a2",
+      "id": "lp-66f644edc5060b33946c",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
       "titulo": "2 Espreguiçadeiras Casal Duo",
-      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/ecoflame_site_produtos_2-duo_preto.webp?v=1774290227",
-      "link": "https://lmdee.link/WCjLtniRXf5c",
+      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/ecoflame_site_produtos_2-duo_branco.webp?v=1774290227",
+      "link": "https://lmdee.link/mrC0lraMJCpl",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1827,7 +1841,7 @@
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 92,
+    "com_ofertas": 93,
     "marcas": 133,
     "campanhas": 120,
     "produtos": 60,
