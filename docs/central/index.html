@@ -16,7 +16,7 @@ main{max-width:1250px;margin:auto;padding:16px}h1{font-size:clamp(20px,3vw,28px)
 .botoes a{color:#fff;background:#111;border:1px solid #111}.botoes button{background:white;color:#111;border:1px solid #111}
 .nota{font-size:11px;color:#777;margin-top:5px}.status-box{padding:22px;border:1px dashed #ddd;border-radius:12px;text-align:center;color:#555;grid-column:1/-1}
 .paginacao{display:flex;align-items:center;justify-content:center;gap:12px;margin:18px auto}.paginacao button{padding:8px 14px;border:1px solid #d7d7d7;border-radius:8px;background:#fff;cursor:pointer}.paginacao button:disabled{opacity:.45;cursor:default}
-.rodape{font-size:11px;color:#646464;text-align:center;margin:20px 0 2px}.vitrine{display:flex;align-items:center;justify-content:space-between;gap:10px;border:1px solid #e2e2e2;border-radius:12px;margin:12px 0;padding:12px 14px}.vitrine a{padding:9px 13px;background:#111;color:white;border-radius:8px;text-decoration:none;font-weight:700;font-size:12px;white-space:nowrap}
+.refes{margin:24px 0 8px;padding:14px;border:1px solid #e6e6e6;border-radius:12px}.refes h2{font-size:17px;margin:0 0 5px}.refes p{font-size:12px;color:#666}.refs-list{display:flex;flex-wrap:wrap;gap:6px}.refs-list span{border:1px solid #ddd;border-radius:6px;padding:6px 9px;font-size:12px}.rodape{font-size:11px;color:#646464;text-align:center;margin:20px 0 2px}.vitrine{display:flex;align-items:center;justify-content:space-between;gap:10px;border:1px solid #e2e2e2;border-radius:12px;margin:12px 0;padding:12px 14px}.vitrine a{padding:9px 13px;background:#111;color:white;border-radius:8px;text-decoration:none;font-weight:700;font-size:12px;white-space:nowrap}
 @media(max-width:800px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:520px){main{padding:12px 8px}.grid{grid-template-columns:1fr}.controles select{width:100%}.vitrine{align-items:flex-start;flex-direction:column}.vitrine a{width:100%;text-align:center}}
 </style>
 </head>
@@ -29,13 +29,14 @@ main{max-width:1250px;margin:auto;padding:16px}h1{font-size:clamp(20px,3vw,28px)
 <div id="vitrine" class="vitrine" hidden></div>
 <section id="grade" class="grid" aria-live="polite"></section>
 <div class="paginacao"><button id="voltar" type="button">‹ Anterior</button><span id="pagina">1 de 1</span><button id="avancar" type="button">Próximo ›</button></div>
-<p class="rodape">Preços, cupons, descontos e disponibilidade dependem das regras da loja e podem mudar. Cupons de terceiros não foram testados individualmente no carrinho. A Sol Garimpa não oferece cashback próprio; benefícios de cashback exigem uma oferta expressa do provedor correspondente.</p>
+<section id="diretorio" class="refes" hidden><h2>Lojas para pesquisa</h2><p id="referenciaEstado">Nomes de referência, não necessariamente parceiros da Sol Garimpa. Consulte os descontos apresentados acima.</p><div id="referenciaNomes" class="refs-list"></div></section><p class="rodape">Preços, cupons, descontos e disponibilidade dependem das regras da loja e podem mudar. Cupons de terceiros não foram testados individualmente no carrinho. A Sol Garimpa não oferece cashback próprio; benefícios de cashback exigem uma oferta expressa do provedor correspondente.</p>
 </main>
 <script>
 (()=>{'use strict';
 const BASE='https://solgarimpa.github.io/sol-garimpa-afiliados/';
 const FEED=BASE+'paginas_ofertas.json';
 const SHEIN='https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/api/cupons';
+const DIRETORIO=BASE+'central/lojas-referencia.json';
 const SHEIN_LINK='https://onelink.shein.com/58/66nnzcmvg0zu';
 const LOJAS=[
 {id:'todas',nome:'Todas'},
@@ -54,7 +55,8 @@ const nomeSelecionado=LOJAS.find(x=>x.id===id)?.nome||'Todas';
 $('titulo').textContent=tipo==='cupons'?'Cupons e Códigos de Desconto':'Achadinhos, Ofertas e Promos';
 $('sub').textContent=tipo==='cupons'?'Encontre códigos promocionais, consulte as condições e copie gratuitamente.':'Explore ofertas reais das redes de afiliados e das vitrines Sol Garimpa.';
 $('pesquisa').placeholder=tipo==='cupons'?'Pesquisar cupons e lojas…':'Pesquisar produtos, lojas e ofertas…';
-let itens=[],filtrados=[],pagina=1,aviso='';const TAMANHO=12;
+let itens=[],filtrados=[],pagina=1,aviso='',nomesReferencia=[];const TAMANHO=12;
+function desenharReferencia(){const sec=$('diretorio');const termo=norm($('pesquisa').value);if(id!=='todas'||termo.length<2||!nomesReferencia.length){sec.hidden=true;return;}const todos=nomesReferencia.filter(n=>norm(n).includes(termo));sec.hidden=false;$('referenciaEstado').textContent=todos.length+' nome(s) correspondente(s), apenas para pesquisa. A presença na lista não significa parceria, oferta ativa ou cashback.';const lista=$('referenciaNomes');lista.replaceChildren();todos.slice(0,30).forEach(n=>lista.append(el('span','',n)));}
 function el(tag,cls,text){const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=String(text);return x;}
 function seguro(url){try{const u=new URL(String(url||''));return u.protocol==='https:'?u.href:''}catch{return ''}}
 function norm(t){return String(t||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim()}
@@ -83,7 +85,7 @@ function desenhar(){
  if(!bloco.length){$('grade').append(el('div','status-box', 'Nenhum item disponível para este filtro. Confira a vitrine da loja ou altere a pesquisa.'));}
  else bloco.forEach(x=>$('grade').append(cartao(x)));
  $('status').textContent=filtrados.length+' '+(tipo==='cupons'?'cupom(ns)':'oferta(s)')+' encontrado(s)'+(aviso?' · '+aviso:'');
- $('pagina').textContent=pagina+' de '+max;$('voltar').disabled=pagina===1;$('avancar').disabled=pagina===max;
+ $('pagina').textContent=pagina+' de '+max;$('voltar').disabled=pagina===1;$('avancar').disabled=pagina===max;desenharReferencia();
 }
 function menu(){const nav=$('menu');for(const l of LOJAS){const b=el('button',l.id===id?'sel':'',l.nome);b.type='button';b.addEventListener('click',()=>{const next=new URL(location.href);next.searchParams.set('loja',l.id);location.href=next.href});nav.append(b);}}
 function fallback(){const l=LOJAS.find(x=>x.id===id);if(id==='todas'||!l?.url)return;const area=$('vitrine');area.hidden=false;const label=el('span','',tipo==='cupons'?'Veja também os cupons da loja':'Explore a vitrine de produtos');const a=el('a','',l.nome==='SHEIN'?'Abrir vitrine SHEIN':'Ver página '+l.nome);a.href=l.url;a.target='_blank';a.rel='noopener noreferrer';area.replaceChildren(label,a);}
@@ -115,7 +117,7 @@ async function carregar(){
 }
 $('pesquisa').addEventListener('input',()=>{pagina=1;desenhar()});$('filtro').addEventListener('change',()=>{pagina=1;desenhar()});
 $('voltar').addEventListener('click',()=>{pagina=Math.max(1,pagina-1);desenhar()});$('avancar').addEventListener('click',()=>{pagina++;desenhar()});
-menu();fallback();carregar();setInterval(()=>{itens=[];$('filtro').replaceChildren(el('option','','Todas as lojas'));carregar()},5*60*1000);
+menu();fallback();carregar();if(id==='todas')json(DIRETORIO).then(d=>{if(Array.isArray(d.lojas)){nomesReferencia=d.lojas;desenharReferencia();}}).catch(()=>{});setInterval(()=>{itens=[];$('filtro').replaceChildren(el('option','','Todas as lojas'));carregar()},5*60*1000);
 })();
 </script>
 </body></html>
