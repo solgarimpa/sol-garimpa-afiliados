@@ -50,13 +50,14 @@ const LOJAS=[
 const params=new URLSearchParams(location.search);
 const tipo=params.get('tipo')==='achadinhos'?'achadinhos':'cupons';
 const id=LOJAS.some(x=>x.id===params.get('loja'))?params.get('loja'):'todas';
+const visao=params.get('visao')==='inicio'?'inicio':'todas';
 const $=x=>document.getElementById(x);
 const nomeSelecionado=LOJAS.find(x=>x.id===id)?.nome||'Todas';
 $('titulo').textContent=tipo==='cupons'?'Cupons e Códigos de Desconto':'Achadinhos, Ofertas e Promos';
 $('sub').textContent=tipo==='cupons'?'Encontre códigos promocionais, consulte as condições e copie gratuitamente.':'Explore ofertas reais das redes de afiliados e das vitrines Sol Garimpa.';
 $('pesquisa').placeholder=tipo==='cupons'?'Pesquisar cupons e lojas…':'Pesquisar produtos, lojas e ofertas…';
-let itens=[],filtrados=[],pagina=1,aviso='',nomesReferencia=[];const TAMANHO=12;
-function desenharReferencia(){const sec=$('diretorio');const termo=norm($('pesquisa').value);if(id!=='todas'||termo.length<2||!nomesReferencia.length){sec.hidden=true;return;}const todos=nomesReferencia.filter(n=>norm(n).includes(termo));sec.hidden=false;$('referenciaEstado').textContent=todos.length+' nome(s) correspondente(s), apenas para pesquisa. A presença na lista não significa parceria, oferta ativa ou cashback.';const lista=$('referenciaNomes');lista.replaceChildren();todos.slice(0,30).forEach(n=>lista.append(el('span','',n)));}
+let itens=[],filtrados=[],pagina=1,aviso='',nomesReferencia=[];const TAMANHO=visao==='inicio'?6:12;
+function desenharReferencia(){const sec=$('diretorio');const termo=norm($('pesquisa').value);if(id!=='todas'||visao==='inicio'||termo.length<2||!nomesReferencia.length){sec.hidden=true;return;}const todos=nomesReferencia.filter(n=>norm(n).includes(termo));sec.hidden=false;$('referenciaEstado').textContent=todos.length+' nome(s) correspondente(s), apenas para pesquisa. A presença na lista não significa parceria, oferta ativa ou cashback.';const lista=$('referenciaNomes');lista.replaceChildren();todos.slice(0,30).forEach(n=>lista.append(el('span','',n)));}
 function el(tag,cls,text){const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=String(text);return x;}
 function seguro(url){try{const u=new URL(String(url||''));return u.protocol==='https:'?u.href:''}catch{return ''}}
 function norm(t){return String(t||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim()}
