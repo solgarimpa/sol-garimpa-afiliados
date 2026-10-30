@@ -10,7 +10,7 @@ on:
     - cron: '32 2-23/3 * * *'
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -22,31 +22,60 @@ jobs:
   atualizar:
     runs-on: ubuntu-latest
     timeout-minutes: 35
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Baixar repositorio
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true
 
-      - uses: actions/setup-python@v5
+      - name: Preparar Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Buscar feeds e ofertas oficiais da Awin
+      - name: Buscar parceiros, feeds e ofertas Awin
         env:
           AWIN_PUBLISHER_TOKEN: ${{ secrets.AWIN_PUBLISHER_TOKEN }}
           AWIN_DATAFEED_KEY: ${{ secrets.AWIN_DATAFEED_KEY }}
         run: python scripts/sync_awin.py
 
-      - name: Preparar hospedagem no GitHub Pages
+      - name: Salvar catalogo Awin no GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add docs/ofertas.json
+          git add docs/fila_whatsapp.json
+          git add docs/mensagens_whatsapp.txt
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Atualizar catalogo Awin"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          else
+            echo "Catalogo Awin sem alteracoes."
+          fi
+
+      - name: Sincronizar arquivos antes da publicacao
+        run: |
+          git fetch origin main
+          git merge --ff-only origin/main
+
+      - name: Preparar GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Empacotar vitrine e dados atualizados
+      - name: Empacotar site atualizado
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./docs
 
-      - name: Publicar atualização no GitHub Pages
+      - name: Publicar GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
