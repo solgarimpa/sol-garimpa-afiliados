@@ -1,6 +1,9 @@
-name: SOL GARIMPA - Telegram (teste controlado)
+name: SOL GARIMPA - Telegram (automatico)
 
 on:
+  # UTC; corresponde a 09h, 13h, 17h e 20h em Brasilia (UTC-3).
+  schedule:
+    - cron: '0 12,16,20,23 * * *'
   workflow_dispatch:
     inputs:
       publicar:
@@ -38,7 +41,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: '@solgarimpaofertas'
-          PUBLICAR: ${{ inputs.publicar }}
+          PUBLICAR: ${{ github.event_name == 'schedule' || inputs.publicar == true }}
         run: |
           if [ "$PUBLICAR" = "true" ]; then
             python scripts/postar_telegram.py
@@ -47,7 +50,7 @@ jobs:
           fi
 
       - name: Registrar envio bem-sucedido
-        if: ${{ inputs.publicar == true }}
+        if: ${{ github.event_name == 'schedule' || inputs.publicar == true }}
         run: |
           if [ ! -f docs/telegram/publicados.json ]; then
             echo "Nenhuma nova oferta foi publicada."
