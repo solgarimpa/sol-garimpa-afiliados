@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Achadinhos SHEIN — SOL GARIMPA</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:#171717;font-family:Arial,sans-serif}
+.vitrine{max-width:1440px;margin:auto;padding:16px 12px}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px}
+h2{font-size:22px;margin:0}h2 span{color:#111}
+.all{font-size:13px;white-space:nowrap;color:#111;font-weight:bold;text-decoration:none}
+.viewport{overflow:hidden;touch-action:pan-y;--card:222px}
+.track{display:flex;gap:14px;will-change:transform}
+.card{flex:0 0 var(--card);border:1px solid #e6e6e6;border-radius:12px;overflow:hidden;background:#fff;color:inherit;text-decoration:none;display:flex;flex-direction:column}
+.card:hover{border-color:#111}
+.card:focus-visible,button:focus-visible,.all:focus-visible{outline:3px solid #111;outline-offset:2px}
+.photo{width:100%;height:208px;object-fit:contain;background:#fff;padding:10px}
+.name{font-size:14px;line-height:1.45;height:61px;overflow:hidden;margin:12px 12px 8px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical}
+.price{font-size:19px;font-weight:750;color:#111;margin:0 12px 8px;min-height:26px}
+.price.unknown{font-size:12px;font-weight:normal;color:#666}
+.cta{margin:4px 12px 14px;padding:11px 5px;text-align:center;border-radius:7px;background:#111;color:white;font-size:13px;font-weight:bold}
+.controls{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:14px}
+.buttons{display:flex;gap:7px}
+button{border:1px solid #ddd;border-radius:7px;background:white;padding:8px 13px;cursor:pointer;color:#222}
+button:disabled{opacity:.45;cursor:default}
+.note{color:#666;font-size:11px;margin:12px 0 0}
+#status{font-size:12px;color:#666}
+#aviso{font-size:14px;line-height:1.5;padding:17px 0}
+#aviso a{color:#111;font-weight:bold}
+[hidden]{display:none!important}
+@media(max-width:520px){h2{font-size:18px}.viewport{--card:170px}.photo{height:164px}.vitrine{padding:12px 8px}.name{font-size:13px}.price{font-size:17px}.all{font-size:11px}}
+@media(prefers-reduced-motion:reduce){.track{transition:none!important}}
+</style>
+</head>
+<body>
+<section class="vitrine" aria-label="Vitrine SHEIN Sol Garimpa">
+<header>
+<h2>Achadinhos na <span>SHEIN</span></h2>
+<a class="all" href="https://onelink.shein.com/58/66nnzcmvg0zu" target="_blank" rel="noopener noreferrer sponsored nofollow">Ver vitrine completa ↗</a>
+</header>
+<div id="aviso" role="status">Carregando produtos selecionados…</div>
+<div class="viewport" id="viewport" tabindex="0" aria-label="Carrossel de produtos SHEIN. Arraste ou use as setas.">
+<div class="track" id="track"></div>
+</div>
+<div class="controls">
+<span id="status" role="status"></span>
+<div class="buttons">
+<button id="prev" type="button" aria-label="Produto anterior" disabled>‹</button>
+<button id="pause" type="button" disabled>Pausar</button>
+<button id="next" type="button" aria-label="Próximo produto" disabled>›</button>
+</div>
+</div>
+<p class="note">Código de indicação: <strong>ZBT2J3B</strong> (pesquise no aplicativo SHEIN, não é cupom). Preços e disponibilidade sujeitos a alteração.</p>
+</section>
+<script>
+(()=>{
+'use strict';
+const VITRINE='https://onelink.shein.com/58/66nnzcmvg0zu';
+const FEED='https://solgarimpa.github.io/sol-garimpa-afiliados/shein/ofertas.json';
+const INTERVALO=3000;
+const $=id=>document.getElementById(id);
+const track=$('track'),viewport=$('viewport'),status=$('status'),aviso=$('aviso'),prev=$('prev'),pause=$('pause'),next=$('next');
+const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
+let produtos=[],indice=0,pausado=reduced,ocupado=false,hover=false,focado=false;
+function seguro(x){try{let u=new URL(String(x||''));return u.protocol==='https:'?u.href:''}catch{return ''}}
+function embaralhar(a){for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function normalizar(a){
+ if(!Array.isArray(a))return [];
+ const visto=new Set();
+ return a.map(p=>({nome:String(p.nome||p.name||'').trim(),imagem:seguro(p.imagem||p.image||''),preco:String(p.preco||p.price||'').trim()}))
+ .filter(p=>{const chave=p.nome+'|'+p.imagem;if(!p.nome||!p.imagem||visto.has(chave))return false;visto.add(chave);return true});
+}
+function card(p){
+ let a=document.createElement('a');a.className='card';a.href=VITRINE;a.target='_blank';a.rel='noopener noreferrer sponsored nofollow';
+ let img=document.createElement('img');img.className='photo';img.src=p.imagem;img.alt=p.nome;img.loading='lazy';img.decoding='async';img.referrerPolicy='no-referrer';img.onerror=()=>{img.style.visibility='hidden'};
+ let nome=document.createElement('div');nome.className='name';nome.textContent=p.nome;
+ let preco=document.createElement('div');preco.className='price';
+ if(/^R\$\s*\d[\d.,]*$/.test(p.preco)){preco.textContent=p.preco}else{preco.classList.add('unknown');preco.textContent='Confira o preço na SHEIN'}
+ let cta=document.createElement('div');cta.className='cta';cta.textContent='Ver oferta na SHEIN';
+ a.append(img,nome,preco,cta);return a;
+}
+function render(){
+ track.replaceChildren();track.style.transition='none';track.style.transform='translateX(0)';
+ if(!produtos.length)return;
+ let qtde=Math.min(produtos.length,Math.ceil(viewport.clientWidth/170)+2);
+ for(let i=0;i<qtde;i++)track.append(card(produtos[(indice+i)%produtos.length]));
+ status.textContent=produtos.length+' produtos na seleção';
+}
+function atualizarPausa(){pause.textContent=pausado?'Reproduzir':'Pausar';pause.setAttribute('aria-pressed',String(pausado))}
+function mover(d=1){
+ if(ocupado||produtos.length<2)return;
+ ocupado=true;
+ const largura=track.firstElementChild.getBoundingClientRect().width+14,duracao=reduced?0:550;
+ if(d<0){
+  indice=(indice-1+produtos.length)%produtos.length;render();
+  track.style.transform=`translateX(-${largura}px)`;track.getBoundingClientRect();
+  track.style.transition=`transform ${duracao}ms ease`;track.style.transform='translateX(0)';
+  setTimeout(()=>ocupado=false,duracao+30);
+ }else{
+  track.style.transition=`transform ${duracao}ms ease`;track.style.transform=`translateX(-${largura}px)`;
+  setTimeout(()=>{indice=(indice+1)%produtos.length;render();ocupado=false},duracao+30);
+ }
+}
+prev.onclick=()=>mover(-1);next.onclick=()=>mover(1);
+pause.onclick=()=>{pausado=!pausado;atualizarPausa()};
+viewport.addEventListener('pointerenter',e=>{if(e.pointerType==='mouse')hover=true});
+viewport.addEventListener('pointerleave',()=>hover=false);
+viewport.addEventListener('focusin',()=>focado=true);
+viewport.addEventListener('focusout',e=>focado=viewport.contains(e.relatedTarget));
+viewport.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();mover(e.key==='ArrowRight'?1:-1)}});
+let inicioX=0;
+viewport.addEventListener('touchstart',e=>{inicioX=e.touches[0].clientX;hover=true},{passive:true});
+viewport.addEventListener('touchend',e=>{let dx=e.changedTouches[0].clientX-inicioX;if(Math.abs(dx)>45)mover(dx<0?1:-1);hover=false},{passive:true});
+viewport.addEventListener('touchcancel',()=>hover=false);
+setInterval(()=>{if(!pausado&&!hover&&!focado&&!document.hidden)mover()},INTERVALO);
+if(window.ResizeObserver){new ResizeObserver(()=>{if(!ocupado)render()}).observe(viewport)}
+(async()=>{
+ try{
+  let r=await fetch(FEED+'?t='+Date.now(),{cache:'no-store'});
+  if(!r.ok)throw Error('feed indisponível');
+  let dados=await r.json();
+  produtos=normalizar(Array.isArray(dados)?dados:dados.produtos||[]);
+ }catch(e){produtos=[]}
+ if(!produtos.length){
+  aviso.innerHTML='A seleção visual está sendo preparada. <a href="'+VITRINE+'" target="_blank" rel="noopener noreferrer sponsored nofollow">Ver as escolhas SOL GARIMPA na SHEIN ↗</a>';
+  status.textContent='Vitrine SHEIN disponível pelo link';
+  return;
+ }
+ embaralhar(produtos);indice=0;aviso.hidden=true;
+ prev.disabled=next.disabled=produtos.length<2;
+ pause.disabled=produtos.length<2;
+ atualizarPausa();render();
+})();
+})();
+</script>
+</body>
+</html>
