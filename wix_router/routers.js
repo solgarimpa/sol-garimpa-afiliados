@@ -137,7 +137,7 @@ async function buscarAwinLegado(slug) {
 function montarSugestoes(catalogo, slug, lojaAtual) {
   if (!catalogo || !Array.isArray(catalogo.cards)) return [];
   const validas = catalogo.cards
-    .filter(p => p && p.slug !== slug && p.imagem && !expirou(p.validade))
+    .filter(p => p && p.historico !== true && p.slug !== slug && p.imagem && !expirou(p.validade))
     .map(p => produtoNormalizado(p, p.slug))
     .filter(p => p && p.imagem);
   const mesmaLoja = validas.filter(p => p.loja === lojaAtual).slice(0, 4);
