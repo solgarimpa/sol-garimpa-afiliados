@@ -15,7 +15,7 @@ function moeda(valor) {
 
 $w.onReady(function () {
   const p = wixWindowFrontend.getRouterData();
-  if (!p || !p.titulo || !p.link) {
+  if (!p || !p.titulo) {
     $w('#tituloProduto').text = 'Oferta indisponível';
     $w('#btnComprar').hide();
     $w('#btnWhatsapp').hide();
@@ -58,8 +58,13 @@ $w.onReady(function () {
     $w('#descricaoProduto').collapse();
   }
 
-  $w('#btnComprar').label = 'IR PARA A LOJA';
-  $w('#btnComprar').link = p.link; // Preserva o link rastreado da rede.
+  if (p.link) {
+    $w('#btnComprar').label = 'IR PARA A LOJA';
+    $w('#btnComprar').link = p.link;
+    $w('#btnComprar').show();
+  } else {
+    $w('#btnComprar').hide();
+  }
 
   const partes = [
     '🛍️ *OFERTA SOL GARIMPA*',
@@ -73,9 +78,14 @@ $w.onReady(function () {
   partes.push('👉 Confira: ' + p.url_sol_garimpa);
   partes.push('⚠️ Preço, condições e estoque devem ser confirmados na loja.');
 
-  $w('#btnWhatsapp').label = 'COMPARTILHAR NO WHATSAPP';
-  $w('#btnWhatsapp').link =
-    'https://wa.me/?text=' + encodeURIComponent(partes.join('\n'));
+  if (p.link) {
+    $w('#btnWhatsapp').label = 'COMPARTILHAR NO WHATSAPP';
+    $w('#btnWhatsapp').link =
+      'https://wa.me/?text=' + encodeURIComponent(partes.join('\n'));
+    $w('#btnWhatsapp').show();
+  } else {
+    $w('#btnWhatsapp').hide();
+  }
 
   $w('#btnVoltar').label = 'VER MAIS OFERTAS';
   $w('#btnVoltar').link = 'https://www.ofertaspravc.com.br/';
