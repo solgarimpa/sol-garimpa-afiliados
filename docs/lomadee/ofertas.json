@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-10-30T14:13:32+00:00",
+  "atualizado_em": "2026-10-30T15:09:29+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -649,6 +649,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-b58298f424977221d195",
+      "loja": "Cirurgica Sinete",
+      "tipo": "promocao",
+      "titulo": "Mais cuidado e economia para sua saúde! Encontre tiras, lancetas, medidores de glicose e kits de transporte de insulina com até 31% OFF!",
+      "imagem": "https://cdn.lomadee.com.br/offer/f1c4778a-9edc-45aa-9df0-2f10dacd762a/banners/imagem%20-%202026-10-30T114434.466.png",
+      "link": "https://lmdee.link/080RYkeqpzUr",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-dd882ba3c03d487126e7",
       "loja": "Colorstone",
       "tipo": "promocao",
@@ -831,20 +845,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-be128ff5c50c83246333",
-      "loja": "Lojão dos Esportes",
-      "tipo": "cupom",
-      "titulo": "Cupom de 15% de desconto em produtos selecionados",
-      "imagem": "",
-      "link": "https://lmdee.link/ESl848jyvcIW",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "PROMO15",
-      "validade": "2026-11-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-319d2f8c9df2083b0f76",
       "loja": "Líquido",
       "tipo": "cupom",
@@ -921,20 +921,6 @@
       "titulo": "Esquenta Black November: Tudo com 50% off",
       "imagem": "https://cdn.lomadee.com.br/offer/731aa5b8-8adf-4034-b263-fed8bfeb7b88/banners/MicrosoftTeams-image.png",
       "link": "https://lmdee.link/lkTSry7gqICM",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-98ff326a27039fd08849",
-      "loja": "Multimóveis",
-      "tipo": "promocao",
-      "titulo": "Campanha Especial Mês das Crianças",
-      "imagem": "",
-      "link": "https://lmdee.link/ifeygncjVNjy",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1069,12 +1055,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-694a1bf97451808bb959",
+      "id": "lc-8e8d823a611d9ffa748a",
       "loja": "Xiaomi Brasil",
       "tipo": "promocao",
-      "titulo": "Conheça o novo Redmi Note 17 Series! Poder máximo, bateria de longa duração e energia para acompanhar o seu ritmo. Máxima Bateria. Máxima Energia.",
-      "imagem": "https://cdn.lomadee.com.br/offer/64864b04-e458-4ca5-a4eb-d69669d93731/banners/imagem%20-%202026-10-27T104315.375.png",
-      "link": "https://lmdee.link/PIpZXBEKAXQa",
+      "titulo": "Conheça os novos robôs aspiradores Xiaomi S40 Pro e H50 Pro, com recursos inteligentes para facilitar sua rotina",
+      "imagem": "https://cdn.lomadee.com.br/offer/02d32a3e-03cd-4c2b-bb4e-418aeb8e5daa/banners/imagem%20-%202026-10-30T114626.314.png",
+      "link": "https://lmdee.link/mJUSwNoK9TaH",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1405,6 +1391,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-694a1bf97451808bb959",
+      "loja": "Xiaomi Brasil",
+      "tipo": "promocao",
+      "titulo": "Conheça o novo Redmi Note 17 Series! Poder máximo, bateria de longa duração e energia para acompanhar o seu ritmo. Máxima Bateria. Máxima Energia.",
+      "imagem": "https://cdn.lomadee.com.br/offer/64864b04-e458-4ca5-a4eb-d69669d93731/banners/imagem%20-%202026-10-27T104315.375.png",
+      "link": "https://lmdee.link/PIpZXBEKAXQa",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-2fb53b388fba701c7f19",
       "loja": "Zinco",
       "tipo": "promocao",
@@ -1457,20 +1457,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-2a6fa8934330b0ab526b",
-      "loja": "Buddha SPA",
-      "tipo": "promocao",
-      "titulo": "O AUTOCUIDADO GANHA UM NOVO RITUAL : 15% OFF FLOR DE LÓTUS",
-      "imagem": "https://cdn.lomadee.com.br/offer/4eecf1f9-d6ed-4a4a-8fa3-78273c7b5924/banners/imagem%20-%202026-10-06T124810.102.png",
-      "link": "https://lmdee.link/yC4QoBDARlLD",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2299,25 +2285,11 @@
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
       "origem": "Lomadee"
-    },
-    {
-      "id": "lp-9bbfdbdb27b52593f946",
-      "loja": "ECO FLAME GARDEN",
-      "tipo": "produto",
-      "titulo": "2 Espreguiçadeira Uni + Ombrelone 2,75M",
-      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Copiade7Terracota.webp?v=1775768989",
-      "link": "https://lmdee.link/essSfPhgGfOd",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
     }
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 127,
+    "com_ofertas": 125,
     "marcas": 133,
     "campanhas": 120,
     "produtos": 60,
