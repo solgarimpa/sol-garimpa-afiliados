@@ -18,17 +18,19 @@ def main():
     api_hash = getpass.getpass("API Hash (nao aparece ao digitar): ").strip()
     telefone = input("Telefone da conta Telegram, com DDI: ").strip()
 
-    with TelegramClient(StringSession(), api_id, api_hash) as cliente:
+    destino = Path.home() / "solgarimpa_sessao_telegram_PRIVADA.txt"
+    if destino.exists():
+        raise RuntimeError("Arquivo da sessao ja existe; confira antes de substituir.")
+    cliente = TelegramClient(StringSession(), api_id, api_hash)
+    try:
         cliente.start(
             phone=telefone,
             code_callback=lambda: input("Codigo recebido no Telegram: ").strip(),
             password=lambda: getpass.getpass("Senha 2FA, se solicitada: "),
         )
         sessao = cliente.session.save()
-
-    destino = Path.home() / "solgarimpa_sessao_telegram_PRIVADA.txt"
-    if destino.exists():
-        raise RuntimeError("Arquivo da sessao ja existe; confira antes de substituir.")
+    finally:
+        cliente.disconnect()
     with destino.open("x", encoding="utf-8") as arquivo:
         arquivo.write(sessao)
     try:
