@@ -6,9 +6,9 @@ Página única do componente, alimentada pelo feed GitHub e pelo Worker SHEIN, c
 
 | Página Wix | URL para Embed a site |
 |---|---|
-| Cupons - página inicial | https://solgarimpa.github.io/sol-garimpa-afiliados/central/?tipo=cupons&loja=todas |
+| Cupons - página inicial | https://solgarimpa.github.io/sol-garimpa-afiliados/central/?tipo=cupons&loja=todas&visao=inicio |
 | Cupons - Todas as lojas | https://solgarimpa.github.io/sol-garimpa-afiliados/central/?tipo=cupons&loja=todas |
-| Achadinhos - página inicial | https://solgarimpa.github.io/sol-garimpa-afiliados/central/?tipo=achadinhos&loja=todas |
+| Achadinhos - página inicial | https://solgarimpa.github.io/sol-garimpa-afiliados/central/?tipo=achadinhos&loja=todas&visao=inicio |
 | Achadinhos - Todas as ofertas | https://solgarimpa.github.io/sol-garimpa-afiliados/central/?tipo=achadinhos&loja=todas |
 | cupons - mercado-livre | https://solgarimpa.github.io/sol-garimpa-afiliados/central/?tipo=cupons&loja=mercado-livre |
 | cupons - shopee | https://solgarimpa.github.io/sol-garimpa-afiliados/central/?tipo=cupons&loja=shopee |
