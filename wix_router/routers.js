@@ -166,6 +166,29 @@ function montarSugestoes(catalogo, slug, lojaAtual) {
   }));
 }
 
+// Usa a própria página de ofertas quando um link antigo não pode ser confirmado.
+function respostaAlternativa(slug, catalogo, erroConsulta = false) {
+  const titulo = erroConsulta
+    ? 'Não foi possível consultar esta oferta no momento'
+    : 'Oferta não encontrada no catálogo atual';
+  const descricao = erroConsulta
+    ? 'Estamos com uma falha temporária ao consultar os produtos. Confira outras ofertas da SOL GARIMPA abaixo.'
+    : 'Esta oferta não consta mais entre os produtos confirmados. O preço e a disponibilidade podem ter mudado. Confira outras ofertas da SOL GARIMPA abaixo.';
+  return criarResposta({
+    titulo,
+    loja: 'SOL GARIMPA',
+    rede: '',
+    tipo: 'indisponivel',
+    imagem: '',
+    preco: null,
+    preco_anterior: null,
+    cupom: '',
+    descricao,
+    link: '',
+    url_sol_garimpa: SITE_URL + '/oferta/' + slug,
+  }, montarSugestoes(catalogo, slug, ''));
+}
+
 function criarResposta(produto, sugestoes = []) {
   const titulo = (produto.titulo + ' | ' + produto.loja + ' | SOL GARIMPA').slice(0, 160);
   const resumo = (produto.descricao || ('Confira esta oferta da ' + produto.loja +
@@ -196,31 +219,49 @@ export async function oferta_Router(request) {
   const partes = request.path || [];
   const slug = partes[0];
   if (partes.length !== 1 || !/^(awin|rakuten|lomadee)-[a-z0-9-]{8,65}$/.test(slug || '')) {
-    return notFound();
+    return notFound(); // Apenas URLs malformadas retornam 404.
   }
+
+  let catalogo = null;
+  try {
+    catalogo = await obterCatalogo();
+  } catch (erroCatalogo) {
+    console.warn('SOL GARIMPA: catálogo de ofertas indisponível', String(erroCatalogo));
+  }
+
   try {
     if (slug.startsWith('awin-')) {
-      let produto = await buscarAwinNoWix(slug);
-      if (!produto) produto = await buscarAwinLegado(slug);
-      if (!produto) return notFound();
-      let sugestoes = [];
+      let produto = null;
       try {
-        sugestoes = montarSugestoes(await obterCatalogo(), slug, produto.loja);
-      } catch (erroCatalogo) {
-        console.warn('SOL GARIMPA: sem feed relacionado para Awin', String(erroCatalogo));
+        produto = await buscarAwinNoWix(slug);
+        if (!produto) produto = await buscarAwinLegado(slug);
+      } catch (erroAwin) {
+        console.warn('SOL GARIMPA: falha na consulta Awin', String(erroAwin));
       }
-      return criarResposta(produto, sugestoes);
+      if (!produto) return respostaAlternativa(slug, catalogo, !catalogo);
+      return criarResposta(produto, montarSugestoes(catalogo, slug, produto.loja));
     }
-    const catalogo = await obterCatalogo();
-    const registro = catalogo.cards.find(p => p.slug === slug);
-    const produto = produtoNormalizado(registro, slug);
-    if (!produto) return notFound();
 
-    const sugestoes = montarSugestoes(catalogo, slug, produto.loja);
+    if (!catalogo) return respostaAlternativa(slug, null, true);
+    const registro = catalogo.cards.find(p => p.slug === slug);
+    if (!registro || registro.historico === true) {
+      return respostaAlternativa(slug, catalogo, false);
+    }
+
+    const produto = produtoNormalizado(registro, slug);
+    if (!produto) return respostaAlternativa(slug, catalogo, false);
+
+    // Falha no feed não pode cancelar a página principal.
+    let sugestoes = [];
+    try {
+      sugestoes = montarSugestoes(catalogo, slug, produto.loja);
+    } catch (erroFeed) {
+      console.warn('SOL GARIMPA: feed indisponível', String(erroFeed));
+    }
     return criarResposta(produto, sugestoes);
   } catch (erro) {
-    console.error('SOL GARIMPA: erro ao abrir oferta', String(erro));
-    return notFound();
+    console.error('SOL GARIMPA: erro inesperado na oferta', String(erro));
+    return respostaAlternativa(slug, null, true);
   }
 }
 
