@@ -1,0 +1,8 @@
+FROM python:3.11-slim
+WORKDIR /app
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+COPY requirements-telegram.txt .
+RUN python -m pip install --no-cache-dir -r requirements-telegram.txt
+COPY scripts/monitor_rakuten_telegram.py scripts/sync_rakuten.py /app/scripts/
+CMD ["python", "scripts/monitor_rakuten_telegram.py"]
