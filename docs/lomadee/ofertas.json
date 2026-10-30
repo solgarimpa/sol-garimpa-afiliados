@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-10-30T19:58:09+00:00",
+  "atualizado_em": "2026-10-30T20:56:18+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -111,10 +111,6 @@
       "loja": "Continental Brasil"
     },
     {
-      "id": "1ba96890-8d3b-45d6-8e55-247bf62f6b4e",
-      "loja": "Pneunet"
-    },
-    {
       "id": "304e46ab-9e6f-462d-87e7-9afad02997aa",
       "loja": "BioVittare Farmácia de Manipulação"
     },
@@ -145,6 +141,10 @@
     {
       "id": "20b5cefc-3f15-4d49-a046-ef56904ed270",
       "loja": "AmoKarité"
+    },
+    {
+      "id": "1ba96890-8d3b-45d6-8e55-247bf62f6b4e",
+      "loja": "Pneunet"
     },
     {
       "id": "33ff67b5-7c9b-4af7-82a1-f4b7445e59f9",
