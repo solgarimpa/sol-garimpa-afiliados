@@ -1,4 +1,123 @@
-
 {
-  "cupons": []
+  "cupons": [
+    {
+      "codigo": "MUSERA20OFF",
+      "titulo": "20% OFF",
+      "descricao": "20% em produtos selecionados, em pedidos acima de R$129. Código não verificado no carrinho da SHEIN.",
+      "confirmado": false,
+      "origem": "pagina_publica_meliuz_2026-10-29"
+    },
+    {
+      "codigo": "SHEINLUD",
+      "titulo": "Até 20% OFF",
+      "descricao": "15% sem mínimo ou 20% em pedidos acima de R$300, em itens elegíveis. Código não verificado no carrinho da SHEIN.",
+      "confirmado": false,
+      "origem": "pagina_publica_meliuz_2026-10-29"
+    },
+    {
+      "codigo": "SHEINBAE20OFF",
+      "titulo": "20% OFF",
+      "descricao": "20% em produtos participantes para pedidos acima de R$129. Código não verificado no carrinho da SHEIN.",
+      "confirmado": false,
+      "origem": "pagina_publica_meliuz_2026-10-29"
+    },
+    {
+      "codigo": "ANEWSTA20OFF",
+      "titulo": "20% OFF",
+      "descricao": "20% em itens selecionados da coleção Anewsta, acima de R$129. Código não verificado no carrinho da SHEIN.",
+      "confirmado": false,
+      "origem": "pagina_publica_meliuz_2026-10-29"
+    },
+    {
+      "codigo": "Maija20OFF",
+      "titulo": "20% OFF",
+      "descricao": "20% em produtos participantes para pedidos acima de R$280. Código não verificado no carrinho da SHEIN.",
+      "confirmado": false,
+      "origem": "pagina_publica_meliuz_2026-10-29"
+    },
+    {
+      "codigo": "COZYPIXIES15OFF",
+      "titulo": "15% OFF",
+      "descricao": "15% em itens participantes da coleção Cozy Pixies, acima de R$79. Código não verificado no carrinho da SHEIN.",
+      "confirmado": false,
+      "origem": "pagina_publica_meliuz_2026-10-29"
+    },
+    {
+      "codigo": "MOTFBR15OFF",
+      "titulo": "15% OFF",
+      "descricao": "15% em itens elegíveis para pedidos acima de R$280. Código não verificado no carrinho da SHEIN.",
+      "confirmado": false,
+      "origem": "pagina_publica_meliuz_2026-10-29"
+    },
+    {
+      "codigo": "SWIMCHICCIA20OFF",
+      "titulo": "20% OFF",
+      "descricao": "20% em seleção de moda praia, em pedidos acima de R$129. Código não verificado no carrinho da SHEIN.",
+      "confirmado": false,
+      "origem": "pagina_publica_meliuz_2026-10-29"
+    },
+    {
+      "codigo": "ALORUH20OFF",
+      "titulo": "20% OFF",
+      "descricao": "20% em itens específicos, acima de R$129. Código não verificado no carrinho da SHEIN.",
+      "confirmado": false,
+      "origem": "pagina_publica_meliuz_2026-10-29"
+    },
+    {
+      "codigo": "MISSGUIDED20OFF",
+      "titulo": "20% OFF",
+      "descricao": "20% em itens selecionados, acima de R$129. Código não verificado no carrinho da SHEIN.",
+      "confirmado": false,
+      "origem": "pagina_publica_meliuz_2026-10-29"
+    },
+    {
+      "codigo": "FIRST1",
+      "titulo": "R$12 OFF",
+      "descricao": "R$12 na primeira compra, em pedidos acima de R$80 e produtos vendidos pela SHEIN. Código não verificado no carrinho da SHEIN.",
+      "confirmado": false,
+      "origem": "pagina_publica_meliuz_2026-10-29"
+    },
+    {
+      "codigo": "SHEINLUISA",
+      "titulo": "Até 20% OFF",
+      "descricao": "Desconto divulgado para produtos de uma coleção especial; confira elegibilidade. Código não verificado no carrinho da SHEIN.",
+      "confirmado": false,
+      "origem": "pagina_publica_meliuz_2026-10-29"
+    },
+    {
+      "codigo": "SHEIN25BH",
+      "titulo": "Até 20% OFF",
+      "descricao": "Campanha de seleção específica; confira produtos e condições. Código não verificado no carrinho da SHEIN.",
+      "confirmado": false,
+      "origem": "pagina_publica_meliuz_2026-10-29"
+    },
+    {
+      "codigo": "SHEINBELEM",
+      "titulo": "Até 20% OFF",
+      "descricao": "Código divulgado para campanha regional; pode haver restrições. Código não verificado no carrinho da SHEIN.",
+      "confirmado": false,
+      "origem": "pagina_publica_meliuz_2026-10-29"
+    },
+    {
+      "codigo": "JANLCH",
+      "titulo": "R$17 OFF",
+      "descricao": "R$17 em itens infantis, em pedidos acima de R$249. Código não verificado no carrinho da SHEIN.",
+      "confirmado": false,
+      "origem": "pagina_publica_meliuz_2026-10-29"
+    },
+    {
+      "codigo": "SHEINTATA",
+      "titulo": "Até 20% OFF",
+      "descricao": "15% em itens participantes; até 20% em pedidos acima de R$300. Código não verificado no carrinho da SHEIN.",
+      "confirmado": false,
+      "origem": "pagina_publica_meliuz_2026-10-29"
+    },
+    {
+      "codigo": "26SHEIN77",
+      "titulo": "Frete grátis",
+      "descricao": "Frete grátis em itens nacionais selecionados, conforme condições da campanha. Código não verificado no carrinho da SHEIN.",
+      "confirmado": false,
+      "origem": "pagina_publica_meliuz_2026-10-29"
+    }
+  ]
 }
