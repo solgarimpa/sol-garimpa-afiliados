@@ -1,0 +1,68 @@
+name: SOL GARIMPA - Monitor Rakuten Planilha 30min
+
+on:
+  schedule:
+    # 48 verificacoes por dia; evita os minutos 00/30, que tendem a sofrer atrasos.
+    - cron: '11,41 * * * *'
+  workflow_dispatch:
+    inputs:
+      publicar:
+        description: 'Ativar publicacao e registrar historico? (primeira execucao somente cadastra ofertas existentes)'
+        type: boolean
+        default: false
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sol-garimpa-planilha-rakuten
+  cancel-in-progress: false
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Acessar repositorio
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Verificar sintaxe
+        run: python -m py_compile scripts/monitor_planilha_rakuten.py scripts/sync_rakuten.py
+
+      - name: Verificar ofertas novas na planilha oficial da Rakuten
+        env:
+          RAKUTEN_ACCOUNT_ID: ${{ secrets.RAKUTEN_ACCOUNT_ID }}
+          RAKUTEN_CLIENT_ID: ${{ secrets.RAKUTEN_CLIENT_ID }}
+          RAKUTEN_CLIENT_SECRET: ${{ secrets.RAKUTEN_CLIENT_SECRET }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          PUBLICAR: ${{ github.event_name == 'schedule' || inputs.publicar == true }}
+        run: |
+          if [ "$PUBLICAR" = "true" ]; then
+            python scripts/monitor_planilha_rakuten.py
+          else
+            python scripts/monitor_planilha_rakuten.py --dry-run
+          fi
+
+      - name: Salvar controle anti-duplicacao
+        if: ${{ github.event_name == 'schedule' || inputs.publicar == true }}
+        run: |
+          if [ ! -f docs/telegram/rakuten_planilha_vistos.json ]; then
+            echo "Ainda sem arquivo de controle."
+            exit 0
+          fi
+          git config user.name 'sol-garimpa-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add docs/telegram/rakuten_planilha_vistos.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Atualizar controle de ofertas Rakuten verificadas'
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
