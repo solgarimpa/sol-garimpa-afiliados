@@ -1,0 +1,71 @@
+name: SOL GARIMPA - Monitor Canal Lomadee 30min
+
+on:
+  schedule:
+    # Horarios UTC, minutos 17 e 47 a cada hora
+    - cron: '17,47 * * * *'
+  workflow_dispatch:
+    inputs:
+      publicar:
+        description: 'Marcar historico e publicar novidades validas?'
+        type: boolean
+        default: false
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sol-garimpa-monitor-canal-lomadee
+  cancel-in-progress: false
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout do repositorio
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Verificar sintaxe
+        run: python -m py_compile scripts/monitor_canal_lomadee.py scripts/sync_lomadee.py scripts/telegram_imagens.py
+
+      - name: Testes locais sem acessar canais ou publicar
+        run: python -m unittest discover -s tests -p 'test_monitor_canal_lomadee.py' -v
+
+      - name: Verificar canal publico Lomadee
+        env:
+          LOMADEE_API_TOKEN: ${{ secrets.LOMADEE_API_TOKEN }}
+          LOMADEE_CHANNEL_ID: ${{ vars.LOMADEE_CHANNEL_ID }}
+          LOMADEE_CHANNEL_NAME: Sol Garimpa
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          PUBLICAR: ${{ github.event_name == 'schedule' || inputs.publicar == true }}
+        run: |
+          if [ "$PUBLICAR" = "true" ]; then
+            python scripts/monitor_canal_lomadee.py
+          else
+            python scripts/monitor_canal_lomadee.py --dry-run
+          fi
+
+      - name: Registrar mensagens verificadas
+        if: ${{ github.event_name == 'schedule' || inputs.publicar == true }}
+        run: |
+          if [ ! -f docs/telegram/lomadee_canal_vistos.json ]; then
+            echo "Nenhuma mensagem a registrar."
+            exit 0
+          fi
+          git config user.name "sol-garimpa-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/telegram/lomadee_canal_vistos.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Atualizar controle do canal Lomadee'
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
