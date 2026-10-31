@@ -37,6 +37,9 @@ jobs:
       - name: Verificar sintaxe
         run: python -m py_compile scripts/monitor_planilha_rakuten.py scripts/sync_rakuten.py
 
+      - name: Testar envio de fotos e fallback (sem conexao externa)
+        run: python -m unittest discover -s tests -p 'test_telegram_imagens.py' -v
+
       - name: Testes locais sem publicar ofertas
         run: python -m unittest discover -s tests -p 'test_monitor_planilha_rakuten.py' -v
 
