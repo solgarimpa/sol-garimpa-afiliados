@@ -96,5 +96,30 @@ class MonitorLomadeeTests(unittest.TestCase):
             self.assertIn("1201", data["vistos"])
 
 
+    def test_sem_novidades_atualiza_diagnostico_periodico(self):
+        from datetime import timedelta
+        parser = m.MensagensTelegram()
+        parser.feed(AMOSTRA)
+        antigo = datetime.now(timezone.utc) - timedelta(hours=3)
+        with tempfile.TemporaryDirectory() as pasta:
+            local = Path(pasta) / "historico.json"
+            dados = {
+                "iniciado_em": antigo.isoformat(),
+                "vistos": {str(p["id"]): antigo.isoformat() for p in parser.mensagens},
+                "ultima_consulta": antigo.isoformat(),
+            }
+            local.write_text(json.dumps(dados), encoding="utf-8")
+            with (patch.object(m, "ESTADO", local),
+                  patch.object(m, "pagina_publica", return_value=parser.mensagens),
+                  patch.object(m, "buscar_anunciantes", side_effect=AssertionError("sem API")),
+                  patch.object(m, "enviar_oferta", side_effect=AssertionError("sem envio")),
+                  patch.object(sys, "argv", ["monitor_canal_lomadee.py"])):
+                m.executar()
+            depois = json.loads(local.read_text(encoding="utf-8"))
+            self.assertEqual(depois["ultimo_diagnostico"]["novas"], 0)
+            self.assertEqual(depois["ultimo_diagnostico"]["publicadas"], 0)
+            self.assertNotEqual(depois["ultima_consulta"], antigo.isoformat())
+
+
 if __name__ == "__main__":
     unittest.main()
