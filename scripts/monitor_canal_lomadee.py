@@ -31,7 +31,7 @@ FONTE = "https://t.me/s/ofertaslomadee"
 CANAL_DESTINO = "@solgarimpaofertas"
 MAX_POSTS = 4
 MAX_HTML = 2_000_000
-MAX_INTERVALO = timedelta(hours=40)
+MAX_INTERVALO = timedelta(hours=12)
 LINKS = re.compile(r"https://[^\s<>\"']+")
 FOTO = re.compile(r"background-image:\s*url\(['\"]?(https://[^)'\"\s]+)", re.I)
 
