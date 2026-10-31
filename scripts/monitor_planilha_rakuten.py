@@ -25,6 +25,7 @@ from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 
 from sync_rakuten import make_access_token, get_partnerships, request as rakuten_request
+from telegram_imagens import enviar_oferta, imagem_publica
 
 ROOT = Path(__file__).resolve().parents[1]
 STATE_PATH = ROOT / "docs" / "telegram" / "rakuten_planilha_vistos.json"
@@ -171,6 +172,31 @@ def gerar_link(token, mid, destino, identificador):
     return ""
 
 
+
+def imagens_do_catalogo(agora):
+    """Relaciona produtos pelo mesmo anunciante e título exatos; nunca inventa fotos."""
+    arquivo = ROOT / "docs" / "paginas_ofertas.json"
+    try:
+        with arquivo.open(encoding="utf-8") as f:
+            catalogo = json.load(f)
+        atualizado = datetime.fromisoformat(catalogo["gerado_em"].replace("Z", "+00:00"))
+        if not (timedelta(0) <= agora - atualizado <= timedelta(hours=48)):
+            return {}
+        grupos = {}
+        for card in catalogo.get("cards", []):
+            if not isinstance(card, dict) or card.get("historico") is not False:
+                continue
+            foto = imagem_publica(card.get("imagem"))
+            loja, titulo = normal(card.get("loja")), normal(card.get("titulo"))
+            if foto and loja and titulo:
+                grupos.setdefault((loja, titulo), set()).add(foto)
+        return {
+            chave: next(iter(fotos)) for chave, fotos in grupos.items()
+            if len(fotos) == 1
+        }
+    except (OSError, ValueError, TypeError, KeyError):
+        return {}
+
 def texto_telegram(item, link):
     safe = lambda s: html.escape(str(s or "")[:250])
     msg = [
@@ -197,24 +223,9 @@ def texto_telegram(item, link):
     return "\n".join(msg)
 
 
-def publicar(token, mensagem):
-    if not token:
-        raise RuntimeError("TELEGRAM_BOT_TOKEN nao configurado.")
-    url = "https://api.telegram.org/bot" + token + "/sendMessage"
-    dados = json.dumps({
-        "chat_id": CANAL,
-        "text": mensagem,
-        "parse_mode": "HTML",
-        "disable_web_page_preview": True,
-    }, ensure_ascii=False).encode("utf-8")
-    req = Request(url, data=dados, headers={"Content-Type": "application/json"}, method="POST")
-    try:
-        with urlopen(req, timeout=30) as resposta:
-            resultado = json.load(resposta)
-        if resultado.get("ok") is not True:
-            raise RuntimeError("Telegram nao confirmou a publicacao.")
-    except HTTPError as exc:
-        raise RuntimeError(f"Telegram recusou envio HTTP {exc.code}.") from None
+def publicar(token, mensagem, imagem=""):
+    """Publica com foto quando existir imagem de produto confirmada no catalogo."""
+    return enviar_oferta(token, CANAL, mensagem, imagem)
 
 
 def ler_estado():
@@ -260,6 +271,7 @@ def main():
 
     validos = [i for i in novos if i["elegivel"]]
     if validos:
+        fotos = imagens_do_catalogo(agora)
         token = make_access_token()
         mapa = parceiros_ativos(token)
         enviados = 0
@@ -276,7 +288,12 @@ def main():
                 print("Deep link nao aprovado para:", item["loja"], "- sem publicacao.")
                 continue
             try:
-                publicar(os.environ.get("TELEGRAM_BOT_TOKEN", "").strip(), texto_telegram(item, link))
+                foto = fotos.get((normal(item["loja"]), normal(item["titulo"])), "")
+                formato = publicar(
+                    os.environ.get("TELEGRAM_BOT_TOKEN", "").strip(),
+                    texto_telegram(item, link), foto
+                )
+                print("Formato de publicacao:", formato)
             except (RuntimeError, URLError, TimeoutError) as exc:
                 print("Falha ao publicar:", type(exc).__name__, "cheque o canal antes de repetir.")
                 continue
