@@ -37,6 +37,9 @@ jobs:
       - name: Verificar codigo
         run: python -m py_compile scripts/postar_telegram.py
 
+      - name: Testar envio de fotos e fallback (sem conexao externa)
+        run: python -m unittest discover -s tests -p 'test_telegram_imagens.py' -v
+
       - name: Testar ou publicar
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
