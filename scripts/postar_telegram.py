@@ -17,6 +17,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
+from telegram_imagens import enviar_oferta, imagem_publica
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOGO = ROOT / "docs" / "paginas_ofertas.json"
@@ -125,6 +126,7 @@ def selecionar(catalogo, publicados, agora):
             "rede": rede, "slug": slug, "titulo": titulo, "loja": loja,
             "link": link, "preco": preco, "anterior": anterior,
             "desconto": desconto, "cupom": cupom,
+            "imagem": imagem_publica(item.get("imagem")),
         }))
 
     # Ordem estável para que a oferta seguinte seja escolhida após salvar o histórico.
@@ -150,29 +152,9 @@ def formatar(oferta):
     return "\n".join(partes)
 
 
-def enviar(token, canal, mensagem):
-    payload = json.dumps({
-        "chat_id": canal,
-        "text": mensagem,
-        "parse_mode": "HTML",
-        "disable_web_page_preview": True,
-    }, ensure_ascii=False).encode("utf-8")
-    req = Request(
-        f"https://api.telegram.org/bot{token}/sendMessage",
-        data=payload,
-        headers={"Content-Type": "application/json"},
-        method="POST",
-    )
-    try:
-        with urlopen(req, timeout=30) as resposta:
-            dados = json.load(resposta)
-        if not dados.get("ok"):
-            raise RuntimeError("Telegram retornou resposta sem confirmação de envio.")
-    except HTTPError as exc:
-        # Não registrar URL, token ou conteúdo bruto da resposta.
-        raise RuntimeError(f"Telegram recusou envio: HTTP {exc.code}.") from None
-    except (URLError, TimeoutError):
-        raise RuntimeError("Sem confirmação do Telegram. Verifique o canal antes de repetir.") from None
+def enviar(token, canal, mensagem, imagem=""):
+    """Usa foto real do catalogo, com alternativa em texto."""
+    return enviar_oferta(token, canal, mensagem, imagem)
 
 
 def main():
@@ -202,7 +184,8 @@ def main():
     canal = os.getenv("TELEGRAM_CHAT_ID", DESTINO_PADRAO).strip()
     if not token or canal != DESTINO_PADRAO:
         raise RuntimeError("Confira TELEGRAM_BOT_TOKEN e destino @solgarimpaofertas.")
-    enviar(token, canal, formatar(oferta))
+    formato = enviar(token, canal, formatar(oferta), oferta.get("imagem", ""))
+    print("Formato enviado ao Telegram:", formato)
     HISTORICO.parent.mkdir(parents=True, exist_ok=True)
     itens.append({"id": identificador, "slug": oferta["slug"], "rede": oferta["rede"],
                   "publicado_em": agora.isoformat()})
