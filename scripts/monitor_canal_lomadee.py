@@ -172,7 +172,7 @@ def buscar_anunciantes():
 def extrair(post, marcas):
     texto = post.get("texto") or ""
     linhas = [s.strip() for s in texto.splitlines() if s.strip()]
-    if len(linhas) < 2 or "novo anunciante" in normal(texto[:120]):
+    if len(linhas) < 2 or "novoanunciante" in normal(texto[:120]):
         return None
     primeira = normal(linhas[0])
     if not primeira:
