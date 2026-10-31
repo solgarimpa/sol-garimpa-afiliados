@@ -22,5 +22,11 @@
     "20589": "2026-10-31T14:03:26.553436+00:00",
     "20590": "2026-10-31T14:03:26.553436+00:00"
   },
-  "ultima_consulta": "2026-10-31T14:03:26.553436+00:00"
+  "ultima_consulta": "2026-10-31T16:53:51.697394+00:00",
+  "ultimo_diagnostico": {
+    "mensagens_visiveis": 20,
+    "novas": 0,
+    "publicadas": 0,
+    "situacao": "canal consultado; sem novidades"
+  }
 }
