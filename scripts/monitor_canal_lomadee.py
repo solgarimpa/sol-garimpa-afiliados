@@ -284,6 +284,17 @@ def executar():
         print("SIMULACAO: nenhuma mensagem enviada.")
         return
     if not novos:
+        print("Nenhuma nova mensagem no canal; consulta publica realizada.")
+        anterior = data_utc(estado.get("ultima_consulta"))
+        # Heartbeat no GitHub no maximo a cada 2 horas quando nao ha ofertas,
+        # evitando 48 commits por dia sem qualquer novidade.
+        if anterior is None or agora - anterior >= timedelta(hours=2):
+            estado["ultima_consulta"] = agora.isoformat()
+            estado["ultimo_diagnostico"] = {
+                "mensagens_visiveis": len(posts), "novas": 0, "publicadas": 0,
+                "situacao": "canal consultado; sem novidades"
+            }
+            salvar_estado(estado)
         return
 
     # Consultar API apenas quando houver mensagens novas (economiza chamadas).
@@ -331,6 +342,11 @@ def executar():
         if (dt := data_utc(v)) and dt >= limite
     }
     estado["ultima_consulta"] = agora.isoformat()
+    estado["ultimo_diagnostico"] = {
+        "mensagens_visiveis": len(posts), "novas": len(novos),
+        "recentes": len(recentes), "publicadas": enviados,
+        "situacao": "verificacao concluida"
+    }
     salvar_estado(estado)
 
 
