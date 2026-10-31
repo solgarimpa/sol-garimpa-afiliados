@@ -1133,9 +1133,54 @@ def main():
 
         promos = get_offers(token)
 
-        products, report = get_products(
-            api_key
-        )
+        try:
+            products, report = get_products(
+                api_key
+            )
+        except RuntimeError as exc:
+            # As duas fontes oficiais de Feed List podem ficar
+            # temporariamente indisponiveis. Nao sobrescrever
+            # um catalogo valido com dados vazios ou antigos.
+            if str(exc) != (
+                "Nenhuma fonte oficial de feed Awin respondeu"
+            ):
+                raise
+
+            if not TARGET.is_file():
+                raise
+
+            previous = json.loads(
+                TARGET.read_text(encoding="utf-8")
+            )
+
+            existing_cards = previous.get("cards", [])
+
+            if (
+                previous.get("fonte") != "Awin"
+                or previous.get("publisher_id") != PUBLISHER_ID
+                or not isinstance(existing_cards, list)
+                or not any(
+                    isinstance(card, dict)
+                    and card.get("link")
+                    and card.get("tipo") in (
+                        "produto", "cupom", "promocao"
+                    )
+                    for card in existing_cards
+                )
+            ):
+                raise RuntimeError(
+                    "Feed Awin indisponivel e sem catalogo "
+                    "anterior valido para preservar"
+                ) from exc
+
+            print(
+                "::warning title=Feed Awin temporariamente "
+                "indisponivel::As duas fontes de produtos "
+                "falharam. Catalogo anterior preservado "
+                "sem alterar sua data de atualizacao.",
+                flush=True
+            )
+            return
 
         cards = []
         active = []
