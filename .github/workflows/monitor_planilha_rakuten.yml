@@ -37,6 +37,9 @@ jobs:
       - name: Verificar sintaxe
         run: python -m py_compile scripts/monitor_planilha_rakuten.py scripts/sync_rakuten.py
 
+      - name: Testes locais sem publicar ofertas
+        run: python -m unittest discover -s tests -p 'test_monitor_planilha_rakuten.py' -v
+
       - name: Verificar ofertas novas na planilha oficial da Rakuten
         env:
           RAKUTEN_ACCOUNT_ID: ${{ secrets.RAKUTEN_ACCOUNT_ID }}
