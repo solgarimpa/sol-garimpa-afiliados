@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-01T03:02:24+00:00",
+  "atualizado_em": "2026-11-01T04:07:27+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -537,6 +537,20 @@
   ],
   "cards": [
     {
+      "id": "lc-173be41b4745841bcdcc",
+      "loja": "Amakha Paris",
+      "tipo": "promocao",
+      "titulo": "Durante todo o mês de Novembro estaremos com comissionamento EXCLUSIVO e muitas ofertas de Black Friday Acompanhe em nossa plataforma",
+      "imagem": "",
+      "link": "https://lmdee.link/5weNmERgR44c",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-ab8c31921b04f6dffa6b",
       "loja": "Autoamerica Store",
       "tipo": "promocao",
@@ -551,16 +565,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-6a494c7ce1cb19c4802f",
+      "id": "lc-fd9643de4ee5e11afa3b",
       "loja": "Bauducco",
       "tipo": "promocao",
-      "titulo": "Fornada de Natal",
+      "titulo": "Aquecimento Black - Paçoquita Mecânica: 10% OFF em produtos selecionados",
       "imagem": "",
-      "link": "https://lmdee.link/aDV67SbpzSPG",
+      "link": "https://lmdee.link/kCZZDvLBPmdX",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": null,
+      "validade": "2026-11-11T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -655,6 +669,20 @@
       "titulo": "Tudo com 50%",
       "imagem": "https://cdn.lomadee.com.br/offer/d0e3e535-14b3-4880-ac49-c128f19b8cbe/banners/120x600.jpg",
       "link": "https://lmdee.link/xv7KGGfv92I0",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-6a494c7ce1cb19c4802f",
+      "loja": "Bauducco",
+      "tipo": "promocao",
+      "titulo": "Fornada de Natal",
+      "imagem": "",
+      "link": "https://lmdee.link/aDV67SbpzSPG",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1393,7 +1421,7 @@
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 61,
+    "com_ofertas": 63,
     "marcas": 133,
     "campanhas": 120,
     "produtos": 60,
