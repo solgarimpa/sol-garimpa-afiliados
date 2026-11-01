@@ -400,7 +400,8 @@ async function atualizar(){
 
   todos=dados.cards.filter(p=>
    p&&['produto','promocao','cupom'].includes(p.tipo)&&
-   p.loja&&p.titulo&&seguro(p.link)
+   p.loja&&p.titulo&&seguro(p.link)&&
+   (!p.validade || (Number.isFinite(Date.parse(p.validade)) && Date.parse(p.validade)>Date.now()))
   );
 
   filtros();
