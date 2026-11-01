@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-01T16:52:31+00:00",
+  "atualizado_em": "2026-11-01T17:48:11+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -635,16 +635,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-40d34808e7c03159c70f",
+      "id": "lc-b28d58a6e7953fe29c27",
       "loja": "Camisaria Colombo",
       "tipo": "promocao",
-      "titulo": "OUTELT Camisaria Colombo. Ofertas com até 60% Off, não fique de fora. Aproveite!",
-      "imagem": "https://cdn.lomadee.com.br/offer/81186911-5b17-4394-bb3a-3f6381ea696d/banners/DESKTOP%202035x773.webp",
-      "link": "https://lmdee.link/BsrJSLM5hy5F",
+      "titulo": "Black November Colombo!",
+      "imagem": "https://cdn.lomadee.com.br/offer/b96c3904-2ec5-4a77-a326-e8718a66082a/banners/Colombo_Black_November_Google_960x1200_com_CTA.jpg",
+      "link": "https://lmdee.link/t4kA4sc6UUOv",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": null,
+      "validade": "2026-12-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1083,12 +1083,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-1bbf502b00cdf0f1dfee",
+      "id": "lc-40d34808e7c03159c70f",
       "loja": "Camisaria Colombo",
       "tipo": "promocao",
-      "titulo": "A Camisa Social certa faz a diferença! 1 por R$ 159,99 ou 2 por R$ 259,99",
-      "imagem": "https://cdn.lomadee.com.br/offer/71e31e7b-4db5-4a7c-893e-0e0a46353152/banners/820x1000px.webp",
-      "link": "https://lmdee.link/F8GKUbartDKT",
+      "titulo": "OUTELT Camisaria Colombo. Ofertas com até 60% Off, não fique de fora. Aproveite!",
+      "imagem": "https://cdn.lomadee.com.br/offer/81186911-5b17-4394-bb3a-3f6381ea696d/banners/DESKTOP%202035x773.webp",
+      "link": "https://lmdee.link/BsrJSLM5hy5F",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1265,12 +1265,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-7af5e1320ecf2ea2ea95",
+      "id": "lc-6c34ff61af8391417a78",
       "loja": "Shopee",
       "tipo": "promocao",
-      "titulo": "ST_Network_Lomadee - Women Bags",
+      "titulo": "ST_Network_Lomadee - Men Bags",
       "imagem": "",
-      "link": "https://lmdee.link/CHFRkHKFsXIO",
+      "link": "https://lmdee.link/5S96vsAtCyPP",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1377,12 +1377,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-ae1887d88f97af3b3cc6",
+      "id": "lc-1bbf502b00cdf0f1dfee",
       "loja": "Camisaria Colombo",
       "tipo": "promocao",
-      "titulo": "Todas as Jaquetas Puffer De R$ 259,99 por R$ 159,99. E Mais 2 por R$ 259,99",
-      "imagem": "https://cdn.lomadee.com.br/offer/0c5ed31b-51e4-4c74-b56b-3942a7a02733/banners/960x1200.png",
-      "link": "https://lmdee.link/5fmPe5AfVBE2",
+      "titulo": "A Camisa Social certa faz a diferença! 1 por R$ 159,99 ou 2 por R$ 259,99",
+      "imagem": "https://cdn.lomadee.com.br/offer/71e31e7b-4db5-4a7c-893e-0e0a46353152/banners/820x1000px.webp",
+      "link": "https://lmdee.link/F8GKUbartDKT",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1531,12 +1531,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-a0a8c4ba7ef3d262b3e3",
+      "id": "lc-2f3834c58a49a77883f2",
       "loja": "Shopee",
       "tipo": "promocao",
-      "titulo": "ST_Network_Lomadee - Men Clothes",
+      "titulo": "ST_Network_Lomadee - Travel & Luggage",
       "imagem": "",
-      "link": "https://lmdee.link/MeD6TjvYaZEb",
+      "link": "https://lmdee.link/173Wj8Qb6gwF",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1601,12 +1601,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-81823bbf43b861a287c6",
+      "id": "lc-ae1887d88f97af3b3cc6",
       "loja": "Camisaria Colombo",
       "tipo": "promocao",
-      "titulo": "Leve mais pague menos",
-      "imagem": "",
-      "link": "https://lmdee.link/AQUvNaQKeGWn",
+      "titulo": "Todas as Jaquetas Puffer De R$ 259,99 por R$ 159,99. E Mais 2 por R$ 259,99",
+      "imagem": "https://cdn.lomadee.com.br/offer/0c5ed31b-51e4-4c74-b56b-3942a7a02733/banners/960x1200.png",
+      "link": "https://lmdee.link/5fmPe5AfVBE2",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1727,12 +1727,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-267f21a5aeda9385a2d3",
+      "id": "lc-20863e53e2103a52477f",
       "loja": "Shopee",
       "tipo": "promocao",
-      "titulo": "ST_Network_Lomadee - Food Delivery",
+      "titulo": "ST_Network_Lomadee - Women Shoes",
       "imagem": "",
-      "link": "https://lmdee.link/FoJI2qydCtLC",
+      "link": "https://lmdee.link/OA86fpkhjnhB",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1797,12 +1797,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-73964177b09541e0165d",
+      "id": "lc-81823bbf43b861a287c6",
       "loja": "Camisaria Colombo",
       "tipo": "promocao",
-      "titulo": "Camisa flanelada 50%",
+      "titulo": "Leve mais pague menos",
       "imagem": "",
-      "link": "https://lmdee.link/E0VlT22EKO0p",
+      "link": "https://lmdee.link/AQUvNaQKeGWn",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1909,20 +1909,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-2f3834c58a49a77883f2",
-      "loja": "Shopee",
-      "tipo": "promocao",
-      "titulo": "ST_Network_Lomadee - Travel & Luggage",
-      "imagem": "",
-      "link": "https://lmdee.link/173Wj8Qb6gwF",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2029-01-01T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-2fbebfaa5d37fe66de12",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -1943,6 +1929,20 @@
       "titulo": "acessórios para PET FrerFaro com 60% OFF",
       "imagem": "",
       "link": "https://lmdee.link/tjL2rUr3on4J",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-73964177b09541e0165d",
+      "loja": "Camisaria Colombo",
+      "tipo": "promocao",
+      "titulo": "Camisa flanelada 50%",
+      "imagem": "",
+      "link": "https://lmdee.link/E0VlT22EKO0p",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
