@@ -124,7 +124,7 @@ if(window.ResizeObserver){new ResizeObserver(()=>{if(!ocupado)render()}).observe
   produtos=normalizar(Array.isArray(dados)?dados:dados.produtos||[]);
  }catch(e){produtos=[]}
  if(!produtos.length){
-  aviso.innerHTML='A seleção visual está sendo preparada. <a href="'+VITRINE+'" target="_blank" rel="noopener noreferrer sponsored nofollow">Ver as escolhas SOL GARIMPA na SHEIN ↗</a>';
+  aviso.innerHTML='Ainda não há produtos verificados para exibir nesta seleção. <a href="'+VITRINE+'" target="_blank" rel="noopener noreferrer sponsored nofollow">Consultar a vitrine SOL GARIMPA na SHEIN ↗</a>';
   status.textContent='Vitrine SHEIN disponível pelo link';
   return;
  }
