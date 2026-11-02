@@ -1,4 +1,4 @@
-name: SOL GARIMPA - Cupons Awin 45 minutos
+name: SOL GARIMPA - Cupons unificados a cada 45 minutos
 
 on:
   workflow_dispatch:
@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/sync_cupons_awin.py'
+      - 'scripts/build_cupons_central.py'
       - 'docs/cupons/index.html'
       - '.github/workflows/atualizar_cupons_awin.yml'
   schedule:
@@ -49,17 +50,20 @@ jobs:
           AWIN_PUBLISHER_TOKEN: ${{ secrets.AWIN_PUBLISHER_TOKEN }}
         run: python scripts/sync_cupons_awin.py
 
+      - name: Consolidar cupons Awin Rakuten Lomadee
+        run: python scripts/build_cupons_central.py
+
       - name: Salvar catalogo sem alterar as vitrines
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/cupons/ofertas.json
+          git add docs/cupons/ofertas.json docs/cupons/catalogo.json
           if ! git diff --cached --quiet; then
-            git commit -m "Atualizar cupons Awin"
+            git commit -m "Atualizar catálogo de cupons Awin, Rakuten e Lomadee"
             git pull --rebase origin main
             git push origin HEAD:main
           else
-            echo "Cupons Awin sem alteracoes"
+            echo "Catalogo de cupons sem alteracoes"
           fi
 
       - name: Sincronizar arquivos para publicar site
