@@ -1,4 +1,4 @@
-name: SOL GARIMPA - Cupons Awin 30 minutos
+name: SOL GARIMPA - Cupons Awin 45 minutos
 
 on:
   workflow_dispatch:
@@ -9,7 +9,10 @@ on:
       - 'docs/cupons/index.html'
       - '.github/workflows/atualizar_cupons_awin.yml'
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '0 */3 * * *'
+    - cron: '45 */3 * * *'
+    - cron: '30 1-23/3 * * *'
+    - cron: '15 2-23/3 * * *'
 
 permissions:
   contents: write
