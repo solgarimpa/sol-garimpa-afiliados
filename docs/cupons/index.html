@@ -154,7 +154,7 @@ function render(){
 function renderHighlights(){
  const area=$("destaques");area.replaceChildren();
  const fav=["mercado livre","shopee","magalu","amazon","aliexpress","netshoes","centauro","nike","kabum","americanas","mizuno","adidas","pague menos","xiaomi","shein","natura","trocafone","soldiers"];
- const norm=s=>String(s||"").normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase();
+ const norm=s=>String(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
  const now=Date.now(),items=state.ofertas.filter(x=>!x.validade||Date.parse(x.validade)>now);
  const priority=x=>{
   const name=norm(x.loja);const idx=fav.findIndex(s=>name.includes(s));
