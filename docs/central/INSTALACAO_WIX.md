@@ -6,7 +6,7 @@ Página única do componente, alimentada pelo feed GitHub e pelo Worker SHEIN, c
 
 | Página Wix | URL para Embed a site |
 |---|---|
-| Cupons - página inicial | https://solgarimpa.github.io/sol-garimpa-afiliados/central/?tipo=cupons&loja=todas&visao=inicio |
+| Cupons - página inicial | https://solgarimpa.github.io/sol-garimpa-afiliados/cupons/ |
 | Cupons - Todas as lojas | https://solgarimpa.github.io/sol-garimpa-afiliados/central/?tipo=cupons&loja=todas |
 | Achadinhos - página inicial | https://solgarimpa.github.io/sol-garimpa-afiliados/central/?tipo=achadinhos&loja=todas&visao=inicio |
 | Achadinhos - Todas as ofertas | https://solgarimpa.github.io/sol-garimpa-afiliados/central/?tipo=achadinhos&loja=todas |
@@ -44,3 +44,13 @@ Página única do componente, alimentada pelo feed GitHub e pelo Worker SHEIN, c
 ## Manutenção
 
 O HTML fica em `docs/central/index.html`. Alterá-lo atualiza os 16 contextos por query string, sem colar novos códigos em cada página.
+
+## Página principal de cupons — modelo de navegação atualizado em 02/11/2026
+
+- Arquivo público: `docs/cupons/index.html`.
+- Catálogo único: `docs/cupons/catalogo.json`, atualizado por `scripts/build_cupons_central.py` com dados existentes da Awin, Rakuten e Lomadee, sem raspagem da Promobit.
+- A integração no Wix Editor é por **Incorporar um site** com a URL `https://solgarimpa.github.io/sol-garimpa-afiliados/cupons/`.
+- Agendamento de origem: quatro regras cron em `.github/workflows/atualizar_cupons_awin.yml` para intervalos de 45 minutos, conforme execução efetiva da plataforma.
+- Se o catálogo unificado ainda não estiver publicado, o HTML usa o feed já disponível `docs/cupons/ofertas.json` como reserva.
+- Para SEO na página Wix mantenha H1 nativo e texto visível, pois indexação do conteúdo do iframe não é garantida.
+- Não confundir estrutura de navegação semelhante com redistribuir material protegido da Promobit: fontes de dados são as redes de afiliados próprias.
