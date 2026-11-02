@@ -131,7 +131,7 @@ function setup(data){
 }
 async function load(){
  try{
-  const response=await fetch(API+"?v="+Math.floor(Date.now()/1800000),{cache:"no-store"});
+  const response=await fetch(API+"?v="+Math.floor(Date.now()/2700000),{cache:"no-store"});
   if(!response.ok)throw new Error(String(response.status));
   const data=await response.json();if(!Array.isArray(data.ofertas))throw new Error("Formato inválido");
   if(!data.atualizado_em){$("status").textContent="Aguardando a primeira sincronização da Awin.";state.pronto=true;return}
@@ -140,7 +140,7 @@ async function load(){
 }
 $("busca").addEventListener("input",()=>{state.pagina=1;render()});$("lojas").addEventListener("change",()=>{state.pagina=1;render()});$("ordem").addEventListener("change",()=>{state.pagina=1;render()});
 document.querySelectorAll(".pill").forEach(btn=>btn.addEventListener("click",()=>{state.tipo=btn.dataset.type;state.pagina=1;document.querySelectorAll(".pill").forEach(b=>b.setAttribute("aria-pressed",String(b===btn)));render()}));
-load();setInterval(load,30*60*1000);
+load();setInterval(load,45*60*1000);
 })();
 </script>
 </body>
