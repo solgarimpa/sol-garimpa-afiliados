@@ -40,6 +40,26 @@ h1{font-size:clamp(21px,4vw,30px);line-height:1.2;letter-spacing:-.6px;margin:10
 footer{font-size:11px;color:#717987;margin-top:18px;border-top:1px solid var(--borda);padding-top:12px}
 button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #1a73e8;outline-offset:2px}
 @media(max-width:520px){main{padding:12px 10px 20px}.join{width:100%;text-align:center}.search select{max-width:none}.card{min-height:240px}}
+
+/* Destaques próprios, usando somente o catálogo autorizado de afiliados */
+.featured{border:1px solid #e6e9ef;border-radius:17px;padding:14px;background:#fafbfe;margin:8px 0 17px}
+.featured-heading{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px;margin:0 0 12px}
+.featured-heading h2{font-size:clamp(18px,3vw,24px);letter-spacing:-.4px;margin:0}
+.featured-note{font-size:11px;color:var(--cinza);margin:0}
+.featured-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.featured-item{display:flex;flex-direction:column;gap:9px;border:1px solid #e1e5eb;border-radius:13px;padding:15px;background:white;box-shadow:0 2px 7px rgba(0,0,0,.03)}
+.featured-top{display:flex;align-items:center;justify-content:space-between;gap:9px}
+.featured-store{font-weight:900;color:#17233c;font-size:13px;overflow-wrap:anywhere}
+.featured-kind{background:#fff2b8;color:#3c310b;font-size:10px;font-weight:900;border-radius:20px;padding:5px 8px;white-space:nowrap}
+.featured-title{font-size:16px;font-weight:850;line-height:1.35;overflow-wrap:anywhere}
+.featured-desc{color:#576175;font-size:12px;overflow-wrap:anywhere}
+.featured-exp{color:#697386;font-size:11px;margin-top:auto}
+.featured-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.featured-link{flex:1 1 160px;display:flex;align-items:center;justify-content:center;text-align:center;background:var(--amarelo);color:#192438;padding:11px;border-radius:9px;text-decoration:none;font-weight:900;font-size:13px}
+.featured-copy{border:1px dashed #e3bb32;border-radius:9px;background:#fff9e6;color:#38425b;padding:10px;font-weight:850;font-size:12px;cursor:pointer;overflow-wrap:anywhere}
+.featured-empty{grid-column:1/-1;color:#68717c;padding:12px}
+@media(max-width:660px){.featured{padding:11px}.featured-grid{grid-template-columns:1fr}.featured-item{padding:14px}}
+
 </style>
 </head>
 <body>
@@ -52,6 +72,15 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 </div>
 <a class="join" href="https://chat.whatsapp.com/Hr6GOc8UiRpIWaBCuyCnoR" target="_blank" rel="noopener noreferrer">📱 Entre no grupo de ofertas</a>
 </header>
+
+<section class="featured" aria-label="Destaques de cupons e descontos Sol Garimpa">
+ <div class="featured-heading">
+  <h2>🔥 Cupons e ofertas em destaque</h2>
+  <p class="featured-note" id="destaques-info">Selecionados das lojas com links de afiliado da Sol Garimpa</p>
+ </div>
+ <div class="featured-grid" id="destaques"><div class="featured-empty">Carregando destaques...</div></div>
+</section>
+
 <div class="search">
 <input type="search" id="busca" placeholder="Pesquisar loja, desconto ou palavra..." aria-label="Pesquisar cupons e ofertas" autocomplete="off">
 <select id="lojas" aria-label="Filtrar por loja"><option value="">Todas as lojas</option></select>
@@ -121,11 +150,48 @@ function render(){
   const actions=el("div","cta"),link=el("a","buy","VER OFERTA NA LOJA");link.href=x.link;link.target="_blank";link.rel="nofollow sponsored noopener noreferrer";actions.append(link);card.append(actions);res.append(card);
  }
 }
+
+function renderHighlights(){
+ const area=$("destaques");area.replaceChildren();
+ const fav=["mercado livre","shopee","magalu","amazon","aliexpress","netshoes","centauro","nike","kabum","americanas","mizuno","adidas","pague menos","xiaomi","shein","natura","trocafone","soldiers"];
+ const norm=s=>String(s||"").normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase();
+ const now=Date.now(),items=state.ofertas.filter(x=>!x.validade||Date.parse(x.validade)>now);
+ const priority=x=>{
+  const name=norm(x.loja);const idx=fav.findIndex(s=>name.includes(s));
+  return (idx<0?100:idx)*10+(x.cupom?0:4);
+ };
+ items.sort((a,b)=>priority(a)-priority(b) || String(a.loja).localeCompare(String(b.loja),"pt-BR"));
+ const seen=new Set(),picked=[];
+ for(const x of items){const name=norm(x.loja);if(seen.has(name))continue;seen.add(name);picked.push(x);if(picked.length===12)break}
+ $("destaques-info").textContent=picked.length+" destaques disponíveis • atualizados com o catálogo de afiliados";
+ if(!picked.length){area.append(el("div","featured-empty","Sem novos destaques verificados no momento. Confira os demais cupons abaixo."));return}
+ for(const x of picked){
+  const card=el("article","featured-item"),top=el("div","featured-top");
+  top.append(el("span","featured-store",x.loja),el("span","featured-kind",x.cupom?"COM CÓDIGO":"OFERTA"));
+  card.append(top,el("div","featured-title",x.titulo));
+  if(x.descricao&&x.descricao!==x.titulo)card.append(el("div","featured-desc",String(x.descricao).slice(0,170)));
+  const date=validDate(x.validade);
+  if(date)card.append(el("div","featured-exp","Validade informada: "+formatter.format(date)));
+  const actions=el("div","featured-actions");
+  if(x.cupom){
+   const btn=el("button","featured-copy","Copiar: "+x.cupom);btn.type="button";
+   btn.addEventListener("click",async()=>{
+    try{await navigator.clipboard.writeText(x.cupom);btn.textContent="Copiado: "+x.cupom}
+    catch(e){btn.textContent="Código: "+x.cupom}
+   });
+   actions.append(btn);
+  }
+  const a=el("a","featured-link","VER DESCONTO NA LOJA");a.href=x.link;a.target="_blank";a.rel="nofollow sponsored noopener noreferrer";
+  actions.append(a);card.append(actions);area.append(card);
+ }
+}
+
 function setup(data){
  const now=Date.now();
  state.ofertas=(Array.isArray(data.ofertas)?data.ofertas:[]).filter(x=>x&&typeof x==="object"&&x.titulo&&x.loja&&secureLink(x.link)&&(!x.validade||Date.parse(x.validade)>now)).map(x=>Object.assign({},x,{link:secureLink(x.link)}));
  const names=Array.from(new Set(state.ofertas.map(x=>x.loja))).sort((a,b)=>a.localeCompare(b,"pt-BR"));const select=$("lojas");select.replaceChildren();const all=el("option","","Todas as lojas");all.value="";select.append(all);names.forEach(x=>{const op=el("option","",x);op.value=x;select.append(op)});
  state.pronto=true;
+ renderHighlights();
  const stamp=validDate(data.atualizado_em);$("atualizacao").textContent=stamp?"Última atualização: "+formatter.format(stamp)+". ":"";
  render();
 }
