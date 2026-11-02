@@ -6,7 +6,8 @@ Página única do componente, alimentada pelo feed GitHub e pelo Worker SHEIN, c
 
 | Página Wix | URL para Embed a site |
 |---|---|
-| Cupons - página inicial | https://solgarimpa.github.io/sol-garimpa-afiliados/cupons/ |
+| Cupons Awin — página anterior, preservada | https://solgarimpa.github.io/sol-garimpa-afiliados/cupons/ |
+| **Nova central geral de cupons — HTML separado** | **https://solgarimpa.github.io/sol-garimpa-afiliados/cupons-geral/** |
 | Cupons - Todas as lojas | https://solgarimpa.github.io/sol-garimpa-afiliados/central/?tipo=cupons&loja=todas |
 | Achadinhos - página inicial | https://solgarimpa.github.io/sol-garimpa-afiliados/central/?tipo=achadinhos&loja=todas&visao=inicio |
 | Achadinhos - Todas as ofertas | https://solgarimpa.github.io/sol-garimpa-afiliados/central/?tipo=achadinhos&loja=todas |
@@ -47,9 +48,9 @@ O HTML fica em `docs/central/index.html`. Alterá-lo atualiza os 16 contextos po
 
 ## Página principal de cupons — modelo de navegação atualizado em 02/11/2026
 
-- Arquivo público: `docs/cupons/index.html`.
+- Arquivo público da **nova central**: `docs/cupons-geral/index.html`. O HTML anterior de cupons Awin continua em `docs/cupons/index.html`, e a galeria geral Awin permanece em `docs/index.html`.
 - Catálogo único: `docs/cupons/catalogo.json`, atualizado por `scripts/build_cupons_central.py` com dados existentes da Awin, Rakuten e Lomadee, sem raspagem da Promobit.
-- A integração no Wix Editor é por **Incorporar um site** com a URL `https://solgarimpa.github.io/sol-garimpa-afiliados/cupons/`.
+- A nova central é um **segundo elemento HTML**, a ser adicionado em uma página separada no Wix via **Incorporar um site** com a URL `https://solgarimpa.github.io/sol-garimpa-afiliados/cupons-geral/`. Não substitua os HTML Awin existentes.
 - Agendamento de origem: quatro regras cron em `.github/workflows/atualizar_cupons_awin.yml` para intervalos de 45 minutos, conforme execução efetiva da plataforma.
 - Se o catálogo unificado ainda não estiver publicado, o HTML usa o feed já disponível `docs/cupons/ofertas.json` como reserva.
 - Para SEO na página Wix mantenha H1 nativo e texto visível, pois indexação do conteúdo do iframe não é garantida.
