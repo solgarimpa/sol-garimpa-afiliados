@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-02T01:27:05+00:00",
+  "atualizado_em": "2026-11-02T03:06:19+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -799,20 +799,6 @@
       "preco_anterior": null,
       "cupom": "LOMADEE10",
       "validade": "2027-01-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-80ca459b7df05b5760ea",
-      "loja": "Malwee",
-      "tipo": "cupom",
-      "titulo": "Desconto especial de 30% OFF",
-      "imagem": "",
-      "link": "https://lmdee.link/mmSMVGrbiJcm",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "30OFF",
-      "validade": "2026-11-02T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1905,6 +1891,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-910c2d892e7a31107f3f",
+      "loja": "Shopee",
+      "tipo": "promocao",
+      "titulo": "ST_Network_Lomadee - Women Clothes",
+      "imagem": "",
+      "link": "https://lmdee.link/ABA1IRpzA2Td",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2029-01-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
