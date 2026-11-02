@@ -41,6 +41,47 @@ footer{font-size:11px;color:#717987;margin-top:18px;border-top:1px solid var(--b
 button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #1a73e8;outline-offset:2px}
 @media(max-width:520px){main{padding:12px 10px 20px}.join{width:100%;text-align:center}.search select{max-width:none}.card{min-height:240px}}
 
+
+/* Central de cupons: visual próprio, inspirado na navegação de grandes diretórios */
+body{background:#f7f8fb}
+main{max-width:1160px;background:white;min-height:100vh;padding:22px clamp(12px,3vw,35px)}
+header{padding:15px 0 24px;border-bottom:1px solid #e8ebef}
+.brand b{font-size:13px;box-shadow:inset 0 -1px #cfb324}
+h1{font-size:clamp(25px,4vw,37px);max-width:750px;letter-spacing:-.9px}
+.subtitle{max-width:740px;font-size:14px}
+.join{margin:auto 0}
+.section-title{font-size:18px;letter-spacing:-.3px;margin:25px 0 5px}
+.section-note{color:#667085;font-size:12px;margin:0 0 13px}
+.popular{display:flex;gap:9px;overflow-x:auto;padding:8px 1px 15px;scrollbar-width:thin}
+.store-quick{flex:none;display:flex;align-items:center;gap:10px;padding:9px 13px;background:#fff;border:1px solid #e1e4ea;border-radius:12px;cursor:pointer;min-width:155px;text-align:left;color:#19243b}
+.store-quick:hover,.store-quick[aria-pressed=true]{border-color:#e6bb20;background:#fffbee}
+.store-logo{width:39px;height:39px;display:flex;align-items:center;justify-content:center;border-radius:10px;background:#f0f3f9;color:#33425a;font-size:16px;font-weight:950}
+.store-name{font-size:12px;font-weight:850;line-height:1.25}
+.store-count{display:block;font-size:10px;font-weight:600;color:#687386}
+.filter-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin:22px 0 4px}
+.filter-heading h2{margin:0;font-size:20px}
+.count{font-weight:850;color:#4e5c70;font-size:12px}
+.search{margin:13px 0 12px}
+.search input,.search select{background:#fff}
+.pill[aria-pressed=true]{background:#ffdc42;color:#111f36;border-color:#e2bb13}
+.status{margin-bottom:15px}
+.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.card{min-height:244px;padding:20px;box-shadow:none;border:1px solid #e3e7ee;gap:9px}
+.title{font-size:17px}
+.coupon{background:#fbfdff;border-color:#d3dce7}
+.copy{background:#ffe06b;border:0;color:#17233c}
+.buy{background:#18253c;color:white}
+.cta{margin-top:4px}
+.disclaimer{font-size:11px;line-height:1.6;color:#596579;background:#f8f9fb;padding:11px;border-radius:9px}
+.directory{padding-top:7px;margin-top:26px;border-top:1px solid #e7eaf0}
+.directory-items{display:flex;flex-wrap:wrap;gap:8px;margin:13px 0}
+.directory-items button{border:1px solid #dce2eb;background:white;border-radius:8px;color:#33415a;padding:9px 12px;cursor:pointer;font:750 12px Arial,sans-serif}
+.faq{margin-top:23px;border-top:1px solid #e7eaf0;padding-top:6px}
+.faq details{border-bottom:1px solid #e9edf2;padding:13px 2px}
+.faq summary{cursor:pointer;font-weight:800}
+.faq p{font-size:13px;color:#5d6878}
+footer{line-height:1.7}
+@media(max-width:690px){.grid{grid-template-columns:1fr}main{padding:10px 12px 20px}.card{min-height:0}.section-title{font-size:17px}.filter-heading h2{font-size:18px}}
 </style>
 </head>
 <body>
@@ -54,27 +95,48 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 <a class="join" href="https://chat.whatsapp.com/Hr6GOc8UiRpIWaBCuyCnoR" target="_blank" rel="noopener noreferrer">📱 Entre no grupo de ofertas</a>
 </header>
 
+
+<section aria-label="Lojas com cupons">
+  <h2 class="section-title">Encontre cupons das melhores lojas</h2>
+  <p class="section-note">Escolha uma loja com códigos disponíveis na nossa central.</p>
+  <div class="popular" id="destaques"></div>
+</section>
+<div class="filter-heading"><h2>Cupons e promoções</h2><span id="contagem" class="count">Consultando catálogo...</span></div>
 <div class="search">
 <input type="search" id="busca" placeholder="Pesquisar loja, desconto ou palavra..." aria-label="Pesquisar cupons e ofertas" autocomplete="off">
 <select id="lojas" aria-label="Filtrar por loja"><option value="">Todas as lojas</option></select>
 <select id="ordem" aria-label="Ordenar ofertas"><option value="validade">Terminando primeiro</option><option value="loja">Lojas A–Z</option><option value="recentes">Validade mais distante</option></select>
 </div>
 <div class="pills" role="group" aria-label="Tipo de oferta">
-<button class="pill" type="button" data-type="todos" aria-pressed="true">Todas</button>
-<button class="pill" type="button" data-type="cupom" aria-pressed="false">Com código</button>
+<button class="pill" type="button" data-type="todos" aria-pressed="false">Todas</button>
+<button class="pill" type="button" data-type="cupom" aria-pressed="true">Com código</button>
 <button class="pill" type="button" data-type="promocao" aria-pressed="false">Promoções</button>
 <button class="pill" type="button" data-type="terminando" aria-pressed="false">Terminando em breve</button>
 </div>
 <div class="status" role="status" id="status">Consultando descontos...</div>
 <section class="grid" id="resultados" aria-label="Lista de cupons e ofertas"></section><nav id="paginas" class="pager" aria-label="Navegar por páginas de ofertas"></nav>
+
+<section class="directory" aria-label="Diretório de lojas">
+<h2 class="section-title">Principais lojas com descontos</h2>
+<p class="section-note">Veja todas as lojas presentes na atualização atual, sem listar códigos vencidos.</p>
+<div class="directory-items" id="diretorio"></div>
+</section>
+<section class="faq">
+<h2 class="section-title">Como aproveitar os cupons de desconto?</h2>
+<details><summary>Como usar um cupom da Sol Garimpa?</summary><p>Escolha uma loja, clique em Copiar e acesse a oferta no botão de compra. No carrinho da loja, cole o código no campo de cupom e confira as condições antes de finalizar.</p></details>
+<details><summary>Os cupons funcionam em qualquer produto?</summary><p>Não necessariamente. Alguns códigos exigem valor mínimo, categoria, novos usuários, forma de pagamento ou compra pelo aplicativo. Consulte as regras de cada oferta.</p></details>
+<details><summary>Com que frequência os cupons são atualizados?</summary><p>O catálogo consulta os feeds de programas de afiliados a cada 45 minutos, sujeito ao agendamento e à disponibilidade das fontes. Ofertas com prazo vencido são removidas da lista.</p></details>
+<details><summary>É seguro comprar com os links?</summary><p>O checkout é realizado no site da loja. A Sol Garimpa não recebe os dados do seu cartão. Confirme sempre o endereço da loja e as condições do desconto.</p></details>
+</section>
 <footer><span id="atualizacao"></span> Os cupons e condições são definidos pelas lojas e podem mudar antes do prazo. Confira as condições no site da loja antes de comprar. Podemos receber comissão pelos links de afiliados.</footer>
 </main>
 <script>
 (function(){
 "use strict";
-const API="https://raw.githubusercontent.com/solgarimpa/sol-garimpa-afiliados/main/docs/cupons/ofertas.json";
+const API="https://solgarimpa.github.io/sol-garimpa-afiliados/cupons/catalogo.json";
+const RESERVA="https://solgarimpa.github.io/sol-garimpa-afiliados/cupons/ofertas.json";
 const $=id=>document.getElementById(id);
-const state={ofertas:[],tipo:"todos",pronto:false,pagina:1};
+const state={ofertas:[],tipo:"cupom",pronto:false,pagina:1};
 const formatter=new Intl.DateTimeFormat("pt-BR",{timeZone:"America/Sao_Paulo",day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"});
 function validDate(s){const d=new Date(s);return s&&!isNaN(d.getTime())?d:null}
 function secureLink(s){try{const u=new URL(s);return u.protocol==="https:"?u.href:""}catch(e){return ""}}
@@ -93,7 +155,7 @@ function render(){
   if(term&&!([x.loja,x.titulo,x.descricao,x.cupom].join(" ").toLocaleLowerCase("pt-BR").includes(term)))return false;
   return true;
  }).sort(sortValues);
- $("status").textContent=items.length+" oferta(s) encontrada(s)";
+ $("status").textContent=items.length+" resultado(s) para os filtros selecionados";
  const porPagina=window.innerWidth<680?6:12, totalPaginas=Math.max(1,Math.ceil(items.length/porPagina));
  state.pagina=Math.min(Math.max(1,state.pagina),totalPaginas);
  const pager=$("paginas");pager.replaceChildren();
@@ -102,7 +164,7 @@ function render(){
   back.addEventListener("click",()=>{state.pagina--;render()});next.addEventListener("click",()=>{state.pagina++;render()});pager.append(back,page,next);
  }
  const visiveis=items.slice((state.pagina-1)*porPagina,state.pagina*porPagina);
- if(!items.length){res.append(el("div","empty","Nenhuma oferta corresponde aos filtros. Verifique novamente em alguns minutos."));return}
+ if(!items.length){res.append(el("div","empty",state.tipo==="cupom"?"Não há códigos confirmados para esses filtros. Selecione Todas para ver também promoções.":"Nenhuma oferta corresponde aos filtros selecionados."));return}
  for(const x of visiveis){
   const card=el("article","card");
   const top=el("div","top");top.append(el("div","store",x.loja),el("span","tag",x.cupom?"CUPOM":"PROMOÇÃO"));card.append(top);
@@ -128,18 +190,73 @@ function setup(data){
  const now=Date.now();
  state.ofertas=(Array.isArray(data.ofertas)?data.ofertas:[]).filter(x=>x&&typeof x==="object"&&x.titulo&&x.loja&&secureLink(x.link)&&(!x.validade||Date.parse(x.validade)>now)).map(x=>Object.assign({},x,{link:secureLink(x.link)}));
  const names=Array.from(new Set(state.ofertas.map(x=>x.loja))).sort((a,b)=>a.localeCompare(b,"pt-BR"));const select=$("lojas");select.replaceChildren();const all=el("option","","Todas as lojas");all.value="";select.append(all);names.forEach(x=>{const op=el("option","",x);op.value=x;select.append(op)});
+ 
+ // Mostrar apenas nomes de lojas realmente presentes no catálogo ativo.
+ const apenasCupons=state.ofertas.filter(x=>x.cupom);
+ const contagem=new Map();
+ apenasCupons.forEach(x=>contagem.set(x.loja,(contagem.get(x.loja)||0)+1));
+ const prioritarias=["Mercado Livre","Amazon","Shopee","Magalu","Magazine Luiza","AliExpress","Americanas","Netshoes","Nike","Centauro","Samsung"];
+ const ordenar=(a,b)=>{
+   const ia=prioritarias.findIndex(p=>a.toLowerCase().includes(p.toLowerCase()));
+   const ib=prioritarias.findIndex(p=>b.toLowerCase().includes(p.toLowerCase()));
+   if(ia<0&&ib>=0)return 1;
+   if(ib<0&&ia>=0)return -1;
+   if(ia>=0&&ib>=0)return ia-ib;
+   return (contagem.get(b)||0)-(contagem.get(a)||0)||a.localeCompare(b,"pt-BR");
+ };
+ const lojasComCupom=[...contagem.keys()].sort(ordenar);
+ function escolherLoja(nome){
+   $("lojas").value=nome;
+   $("busca").value="";
+   state.tipo="cupom";state.pagina=1;
+   document.querySelectorAll(".pill").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.type==="cupom")));
+   render();
+   $("resultados").scrollIntoView({behavior:"smooth",block:"start"});
+   document.querySelectorAll(".store-quick").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.loja===nome)));
+ }
+ const destaque=$("destaques"),diretorio=$("diretorio");destaque.replaceChildren();diretorio.replaceChildren();
+ lojasComCupom.forEach((nome,i)=>{
+   if(i<14){
+      const b=el("button","store-quick");b.type="button";b.dataset.loja=nome;b.setAttribute("aria-pressed","false");
+      const mark=el("span","store-logo",nome.trim().slice(0,1).toUpperCase()),label=el("span","store-name",nome),count=el("span","store-count",contagem.get(nome)+" cupom(ns)");
+      label.append(count);b.append(mark,label);b.addEventListener("click",()=>escolherLoja(nome));destaque.append(b);
+   }
+   const bt=el("button","",nome+" ("+contagem.get(nome)+")");bt.type="button";bt.addEventListener("click",()=>escolherLoja(nome));diretorio.append(bt);
+ });
+ if(!lojasComCupom.length)destaque.append(el("p","section-note","Nenhum código novo foi confirmado. Consulte as promoções ou retorne em alguns minutos."));
+ $("contagem").textContent=apenasCupons.length+" cupons • "+lojasComCupom.length+" lojas";
  state.pronto=true;
  const stamp=validDate(data.atualizado_em);$("atualizacao").textContent=stamp?"Última atualização: "+formatter.format(stamp)+". ":"";
  render();
 }
+
+async function carregarFonte(url){
+ const resp=await fetch(url+"?v="+Math.floor(Date.now()/2700000),{cache:"no-store"});
+ if(!resp.ok)throw Error("HTTP "+resp.status);
+ const data=await resp.json();
+ if(!data||!Array.isArray(data.ofertas))throw Error("JSON inválido");
+ return data;
+}
 async function load(){
+ let data,usouReserva=false;
  try{
-  const response=await fetch(API+"?v="+Math.floor(Date.now()/2700000),{cache:"no-store"});
-  if(!response.ok)throw new Error(String(response.status));
-  const data=await response.json();if(!Array.isArray(data.ofertas))throw new Error("Formato inválido");
-  if(!data.atualizado_em){$("status").textContent="Aguardando a primeira sincronização da Awin.";state.pronto=true;return}
+  try{data=await carregarFonte(API)}
+  catch(e){data=await carregarFonte(RESERVA);usouReserva=true}
+  const atualizada=validDate(data.atualizado_em);
+  if(!atualizada)throw Error("Sem atualização de origem");
+  if((Date.now()-atualizada.getTime())>72*3600000)throw Error("Feed desatualizado");
   setup(data);
- }catch(e){$("status").textContent="Não foi possível carregar as ofertas agora. Tente novamente em alguns minutos.";state.pronto=true}
+  if(usouReserva)$("status").textContent+=" • Exibindo cupons Awin enquanto catálogo unificado atualiza.";
+ }catch(e){
+  if(!state.pronto){
+    state.pronto=true;state.ofertas=[];
+    $("status").textContent="Catálogo temporariamente indisponível. Não exibimos cupons sem confirmação recente.";
+    $("contagem").textContent="Sem dados atualizados";
+    render();
+  }else{
+    $("status").textContent="Não foi possível consultar uma atualização agora; confira as datas de validade.";
+  }
+ }
 }
 $("busca").addEventListener("input",()=>{state.pagina=1;render()});$("lojas").addEventListener("change",()=>{state.pagina=1;render()});$("ordem").addEventListener("change",()=>{state.pagina=1;render()});
 document.querySelectorAll(".pill").forEach(btn=>btn.addEventListener("click",()=>{state.tipo=btn.dataset.type;state.pagina=1;document.querySelectorAll(".pill").forEach(b=>b.setAttribute("aria-pressed",String(b===btn)));render()}));
