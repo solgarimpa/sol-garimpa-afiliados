@@ -36,7 +36,7 @@ h1{font-size:clamp(21px,4vw,30px);line-height:1.2;letter-spacing:-.6px;margin:10
 .cta{display:flex;gap:7px}.buy{flex:1;text-align:center;background:var(--amarelo);color:#1b253a;text-decoration:none;padding:12px 10px;border-radius:10px;font-weight:900}
 .terms{border:0;background:none;color:#5f6d7c;font-size:11px;cursor:pointer;text-decoration:underline;text-align:left;padding:1px 0}
 .termsbody{font-size:11px;color:#5c6270;white-space:pre-wrap;overflow-wrap:anywhere;background:var(--fundo);padding:10px;border-radius:8px}
-.empty{grid-column:1/-1;text-align:center;padding:36px 18px;border:1px dashed #d5dce7;border-radius:14px;color:#5f6a7c}
+.pager{display:flex;gap:10px;align-items:center;justify-content:center;padding:17px 0 5px}.pager button{border:1px solid var(--borda);background:#fff;color:var(--escuro);border-radius:9px;padding:10px 15px;font-weight:850;cursor:pointer}.pager button:disabled{opacity:.35;cursor:default}.pager span{font-size:12px;font-weight:750;color:var(--cinza)}.empty{grid-column:1/-1;text-align:center;padding:36px 18px;border:1px dashed #d5dce7;border-radius:14px;color:#5f6a7c}
 footer{font-size:11px;color:#717987;margin-top:18px;border-top:1px solid var(--borda);padding-top:12px}
 button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #1a73e8;outline-offset:2px}
 @media(max-width:520px){main{padding:12px 10px 20px}.join{width:100%;text-align:center}.search select{max-width:none}.card{min-height:240px}}
@@ -64,7 +64,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 <button class="pill" type="button" data-type="terminando" aria-pressed="false">Terminando em breve</button>
 </div>
 <div class="status" role="status" id="status">Consultando descontos...</div>
-<section class="grid" id="resultados" aria-label="Lista de cupons e ofertas"></section>
+<section class="grid" id="resultados" aria-label="Lista de cupons e ofertas"></section><nav id="paginas" class="pager" aria-label="Navegar por páginas de ofertas"></nav>
 <footer><span id="atualizacao"></span> Os cupons e condições são definidos pelas lojas e podem mudar antes do prazo. Confira as condições no site da loja antes de comprar. Podemos receber comissão pelos links de afiliados.</footer>
 </main>
 <script>
@@ -72,7 +72,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 "use strict";
 const API="https://raw.githubusercontent.com/solgarimpa/sol-garimpa-afiliados/main/docs/cupons/ofertas.json";
 const $=id=>document.getElementById(id);
-const state={ofertas:[],tipo:"todos",pronto:false};
+const state={ofertas:[],tipo:"todos",pronto:false,pagina:1};
 const formatter=new Intl.DateTimeFormat("pt-BR",{timeZone:"America/Sao_Paulo",day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"});
 function validDate(s){const d=new Date(s);return s&&!isNaN(d.getTime())?d:null}
 function secureLink(s){try{const u=new URL(s);return u.protocol==="https:"?u.href:""}catch(e){return ""}}
@@ -92,8 +92,16 @@ function render(){
   return true;
  }).sort(sortValues);
  $("status").textContent=items.length+" oferta(s) encontrada(s)";
+ const porPagina=window.innerWidth<680?6:12, totalPaginas=Math.max(1,Math.ceil(items.length/porPagina));
+ state.pagina=Math.min(Math.max(1,state.pagina),totalPaginas);
+ const pager=$("paginas");pager.replaceChildren();
+ if(items.length>porPagina){
+  const back=el("button","","Anterior"),page=el("span","","Página "+state.pagina+" de "+totalPaginas),next=el("button","","Próxima");back.type="button";next.type="button";back.disabled=state.pagina===1;next.disabled=state.pagina===totalPaginas;
+  back.addEventListener("click",()=>{state.pagina--;render()});next.addEventListener("click",()=>{state.pagina++;render()});pager.append(back,page,next);
+ }
+ const visiveis=items.slice((state.pagina-1)*porPagina,state.pagina*porPagina);
  if(!items.length){res.append(el("div","empty","Nenhuma oferta corresponde aos filtros. Verifique novamente em alguns minutos."));return}
- for(const x of items){
+ for(const x of visiveis){
   const card=el("article","card");
   const top=el("div","top");top.append(el("div","store",x.loja),el("span","tag",x.cupom?"CUPOM":"PROMOÇÃO"));card.append(top);
   card.append(el("div","title",x.titulo));
@@ -130,8 +138,8 @@ async function load(){
   setup(data);
  }catch(e){$("status").textContent="Não foi possível carregar as ofertas agora. Tente novamente em alguns minutos.";state.pronto=true}
 }
-$("busca").addEventListener("input",render);$("lojas").addEventListener("change",render);$("ordem").addEventListener("change",render);
-document.querySelectorAll(".pill").forEach(btn=>btn.addEventListener("click",()=>{state.tipo=btn.dataset.type;document.querySelectorAll(".pill").forEach(b=>b.setAttribute("aria-pressed",String(b===btn)));render()}));
+$("busca").addEventListener("input",()=>{state.pagina=1;render()});$("lojas").addEventListener("change",()=>{state.pagina=1;render()});$("ordem").addEventListener("change",()=>{state.pagina=1;render()});
+document.querySelectorAll(".pill").forEach(btn=>btn.addEventListener("click",()=>{state.tipo=btn.dataset.type;state.pagina=1;document.querySelectorAll(".pill").forEach(b=>b.setAttribute("aria-pressed",String(b===btn)));render()}));
 load();setInterval(load,30*60*1000);
 })();
 </script>
