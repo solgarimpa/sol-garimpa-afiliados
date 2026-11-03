@@ -1,64 +1,9 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-03T02:57:12.585099Z",
-  "total": 71,
+  "atualizado_em": "2026-11-03T03:39:16.225329Z",
+  "total": 66,
   "ofertas": [
-    {
-      "id": "4134124",
-      "loja": "Soldiers Nutrition BR",
-      "tipo": "promocao",
-      "titulo": "11% OFF Kit: Whey Core Chocolate + Pré-Treino Evolution Blueberry + Creatina 150g",
-      "descricao": "11% OFF Kit: Whey Core Chocolate + Pré-Treino Evolution Blueberry + Creatina 150g",
-      "termos": "..",
-      "cupom": "",
-      "validade": "2026-11-03T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=65354&awinaffid=3110826&ued=https%3A%2F%2Fsoldiersnutrition.com.br%2Fproducts%2Fkit-whey-core-900g-pre-treino-evoluition-300g-creatina-150g%3F_pos%3D1%26_sid%3D9a4332464%26_ss%3Dr%26variant%3D48722180735225"
-    },
-    {
-      "id": "4134123",
-      "loja": "Soldiers Nutrition BR",
-      "tipo": "promocao",
-      "titulo": "15% OFF Beef Protein Suplemento Alimentar de Proteínas em Pó Soldiers Nutrition Sabor",
-      "descricao": "15% OFF Beef Protein Suplemento Alimentar de Proteínas em Pó Soldiers Nutrition Sabor",
-      "termos": "..",
-      "cupom": "",
-      "validade": "2026-11-03T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=65354&awinaffid=3110826&ued=https%3A%2F%2Fsoldiersnutrition.com.br%2Fproducts%2Fbeef-protein-suplemento-alimentar-de-proteinas-em-po-soldiers-nutrition%3F_pos%3D1%26_sid%3D2d9d7f586%26_ss%3Dr"
-    },
-    {
-      "id": "4134122",
-      "loja": "Soldiers Nutrition BR",
-      "tipo": "promocao",
-      "titulo": "50% OFF NAC N-ACETIL L-CISTEÍNA - 60 Caps",
-      "descricao": "50% OFF NAC N-ACETIL L-CISTEÍNA - 60 Caps",
-      "termos": "..",
-      "cupom": "",
-      "validade": "2026-11-03T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=65354&awinaffid=3110826&ued=https%3A%2F%2Fsoldiersnutrition.com.br%2Fproducts%2Fnac-pro-500mg-60-caps%3F_pos%3D1%26_sid%3D5c46bbb05%26_ss%3Dr"
-    },
-    {
-      "id": "4134120",
-      "loja": "Soldiers Nutrition BR",
-      "tipo": "promocao",
-      "titulo": "50% OFF Femme Burn 90g - Soldiers Nutrition",
-      "descricao": "50% OFF Femme Burn 90g - Soldiers Nutrition",
-      "termos": "..",
-      "cupom": "",
-      "validade": "2026-11-03T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=65354&awinaffid=3110826&ued=https%3A%2F%2Fsoldiersnutrition.com.br%2Fproducts%2Ffemme-burn-soldiers-nutrition-tamanho-90g"
-    },
-    {
-      "id": "4134119",
-      "loja": "Soldiers Nutrition BR",
-      "tipo": "promocao",
-      "titulo": "71% OFF Creatina Monohidratada 600g - 100% Pura Importada - Soldiers Nutrition",
-      "descricao": "71% OFF Creatina Monohidratada 600g - 100% Pura Importada - Soldiers Nutrition",
-      "termos": "..",
-      "cupom": "",
-      "validade": "2026-11-03T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=65354&awinaffid=3110826&ued=https%3A%2F%2Fsoldiersnutrition.com.br%2Fproducts%2Fcreatina-monohidratada-100-pura-importada-soldiers-nutrition-tamanho-600g%3Fvariant%3D47173658738937"
-    },
     {
       "id": "4157569",
       "loja": "Kabum BR",

@@ -1,11 +1,11 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-03T02:57:13.921441Z",
-  "total": 99,
+  "atualizado_em": "2026-11-03T03:39:17.786125Z",
+  "total": 94,
   "total_cupons": 80,
-  "total_promocoes": 19,
+  "total_promocoes": 14,
   "fontes": {
-    "Awin": 71,
+    "Awin": 66,
     "Rakuten": 0,
     "Lomadee": 28
   },
@@ -1079,30 +1079,6 @@
       "rede": "Awin"
     },
     {
-      "id": "d6defb9eaf65bfc974",
-      "loja": "Soldiers Nutrition BR",
-      "tipo": "promocao",
-      "titulo": "11% OFF Kit: Whey Core Chocolate + Pré-Treino Evolution Blueberry + Creatina 150g",
-      "descricao": "11% OFF Kit: Whey Core Chocolate + Pré-Treino Evolution Blueberry + Creatina 150g",
-      "termos": "..",
-      "cupom": "",
-      "validade": "2026-11-03T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=65354&awinaffid=3110826&ued=https%3A%2F%2Fsoldiersnutrition.com.br%2Fproducts%2Fkit-whey-core-900g-pre-treino-evoluition-300g-creatina-150g%3F_pos%3D1%26_sid%3D9a4332464%26_ss%3Dr%26variant%3D48722180735225",
-      "rede": "Awin"
-    },
-    {
-      "id": "55456a757511f7ff75",
-      "loja": "Soldiers Nutrition BR",
-      "tipo": "promocao",
-      "titulo": "15% OFF Beef Protein Suplemento Alimentar de Proteínas em Pó Soldiers Nutrition Sabor",
-      "descricao": "15% OFF Beef Protein Suplemento Alimentar de Proteínas em Pó Soldiers Nutrition Sabor",
-      "termos": "..",
-      "cupom": "",
-      "validade": "2026-11-03T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=65354&awinaffid=3110826&ued=https%3A%2F%2Fsoldiersnutrition.com.br%2Fproducts%2Fbeef-protein-suplemento-alimentar-de-proteinas-em-po-soldiers-nutrition%3F_pos%3D1%26_sid%3D2d9d7f586%26_ss%3Dr",
-      "rede": "Awin"
-    },
-    {
       "id": "b27f0981312a8e1efd",
       "loja": "Soldiers Nutrition BR",
       "tipo": "promocao",
@@ -1127,30 +1103,6 @@
       "rede": "Awin"
     },
     {
-      "id": "65606882a4e4b50618",
-      "loja": "Soldiers Nutrition BR",
-      "tipo": "promocao",
-      "titulo": "50% OFF Femme Burn 90g - Soldiers Nutrition",
-      "descricao": "50% OFF Femme Burn 90g - Soldiers Nutrition",
-      "termos": "..",
-      "cupom": "",
-      "validade": "2026-11-03T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=65354&awinaffid=3110826&ued=https%3A%2F%2Fsoldiersnutrition.com.br%2Fproducts%2Ffemme-burn-soldiers-nutrition-tamanho-90g",
-      "rede": "Awin"
-    },
-    {
-      "id": "1811a6c462340816ab",
-      "loja": "Soldiers Nutrition BR",
-      "tipo": "promocao",
-      "titulo": "50% OFF NAC N-ACETIL L-CISTEÍNA - 60 Caps",
-      "descricao": "50% OFF NAC N-ACETIL L-CISTEÍNA - 60 Caps",
-      "termos": "..",
-      "cupom": "",
-      "validade": "2026-11-03T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=65354&awinaffid=3110826&ued=https%3A%2F%2Fsoldiersnutrition.com.br%2Fproducts%2Fnac-pro-500mg-60-caps%3F_pos%3D1%26_sid%3D5c46bbb05%26_ss%3Dr",
-      "rede": "Awin"
-    },
-    {
       "id": "734a930341beb4d5ac",
       "loja": "Soldiers Nutrition BR",
       "tipo": "promocao",
@@ -1172,18 +1124,6 @@
       "cupom": "",
       "validade": "2026-11-10T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=65354&awinaffid=3110826&ued=https%3A%2F%2Fsoldiersnutrition.com.br%2Fproducts%2Fcreatina-monohidratada-100-pura-importada-soldiers-nutrition-tamanho-500g%3Fvariant%3D47173659033849",
-      "rede": "Awin"
-    },
-    {
-      "id": "3bee355a606d5cbc1f",
-      "loja": "Soldiers Nutrition BR",
-      "tipo": "promocao",
-      "titulo": "71% OFF Creatina Monohidratada 600g - 100% Pura Importada - Soldiers Nutrition",
-      "descricao": "71% OFF Creatina Monohidratada 600g - 100% Pura Importada - Soldiers Nutrition",
-      "termos": "..",
-      "cupom": "",
-      "validade": "2026-11-03T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=65354&awinaffid=3110826&ued=https%3A%2F%2Fsoldiersnutrition.com.br%2Fproducts%2Fcreatina-monohidratada-100-pura-importada-soldiers-nutrition-tamanho-600g%3Fvariant%3D47173658738937",
       "rede": "Awin"
     },
     {
