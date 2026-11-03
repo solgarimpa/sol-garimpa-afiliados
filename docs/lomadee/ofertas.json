@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-03T11:11:13+00:00",
+  "atualizado_em": "2026-11-03T12:00:32+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -551,15 +551,15 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-2221f13966ac2d9c0291",
+      "id": "lc-50c013a4b2ef1516be9a",
       "loja": "Anhanguera Ferramentas",
-      "tipo": "cupom",
-      "titulo": "5%OFF em todo o site!",
+      "tipo": "promocao",
+      "titulo": "Black Friday Anhanguera Ferramentas",
       "imagem": "",
-      "link": "https://lmdee.link/EKfguDpM4DAg",
+      "link": "https://lmdee.link/ScDIP120Exls",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "FERRAMENTA5",
+      "cupom": null,
       "validade": null,
       "descricao": "",
       "origem": "Lomadee"
@@ -607,15 +607,15 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-fcf2c7975359e50280cc",
+      "id": "lc-601a28b540080890d985",
       "loja": "Brinox",
-      "tipo": "cupom",
-      "titulo": "R$ 100 em compras acima de R$699",
-      "imagem": "",
-      "link": "https://lmdee.link/mGEeBYw6ZwcY",
+      "tipo": "promocao",
+      "titulo": "Esquenta Black Friday",
+      "imagem": "https://cdn.lomadee.com.br/offer/d68c7a5e-c32d-468e-a073-803e7712ee68/banners/Visualiza%C3%A7%C3%A3o%20da%20imagem%20%2849%29.png",
+      "link": "https://lmdee.link/xxOsgPgpJNQG",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "BF100",
+      "cupom": null,
       "validade": "2026-12-11T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
@@ -1027,6 +1027,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-2221f13966ac2d9c0291",
+      "loja": "Anhanguera Ferramentas",
+      "tipo": "cupom",
+      "titulo": "5%OFF em todo o site!",
+      "imagem": "",
+      "link": "https://lmdee.link/EKfguDpM4DAg",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "FERRAMENTA5",
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-80b667df035303e15643",
       "loja": "Bauducco",
       "tipo": "cupom",
@@ -1041,15 +1055,15 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-5dfd6c15ad056df41f16",
+      "id": "lc-fcf2c7975359e50280cc",
       "loja": "Brinox",
       "tipo": "cupom",
-      "titulo": "R$ 50 em compras acima de R$399",
+      "titulo": "R$ 100 em compras acima de R$699",
       "imagem": "",
-      "link": "https://lmdee.link/nRs51ZGLWI6v",
+      "link": "https://lmdee.link/mGEeBYw6ZwcY",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "BF50",
+      "cupom": "BF100",
       "validade": "2026-12-11T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
@@ -1349,16 +1363,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-890b72814ca708f2943c",
+      "id": "lc-5dfd6c15ad056df41f16",
       "loja": "Brinox",
       "tipo": "cupom",
-      "titulo": "Cupom perfeito para você divulgar!",
+      "titulo": "R$ 50 em compras acima de R$399",
       "imagem": "",
-      "link": "https://lmdee.link/DZo5pwUvAGaK",
+      "link": "https://lmdee.link/nRs51ZGLWI6v",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "RENOVACASA",
-      "validade": "2026-12-21T02:30:00.000Z",
+      "cupom": "BF50",
+      "validade": "2026-12-11T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1583,6 +1597,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-890b72814ca708f2943c",
+      "loja": "Brinox",
+      "tipo": "cupom",
+      "titulo": "Cupom perfeito para você divulgar!",
+      "imagem": "",
+      "link": "https://lmdee.link/DZo5pwUvAGaK",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "RENOVACASA",
+      "validade": "2026-12-21T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1895,20 +1923,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-2f3834c58a49a77883f2",
-      "loja": "Shopee",
-      "tipo": "promocao",
-      "titulo": "ST_Network_Lomadee - Travel & Luggage",
-      "imagem": "",
-      "link": "https://lmdee.link/173Wj8Qb6gwF",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2029-01-01T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-2fbebfaa5d37fe66de12",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -2209,6 +2223,20 @@
       "titulo": "[CATEGORIA] Bandejas",
       "imagem": "https://cdn.lomadee.com.br/offer/465d725f-4ac2-4ecb-a9a1-6321db28b6f0/banners/750x1351%20%283%29.jpg",
       "link": "https://lmdee.link/hEoNXaQXGYd9",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-7a1d1ab806eb6d8bb225",
+      "loja": "Sawary",
+      "tipo": "promocao",
+      "titulo": "Seleção especial Sawary Jeans 8 ofertas impedíveis",
+      "imagem": "",
+      "link": "https://lmdee.link/02xYSVY1L8ir",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -2741,34 +2769,6 @@
       "titulo": "2 Espreguiçadeiras Double mild chaise",
       "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Prancheta_13_28bc79fe-7866-4787-9bcd-900957380ef9.webp?v=1774380413",
       "link": "https://lmdee.link/2dZBlLIQ2aKc",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lp-e4574d6afa153dddf4b2",
-      "loja": "ECO FLAME GARDEN",
-      "tipo": "produto",
-      "titulo": "2 Espreguiçadeiras Duo + Ombrelone 2,75M",
-      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Copiade2AzulMarinho_a770fec0-23e4-4987-9086-0e3346614775.webp?v=1775766795",
-      "link": "https://lmdee.link/hA1Wtd17VprF",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lp-20b2ce1eab36335e8e6c",
-      "loja": "ECO FLAME GARDEN",
-      "tipo": "produto",
-      "titulo": "2 Espreguiçadeiras Duo + Ombrelone 2,75M",
-      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Copiade2AzulMarinho_a770fec0-23e4-4987-9086-0e3346614775.webp?v=1775766795",
-      "link": "https://lmdee.link/WJfr6k2TCqLC",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
