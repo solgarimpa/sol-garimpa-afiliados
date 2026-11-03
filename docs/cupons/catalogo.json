@@ -1,11 +1,11 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-03T09:45:57.869057Z",
-  "total": 94,
-  "total_cupons": 80,
+  "atualizado_em": "2026-11-03T14:29:15.066075Z",
+  "total": 93,
+  "total_cupons": 79,
   "total_promocoes": 14,
   "fontes": {
-    "Awin": 66,
+    "Awin": 65,
     "Rakuten": 0,
     "Lomadee": 28
   },
@@ -584,18 +584,6 @@
       "cupom": "PLAYNINJA10",
       "validade": "2027-09-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1CAPCOM10",
-      "rede": "Awin"
-    },
-    {
-      "id": "03108d7ca62cba82c9",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "10% OFF em produtos participantes da campanha de placas-mãe",
-      "descricao": "10% OFF em produtos participantes da campanha de placas-mãe",
-      "termos": ".",
-      "cupom": "PLACAMAE10",
-      "validade": "2026-11-03T12:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1PLACAMAE10",
       "rede": "Awin"
     },
     {
