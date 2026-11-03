@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-03T15:05:33+00:00",
+  "atualizado_em": "2026-11-03T16:09:09+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -107,6 +107,10 @@
       "loja": "Lenovo"
     },
     {
+      "id": "37c909e6-2708-49a2-af42-c52782e98346",
+      "loja": "Continental Brasil"
+    },
+    {
       "id": "304e46ab-9e6f-462d-87e7-9afad02997aa",
       "loja": "BioVittare Farmácia de Manipulação"
     },
@@ -141,10 +145,6 @@
     {
       "id": "1ba96890-8d3b-45d6-8e55-247bf62f6b4e",
       "loja": "Pneunet"
-    },
-    {
-      "id": "33ff67b5-7c9b-4af7-82a1-f4b7445e59f9",
-      "loja": "Santander Abertura de Conta - PJ"
     },
     {
       "id": "20ead81f-493b-45a7-8ab6-5f523d4df803",
@@ -187,10 +187,6 @@
       "loja": "Shein"
     },
     {
-      "id": "37c909e6-2708-49a2-af42-c52782e98346",
-      "loja": "Continental Brasil"
-    },
-    {
       "id": "4307f0ec-7738-4e28-8bfb-67ab518f2aa9",
       "loja": "Esbelt"
     },
@@ -209,6 +205,10 @@
     {
       "id": "40167aca-ebfe-4ffd-bc01-e6778fb7aeed",
       "loja": "Hunter Fan"
+    },
+    {
+      "id": "77936e43-fa01-4b39-b22d-f0e729b22aed",
+      "loja": "Hugart "
     },
     {
       "id": "4a2f41d4-099d-4c8d-a003-5a37bef52ac8",
@@ -275,6 +275,10 @@
       "loja": "Ferramentas Kennedy"
     },
     {
+      "id": "9efd44a3-ec80-488e-afe3-86b2394d5f93",
+      "loja": "WSS Brasil"
+    },
+    {
       "id": "7ca3d59d-fd91-4759-82f4-cc4f4ce65d42",
       "loja": "TeraByte"
     },
@@ -283,16 +287,12 @@
       "loja": "Aéropostale Brasil"
     },
     {
-      "id": "77936e43-fa01-4b39-b22d-f0e729b22aed",
-      "loja": "Hugart "
-    },
-    {
       "id": "83f1f988-d5ca-489a-938d-1bcd2824f448",
       "loja": "Cirurgica Sinete"
     },
     {
-      "id": "72288273-4399-49f3-ace5-f3e34e26fa85",
-      "loja": "Bradesco Saúde"
+      "id": "a0124a6a-c622-4b7d-a560-bc75a515b542",
+      "loja": "Kidy Calçados"
     },
     {
       "id": "7d64bc79-584c-4621-9cc4-754c0f95647a",
@@ -335,10 +335,6 @@
       "loja": "Gazin"
     },
     {
-      "id": "9efd44a3-ec80-488e-afe3-86b2394d5f93",
-      "loja": "WSS Brasil"
-    },
-    {
       "id": "b08af64e-f7bd-434c-b0ac-6baec265f9fc",
       "loja": "BabyStock"
     },
@@ -347,8 +343,8 @@
       "loja": "Noble Nature"
     },
     {
-      "id": "a0124a6a-c622-4b7d-a560-bc75a515b542",
-      "loja": "Kidy Calçados"
+      "id": "c0520326-00a8-4064-b4fe-ba1b8cd3bfe7",
+      "loja": "Homedock"
     },
     {
       "id": "a463682f-09a7-420a-9858-1e9681591513",
@@ -391,6 +387,10 @@
       "loja": "Colorstone"
     },
     {
+      "id": "c0e3dfb9-f402-4267-940d-ae2c4f06b421",
+      "loja": "Zinco"
+    },
+    {
       "id": "ae6c268a-3b83-4d4a-9e51-6dc4bf6408e5",
       "loja": "Itatiaia"
     },
@@ -413,6 +413,10 @@
     {
       "id": "ca85cb50-d5f9-4b8b-8c08-70e2dbc9ca75",
       "loja": "China in Box"
+    },
+    {
+      "id": "e03cdaaf-233d-4019-9171-0e12be587de0",
+      "loja": "Vapza Alimentos"
     },
     {
       "id": "cb4ebfb0-1586-446d-a86b-b894d92d4dea",
@@ -439,16 +443,16 @@
       "loja": "Honor"
     },
     {
+      "id": "e198615b-4c17-4180-b06f-43376f162714",
+      "loja": "Amoedo"
+    },
+    {
       "id": "d676d9b8-e52f-4ea1-bf2f-d98cd563418e",
       "loja": "Editora Foco"
     },
     {
       "id": "ce68e7de-f212-44e3-bec6-16f5bec419ef",
       "loja": "MiniPreço"
-    },
-    {
-      "id": "c0520326-00a8-4064-b4fe-ba1b8cd3bfe7",
-      "loja": "Homedock"
     },
     {
       "id": "c43edf8e-c151-474a-83e8-d52ec3e13a24",
@@ -479,16 +483,24 @@
       "loja": "Candide"
     },
     {
-      "id": "c0e3dfb9-f402-4267-940d-ae2c4f06b421",
-      "loja": "Zinco"
+      "id": "e5f81b99-b74b-488f-9fd8-ef44e2c7aa87",
+      "loja": "Webfones"
     },
     {
-      "id": "eb6d987f-29a4-41ef-a47f-ae133e736df0",
-      "loja": "Tiktok"
+      "id": "e36f5bbb-3e5f-42e2-be4c-6c32dac101c2",
+      "loja": "Friopeças"
     },
     {
-      "id": "e03cdaaf-233d-4019-9171-0e12be587de0",
-      "loja": "Vapza Alimentos"
+      "id": "f31e32be-c116-4739-85a3-43f85681b237",
+      "loja": "Móveis Carraro"
+    },
+    {
+      "id": "e1d43df5-8c98-4f7a-9f75-e507ecbd649c",
+      "loja": "Xiaomi Brasil"
+    },
+    {
+      "id": "ecd9089c-0147-41aa-b974-bdfbf220a3d4",
+      "loja": "Catran"
     },
     {
       "id": "eea9e7f4-4b3a-4ef1-ab69-c2f550b6bc84",
@@ -499,44 +511,24 @@
       "loja": "Simple Organic"
     },
     {
-      "id": "e1d43df5-8c98-4f7a-9f75-e507ecbd649c",
-      "loja": "Xiaomi Brasil"
-    },
-    {
-      "id": "e198615b-4c17-4180-b06f-43376f162714",
-      "loja": "Amoedo"
-    },
-    {
       "id": "efd916a7-faa3-417b-8581-d3afe03e849c",
       "loja": "Líquido"
-    },
-    {
-      "id": "e36f5bbb-3e5f-42e2-be4c-6c32dac101c2",
-      "loja": "Friopeças"
     },
     {
       "id": "e556ed73-0e02-421e-9393-860b040bfbb7",
       "loja": "Prime Video"
     },
     {
-      "id": "f901efab-f85c-4546-bacc-375795b8c52d",
-      "loja": "Descomplica"
-    },
-    {
       "id": "e2c06410-a5e3-47c1-bcb2-d5f65f355c4f",
       "loja": "Relax Saboaria"
     },
     {
-      "id": "ecd9089c-0147-41aa-b974-bdfbf220a3d4",
-      "loja": "Catran"
+      "id": "f901efab-f85c-4546-bacc-375795b8c52d",
+      "loja": "Descomplica"
     },
     {
-      "id": "f31e32be-c116-4739-85a3-43f85681b237",
-      "loja": "Móveis Carraro"
-    },
-    {
-      "id": "e5f81b99-b74b-488f-9fd8-ef44e2c7aa87",
-      "loja": "Webfones"
+      "id": "eb6d987f-29a4-41ef-a47f-ae133e736df0",
+      "loja": "Tiktok"
     }
   ],
   "cards": [
@@ -569,16 +561,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-ab8c31921b04f6dffa6b",
+      "id": "lc-38d9a48a55bca765e46d",
       "loja": "Autoamerica Store",
       "tipo": "promocao",
-      "titulo": "Lançamento Autoamerica Store",
-      "imagem": "https://cdn.lomadee.com.br/offer/263beb4d-1c28-45be-85b8-d48ff27637c7/banners/PROMO%20Luva%20de%20lavagem%20-%20Mobile.jpg",
-      "link": "https://lmdee.link/yt4UkIouqEWb",
+      "titulo": "Triple Liquid Wax : Cera Líquida Híbrida 3 em 1",
+      "imagem": "https://cdn.lomadee.com.br/offer/884b626e-dfee-49a9-81e1-6d41d9fb156c/banners/Triple%20Liquid%20Wax.png",
+      "link": "https://lmdee.link/hXI4mWrpXepf",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2027-01-01T02:30:00.000Z",
+      "validade": "2026-11-09T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -611,16 +603,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-57489fdbdbf12c83d0b3",
+      "id": "lc-d436552442202cbabe3f",
       "loja": "Brinox",
-      "tipo": "cupom",
-      "titulo": "Cupom de R$ 25,00 de desconto",
-      "imagem": "",
-      "link": "https://lmdee.link/GqRkhjRYPgqQ",
+      "tipo": "promocao",
+      "titulo": "Black Friday Brinox",
+      "imagem": "https://cdn.lomadee.com.br/offer/1d6c063d-d784-4088-a44c-fc31d2f1303f/banners/Visualiza%C3%A7%C3%A3o%20da%20imagem%20%2855%29.png",
+      "link": "https://lmdee.link/Uht7oVFFJ8tK",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "BF25",
-      "validade": "2026-12-21T02:30:00.000Z",
+      "cupom": null,
+      "validade": "2026-12-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -790,6 +782,20 @@
       "cupom": null,
       "validade": null,
       "descricao": "As 150 Bolinhas Transparentes Extras são perfeitas para complementar piscinas de bolinhas, proporcionando mais diversão e cor ao cantinho das crianças. Produzidas com material seguro e resistente, garantem brincadeiras s",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-2276c2bdd5208469de93",
+      "loja": "Livrarias Curitiba",
+      "tipo": "promocao",
+      "titulo": "Black Literária com até 80% off",
+      "imagem": "https://cdn.lomadee.com.br/offer/0bc96dd0-d1be-403e-951a-19a80689743b/banners/Banner%20Desk.png",
+      "link": "https://lmdee.link/0GxnMLJHBMFJ",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
       "origem": "Lomadee"
     },
     {
@@ -989,20 +995,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-c90f81083c62d5dff088",
-      "loja": "Vinícola Jolimont",
-      "tipo": "cupom",
-      "titulo": "20BEMVINDO",
-      "imagem": "",
-      "link": "https://lmdee.link/2E9jSkSvJmPV",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "20BEMVINDO",
-      "validade": "2027-01-01T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-ef4798ab6b68c0853b30",
       "loja": "Zinco",
       "tipo": "promocao",
@@ -1045,6 +1037,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-04774c123c4db4fe343d",
+      "loja": "Autoamerica Store",
+      "tipo": "promocao",
+      "titulo": "Compre Mothers com condições exclusivas : Alta performance em limpeza, proteção e acabamento",
+      "imagem": "https://cdn.lomadee.com.br/offer/db3e70a0-c37e-42f9-b089-f1724fda00d2/banners/banner%20%2817%29.png",
+      "link": "https://lmdee.link/NAgnph0Rf9UY",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-09T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-80b667df035303e15643",
       "loja": "Bauducco",
       "tipo": "cupom",
@@ -1059,30 +1065,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-fdf5d392c0b511cc39c6",
+      "id": "lc-d611e2a20085ad02fe46",
       "loja": "Brinox",
       "tipo": "cupom",
-      "titulo": "Cupom de R$ 15,00 de desconto",
+      "titulo": "Cupom de R$ 50,00 de desconto na Panela de Pressão Indução Brinox Antiaderente Ceramic Life Pressure 6,8 Litros Ø24cm Vanilla",
       "imagem": "",
-      "link": "https://lmdee.link/dmjDKSrBDuLU",
+      "link": "https://lmdee.link/jqpvsnRfWwhm",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "BF15",
-      "validade": "2026-12-21T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-582b8ee0bc0ebda3d581",
-      "loja": "Buddha SPA",
-      "tipo": "promocao",
-      "titulo": "Desacelere o corpo, recarregue a mente e reencontre o seu equilíbrio com a Terapia Yin Yang (Shiatsu + Relaxante) no Buddha Spa.",
-      "imagem": "https://cdn.lomadee.com.br/offer/a80aa25c-2f1b-4502-aec1-7fe85ebd0cd6/banners/imagem%20-%202026-07-14T104346.643.png",
-      "link": "https://lmdee.link/BYneb44BBBs1",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
+      "cupom": "BF50EXTRA",
+      "validade": "2026-12-21T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1157,20 +1149,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-17d00c0bc7ae979ae48b",
-      "loja": "Iodice",
-      "tipo": "promocao",
-      "titulo": "Lançamento em Jeans",
-      "imagem": "",
-      "link": "https://lmdee.link/uBd5Vp8To9aa",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2027-01-01T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-3cdb9454b7efe1e37898",
       "loja": "Kidy Calçados",
       "tipo": "promocao",
@@ -1181,6 +1159,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-39b4423076b31e402401",
+      "loja": "Livrarias Curitiba",
+      "tipo": "cupom",
+      "titulo": "15% OFF em compras acima de R$ 149,90 nas categorias de Livros de Literatura.",
+      "imagem": "",
+      "link": "https://lmdee.link/3WDEzA0FFbxg",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "BLACKFRIDAY",
+      "validade": "2026-12-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1269,20 +1261,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-a1270d62ea1ac12c69a5",
-      "loja": "Shopee",
-      "tipo": "promocao",
-      "titulo": "ST_Network_Lomadee - Home Appliances",
-      "imagem": "",
-      "link": "https://lmdee.link/guvw26xzIL5t",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2029-01-01T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-26a3b686ecf203416de6",
       "loja": "Sofá na Caixa",
       "tipo": "promocao",
@@ -1353,6 +1331,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-495474c6548590ade784",
+      "loja": "Autoamerica Store",
+      "tipo": "promocao",
+      "titulo": "Produtos profissionais para elevar o padrão da sua estética automotiva",
+      "imagem": "",
+      "link": "https://lmdee.link/BKn12LnCxeuD",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-09T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-6a494c7ce1cb19c4802f",
       "loja": "Bauducco",
       "tipo": "promocao",
@@ -1367,16 +1359,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-601a28b540080890d985",
+      "id": "lc-9bf7f751e97a1685d857",
       "loja": "Brinox",
-      "tipo": "promocao",
-      "titulo": "Esquenta Black Friday",
-      "imagem": "https://cdn.lomadee.com.br/offer/d68c7a5e-c32d-468e-a073-803e7712ee68/banners/Visualiza%C3%A7%C3%A3o%20da%20imagem%20%2849%29.png",
-      "link": "https://lmdee.link/xxOsgPgpJNQG",
+      "tipo": "cupom",
+      "titulo": "Cupom de R$ 30,00 de desconto",
+      "imagem": "",
+      "link": "https://lmdee.link/ZRRmk8yWNuhM",
       "preco": null,
       "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-12-11T02:30:00.000Z",
+      "cupom": "BF30",
+      "validade": "2026-12-21T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1433,20 +1425,6 @@
       "preco_anterior": null,
       "cupom": "Preblack",
       "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-323b88a6ca63d69d37cd",
-      "loja": "Iodice",
-      "tipo": "promocao",
-      "titulo": "Casacos e Jaquetas com 60% OFF",
-      "imagem": "",
-      "link": "https://lmdee.link/XuLeqLux7hn4",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2027-01-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1577,6 +1555,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-c30efa0726c01faa8459",
+      "loja": "Autoamerica Store",
+      "tipo": "cupom",
+      "titulo": "Cupom de 10% de desconto",
+      "imagem": "",
+      "link": "https://lmdee.link/rar16NbFmsr8",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "AAStore",
+      "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-dacc943985f951031750",
       "loja": "Bauducco",
       "tipo": "promocao",
@@ -1591,16 +1583,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-fcf2c7975359e50280cc",
+      "id": "lc-57489fdbdbf12c83d0b3",
       "loja": "Brinox",
       "tipo": "cupom",
-      "titulo": "R$ 100 em compras acima de R$699",
+      "titulo": "Cupom de R$ 25,00 de desconto",
       "imagem": "",
-      "link": "https://lmdee.link/mGEeBYw6ZwcY",
+      "link": "https://lmdee.link/GqRkhjRYPgqQ",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "BF100",
-      "validade": "2026-12-11T02:30:00.000Z",
+      "cupom": "BF25",
+      "validade": "2026-12-21T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1643,20 +1635,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-910ab5b865fa49d04c1f",
-      "loja": "Iodice",
-      "tipo": "promocao",
-      "titulo": "Looks para festa",
-      "imagem": "",
-      "link": "https://lmdee.link/YFl3fYEJhTpD",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2027-01-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1773,6 +1751,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-ab8c31921b04f6dffa6b",
+      "loja": "Autoamerica Store",
+      "tipo": "promocao",
+      "titulo": "Lançamento Autoamerica Store",
+      "imagem": "https://cdn.lomadee.com.br/offer/263beb4d-1c28-45be-85b8-d48ff27637c7/banners/PROMO%20Luva%20de%20lavagem%20-%20Mobile.jpg",
+      "link": "https://lmdee.link/yt4UkIouqEWb",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2027-01-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-11af6e9cabee366fb216",
       "loja": "Bauducco",
       "tipo": "promocao",
@@ -1787,16 +1779,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-5dfd6c15ad056df41f16",
+      "id": "lc-fdf5d392c0b511cc39c6",
       "loja": "Brinox",
       "tipo": "cupom",
-      "titulo": "R$ 50 em compras acima de R$399",
+      "titulo": "Cupom de R$ 15,00 de desconto",
       "imagem": "",
-      "link": "https://lmdee.link/nRs51ZGLWI6v",
+      "link": "https://lmdee.link/dmjDKSrBDuLU",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "BF50",
-      "validade": "2026-12-11T02:30:00.000Z",
+      "cupom": "BF15",
+      "validade": "2026-12-21T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1839,20 +1831,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-11fdd70e791861d34096",
-      "loja": "Iodice",
-      "tipo": "promocao",
-      "titulo": "Masculino com 60% OFF",
-      "imagem": "",
-      "link": "https://lmdee.link/I36jnVx1xxE7",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2027-01-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1941,16 +1919,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-890b72814ca708f2943c",
+      "id": "lc-601a28b540080890d985",
       "loja": "Brinox",
-      "tipo": "cupom",
-      "titulo": "Cupom perfeito para você divulgar!",
-      "imagem": "",
-      "link": "https://lmdee.link/DZo5pwUvAGaK",
+      "tipo": "promocao",
+      "titulo": "Esquenta Black Friday",
+      "imagem": "https://cdn.lomadee.com.br/offer/d68c7a5e-c32d-468e-a073-803e7712ee68/banners/Visualiza%C3%A7%C3%A3o%20da%20imagem%20%2849%29.png",
+      "link": "https://lmdee.link/xxOsgPgpJNQG",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "RENOVACASA",
-      "validade": "2026-12-21T02:30:00.000Z",
+      "cupom": null,
+      "validade": "2026-12-11T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1980,20 +1958,6 @@
       "cupom": null,
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-ffb70206e551c39a38b1",
-      "loja": "Iodice",
-      "tipo": "promocao",
-      "titulo": "Bolsas e óculos",
-      "imagem": "",
-      "link": "https://lmdee.link/ycUNSwGZ0AJC",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2027-01-01T02:59:59.000Z",
-      "descricao": "",
       "origem": "Lomadee"
     },
     {
@@ -2035,6 +1999,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-fcf2c7975359e50280cc",
+      "loja": "Brinox",
+      "tipo": "cupom",
+      "titulo": "R$ 100 em compras acima de R$699",
+      "imagem": "",
+      "link": "https://lmdee.link/mGEeBYw6ZwcY",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "BF100",
+      "validade": "2026-12-21T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2095,6 +2073,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-5dfd6c15ad056df41f16",
+      "loja": "Brinox",
+      "tipo": "cupom",
+      "titulo": "R$ 50 em compras acima de R$399",
+      "imagem": "",
+      "link": "https://lmdee.link/nRs51ZGLWI6v",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "BF50",
+      "validade": "2026-12-21T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lp-5adcaf5019c6129b45c6",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
@@ -2147,6 +2139,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-890b72814ca708f2943c",
+      "loja": "Brinox",
+      "tipo": "cupom",
+      "titulo": "Cupom perfeito para você divulgar!",
+      "imagem": "",
+      "link": "https://lmdee.link/DZo5pwUvAGaK",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "RENOVACASA",
+      "validade": "2026-12-21T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2227,20 +2233,6 @@
       "titulo": "[CATEGORIA] Bandejas",
       "imagem": "https://cdn.lomadee.com.br/offer/465d725f-4ac2-4ecb-a9a1-6321db28b6f0/banners/750x1351%20%283%29.jpg",
       "link": "https://lmdee.link/hEoNXaQXGYd9",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-7a1d1ab806eb6d8bb225",
-      "loja": "Sawary",
-      "tipo": "promocao",
-      "titulo": "Seleção especial Sawary Jeans 8 ofertas impedíveis",
-      "imagem": "",
-      "link": "https://lmdee.link/02xYSVY1L8ir",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -2784,7 +2776,7 @@
   "status": {
     "integracao": "api_oficial",
     "com_ofertas": 160,
-    "marcas": 134,
+    "marcas": 132,
     "campanhas": 120,
     "produtos": 60,
     "links_solicitados": 45,
