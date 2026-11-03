@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-03T13:25:03+00:00",
+  "atualizado_em": "2026-11-03T15:05:33+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -611,16 +611,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-601a28b540080890d985",
+      "id": "lc-57489fdbdbf12c83d0b3",
       "loja": "Brinox",
-      "tipo": "promocao",
-      "titulo": "Esquenta Black Friday",
-      "imagem": "https://cdn.lomadee.com.br/offer/d68c7a5e-c32d-468e-a073-803e7712ee68/banners/Visualiza%C3%A7%C3%A3o%20da%20imagem%20%2849%29.png",
-      "link": "https://lmdee.link/xxOsgPgpJNQG",
+      "tipo": "cupom",
+      "titulo": "Cupom de R$ 25,00 de desconto",
+      "imagem": "",
+      "link": "https://lmdee.link/GqRkhjRYPgqQ",
       "preco": null,
       "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-12-11T02:30:00.000Z",
+      "cupom": "BF25",
+      "validade": "2026-12-21T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1059,16 +1059,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-fcf2c7975359e50280cc",
+      "id": "lc-fdf5d392c0b511cc39c6",
       "loja": "Brinox",
       "tipo": "cupom",
-      "titulo": "R$ 100 em compras acima de R$699",
+      "titulo": "Cupom de R$ 15,00 de desconto",
       "imagem": "",
-      "link": "https://lmdee.link/mGEeBYw6ZwcY",
+      "link": "https://lmdee.link/dmjDKSrBDuLU",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "BF100",
-      "validade": "2026-12-11T02:30:00.000Z",
+      "cupom": "BF15",
+      "validade": "2026-12-21T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1367,15 +1367,15 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-5dfd6c15ad056df41f16",
+      "id": "lc-601a28b540080890d985",
       "loja": "Brinox",
-      "tipo": "cupom",
-      "titulo": "R$ 50 em compras acima de R$399",
-      "imagem": "",
-      "link": "https://lmdee.link/nRs51ZGLWI6v",
+      "tipo": "promocao",
+      "titulo": "Esquenta Black Friday",
+      "imagem": "https://cdn.lomadee.com.br/offer/d68c7a5e-c32d-468e-a073-803e7712ee68/banners/Visualiza%C3%A7%C3%A3o%20da%20imagem%20%2849%29.png",
+      "link": "https://lmdee.link/xxOsgPgpJNQG",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "BF50",
+      "cupom": null,
       "validade": "2026-12-11T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
@@ -1535,20 +1535,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-7af5e1320ecf2ea2ea95",
-      "loja": "Shopee",
-      "tipo": "promocao",
-      "titulo": "ST_Network_Lomadee - Women Bags",
-      "imagem": "",
-      "link": "https://lmdee.link/CHFRkHKFsXIO",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2029-01-01T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-e29a4122b2c485e0aa07",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -1605,16 +1591,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-890b72814ca708f2943c",
+      "id": "lc-fcf2c7975359e50280cc",
       "loja": "Brinox",
       "tipo": "cupom",
-      "titulo": "Cupom perfeito para você divulgar!",
+      "titulo": "R$ 100 em compras acima de R$699",
       "imagem": "",
-      "link": "https://lmdee.link/DZo5pwUvAGaK",
+      "link": "https://lmdee.link/mGEeBYw6ZwcY",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "RENOVACASA",
-      "validade": "2026-12-21T02:30:00.000Z",
+      "cupom": "BF100",
+      "validade": "2026-12-11T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1745,20 +1731,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-a0a8c4ba7ef3d262b3e3",
-      "loja": "Shopee",
-      "tipo": "promocao",
-      "titulo": "ST_Network_Lomadee - Men Clothes",
-      "imagem": "",
-      "link": "https://lmdee.link/MeD6TjvYaZEb",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2029-01-01T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-f5cc0a3186ba5aea97e8",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -1811,6 +1783,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-5dfd6c15ad056df41f16",
+      "loja": "Brinox",
+      "tipo": "cupom",
+      "titulo": "R$ 50 em compras acima de R$399",
+      "imagem": "",
+      "link": "https://lmdee.link/nRs51ZGLWI6v",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "BF50",
+      "validade": "2026-12-11T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1951,6 +1937,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-890b72814ca708f2943c",
+      "loja": "Brinox",
+      "tipo": "cupom",
+      "titulo": "Cupom perfeito para você divulgar!",
+      "imagem": "",
+      "link": "https://lmdee.link/DZo5pwUvAGaK",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "RENOVACASA",
+      "validade": "2026-12-21T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
