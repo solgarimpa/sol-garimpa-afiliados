@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-03T18:36:05.321464Z",
-  "total": 106,
-  "total_cupons": 92,
+  "atualizado_em": "2026-11-03T19:35:12.474253Z",
+  "total": 107,
+  "total_cupons": 93,
   "total_promocoes": 14,
   "fontes": {
     "Awin": 73,
     "Rakuten": 0,
-    "Lomadee": 33
+    "Lomadee": 34
   },
   "ofertas": [
     {
@@ -1112,6 +1112,18 @@
       "cupom": "ZUPPLOM25",
       "validade": "2027-01-01T02:30:00Z",
       "link": "https://lmdee.link/geL8GLQ5Mgns",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "2eadc70b9c1b1cfed3",
+      "loja": "Óticas Foto Paulo",
+      "tipo": "cupom",
+      "titulo": "5% OFF em todo site cumulativo com outras ofertas",
+      "descricao": "",
+      "termos": "",
+      "cupom": "LOMADEE5",
+      "validade": null,
+      "link": "https://lmdee.link/Im8Dkr3oDJbO",
       "rede": "Lomadee"
     },
     {
