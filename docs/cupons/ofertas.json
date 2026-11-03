@@ -1,8 +1,8 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-03T16:33:00.555279Z",
-  "total": 65,
+  "atualizado_em": "2026-11-03T17:26:33.963142Z",
+  "total": 73,
   "ofertas": [
     {
       "id": "4148722",
@@ -509,6 +509,94 @@
       "cupom": "SRBFBO",
       "validade": "2027-01-01T07:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=3110826&ued=https%3A%2F%2Fstore.sirui.com%2Fpages%2Fexclusive-deals"
+    },
+    {
+      "id": "3692020",
+      "loja": "Kaspersky BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF na VPN Kaspersky",
+      "descricao": "10% OFF na VPN Kaspersky",
+      "termos": "Kaspersky VPN Secure Connection",
+      "cupom": "VPNOFF",
+      "validade": "2027-01-04T03:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=22031&awinaffid=3110826&ued=https%3A%2F%2Fwww.kaspersky.com.br%2Fvpn-secure-connection%3Fdl%3DDBO6093%26years%3D1%26template%3D1r%26currency%3DBRL%26devices%3D3%2C5%2C1%26devicesByDefault%3D3%26utm_source%3Daffiliate%26utm_medium%3Dcpa%26utm_campaign%3Dbr_affccl_acq_ona_afm__all_b2c_awin_affiliatelink____kprem____"
+    },
+    {
+      "id": "3692008",
+      "loja": "Kaspersky BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF em Kaspersky Small Office Security",
+      "descricao": "10% OFF em Kaspersky Small Office Security",
+      "termos": "KSOS",
+      "cupom": "AFBIZ",
+      "validade": "2027-01-04T03:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=22031&awinaffid=3110826&ued=https%3A%2F%2Fwww.kaspersky.com.br%2Fsmall-business-security%2Fsmall-office-security%3Futm_source%3Daffiliate%26utm_medium%3Dcpa%26utm_campaign%3Dbr_affccl_acq_ona_afm__all_b2c_awin_affiliatelink________"
+    },
+    {
+      "id": "3692006",
+      "loja": "Kaspersky BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF em Kaspersky Small Office Security",
+      "descricao": "10% OFF em Kaspersky Small Office Security",
+      "termos": "KSOS",
+      "cupom": "AFSMALL",
+      "validade": "2027-01-04T03:02:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=22031&awinaffid=3110826&ued=https%3A%2F%2Fwww.kaspersky.com.br%2Fsmall-business-security%2Fsmall-office-security%3Futm_source%3Daffiliate%26utm_medium%3Dcpa%26utm_campaign%3Dbr_affccl_acq_ona_afm__all_b2c_awin_affiliatelink________"
+    },
+    {
+      "id": "3692012",
+      "loja": "Kaspersky BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF no Kaspersky Premium",
+      "descricao": "10% OFF no Kaspersky Premium",
+      "termos": "Kaspersky Premium",
+      "cupom": "SAVE",
+      "validade": "2027-01-04T03:05:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=22031&awinaffid=3110826&ued=https%3A%2F%2Fwww.kaspersky.com.br%2Fpremium%3Fdl%3DDBO6093%26years%3D1%26template%3D1r%26currency%3DBRL%26devices%3D3%2C5%2C1%26devicesByDefault%3D3%26utm_source%3Daffiliate%26utm_medium%3Dcpa%26utm_campaign%3Dbr_affccl_acq_ona_afm__all_b2c_awin_affiliatelink____kprem____"
+    },
+    {
+      "id": "3692014",
+      "loja": "Kaspersky BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF no Kaspersky Premium",
+      "descricao": "10% OFF no Kaspersky Premium",
+      "termos": "Kaspersky Premium",
+      "cupom": "SALE",
+      "validade": "2027-01-04T03:08:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=22031&awinaffid=3110826&ued=https%3A%2F%2Fwww.kaspersky.com.br%2Fpremium%3Fdl%3DDBO6093%26years%3D1%26template%3D1r%26currency%3DBRL%26devices%3D3%2C5%2C1%26devicesByDefault%3D3%26utm_source%3Daffiliate%26utm_medium%3Dcpa%26utm_campaign%3Dbr_affccl_acq_ona_afm__all_b2c_awin_affiliatelink____kprem____"
+    },
+    {
+      "id": "3692016",
+      "loja": "Kaspersky BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF no Kaspersky Premium",
+      "descricao": "10% OFF no Kaspersky Premium",
+      "termos": "Kaspersky Premium",
+      "cupom": "SECRET",
+      "validade": "2027-01-04T03:09:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=22031&awinaffid=3110826&ued=https%3A%2F%2Fwww.kaspersky.com.br%2Fpremium%3Fdl%3DDBO6093%26years%3D1%26template%3D1r%26currency%3DBRL%26devices%3D3%2C5%2C1%26devicesByDefault%3D3%26utm_source%3Daffiliate%26utm_medium%3Dcpa%26utm_campaign%3Dbr_affccl_acq_ona_afm__all_b2c_awin_affiliatelink____kprem____"
+    },
+    {
+      "id": "3692018",
+      "loja": "Kaspersky BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF no Safe Kids",
+      "descricao": "10% OFF no Safe Kids",
+      "termos": "Kaspersky Safe Kids",
+      "cupom": "KIDS",
+      "validade": "2027-01-04T03:11:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=22031&awinaffid=3110826&ued=https%3A%2F%2Fwww.kaspersky.com.br%2Fsafe-kids%3Futm_source%3Daffiliate%26utm_medium%3Dcpa%26utm_campaign%3Dbr_affccl_acq_ona_afm__all_b2c_awin_affiliatelink____kprem____"
+    },
+    {
+      "id": "3692022",
+      "loja": "Kaspersky BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF no Kaspersky Password Manager",
+      "descricao": "10% OFF no Kaspersky Password Manager",
+      "termos": "Password Manager Kaspersky",
+      "cupom": "MANAGER",
+      "validade": "2027-01-04T03:13:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=22031&awinaffid=3110826&ued=https%3A%2F%2Fwww.kaspersky.com.br%2Fpassword-manager%3Fdl%3DDBO6093%26years%3D1%26template%3D1r%26currency%3DBRL%26devices%3D3%2C5%2C1%26devicesByDefault%3D3%26utm_source%3Daffiliate%26utm_medium%3Dcpa%26utm_campaign%3Dbr_affccl_acq_ona_afm__all_b2c_awin_affiliatelink____kprem____"
     },
     {
       "id": "3692684",
