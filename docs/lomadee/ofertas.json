@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-03T18:00:39+00:00",
+  "atualizado_em": "2026-11-03T19:12:50+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -827,6 +827,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-2d4c146a77a26bb8123c",
+      "loja": "Mobly",
+      "tipo": "promocao",
+      "titulo": "A Black Mobly chegou com ofertas imperdíveis! Aproveite até 80% OFF para renovar sua casa com estilo, conforto e sofisticação. Não perca essa oportunidade de transformar seus ambie",
+      "imagem": "https://cdn.lomadee.com.br/offer/1feea6e1-2bb1-4755-9731-b473bd266416/banners/imagem%20-%202026-11-03T153214.981.png",
+      "link": "https://lmdee.link/tv99AhSJmq2B",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-fc30fb4a58960c1b0ea2",
       "loja": "Morena Rosa",
       "tipo": "promocao",
@@ -1019,6 +1033,20 @@
       "preco_anterior": null,
       "cupom": "ZUPPLOM25",
       "validade": "2027-01-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-0a07dd45c6b24055143a",
+      "loja": "Óticas Foto Paulo",
+      "tipo": "cupom",
+      "titulo": "5% OFF em todo site cumulativo com outras ofertas",
+      "imagem": "",
+      "link": "https://lmdee.link/Im8Dkr3oDJbO",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "LOMADEE5",
+      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1653,20 +1681,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-b13bbcacae01de7f3436",
-      "loja": "Maria Valentina",
-      "tipo": "promocao",
-      "titulo": "Casacos e Jaquetas com 60% OFF",
-      "imagem": "",
-      "link": "https://lmdee.link/oDbk4kRqzAZR",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2027-01-01T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-81b3cfd128289ab772ba",
       "loja": "Mundo Vem",
       "tipo": "promocao",
@@ -1845,20 +1859,6 @@
       "preco_anterior": null,
       "cupom": "AFILIKIDY",
       "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-fd2099e05ec75ea6ca1d",
-      "loja": "Maria Valentina",
-      "tipo": "promocao",
-      "titulo": "Collab com Fernanda Tavares com 60% OFF",
-      "imagem": "",
-      "link": "https://lmdee.link/KH1su9CoguXT",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2027-01-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
