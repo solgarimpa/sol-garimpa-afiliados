@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-03T12:00:32+00:00",
+  "atualizado_em": "2026-11-03T13:25:03+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -107,10 +107,6 @@
       "loja": "Lenovo"
     },
     {
-      "id": "37c909e6-2708-49a2-af42-c52782e98346",
-      "loja": "Continental Brasil"
-    },
-    {
       "id": "304e46ab-9e6f-462d-87e7-9afad02997aa",
       "loja": "BioVittare Farmácia de Manipulação"
     },
@@ -163,6 +159,10 @@
       "loja": "ECO FLAME GARDEN"
     },
     {
+      "id": "1e871d07-56ef-4e82-8081-ac759a10e424",
+      "loja": "Walita"
+    },
+    {
       "id": "6d69265c-6b83-4ff4-916f-95a75057947d",
       "loja": "PromoFarma"
     },
@@ -187,6 +187,10 @@
       "loja": "Shein"
     },
     {
+      "id": "37c909e6-2708-49a2-af42-c52782e98346",
+      "loja": "Continental Brasil"
+    },
+    {
       "id": "4307f0ec-7738-4e28-8bfb-67ab518f2aa9",
       "loja": "Esbelt"
     },
@@ -209,10 +213,6 @@
     {
       "id": "4a2f41d4-099d-4c8d-a003-5a37bef52ac8",
       "loja": "Hipervarejo"
-    },
-    {
-      "id": "72288273-4399-49f3-ace5-f3e34e26fa85",
-      "loja": "Bradesco Saúde"
     },
     {
       "id": "37eb2500-9232-4491-9ab1-e1880025f7e3",
@@ -275,10 +275,6 @@
       "loja": "Ferramentas Kennedy"
     },
     {
-      "id": "9efd44a3-ec80-488e-afe3-86b2394d5f93",
-      "loja": "WSS Brasil"
-    },
-    {
       "id": "7ca3d59d-fd91-4759-82f4-cc4f4ce65d42",
       "loja": "TeraByte"
     },
@@ -293,6 +289,10 @@
     {
       "id": "83f1f988-d5ca-489a-938d-1bcd2824f448",
       "loja": "Cirurgica Sinete"
+    },
+    {
+      "id": "72288273-4399-49f3-ace5-f3e34e26fa85",
+      "loja": "Bradesco Saúde"
     },
     {
       "id": "7d64bc79-584c-4621-9cc4-754c0f95647a",
@@ -335,16 +335,16 @@
       "loja": "Gazin"
     },
     {
+      "id": "9efd44a3-ec80-488e-afe3-86b2394d5f93",
+      "loja": "WSS Brasil"
+    },
+    {
       "id": "b08af64e-f7bd-434c-b0ac-6baec265f9fc",
       "loja": "BabyStock"
     },
     {
       "id": "ac21d19c-3590-4a86-a9df-16bf6151e570",
       "loja": "Noble Nature"
-    },
-    {
-      "id": "c0520326-00a8-4064-b4fe-ba1b8cd3bfe7",
-      "loja": "Homedock"
     },
     {
       "id": "a0124a6a-c622-4b7d-a560-bc75a515b542",
@@ -415,10 +415,6 @@
       "loja": "China in Box"
     },
     {
-      "id": "e03cdaaf-233d-4019-9171-0e12be587de0",
-      "loja": "Vapza Alimentos"
-    },
-    {
       "id": "cb4ebfb0-1586-446d-a86b-b894d92d4dea",
       "loja": "Mobly"
     },
@@ -449,6 +445,10 @@
     {
       "id": "ce68e7de-f212-44e3-bec6-16f5bec419ef",
       "loja": "MiniPreço"
+    },
+    {
+      "id": "c0520326-00a8-4064-b4fe-ba1b8cd3bfe7",
+      "loja": "Homedock"
     },
     {
       "id": "c43edf8e-c151-474a-83e8-d52ec3e13a24",
@@ -483,24 +483,12 @@
       "loja": "Zinco"
     },
     {
-      "id": "e5f81b99-b74b-488f-9fd8-ef44e2c7aa87",
-      "loja": "Webfones"
+      "id": "eb6d987f-29a4-41ef-a47f-ae133e736df0",
+      "loja": "Tiktok"
     },
     {
-      "id": "e36f5bbb-3e5f-42e2-be4c-6c32dac101c2",
-      "loja": "Friopeças"
-    },
-    {
-      "id": "f31e32be-c116-4739-85a3-43f85681b237",
-      "loja": "Móveis Carraro"
-    },
-    {
-      "id": "e1d43df5-8c98-4f7a-9f75-e507ecbd649c",
-      "loja": "Xiaomi Brasil"
-    },
-    {
-      "id": "ecd9089c-0147-41aa-b974-bdfbf220a3d4",
-      "loja": "Catran"
+      "id": "e03cdaaf-233d-4019-9171-0e12be587de0",
+      "loja": "Vapza Alimentos"
     },
     {
       "id": "eea9e7f4-4b3a-4ef1-ab69-c2f550b6bc84",
@@ -511,28 +499,44 @@
       "loja": "Simple Organic"
     },
     {
-      "id": "efd916a7-faa3-417b-8581-d3afe03e849c",
-      "loja": "Líquido"
+      "id": "e1d43df5-8c98-4f7a-9f75-e507ecbd649c",
+      "loja": "Xiaomi Brasil"
     },
     {
       "id": "e198615b-4c17-4180-b06f-43376f162714",
       "loja": "Amoedo"
     },
     {
-      "id": "e556ed73-0e02-421e-9393-860b040bfbb7",
-      "loja": "Prime Video"
+      "id": "efd916a7-faa3-417b-8581-d3afe03e849c",
+      "loja": "Líquido"
     },
     {
-      "id": "e2c06410-a5e3-47c1-bcb2-d5f65f355c4f",
-      "loja": "Relax Saboaria"
+      "id": "e36f5bbb-3e5f-42e2-be4c-6c32dac101c2",
+      "loja": "Friopeças"
+    },
+    {
+      "id": "e556ed73-0e02-421e-9393-860b040bfbb7",
+      "loja": "Prime Video"
     },
     {
       "id": "f901efab-f85c-4546-bacc-375795b8c52d",
       "loja": "Descomplica"
     },
     {
-      "id": "eb6d987f-29a4-41ef-a47f-ae133e736df0",
-      "loja": "Tiktok"
+      "id": "e2c06410-a5e3-47c1-bcb2-d5f65f355c4f",
+      "loja": "Relax Saboaria"
+    },
+    {
+      "id": "ecd9089c-0147-41aa-b974-bdfbf220a3d4",
+      "loja": "Catran"
+    },
+    {
+      "id": "f31e32be-c116-4739-85a3-43f85681b237",
+      "loja": "Móveis Carraro"
+    },
+    {
+      "id": "e5f81b99-b74b-488f-9fd8-ef44e2c7aa87",
+      "loja": "Webfones"
     }
   ],
   "cards": [
@@ -2780,7 +2784,7 @@
   "status": {
     "integracao": "api_oficial",
     "com_ofertas": 160,
-    "marcas": 133,
+    "marcas": 134,
     "campanhas": 120,
     "produtos": 60,
     "links_solicitados": 45,
