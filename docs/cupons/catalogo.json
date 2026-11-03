@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-03T15:37:13.555450Z",
-  "total": 95,
-  "total_cupons": 81,
+  "atualizado_em": "2026-11-03T16:33:01.915930Z",
+  "total": 98,
+  "total_cupons": 84,
   "total_promocoes": 14,
   "fontes": {
     "Awin": 65,
     "Rakuten": 0,
-    "Lomadee": 30
+    "Lomadee": 33
   },
   "ofertas": [
     {
@@ -32,6 +32,18 @@
       "cupom": "FERRAMENTA5",
       "validade": null,
       "link": "https://lmdee.link/EKfguDpM4DAg",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "494904bf12b621e011",
+      "loja": "Autoamerica Store",
+      "tipo": "cupom",
+      "titulo": "Cupom de 10% de desconto",
+      "descricao": "",
+      "termos": "",
+      "cupom": "AAStore",
+      "validade": "2026-12-01T02:30:00Z",
+      "link": "https://lmdee.link/rar16NbFmsr8",
       "rede": "Lomadee"
     },
     {
@@ -83,6 +95,30 @@
       "rede": "Lomadee"
     },
     {
+      "id": "ef7d6e831df5c9e16d",
+      "loja": "Brinox",
+      "tipo": "cupom",
+      "titulo": "Cupom de R$ 30,00 de desconto",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BF30",
+      "validade": "2026-12-21T02:30:00Z",
+      "link": "https://lmdee.link/ZRRmk8yWNuhM",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "6fb8b62ade35b1c2c6",
+      "loja": "Brinox",
+      "tipo": "cupom",
+      "titulo": "Cupom de R$ 50,00 de desconto na Panela de Pressão Indução Brinox Antiaderente Ceramic Life Pressure 6,8 Litros Ø24cm Vanilla",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BF50EXTRA",
+      "validade": "2026-12-21T02:30:00Z",
+      "link": "https://lmdee.link/jqpvsnRfWwhm",
+      "rede": "Lomadee"
+    },
+    {
       "id": "1e4b116008a1874259",
       "loja": "Brinox",
       "tipo": "cupom",
@@ -102,7 +138,7 @@
       "descricao": "",
       "termos": "",
       "cupom": "BF100",
-      "validade": "2026-12-11T02:30:00Z",
+      "validade": "2026-12-21T02:30:00Z",
       "link": "https://lmdee.link/mGEeBYw6ZwcY",
       "rede": "Lomadee"
     },
@@ -114,7 +150,7 @@
       "descricao": "",
       "termos": "",
       "cupom": "BF50",
-      "validade": "2026-12-11T02:30:00Z",
+      "validade": "2026-12-21T02:30:00Z",
       "link": "https://lmdee.link/nRs51ZGLWI6v",
       "rede": "Lomadee"
     },
@@ -755,6 +791,18 @@
       "rede": "Awin"
     },
     {
+      "id": "75f929ca507e63a1a9",
+      "loja": "Livrarias Curitiba",
+      "tipo": "cupom",
+      "titulo": "15% OFF em compras acima de R$ 149,90 nas categorias de Livros de Literatura.",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACKFRIDAY",
+      "validade": "2026-12-01T02:30:00Z",
+      "link": "https://lmdee.link/3WDEzA0FFbxg",
+      "rede": "Lomadee"
+    },
+    {
       "id": "3b10743ee4404d2ee9",
       "loja": "Líquido",
       "tipo": "cupom",
@@ -944,18 +992,6 @@
       "cupom": "LOMADEE10",
       "validade": "2027-10-22T02:30:00Z",
       "link": "https://lmdee.link/0L3uJFpl7WR8",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "591f6e1569b743ed57",
-      "loja": "Vinícola Jolimont",
-      "tipo": "cupom",
-      "titulo": "20BEMVINDO",
-      "descricao": "",
-      "termos": "",
-      "cupom": "20BEMVINDO",
-      "validade": "2027-01-01T02:59:59Z",
-      "link": "https://lmdee.link/2E9jSkSvJmPV",
       "rede": "Lomadee"
     },
     {
