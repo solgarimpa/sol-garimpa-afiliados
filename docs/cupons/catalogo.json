@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-03T20:54:15.344002Z",
-  "total": 107,
-  "total_cupons": 93,
+  "atualizado_em": "2026-11-03T21:30:58.200590Z",
+  "total": 105,
+  "total_cupons": 91,
   "total_promocoes": 14,
   "fontes": {
     "Awin": 73,
     "Rakuten": 0,
-    "Lomadee": 34
+    "Lomadee": 32
   },
   "ofertas": [
     {
@@ -56,6 +56,18 @@
       "cupom": "REDELOMADEE",
       "validade": null,
       "link": "https://lmdee.link/MmnMtSRGuiYC",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "f12f7e9cd0615a190f",
+      "loja": "Beep Saúde",
+      "tipo": "cupom",
+      "titulo": "12% em vacinas, pacotes e combos a partir de R$ 900,00 (exceto Combo Meningo B)Regiões: RJ, SP e DF.",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BEEPFRIDAYLOMADEE",
+      "validade": "2026-12-05T02:30:00Z",
+      "link": "https://lmdee.link/HHh80AmDI8gj",
       "rede": "Lomadee"
     },
     {
@@ -623,18 +635,6 @@
       "rede": "Lomadee"
     },
     {
-      "id": "6584c25638b0e48221",
-      "loja": "Iodice",
-      "tipo": "cupom",
-      "titulo": "Óculos e bolsas com 15% OFF",
-      "descricao": "",
-      "termos": "",
-      "cupom": "ACESSORIOS15",
-      "validade": null,
-      "link": "https://lmdee.link/pB7NKl0WikVp",
-      "rede": "Lomadee"
-    },
-    {
       "id": "62ef94595b8213c9ad",
       "loja": "Kabum BR",
       "tipo": "cupom",
@@ -911,39 +911,15 @@
       "rede": "Lomadee"
     },
     {
-      "id": "44559016e20fe4f3ba",
-      "loja": "Maria Valentina",
+      "id": "fef73b64644a524e0c",
+      "loja": "Malwee",
       "tipo": "cupom",
-      "titulo": "15% OFF no fullprice",
+      "titulo": "Malwee - PLUS SIZE COM DESCONTO 🔥 20% OFF em peças Plus Size",
       "descricao": "",
       "termos": "",
-      "cupom": "MV10",
-      "validade": "2027-01-01T02:59:59Z",
-      "link": "https://lmdee.link/Eie4C1hdo9jx",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "c3c266f4b89a0494e5",
-      "loja": "Morena Rosa",
-      "tipo": "cupom",
-      "titulo": "Bolsas com 15% OFF",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BOLSAS15",
-      "validade": null,
-      "link": "https://lmdee.link/AohwTkWYfWy3",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "1ba9b28717d8b1cf72",
-      "loja": "Morena Rosa",
-      "tipo": "cupom",
-      "titulo": "óculos de Sol Morena Rosa com 15% OFF",
-      "descricao": "",
-      "termos": "",
-      "cupom": "acessorios15",
-      "validade": "2027-01-01T02:59:59Z",
-      "link": "https://lmdee.link/paco82bqoECR",
+      "cupom": "MAIS20",
+      "validade": "2026-11-09T02:30:00Z",
+      "link": "https://lmdee.link/MP8g1V67BXF3",
       "rede": "Lomadee"
     },
     {
