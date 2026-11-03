@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-03T14:59:11.247328Z",
-  "total": 93,
-  "total_cupons": 79,
+  "atualizado_em": "2026-11-03T15:37:13.555450Z",
+  "total": 95,
+  "total_cupons": 81,
   "total_promocoes": 14,
   "fontes": {
     "Awin": 65,
     "Rakuten": 0,
-    "Lomadee": 28
+    "Lomadee": 30
   },
   "ofertas": [
     {
@@ -56,6 +56,30 @@
       "cupom": "BEEPLOMADEE",
       "validade": "2027-01-01T02:30:00Z",
       "link": "https://lmdee.link/SMMDzag5yqcf",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "69dc36be630e66db4f",
+      "loja": "Brinox",
+      "tipo": "cupom",
+      "titulo": "Cupom de R$ 15,00 de desconto",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BF15",
+      "validade": "2026-12-21T02:59:59Z",
+      "link": "https://lmdee.link/dmjDKSrBDuLU",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "ff5c81c47be235220b",
+      "loja": "Brinox",
+      "tipo": "cupom",
+      "titulo": "Cupom de R$ 25,00 de desconto",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BF25",
+      "validade": "2026-12-21T02:30:00Z",
+      "link": "https://lmdee.link/GqRkhjRYPgqQ",
       "rede": "Lomadee"
     },
     {
