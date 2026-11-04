@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-04T20:10:41+00:00",
+  "atualizado_em": "2026-11-04T21:06:35+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -953,16 +953,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-c0ede4a730b7833a7eae",
+      "id": "lc-377493ab895f133e5d38",
       "loja": "Sem Parar",
       "tipo": "promocao",
-      "titulo": "Sem Parar com 98% OFF de desconto",
-      "imagem": "https://cdn.lomadee.com.br/offer/96faec90-03b8-4056-9a64-422f2cab7e90/banners/Ideal-98off3m-728x90%20%282%29.png",
-      "link": "https://lmdee.link/bltpikIJWdi1",
+      "titulo": "Mega Black Sem Parar - PLANO ULTRA - 6 MENSALIDADES COM 96% DE DESC",
+      "imagem": "https://cdn.lomadee.com.br/offer/05eb0bba-b584-4f67-b682-cfbcb6452395/banners/450x450-96off-megablack%20%281%29.png",
+      "link": "https://lmdee.link/hWXJhcEyhV2A",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": null,
+      "validade": "2026-12-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
