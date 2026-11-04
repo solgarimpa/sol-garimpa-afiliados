@@ -37,12 +37,11 @@
     "20604": "2026-11-03T21:25:56.258105+00:00",
     "20605": "2026-11-03T22:24:20.974677+00:00"
   },
-  "ultima_consulta": "2026-11-03T22:24:20.974677+00:00",
+  "ultima_consulta": "2026-11-04T01:44:38.144910+00:00",
   "ultimo_diagnostico": {
     "mensagens_visiveis": 20,
-    "novas": 1,
-    "recentes": 1,
-    "publicadas": 1,
-    "situacao": "verificacao concluida"
+    "novas": 0,
+    "publicadas": 0,
+    "situacao": "canal consultado; sem novidades"
   }
 }
