@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-04T11:28:20+00:00",
+  "atualizado_em": "2026-11-04T13:27:29+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -547,6 +547,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-f53e3bcb02f228853a05",
+      "loja": "Amoedo",
+      "tipo": "promocao",
+      "titulo": "Ofertas da semana",
+      "imagem": "https://cdn.lomadee.com.br/offer/cb67e7f8-ff43-4942-854a-1b44b11989a0/banners/Campanha%20Mensal%20Amoedo%20%282%29.png",
+      "link": "https://lmdee.link/nfZgNIuJhiou",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-09T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-50c013a4b2ef1516be9a",
       "loja": "Anhanguera Ferramentas",
       "tipo": "promocao",
@@ -631,16 +645,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-b28d58a6e7953fe29c27",
+      "id": "lc-2a6e2dc547fe3105bdc5",
       "loja": "Camisaria Colombo",
       "tipo": "promocao",
-      "titulo": "Black November Colombo!",
-      "imagem": "https://cdn.lomadee.com.br/offer/b96c3904-2ec5-4a77-a326-e8718a66082a/banners/Colombo_Black_November_Google_960x1200_com_CTA.jpg",
-      "link": "https://lmdee.link/t4kA4sc6UUOv",
+      "titulo": "Calça Cargo de Sarja Preta Colombo  (De: R$ 299,99 / Por apenas R$ 149,99!)",
+      "imagem": "https://cdn.lomadee.com.br/offer/bd11614b-50ec-495e-bd7d-975d01c76b35/banners/imagem%20-%202026-11-04T092808.049.png",
+      "link": "https://lmdee.link/8KXb9KrSg7WR",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-12-01T02:59:59.000Z",
+      "validade": "2026-11-09T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -883,20 +897,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-c0bfec6bb3d44d74b865",
-      "loja": "PneuBest",
-      "tipo": "promocao",
-      "titulo": "OFERTAS PNEUS DE CAMINHÃO",
-      "imagem": "",
-      "link": "https://lmdee.link/N2eM1iMWe0pX",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-6c46be19748c91cab1f2",
       "loja": "Rovitex",
       "tipo": "promocao",
@@ -981,6 +981,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-eaaed9cf51b3d967e9f6",
+      "loja": "Super Pro Atacado",
+      "tipo": "promocao",
+      "titulo": "Bosch Friday: Ofertas imperdíveis",
+      "imagem": "https://cdn.lomadee.com.br/offer/a4d97d9f-6ac2-4e88-bf1f-f8911b895dc8/banners/Bosch%20Friday.png",
+      "link": "https://lmdee.link/FoL9i965hNWu",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-09T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-97acad6de3dda9472f54",
       "loja": "UVLine",
       "tipo": "promocao",
@@ -1019,20 +1033,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-ef4798ab6b68c0853b30",
-      "loja": "Zinco",
-      "tipo": "promocao",
-      "titulo": "Lançamento Verão 2027",
-      "imagem": "",
-      "link": "https://lmdee.link/P6BglHIhUPlq",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2027-01-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1135,16 +1135,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-40d34808e7c03159c70f",
+      "id": "lc-d000a54e04495b5befda",
       "loja": "Camisaria Colombo",
       "tipo": "promocao",
-      "titulo": "OUTELT Camisaria Colombo. Ofertas com até 60% Off, não fique de fora. Aproveite!",
-      "imagem": "https://cdn.lomadee.com.br/offer/81186911-5b17-4394-bb3a-3f6381ea696d/banners/DESKTOP%202035x773.webp",
-      "link": "https://lmdee.link/BsrJSLM5hy5F",
+      "titulo": "Polo ZEK Masculina Listrada Slim – Azul Noite  (De: R$ 79,99 /Por apenas R$ 38,79!)",
+      "imagem": "https://cdn.lomadee.com.br/offer/8c9af0fb-2d6b-4601-8e30-c09126487966/banners/imagem%20-%202026-11-04T092655.487.png",
+      "link": "https://lmdee.link/wlmG6P4UF91s",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": null,
+      "validade": "2026-11-09T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1275,20 +1275,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-6d3dd094620c071fbb4c",
-      "loja": "PneuBest",
-      "tipo": "promocao",
-      "titulo": "PNEUS XBRI",
-      "imagem": "",
-      "link": "https://lmdee.link/tOHIqKdozFsB",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-4bfe794e2b20b42f123c",
       "loja": "Sawary",
       "tipo": "promocao",
@@ -1331,26 +1317,26 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-e21dcb4311888ca21b47",
+      "loja": "Super Pro Atacado",
+      "tipo": "promocao",
+      "titulo": "Super Esquenta Black Friday!! Ferramentas Elétricas com até 60% off em produtos selecionados!",
+      "imagem": "https://cdn.lomadee.com.br/offer/b33394d6-6815-4578-affa-9948164b3039/banners/Ferramentas%20El%C3%A9tricas.png",
+      "link": "https://lmdee.link/IOziY3h921Uk",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-09T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-a2f9c4c6fac2f6d82db0",
       "loja": "UVLine",
       "tipo": "promocao",
       "titulo": "Nova coleção Natureza que inspira.",
       "imagem": "https://cdn.lomadee.com.br/offer/43743831-8b50-4afa-a814-849bac9f475b/banners/960x1200.png",
       "link": "https://lmdee.link/L8p4kFwmO7k0",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-160162d7e36d2960aa5c",
-      "loja": "Zinco",
-      "tipo": "promocao",
-      "titulo": "Acabaram de chegar com 15% OFF",
-      "imagem": "",
-      "link": "https://lmdee.link/c8CWUdnnrCDW",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1415,16 +1401,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-1bbf502b00cdf0f1dfee",
+      "id": "lc-de5af86914052b6db1ba",
       "loja": "Camisaria Colombo",
       "tipo": "promocao",
-      "titulo": "A Camisa Social certa faz a diferença! 1 por R$ 159,99 ou 2 por R$ 259,99",
-      "imagem": "https://cdn.lomadee.com.br/offer/71e31e7b-4db5-4a7c-893e-0e0a46353152/banners/820x1000px.webp",
-      "link": "https://lmdee.link/F8GKUbartDKT",
+      "titulo": "Camisa Social Colombo com Colarinho Button Down  (De: R$ 199,99 / Por: R$ 119,99)",
+      "imagem": "https://cdn.lomadee.com.br/offer/41b26ae1-7dd5-4720-bc17-1fef097c5738/banners/imagem%20-%202026-11-04T092534.651.png",
+      "link": "https://lmdee.link/QxPUX6s4QeqG",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": null,
+      "validade": "2026-11-09T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1541,26 +1527,26 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-49e2e0fcaf42e1f48500",
+      "loja": "Super Pro Atacado",
+      "tipo": "promocao",
+      "titulo": "Super Esquenta Black Friday! Mais de 5 mil produtos com até 60% off e as melhores condições de pagamento",
+      "imagem": "https://cdn.lomadee.com.br/offer/153f215f-8651-4da8-a16f-5daff65c25bd/banners/Esquenta%20Black%20Friday.png",
+      "link": "https://lmdee.link/UtKxSZm8Mj6I",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-09T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-9727e686405be6b8a08e",
       "loja": "UVLine",
       "tipo": "promocao",
       "titulo": "Lançamento Delírios Tropicais",
       "imagem": "https://cdn.lomadee.com.br/offer/1fe175e0-910b-4032-a51e-05a6fabb8425/banners/960x1200.png",
       "link": "https://lmdee.link/4kV8wpWgSdkr",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-73766a2464e20759945f",
-      "loja": "Zinco",
-      "tipo": "promocao",
-      "titulo": "T-shirts a partir de R$ 79,00",
-      "imagem": "",
-      "link": "https://lmdee.link/yBcSUryGQaSn",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1611,16 +1597,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-ae1887d88f97af3b3cc6",
+      "id": "lc-b28d58a6e7953fe29c27",
       "loja": "Camisaria Colombo",
       "tipo": "promocao",
-      "titulo": "Todas as Jaquetas Puffer De R$ 259,99 por R$ 159,99. E Mais 2 por R$ 259,99",
-      "imagem": "https://cdn.lomadee.com.br/offer/0c5ed31b-51e4-4c74-b56b-3942a7a02733/banners/960x1200.png",
-      "link": "https://lmdee.link/5fmPe5AfVBE2",
+      "titulo": "Black November Colombo!",
+      "imagem": "https://cdn.lomadee.com.br/offer/b96c3904-2ec5-4a77-a326-e8718a66082a/banners/Colombo_Black_November_Google_960x1200_com_CTA.jpg",
+      "link": "https://lmdee.link/t4kA4sc6UUOv",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": null,
+      "validade": "2026-12-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1737,20 +1723,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-7eae14e97e1cce4b0acd",
-      "loja": "Zinco",
-      "tipo": "promocao",
-      "titulo": "Collab Hariany Almeida com 60% OFF",
-      "imagem": "",
-      "link": "https://lmdee.link/yS6DPGpDxBrO",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-ab8c31921b04f6dffa6b",
       "loja": "Autoamerica Store",
       "tipo": "promocao",
@@ -1793,12 +1765,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-81823bbf43b861a287c6",
+      "id": "lc-40d34808e7c03159c70f",
       "loja": "Camisaria Colombo",
       "tipo": "promocao",
-      "titulo": "Leve mais pague menos",
-      "imagem": "",
-      "link": "https://lmdee.link/AQUvNaQKeGWn",
+      "titulo": "OUTELT Camisaria Colombo. Ofertas com até 60% Off, não fique de fora. Aproveite!",
+      "imagem": "https://cdn.lomadee.com.br/offer/81186911-5b17-4394-bb3a-3f6381ea696d/banners/DESKTOP%202035x773.webp",
+      "link": "https://lmdee.link/BsrJSLM5hy5F",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1891,20 +1863,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-093f17f7c4d25a0b0639",
-      "loja": "Zinco",
-      "tipo": "promocao",
-      "titulo": "acessórios para PET FrerFaro com 60% OFF",
-      "imagem": "",
-      "link": "https://lmdee.link/tjL2rUr3on4J",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-11af6e9cabee366fb216",
       "loja": "Bauducco",
       "tipo": "promocao",
@@ -1933,12 +1891,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-73964177b09541e0165d",
+      "id": "lc-1bbf502b00cdf0f1dfee",
       "loja": "Camisaria Colombo",
       "tipo": "promocao",
-      "titulo": "Camisa flanelada 50%",
-      "imagem": "",
-      "link": "https://lmdee.link/E0VlT22EKO0p",
+      "titulo": "A Camisa Social certa faz a diferença! 1 por R$ 159,99 ou 2 por R$ 259,99",
+      "imagem": "https://cdn.lomadee.com.br/offer/71e31e7b-4db5-4a7c-893e-0e0a46353152/banners/820x1000px.webp",
+      "link": "https://lmdee.link/F8GKUbartDKT",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -2017,6 +1975,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-ae1887d88f97af3b3cc6",
+      "loja": "Camisaria Colombo",
+      "tipo": "promocao",
+      "titulo": "Todas as Jaquetas Puffer De R$ 259,99 por R$ 159,99. E Mais 2 por R$ 259,99",
+      "imagem": "https://cdn.lomadee.com.br/offer/0c5ed31b-51e4-4c74-b56b-3942a7a02733/banners/960x1200.png",
+      "link": "https://lmdee.link/5fmPe5AfVBE2",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lp-f3f9c4a880a9808d0bde",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
@@ -2087,6 +2059,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-81823bbf43b861a287c6",
+      "loja": "Camisaria Colombo",
+      "tipo": "promocao",
+      "titulo": "Leve mais pague menos",
+      "imagem": "",
+      "link": "https://lmdee.link/AQUvNaQKeGWn",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lp-5adcaf5019c6129b45c6",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
@@ -2153,6 +2139,20 @@
       "preco_anterior": null,
       "cupom": "RENOVACASA",
       "validade": "2026-12-21T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-73964177b09541e0165d",
+      "loja": "Camisaria Colombo",
+      "tipo": "promocao",
+      "titulo": "Camisa flanelada 50%",
+      "imagem": "",
+      "link": "https://lmdee.link/E0VlT22EKO0p",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
