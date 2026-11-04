@@ -1,8 +1,8 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-04T16:42:04.545800Z",
-  "total": 74,
+  "atualizado_em": "2026-11-04T17:41:45.778998Z",
+  "total": 76,
   "ofertas": [
     {
       "id": "4148722",
@@ -14,6 +14,28 @@
       "cupom": "HYPERX15",
       "validade": "2026-11-06T13:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1HYPERX15"
+    },
+    {
+      "id": "4162257",
+      "loja": "Eurorelogios BR",
+      "tipo": "promocao",
+      "titulo": "Esquenta BF | Compre e Ganhe",
+      "descricao": "Esquenta Black Friday - ofertas em produtos selecionados e nas compras a partir de 399,00, ganha uma pashmina exclusiva da Euro.",
+      "termos": "Promoção válida apenas no site oficial da EURO.",
+      "cupom": "",
+      "validade": "2026-11-08T03:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=28167&awinaffid=3110826&ued=https%3A%2F%2Fwww.eurorelogios.com.br%2Fblack-friday"
+    },
+    {
+      "id": "4162224",
+      "loja": "Technos BR",
+      "tipo": "promocao",
+      "titulo": "ESQUENTA BF - COMPRE E GANHE",
+      "descricao": "Esquenta Black Friday, ofertas em produtos selecionados e nas compras a partir de 899,00 você ganha um presente exclusivo da Technos",
+      "termos": "Ofertas válidas apenas no site oficial da Technos.",
+      "cupom": "",
+      "validade": "2026-11-08T03:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=28161&awinaffid=3110826&ued=https%3A%2F%2Fwww.technos.com.br%2Fblack-friday"
     },
     {
       "id": "4134130",
