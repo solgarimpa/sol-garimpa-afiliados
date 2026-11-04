@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-04T13:27:29+00:00",
+  "atualizado_em": "2026-11-04T15:07:26+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -659,16 +659,30 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-553797bfed878a6dcd2d",
-      "loja": "China in Box",
-      "tipo": "cupom",
-      "titulo": "Cupom Frete Gratis",
+      "id": "lc-105d20b01140dbd7058b",
+      "loja": "Casa do Fitness",
+      "tipo": "promocao",
+      "titulo": "Black November Casa do Fitness",
       "imagem": "",
-      "link": "https://lmdee.link/69aTXVdd4fbx",
+      "link": "https://lmdee.link/QZqO7VAYFkn5",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "FRETELOMADEE",
-      "validade": "2027-01-01T02:59:59.000Z",
+      "cupom": null,
+      "validade": "2026-12-01T02:59:59.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-bc5f63e79ea7ed8344d4",
+      "loja": "China in Box",
+      "tipo": "promocao",
+      "titulo": "Guardiões da surpresa, um universo pra colecionar! tigre branco, pássaro vermelho e dragão azul. na compra de um bowl ou box pelo app ou site oficial + r$ 17,90, leve um guardião s",
+      "imagem": "https://cdn.lomadee.com.br/offer/74e85c5e-ef0d-476b-8de0-8b6335673744/banners/imagem%20-%202026-11-04T115558.142.png",
+      "link": "https://lmdee.link/rc9B76bra4iD",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-12-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -739,6 +753,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-a63f44199ba1c49eb20c",
+      "loja": "Gazin",
+      "tipo": "promocao",
+      "titulo": "Aproveite o 11.11 Black Friday e antecipe suas compras!",
+      "imagem": "https://cdn.lomadee.com.br/offer/db739e79-a6d7-4d07-b60f-8f144f93f114/banners/Image%20%2813%29.png",
+      "link": "https://lmdee.link/iVbtgmznqU9a",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-12T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -837,20 +865,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-fc30fb4a58960c1b0ea2",
-      "loja": "Morena Rosa",
-      "tipo": "promocao",
-      "titulo": "Lançamento Verão 2027",
-      "imagem": "",
-      "link": "https://lmdee.link/ggwTIgsAfl0l",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2027-01-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1009,16 +1023,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-f6c5bea34d7c09e890bf",
+      "id": "lc-d57fbb88806ac4c48197",
       "loja": "Vapza Alimentos",
-      "tipo": "cupom",
-      "titulo": "Cupom de 10% de desconto no site todo!",
-      "imagem": "",
-      "link": "https://lmdee.link/0L3uJFpl7WR8",
+      "tipo": "promocao",
+      "titulo": "Black November Vapza até 50% OFF",
+      "imagem": "https://cdn.lomadee.com.br/offer/d6cd9b85-343b-4f95-b863-bce2bf6497c6/banners/00047_16298_KV%20BLACK%20FRIDAY_00047_16298_KV%20BLACK%20FRIDAY_B_1920x600px.png",
+      "link": "https://lmdee.link/olahvcKQ0sRR",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "LOMADEE10",
-      "validade": "2027-10-22T02:30:00.000Z",
+      "cupom": null,
+      "validade": "2026-11-23T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1149,6 +1163,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-4a95058c38118b7f100e",
+      "loja": "China in Box",
+      "tipo": "promocao",
+      "titulo": "Ultima chamada: aproveite nossa grande oferta! sua chance é agora! bowl frango tare, macarrão yakisoba xian, yakisoba suíno e temaki empanado por r$ 19,90 cada",
+      "imagem": "https://cdn.lomadee.com.br/offer/1a40ac9f-211b-4379-a33c-5f6fd7932101/banners/imagem%20-%202026-11-04T115209.037.png",
+      "link": "https://lmdee.link/2eC6ctOKOXiw",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-09T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-bcd8e91671704ecefb1c",
       "loja": "Coza",
       "tipo": "cupom",
@@ -1186,20 +1214,6 @@
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-7fddc7a4016502d76420",
-      "loja": "FATOR 5",
-      "tipo": "cupom",
-      "titulo": "Cupom de 10% de desconto",
-      "imagem": "",
-      "link": "https://lmdee.link/8vroznicBf2G",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "UOLADS",
       "validade": null,
       "descricao": "",
       "origem": "Lomadee"
@@ -1345,6 +1359,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-f6c5bea34d7c09e890bf",
+      "loja": "Vapza Alimentos",
+      "tipo": "cupom",
+      "titulo": "Cupom de 10% de desconto no site todo!",
+      "imagem": "",
+      "link": "https://lmdee.link/0L3uJFpl7WR8",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "LOMADEE10",
+      "validade": "2027-10-22T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-5f147fca1f2f59c516a2",
       "loja": "Zupper",
       "tipo": "cupom",
@@ -1411,6 +1439,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-09T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-553797bfed878a6dcd2d",
+      "loja": "China in Box",
+      "tipo": "cupom",
+      "titulo": "Cupom Frete Gratis",
+      "imagem": "",
+      "link": "https://lmdee.link/69aTXVdd4fbx",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "FRETELOMADEE",
+      "validade": "2027-01-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1790,20 +1832,6 @@
       "cupom": null,
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-3eef5e08d661ea128844",
-      "loja": "eles.®",
-      "tipo": "promocao",
-      "titulo": "Projeto Verão eles.®",
-      "imagem": "https://cdn.lomadee.com.br/offer/82a2feae-8ff9-44bb-ac92-3e2451779249/banners/5_display_300x250.png",
-      "link": "https://lmdee.link/rsyCf8P0lThU",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
       "origem": "Lomadee"
     },
     {
@@ -2353,20 +2381,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-84a9a9df9e0962ec6e73",
-      "loja": "Mundo Vem",
-      "tipo": "promocao",
-      "titulo": "[CATEGORIA] Saladeiras e Travessas",
-      "imagem": "https://cdn.lomadee.com.br/offer/ccd94ebe-e5df-46c8-8463-6dfcc0fdb464/banners/300x600.jpg",
-      "link": "https://lmdee.link/4k21iWq53zAc",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-af415a719913c33d7587",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -2392,20 +2406,6 @@
       "cupom": null,
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-6872b69f7a6e3431c807",
-      "loja": "Mundo Vem",
-      "tipo": "promocao",
-      "titulo": "[CATEGORIA] Potes Batch Cooking",
-      "imagem": "https://cdn.lomadee.com.br/offer/0dd9f4e1-3103-4890-b647-8dea069efb5f/banners/750x1351.jpg",
-      "link": "https://lmdee.link/SlPs0tPe4IMY",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
       "origem": "Lomadee"
     },
     {
