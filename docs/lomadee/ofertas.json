@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-04T16:30:01+00:00",
+  "atualizado_em": "2026-11-04T17:12:40+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -391,16 +391,16 @@
       "loja": "Zinco"
     },
     {
-      "id": "ae6c268a-3b83-4d4a-9e51-6dc4bf6408e5",
-      "loja": "Itatiaia"
-    },
-    {
       "id": "a4ea6ed5-0ffd-4ee7-b0eb-f6073dc4fc12",
       "loja": "Sieno Perfumes"
     },
     {
       "id": "a563f102-2bf3-4101-8f9c-ff54bef37932",
       "loja": "Beep Saúde"
+    },
+    {
+      "id": "ae6c268a-3b83-4d4a-9e51-6dc4bf6408e5",
+      "loja": "Itatiaia"
     },
     {
       "id": "cea83ab5-dadb-43d0-ae6a-23843a813fda",
@@ -855,16 +855,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-5826c2ebf64508022a31",
+      "id": "lc-e86372a81cc5675b5c61",
       "loja": "Malwee",
-      "tipo": "cupom",
-      "titulo": "Malwee - PLUS SIZE COM DESCONTO 🔥 20% OFF em peças Plus Size",
-      "imagem": "",
-      "link": "https://lmdee.link/MP8g1V67BXF3",
+      "tipo": "promocao",
+      "titulo": "Malwee Kids - FLASH SALE !! Promos Imperdíveis por 48H , Garante mais 5% OFF Extra com cupom EXTRA5",
+      "imagem": "https://cdn.lomadee.com.br/offer/ca26ae9c-96b6-4266-88ad-39134768a1b6/banners/imagem%20-%202026-11-04T134309.257.png",
+      "link": "https://lmdee.link/fydE55GKEtDE",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "MAIS20",
-      "validade": "2026-11-09T02:30:00.000Z",
+      "cupom": null,
+      "validade": "2026-11-23T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1261,16 +1261,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-a705d4c63575d88e222b",
+      "id": "lc-68555904da74986452ad",
       "loja": "Malwee",
       "tipo": "promocao",
-      "titulo": "COMEÇOU A BLACK NOVEMBER -Garante mais 5% OFF Extra com cupom EXTRA5",
-      "imagem": "https://cdn.lomadee.com.br/offer/6cc799f6-50f8-4bd1-b42f-2f381e28c538/banners/imagem%20-%202026-11-03T173249.388.png",
-      "link": "https://lmdee.link/c5hTSo8hF3eX",
+      "titulo": "Malwee - FLASH SALE:  Promos Imperdíveis por 48H , Garante mais 5% OFF Extra com cupom EXTRA5",
+      "imagem": "https://cdn.lomadee.com.br/offer/a1b22092-0169-448a-b544-e1c409d527b0/banners/imagem%20-%202026-11-04T134209.221.png",
+      "link": "https://lmdee.link/pvMuH6esRn0i",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-16T02:30:00.000Z",
+      "validade": "2026-11-23T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1527,6 +1527,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-5826c2ebf64508022a31",
+      "loja": "Malwee",
+      "tipo": "cupom",
+      "titulo": "Malwee - PLUS SIZE COM DESCONTO 🔥 20% OFF em peças Plus Size",
+      "imagem": "",
+      "link": "https://lmdee.link/MP8g1V67BXF3",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "MAIS20",
+      "validade": "2026-11-09T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-63f47491d34eb7e2c677",
       "loja": "Mundo Vem",
       "tipo": "promocao",
@@ -1709,6 +1723,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-a705d4c63575d88e222b",
+      "loja": "Malwee",
+      "tipo": "promocao",
+      "titulo": "COMEÇOU A BLACK NOVEMBER -Garante mais 5% OFF Extra com cupom EXTRA5",
+      "imagem": "https://cdn.lomadee.com.br/offer/6cc799f6-50f8-4bd1-b42f-2f381e28c538/banners/imagem%20-%202026-11-03T173249.388.png",
+      "link": "https://lmdee.link/c5hTSo8hF3eX",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-16T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-81b3cfd128289ab772ba",
       "loja": "Mundo Vem",
       "tipo": "promocao",
@@ -1846,20 +1874,6 @@
       "cupom": null,
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-801ebdb4d8ccc83902f6",
-      "loja": "Kidy Calçados",
-      "tipo": "cupom",
-      "titulo": "Cupom de 15% de desconto",
-      "imagem": "",
-      "link": "https://lmdee.link/4b6P7y3V9nUa",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "AFILIKIDY",
-      "validade": null,
-      "descricao": "",
       "origem": "Lomadee"
     },
     {
@@ -2322,20 +2336,6 @@
       "cupom": null,
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-1144ee8943fe5ca7955f",
-      "loja": "Mundo Vem",
-      "tipo": "promocao",
-      "titulo": "[CATEGORIA] Almofada para Fogão de Silicone",
-      "imagem": "https://cdn.lomadee.com.br/offer/880695d0-eb2b-4c45-93ae-071cf68a06cf/banners/120x600.jpg",
-      "link": "https://lmdee.link/KxMv0GNnheJF",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
       "origem": "Lomadee"
     },
     {
