@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-04T14:58:41.373376Z",
+  "atualizado_em": "2026-11-04T15:44:38.969112Z",
   "total": 105,
   "total_cupons": 91,
   "total_promocoes": 14,
   "fontes": {
-    "Awin": 73,
+    "Awin": 74,
     "Rakuten": 0,
-    "Lomadee": 32
+    "Lomadee": 31
   },
   "ofertas": [
     {
@@ -623,16 +623,16 @@
       "rede": "Awin"
     },
     {
-      "id": "7a400816e6392769ec",
-      "loja": "FATOR 5",
+      "id": "a4c9a41cc74e2f6e9b",
+      "loja": "Hipervarejo BR",
       "tipo": "cupom",
-      "titulo": "Cupom de 10% de desconto",
-      "descricao": "",
-      "termos": "",
-      "cupom": "UOLADS",
-      "validade": null,
-      "link": "https://lmdee.link/8vroznicBf2G",
-      "rede": "Lomadee"
+      "titulo": "10% OFF em todo o site PARA PRIMEIRA COMPRA",
+      "descricao": "10% OFF em todo o site PARA PRIMEIRA COMPRA",
+      "termos": ".",
+      "cupom": "PRIMEIRACOMPRA",
+      "validade": "2027-01-01T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=46269&awinaffid=3110826&ued=https%3A%2F%2Fhipervarejo.com.br%2F",
+      "rede": "Awin"
     },
     {
       "id": "62ef94595b8213c9ad",
