@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-05T17:28:29+00:00",
+  "atualizado_em": "2026-11-05T19:14:43+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -645,20 +645,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-b0de54f22e9d212a88f6",
-      "loja": "Buddha SPA",
-      "tipo": "promocao",
-      "titulo": "Gestação Leve e Tranquila:  Usando técnicas de drenagem linfática, essa massagem estimula a circulação venosa e linfática, ajudando na redução da retenção de líquidos, diminuindo o",
-      "imagem": "",
-      "link": "https://lmdee.link/Yf0GE0IDhEHa",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-2a6e2dc547fe3105bdc5",
       "loja": "Camisaria Colombo",
       "tipo": "promocao",
@@ -743,17 +729,17 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lp-eb35fd6840641a14b2bd",
+      "id": "lc-b28a0aff99ef48e6c71b",
       "loja": "ECO FLAME GARDEN",
-      "tipo": "produto",
-      "titulo": "2 Clouds + 2 moons + 1 tacho de 60cm",
-      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Prancheta1_88083ae6-e829-4849-8864-89d0489144cf.webp?v=1741789737",
-      "link": "https://lmdee.link/85dHqsDlYDtX",
+      "tipo": "promocao",
+      "titulo": "Black November: Todo o site com até 68% OFF",
+      "imagem": "https://cdn.lomadee.com.br/offer/43ff01d0-cfc4-4e3f-92fd-82fb06db7d1b/banners/1%20GOOGLE%20BANNER%20-%20ECO%20Black%20November.png",
+      "link": "https://lmdee.link/xTVeMEtr6pcU",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": null,
-      "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
+      "validade": "2026-11-26T02:30:00.000Z",
+      "descricao": "",
       "origem": "Lomadee"
     },
     {
@@ -869,17 +855,17 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lp-cdc08742338f712bb676",
+      "id": "lc-6802f0aa1f02ed854989",
       "loja": "LITTLE DUCK",
-      "tipo": "produto",
-      "titulo": "150 Bolinhas Transparentes Extras",
-      "imagem": "https://cdn.shopify.com/s/files/1/0566/0298/4497/files/150-bolinhas-transparentes-extras-Imagem-30410523246641.png?v=1787834788",
-      "link": "https://lmdee.link/nba0gMhlZrhf",
-      "preco": 0.72,
-      "preco_anterior": 1.35,
+      "tipo": "promocao",
+      "titulo": "11.11 dos Sonhos",
+      "imagem": "https://cdn.lomadee.com.br/offer/a1ce5a6a-7a8b-4cc4-a4b9-ff8f7813ced1/banners/1%20LD_11.11_HORIZONTAL.png",
+      "link": "https://lmdee.link/gAHfHPLtmCrl",
+      "preco": null,
+      "preco_anterior": null,
       "cupom": null,
-      "validade": null,
-      "descricao": "As 150 Bolinhas Transparentes Extras são perfeitas para complementar piscinas de bolinhas, proporcionando mais diversão e cor ao cantinho das crianças. Produzidas com material seguro e resistente, garantem brincadeiras s",
+      "validade": "2026-11-16T02:30:00.000Z",
+      "descricao": "",
       "origem": "Lomadee"
     },
     {
@@ -1065,16 +1051,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-c8e8f62599d4034f30dd",
+      "id": "lc-e958ebfff6ed294a228a",
       "loja": "Sofá na Caixa",
       "tipo": "promocao",
-      "titulo": "Poltrona Lunna Linho",
-      "imagem": "https://cdn.lomadee.com.br/offer/2d4c3298-acdf-4cd0-98fd-d1cd4fb20078/banners/SF_LUNNA%203.png",
-      "link": "https://lmdee.link/w2q7xeYqEiNi",
+      "titulo": "Black November",
+      "imagem": "https://cdn.lomadee.com.br/offer/489e23dd-7ab6-4420-97ce-d73b52e61ee0/banners/SNC_BLACK%20NOVEMBER_FEED%201.png",
+      "link": "https://lmdee.link/MI2jwKvFSzTv",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": null,
+      "validade": "2026-11-26T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1331,12 +1317,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lp-5076ce9fb35dbb14660d",
+      "id": "lp-eb35fd6840641a14b2bd",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
       "titulo": "2 Clouds + 2 moons + 1 tacho de 60cm",
-      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Prancheta_6_055109ac-c1ad-4b3f-97f8-5022681700d9.webp?v=1774377128",
-      "link": "https://lmdee.link/vY2FPEP0wNsh",
+      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Prancheta1_88083ae6-e829-4849-8864-89d0489144cf.webp?v=1741789737",
+      "link": "https://lmdee.link/85dHqsDlYDtX",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1397,6 +1383,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-586c8344a9ac616d8093",
+      "loja": "LITTLE DUCK",
+      "tipo": "promocao",
+      "titulo": "Black dos Sonhos",
+      "imagem": "https://cdn.lomadee.com.br/offer/9a90974f-c1a1-4bac-a25a-cd31461e5d3f/banners/1%20LD_BLACK_HORIZONTAL.png",
+      "link": "https://lmdee.link/c9XUIHjblpax",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-26T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1499,12 +1499,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-26a3b686ecf203416de6",
+      "id": "lc-c8e8f62599d4034f30dd",
       "loja": "Sofá na Caixa",
       "tipo": "promocao",
-      "titulo": "Sofá Cama Bloom Tecido Cotelê Azul Marinho",
-      "imagem": "https://cdn.lomadee.com.br/offer/c8e0d632-6309-4418-a8ec-e46dc0054371/banners/BANNER-BLOOM-AFILIADOS-WEPB.jpg",
-      "link": "https://lmdee.link/2NEUfZvV2OxK",
+      "titulo": "Poltrona Lunna Linho",
+      "imagem": "https://cdn.lomadee.com.br/offer/2d4c3298-acdf-4cd0-98fd-d1cd4fb20078/banners/SF_LUNNA%203.png",
+      "link": "https://lmdee.link/w2q7xeYqEiNi",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1681,12 +1681,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lp-4b9b232a4fc4ddb5badd",
+      "id": "lp-5076ce9fb35dbb14660d",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
       "titulo": "2 Clouds + 2 moons + 1 tacho de 60cm",
-      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Prancheta_9_a6c45fb7-cd44-4af7-9276-cabd85a2ac2a.webp?v=1774377128",
-      "link": "https://lmdee.link/LjujclfGFd1n",
+      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Prancheta_6_055109ac-c1ad-4b3f-97f8-5022681700d9.webp?v=1774377128",
+      "link": "https://lmdee.link/vY2FPEP0wNsh",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1720,6 +1720,20 @@
       "cupom": null,
       "validade": null,
       "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lp-cdc08742338f712bb676",
+      "loja": "LITTLE DUCK",
+      "tipo": "produto",
+      "titulo": "150 Bolinhas Transparentes Extras",
+      "imagem": "https://cdn.shopify.com/s/files/1/0566/0298/4497/files/150-bolinhas-transparentes-extras-Imagem-30410523246641.png?v=1787834788",
+      "link": "https://lmdee.link/nba0gMhlZrhf",
+      "preco": 0.72,
+      "preco_anterior": 1.35,
+      "cupom": null,
+      "validade": null,
+      "descricao": "As 150 Bolinhas Transparentes Extras são perfeitas para complementar piscinas de bolinhas, proporcionando mais diversão e cor ao cantinho das crianças. Produzidas com material seguro e resistente, garantem brincadeiras s",
       "origem": "Lomadee"
     },
     {
@@ -1789,6 +1803,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-06T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-26a3b686ecf203416de6",
+      "loja": "Sofá na Caixa",
+      "tipo": "promocao",
+      "titulo": "Sofá Cama Bloom Tecido Cotelê Azul Marinho",
+      "imagem": "https://cdn.lomadee.com.br/offer/c8e0d632-6309-4418-a8ec-e46dc0054371/banners/BANNER-BLOOM-AFILIADOS-WEPB.jpg",
+      "link": "https://lmdee.link/2NEUfZvV2OxK",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1891,12 +1919,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lp-5df4ea541eeb571fae62",
+      "id": "lp-4b9b232a4fc4ddb5badd",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
       "titulo": "2 Clouds + 2 moons + 1 tacho de 60cm",
-      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Prancheta_7_ecf0593d-847c-4560-8dca-c7326d33a00a.webp?v=1774377128",
-      "link": "https://lmdee.link/yUoGLbcdWWma",
+      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Prancheta_9_a6c45fb7-cd44-4af7-9276-cabd85a2ac2a.webp?v=1774377128",
+      "link": "https://lmdee.link/LjujclfGFd1n",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -2059,12 +2087,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lp-5b7de47e9f8bee2e42bf",
+      "id": "lp-5df4ea541eeb571fae62",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
       "titulo": "2 Clouds + 2 moons + 1 tacho de 60cm",
-      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Prancheta_7_739b8cfb-1b8c-4902-88e1-1f5b04df1056.webp?v=1774377128",
-      "link": "https://lmdee.link/wvmRAwHLE38E",
+      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Prancheta_7_ecf0593d-847c-4560-8dca-c7326d33a00a.webp?v=1774377128",
+      "link": "https://lmdee.link/yUoGLbcdWWma",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -2143,31 +2171,17 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lp-3bad2b6a071fc3eb073f",
+      "id": "lp-5b7de47e9f8bee2e42bf",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
       "titulo": "2 Clouds + 2 moons + 1 tacho de 60cm",
-      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Prancheta_11_7a153c36-5e8d-4a9f-b326-8b355b86ee7b.webp?v=1774377128",
-      "link": "https://lmdee.link/eEEfJraohE7x",
+      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Prancheta_7_739b8cfb-1b8c-4902-88e1-1f5b04df1056.webp?v=1774377128",
+      "link": "https://lmdee.link/wvmRAwHLE38E",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-8857e8fff943f782fe6a",
-      "loja": "Mundo Vem",
-      "tipo": "promocao",
-      "titulo": "[CATEGORIA] Tapetes de Silicone",
-      "imagem": "",
-      "link": "https://lmdee.link/8rZ7nraUUeyT",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
       "origem": "Lomadee"
     },
     {
@@ -2199,31 +2213,17 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lp-f3f9c4a880a9808d0bde",
+      "id": "lp-3bad2b6a071fc3eb073f",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
       "titulo": "2 Clouds + 2 moons + 1 tacho de 60cm",
       "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Prancheta_11_7a153c36-5e8d-4a9f-b326-8b355b86ee7b.webp?v=1774377128",
-      "link": "https://lmdee.link/Uav9RsSHjkiW",
+      "link": "https://lmdee.link/eEEfJraohE7x",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-8db890eca91897bc8046",
-      "loja": "Mundo Vem",
-      "tipo": "promocao",
-      "titulo": "[CATEGORIA] Linha Wooden Glow",
-      "imagem": "https://cdn.lomadee.com.br/offer/0a1a7339-96cb-41a2-9c8a-6e46b7aeab29/banners/120x600%20%285%29.jpg",
-      "link": "https://lmdee.link/IsTkEwJMjQl3",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
       "origem": "Lomadee"
     },
     {
@@ -2255,12 +2255,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lp-5adcaf5019c6129b45c6",
+      "id": "lp-f3f9c4a880a9808d0bde",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
-      "titulo": "2 Espreguiçadeira Duo Plus",
-      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/PuffCotton_2.webp?v=1774292520",
-      "link": "https://lmdee.link/5RVtVmL6K5ds",
+      "titulo": "2 Clouds + 2 moons + 1 tacho de 60cm",
+      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Prancheta_11_7a153c36-5e8d-4a9f-b326-8b355b86ee7b.webp?v=1774377128",
+      "link": "https://lmdee.link/Uav9RsSHjkiW",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -2297,12 +2297,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lp-981849181ec33900ecae",
+      "id": "lp-5adcaf5019c6129b45c6",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
       "titulo": "2 Espreguiçadeira Duo Plus",
-      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/PuffCotton_7.webp?v=1774357235",
-      "link": "https://lmdee.link/Ovj6SsBpxPLU",
+      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/PuffCotton_2.webp?v=1774292520",
+      "link": "https://lmdee.link/5RVtVmL6K5ds",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -2325,12 +2325,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lp-c3ec428b05249bb18c02",
+      "id": "lp-981849181ec33900ecae",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
       "titulo": "2 Espreguiçadeira Duo Plus",
-      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/PuffCotton_3.webp?v=1774292423",
-      "link": "https://lmdee.link/CQQ7IyW0s1g6",
+      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/PuffCotton_7.webp?v=1774357235",
+      "link": "https://lmdee.link/Ovj6SsBpxPLU",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -2353,6 +2353,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lp-c3ec428b05249bb18c02",
+      "loja": "ECO FLAME GARDEN",
+      "tipo": "produto",
+      "titulo": "2 Espreguiçadeira Duo Plus",
+      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/PuffCotton_3.webp?v=1774292423",
+      "link": "https://lmdee.link/CQQ7IyW0s1g6",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lp-e873aaea60e3957740ba",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
@@ -2364,20 +2378,6 @@
       "cupom": null,
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-5adeaf3f113b6dd2ceaa",
-      "loja": "Soulier",
-      "tipo": "promocao",
-      "titulo": "Bazar Sapatos",
-      "imagem": "https://cdn.lomadee.com.br/offer/52e8c2e3-254f-4799-9c25-cd175432beb1/banners/120x600_lomade_blue.jpg",
-      "link": "https://lmdee.link/Eq429IQSpJx7",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-12-01T02:30:00.000Z",
-      "descricao": "",
       "origem": "Lomadee"
     },
     {
