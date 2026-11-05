@@ -1,12 +1,12 @@
-name: SOL GARIMPA - Sincronizar cupons Shopee (3 fontes)
+name: SOL GARIMPA - Cupons 6 marketplaces (Pelando Meliuz Cuponomia)
 
 on:
   workflow_dispatch:
   push:
     branches: [main]
     paths:
-      - 'scripts/sync_cupons_shopee.py'
-      - 'docs/central/shopee.html'
+      - 'scripts/sync_cupons_marketplaces.py'
+      - 'docs/central/cupons-marketplace.html'
       - '.github/workflows/atualizar_cupons_shopee.yml'
   schedule:
     - cron: '5,35 * * * *'
@@ -43,16 +43,16 @@ jobs:
       - name: Instalar leitor de paginas publicas
         run: python -m pip install --disable-pip-version-check requests beautifulsoup4
 
-      - name: Consultar Pelando Cuponomia Meliuz e fonte atual
-        run: python scripts/sync_cupons_shopee.py
+      - name: Coletar 6 lojas Pelando Cuponomia Meliuz e Worker
+        run: python scripts/sync_cupons_marketplaces.py
 
       - name: Salvar dados e sincronizar branch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/central/shopee-cupons.json
+          git add docs/central/*-cupons.json
           if ! git diff --cached --quiet; then
-            git commit -m "Sincronizar cupons Shopee de fontes publicas"
+            git commit -m "Sincronizar cupons 6 marketplaces de fontes publicas"
             bash scripts/git_push_retry.sh main
           else
             echo "Nenhuma alteracao nos cupons"
