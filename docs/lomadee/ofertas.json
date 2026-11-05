@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-05T16:21:21+00:00",
+  "atualizado_em": "2026-11-05T17:28:29+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -771,20 +771,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-b65d4525e560be57755d",
-      "loja": "FATOR 5",
-      "tipo": "promocao",
-      "titulo": "Kit Floral de 238,00 por 199,00",
-      "imagem": "",
-      "link": "https://lmdee.link/oe8JyuwMbZO3",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-a86078a74cd1df18a8dc",
       "loja": "Ferramentas Kennedy",
       "tipo": "promocao",
@@ -837,6 +823,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-12T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-2638eb9c7cf4ce5ab26f",
+      "loja": "Iodice",
+      "tipo": "promocao",
+      "titulo": "BLACK NOVEMBER! Descontos progressivos 65%Off em 3 ou mais peças!",
+      "imagem": "",
+      "link": "https://lmdee.link/n0Jw1A47NbL0",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-17T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1051,16 +1051,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-3967910dc04897e8cd53",
+      "id": "lc-7c1ecfbbbd79f3d32e37",
       "loja": "Shopee",
       "tipo": "promocao",
-      "titulo": "📺Smart TV AOC 43” (De: R$2.350,00 Por: R$1.280,64 no PIX)",
-      "imagem": "https://cdn.lomadee.com.br/offer/475c15e2-b713-4581-8ca3-f4629cb5cf4b/banners/imagem%20-%202026-09-10T115004.069.png",
-      "link": "https://lmdee.link/3SWR49pjGGgk",
+      "titulo": "Resgate os cupons dos produtos aqui:",
+      "imagem": "",
+      "link": "https://lmdee.link/foPfFZ5giTvn",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": null,
+      "validade": "2026-11-06T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1159,6 +1159,20 @@
       "preco_anterior": null,
       "cupom": "LOMADEE",
       "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-dc50f50c12f747166d7a",
+      "loja": "Zinco",
+      "tipo": "promocao",
+      "titulo": "BLACK NOVEMBER! Descontos progressivos 65%Off em 3 ou mais peças!",
+      "imagem": "",
+      "link": "https://lmdee.link/DLBg6Ux9co0l",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-17T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1471,6 +1485,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-fcbeffe76e71f4bf45de",
+      "loja": "Shopee",
+      "tipo": "promocao",
+      "titulo": "Smartphone Motorola Moto G17 256GB (De: R$1.299,00 Por: R$739,68 no PIX com cupom)",
+      "imagem": "https://cdn.lomadee.com.br/offer/4d853fb4-e575-4a23-8936-f0da9353181c/banners/imagem%20-%202026-11-05T133516.693.png",
+      "link": "https://lmdee.link/WW51Dourt8HC",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-06T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-26a3b686ecf203416de6",
       "loja": "Sofá na Caixa",
       "tipo": "promocao",
@@ -1751,6 +1779,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-dfedf45185a132f28443",
+      "loja": "Shopee",
+      "tipo": "promocao",
+      "titulo": "Conjunto Sala de Jantar (De: R$1.709,90 Por: R$880,35 no PIX com cupom)",
+      "imagem": "https://cdn.lomadee.com.br/offer/f710811b-c4ae-4209-8c9f-0a273de291a6/banners/imagem%20-%202026-11-05T133516.693.png",
+      "link": "https://lmdee.link/TjvieT5afDdp",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-06T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-27d5c5b79cfc5ebdfd40",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -1939,6 +1981,20 @@
       "titulo": "Seleção de Boot Cuts",
       "imagem": "",
       "link": "https://lmdee.link/ebKExEZm6XHR",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-3967910dc04897e8cd53",
+      "loja": "Shopee",
+      "tipo": "promocao",
+      "titulo": "📺Smart TV AOC 43” (De: R$2.350,00 Por: R$1.280,64 no PIX)",
+      "imagem": "https://cdn.lomadee.com.br/offer/475c15e2-b713-4581-8ca3-f4629cb5cf4b/banners/imagem%20-%202026-09-10T115004.069.png",
+      "link": "https://lmdee.link/3SWR49pjGGgk",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -2213,20 +2269,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-cae62d8efe7e6b409428",
-      "loja": "Mundo Vem",
-      "tipo": "promocao",
-      "titulo": "[CATEGORIA] Linha Alegria",
-      "imagem": "https://cdn.lomadee.com.br/offer/787e0de0-7996-439b-9994-93ca7d92c55b/banners/120x600%20%284%29.jpg",
-      "link": "https://lmdee.link/fRA6RVfAPfu2",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-0558efff842b122b0e7f",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -2353,20 +2395,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-409daa745c608e47d393",
-      "loja": "Soulier",
-      "tipo": "promocao",
-      "titulo": "Bazar Sandalias",
-      "imagem": "https://cdn.lomadee.com.br/offer/2b9becef-87db-4a09-96c4-734c148e6ea0/banners/120x600_lomade_blue.jpg",
-      "link": "https://lmdee.link/gHaWC534brDX",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-12-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lp-74c8623136e856d25c1f",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
@@ -2381,20 +2409,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-f2a79692cd30dfd90469",
-      "loja": "Soulier",
-      "tipo": "promocao",
-      "titulo": "Bazar Bolsas",
-      "imagem": "https://cdn.lomadee.com.br/offer/4f8a2688-aa36-40f3-8c33-fb613d2e3b59/banners/120x600_lomade_blue.jpg",
-      "link": "https://lmdee.link/qQgADkfWkCbL",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-12-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lp-d9766db77509bdc1110b",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
@@ -2406,20 +2420,6 @@
       "cupom": null,
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-af415a719913c33d7587",
-      "loja": "Soulier",
-      "tipo": "promocao",
-      "titulo": "Bazar 60%",
-      "imagem": "https://cdn.lomadee.com.br/offer/c7bb63c1-1d84-44b7-82e7-831208bf35cf/banners/750x1351_lomade.jpg",
-      "link": "https://lmdee.link/4Ivj1eSAayGe",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-12-01T02:30:00.000Z",
-      "descricao": "",
       "origem": "Lomadee"
     },
     {
