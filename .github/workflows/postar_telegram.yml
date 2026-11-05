@@ -64,6 +64,5 @@ jobs:
           git add docs/telegram/publicados.json
           if ! git diff --cached --quiet; then
             git commit -m 'Registrar publicacao Telegram Sol Garimpa'
-            git pull --rebase origin "${GITHUB_REF_NAME}"
-            git push origin "HEAD:${GITHUB_REF_NAME}"
+            bash scripts/git_push_retry.sh "${GITHUB_REF_NAME}"
           fi
