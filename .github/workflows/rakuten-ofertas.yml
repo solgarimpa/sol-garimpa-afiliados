@@ -28,6 +28,9 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Validar segunda camada sem credenciais
+        run: python -m unittest discover -s tests -p 'test_segunda_camada.py' -v
+
       - name: Consultar ofertas Rakuten
         env:
           RAKUTEN_ACCOUNT_ID: ${{ secrets.RAKUTEN_ACCOUNT_ID }}
