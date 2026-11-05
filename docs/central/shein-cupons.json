@@ -1,0 +1,479 @@
+{
+  "market": "shein",
+  "name": "SHEIN",
+  "generatedAt": "2026-11-05T17:52:50+00:00",
+  "refreshMinutes": 30,
+  "count": 32,
+  "sources": {
+    "Cuponomia": {
+      "ok": false,
+      "quantidade": 0,
+      "erro": "403 Client Error: Forbidden for url: https://www.cuponomia.com.br/desconto/shein"
+    },
+    "Meliuz": {
+      "ok": true,
+      "quantidade": 32
+    },
+    "Pelando": {
+      "ok": false,
+      "quantidade": 0,
+      "erro": "403 Client Error: Forbidden for url: https://www.pelando.com.br/cupons-de-descontos/shein"
+    },
+    "WorkerExistente": {
+      "ok": false,
+      "quantidade": 0,
+      "erro": "Worker sem cupons no formato esperado"
+    }
+  },
+  "note": "Cupons listados nas fontes, nao testados no checkout. Cashback exclusivo de outros sites nao e oferecido pela Sol Garimpa.",
+  "coupons": [
+    {
+      "title": "Até 20% OFF no voucher Shein",
+      "couponCode": "SHEINFLORIPA",
+      "discountText": "20% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom de desconto Shein com 20% OFF",
+      "couponCode": "SHEINLUD",
+      "discountText": "20% OFF",
+      "description": "Cupom aplicável em produtos selecionados, próprios da SHEIN. Desconto de 15% em compras sem valor mínimo e de 20% para pedidos acima de R$300",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom Shein com 20% OFF no pedido",
+      "couponCode": "SHEIN25BH",
+      "discountText": "20% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom Shein de novembro com 20% OFF",
+      "couponCode": "MUSERA20OFF",
+      "discountText": "20% OFF",
+      "description": "Cupom disponível para produtos selecionados. Em compras acima de R$129. Aproveite!",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Receba R$17 OFF com o cupom Shein",
+      "couponCode": "JANLCH",
+      "discountText": "R$ 17 OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Resgate 15% extra com o cupom Shein",
+      "couponCode": "WARNERKIDS",
+      "discountText": "15% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Acessórios Shein com até 68% OFF",
+      "couponCode": "",
+      "discountText": "68% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Aplique o cupom Shein e ganhe 20% OFF na compra",
+      "couponCode": "",
+      "discountText": "20% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Aproveite até 20% OFF com desconto Shein",
+      "couponCode": "",
+      "discountText": "20% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Até 20% OFF nas compras com desconto Shein",
+      "couponCode": "",
+      "discountText": "20% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Casa e decoração Shein com até 60% OFF",
+      "couponCode": "",
+      "discountText": "60% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Coleção Eduarda Gutierrez com 20% OFF na Shein",
+      "couponCode": "",
+      "discountText": "20% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Compre com o código Shein e ganhe R$30 OFF",
+      "couponCode": "",
+      "discountText": "R$ 30 OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Economize até 20% com o cupom de desconto Shein",
+      "couponCode": "",
+      "discountText": "20% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Economize com o Cupom Shein",
+      "couponCode": "",
+      "discountText": "OFERTA",
+      "description": "Com o cupom de desconto Shein, você pode renovar o seu guarda-roupas não somente com muito estilo, mas também com economia! Veja como utilizar:",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Flash sale Shein com itens de até 83% OFF",
+      "couponCode": "",
+      "discountText": "83% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Frete grátis na Shein em compras acima de R$69",
+      "couponCode": "",
+      "discountText": "FRETE GRÁTIS",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Frete grátis no 11.11 com código Shein",
+      "couponCode": "",
+      "discountText": "FRETE GRÁTIS",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Ganhe 15% OFF nas compras com o código Shein",
+      "couponCode": "",
+      "discountText": "15% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Garanta 20% OFF com cupom de desconto Shein",
+      "couponCode": "",
+      "discountText": "20% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Garanta 20% OFF com o cupom de desconto Shein",
+      "couponCode": "",
+      "discountText": "20% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Looks infantis com até 15% OFF no desconto Shein",
+      "couponCode": "",
+      "discountText": "15% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Maquiagem Sheglam com até 50% OFF na Shein",
+      "couponCode": "",
+      "discountText": "50% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Missguided com 20% OFF no cupom de desconto Shein",
+      "couponCode": "",
+      "discountText": "20% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Moda praia com 20% OFF no cupom de desconto Shein",
+      "couponCode": "",
+      "discountText": "20% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Ofertas de até 90% OFF em moda feminina e masculina",
+      "couponCode": "",
+      "discountText": "90% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Peça com frete grátis usando cupom Shein",
+      "couponCode": "",
+      "discountText": "FRETE GRÁTIS",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Primeira compra com R$12 OFF no cupom Shein",
+      "couponCode": "",
+      "discountText": "R$ 12 OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Shein 11.11 com até 90% OFF em mais de 800 mil itens",
+      "couponCode": "",
+      "discountText": "90% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Sua compra com até 20% OFF no voucher Shein",
+      "couponCode": "",
+      "discountText": "20% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Use o cupom Shein e leve 20% OFF nas suas compras",
+      "couponCode": "",
+      "discountText": "20% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Voucher Shein garante 20% OFF nos looks Anewsta",
+      "couponCode": "",
+      "discountText": "20% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:52:50+00:00",
+      "status": "listed"
+    }
+  ]
+}
