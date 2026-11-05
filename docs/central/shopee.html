@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cupons Shopee | Sol Garimpa</title>
+<style>
+:root{--laranja:#f4492f;--borda:#e1e1e1}
+*{box-sizing:border-box}body{margin:0;font:13px Arial,Helvetica,sans-serif;color:#171717;background:#f5f5f5}
+main{max-width:1170px;margin:auto;padding:14px 11px 25px}
+h1{font-size:25px;margin:0 0 15px;font-weight:800}
+#busca{display:block;width:100%;border:1px solid #ddd;background:#fff;border-radius:9px;height:39px;padding:0 13px;font:inherit;margin-bottom:10px}
+.filtros{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:12px}
+.filtros button{border:1px solid #ddd;background:#fff;border-radius:8px;padding:8px 12px;font-weight:700;font-size:12px;cursor:pointer;color:#333}
+.filtros button.ativo{background:var(--laranja);border-color:var(--laranja);color:white}
+.status{background:#fff;border:1px solid var(--borda);border-radius:12px;padding:13px 15px;margin-bottom:16px;line-height:1.8;color:#555;font-size:12px}
+.status .verde{font-weight:700;color:#04894a;font-size:13px}
+.status .verde:before{content:"● ";color:#00c66a}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.card{border:1px solid var(--borda);background:#fff;border-radius:14px;padding:15px;box-shadow:0 1px 4px #00000009;display:flex;flex-direction:column;gap:11px;min-width:0}
+.card h2{margin:0;font-weight:700;line-height:1.4;font-size:14px;overflow-wrap:anywhere}
+.desconto{color:var(--laranja);font-size:24px;line-height:1.15;font-weight:900}
+.descricao{margin:0;color:#646464;line-height:1.5;font-size:12px;overflow-wrap:anywhere}
+.metadados{font-size:11px;color:#777;line-height:1.5}
+.codigoarea{display:flex;gap:7px}
+.codigoarea strong{display:flex;align-items:center;justify-content:center;min-width:0;flex:1;padding:10px 5px;background:#fff8f5;border:2px dashed var(--laranja);border-radius:8px;overflow-wrap:anywhere;text-align:center}
+.codigoarea button{border:0;border-radius:8px;background:#eee;font-size:11px;font-weight:700;padding:0 12px;cursor:pointer}
+.aviso{background:#fff1eb;color:#c32b16;padding:11px;text-align:center;font-size:12px;border-radius:8px}
+.acao{background:var(--laranja);color:#fff!important;text-align:center;text-decoration:none;font-weight:900;border-radius:8px;padding:13px 7px;display:block;margin-top:auto}
+.vazio{grid-column:1/-1;background:#fff;border-radius:12px;border:1px solid #ddd;text-align:center;padding:23px 15px;line-height:1.6;color:#666}
+footer{color:#777;font-size:11px;line-height:1.6;text-align:center;padding-top:22px}
+@media(max-width:870px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){main{padding:10px 8px 20px}h1{font-size:21px}.grid{grid-template-columns:1fr;gap:10px}.card{padding:13px;gap:9px}.desconto{font-size:22px}.filtros button{padding:7px 9px;font-size:11px}}
+</style>
+</head>
+<body>
+<main>
+<h1>🔥 Cupons Shopee</h1>
+<input type="search" id="busca" placeholder="🔎 Pesquisar cupom ou desconto..." aria-label="Pesquisar cupons Shopee">
+<nav class="filtros"><button data-filtro="todos" class="ativo">Todos os cupons</button><button data-filtro="codigo">Com código</button><button data-filtro="resgate">Resgatar no app</button></nav>
+<div class="status"><div class="verde" id="data">Consultando fontes...</div><div id="fontes">Pelando, Cuponomia e Méliuz</div><div id="quantidade">Carregando...</div></div>
+<section id="grade" class="grid"></section>
+<footer>Cupons e ofertas publicados por terceiros. A presença em uma fonte não garante validade: confira sempre as condições e o desconto no aplicativo Shopee. A Sol Garimpa não oferece cashback anunciado por outros sites.</footer>
+</main>
+<script>
+(function(){
+"use strict";
+const JSON_URL="https://solgarimpa.github.io/sol-garimpa-afiliados/central/shopee-cupons.json";
+const LINK_SHOPEE="https://shopee.com.br/m/cupom-de-desconto";
+const el=id=>document.getElementById(id);
+const fmt=new Intl.DateTimeFormat("pt-BR",{day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit",timeZone:"America/Sao_Paulo"});
+let todos=[], filtro="todos";
+function txt(v){return String(v==null?"":v).trim()}
+function norm(v){return txt(v).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()}
+function node(tag,classe,texto){const n=document.createElement(tag);if(classe)n.className=classe;if(texto!==undefined)n.textContent=texto;return n}
+function cartao(c){
+  const art=node("article","card");
+  art.appendChild(node("h2","",txt(c.title)));
+  art.appendChild(node("div","desconto",txt(c.discountText)||"OFERTA"));
+  art.appendChild(node("p","descricao",txt(c.description)||"Consulte as regras na Shopee."));
+  const fontes=(Array.isArray(c.sources)?c.sources:[]).join(" · ");
+  art.appendChild(node("div","metadados","Fonte: "+fontes));
+  if(c.couponCode){
+    const a=node("div","codigoarea"),cod=node("strong","",c.couponCode),btn=node("button","","COPIAR");
+    btn.type="button";btn.onclick=async()=>{let ok=false;try{await navigator.clipboard.writeText(c.couponCode);ok=true}catch(e){const t=document.createElement("textarea");t.value=c.couponCode;t.style.position="fixed";t.style.opacity="0";document.body.appendChild(t);t.select();try{ok=document.execCommand("copy")}catch(e){}t.remove()}btn.textContent=ok?"COPIADO ✓":"SELECIONE O CÓDIGO";if(ok)setTimeout(()=>btn.textContent="COPIAR",2500)};
+    a.append(cod,btn);art.appendChild(a);
+  }else art.appendChild(node("div","aviso","🎟️ Consulte o resgate no app Shopee"));
+  const link=node("a","acao","USAR CUPOM");link.href=LINK_SHOPEE;link.target="_blank";link.rel="noopener noreferrer nofollow";art.appendChild(link);
+  return art;
+}
+function desenhar(){
+  const busca=norm(el("busca").value),grade=el("grade");grade.replaceChildren();
+  const itens=todos.filter(c=>(filtro==="todos"||(filtro==="codigo"?Boolean(c.couponCode):!c.couponCode))&&norm([c.title,c.description,c.couponCode,c.discountText].join(" ")).includes(busca));
+  el("quantidade").textContent=itens.length+" cupom(ns) e oferta(s) nesta seleção";
+  if(!itens.length)grade.appendChild(node("div","vazio","Nenhum cupom encontrado nesta seleção. Altere o filtro ou tente novamente depois."));
+  else for(const c of itens)grade.appendChild(cartao(c));
+}
+async function atualizar(){
+  try{
+    const resposta=await fetch(JSON_URL+"?v="+Date.now(),{cache:"no-store"});
+    if(!resposta.ok)throw new Error("HTTP "+resposta.status);
+    const dados=await resposta.json();
+    if(!Array.isArray(dados.coupons))throw new Error("Formato de catálogo inválido");
+    todos=dados.coupons.filter(c=>c&&c.title&&c.status==="listed");
+    const data=new Date(dados.generatedAt);
+    if(!Number.isFinite(data.getTime()))throw new Error("Data do catálogo inválida");
+    const idade=Date.now()-data.getTime();
+    el("data").textContent="Última coleta automática: "+fmt.format(data);
+    const fonte=dados.sources||{};
+    const ok=["Pelando","Cuponomia","Meliuz"].filter(n=>fonte[n]&&fonte[n].ok);
+    el("fontes").textContent="Fontes consultadas diretamente: "+(ok.length?ok.join(", "):"nenhuma; somente fonte complementar")+(idade>2*60*60*1000?" · ATENÇÃO: catálogo desatualizado":"");
+    desenhar();
+  }catch(e){
+    todos=[];el("data").textContent="A atualização automática está indisponível";
+    el("fontes").textContent="A fonte de dados não respondeu. Nenhum código antigo será apresentado como atualizado.";
+    desenhar();
+  }
+}
+el("busca").addEventListener("input",desenhar);
+document.querySelectorAll("[data-filtro]").forEach(b=>b.addEventListener("click",()=>{filtro=b.dataset.filtro;document.querySelectorAll("[data-filtro]").forEach(x=>x.classList.toggle("ativo",x===b));desenhar()}));
+atualizar();setInterval(atualizar,5*60*1000);
+})();
+</script>
+</body></html>
