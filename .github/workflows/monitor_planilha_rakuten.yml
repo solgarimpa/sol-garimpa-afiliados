@@ -69,6 +69,5 @@ jobs:
           git add docs/telegram/rakuten_planilha_vistos.json
           if ! git diff --cached --quiet; then
             git commit -m 'Atualizar controle de ofertas Rakuten verificadas'
-            git pull --rebase origin "${GITHUB_REF_NAME}"
-            git push origin "HEAD:${GITHUB_REF_NAME}"
+            bash scripts/git_push_retry.sh "${GITHUB_REF_NAME}"
           fi
