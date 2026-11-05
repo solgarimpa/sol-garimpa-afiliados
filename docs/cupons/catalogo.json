@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-05T20:56:24.315688Z",
-  "total": 103,
-  "total_cupons": 87,
+  "atualizado_em": "2026-11-05T21:34:39.228096Z",
+  "total": 102,
+  "total_cupons": 86,
   "total_promocoes": 16,
   "fontes": {
     "Awin": 76,
     "Rakuten": 0,
-    "Lomadee": 27
+    "Lomadee": 26
   },
   "ofertas": [
     {
@@ -116,18 +116,6 @@
       "cupom": "BF50EXTRA",
       "validade": "2026-12-21T02:30:00Z",
       "link": "https://lmdee.link/jqpvsnRfWwhm",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "1e4b116008a1874259",
-      "loja": "Brinox",
-      "tipo": "cupom",
-      "titulo": "Cupom perfeito para você divulgar!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "RENOVACASA",
-      "validade": "2026-12-21T02:30:00Z",
-      "link": "https://lmdee.link/DZo5pwUvAGaK",
       "rede": "Lomadee"
     },
     {
@@ -875,18 +863,6 @@
       "rede": "Lomadee"
     },
     {
-      "id": "1d28b29f5f8f78153f",
-      "loja": "Móveis Carraro",
-      "tipo": "cupom",
-      "titulo": "LANCAMENTOS10 - 10% OFF em Lançamentos",
-      "descricao": "",
-      "termos": "",
-      "cupom": "LANCAMENTOS10",
-      "validade": null,
-      "link": "https://lmdee.link/Zgad1XW8M6fK",
-      "rede": "Lomadee"
-    },
-    {
       "id": "a3ac18320162620c8b",
       "loja": "Posthaus BR",
       "tipo": "cupom",
@@ -1016,6 +992,18 @@
       "cupom": "LOMADEE",
       "validade": null,
       "link": "https://lmdee.link/SG7hMFDpj30P",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "0fd825eed0513871a7",
+      "loja": "Walita",
+      "tipo": "cupom",
+      "titulo": "Ganhe até R$200 com cupom PREBLACK",
+      "descricao": "",
+      "termos": "",
+      "cupom": "PREBLACK",
+      "validade": "2026-11-09T02:30:00Z",
+      "link": "https://lmdee.link/bpez6dO2sip2",
       "rede": "Lomadee"
     },
     {
