@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-05T12:58:13.393905+00:00",
+  "atualizado_em": "2026-11-05T17:02:18.166924+00:00",
   "itens": [
     {
       "id": "1f923013cbe1530352f13062",
@@ -156,6 +156,12 @@
       "slug": "awin-e388bbc152e68ca1904b",
       "rede": "Awin",
       "publicado_em": "2026-11-05T12:58:13.393905+00:00"
+    },
+    {
+      "id": "87c901e0329a8ac40bd8dbaa",
+      "slug": "rakuten-96a42c26dc2b8e71ef21",
+      "rede": "Rakuten",
+      "publicado_em": "2026-11-05T17:02:18.166924+00:00"
     }
   ]
 }
