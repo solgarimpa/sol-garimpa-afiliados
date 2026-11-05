@@ -365,7 +365,7 @@ def main():
     except (ET.ParseError, ValueError, RuntimeError) as e:
         errors.append(f'Consulta de cupons falhou ({type(e).__name__})')
         log(f'Falha nos cupons ({type(e).__name__})')
-    if partners and not ok_product_requests and not coupons_ok:
+    if partners and not ok_product_requests and not coupons_ok and not creative_count:
         raise RuntimeError('Consultas de produto e cupom falharam; preservado o catálogo anterior.')
     # No partner found is valid only if the Partnerships API succeeded.
     unique = {card['id']:card for card in allcards}
