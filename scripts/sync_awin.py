@@ -25,6 +25,8 @@ from decimal import Decimal, InvalidOperation
 from pathlib import Path
 from urllib.parse import urlparse, urlsplit, urlunsplit
 
+from segunda_camada import awin_store_links
+
 PUBLISHER_ID = 3110826
 UTC = dt.timezone.utc
 
@@ -957,7 +959,7 @@ def get_offers(token):
 def attach_sol_page(item):
     if (
         not item.get("link")
-        or item.get("tipo") == "sem_oferta"
+        or item.get("tipo") in ("sem_oferta", "loja")
     ):
         return item
 
@@ -1009,7 +1011,7 @@ def attach_sol_page(item):
 
 def whatsapp_message(item):
     if (
-        item.get("tipo") == "sem_oferta"
+        item.get("tipo") in ("sem_oferta", "loja")
         or not item.get("link")
     ):
         return None
@@ -1182,6 +1184,31 @@ def main():
             )
             return
 
+
+        # Segunda camada: links oficiais para lojas que nao possuem
+        # produtos ou promocoes publicadas. Nao sao ofertas.
+        faltantes = [
+            (store, branding[store].get("advertiser_id"))
+            for store, _ in STORES
+            if not promos.get(store) and not products.get(store)
+        ]
+        links_lojas = {}
+        if faltantes:
+            try:
+                links_lojas = awin_store_links(
+                    token, faltantes, request, PUBLISHER_ID, safe_url
+                )
+                print(
+                    f"Awin segunda camada: {len(links_lojas)} "
+                    "links oficiais de loja gerados",
+                    flush=True
+                )
+            except (OSError, ValueError, TypeError, TimeoutError) as exc:
+                print(
+                    "::warning title=Awin Link Builder indisponivel::"
+                    f"{type(exc).__name__}. Mantendo lojas sem oferta.",
+                    flush=True
+                )
         cards = []
         active = []
 
@@ -1196,25 +1223,33 @@ def main():
                 cards.extend(selection)
 
             else:
+                link_loja = links_lojas.get(store)
                 cards.append({
                     "id": (
-                        "s-" + compact(store)
+                        ("l-" if link_loja else "s-")
+                        + compact(store)
                     ),
                     "loja": store,
-                    "tipo": "sem_oferta",
+                    "tipo": "loja" if link_loja else "sem_oferta",
                     "titulo": (
-                        "Nenhuma oferta vigente "
-                        "encontrada na fonte"
+                        "Visite a loja " + store
+                        if link_loja else
+                        "Nenhuma oferta vigente encontrada na fonte"
                     ),
-                    "descricao": "",
+                    "descricao": (
+                        "Link oficial de afiliado para visitar a loja. "
+                        "Nao indica promocao ou desconto especifico."
+                        if link_loja else ""
+                    ),
                     "imagem": None,
                     "preco": None,
                     "preco_anterior": None,
                     "desconto_pct": None,
-                    "link": None,
+                    "link": link_loja,
                     "cupom": None,
                     "validade": None,
-                    "termos": ""
+                    "termos": "",
+                    "origem": "awin_link_builder" if link_loja else None
                 })
 
         # Adiciona metadados oficiais.
@@ -1270,8 +1305,9 @@ def main():
                     for item in cards
                     if (
                         item["loja"] == store
-                        and item["tipo"]
-                        != "sem_oferta"
+                        and item["tipo"] in (
+                            "produto", "cupom", "promocao"
+                        )
                     )
                 )
             })
@@ -1326,6 +1362,7 @@ def main():
                 "com_ofertas": (
                     len(active)
                 ),
+                "links_loja_segunda_camada": len(links_lojas),
                 "com_feed": sum(
                     1
                     for info in report.values()
