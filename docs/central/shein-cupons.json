@@ -1,9 +1,9 @@
 {
   "market": "shein",
   "name": "SHEIN",
-  "generatedAt": "2026-11-05T17:54:55+00:00",
+  "generatedAt": "2026-11-05T17:57:04+00:00",
   "refreshMinutes": 30,
-  "count": 31,
+  "count": 67,
   "sources": {
     "Cuponomia": {
       "ok": false,
@@ -20,9 +20,8 @@
       "erro": "403 Client Error: Forbidden for url: https://www.pelando.com.br/cupons-de-descontos/shein"
     },
     "WorkerExistente": {
-      "ok": false,
-      "quantidade": 0,
-      "erro": "Worker sem cupons no formato esperado"
+      "ok": true,
+      "quantidade": 42
     }
   },
   "note": "Cupons listados nas fontes, nao testados no checkout. Cashback exclusivo de outros sites nao e oferecido pela Sol Garimpa.",
@@ -33,12 +32,13 @@
       "discountText": "20% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [
-        "Meliuz"
+        "Meliuz",
+        "Ninja das Ofertas"
       ],
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -47,12 +47,13 @@
       "discountText": "20% OFF",
       "description": "Cupom aplicável em produtos selecionados, próprios da SHEIN. Desconto de 15% em compras sem valor mínimo e de 20% para pedidos acima de R$300",
       "sources": [
-        "Meliuz"
+        "Meliuz",
+        "Ninja das Ofertas"
       ],
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -61,40 +62,43 @@
       "discountText": "20% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [
-        "Meliuz"
+        "Meliuz",
+        "Ninja das Ofertas"
       ],
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
       "title": "Cupom Shein de novembro com 20% OFF",
       "couponCode": "MUSERA20OFF",
       "discountText": "20% OFF",
-      "description": "Cupom disponível para produtos selecionados. Em compras acima de R$129. Aproveite!",
+      "description": "— 20% OFF Cupom Shein de novembro com 20% OFF · visto hoje às 14:25:08 · usado 1 vez na semana",
       "sources": [
-        "Meliuz"
+        "Meliuz",
+        "Ninja das Ofertas"
       ],
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
       "title": "Receba R$17 OFF com o cupom Shein",
       "couponCode": "JANLCH",
       "discountText": "R$ 17 OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
+      "description": "— R$ 17 OFF Receba R$17 OFF com o cupom Shein · visto hoje às 14:25:08 · usado 1 vez hoje",
       "sources": [
-        "Meliuz"
+        "Meliuz",
+        "Ninja das Ofertas"
       ],
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -103,12 +107,13 @@
       "discountText": "15% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [
-        "Meliuz"
+        "Meliuz",
+        "Ninja das Ofertas"
       ],
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -122,7 +127,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -136,7 +141,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -150,7 +155,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -164,7 +169,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -178,7 +183,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -192,7 +197,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -206,7 +211,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -220,7 +225,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -234,7 +239,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -248,7 +253,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -262,7 +267,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -276,7 +281,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -290,7 +295,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -304,7 +309,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -318,7 +323,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -332,7 +337,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -346,7 +351,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -360,7 +365,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -374,7 +379,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -388,7 +393,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -402,7 +407,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -416,7 +421,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -430,7 +435,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -444,7 +449,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
     },
     {
@@ -458,8 +463,512 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:54:55+00:00",
+      "observedAt": "2026-11-05T17:57:04+00:00",
       "status": "listed"
+    },
+    {
+      "title": "10% OFF na SHEIN",
+      "couponCode": "LINHA10",
+      "discountText": "10% OFF",
+      "description": "— 10% OFF Confira a lista de produtos selecionados no site e ganhe desconto aplicando o cupom no carrinho. Válido para itens próprios Shein. · visto hoje às 14:25:08 · usado 5 vezes na seman",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "15% OFF na SHEIN",
+      "couponCode": "MOTFBR15OFF",
+      "discountText": "15% OFF",
+      "description": "— 15% OFF Ganhe 15% OFF nas compras com o código Shein · visto hoje às 14:25:08 · usado 5 vezes na semana",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "15% OFF na SHEIN",
+      "couponCode": "COZYPIXIES15OFF",
+      "discountText": "15% OFF",
+      "description": "— 15% OFF Looks infantis com até 15% OFF no desconto Shein · visto hoje às 14:25:08 · usado 2 vezes na semana",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "20% OFF na SHEIN",
+      "couponCode": "SHEINIZA",
+      "discountText": "20% OFF",
+      "description": "acima de R$ 300 — 20% OFF Garanta 15% OFF sem valor mínimo. Nas compras acima de R$300, obtenha 20% OFF. Válido para produtos selecionados próprios da Shein. · visto hoje às 14:25:08 · usado",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "20% OFF na SHEIN",
+      "couponCode": "SHEINBELEM",
+      "discountText": "20% OFF",
+      "description": "— 20% OFF Até 20% OFF nas compras com desconto Shein · visto hoje às 14:25:08 · usado 4 vezes hoje",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "20% OFF na SHEIN",
+      "couponCode": "ANEWSTA20OFF",
+      "discountText": "20% OFF",
+      "description": "— 20% OFF Voucher Shein garante 20% OFF nos looks Anewsta · visto hoje às 14:25:08 · usado 2 vezes na semana",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "20% OFF na SHEIN",
+      "couponCode": "MAIJA20OFF",
+      "discountText": "20% OFF",
+      "description": "— 20% OFF Aplique o cupom Shein e ganhe 20% OFF na compra · visto hoje às 14:25:08 · usado 1 vez hoje",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "20% OFF na SHEIN",
+      "couponCode": "SHEINBAE20OFF",
+      "discountText": "20% OFF",
+      "description": "— 20% OFF Garanta 20% OFF com cupom de desconto Shein · visto hoje às 14:25:08 · usado 2 vezes hoje",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "20% OFF na SHEIN",
+      "couponCode": "ALORUH20OFF",
+      "discountText": "20% OFF",
+      "description": "— 20% OFF Use o cupom Shein e leve 20% OFF nas suas compras · visto hoje às 14:25:08 · usado 1 vez hoje",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "20% OFF na SHEIN",
+      "couponCode": "MISSGUIDED20OFF",
+      "discountText": "20% OFF",
+      "description": "— 20% OFF Missguided com 20% OFF no cupom de desconto Shein · visto hoje às 14:25:08 · usado 1 vez hoje",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "20% OFF na SHEIN",
+      "couponCode": "SWIMCHICCIA20OFF",
+      "discountText": "20% OFF",
+      "description": "— 20% OFF Moda praia com 20% OFF no cupom de desconto Shein · visto hoje às 14:25:08 · usado 3 vezes hoje",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "20% OFF na SHEIN",
+      "couponCode": "SHEINTATA",
+      "discountText": "20% OFF",
+      "description": "acima de R$ 300 — 20% OFF Garanta 15% OFF nas compras de produtos selecionados próprios da Shein. Em compras acima de R$300, obtenha 20% de desconto. · visto hoje às 14:25:08 · usado 2 vezes",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "20% OFF na SHEIN",
+      "couponCode": "SHEINLUISA",
+      "discountText": "20% OFF",
+      "description": "acima de R$ 300 — 20% OFF Válido nas compras de produtos selecionados próprios da Shein. Obtenha 15% OFF sem valor mínimo. Nas compras acima de R$300, garanta 20% OFF. · visto hoje às 14:25:",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "20% OFF na SHEIN",
+      "couponCode": "SHEINRAFA",
+      "discountText": "20% OFF",
+      "description": "acima de R$ 300 — 20% OFF Garanta 15% OFF em compras da coleção. Nas compras acima de R$300, adquira 20% OFF, desconto limitado a R$200. Válido somente para produtos selecionados próprios da",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "20% OFF na SHEIN",
+      "couponCode": "LARIEANDRE",
+      "discountText": "20% OFF",
+      "description": "acima de R$ 400 — 20% OFF Clique no link e aproveite os produtos selecionados Shein. Garanta 10% OFF sem valor mínimo e 20% OFF em compras acima de R$400, com desconto total limitado a R$200",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "20% OFF na SHEIN",
+      "couponCode": "SHEINLORE",
+      "discountText": "20% OFF",
+      "description": "acima de R$ 400 — 20% OFF Aproveite 10% OFF sem valor mínimo, e 20% OFF em compras acima de R$400, com desconto total limitado a R$200. Desconto válido para produtos selecionados próprios da",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "20% OFF na SHEIN",
+      "couponCode": "SHEINGI",
+      "discountText": "20% OFF",
+      "description": "acima de R$ 400 — 20% OFF 10% OFF sem valor mínimo e 20% OFF para compras acima de R$400, com desconto limitado a R$200. Válido para produtos selecionados. · visto hoje às 14:25:08 · usado 1",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "20% OFF na SHEIN",
+      "couponCode": "SHEINEG",
+      "discountText": "20% OFF",
+      "description": "acima de R$ 300 — 20% OFF Válido na compra de produtos Shein selecionados, garanta 15% OFF. Nas compras acima de R$300, obtenha 20% de desconto, limitado a R$200. · visto hoje às 14:25:08",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "20% OFF na SHEIN",
+      "couponCode": "SHEINGIO",
+      "discountText": "20% OFF",
+      "description": "acima de R$ 400 — 20% OFF Aproveite 10% OFF sem valor mínimo, e 20% OFF nas compras acima de R$400, com desconto total limitado a R$200. Desconto válido para produtos selecionados próprios d",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "20% OFF na SHEIN",
+      "couponCode": "SONZANASHEIN",
+      "discountText": "20% OFF",
+      "description": "acima de R$ 400 — 20% OFF Confira a seleção de produtos no site. Desconto de 10% sem valor mínimo; Desconto de 20% em compras acima de R$400. Válido apenas para produtos próprios Shein. · vi",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "20% OFF na SHEIN",
+      "couponCode": "SHEINMEL",
+      "discountText": "20% OFF",
+      "description": "acima de R$ 400 — 20% OFF Aproveite desconto de 10% sem valor mínimo, e 20% de desconto em compras acima de R$400. Confira os itens selecionados clicando no link. Válido para produtos própri",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "20% OFF na SHEIN",
+      "couponCode": "SHEINGOIANIA",
+      "discountText": "20% OFF",
+      "description": "acima de R$ 399 — 20% OFF Aproveite 10% OFF sem valor mínimo e 20% OFF para compras acima de R$399, desconto limitado a R$200. Válido para produtos selecionados. Consulte o regulamento da pr",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "20% OFF na SHEIN",
+      "couponCode": "SHEINGOL",
+      "discountText": "20% OFF",
+      "description": "acima de R$ 300 — 20% OFF Garanta 15% OFF sem valor mínimo e 20% OFF nas compras acima de R$300. Válido somente para produtos selecionados próprios da Shein. · visto hoje às 14:25:08 · usado",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "frete grátis na SHEIN",
+      "couponCode": "FG1111",
+      "discountText": "FRETE GRÁTIS",
+      "description": "— FRETE GRÁTIS Válido somente para produtos selecionados de envio nacional. Não cumulativo com outras promoções. · visto hoje às 14:25:08 · usado 4 vezes hoje",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "frete grátis na SHEIN",
+      "couponCode": "LCFEB20",
+      "discountText": "FRETE GRÁTIS",
+      "description": "acima de R$ 20 — FRETE GRÁTIS Válido para compras acima de R$20 em produtos selecionados com envio nacional. · visto hoje às 14:25:08 · usado 4 vezes na semana",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "frete grátis na SHEIN",
+      "couponCode": "INVERNO55",
+      "discountText": "FRETE GRÁTIS",
+      "description": "— FRETE GRÁTIS Oferta válida para produtos de envio nacional. · visto hoje às 14:25:08 · usado 6 vezes na semana",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "frete grátis na SHEIN",
+      "couponCode": "26JUNSD20",
+      "discountText": "FRETE GRÁTIS",
+      "description": "acima de R$ 20 — FRETE GRÁTIS Válido nas compras acima de R$20, apenas para produtos de envio nacional da lista selecionada. · visto hoje às 14:25:08 · usado 2 vezes na semana",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "frete grátis na SHEIN",
+      "couponCode": "2026ABRSD20",
+      "discountText": "FRETE GRÁTIS",
+      "description": "acima de R$ 20 — FRETE GRÁTIS Válido nas compras acima de R$20 para produtos de envio nacional da lista selecionada. · visto hoje às 14:25:08 · usado 4 vezes na semana",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "frete grátis na SHEIN",
+      "couponCode": "99SHEIN20",
+      "discountText": "FRETE GRÁTIS",
+      "description": "— FRETE GRÁTIS Válido apenas para produtos de envio nacional selecionados no link. · visto hoje às 14:25:08 · usado 3 vezes na semana",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "frete grátis na SHEIN",
+      "couponCode": "SETEMBRO20",
+      "discountText": "FRETE GRÁTIS",
+      "description": "— FRETE GRÁTIS Válido na compra de itens de envio nacional da lista selecionada. · visto hoje às 14:25:08",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "frete grátis na SHEIN",
+      "couponCode": "20MAIO",
+      "discountText": "FRETE GRÁTIS",
+      "description": "acima de R$ 20 — FRETE GRÁTIS Válido para compras acima de R$20 em produtos de envio nacional. · visto hoje às 14:25:08 · usado 1 vez na semana",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "frete grátis na SHEIN",
+      "couponCode": "SHEINBF2025",
+      "discountText": "FRETE GRÁTIS",
+      "description": "— FRETE GRÁTIS Válido na compra de produtos de envio nacional da lista selecionada. · visto hoje às 14:25:08",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "frete grátis na SHEIN",
+      "couponCode": "JANEIRO20",
+      "discountText": "FRETE GRÁTIS",
+      "description": "— FRETE GRÁTIS Válido na compra de produtos de envio nacional da lista selecionada. Não cumulativo com outras promoções. · visto hoje às 14:25:08",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "frete grátis na SHEIN",
+      "couponCode": "26SHEIN77",
+      "discountText": "FRETE GRÁTIS",
+      "description": "— FRETE GRÁTIS Válido na compra de produtos de envio nacional da lista selecionada. Não cumulativo com outras promoções. · visto hoje às 14:25:08 · usado 1 vez na semana",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "R$ 12 OFF na SHEIN",
+      "couponCode": "FIRST1",
+      "discountText": "R$ 12 OFF",
+      "description": "no primeiro pedido — R$12 OFF Aproveite em seu primeiro pedido acima de R$80. Válido apenas para produtos Shein. · visto hoje às 14:25:08 · usado 1 vez hoje",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
+    },
+    {
+      "title": "R$ 12 OFF na SHEIN",
+      "couponCode": "PRIMEIRA",
+      "discountText": "R$ 12 OFF",
+      "description": "na primeira compra — R$12 OFF Válido em primeira compra no site acima de R$80 em produtos da Shein. · visto hoje às 14:25:08 · usado 1 vez hoje",
+      "sources": [
+        "Ninja das Ofertas"
+      ],
+      "sourceUrl": "https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/?loja=Shein",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-05T17:57:04+00:00",
+      "status": "unverified"
     }
   ]
 }
