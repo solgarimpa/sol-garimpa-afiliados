@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-05T19:36:38.381200Z",
-  "total": 105,
-  "total_cupons": 89,
+  "atualizado_em": "2026-11-05T20:18:09.131541Z",
+  "total": 103,
+  "total_cupons": 87,
   "total_promocoes": 16,
   "fontes": {
     "Awin": 76,
     "Rakuten": 0,
-    "Lomadee": 29
+    "Lomadee": 27
   },
   "ofertas": [
     {
@@ -164,18 +164,6 @@
       "cupom": "FRETELOMADEE",
       "validade": "2027-01-01T02:59:59Z",
       "link": "https://lmdee.link/69aTXVdd4fbx",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "a478c787b4a5fe84a6",
-      "loja": "Colorstone",
-      "tipo": "cupom",
-      "titulo": "20% OFF em todo site",
-      "descricao": "",
-      "termos": "",
-      "cupom": "LOMADEE",
-      "validade": "2027-01-01T02:30:00Z",
-      "link": "https://lmdee.link/OjpcW1hfWIo6",
       "rede": "Lomadee"
     },
     {
@@ -837,18 +825,6 @@
       "validade": "2027-01-04T03:11:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=22031&awinaffid=3110826&ued=https%3A%2F%2Fwww.kaspersky.com.br%2Fsafe-kids%3Futm_source%3Daffiliate%26utm_medium%3Dcpa%26utm_campaign%3Dbr_affccl_acq_ona_afm__all_b2c_awin_affiliatelink____kprem____",
       "rede": "Awin"
-    },
-    {
-      "id": "2ae26d1762bc0141cc",
-      "loja": "Kidy Calçados",
-      "tipo": "cupom",
-      "titulo": "CRIANCAKIDY",
-      "descricao": "",
-      "termos": "",
-      "cupom": "CRIANCAKIDY",
-      "validade": null,
-      "link": "https://lmdee.link/ffYOlSCTz6DW",
-      "rede": "Lomadee"
     },
     {
       "id": "16ce7784569857cc01",
