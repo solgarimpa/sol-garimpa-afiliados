@@ -2,6 +2,12 @@
 name: Atualizar ofertas Awin SOL GARIMPA
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/segunda_camada.py'
+      - 'scripts/sync_awin.py'
+      - '.github/workflows/atualizar_awin.yml'
   workflow_dispatch:
   schedule:
     - cron: '17 */3 * * *'
