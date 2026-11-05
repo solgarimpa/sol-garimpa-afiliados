@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-05T15:15:23+00:00",
+  "atualizado_em": "2026-11-05T16:21:21+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -953,6 +953,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-070caa5022424d97d59c",
+      "loja": "Morena Rosa",
+      "tipo": "promocao",
+      "titulo": "BLACK NOVEMBER! Descontos progressivos 65%Off em 3 ou mais peças!",
+      "imagem": "",
+      "link": "https://lmdee.link/1GhM2jL1liA2",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-17T02:59:59.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-065dfa512d13ef003ea0",
       "loja": "Mundo Vem",
       "tipo": "promocao",
@@ -1117,20 +1131,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-28T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-97acad6de3dda9472f54",
-      "loja": "UVLine",
-      "tipo": "promocao",
-      "titulo": "Lançamento nova coleção",
-      "imagem": "",
-      "link": "https://lmdee.link/hhD0aoM7w2rz",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
