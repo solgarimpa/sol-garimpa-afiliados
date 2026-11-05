@@ -27,6 +27,8 @@ import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 
+from segunda_camada import rakuten_creatives
+
 API = 'https://api.linksynergy.com'
 OUTPUT = Path(__file__).resolve().parents[1] / 'docs' / 'rakuten' / 'ofertas.json'
 MAX_PAGES_PER_MID = max(1, min(200, int(os.getenv('RAKUTEN_PRODUCT_PAGES_PER_STORE', '5'))))
@@ -307,7 +309,8 @@ def build_catalog(partners: list[dict], cards: list[dict], errors: list[str]):
         'rede': 'Rakuten Advertising', 'atualizado_em': NOW.isoformat(),
         'fonte': 'APIs oficiais Rakuten Advertising',
         'estatisticas': {'parceiros_ativos': len(partners), 'produtos': len(products),
-                         'cupons': len(coupons), 'ofertas_exibidas':len(cards)},
+                         'cupons': len(coupons), 'ofertas_exibidas':len(cards),
+                         'criativos_segunda_camada': sum(i.get('origem') == 'rakuten_link_locator' for i in cards)},
         'limites_coleta': {'paginas_produtos_por_parceiro': MAX_PAGES_PER_MID,
                           'paginas_cupons': MAX_PAGES_COUPON,
                           'limite_cartoes': MAX_CARDS},
@@ -332,6 +335,27 @@ def main():
         except (ET.ParseError, ValueError, RuntimeError) as e:
             errors.append(f'Sem consulta de produtos para {partner["loja"]} ({type(e).__name__})')
             log(f'[{idx}/{len(partners)}] {partner["loja"]}: erro de produto ({type(e).__name__})')
+
+    # Segunda camada: links e banners oficiais de anunciantes sem feed.
+    # Uma falha no Link Locator nao interrompe a coleta normal.
+    product_mids = {item['mid'] for item in allcards if item['tipo'] == 'produto'}
+    creative_count = 0
+    for partner in partners:
+        if partner['mid'] in product_mids:
+            continue
+        try:
+            creatives, warnings = rakuten_creatives(
+                token, partner, request, safe_id, now=NOW
+            )
+            allcards.extend(creatives)
+            creative_count += len(creatives)
+            errors.extend(warnings)
+            log(f"Link Locator {partner['loja']}: {len(creatives)} materiais oficiais")
+        except (RuntimeError, ValueError, OSError, ET.ParseError) as exc:
+            errors.append(
+                f"Link Locator indisponivel para {partner['loja']} ({type(exc).__name__})"
+            )
+    log(f'Segunda camada Rakuten: {creative_count} criativos adicionados')
     coupons_ok = False
     try:
         items = fetch_coupons(token, partners)
@@ -341,7 +365,7 @@ def main():
     except (ET.ParseError, ValueError, RuntimeError) as e:
         errors.append(f'Consulta de cupons falhou ({type(e).__name__})')
         log(f'Falha nos cupons ({type(e).__name__})')
-    if partners and not ok_product_requests and not coupons_ok:
+    if partners and not ok_product_requests and not coupons_ok and not creative_count:
         raise RuntimeError('Consultas de produto e cupom falharam; preservado o catálogo anterior.')
     # No partner found is valid only if the Partnerships API succeeded.
     unique = {card['id']:card for card in allcards}

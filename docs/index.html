@@ -632,7 +632,8 @@ function imagem(p){
  tentar();
 
  const selo=p.tipo==='cupom'?'CUPOM':
-  p.tipo==='produto'?'PRODUTO':'OFERTA';
+  p.tipo==='produto'?'PRODUTO':
+  p.tipo==='loja'?'LOJA PARCEIRA':'OFERTA';
 
  capa.append(el('span','selo',selo));
 
@@ -693,7 +694,7 @@ function cartao(p){
  const acoes=el('div','acoes');
 
  const comprar=el(
-  'a','acao comprar','Ver oferta ↗'
+  'a','acao comprar',p.tipo==='loja'?'Visitar loja ↗':'Ver oferta ↗'
  );
 
  comprar.href=destino;
@@ -705,7 +706,7 @@ function cartao(p){
  );
 
  const mensagem=[
-  '🛍️ OFERTA SOL GARIMPA',
+  p.tipo==='loja'?'🏬 LOJA PARCEIRA SOL GARIMPA':'🛍️ OFERTA SOL GARIMPA',
   p.loja,
   p.titulo,
   preco>0?'💰 '+moeda(preco):'',
@@ -763,7 +764,7 @@ function aplicar(){
  );
 
  $('status').textContent=
-  visiveis.length+' ofertas encontradas • '+
+  visiveis.filter(p=>p.tipo!=='loja').length+' ofertas encontradas • '
   lojasAtivas.size+' lojas';
 
  $('anterior').disabled=
@@ -926,7 +927,7 @@ async function atualizar(){
 
   const produtosValidos=dados.cards.filter(p=>
    p&&
-   ['produto','promocao','cupom'].includes(p.tipo)&&
+   ['produto','promocao','cupom','loja'].includes(p.tipo)&&
    p.loja&&
    p.titulo&&
    seguro(p.link)
