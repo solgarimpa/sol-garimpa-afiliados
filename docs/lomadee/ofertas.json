@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-05T20:06:36+00:00",
+  "atualizado_em": "2026-11-05T21:05:37+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -701,6 +701,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-a7a6d3456afe12f462be",
+      "loja": "Catran",
+      "tipo": "promocao",
+      "titulo": "Black catran: Produtos com até 40% OFF",
+      "imagem": "https://cdn.lomadee.com.br/offer/60f9bf34-35e7-4254-ad9e-391f0723c99b/banners/Confira%20a%20campanha%20em%20destaque%20da%20Itatiaia%20%283%29.png",
+      "link": "https://lmdee.link/X6L7JoeEfIFj",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-09T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-bc5f63e79ea7ed8344d4",
       "loja": "China in Box",
       "tipo": "promocao",
@@ -711,6 +725,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-5f4812c462a88dbb9b5d",
+      "loja": "Colorstone",
+      "tipo": "promocao",
+      "titulo": "Jogo De Panelas Colorstone 4 Peças Volcano com 42% OFF",
+      "imagem": "https://cdn.lomadee.com.br/offer/74c203a0-3ab4-4584-8333-7616ffd5088f/banners/ALU8709-VO_produto.webp",
+      "link": "https://lmdee.link/oIk23JmACvGL",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-09T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -897,16 +925,30 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-319d2f8c9df2083b0f76",
+      "id": "lc-7d9d66d3fe64d425d9df",
       "loja": "Líquido",
-      "tipo": "cupom",
-      "titulo": "Cupom de 10% de desconto (Regra: não válido para peças promocionais/outlet)",
-      "imagem": "",
-      "link": "https://lmdee.link/lJLkInykeDxg",
+      "tipo": "promocao",
+      "titulo": "Liquido Store Descontos progressivos:  1 peça com 30% OFF 2 peças com 40% OFF 3 peças ou mais com 50% OFF",
+      "imagem": "https://cdn.lomadee.com.br/offer/c4e35d14-0f4c-4574-be85-08bb6327ff3b/banners/BESTFRIDAY.png",
+      "link": "https://lmdee.link/KRScUuwKGET6",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "LOMADEE10",
-      "validade": "2027-01-01T02:30:00.000Z",
+      "cupom": null,
+      "validade": "2026-11-09T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-49bb7b1d4986a7e2c808",
+      "loja": "Mais Mu",
+      "tipo": "promocao",
+      "titulo": "Seus favoritos com até 50% OFF",
+      "imagem": "https://cdn.lomadee.com.br/offer/b0129b7c-18d0-49c2-a40e-ed9a8c71c667/banners/Carrossel%201%20%282%29.png",
+      "link": "https://lmdee.link/PTzh1rAE5Bhz",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-09T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1135,16 +1177,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-889c196d94f7e5fe8b75",
+      "id": "lc-4644c7699e4c405492c2",
       "loja": "Walita",
       "tipo": "cupom",
-      "titulo": "10% em todo site com limitação de R$ 200 para cafeteiras. Não cumulativo com outras ofertas",
+      "titulo": "Ganhe até R$200 com cupom PREBLACK",
       "imagem": "",
-      "link": "https://lmdee.link/SG7hMFDpj30P",
+      "link": "https://lmdee.link/bpez6dO2sip2",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "LOMADEE",
-      "validade": null,
+      "cupom": "PREBLACK",
+      "validade": "2026-11-09T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1177,16 +1219,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-0a07dd45c6b24055143a",
+      "id": "lc-3b88b003f768598af5bc",
       "loja": "Óticas Foto Paulo",
-      "tipo": "cupom",
-      "titulo": "5% OFF em todo site cumulativo com outras ofertas",
-      "imagem": "",
-      "link": "https://lmdee.link/Im8Dkr3oDJbO",
+      "tipo": "promocao",
+      "titulo": "Óculos de Sol com até 50% OFF",
+      "imagem": "https://cdn.lomadee.com.br/offer/810e9057-0d54-45e3-ae64-3fea73729074/banners/%C3%93culos%20de%20Sol.png",
+      "link": "https://lmdee.link/O1bxJGN0hHF9",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "LOMADEE5",
-      "validade": null,
+      "cupom": null,
+      "validade": "2026-11-16T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1323,6 +1365,20 @@
       "titulo": "Ultima chamada: aproveite nossa grande oferta! sua chance é agora! bowl frango tare, macarrão yakisoba xian, yakisoba suíno e temaki empanado por r$ 19,90 cada",
       "imagem": "https://cdn.lomadee.com.br/offer/1a40ac9f-211b-4379-a33c-5f6fd7932101/banners/imagem%20-%202026-11-04T115209.037.png",
       "link": "https://lmdee.link/2eC6ctOKOXiw",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-09T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-37be536ccf5fd7cc0edf",
+      "loja": "Colorstone",
+      "tipo": "promocao",
+      "titulo": "Esquenta Black: Produtos com até 40% OFF",
+      "imagem": "https://cdn.lomadee.com.br/offer/1ad13382-6b5a-41f4-ad63-7f7bf0a2f31e/banners/Imagem%20da%20Black%20Friday%20%281%29.png",
+      "link": "https://lmdee.link/K9iGeXu9lTmX",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1471,6 +1527,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-319d2f8c9df2083b0f76",
+      "loja": "Líquido",
+      "tipo": "cupom",
+      "titulo": "Cupom de 10% de desconto (Regra: não válido para peças promocionais/outlet)",
+      "imagem": "",
+      "link": "https://lmdee.link/lJLkInykeDxg",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "LOMADEE10",
+      "validade": "2027-01-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-68555904da74986452ad",
       "loja": "Malwee",
       "tipo": "promocao",
@@ -1491,20 +1561,6 @@
       "titulo": "[CATEGORIA] Ramequins",
       "imagem": "",
       "link": "https://lmdee.link/7MISKfU0QDZI",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-2e245a7c7dfe3ee2cd7e",
-      "loja": "Móveis Carraro",
-      "tipo": "promocao",
-      "titulo": "Festival de Cupons Carraro - de R$ 50 a R$ 300 OFF",
-      "imagem": "https://cdn.lomadee.com.br/offer/969cc5cf-4ce6-4f96-9e2d-01f0ad049c64/banners/FESTIVAL_1080x1920.png",
-      "link": "https://lmdee.link/RoVZrZFHqYis",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1597,6 +1653,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-889c196d94f7e5fe8b75",
+      "loja": "Walita",
+      "tipo": "cupom",
+      "titulo": "10% em todo site com limitação de R$ 200 para cafeteiras. Não cumulativo com outras ofertas",
+      "imagem": "",
+      "link": "https://lmdee.link/SG7hMFDpj30P",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "LOMADEE",
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-5f147fca1f2f59c516a2",
       "loja": "Zupper",
       "tipo": "cupom",
@@ -1607,6 +1677,20 @@
       "preco_anterior": null,
       "cupom": "ZUPPLOM40",
       "validade": "2027-01-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-0a07dd45c6b24055143a",
+      "loja": "Óticas Foto Paulo",
+      "tipo": "cupom",
+      "titulo": "5% OFF em todo site cumulativo com outras ofertas",
+      "imagem": "",
+      "link": "https://lmdee.link/Im8Dkr3oDJbO",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "LOMADEE5",
+      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1779,34 +1863,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-46baebe4716d72ac86a2",
-      "loja": "Móveis Carraro",
-      "tipo": "promocao",
-      "titulo": "Módulos de Cozinha - 8% OFF com MODULAR8",
-      "imagem": "https://cdn.lomadee.com.br/offer/01059650-81a6-4fa0-97e2-4083eccc056d/banners/MODULAR8_1064x557.png",
-      "link": "https://lmdee.link/EbWlVCQ6jcrZ",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-7c18f03bdcaddea5b727",
-      "loja": "Sawary",
-      "tipo": "promocao",
-      "titulo": "Últimos Dias Mês Do Cliente",
-      "imagem": "",
-      "link": "https://lmdee.link/VxbpF2FfGnOH",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-dfedf45185a132f28443",
       "loja": "Shopee",
       "tipo": "promocao",
@@ -1975,34 +2031,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-480461bbca3dee865f84",
-      "loja": "Móveis Carraro",
-      "tipo": "promocao",
-      "titulo": "Lançamentos Carraro - 10% OFF com LANCAMENTOS10",
-      "imagem": "https://cdn.lomadee.com.br/offer/ec3cfdf8-0371-4ab8-a847-20acecd26843/banners/LANCAMENTOS10_1080x1920.png",
-      "link": "https://lmdee.link/5DYHfMpHSgxT",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-551029e30bd9dea16827",
-      "loja": "Sawary",
-      "tipo": "promocao",
-      "titulo": "Seleção de Boot Cuts",
-      "imagem": "",
-      "link": "https://lmdee.link/ebKExEZm6XHR",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-27d5c5b79cfc5ebdfd40",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -2084,20 +2112,6 @@
       "cupom": null,
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-bb5af2c0883a7399cb04",
-      "loja": "Móveis Carraro",
-      "tipo": "cupom",
-      "titulo": "LANCAMENTOS10 - 10% OFF em Lançamentos",
-      "imagem": "",
-      "link": "https://lmdee.link/Zgad1XW8M6fK",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "LANCAMENTOS10",
-      "validade": null,
-      "descricao": "",
       "origem": "Lomadee"
     },
     {
@@ -2251,20 +2265,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-890b72814ca708f2943c",
-      "loja": "Brinox",
-      "tipo": "cupom",
-      "titulo": "Cupom perfeito para você divulgar!",
-      "imagem": "",
-      "link": "https://lmdee.link/DZo5pwUvAGaK",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "RENOVACASA",
-      "validade": "2026-12-21T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
