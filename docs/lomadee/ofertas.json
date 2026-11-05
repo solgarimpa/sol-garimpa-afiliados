@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-05T12:13:21+00:00",
+  "atualizado_em": "2026-11-05T13:30:45+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -659,6 +659,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lp-95acfff5458bbcc3c506",
+      "loja": "Candide",
+      "tipo": "produto",
+      "titulo": "1 Fidget Spinner Original Sortido",
+      "imagem": "https://candide.vteximg.com.br/arquivos/ids/1451720/2601B_0-.jpg?v=639282017246970000",
+      "link": "https://lmdee.link/sNqeQ1I9oDcK",
+      "preco": 0.25,
+      "preco_anterior": 0.3,
+      "cupom": null,
+      "validade": null,
+      "descricao": "FIDGET SPINNER ORIGINAL  \n   \n A febre do momento! O fidget spinner é um brinquedo que auxilia no alívio de estresse. \n   \n É composto de um rolamento central e um desenho com 3 extremidades feitas em materiais como aço ",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-105d20b01140dbd7058b",
       "loja": "Casa do Fitness",
       "tipo": "promocao",
@@ -757,12 +771,40 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-98719a8a33019c2e4324",
+      "loja": "Friopeças",
+      "tipo": "promocao",
+      "titulo": "Esquenta Black Friday !! Compre com até 58% de desconto",
+      "imagem": "https://cdn.lomadee.com.br/offer/670fb55e-8ab1-46e7-99fa-636f3043fc03/banners/Banner%20Refrigerador%20oferta.png",
+      "link": "https://lmdee.link/2UKWa9XoYH39",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-09T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-a63f44199ba1c49eb20c",
       "loja": "Gazin",
       "tipo": "promocao",
       "titulo": "Aproveite o 11.11 Black Friday e antecipe suas compras!",
       "imagem": "https://cdn.lomadee.com.br/offer/db739e79-a6d7-4d07-b60f-8f144f93f114/banners/Image%20%2813%29.png",
       "link": "https://lmdee.link/iVbtgmznqU9a",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-12T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-b1e80c3d8a9ab73165d3",
+      "loja": "Homedock",
+      "tipo": "promocao",
+      "titulo": "Lista de cupons Black November Homedock",
+      "imagem": "https://cdn.lomadee.com.br/offer/652faffd-ec87-49df-b19f-373eee6f8ce0/banners/imagem%20-%202026-11-05T101522.377.png",
+      "link": "https://lmdee.link/xBzJTkVk4Ypa",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -883,20 +925,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-3609a2bfbc6e2b92f78b",
-      "loja": "Moto BR",
-      "tipo": "cupom",
-      "titulo": "Cupom 10% de desconto Moto BR",
-      "imagem": "",
-      "link": "https://lmdee.link/HjEX3UiwkvL8",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "LOMADEE10",
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-065dfa512d13ef003ea0",
       "loja": "Mundo Vem",
       "tipo": "promocao",
@@ -921,6 +949,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-8a35f0b89ce1d7fdfcde",
+      "loja": "PromoFarma",
+      "tipo": "promocao",
+      "titulo": "Esquenta Black Promofarma !",
+      "imagem": "https://cdn.lomadee.com.br/offer/ba52df99-59bb-4010-a396-41715bc7e076/banners/imagem%20-%202026-11-05T101019.989.png",
+      "link": "https://lmdee.link/hCAbDahT3rhd",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-09T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1023,6 +1065,34 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-b191e143faed31c26c0c",
+      "loja": "TeraByte",
+      "tipo": "promocao",
+      "titulo": "Black November : Descontos de até 85%",
+      "imagem": "https://cdn.lomadee.com.br/offer/e89c8496-5c35-40da-9849-a7c1de8ea5b8/banners/imagem%20-%202026-11-05T093035.159.png",
+      "link": "https://lmdee.link/ZM8RFFyLlOAX",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-16T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-09a9f86d7b14546a1dbf",
+      "loja": "Up4you",
+      "tipo": "promocao",
+      "titulo": "Bolsas com até 60% OFF",
+      "imagem": "https://cdn.lomadee.com.br/offer/b3979880-b07a-481a-9aad-3cb5ed52f2df/banners/UP4YOU_BF26_RDA_Bolsas_900x1600.jpg",
+      "link": "https://lmdee.link/mgZ7hYwZl0Ou",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-28T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-97acad6de3dda9472f54",
       "loja": "UVLine",
       "tipo": "promocao",
@@ -1051,15 +1121,15 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-6ae65016f14d3f446ffb",
-      "loja": "Vinícola Jolimont",
-      "tipo": "promocao",
-      "titulo": "[EP][04/11][07/11] -BLACK JOLIMONT",
-      "imagem": "https://cdn.lomadee.com.br/offer/eec83a3c-5dd0-4a80-9373-d00273509b39/banners/Black%20Jolimont_Lomadee%202.png",
-      "link": "https://lmdee.link/WYSxprMEVC6x",
+      "id": "lc-889c196d94f7e5fe8b75",
+      "loja": "Walita",
+      "tipo": "cupom",
+      "titulo": "10% em todo site com limitação de R$ 200 para cafeteiras. Não cumulativo com outras ofertas",
+      "imagem": "",
+      "link": "https://lmdee.link/SG7hMFDpj30P",
       "preco": null,
       "preco_anterior": null,
-      "cupom": null,
+      "cupom": "LOMADEE",
       "validade": null,
       "descricao": "",
       "origem": "Lomadee"
@@ -1088,20 +1158,6 @@
       "preco": null,
       "preco_anterior": null,
       "cupom": "LOMADEE5",
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-2221f13966ac2d9c0291",
-      "loja": "Anhanguera Ferramentas",
-      "tipo": "cupom",
-      "titulo": "5%OFF em todo o site!",
-      "imagem": "",
-      "link": "https://lmdee.link/EKfguDpM4DAg",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "FERRAMENTA5",
       "validade": null,
       "descricao": "",
       "origem": "Lomadee"
@@ -1233,6 +1289,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-10838f8775c0e1427a97",
+      "loja": "Homedock",
+      "tipo": "promocao",
+      "titulo": "Black November 11.11 : Pix com 10% off + Cupom Extra Ofertas com até 75% de desconto",
+      "imagem": "https://cdn.lomadee.com.br/offer/ad9d0748-6091-4619-b7e1-084389699130/banners/imagem%20-%202026-11-05T101334.111.png",
+      "link": "https://lmdee.link/RY0ku2gW04OV",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-12T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-3cdb9454b7efe1e37898",
       "loja": "Kidy Calçados",
       "tipo": "promocao",
@@ -1355,6 +1425,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-09T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-a44c92652d68b9106b63",
+      "loja": "Up4you",
+      "tipo": "promocao",
+      "titulo": "Malas com até 40% OFF",
+      "imagem": "https://cdn.lomadee.com.br/offer/a8bb9e23-a3f2-4b62-a98e-30b5c07d9f71/banners/UP4YOU_BF26_RDA_Malas_900x1600.jpg",
+      "link": "https://lmdee.link/NW7jH4IZks1l",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-28T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1611,6 +1695,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-87b449fb2570e14f3286",
+      "loja": "Up4you",
+      "tipo": "promocao",
+      "titulo": "Mochilas com mais de 50% OFF",
+      "imagem": "https://cdn.lomadee.com.br/offer/45b35550-1d25-460d-99b3-e8116ed63ff2/banners/UP4YOU_BF26_RDA_Mochilas_1200x1200.jpg",
+      "link": "https://lmdee.link/VxRnOfbUWbHi",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-28T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-9727e686405be6b8a08e",
       "loja": "UVLine",
       "tipo": "promocao",
@@ -1793,6 +1891,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-cf83d0b2f08eabf4c457",
+      "loja": "Up4you",
+      "tipo": "promocao",
+      "titulo": "Um mês repleto de oportunidades - Até 60% OFF",
+      "imagem": "https://cdn.lomadee.com.br/offer/02678151-2234-45ba-9e74-b411d0733d30/banners/UP4YOU_BF26_RDA_Entrada_1200x1200.jpg",
+      "link": "https://lmdee.link/viSm0b82qYg0",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-28T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-97a2ffd1442fed8090cf",
       "loja": "UVLine",
       "tipo": "promocao",
@@ -1845,20 +1957,6 @@
       "preco_anterior": null,
       "cupom": "BF15",
       "validade": "2026-12-21T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-40d34808e7c03159c70f",
-      "loja": "Camisaria Colombo",
-      "tipo": "promocao",
-      "titulo": "OUTELT Camisaria Colombo. Ofertas com até 60% Off, não fique de fora. Aproveite!",
-      "imagem": "https://cdn.lomadee.com.br/offer/81186911-5b17-4394-bb3a-3f6381ea696d/banners/DESKTOP%202035x773.webp",
-      "link": "https://lmdee.link/BsrJSLM5hy5F",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1947,20 +2045,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-1bbf502b00cdf0f1dfee",
-      "loja": "Camisaria Colombo",
-      "tipo": "promocao",
-      "titulo": "A Camisa Social certa faz a diferença! 1 por R$ 159,99 ou 2 por R$ 259,99",
-      "imagem": "https://cdn.lomadee.com.br/offer/71e31e7b-4db5-4a7c-893e-0e0a46353152/banners/820x1000px.webp",
-      "link": "https://lmdee.link/F8GKUbartDKT",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lp-3bad2b6a071fc3eb073f",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
@@ -2027,20 +2111,6 @@
       "preco_anterior": null,
       "cupom": "BF100",
       "validade": "2026-12-21T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-ae1887d88f97af3b3cc6",
-      "loja": "Camisaria Colombo",
-      "tipo": "promocao",
-      "titulo": "Todas as Jaquetas Puffer De R$ 259,99 por R$ 159,99. E Mais 2 por R$ 259,99",
-      "imagem": "https://cdn.lomadee.com.br/offer/0c5ed31b-51e4-4c74-b56b-3942a7a02733/banners/960x1200.png",
-      "link": "https://lmdee.link/5fmPe5AfVBE2",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2143,20 +2213,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-75107efa3a814c028e5c",
-      "loja": "Sawary",
-      "tipo": "promocao",
-      "titulo": "Sawary Outlet- 15% Off",
-      "imagem": "",
-      "link": "https://lmdee.link/ZUuc8pVIi3Sl",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-0558efff842b122b0e7f",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -2213,20 +2269,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-71ed64bcf6e1ffe11ea9",
-      "loja": "Sawary",
-      "tipo": "promocao",
-      "titulo": "Básicos Sawary",
-      "imagem": "",
-      "link": "https://lmdee.link/uNZ4I1Ri0Z47",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-aeb70be9f1bbb2ac1ac4",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -2255,20 +2297,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-f6374014cc5a111d00d3",
-      "loja": "Mundo Vem",
-      "tipo": "promocao",
-      "titulo": "[CATEGORIA] Bandejas",
-      "imagem": "https://cdn.lomadee.com.br/offer/465d725f-4ac2-4ecb-a9a1-6321db28b6f0/banners/750x1351%20%283%29.jpg",
-      "link": "https://lmdee.link/hEoNXaQXGYd9",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-cb39d936dec613105b71",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -2294,20 +2322,6 @@
       "cupom": null,
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-c4e8fcaf7c14aa557402",
-      "loja": "Mundo Vem",
-      "tipo": "promocao",
-      "titulo": "[CATEGORIA] Sale com 30% OFF",
-      "imagem": "https://cdn.lomadee.com.br/offer/31c1a6d3-74ca-4ceb-94b3-c0431485887e/banners/750x1351_.jpg",
-      "link": "https://lmdee.link/wHL1aLfKUF9v",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
       "origem": "Lomadee"
     },
     {
@@ -2420,20 +2434,6 @@
       "cupom": null,
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-52d97d75a2c9afcbb3ab",
-      "loja": "Soulier",
-      "tipo": "promocao",
-      "titulo": "Coleção verão 2027",
-      "imagem": "https://cdn.lomadee.com.br/offer/1e889899-96ce-4e01-972a-b8d1ac22a6b2/banners/160x600_voxus.jpg",
-      "link": "https://lmdee.link/bU74GQDj8ND2",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-12-02T02:59:59.000Z",
-      "descricao": "",
       "origem": "Lomadee"
     },
     {
@@ -2701,67 +2701,11 @@
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
       "origem": "Lomadee"
-    },
-    {
-      "id": "lp-755320b557146dba7c76",
-      "loja": "ECO FLAME GARDEN",
-      "tipo": "produto",
-      "titulo": "2 Espreguiçadeiras Double mild chaise",
-      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Prancheta_14_3e39a7f4-f53c-4942-84b3-b1abfe18733f.webp?v=1774380413",
-      "link": "https://lmdee.link/Z0YeqkYPB59U",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lp-3544014584937247dd4b",
-      "loja": "ECO FLAME GARDEN",
-      "tipo": "produto",
-      "titulo": "2 Espreguiçadeiras Double mild chaise",
-      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Prancheta_17_ee22df0a-d885-4d68-a0e4-73977f0b4f27.webp?v=1774380413",
-      "link": "https://lmdee.link/oDUPOL4C2cWM",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lp-4e06242bef85b8c5b84e",
-      "loja": "ECO FLAME GARDEN",
-      "tipo": "produto",
-      "titulo": "2 Espreguiçadeiras Double mild chaise",
-      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Prancheta_4_526062a5-96f3-4a82-92cd-90b5e09cc8b8.webp?v=1774380413",
-      "link": "https://lmdee.link/M9RcVosn8lGu",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lp-eb8615dc459643fcc131",
-      "loja": "ECO FLAME GARDEN",
-      "tipo": "produto",
-      "titulo": "2 Espreguiçadeiras Double mild chaise",
-      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Prancheta_3_a994949f-83c3-42c2-b8ba-4616e832da8e.webp?v=1774380413",
-      "link": "https://lmdee.link/y6wuszeTQaLd",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
     }
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 159,
+    "com_ofertas": 155,
     "marcas": 132,
     "campanhas": 120,
     "produtos": 60,
