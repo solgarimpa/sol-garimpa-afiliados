@@ -7,7 +7,7 @@
 :root{--laranja:#f4492f;--borda:#e1e1e1}
 *{box-sizing:border-box}body{margin:0;font:13px Arial,Helvetica,sans-serif;color:#171717;background:#f5f5f5}
 main{max-width:1170px;margin:auto;padding:14px 11px 25px}
-h1{font-size:25px;margin:0 0 15px;font-weight:800}
+
 #busca{display:block;width:100%;border:1px solid #ddd;background:#fff;border-radius:9px;height:39px;padding:0 13px;font:inherit;margin-bottom:10px}
 .filtros{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:12px}
 .filtros button{border:1px solid #ddd;background:#fff;border-radius:8px;padding:8px 12px;font-weight:700;font-size:12px;cursor:pointer;color:#333}
@@ -29,12 +29,11 @@ h1{font-size:25px;margin:0 0 15px;font-weight:800}
 .vazio{grid-column:1/-1;background:#fff;border-radius:12px;border:1px solid #ddd;text-align:center;padding:23px 15px;line-height:1.6;color:#666}
 footer{color:#777;font-size:11px;line-height:1.6;text-align:center;padding-top:22px}
 @media(max-width:870px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:560px){main{padding:10px 8px 20px}h1{font-size:21px}.grid{grid-template-columns:1fr;gap:10px}.card{padding:13px;gap:9px}.desconto{font-size:22px}.filtros button{padding:7px 9px;font-size:11px}}
+@media(max-width:560px){main{padding:10px 8px 20px}.grid{grid-template-columns:1fr;gap:10px}.card{padding:13px;gap:9px}.desconto{font-size:22px}.filtros button{padding:7px 9px;font-size:11px}}
 </style>
 </head>
 <body>
 <main>
-<h1>🔥 Cupons Shopee</h1>
 <input type="search" id="busca" placeholder="🔎 Pesquisar cupom ou desconto..." aria-label="Pesquisar cupons Shopee">
 <nav class="filtros"><button data-filtro="todos" class="ativo">Todos os cupons</button><button data-filtro="codigo">Com código</button><button data-filtro="resgate">Resgatar no app</button></nav>
 <div class="status"><div class="verde" id="data">Consultando fontes...</div><div id="fontes">Pelando, Cuponomia e Méliuz</div><div id="quantidade">Carregando...</div></div>
