@@ -49,7 +49,7 @@ const CONFIG={
   "shopee":{nome:"Shopee",link:"https://shopee.com.br/m/cupom-de-desconto"},
   "magalu":{nome:"Magalu",link:"https://www.magazineluiza.com.br/"},
   "aliexpress":{nome:"AliExpress",link:"https://pt.aliexpress.com/"},
-  "shein":{nome:"SHEIN",link:"https://br.shein.com/"},
+  "shein":{nome:"SHEIN",link:"https://onelink.shein.com/58/66nnzcmvg0zu"},
   "amazon":{nome:"Amazon",link:"https://www.amazon.com.br/gp/coupons"}
 };
 const slug=new URLSearchParams(location.search).get("loja")||"shopee";
@@ -71,13 +71,13 @@ function cartao(c){
   art.appendChild(node("div","desconto",txt(c.discountText)||"OFERTA"));
   art.appendChild(node("p","descricao",txt(c.description)||"Consulte as regras na Shopee."));
   const fontes=(Array.isArray(c.sources)?c.sources:[]).join(" · ");
-  art.appendChild(node("div","metadados","Fonte: "+fontes));
+  art.appendChild(node("div","metadados","Fonte: "+fontes+(c.status==="unverified"?" · Código NÃO VERIFICADO":" · Condições sujeitas à loja")));
   if(c.couponCode){
     const a=node("div","codigoarea"),cod=node("strong","",c.couponCode),btn=node("button","","COPIAR");
     btn.type="button";btn.onclick=async()=>{let ok=false;try{await navigator.clipboard.writeText(c.couponCode);ok=true}catch(e){const t=document.createElement("textarea");t.value=c.couponCode;t.style.position="fixed";t.style.opacity="0";document.body.appendChild(t);t.select();try{ok=document.execCommand("copy")}catch(e){}t.remove()}btn.textContent=ok?"COPIADO ✓":"SELECIONE O CÓDIGO";if(ok)setTimeout(()=>btn.textContent="COPIAR",2500)};
     a.append(cod,btn);art.appendChild(a);
   }else art.appendChild(node("div","aviso","🎟️ Consulte as condições de resgate na loja"));
-  const link=node("a","acao","USAR CUPOM");link.href=LINK_SHOPEE;link.target="_blank";link.rel="noopener noreferrer nofollow";art.appendChild(link);
+  const link=node("a","acao",c.status==="unverified"?"CONFERIR CÓDIGO":(c.couponCode?"USAR CUPOM":"VER OFERTA NA LOJA"));link.href=LINK_SHOPEE;link.target="_blank";link.rel="noopener noreferrer nofollow";art.appendChild(link);
   return art;
 }
 function desenhar(){
@@ -93,7 +93,7 @@ async function atualizar(){
     if(!resposta.ok)throw new Error("HTTP "+resposta.status);
     const dados=await resposta.json();
     if(!Array.isArray(dados.coupons))throw new Error("Formato de catálogo inválido");
-    todos=dados.coupons.filter(c=>c&&c.title&&c.status==="listed");
+    todos=dados.coupons.filter(c=>c&&c.title&&(c.status==="listed"||c.status==="unverified"));
     const data=new Date(dados.generatedAt);
     if(!Number.isFinite(data.getTime()))throw new Error("Data do catálogo inválida");
     const idade=Date.now()-data.getTime();
