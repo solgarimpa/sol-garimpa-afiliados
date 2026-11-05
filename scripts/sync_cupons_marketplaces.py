@@ -269,6 +269,19 @@ def parse_worker(market, conf):
     obj = get(url, json_mode=True)
     out = []
     for c in deep_coupons(obj):
+        if market == "shein" and norm(c.get("status")) == "unverified":
+            # Fonte historica SHEIN: publico, porem NUNCA confirmado no checkout.
+            row = record(
+                c.get("title"), c.get("couponCode"),
+                c.get("description") or c.get("rulesDescription"),
+                plain(c.get("solGarimpaSource")) or "Worker SHEIN",
+                url, None,
+                c.get("expiresAt") or c.get("validUntil") or c.get("endDate")
+            )
+            if row:
+                row["status"] = "unverified"
+                out.append(row)
+            continue
         if norm(c.get("status", "active")) not in ("active", "ativo", "listed"):
             continue
         source_text = norm(c.get("solGarimpaSource", ""))
@@ -317,6 +330,7 @@ def combine(items):
             old["publishedAt"] = c["publishedAt"]
     values = list(merged.values())
     values.sort(key=lambda c: (
+        -int(c["status"] == "listed"),
         -int(bool(c["couponCode"])),
         -len(c["sources"]),
         -(as_time(c.get("publishedAt")) or dt.datetime(1970,1,1,tzinfo=UTC)).timestamp(),
