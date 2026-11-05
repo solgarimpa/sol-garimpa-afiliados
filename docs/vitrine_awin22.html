@@ -57,7 +57,7 @@ let all=[], visible=[], selected='Todas', offset=0, paused=matchMedia('(prefers-
 const el=(tag,cls,content)=>{let d=document.createElement(tag);if(cls)d.className=cls;if(content!==undefined)d.textContent=content;return d;};
 function message(p){
   if(!p||!safe(p.link)||p.tipo==='sem_oferta') return '';
-  const a=['🛍️ *OFERTA SOL GARIMPA*',`🏬 *${p.loja}*`, `✨ ${p.titulo}`];
+  const a=[p.tipo==='loja'?'🏬 *LOJA PARCEIRA SOL GARIMPA*':'🛍️ *OFERTA SOL GARIMPA*',`🏬 *${p.loja}*`, `✨ ${p.titulo}`];
   if(p.preco!=null){let value=`💰 *${brl(p.preco)}*`;if(p.preco_anterior&&p.preco_anterior>p.preco)value+=` (antes ${brl(p.preco_anterior)})`;a.push(value);}
   if(p.cupom)a.push(`🎟️ Cupom: *${p.cupom}*`);
   if(p.validade)a.push(`🗓️ Validade informada: ${fmtdate(p.validade)}`);
@@ -70,13 +70,13 @@ function card(p){
  const inactive=p.tipo==='sem_oferta'||!safe(p.link);
  const box=el('article','card'+(inactive?' inactive':''));const image=el('div','image');
  if(p.imagem&&safe(p.imagem)&&!inactive){const pic=el('img');pic.src=p.imagem;pic.alt=p.titulo||'Produto';pic.loading='lazy';pic.decoding='async';pic.onerror=()=>{pic.remove();image.appendChild(art(p));};image.appendChild(pic);}else image.appendChild(art(p));
- if(!inactive){const badge=el('div','ribbon'+(p.desconto_pct>=5?' discount':''),p.desconto_pct>=5?`${p.desconto_pct}% OFF`:p.tipo==='cupom'?'Cupom Awin':p.tipo==='produto'?'Produto afiliado':'Promoção Awin');image.appendChild(badge);}
+ if(!inactive){const badge=el('div','ribbon'+(p.desconto_pct>=5?' discount':''),p.desconto_pct>=5?`${p.desconto_pct}% OFF`:p.tipo==='cupom'?'Cupom Awin':p.tipo==='produto'?'Produto afiliado':p.tipo==='loja'?'Loja parceira':'Promoção Awin');image.appendChild(badge);}
  box.appendChild(image);const content=el('div','content');content.appendChild(el('div','store',p.loja));content.appendChild(el('div','name',p.titulo));
  if(!inactive&&p.preco!=null){const price=el('div','price',brl(p.preco));if(p.preco_anterior&&p.preco_anterior>p.preco)price.appendChild(el('span','old',brl(p.preco_anterior)));content.appendChild(price);}
  if(p.cupom&&!inactive)content.appendChild(el('div','code',`Cupom: ${p.cupom}`));
  if(p.descricao&&!inactive)content.appendChild(el('div','description',p.descricao));
  const acts=el('div','actions');if(inactive){const b=el('div','act buy','Sem oferta ativa');acts.appendChild(b);}else{
-  const go=el('a','act buy','Ver oferta ↗');go.href=safe(p.url_sol_garimpa||p.link);go.target='_blank';go.rel='sponsored noopener noreferrer';acts.appendChild(go);
+  const go=el('a','act buy',p.tipo==='loja'?'Visitar loja ↗':'Ver oferta ↗');go.href=safe(p.url_sol_garimpa||p.link);go.target='_blank';go.rel='sponsored noopener noreferrer';acts.appendChild(go);
   const send=el('button','act share','WhatsApp');send.type='button';send.setAttribute('aria-label',`Compartilhar oferta ${p.titulo}`);send.addEventListener('click',()=>window.open('https://wa.me/?text='+encodeURIComponent(message(p)),'_blank','noopener,noreferrer'));acts.appendChild(send);
  }
  content.appendChild(acts);box.appendChild(content);return box;
@@ -96,7 +96,7 @@ function accept(data){
  const d=timestamp(data.atualizado_em);
  if(!d||Date.now()-d.getTime()>24*3600*1000||d.getTime()>Date.now()+3600*1000){placeholder();feedback.textContent='Dados ausentes ou antigos. Aguardando uma atualização válida da Awin.';return;}
  const known=new Set(STORES);const sanitized=[];
- for(const p of data.cards){if(!known.has(p.loja)||!['produto','promocao','cupom','sem_oferta'].includes(p.tipo))continue;
+ for(const p of data.cards){if(!known.has(p.loja)||!['produto','promocao','cupom','loja','sem_oferta'].includes(p.tipo))continue;
   const inactive=p.tipo==='sem_oferta';
   if(!inactive&&!safe(p.link))continue;
   sanitized.push({...p,imagem:safe(p.imagem),link:safe(p.link)});
