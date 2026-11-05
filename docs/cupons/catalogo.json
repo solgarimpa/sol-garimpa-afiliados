@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-05T12:48:46.586200Z",
-  "total": 106,
-  "total_cupons": 90,
+  "atualizado_em": "2026-11-05T13:57:31.297587Z",
+  "total": 105,
+  "total_cupons": 89,
   "total_promocoes": 16,
   "fontes": {
     "Awin": 76,
     "Rakuten": 0,
-    "Lomadee": 30
+    "Lomadee": 29
   },
   "ofertas": [
     {
@@ -21,18 +21,6 @@
       "validade": "2028-01-05T13:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=123238&awinaffid=3110826&ued=https%3A%2F%2Fgestao.galiciaeducacao.com.br",
       "rede": "Awin"
-    },
-    {
-      "id": "d4e446b799014196bf",
-      "loja": "Anhanguera Ferramentas",
-      "tipo": "cupom",
-      "titulo": "5%OFF em todo o site!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "FERRAMENTA5",
-      "validade": null,
-      "link": "https://lmdee.link/EKfguDpM4DAg",
-      "rede": "Lomadee"
     },
     {
       "id": "494904bf12b621e011",
@@ -911,18 +899,6 @@
       "rede": "Lomadee"
     },
     {
-      "id": "ca3b8502178de7005b",
-      "loja": "Moto BR",
-      "tipo": "cupom",
-      "titulo": "Cupom 10% de desconto Moto BR",
-      "descricao": "",
-      "termos": "",
-      "cupom": "LOMADEE10",
-      "validade": null,
-      "link": "https://lmdee.link/HjEX3UiwkvL8",
-      "rede": "Lomadee"
-    },
-    {
       "id": "1d28b29f5f8f78153f",
       "loja": "Móveis Carraro",
       "tipo": "cupom",
@@ -1052,6 +1028,18 @@
       "cupom": "LOMADEE10",
       "validade": "2027-10-22T02:30:00Z",
       "link": "https://lmdee.link/0L3uJFpl7WR8",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "2352ff048a0a69653a",
+      "loja": "Walita",
+      "tipo": "cupom",
+      "titulo": "10% em todo site com limitação de R$ 200 para cafeteiras. Não cumulativo com outras ofertas",
+      "descricao": "",
+      "termos": "",
+      "cupom": "LOMADEE",
+      "validade": null,
+      "link": "https://lmdee.link/SG7hMFDpj30P",
       "rede": "Lomadee"
     },
     {
