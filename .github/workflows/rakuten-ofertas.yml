@@ -1,6 +1,12 @@
 
 name: Rakuten - Ofertas Sol Garimpa
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/segunda_camada.py'
+      - 'scripts/sync_rakuten.py'
+      - '.github/workflows/rakuten-ofertas.yml'
   workflow_dispatch:
   schedule:
     - cron: '0 */3 * * *'
