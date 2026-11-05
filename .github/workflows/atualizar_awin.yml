@@ -57,8 +57,7 @@ jobs:
 
           if ! git diff --cached --quiet; then
             git commit -m "Atualizar catalogo Awin"
-            git pull --rebase origin main
-            git push origin HEAD:main
+            bash scripts/git_push_retry.sh main
           else
             echo "Catalogo Awin sem alteracoes."
           fi
