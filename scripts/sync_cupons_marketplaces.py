@@ -65,7 +65,7 @@ EXCLUDE = re.compile(
     r"cadastre-se|instale a extensao|teste descontos|"
     r"descubra os melhores|regras e excecoes|"
     r"o cupom expira|tem como acumular|"
-    r"compra segura|programa de afiliados|"
+    r"compra segura|programa de afiliados|cupom amazon que funciona|economize com o cupom|"
     r"voce ainda pode ganhar cashback",
     re.I,
 )
@@ -275,10 +275,19 @@ def parse_worker(market, conf):
         src = "Pelando" if "pelando" in source_text else (
             "Meliuz" if "meliuz" in source_text else "Worker existente"
         )
+        published = c.get("createdAt") or c.get("publishedAt")
+        dt_published = as_time(published)
+        # O Worker historico continha codigos sem data ou publicados ha semanas.
+        # So importar como complemento cupons do Pelando com data recente.
+        # Itens Meliuz so entram se aparecerem na pagina publica atual.
+        if src != "Pelando" or not dt_published:
+            continue
+        if NOW < dt_published - dt.timedelta(minutes=5) or NOW - dt_published > dt.timedelta(days=7):
+            continue
         r = record(
             c.get("title"), c.get("couponCode") or c.get("code"),
             c.get("description") or c.get("rulesDescription"),
-            src, url, c.get("createdAt") or c.get("publishedAt"),
+            src, url, published,
             c.get("expiresAt") or c.get("validUntil") or c.get("endDate")
         )
         if r:
