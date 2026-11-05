@@ -4,28 +4,33 @@
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Cupons por Loja | Sol Garimpa</title>
 <style>
-:root{--laranja:#f4492f;--borda:#e1e1e1}
+:root{--destaque:#f4492f;--cor-destaque:#f4492f;--texto-acao:#fff;--fundo-codigo:#fff8f5;--fundo-aviso:#fff1eb;--texto-aviso:#c32b16;--borda:#e1e1e1}
+/* Paletas por loja. So as cores do HTML mudam; filtros e dados nao mudam. */
+:root[data-loja="mercado-livre"]{--destaque:#FFE600;--cor-destaque:#876400;--texto-acao:#1b1b1b;--fundo-codigo:#FFFBE3;--fundo-aviso:#FFF8D1;--texto-aviso:#665100}
+:root[data-loja="magalu"]{--destaque:#0086FF;--cor-destaque:#006BCA;--texto-acao:#fff;--fundo-codigo:#EDF6FF;--fundo-aviso:#EAF5FF;--texto-aviso:#00599E}
+:root[data-loja="shein"]{--destaque:#000000;--cor-destaque:#000000;--texto-acao:#fff;--fundo-codigo:#F5F5F5;--fundo-aviso:#F2F2F2;--texto-aviso:#111111}
+:root[data-loja="amazon"]{--destaque:#146EB4;--cor-destaque:#146EB4;--texto-acao:#fff;--fundo-codigo:#EFF7FC;--fundo-aviso:#EAF5FC;--texto-aviso:#125586}
 *{box-sizing:border-box}body{margin:0;font:13px Arial,Helvetica,sans-serif;color:#171717;background:#f5f5f5}
 main{max-width:1170px;margin:auto;padding:14px 11px 25px}
 h1{font-size:25px;margin:0 0 15px;font-weight:800}
 #busca{display:block;width:100%;border:1px solid #ddd;background:#fff;border-radius:9px;height:39px;padding:0 13px;font:inherit;margin-bottom:10px}
 .filtros{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:12px}
 .filtros button{border:1px solid #ddd;background:#fff;border-radius:8px;padding:8px 12px;font-weight:700;font-size:12px;cursor:pointer;color:#333}
-.filtros button.ativo{background:var(--laranja);border-color:var(--laranja);color:white}
+.filtros button.ativo{background:var(--destaque);border-color:var(--destaque);color:var(--texto-acao)}
 .status{background:#fff;border:1px solid var(--borda);border-radius:12px;padding:13px 15px;margin-bottom:16px;line-height:1.8;color:#555;font-size:12px}
 .status .verde{font-weight:700;color:#04894a;font-size:13px}
 .status .verde:before{content:"● ";color:#00c66a}
 .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
 .card{border:1px solid var(--borda);background:#fff;border-radius:14px;padding:15px;box-shadow:0 1px 4px #00000009;display:flex;flex-direction:column;gap:11px;min-width:0}
 .card h2{margin:0;font-weight:700;line-height:1.4;font-size:14px;overflow-wrap:anywhere}
-.desconto{color:var(--laranja);font-size:24px;line-height:1.15;font-weight:900}
+.desconto{color:var(--cor-destaque);font-size:24px;line-height:1.15;font-weight:900}
 .descricao{margin:0;color:#646464;line-height:1.5;font-size:12px;overflow-wrap:anywhere}
 .metadados{font-size:11px;color:#777;line-height:1.5}
 .codigoarea{display:flex;gap:7px}
-.codigoarea strong{display:flex;align-items:center;justify-content:center;min-width:0;flex:1;padding:10px 5px;background:#fff8f5;border:2px dashed var(--laranja);border-radius:8px;overflow-wrap:anywhere;text-align:center}
+.codigoarea strong{display:flex;align-items:center;justify-content:center;min-width:0;flex:1;padding:10px 5px;background:var(--fundo-codigo);border:2px dashed var(--destaque);border-radius:8px;overflow-wrap:anywhere;text-align:center}
 .codigoarea button{border:0;border-radius:8px;background:#eee;font-size:11px;font-weight:700;padding:0 12px;cursor:pointer}
-.aviso{background:#fff1eb;color:#c32b16;padding:11px;text-align:center;font-size:12px;border-radius:8px}
-.acao{background:var(--laranja);color:#fff!important;text-align:center;text-decoration:none;font-weight:900;border-radius:8px;padding:13px 7px;display:block;margin-top:auto}
+.aviso{background:var(--fundo-aviso);color:var(--texto-aviso);padding:11px;text-align:center;font-size:12px;border-radius:8px}
+.acao{background:var(--destaque);color:var(--texto-acao)!important;text-align:center;text-decoration:none;font-weight:900;border-radius:8px;padding:13px 7px;display:block;margin-top:auto}
 .vazio{grid-column:1/-1;background:#fff;border-radius:12px;border:1px solid #ddd;text-align:center;padding:23px 15px;line-height:1.6;color:#666}
 footer{color:#777;font-size:11px;line-height:1.6;text-align:center;padding-top:22px}
 @media(max-width:870px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
@@ -55,6 +60,7 @@ const CONFIG={
 const slug=new URLSearchParams(location.search).get("loja")||"shopee";
 const escolhido=CONFIG[slug]?slug:"shopee";
 const atual=CONFIG[escolhido];
+document.documentElement.setAttribute("data-loja",escolhido);
 document.title="Cupons "+atual.nome+" | Sol Garimpa";
 document.querySelector("h1").textContent="🔥 Cupons "+atual.nome;
 const JSON_URL="https://solgarimpa.github.io/sol-garimpa-afiliados/central/"+escolhido+"-cupons.json";
