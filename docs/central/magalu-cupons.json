@@ -1,9 +1,9 @@
 {
   "market": "magalu",
   "name": "Magalu",
-  "generatedAt": "2026-11-05T17:52:50+00:00",
+  "generatedAt": "2026-11-05T17:54:55+00:00",
   "refreshMinutes": 30,
-  "count": 64,
+  "count": 38,
   "sources": {
     "Cuponomia": {
       "ok": false,
@@ -21,7 +21,7 @@
     },
     "WorkerExistente": {
       "ok": true,
-      "quantidade": 32
+      "quantidade": 6
     }
   },
   "note": "Cupons listados nas fontes, nao testados no checkout. Cashback exclusivo de outros sites nao e oferecido pela Sol Garimpa.",
@@ -37,7 +37,7 @@
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
       "publishedAt": "2026-11-04T22:26:18.031Z",
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -51,7 +51,7 @@
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
       "publishedAt": "2026-11-04T20:00:00.000Z",
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -65,7 +65,7 @@
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
       "publishedAt": "2026-11-04T19:55:00.000Z",
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -79,7 +79,7 @@
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
       "publishedAt": "2026-11-04T19:48:55.121Z",
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -93,7 +93,7 @@
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
       "publishedAt": "2026-11-04T14:30:00.000Z",
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -107,119 +107,7 @@
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
       "publishedAt": "2026-10-30T14:37:40.276Z",
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Aproveite desconto Magazine Luiza e economize 20%",
-      "couponCode": "CUPOM20",
-      "discountText": "20% OFF",
-      "description": "20% OFF no Samsung S26 Ultra 1TB",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Código Magazine Luiza garante 10% OFF em lançamento Mantecorp",
-      "couponCode": "MANTECORP10",
-      "discountText": "10% OFF",
-      "description": "Ganhe 10% no lançamento Mantecorp listado no link",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Compre na Magazine Luiza com R$300 OFF",
-      "couponCode": "PDCASA300",
-      "discountText": "R$ 300 OFF",
-      "description": "Use o cupom do PayDay e abata R$300 nos itens de casa da seleção",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Compre no site com economia de R$225",
-      "couponCode": "LU225",
-      "discountText": "OFERTA",
-      "description": "R$225 OFF para produtos selecionados!",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Compre no site e ganhe desconto de 10%",
-      "couponCode": "FIT10",
-      "discountText": "10% OFF",
-      "description": "Economize 10% nos suplementos selecionados do link",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Compre pagando 30% a menos: use cupom Magazine Luiza",
-      "couponCode": "CUPOM25",
-      "discountText": "30% OFF",
-      "description": "30% OFF no Samsung S26 Plus 256GB",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Magazine Luiza com R$200 OFF em casa e decoração",
-      "couponCode": "PDCASA200",
-      "discountText": "R$ 200 OFF",
-      "description": "Desconto de R$200 do PayDay na seleção de casa e decoração",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Magazine Luiza com R$5 de desconto em itens com entrega rápida",
-      "couponCode": "FULLGIFT",
-      "discountText": "R$ 5 OFF",
-      "description": "Garanta R$5 de desconto nos novos itens com entrega rápida",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -233,259 +121,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Desconto imperdível de R$100 com cupom Magazine Luiza",
-      "couponCode": "LU50",
-      "discountText": "R$ 100 OFF",
-      "description": "R$ 100 OFF para ofertas selecionadas. Válido até 11/11/2026 ou enquanto estiver disponível",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Economize R$200 em móveis da seleção com cupom Magazine Luiza",
-      "couponCode": "MOVEIS200",
-      "discountText": "R$ 200 OFF",
-      "description": "Desconto de R$200 aplicado aos móveis da seleção",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Ganhe R$100 de desconto aplicando cupom Magazine Luiza",
-      "couponCode": "LU100",
-      "discountText": "R$ 100 OFF",
-      "description": "R$ 100 OFF para ofertas selecionadas. Válido até 11/11/2026 ou enquanto estiver disponível",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Ganhe R$30 OFF em looks esportivos com desconto Magazine Luiza",
-      "couponCode": "MARCAS30R",
-      "discountText": "R$ 30 OFF",
-      "description": "Monte o look esportivo com R$30 de desconto na seleção do link!",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Magazine Luiza com 10% OFF na seleção Asics",
-      "couponCode": "ASICS10",
-      "discountText": "10% OFF",
-      "description": "Desconto aplicado somente aos produtos Asics da seleção",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Móveis com 10% OFF para você",
-      "couponCode": "MOVEIS10OFF",
-      "discountText": "10% OFF",
-      "description": "Cupom de 10% para a seleção de móveis!",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Obtenha 5% OFF usando cupom",
-      "couponCode": "ATIVA5",
-      "discountText": "5% OFF",
-      "description": "Desconto de 5% na seleção de ferramentas do link",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Produtos Midea com desconto de 10% no cupom Magalu",
-      "couponCode": "MIDEA10",
-      "discountText": "10% OFF",
-      "description": "Válido somente para produtos selecionados no link, aplique e economize",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "R$100 de economia em suas compras: use cupom",
-      "couponCode": "MOVEIS100",
-      "discountText": "R$ 100 OFF",
-      "description": "Válido para os móveis listados no link",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "R$15 OFF aplicando cupom Magazine Luiza",
-      "couponCode": "MARCAS15",
-      "discountText": "R$ 15 OFF",
-      "description": "Oferta aplicável apenas aos produtos listados no link. Clique e use o cupom!",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "R$200 OFF em produtos selecionados",
-      "couponCode": "CASA200",
-      "discountText": "R$ 200 OFF",
-      "description": "Ganhe R$200 na seleção de produtos para a casa",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "R$300 OFF garantido em suas compras com cupom Magazine Luiza",
-      "couponCode": "LU300",
-      "discountText": "R$ 300 OFF",
-      "description": "R$ 300 OFF para ofertas selecionadas. Válido até 11/11/2026 ou enquanto estiver disponível",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "R$325 OFF garantido com desconto Magazine Luiza",
-      "couponCode": "LU325",
-      "discountText": "R$ 325 OFF",
-      "description": "Aproveite mais economia em seleção de produtos Magalu!",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "R$400 de economia aplicando voucher Magazine Luiza",
-      "couponCode": "LU400",
-      "discountText": "OFERTA",
-      "description": "Cupom valido por tempo limitado, em produtos selecionados!",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "R$400 de economia em suas compras: use cupom Magazine Luiza",
-      "couponCode": "PDCASA400",
-      "discountText": "R$ 400 OFF",
-      "description": "Aplique o código e ganhe R$400 de desconto nos produtos de casa do link; Cupom sujeito a alterações, expiração ou restrições do parceiro. Teste a disponibilidade no seu carrinho antes de fin",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "R$50 OFF em móveis selecionados com cupom de desconto Magazine Luiza",
-      "couponCode": "MOVEIS50",
-      "discountText": "R$ 50 OFF",
-      "description": "Aplique o cupom na sacola e economize R$50 na seleção de móveis",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Use o cupom Magazine Luiza e aproveite R$200 OFF",
-      "couponCode": "LU200",
-      "discountText": "R$ 200 OFF",
-      "description": "R$ 200 OFF para ofertas selecionadas. Válido até 11/11/2026 ou enquanto estiver disponível",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Voucher Magazine Luiza com 5% de desconto em bikes elétricas",
-      "couponCode": "BIKEPOP",
-      "discountText": "5% OFF",
-      "description": "Aproveite!",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -499,7 +135,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -513,7 +149,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -527,7 +163,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -541,7 +177,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -555,7 +191,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -569,7 +205,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -583,7 +219,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -597,7 +233,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -611,7 +247,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -625,7 +261,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -639,7 +275,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -653,7 +289,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -667,7 +303,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -681,7 +317,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -695,7 +331,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -709,7 +345,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -723,7 +359,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -737,7 +373,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -751,7 +387,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -765,7 +401,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -779,7 +415,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -793,7 +429,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -807,7 +443,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -821,7 +457,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -835,7 +471,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -849,7 +485,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -863,7 +499,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -877,7 +513,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -891,7 +527,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -905,7 +541,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -919,7 +555,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     }
   ]

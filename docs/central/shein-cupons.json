@@ -1,9 +1,9 @@
 {
   "market": "shein",
   "name": "SHEIN",
-  "generatedAt": "2026-11-05T17:52:50+00:00",
+  "generatedAt": "2026-11-05T17:54:55+00:00",
   "refreshMinutes": 30,
-  "count": 32,
+  "count": 31,
   "sources": {
     "Cuponomia": {
       "ok": false,
@@ -12,7 +12,7 @@
     },
     "Meliuz": {
       "ok": true,
-      "quantidade": 32
+      "quantidade": 31
     },
     "Pelando": {
       "ok": false,
@@ -38,7 +38,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -52,7 +52,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -66,7 +66,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -80,7 +80,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -94,7 +94,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -108,7 +108,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -122,7 +122,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -136,7 +136,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -150,7 +150,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -164,7 +164,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -178,7 +178,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -192,7 +192,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -206,7 +206,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -220,21 +220,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Economize com o Cupom Shein",
-      "couponCode": "",
-      "discountText": "OFERTA",
-      "description": "Com o cupom de desconto Shein, você pode renovar o seu guarda-roupas não somente com muito estilo, mas também com economia! Veja como utilizar:",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -248,7 +234,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -262,7 +248,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -276,7 +262,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -290,7 +276,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -304,7 +290,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -318,7 +304,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -332,7 +318,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -346,7 +332,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -360,7 +346,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -374,7 +360,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -388,7 +374,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -402,7 +388,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -416,7 +402,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -430,7 +416,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -444,7 +430,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -458,7 +444,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     },
     {
@@ -472,7 +458,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shein",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-05T17:52:50+00:00",
+      "observedAt": "2026-11-05T17:54:55+00:00",
       "status": "listed"
     }
   ]
