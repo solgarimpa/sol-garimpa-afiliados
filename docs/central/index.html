@@ -36,12 +36,13 @@ main{max-width:1250px;margin:auto;padding:16px}h1{font-size:clamp(20px,3vw,28px)
 const BASE='https://solgarimpa.github.io/sol-garimpa-afiliados/';
 const FEED=BASE+'paginas_ofertas.json';
 const SHEIN='https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/api/cupons';
+const SHOPEE='https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Shopee';
 const DIRETORIO=BASE+'central/lojas-referencia.json';
 const SHEIN_LINK='https://onelink.shein.com/58/66nnzcmvg0zu';
 const LOJAS=[
 {id:'todas',nome:'Todas'},
 {id:'mercado-livre',nome:'Mercado Livre',url:'https://www.ofertaspravc.com.br/mercado-livre'},
-{id:'shopee',nome:'Shopee',url:'https://www.ofertaspravc.com.br/shopee'},
+{id:'shopee',nome:'Shopee',url:'https://www.ofertaspravc.com.br/shopee-cupons'},
 {id:'magalu',nome:'Magalu',url:'https://www.ofertaspravc.com.br/magalu'},
 {id:'amazon',nome:'Amazon',url:'https://www.ofertaspravc.com.br/amazon'},
 {id:'shein',nome:'SHEIN',url:SHEIN_LINK},
@@ -92,12 +93,14 @@ function menu(){const nav=$('menu');for(const l of LOJAS){const b=el('button',l.
 function fallback(){const l=LOJAS.find(x=>x.id===id);if(id==='todas'||!l?.url)return;const area=$('vitrine');area.hidden=false;const label=el('span','',tipo==='cupons'?'Veja também os cupons da loja':'Explore a vitrine de produtos');const a=el('a','',l.nome==='SHEIN'?'Abrir vitrine SHEIN':'Ver página '+l.nome);a.href=l.url;a.target='_blank';a.rel='noopener noreferrer';area.replaceChildren(label,a);}
 async function json(url){const ctl=new AbortController();const tm=setTimeout(()=>ctl.abort(),14000);try{const r=await fetch(url,{cache:'no-store',signal:ctl.signal});if(!r.ok)throw Error('HTTP '+r.status);return await r.json()}finally{clearTimeout(tm)}}
 async function carregar(){
- const respostas=await Promise.allSettled([json(FEED),tipo==='cupons'?json(SHEIN):Promise.resolve({cupons:[]})]);
+ const respostas=await Promise.allSettled([json(FEED),tipo==='cupons'?json(SHEIN):Promise.resolve({cupons:[]}),tipo==='cupons'&&id==='shopee'?json(SHOPEE):Promise.resolve(null)]);
  let total=0, falhas=[];
  if(respostas[0].status==='fulfilled'){
   const data=respostas[0].value;
   if(Array.isArray(data.cards)){
    for(const p of data.cards){if(!p||p.historico||!p.titulo||!seguro(p.link)||!valido(p.validade))continue;
+    // A página de cupons Shopee tem fonte dedicada com data de publicação auditável.
+    if(tipo==='cupons'&&id==='shopee'&&lojaId(p.loja)==='shopee')continue;
     if(tipo==='cupons'&&!(p.tipo==='cupom'&&p.cupom))continue;
     if(tipo==='achadinhos'&&p.tipo!=='produto'&&p.tipo!=='promocao')continue;
     itens.push({idLoja:lojaId(p.loja),loja:p.loja,titulo:p.titulo,descricao:p.descricao||'',cupom:tipo==='cupons'?p.cupom:'',imagem:p.imagem,preco:p.preco,validade:p.validade,link:p.link,rede:p.rede});total++;
@@ -110,8 +113,48 @@ async function carregar(){
     itens.push({idLoja:'shein',loja:'SHEIN',titulo:c.titulo||'Cupom SHEIN',descricao:c.descricao||'',cupom:c.codigo,validade:c.validade?c.validade+'T23:59:59-03:00':null,link:SHEIN_LINK,rede:'Códigos públicos · não verificados'});total++;}
   }else falhas.push('fonte SHEIN indisponível');
  }
- const visto=new Set();itens=itens.filter(c=>{const k=norm(c.loja)+'|'+norm(c.cupom||c.link);if(visto.has(k))return false;visto.add(k);return true});
- itens.sort((a,b)=>a.loja.localeCompare(b.loja,'pt-BR'));
+ // Shopee: privilegiar ofertas recentes do Pelando. Itens sem data de publicação
+ // não são apresentados como atuais (os do Méliuz podem permanecer indefinidamente ativos no feed).
+ if(tipo==='cupons'&&id==='shopee'){
+  if(respostas[2].status==='fulfilled'){
+   const bruto=respostas[2].value;
+   const dados=Array.isArray(bruto?.stores)?bruto:Array.isArray(bruto?.data?.stores)?bruto.data:bruto;
+   const lojas=Array.isArray(dados?.stores)?dados.stores:[];
+   const cupons=lojas.flatMap(x=>Array.isArray(x?.coupons)?x.coupons:[]);
+   const agora=Date.now(),MAX_IDADE=7*86400000;
+   for(const cupom of cupons){
+    if(!cupom||cupom.status!=='active'||!cupom.title)continue;
+    const origem=norm(cupom.solGarimpaSource||'');
+    const publicado=Date.parse(cupom.createdAt||'');
+    if(origem!=='pelando'||!Number.isFinite(publicado)||publicado>agora+300000||agora-publicado>MAX_IDADE)continue;
+    const ate=cupom.expiresAt||cupom.expirationDate||cupom.validUntil||null;
+    if(ate&&!valido(ate))continue;
+    // Nunca redirecionar para o rastreamento de afiliado do Pelando.
+    // Links oficiais da Shopee não garantem comissão da Sol Garimpa.
+    const destino=/voucher-wallet/i.test(cupom.sourceUrl||'')
+     ?'https://shopee.com.br/user/voucher-wallet'
+     :'https://shopee.com.br/m/cupom-de-desconto';
+    itens.push({
+     idLoja:'shopee',loja:'Shopee',
+     titulo:String(cupom.title).slice(0,190),
+     descricao:String(cupom.rulesDescription||cupom.description||'').trim().slice(0,270),
+     cupom:String(cupom.couponCode||'').trim().slice(0,80),
+     validade:ate,link:destino,
+     rede:'Pelando · conferir disponibilidade no app',
+     publicadoEm:cupom.createdAt
+    });
+   }
+  }else falhas.push('fonte Shopee indisponível');
+ }
+ const visto=new Set();itens=itens.filter(c=>{
+  const identificador=c.idLoja==='shopee'?(c.cupom||c.titulo):(c.cupom||c.link);
+  const k=norm(c.loja)+'|'+norm(identificador);
+  if(visto.has(k))return false;visto.add(k);return true;
+ });
+ itens.sort((a,b)=>{
+  if(tipo==='cupons'&&id==='shopee')return (Date.parse(b.publicadoEm||'')||0)-(Date.parse(a.publicadoEm||'')||0);
+  return a.loja.localeCompare(b.loja,'pt-BR');
+ });
  const lojas=[...new Set(itens.filter(x=>serveLoja(x)).map(x=>x.loja))].sort((a,b)=>a.localeCompare(b,'pt-BR'));
  for(const l of lojas){const option=el('option','',l);option.value=l;$('filtro').append(option);}
  aviso=falhas.join('; ');desenhar();
