@@ -49,6 +49,13 @@ def desconto(s):
             return (m.group(1) + ("% OFF" if exp.startswith("(") and "%" in exp else " OFF")).replace("R$  ", "R$ ")
     if re.search(r"frete\s+gr[aá]tis", s, re.I):
         return "FRETE GRÁTIS"
+    # Algumas manchetes escrevem 'ganhe R$20' sem a palavra OFF.
+    p = re.search(r"(\d+(?:[.,]\d+)?)\s*%", s, re.I)
+    if p:
+        return p.group(1) + "% OFF"
+    fixo = re.search(r"R\$\s*(\d+(?:[.,]\d{1,2})?)", s, re.I)
+    if fixo and re.search(r"cupom|desconto|economize|ganhe|off", s, re.I):
+        return "R$ " + fixo.group(1) + " OFF"
     return "OFERTA"
 
 
@@ -149,7 +156,14 @@ def coletar_site(fonte):
                 continue
             if fonte == "Meliuz" and not any(s in n for s in ["shopee", "cupom", "desconto", "frete", "off", "econom", "pedidos", "codigo", "voucher", "oferta"]):
                 continue
-            if re.search(r"todos os cupons|confira todos|como funciona|principais duvidas|termos|aplicador|extensao|cashback", n):
+            # Descartar FAQ, recomendacoes, navegacao e titulos editoriais.
+            if "?" in titulo or re.search(
+                r"todos os cupons|confira todos|como funciona|principais duvidas|"
+                r"perguntas frequentes|resumo de|avalie |pessoas que|onde encontrar|"
+                r"cupom expira|por que meu|como conseguir|como usar|e confiavel|"
+                r"tem como acumular|termos|aplicador|extensao|cashback",
+                n
+            ):
                 continue
             parent = conteiner_heading(h)
             bloco = parent.get_text(" ", strip=True)
