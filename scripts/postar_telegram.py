@@ -23,6 +23,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CATALOGO = ROOT / "docs" / "paginas_ofertas.json"
 HISTORICO = ROOT / "docs" / "telegram" / "publicados.json"
 REDES = {"Rakuten", "Lomadee", "Awin"}
+ORDEM_DESEMPATE = {"Lomadee": 0, "Awin": 1, "Rakuten": 2}
 DESTINO_PADRAO = "@solgarimpaofertas"
 LIMITE_HISTORICO = 2000
 
@@ -83,7 +84,7 @@ def ler_json(caminho, padrao):
         return json.load(arquivo)
 
 
-def selecionar(catalogo, publicados, agora):
+def selecionar(catalogo, publicados, agora, historico=None, rede_desejada=None):
     gerado = data_utc(catalogo.get("gerado_em"))
     if not gerado or not timedelta(0) <= agora - gerado <= timedelta(hours=24):
         raise RuntimeError("Catálogo consolidado ausente, futuro ou desatualizado (mais de 24h).")
@@ -95,6 +96,8 @@ def selecionar(catalogo, publicados, agora):
             continue
         rede = item.get("rede")
         if rede not in REDES or item.get("tipo") not in {"produto", "promocao", "cupom"}:
+            continue
+        if rede_desejada and rede != rede_desejada:
             continue
         slug = str(item.get("slug") or "")
         titulo = " ".join(str(item.get("titulo") or "").split())[:170]
@@ -129,8 +132,22 @@ def selecionar(catalogo, publicados, agora):
             "imagem": imagem_publica(item.get("imagem")),
         }))
 
-    # Ordem estável para que a oferta seguinte seja escolhida após salvar o histórico.
-    candidatos.sort(key=lambda r: (-r[0], r[1]))
+    # Revezar entre as redes: a que publicou há mais tempo tem prioridade.
+    # A pontuacao (desconto/cupom) decide somente DENTRO da mesma rede.
+    ultimo_por_rede = {}
+    for registro in (historico or []):
+        if not isinstance(registro, dict) or registro.get("rede") not in REDES:
+            continue
+        data = data_utc(registro.get("publicado_em"))
+        rede = registro["rede"]
+        if data and (rede not in ultimo_por_rede or data > ultimo_por_rede[rede]):
+            ultimo_por_rede[rede] = data
+
+    data_minima = datetime.min.replace(tzinfo=timezone.utc)
+    candidatos.sort(key=lambda r: (
+        ultimo_por_rede.get(r[2]["rede"], data_minima),
+        -r[0], ORDEM_DESEMPATE[r[2]["rede"]], r[1]
+    ))
     return candidatos[0][1:] if candidatos else None
 
 
@@ -161,6 +178,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true",
                         help="Inspeciona uma oferta sem enviar mensagem nem modificar histórico.")
+    parser.add_argument("--rede", choices=sorted(REDES), default=None,
+                        help="Opcional: selecionar rede especifica em uma execucao manual.")
     args = parser.parse_args()
     agora = datetime.now(timezone.utc)
     catalogo = ler_json(CATALOGO, {})
@@ -169,9 +188,11 @@ def main():
     if not isinstance(itens, list):
         raise RuntimeError("Histórico de publicações inválido.")
     publicados = {r["id"] for r in itens if isinstance(r, dict) and isinstance(r.get("id"), str)}
-    escolhido = selecionar(catalogo, publicados, agora)
+    escolhido = selecionar(catalogo, publicados, agora, historico=itens,
+                           rede_desejada=args.rede)
     if not escolhido:
-        print("Nenhuma nova oferta elegível para publicar.")
+        print("Nenhuma nova oferta elegível para publicar",
+              "na rede " + args.rede if args.rede else "em qualquer rede", ".")
         return
 
     identificador, oferta = escolhido
