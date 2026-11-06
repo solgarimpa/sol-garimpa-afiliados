@@ -1,11 +1,11 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-06T17:53:22.961940Z",
-  "total": 122,
-  "total_cupons": 101,
+  "atualizado_em": "2026-11-06T18:39:17.729498Z",
+  "total": 125,
+  "total_cupons": 104,
   "total_promocoes": 21,
   "fontes": {
-    "Awin": 96,
+    "Awin": 99,
     "Rakuten": 0,
     "Lomadee": 26
   },
@@ -983,6 +983,18 @@
       "rede": "Awin"
     },
     {
+      "id": "304e0930fb9daac774",
+      "loja": "Lauri Esporte",
+      "tipo": "cupom",
+      "titulo": "10% OFF em On Running + 10% no Pix: até 20% OFF",
+      "descricao": "Cupom ON10: 10% OFF em On Running e em todo o site, inclusive produtos em promoção. Pagando no Pix, até 20% de desconto. Frete grátis e 15% de cashback.",
+      "termos": "Cupom ON10: 10% de desconto em todo o site, inclusive produtos em promoção. Acumula com 10% OFF no Pix (até 20% OFF), 15% de cashback e frete grátis. Válido para todos os clientes, sem limite de uso.",
+      "cupom": "ON10",
+      "validade": "2100-01-01T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2F",
+      "rede": "Awin"
+    },
+    {
       "id": "2b0a60e43a8ac797db",
       "loja": "Lauri Esporte",
       "tipo": "cupom",
@@ -991,6 +1003,30 @@
       "termos": "Cupom BLACKAWIN10: 10% de desconto em todo o site, inclusive produtos em promoção. Válido até 01/12/2026. Cumulativo com o desconto de 10% no Pix: pagando no Pix, o cliente pode ter até 20% de desconto. A compra também gera 15% de cashback para pedidos futuros. Frete grátis para todo o Brasil.",
       "cupom": "BLACKAWIN10",
       "validade": "2026-12-02T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2F",
+      "rede": "Awin"
+    },
+    {
+      "id": "5dcf86c64d7b98a347",
+      "loja": "Lauri Esporte",
+      "tipo": "cupom",
+      "titulo": "Seu primeiro On Running com 10% OFF + 10% no Pix",
+      "descricao": "Cupom PRIMEIRAON10: 10% OFF em todo o site da Lauri Esporte, revendedora On Running. Acumula com 10% no Pix (até 20% OFF), 15% de cashback e frete grátis.",
+      "termos": "Cupom PRIMEIRAON10: 10% de desconto em todo o site, inclusive produtos em promoção. Acumula com 10% OFF no Pix (até 20% OFF), 15% de cashback e frete grátis. Válido para todos os clientes, sem limite de uso.",
+      "cupom": "PRIMEIRAON10",
+      "validade": "2100-01-01T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2F",
+      "rede": "Awin"
+    },
+    {
+      "id": "5a444682df6e5e9693",
+      "loja": "Lauri Esporte",
+      "tipo": "cupom",
+      "titulo": "Tênis de corrida On Running: 10% OFF + 10% no Pix",
+      "descricao": "Cupom CORRIDA10: 10% OFF em todo o site da Lauri Esporte, revendedora oficial On Running. Acumula com 10% no Pix (até 20% OFF), 15% de cashback e frete grátis.",
+      "termos": "Cupom CORRIDA10: 10% de desconto em todo o site, inclusive produtos em promoção. Acumula com 10% OFF no Pix (até 20% OFF), 15% de cashback e frete grátis. Válido para todos os clientes, sem limite de uso.",
+      "cupom": "CORRIDA10",
+      "validade": "2100-01-01T02:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2F",
       "rede": "Awin"
     },

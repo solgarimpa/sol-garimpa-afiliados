@@ -1,8 +1,8 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-06T17:53:21.486227Z",
-  "total": 96,
+  "atualizado_em": "2026-11-06T18:39:16.555941Z",
+  "total": 99,
   "ofertas": [
     {
       "id": "4165018",
@@ -1059,6 +1059,39 @@
       "cupom": "AFF8",
       "validade": "2029-09-28T10:58:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=3110826&ued=https%3A%2F%2Fstore.sirui.com%2Fpages%2Fsales-1"
+    },
+    {
+      "id": "4165180",
+      "loja": "Lauri Esporte",
+      "tipo": "cupom",
+      "titulo": "Tênis de corrida On Running: 10% OFF + 10% no Pix",
+      "descricao": "Cupom CORRIDA10: 10% OFF em todo o site da Lauri Esporte, revendedora oficial On Running. Acumula com 10% no Pix (até 20% OFF), 15% de cashback e frete grátis.",
+      "termos": "Cupom CORRIDA10: 10% de desconto em todo o site, inclusive produtos em promoção. Acumula com 10% OFF no Pix (até 20% OFF), 15% de cashback e frete grátis. Válido para todos os clientes, sem limite de uso.",
+      "cupom": "CORRIDA10",
+      "validade": "2100-01-01T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2F"
+    },
+    {
+      "id": "4165173",
+      "loja": "Lauri Esporte",
+      "tipo": "cupom",
+      "titulo": "Seu primeiro On Running com 10% OFF + 10% no Pix",
+      "descricao": "Cupom PRIMEIRAON10: 10% OFF em todo o site da Lauri Esporte, revendedora On Running. Acumula com 10% no Pix (até 20% OFF), 15% de cashback e frete grátis.",
+      "termos": "Cupom PRIMEIRAON10: 10% de desconto em todo o site, inclusive produtos em promoção. Acumula com 10% OFF no Pix (até 20% OFF), 15% de cashback e frete grátis. Válido para todos os clientes, sem limite de uso.",
+      "cupom": "PRIMEIRAON10",
+      "validade": "2100-01-01T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2F"
+    },
+    {
+      "id": "4165172",
+      "loja": "Lauri Esporte",
+      "tipo": "cupom",
+      "titulo": "10% OFF em On Running + 10% no Pix: até 20% OFF",
+      "descricao": "Cupom ON10: 10% OFF em On Running e em todo o site, inclusive produtos em promoção. Pagando no Pix, até 20% de desconto. Frete grátis e 15% de cashback.",
+      "termos": "Cupom ON10: 10% de desconto em todo o site, inclusive produtos em promoção. Acumula com 10% OFF no Pix (até 20% OFF), 15% de cashback e frete grátis. Válido para todos os clientes, sem limite de uso.",
+      "cupom": "ON10",
+      "validade": "2100-01-01T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2F"
     }
   ]
 }
