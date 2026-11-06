@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-06T20:53:00.122201Z",
-  "total": 354,
-  "total_cupons": 104,
+  "atualizado_em": "2026-11-06T21:29:14.637577Z",
+  "total": 347,
+  "total_cupons": 97,
   "total_promocoes": 250,
   "fontes": {
     "Awin": 336,
     "Rakuten": 0,
-    "Lomadee": 26
+    "Lomadee": 19
   },
   "ofertas": [
     {
@@ -140,42 +140,6 @@
       "cupom": "BF50",
       "validade": "2026-12-21T02:30:00Z",
       "link": "https://lmdee.link/nRs51ZGLWI6v",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "52cb23a7d3e8a575f6",
-      "loja": "China in Box",
-      "tipo": "cupom",
-      "titulo": "Cupom Frete Gratis",
-      "descricao": "",
-      "termos": "",
-      "cupom": "FRETELOMADEE",
-      "validade": "2027-01-01T02:59:59Z",
-      "link": "https://lmdee.link/69aTXVdd4fbx",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "ef70631976c24b3c0b",
-      "loja": "Coza",
-      "tipo": "cupom",
-      "titulo": "R$15 off em compras acima de R$100",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BLACK15",
-      "validade": "2026-12-11T02:30:00Z",
-      "link": "https://lmdee.link/1QFD5FFnXqZr",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "2feaffcb1c78c66fcb",
-      "loja": "Coza",
-      "tipo": "cupom",
-      "titulo": "R$20 off em compras acima de R$150",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BLACK20",
-      "validade": "2026-12-11T02:30:00Z",
-      "link": "https://lmdee.link/SVnu99vLQb3k",
       "rede": "Lomadee"
     },
     {
@@ -501,30 +465,6 @@
       "validade": "2026-12-31T02:33:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=61233&awinaffid=3110826&ued=https%3A%2F%2Fwww.myearfun.com%2Fheadphones%2Fearfun-wave-pro-hi-res-wireless-headphone-black",
       "rede": "Awin"
-    },
-    {
-      "id": "dcbdc6ebff60c6e1f7",
-      "loja": "eles.®",
-      "tipo": "cupom",
-      "titulo": "Oferta Outubro Rosa elas. para emagrecimento 15% off",
-      "descricao": "",
-      "termos": "",
-      "cupom": "outubrorosa",
-      "validade": null,
-      "link": "https://lmdee.link/4w25yU4r7V5b",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "2064a07eb6fac20ab4",
-      "loja": "eles.®",
-      "tipo": "cupom",
-      "titulo": "Preblack",
-      "descricao": "",
-      "termos": "",
-      "cupom": "Preblack",
-      "validade": null,
-      "link": "https://lmdee.link/iIBsvCOgPe2m",
-      "rede": "Lomadee"
     },
     {
       "id": "cdeff649f429655f3f",
@@ -1220,30 +1160,6 @@
       "cupom": "PREBLACK",
       "validade": "2026-11-09T02:30:00Z",
       "link": "https://lmdee.link/bpez6dO2sip2",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "43e498746ad3f5fe71",
-      "loja": "Zupper",
-      "tipo": "cupom",
-      "titulo": "Cupom de R$ 25,00 de desconto (apenas para primeira compra 1 por CPF)",
-      "descricao": "",
-      "termos": "",
-      "cupom": "ZUPPLOM40",
-      "validade": "2027-01-01T02:30:00Z",
-      "link": "https://lmdee.link/goTvpMKdOivt",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "0f301a486e8c36849c",
-      "loja": "Zupper",
-      "tipo": "cupom",
-      "titulo": "Cupom de R$ 25,00 de desconto (uso ilimitado)",
-      "descricao": "",
-      "termos": "",
-      "cupom": "ZUPPLOM25",
-      "validade": "2027-01-01T02:30:00Z",
-      "link": "https://lmdee.link/geL8GLQ5Mgns",
       "rede": "Lomadee"
     },
     {
