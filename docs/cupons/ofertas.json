@@ -1,9 +1,20 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-06T15:38:03.049669Z",
-  "total": 76,
+  "atualizado_em": "2026-11-06T16:31:35.541141Z",
+  "total": 90,
   "ofertas": [
+    {
+      "id": "4165018",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "R$ 300 OFF no Notebook Gamer Acer Nitro V16 ANV16",
+      "descricao": "R$ 300 OFF no Notebook Gamer Acer Nitro V16 ANV16",
+      "termos": ".",
+      "cupom": "300OFF",
+      "validade": "2026-11-07T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1086159%2Fnotebook-gamer-acer-nitro-v16-anv16-i31-58mm-intel-core-5-210h-8gb-ram-512gb-ssd-rtx-5060-linux-16-wuxga"
+    },
     {
       "id": "4162257",
       "loja": "Eurorelogios BR",
@@ -25,6 +36,50 @@
       "cupom": "",
       "validade": "2026-11-08T03:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=28161&awinaffid=3110826&ued=https%3A%2F%2Fwww.technos.com.br%2Fblack-friday"
+    },
+    {
+      "id": "4164988",
+      "loja": "Adcos BR",
+      "tipo": "promocao",
+      "titulo": "40% OFF em sabonetes",
+      "descricao": "40% OFF em sabonetes",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-09T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=85419&awinaffid=3110826&ued=https%3A%2F%2Fwww.lojaadcos.com.br%2Fblack-friday%2Fnovos-descontos"
+    },
+    {
+      "id": "4165024",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF no Microfone Gamer Corsair Voxara USB RGB",
+      "descricao": "10% OFF no Microfone Gamer Corsair Voxara USB RGB",
+      "termos": ".",
+      "cupom": "VOXARA10",
+      "validade": "2026-11-09T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1070655%2Fmicrofone-condensador-gamer-corsair-voxara-usb-rgb-preto-ca-9011406-ww"
+    },
+    {
+      "id": "4165020",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "15% OFF em notebooks selecionados",
+      "descricao": "15% OFF em notebooks selecionados",
+      "termos": ".",
+      "cupom": "NOTE15OFF",
+      "validade": "2026-11-09T12:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1NOTE15OFF"
+    },
+    {
+      "id": "4165035",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF em gabinetes e torres selecionadas",
+      "descricao": "10% OFF em gabinetes e torres selecionadas",
+      "termos": ".",
+      "cupom": "TORRE10",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1TORRE10"
     },
     {
       "id": "4134130",
@@ -93,6 +148,17 @@
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F879433%2Fstarlink-mini"
     },
     {
+      "id": "4165015",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "11% OFF em produtos Husky selecionados",
+      "descricao": "11% OFF em produtos Husky selecionados",
+      "termos": ".",
+      "cupom": "11DO11HUSKY",
+      "validade": "2026-11-11T11:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2F11DO11HUSKY"
+    },
+    {
       "id": "4153675",
       "loja": "SIRUI",
       "tipo": "promocao",
@@ -102,6 +168,17 @@
       "cupom": "",
       "validade": "2026-11-12T07:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=3110826&ued=https%3A%2F%2Fstore.sirui.com%2Fproducts%2Fsirui-swift-series-20mm-f2-4-40mm-f2-2-full-frame-autofocus-lens"
+    },
+    {
+      "id": "4165010",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "R$ 300 OFF na Smart TV LG NanoCell 50\" 4K UHD",
+      "descricao": "R$ 300 OFF na Smart TV LG NanoCell 50\" 4K UHD",
+      "termos": ".",
+      "cupom": "TV300",
+      "validade": "2026-11-16T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1074881%2Fsmart-tv-lg-nanocell-50-4k-uhd-led-com-hdr-e-inteligencia-artificial-50un85cbpsa-bwz"
     },
     {
       "id": "4156929",
@@ -146,6 +223,83 @@
       "cupom": "",
       "validade": "2026-11-30T15:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=114180&awinaffid=3110826&campaign=safe+accu+kit+50+off+oct26&ued=https%3A%2F%2Fen.sinocare.com%2Fproducts%2Fsinocare-blood-glucose-monitor-safe-accu%3Fvariant%3D43072245825768"
+    },
+    {
+      "id": "4165028",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF em softwares selecionados",
+      "descricao": "10% OFF em softwares selecionados",
+      "termos": ".",
+      "cupom": "SOFTWARES10",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1SOFTWARES10"
+    },
+    {
+      "id": "4165006",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "R$ 200 OFF na Multifuncional Epson EcoTank L4360",
+      "descricao": "R$ 200 OFF na Multifuncional Epson EcoTank L4360",
+      "termos": ".",
+      "cupom": "200OFF",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F996897%2Fmultifuncional-epson-ecotank-l4360-c11cl41302"
+    },
+    {
+      "id": "4165002",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "R$ 200 OFF em Scanner Brother selecionado",
+      "descricao": "R$ 200 OFF em Scanner Brother selecionado",
+      "termos": ".",
+      "cupom": "200OFFSCANNER",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP3100IMPRESSORA"
+    },
+    {
+      "id": "4164998",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "R$ 130 OFF no Scanner Brother A4 Duplex 30PPM USB Wi‑Fi ADS1800W",
+      "descricao": "R$ 130 OFF no Scanner Brother A4 Duplex 30PPM USB Wi‑Fi ADS1800W",
+      "termos": ".",
+      "cupom": "130IMPRESSORA",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F577501%2Fscanner-brother-a4-duplex-30ppm-usb-wi-fi-ads1800w"
+    },
+    {
+      "id": "4164996",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "R$ 120 OFF na Multifuncional Brother Laser Mono WiFi DCP-B7535DW 110V",
+      "descricao": "R$ 120 OFF na Multifuncional Brother Laser Mono WiFi DCP-B7535DW 110V",
+      "termos": ".",
+      "cupom": "120IMPRESSORA",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F189448%2Fmultifuncional-brother-laser-mono-wifi-110v-dcp-b7535dw"
+    },
+    {
+      "id": "4164993",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "R$ 50 OFF na Multifuncional Brother Laser Mono Wi‑Fi DCP-B7520DW 110V",
+      "descricao": "R$ 50 OFF na Multifuncional Brother Laser Mono Wi‑Fi DCP-B7520DW 110V",
+      "termos": ".",
+      "cupom": "50IMPRESSORA",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F189371%2Fmultifuncional-brother-laser-mono-wi-fi-110v-dcp-b7520dw"
+    },
+    {
+      "id": "4164989",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "R$ 100 OFF na Multifuncional Tanque de Tinta Brother DCP-T530DW",
+      "descricao": "R$ 100 OFF na Multifuncional Tanque de Tinta Brother DCP-T530DW",
+      "termos": ".",
+      "cupom": "100IMPRESSORA",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F699106%2Fmultifuncional-tanque-de-tinta-brother-dcp-t530dw-bivolt"
     },
     {
       "id": "3867825",
