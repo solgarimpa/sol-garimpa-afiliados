@@ -97,7 +97,7 @@ main{padding:7px 6px}
 'use strict';
 
 // REDE EXCLUSIVA: LOMADEE
-const FONTE='https://solgarimpa.github.io/sol-garimpa-afiliados/lomadee/ofertas.json';
+const FONTE='https://raw.githubusercontent.com/solgarimpa/sol-garimpa-afiliados/main/docs/lomadee/ofertas.json';
 const DESTAQUE='Xiaomi Brasil';
 
 const $=id=>document.getElementById(id);
@@ -391,12 +391,9 @@ async function atualizar(){
   const cadastrados=Array.isArray(dados.parceiros)?
    dados.parceiros:[];
 
-  parceiros=[
-   DESTAQUE,
-   ...cadastrados.map(p=>
+  parceiros=[...new Set(cadastrados.map(p=>
     typeof p==='string'?p:p.loja||p.nome||''
-   ).filter(Boolean)
-  ];
+   ).filter(Boolean))];
 
   todos=dados.cards.filter(p=>
    p&&['produto','promocao','cupom'].includes(p.tipo)&&
