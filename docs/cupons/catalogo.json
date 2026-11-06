@@ -1,11 +1,11 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-06T09:02:43.001044Z",
-  "total": 103,
-  "total_cupons": 87,
+  "atualizado_em": "2026-11-06T09:50:47.853485Z",
+  "total": 104,
+  "total_cupons": 88,
   "total_promocoes": 16,
   "fontes": {
-    "Awin": 76,
+    "Awin": 77,
     "Rakuten": 0,
     "Lomadee": 27
   },
@@ -215,18 +215,6 @@
       "rede": "Awin"
     },
     {
-      "id": "bcfb11fd39552b21f8",
-      "loja": "Earfun, Inc",
-      "tipo": "cupom",
-      "titulo": "[Anniversary Sale] EarFun Wave Life",
-      "descricao": "From October 5 to 30, EarFun Wave Life is available at a 51% off on the global site and a 55% off on the UK site.",
-      "termos": "Applicable colors: white",
-      "cupom": "GSWL52",
-      "validade": "2026-12-30T16:45:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=61233&awinaffid=3110826&ued=https%3A%2F%2Fwww.myearfun.com%2Fheadphones%2Fearfun-wave-life-hybrid-anc-wireless-headphones-white",
-      "rede": "Awin"
-    },
-    {
       "id": "1c2e91a8ab21a85834",
       "loja": "Earfun, Inc",
       "tipo": "cupom",
@@ -267,7 +255,7 @@
       "loja": "Earfun, Inc",
       "tipo": "cupom",
       "titulo": "[Autumn Sale] EarFun Clip",
-      "descricao": "EarFun Clip is 23% off on EarFun Global site, 20% off on the DE/EU site, and 20% off on the UK site.",
+      "descricao": "EarFun Clip is 52% off on EarFun Global site, 52% off on the DE/EU site, and 52% off on the UK site.",
       "termos": "Color: gray, black, white",
       "cupom": "LSEC",
       "validade": "2026-12-31T10:26:00Z",
@@ -303,47 +291,11 @@
       "loja": "Earfun, Inc",
       "tipo": "cupom",
       "titulo": "[Back to school season] EarFun Open Jump",
-      "descricao": "Open Jump is 25% off in the Global site; 30% off in the DE/EU site; and 24% off in the UK site.",
+      "descricao": "Open Jump is 30% off in the Global site; 30% off in the DE/EU site; and 24% off in the UK site.",
       "termos": "Applicable colors: black, white.",
       "cupom": "DLOJ",
       "validade": "2026-12-31T08:54:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=61233&awinaffid=3110826&ued=https%3A%2F%2Fwww.myearfun.com%2Feu%2Fheadphones%2Fearfun-openjump-open-ear-wireless-earbuds-black",
-      "rede": "Awin"
-    },
-    {
-      "id": "716a1d91026c27f941",
-      "loja": "Earfun, Inc",
-      "tipo": "cupom",
-      "titulo": "[Back to school season] EarFun Tune Pro",
-      "descricao": "From Aug 4th to Sep 6th, EarFun Tune Pro is 25% OFF on EarFun Global site; 23% OFF on DE/EU site; 42% OFF on UK site.",
-      "termos": "Applicable colors: black",
-      "cupom": "DLTP",
-      "validade": "2026-12-31T02:35:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=61233&awinaffid=3110826&ued=https%3A%2F%2Fwww.myearfun.com%2Fheadphones%2Fearfun-tune-pro-hi-res-wireless-headphone-black",
-      "rede": "Awin"
-    },
-    {
-      "id": "b30cd2a48f6853f80d",
-      "loja": "Earfun, Inc",
-      "tipo": "cupom",
-      "titulo": "[Back to school season] EarFun UBOOM L",
-      "descricao": "From Aug 4th to Sep 6th, EarFun UBOOM L is 30% OFF on EarFun Global site; 12.5% OFF on DE/EU site",
-      "termos": "Applicable colors: black",
-      "cupom": "DLUBL",
-      "validade": "2026-12-31T09:02:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=61233&awinaffid=3110826&ued=https%3A%2F%2Fwww.myearfun.com%2Feu%2Fspeakers%2Fearfun-uboom-l-portable-waterproof-bluetooth-speakers-black",
-      "rede": "Awin"
-    },
-    {
-      "id": "87d50472a870f422d0",
-      "loja": "Earfun, Inc",
-      "tipo": "cupom",
-      "titulo": "[Back to school season] EarFun Wave Pro",
-      "descricao": "From Aug 4th to Sep 6th, EarFun Wave Pro is 34% OFF on EarFun Global site; 25% OFF on DE/EU site; 16% OFF on UK site.",
-      "termos": "Applicable colors: black",
-      "cupom": "DLWP",
-      "validade": "2026-12-31T02:33:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=61233&awinaffid=3110826&ued=https%3A%2F%2Fwww.myearfun.com%2Fheadphones%2Fearfun-wave-pro-hi-res-wireless-headphone-black",
       "rede": "Awin"
     },
     {
@@ -488,6 +440,66 @@
       "cupom": "GSWP41",
       "validade": "2026-12-31T09:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=61233&awinaffid=3110826&ued=https%3A%2F%2Fwww.myearfun.com%2Fuk%2Fheadphones%2Fearfun-tune-pro-hi-res-wireless-headphone-black",
+      "rede": "Awin"
+    },
+    {
+      "id": "6b6bd9a37b83f03617",
+      "loja": "Earfun, Inc",
+      "tipo": "cupom",
+      "titulo": "EarFun Clip 2",
+      "descricao": "EarFun Clip 2 is 23% off on EarFun Global site, 20% off on the DE/EU site, and 20% off on the UK site.",
+      "termos": "color: gray",
+      "cupom": "BDEC2",
+      "validade": "2026-12-31T09:37:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=61233&awinaffid=3110826&ued=https%3A%2F%2Fwww.myearfun.com%2Fheadphones%2Fearfun-clip-2-hi-res-open-ear-wireless-earbuds-black",
+      "rede": "Awin"
+    },
+    {
+      "id": "716a1d91026c27f941",
+      "loja": "Earfun, Inc",
+      "tipo": "cupom",
+      "titulo": "EarFun Tune Pro",
+      "descricao": "EarFun Tune Pro is 25% OFF on EarFun Global site; 23% OFF on DE/EU site; 42% OFF on UK site.",
+      "termos": "Applicable colors: black",
+      "cupom": "DLTP",
+      "validade": "2026-12-31T02:35:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=61233&awinaffid=3110826&ued=https%3A%2F%2Fwww.myearfun.com%2Fheadphones%2Fearfun-tune-pro-hi-res-wireless-headphone-black",
+      "rede": "Awin"
+    },
+    {
+      "id": "b30cd2a48f6853f80d",
+      "loja": "Earfun, Inc",
+      "tipo": "cupom",
+      "titulo": "EarFun UBOOM L",
+      "descricao": "EarFun UBOOM L is 30% OFF on EarFun Global site; 12.5% OFF on DE/EU site",
+      "termos": "Applicable colors: black",
+      "cupom": "DLUBL",
+      "validade": "2026-12-31T09:02:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=61233&awinaffid=3110826&ued=https%3A%2F%2Fwww.myearfun.com%2Feu%2Fspeakers%2Fearfun-uboom-l-portable-waterproof-bluetooth-speakers-black",
+      "rede": "Awin"
+    },
+    {
+      "id": "bcfb11fd39552b21f8",
+      "loja": "Earfun, Inc",
+      "tipo": "cupom",
+      "titulo": "EarFun Wave Life",
+      "descricao": "EarFun Wave Life is available at a 51% off on the global site and a 55% off on the UK site.",
+      "termos": "Applicable colors: white",
+      "cupom": "GSWL52",
+      "validade": "2026-12-30T16:45:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=61233&awinaffid=3110826&ued=https%3A%2F%2Fwww.myearfun.com%2Fheadphones%2Fearfun-wave-life-hybrid-anc-wireless-headphones-white",
+      "rede": "Awin"
+    },
+    {
+      "id": "87d50472a870f422d0",
+      "loja": "Earfun, Inc",
+      "tipo": "cupom",
+      "titulo": "EarFun Wave Pro",
+      "descricao": "EarFun Wave Pro is 34% OFF on EarFun Global site; 25% OFF on DE/EU site; 16% OFF on UK site.",
+      "termos": "Applicable colors: black",
+      "cupom": "DLWP",
+      "validade": "2026-12-31T02:33:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=61233&awinaffid=3110826&ued=https%3A%2F%2Fwww.myearfun.com%2Fheadphones%2Fearfun-wave-pro-hi-res-wireless-headphone-black",
       "rede": "Awin"
     },
     {
