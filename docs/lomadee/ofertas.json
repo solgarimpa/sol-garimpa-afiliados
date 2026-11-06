@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-06T17:59:01+00:00",
+  "atualizado_em": "2026-11-06T19:13:17+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -953,16 +953,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-e86372a81cc5675b5c61",
+      "id": "lc-f6470f23fd81fb51a20e",
       "loja": "Malwee",
       "tipo": "promocao",
-      "titulo": "Malwee Kids - FLASH SALE !! Promos Imperdíveis por 48H , Garante mais 5% OFF Extra com cupom EXTRA5",
-      "imagem": "https://cdn.lomadee.com.br/offer/ca26ae9c-96b6-4266-88ad-39134768a1b6/banners/imagem%20-%202026-11-04T134309.257.png",
-      "link": "https://lmdee.link/fydE55GKEtDE",
+      "titulo": "Começou a Black November",
+      "imagem": "https://cdn.lomadee.com.br/offer/8c959e7e-8ac3-48e1-b761-3a4fe08ee278/banners/imagem%20-%202026-11-06T153323.635.png",
+      "link": "https://lmdee.link/NpobgMoLEKF3",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-23T02:30:00.000Z",
+      "validade": "2026-11-09T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1527,12 +1527,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-68555904da74986452ad",
+      "id": "lc-e86372a81cc5675b5c61",
       "loja": "Malwee",
       "tipo": "promocao",
-      "titulo": "Malwee - FLASH SALE:  Promos Imperdíveis por 48H , Garante mais 5% OFF Extra com cupom EXTRA5",
-      "imagem": "https://cdn.lomadee.com.br/offer/a1b22092-0169-448a-b544-e1c409d527b0/banners/imagem%20-%202026-11-04T134209.221.png",
-      "link": "https://lmdee.link/pvMuH6esRn0i",
+      "titulo": "Malwee Kids - FLASH SALE !! Promos Imperdíveis por 48H , Garante mais 5% OFF Extra com cupom EXTRA5",
+      "imagem": "https://cdn.lomadee.com.br/offer/ca26ae9c-96b6-4266-88ad-39134768a1b6/banners/imagem%20-%202026-11-04T134309.257.png",
+      "link": "https://lmdee.link/fydE55GKEtDE",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1835,30 +1835,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-5826c2ebf64508022a31",
+      "id": "lc-68555904da74986452ad",
       "loja": "Malwee",
-      "tipo": "cupom",
-      "titulo": "Malwee - PLUS SIZE COM DESCONTO 🔥 20% OFF em peças Plus Size",
-      "imagem": "",
-      "link": "https://lmdee.link/MP8g1V67BXF3",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "MAIS20",
-      "validade": "2026-11-09T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-4bfe794e2b20b42f123c",
-      "loja": "Sawary",
       "tipo": "promocao",
-      "titulo": "Temporada de Rodeio",
-      "imagem": "",
-      "link": "https://lmdee.link/xTfMf5WhGpiF",
+      "titulo": "Malwee - FLASH SALE:  Promos Imperdíveis por 48H , Garante mais 5% OFF Extra com cupom EXTRA5",
+      "imagem": "https://cdn.lomadee.com.br/offer/a1b22092-0169-448a-b544-e1c409d527b0/banners/imagem%20-%202026-11-04T134209.221.png",
+      "link": "https://lmdee.link/pvMuH6esRn0i",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": null,
+      "validade": "2026-11-23T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2003,16 +1989,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-a705d4c63575d88e222b",
+      "id": "lc-5826c2ebf64508022a31",
       "loja": "Malwee",
-      "tipo": "promocao",
-      "titulo": "COMEÇOU A BLACK NOVEMBER -Garante mais 5% OFF Extra com cupom EXTRA5",
-      "imagem": "https://cdn.lomadee.com.br/offer/6cc799f6-50f8-4bd1-b42f-2f381e28c538/banners/imagem%20-%202026-11-03T173249.388.png",
-      "link": "https://lmdee.link/c5hTSo8hF3eX",
+      "tipo": "cupom",
+      "titulo": "Malwee - PLUS SIZE COM DESCONTO 🔥 20% OFF em peças Plus Size",
+      "imagem": "",
+      "link": "https://lmdee.link/MP8g1V67BXF3",
       "preco": null,
       "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-16T02:30:00.000Z",
+      "cupom": "MAIS20",
+      "validade": "2026-11-09T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2098,6 +2084,20 @@
       "cupom": null,
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-a705d4c63575d88e222b",
+      "loja": "Malwee",
+      "tipo": "promocao",
+      "titulo": "COMEÇOU A BLACK NOVEMBER -Garante mais 5% OFF Extra com cupom EXTRA5",
+      "imagem": "https://cdn.lomadee.com.br/offer/6cc799f6-50f8-4bd1-b42f-2f381e28c538/banners/imagem%20-%202026-11-03T173249.388.png",
+      "link": "https://lmdee.link/c5hTSo8hF3eX",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-16T02:30:00.000Z",
+      "descricao": "",
       "origem": "Lomadee"
     },
     {
