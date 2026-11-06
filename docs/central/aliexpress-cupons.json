@@ -1,7 +1,7 @@
 {
   "market": "aliexpress",
   "name": "AliExpress",
-  "generatedAt": "2026-11-06T17:43:36+00:00",
+  "generatedAt": "2026-11-06T18:45:16+00:00",
   "refreshMinutes": 30,
   "count": 43,
   "sources": {
@@ -37,7 +37,7 @@
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=AliExpress",
       "publishedAt": "2026-11-05T22:39:17.839Z",
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -51,7 +51,7 @@
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=AliExpress",
       "publishedAt": "2026-11-05T11:52:36.210Z",
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -65,7 +65,7 @@
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=AliExpress",
       "publishedAt": "2026-11-03T13:53:41.662Z",
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -79,7 +79,7 @@
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=AliExpress",
       "publishedAt": "2026-11-03T03:00:00.000Z",
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -93,7 +93,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -107,7 +107,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -121,7 +121,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -135,7 +135,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -149,21 +149,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Código promocional AliExpress com R$120 OFF",
-      "couponCode": "",
-      "discountText": "R$ 120 OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -177,13 +163,13 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
-      "title": "Cupom AliExpress de R$540 OFF nas suas compras",
+      "title": "Cupom de desconto AliExpress com R$32 OFF",
       "couponCode": "",
-      "discountText": "R$ 540 OFF",
+      "discountText": "R$ 32 OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [
         "Meliuz"
@@ -191,21 +177,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom AliExpress exclusivo com R$16 OFF",
-      "couponCode": "",
-      "discountText": "R$ 16 OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -219,21 +191,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom de desconto AliExpress garante R$750 OFF",
-      "couponCode": "",
-      "discountText": "R$ 750 OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -247,7 +205,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -261,7 +219,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -275,7 +233,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -289,13 +247,13 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
-      "title": "Ganhe R$50 OFF usando o cupom AliExpress",
+      "title": "Esquenta 11.11: Cupom AliExpress exclusivo com R$16 OFF",
       "couponCode": "",
-      "discountText": "R$ 50 OFF",
+      "discountText": "R$ 16 OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [
         "Meliuz"
@@ -303,13 +261,13 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
-      "title": "Garanta R$32 OFF com cupom de desconto AliExpress",
+      "title": "Exclusivo: R$580 OFF garantido com cupom AliExpress",
       "couponCode": "",
-      "discountText": "R$ 32 OFF",
+      "discountText": "R$ 580 OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [
         "Meliuz"
@@ -317,7 +275,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -331,7 +289,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -345,21 +303,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Leve desconto de R$300 no AliExpress",
-      "couponCode": "",
-      "discountText": "R$ 300 OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -373,7 +317,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -387,7 +331,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -401,7 +345,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -415,7 +359,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -429,7 +373,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -443,7 +387,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -457,7 +401,21 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "R$120 OFF com cupom de desconto AliExpress",
+      "couponCode": "",
+      "discountText": "R$ 120 OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -471,7 +429,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -485,7 +443,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -499,7 +457,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -513,7 +471,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -527,7 +485,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -541,21 +499,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "R$580 OFF garantido com cupom AliExpress",
-      "couponCode": "",
-      "discountText": "R$ 580 OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -569,7 +513,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -583,7 +527,21 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Seu carrinho com R$750 OFF no cupom de desconto AliExpress",
+      "couponCode": "",
+      "discountText": "R$ 750 OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -597,7 +555,21 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Suas compras com R$540 OFF no cupom AliExpress",
+      "couponCode": "",
+      "discountText": "R$ 540 OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -611,7 +583,21 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Use cupom AliExpress e ganhe R$50 OFF",
+      "couponCode": "",
+      "discountText": "R$ 50 OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     },
     {
@@ -625,7 +611,21 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T17:43:36+00:00",
+      "observedAt": "2026-11-06T18:45:16+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Utilize cupom de desconto AliExpress com R$300 OFF",
+      "couponCode": "",
+      "discountText": "R$ 300 OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-aliexpress",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-06T18:45:16+00:00",
       "status": "listed"
     }
   ]
