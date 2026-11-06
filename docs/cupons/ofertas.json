@@ -1,7 +1,7 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-06T05:28:18.076543Z",
+  "atualizado_em": "2026-11-06T06:04:33.362526Z",
   "total": 76,
   "ofertas": [
     {
@@ -533,14 +533,14 @@
       "link": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=3110826&campaign=sirui+exclusive+deals+event&ued=https%3A%2F%2Fstore.sirui.com%2Fpages%2Fexclusive-deals"
     },
     {
-      "id": "4156291",
+      "id": "4163838",
       "loja": "SIRUI",
       "tipo": "cupom",
-      "titulo": "SRBFBO",
+      "titulo": "AFFSRBFBO",
       "descricao": "Enjoy an exclusive 8% off SIRUI products from November 1 to December 31, 2026. Give your audience extra savings on their favorite SIRUI lenses and accessories during the holiday season!",
       "termos": "/",
-      "cupom": "SRBFBO",
-      "validade": "2027-01-01T07:00:00Z",
+      "cupom": "AFFSRBFBO",
+      "validade": "2027-01-01T05:56:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=3110826&ued=https%3A%2F%2Fstore.sirui.com%2Fpages%2Fexclusive-deals"
     },
     {

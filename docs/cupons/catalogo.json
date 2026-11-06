@@ -1,6 +1,6 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-06T05:28:19.316917Z",
+  "atualizado_em": "2026-11-06T06:04:34.840571Z",
   "total": 103,
   "total_cupons": 87,
   "total_promocoes": 16,
@@ -911,6 +911,18 @@
       "rede": "Awin"
     },
     {
+      "id": "580a03d8d9e2a13822",
+      "loja": "SIRUI",
+      "tipo": "cupom",
+      "titulo": "AFFSRBFBO",
+      "descricao": "Enjoy an exclusive 8% off SIRUI products from November 1 to December 31, 2026. Give your audience extra savings on their favorite SIRUI lenses and accessories during the holiday season!",
+      "termos": "/",
+      "cupom": "AFFSRBFBO",
+      "validade": "2027-01-01T05:56:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=3110826&ued=https%3A%2F%2Fstore.sirui.com%2Fpages%2Fexclusive-deals",
+      "rede": "Awin"
+    },
+    {
       "id": "c03efb7663b3a0a7c1",
       "loja": "SIRUI",
       "tipo": "cupom",
@@ -932,18 +944,6 @@
       "cupom": "AFF8",
       "validade": "2029-09-28T10:58:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=3110826&ued=https%3A%2F%2Fstore.sirui.com%2Fpages%2Fsales-1",
-      "rede": "Awin"
-    },
-    {
-      "id": "a640f63b867a4cbb97",
-      "loja": "SIRUI",
-      "tipo": "cupom",
-      "titulo": "SRBFBO",
-      "descricao": "Enjoy an exclusive 8% off SIRUI products from November 1 to December 31, 2026. Give your audience extra savings on their favorite SIRUI lenses and accessories during the holiday season!",
-      "termos": "/",
-      "cupom": "SRBFBO",
-      "validade": "2027-01-01T07:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=3110826&ued=https%3A%2F%2Fstore.sirui.com%2Fpages%2Fexclusive-deals",
       "rede": "Awin"
     },
     {
