@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-06T13:26:04+00:00",
+  "atualizado_em": "2026-11-06T15:09:04+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -813,12 +813,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-a63f44199ba1c49eb20c",
+      "id": "lc-9b02123468a9913567ba",
       "loja": "Gazin",
       "tipo": "promocao",
-      "titulo": "Aproveite o 11.11 Black Friday e antecipe suas compras!",
-      "imagem": "https://cdn.lomadee.com.br/offer/db739e79-a6d7-4d07-b60f-8f144f93f114/banners/Image%20%2813%29.png",
-      "link": "https://lmdee.link/iVbtgmznqU9a",
+      "titulo": "11.11 Black Friday Gazin",
+      "imagem": "https://cdn.lomadee.com.br/offer/c1419fb5-4384-4208-8c93-09f10b1acfbd/banners/Cooperado%20Motorola%20-%2003%20a%2008_11.png",
+      "link": "https://lmdee.link/9BagYCWX2RU0",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -855,12 +855,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-0cffaf320d82d2b5b0c5",
+      "id": "lc-3b14cab974e950eb8eaf",
       "loja": "Itatiaia",
       "tipo": "promocao",
-      "titulo": "Cozinhas compactas com até 50% OFF + 5% no pix",
-      "imagem": "https://cdn.lomadee.com.br/offer/8188d91d-033d-4ba7-bfef-b056f9979a08/banners/Confira%20a%20campanha%20em%20destaque%20da%20Itatiaia%20%283%29.png",
-      "link": "https://lmdee.link/GFbdRzhyTc8f",
+      "titulo": "Cozinhas de Madeira em oferta de Black Friday!! E esses produtos ainda estão com COMISSÃO TURBINADA",
+      "imagem": "",
+      "link": "https://lmdee.link/rimCv4oJPkmp",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -911,16 +911,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-6429bbd4b1133636ddad",
+      "id": "lc-d1e297b62e81cc624d77",
       "loja": "Lojas REDE",
       "tipo": "promocao",
-      "titulo": "Ofertas Lojas Rede 05-11",
+      "titulo": "Ofertas 07-11",
       "imagem": "",
-      "link": "https://lmdee.link/OASFPSQ8ubSR",
+      "link": "https://lmdee.link/myspE2rvsZIN",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-07T02:30:00.000Z",
+      "validade": "2026-11-08T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1415,6 +1415,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-a63f44199ba1c49eb20c",
+      "loja": "Gazin",
+      "tipo": "promocao",
+      "titulo": "Aproveite o 11.11 Black Friday e antecipe suas compras!",
+      "imagem": "https://cdn.lomadee.com.br/offer/db739e79-a6d7-4d07-b60f-8f144f93f114/banners/Image%20%2813%29.png",
+      "link": "https://lmdee.link/iVbtgmznqU9a",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-12T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-10838f8775c0e1427a97",
       "loja": "Homedock",
       "tipo": "promocao",
@@ -1429,12 +1443,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-ba25c0f4d2a5e62f76b9",
+      "id": "lc-0cffaf320d82d2b5b0c5",
       "loja": "Itatiaia",
       "tipo": "promocao",
-      "titulo": "Armário de Cozinha Itatiaia Itafriz com 58% OFF",
-      "imagem": "https://cdn.lomadee.com.br/offer/e38d3c08-7529-401a-94f8-8f279d2c5732/banners/Confira%20a%20campanha%20em%20destaque%20da%20Itatiaia%20%282%29.png",
-      "link": "https://lmdee.link/mY0ayj1G2kxP",
+      "titulo": "Cozinhas compactas com até 50% OFF + 5% no pix",
+      "imagem": "https://cdn.lomadee.com.br/offer/8188d91d-033d-4ba7-bfef-b056f9979a08/banners/Confira%20a%20campanha%20em%20destaque%20da%20Itatiaia%20%283%29.png",
+      "link": "https://lmdee.link/GFbdRzhyTc8f",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1485,6 +1499,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-6429bbd4b1133636ddad",
+      "loja": "Lojas REDE",
+      "tipo": "promocao",
+      "titulo": "Ofertas Lojas Rede 05-11",
+      "imagem": "",
+      "link": "https://lmdee.link/OASFPSQ8ubSR",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-07T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-319d2f8c9df2083b0f76",
       "loja": "Líquido",
       "tipo": "cupom",
@@ -1519,20 +1547,6 @@
       "titulo": "[CATEGORIA] Ramequins",
       "imagem": "",
       "link": "https://lmdee.link/7MISKfU0QDZI",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-2e245a7c7dfe3ee2cd7e",
-      "loja": "Móveis Carraro",
-      "tipo": "promocao",
-      "titulo": "Festival de Cupons Carraro - de R$ 50 a R$ 300 OFF",
-      "imagem": "https://cdn.lomadee.com.br/offer/969cc5cf-4ce6-4f96-9e2d-01f0ad049c64/banners/FESTIVAL_1080x1920.png",
-      "link": "https://lmdee.link/RoVZrZFHqYis",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1779,6 +1793,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-ba25c0f4d2a5e62f76b9",
+      "loja": "Itatiaia",
+      "tipo": "promocao",
+      "titulo": "Armário de Cozinha Itatiaia Itafriz com 58% OFF",
+      "imagem": "https://cdn.lomadee.com.br/offer/e38d3c08-7529-401a-94f8-8f279d2c5732/banners/Confira%20a%20campanha%20em%20destaque%20da%20Itatiaia%20%282%29.png",
+      "link": "https://lmdee.link/mY0ayj1G2kxP",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-09T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-3c55ff6613db21589bfc",
       "loja": "Kidy Calçados",
       "tipo": "promocao",
@@ -1817,20 +1845,6 @@
       "preco_anterior": null,
       "cupom": "MAIS20",
       "validade": "2026-11-09T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-46baebe4716d72ac86a2",
-      "loja": "Móveis Carraro",
-      "tipo": "promocao",
-      "titulo": "Módulos de Cozinha - 8% OFF com MODULAR8",
-      "imagem": "https://cdn.lomadee.com.br/offer/01059650-81a6-4fa0-97e2-4083eccc056d/banners/MODULAR8_1064x557.png",
-      "link": "https://lmdee.link/EbWlVCQ6jcrZ",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1999,20 +2013,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-16T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-480461bbca3dee865f84",
-      "loja": "Móveis Carraro",
-      "tipo": "promocao",
-      "titulo": "Lançamentos Carraro - 10% OFF com LANCAMENTOS10",
-      "imagem": "https://cdn.lomadee.com.br/offer/ec3cfdf8-0371-4ab8-a847-20acecd26843/banners/LANCAMENTOS10_1080x1920.png",
-      "link": "https://lmdee.link/5DYHfMpHSgxT",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2603,39 +2603,11 @@
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
       "origem": "Lomadee"
-    },
-    {
-      "id": "lp-66f644edc5060b33946c",
-      "loja": "ECO FLAME GARDEN",
-      "tipo": "produto",
-      "titulo": "2 Espreguiçadeiras Casal Duo",
-      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/ecoflame_site_produtos_2-duo_branco.webp?v=1774290227",
-      "link": "https://lmdee.link/mrC0lraMJCpl",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lp-411a188f52d25dc1b934",
-      "loja": "ECO FLAME GARDEN",
-      "tipo": "produto",
-      "titulo": "2 Espreguiçadeiras Casal Duo",
-      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/ecoflame_site_produtos_2-duo_linho.webp?v=1774290227",
-      "link": "https://lmdee.link/YVYbdYKlUE0v",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
     }
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 150,
+    "com_ofertas": 148,
     "marcas": 132,
     "campanhas": 120,
     "produtos": 60,
