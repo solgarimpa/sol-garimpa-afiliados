@@ -146,7 +146,7 @@ def selecionar(catalogo, publicados, agora, historico=None, rede_desejada=None):
     data_minima = datetime.min.replace(tzinfo=timezone.utc)
     candidatos.sort(key=lambda r: (
         ultimo_por_rede.get(r[2]["rede"], data_minima),
-        -r[0], ORDEM_DESEMPATE[r[2]["rede"]], r[1]
+        ORDEM_DESEMPATE[r[2]["rede"]], -r[0], r[1]
     ))
     return candidatos[0][1:] if candidatos else None
 
