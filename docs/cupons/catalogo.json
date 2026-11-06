@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-06T02:56:14.428494Z",
-  "total": 102,
-  "total_cupons": 86,
+  "atualizado_em": "2026-11-06T03:41:44.808963Z",
+  "total": 103,
+  "total_cupons": 87,
   "total_promocoes": 16,
   "fontes": {
     "Awin": 76,
     "Rakuten": 0,
-    "Lomadee": 26
+    "Lomadee": 27
   },
   "ofertas": [
     {
@@ -860,6 +860,18 @@
       "cupom": "MAIS20",
       "validade": "2026-11-09T02:30:00Z",
       "link": "https://lmdee.link/MP8g1V67BXF3",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "1d28b29f5f8f78153f",
+      "loja": "Móveis Carraro",
+      "tipo": "cupom",
+      "titulo": "LANCAMENTOS10 - 10% OFF em Lançamentos",
+      "descricao": "",
+      "termos": "",
+      "cupom": "LANCAMENTOS10",
+      "validade": null,
+      "link": "https://lmdee.link/Zgad1XW8M6fK",
       "rede": "Lomadee"
     },
     {
