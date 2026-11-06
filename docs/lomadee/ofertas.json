@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-06T17:08:53+00:00",
+  "atualizado_em": "2026-11-06T17:59:01+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -1051,12 +1051,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-f7de0ae70b64cfab6f59",
+      "id": "lc-a06793aa7f1366e1047d",
       "loja": "Sawary",
       "tipo": "promocao",
-      "titulo": "Temporada de Bermudas, Shorts e Saias",
+      "titulo": "Campanha Alvorecer",
       "imagem": "",
-      "link": "https://lmdee.link/GkWJOtX32N7Q",
+      "link": "https://lmdee.link/dUgeY1kD17uo",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1555,12 +1555,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-4bfe794e2b20b42f123c",
+      "id": "lc-f7de0ae70b64cfab6f59",
       "loja": "Sawary",
       "tipo": "promocao",
-      "titulo": "Temporada de Rodeio",
+      "titulo": "Temporada de Bermudas, Shorts e Saias",
       "imagem": "",
-      "link": "https://lmdee.link/xTfMf5WhGpiF",
+      "link": "https://lmdee.link/GkWJOtX32N7Q",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1849,12 +1849,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-7c18f03bdcaddea5b727",
+      "id": "lc-4bfe794e2b20b42f123c",
       "loja": "Sawary",
       "tipo": "promocao",
-      "titulo": "Últimos Dias Mês Do Cliente",
+      "titulo": "Temporada de Rodeio",
       "imagem": "",
-      "link": "https://lmdee.link/VxbpF2FfGnOH",
+      "link": "https://lmdee.link/xTfMf5WhGpiF",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
