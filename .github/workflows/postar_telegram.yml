@@ -11,6 +11,16 @@ on:
         required: true
         type: boolean
         default: false
+      rede:
+        description: 'Qual rede publicar? (Automatica usa revezamento)'
+        required: true
+        type: choice
+        options:
+          - Automatica
+          - Lomadee
+          - Awin
+          - Rakuten
+        default: Automatica
 
 permissions:
   contents: write
@@ -40,16 +50,24 @@ jobs:
       - name: Testar envio de fotos e fallback (sem conexao externa)
         run: python -m unittest discover -s tests -p 'test_telegram_imagens.py' -v
 
+      - name: Validar revezamento entre Awin Lomadee e Rakuten
+        run: python -m unittest discover -s tests -p 'test_postar_telegram_redes.py' -v
+
       - name: Testar ou publicar
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: '@solgarimpaofertas'
           PUBLICAR: ${{ github.event_name == 'schedule' || inputs.publicar == true }}
+          REDE: ${{ inputs.rede || 'Automatica' }}
         run: |
+          args=()
+          if [ "$REDE" != "Automatica" ]; then
+            args+=(--rede "$REDE")
+          fi
           if [ "$PUBLICAR" = "true" ]; then
-            python scripts/postar_telegram.py
+            python scripts/postar_telegram.py "${args[@]}"
           else
-            python scripts/postar_telegram.py --dry-run
+            python scripts/postar_telegram.py --dry-run "${args[@]}"
           fi
 
       - name: Registrar envio bem-sucedido
