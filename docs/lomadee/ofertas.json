@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-06T01:29:22+00:00",
+  "atualizado_em": "2026-11-06T03:06:19+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -547,16 +547,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-5e26167a519887762b85",
+      "id": "lc-f53e3bcb02f228853a05",
       "loja": "Amoedo",
       "tipo": "promocao",
-      "titulo": "5° especial Amoedo: 5 produtos, 5 preços, Somente 5° feira",
-      "imagem": "https://cdn.lomadee.com.br/offer/9082ea3d-3133-4a57-99ba-41958a05b47d/banners/Banner%20image%20%2810%29.png",
-      "link": "https://lmdee.link/TRu0bQnjC3Wj",
+      "titulo": "Ofertas da semana",
+      "imagem": "https://cdn.lomadee.com.br/offer/cb67e7f8-ff43-4942-854a-1b44b11989a0/banners/Campanha%20Mensal%20Amoedo%20%282%29.png",
+      "link": "https://lmdee.link/nfZgNIuJhiou",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-06T02:30:00.000Z",
+      "validade": "2026-11-09T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1079,20 +1079,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-7c1ecfbbbd79f3d32e37",
-      "loja": "Shopee",
-      "tipo": "promocao",
-      "titulo": "Resgate os cupons dos produtos aqui:",
-      "imagem": "",
-      "link": "https://lmdee.link/foPfFZ5giTvn",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-06T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-e958ebfff6ed294a228a",
       "loja": "Sofá na Caixa",
       "tipo": "promocao",
@@ -1243,20 +1229,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-11T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-f53e3bcb02f228853a05",
-      "loja": "Amoedo",
-      "tipo": "promocao",
-      "titulo": "Ofertas da semana",
-      "imagem": "https://cdn.lomadee.com.br/offer/cb67e7f8-ff43-4942-854a-1b44b11989a0/banners/Campanha%20Mensal%20Amoedo%20%282%29.png",
-      "link": "https://lmdee.link/nfZgNIuJhiou",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-09T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1513,20 +1485,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-ed9d1bd831dff3773b70",
-      "loja": "Lojas REDE",
-      "tipo": "promocao",
-      "titulo": "Super Ofertas Lojas Rede",
-      "imagem": "",
-      "link": "https://lmdee.link/dRTCMrhNdv10",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-06T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-319d2f8c9df2083b0f76",
       "loja": "Líquido",
       "tipo": "cupom",
@@ -1569,6 +1527,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-2e245a7c7dfe3ee2cd7e",
+      "loja": "Móveis Carraro",
+      "tipo": "promocao",
+      "titulo": "Festival de Cupons Carraro - de R$ 50 a R$ 300 OFF",
+      "imagem": "https://cdn.lomadee.com.br/offer/969cc5cf-4ce6-4f96-9e2d-01f0ad049c64/banners/FESTIVAL_1080x1920.png",
+      "link": "https://lmdee.link/RoVZrZFHqYis",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-4bfe794e2b20b42f123c",
       "loja": "Sawary",
       "tipo": "promocao",
@@ -1579,20 +1551,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-fcbeffe76e71f4bf45de",
-      "loja": "Shopee",
-      "tipo": "promocao",
-      "titulo": "Smartphone Motorola Moto G17 256GB (De: R$1.299,00 Por: R$739,68 no PIX com cupom)",
-      "imagem": "https://cdn.lomadee.com.br/offer/4d853fb4-e575-4a23-8936-f0da9353181c/banners/imagem%20-%202026-11-05T133516.693.png",
-      "link": "https://lmdee.link/WW51Dourt8HC",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-06T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1863,16 +1821,30 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-dfedf45185a132f28443",
-      "loja": "Shopee",
+      "id": "lc-46baebe4716d72ac86a2",
+      "loja": "Móveis Carraro",
       "tipo": "promocao",
-      "titulo": "Conjunto Sala de Jantar (De: R$1.709,90 Por: R$880,35 no PIX com cupom)",
-      "imagem": "https://cdn.lomadee.com.br/offer/f710811b-c4ae-4209-8c9f-0a273de291a6/banners/imagem%20-%202026-11-05T133516.693.png",
-      "link": "https://lmdee.link/TjvieT5afDdp",
+      "titulo": "Módulos de Cozinha - 8% OFF com MODULAR8",
+      "imagem": "https://cdn.lomadee.com.br/offer/01059650-81a6-4fa0-97e2-4083eccc056d/banners/MODULAR8_1064x557.png",
+      "link": "https://lmdee.link/EbWlVCQ6jcrZ",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-06T02:30:00.000Z",
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-7c18f03bdcaddea5b727",
+      "loja": "Sawary",
+      "tipo": "promocao",
+      "titulo": "Últimos Dias Mês Do Cliente",
+      "imagem": "",
+      "link": "https://lmdee.link/VxbpF2FfGnOH",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2031,6 +2003,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-480461bbca3dee865f84",
+      "loja": "Móveis Carraro",
+      "tipo": "promocao",
+      "titulo": "Lançamentos Carraro - 10% OFF com LANCAMENTOS10",
+      "imagem": "https://cdn.lomadee.com.br/offer/ec3cfdf8-0371-4ab8-a847-20acecd26843/banners/LANCAMENTOS10_1080x1920.png",
+      "link": "https://lmdee.link/5DYHfMpHSgxT",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-27d5c5b79cfc5ebdfd40",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -2112,6 +2098,20 @@
       "cupom": null,
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-bb5af2c0883a7399cb04",
+      "loja": "Móveis Carraro",
+      "tipo": "cupom",
+      "titulo": "LANCAMENTOS10 - 10% OFF em Lançamentos",
+      "imagem": "",
+      "link": "https://lmdee.link/Zgad1XW8M6fK",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "LANCAMENTOS10",
+      "validade": null,
+      "descricao": "",
       "origem": "Lomadee"
     },
     {
@@ -2617,11 +2617,25 @@
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
       "origem": "Lomadee"
+    },
+    {
+      "id": "lp-411a188f52d25dc1b934",
+      "loja": "ECO FLAME GARDEN",
+      "tipo": "produto",
+      "titulo": "2 Espreguiçadeiras Casal Duo",
+      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/ecoflame_site_produtos_2-duo_linho.webp?v=1774290227",
+      "link": "https://lmdee.link/YVYbdYKlUE0v",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
+      "origem": "Lomadee"
     }
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 149,
+    "com_ofertas": 150,
     "marcas": 132,
     "campanhas": 120,
     "produtos": 60,
