@@ -1,8 +1,8 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-06T16:31:35.541141Z",
-  "total": 90,
+  "atualizado_em": "2026-11-06T17:22:03.910460Z",
+  "total": 96,
   "ofertas": [
     {
       "id": "4165018",
@@ -300,6 +300,17 @@
       "cupom": "100IMPRESSORA",
       "validade": "2026-12-01T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F699106%2Fmultifuncional-tanque-de-tinta-brother-dcp-t530dw-bivolt"
+    },
+    {
+      "id": "4164641",
+      "loja": "Lauri Esporte",
+      "tipo": "cupom",
+      "titulo": "Black Friday: 10% OFF em todo o site + 10% no Pix",
+      "descricao": "Cupom de Black Friday: 10% OFF em todo o site, inclusive On Running em promoção. Pagando no Pix, até 20% de desconto. Frete grátis e 15% de cashback.",
+      "termos": "Cupom BLACKAWIN10: 10% de desconto em todo o site, inclusive produtos em promoção. Válido até 01/12/2026. Cumulativo com o desconto de 10% no Pix: pagando no Pix, o cliente pode ter até 20% de desconto. A compra também gera 15% de cashback para pedidos futuros. Frete grátis para todo o Brasil.",
+      "cupom": "BLACKAWIN10",
+      "validade": "2026-12-02T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2F"
     },
     {
       "id": "3867825",
@@ -610,6 +621,17 @@
       "link": "https://www.awin1.com/cread.php?awinmid=61233&awinaffid=3110826&campaign=EarFun+New+Arrival+2026&ued=https%3A%2F%2Fwww.myearfun.com%2Fheadphones%2Fearfun-air-pro-4i-anc-true-wireless-earbuds-black"
     },
     {
+      "id": "3402663",
+      "loja": "Lauri Esporte",
+      "tipo": "promocao",
+      "titulo": "Frete Grátis para todo Brasil",
+      "descricao": "Em qualquer compra em nossa loja, tenha frete grátis",
+      "termos": "",
+      "cupom": "",
+      "validade": "2026-12-31T21:34:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2F"
+    },
+    {
       "id": "3776918",
       "loja": "Eurorelogios BR",
       "tipo": "cupom",
@@ -652,6 +674,50 @@
       "cupom": "PRIMEIRACOMPRA",
       "validade": "2027-01-01T02:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=46269&awinaffid=3110826&ued=https%3A%2F%2Fhipervarejo.com.br%2F"
+    },
+    {
+      "id": "4164657",
+      "loja": "Lauri Esporte",
+      "tipo": "promocao",
+      "titulo": "On Running com frete grátis e até 20% OFF no Pix + cupom",
+      "descricao": "Revenda oficial On Running na Lauri Esporte, loja de calçados esportivos desde 2008. Frete grátis para todo o Brasil, cupom de 10% + 10% no Pix e 15% de cashback.",
+      "termos": "Frete grátis para todo o Brasil em qualquer compra. Cupom de 10% (AWIN10, BLACKAWIN10 no período da Black Friday ou cupom exclusivo do afiliado) cumulativo com 10% de desconto no Pix, totalizando até 20% OFF, inclusive em modelos On já em promoção. A compra gera 15% de cashback para pedidos futuros. Sujeito à disponibilidade de estoque.",
+      "cupom": "",
+      "validade": "2027-01-01T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2Fmarcas%2Fon-running%3Fsort_by%3Drelevance"
+    },
+    {
+      "id": "4164648",
+      "loja": "Lauri Esporte",
+      "tipo": "promocao",
+      "titulo": "15% de cashback em todas as compras",
+      "descricao": "Toda compra na Lauri Esporte gera 15% de cashback para usar em pedidos futuros, inclusive compras com cupom de desconto. Frete grátis para todo o Brasil.",
+      "termos": "Cashback de 15% do valor da compra, creditado para uso em pedidos futuros no site lauriesporte.com.br. Válido para todos os produtos, inclusive compras com cupom de desconto e produtos em promoção. Frete grátis para todo o Brasil.",
+      "cupom": "",
+      "validade": "2027-01-01T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2F"
+    },
+    {
+      "id": "4164643",
+      "loja": "Lauri Esporte",
+      "tipo": "promocao",
+      "titulo": "Até 20% OFF: cupom de 10% + 10% no Pix",
+      "descricao": "Pagando no Pix o cliente ganha 10% de desconto, que acumula com o cupom de 10%: até 20% OFF em tênis On Running, Asics, New Balance, Salomon e mais. Frete grátis para todo o Brasil.",
+      "termos": "Desconto de 10% para pagamento via Pix, cumulativo com cupons de 10% (AWIN10, BLACKAWIN10 ou cupom exclusivo do afiliado), totalizando até 20% de desconto. Válido inclusive para produtos em promoção. A compra gera 15% de cashback para pedidos futuros. Frete grátis para todo o Brasil.",
+      "cupom": "",
+      "validade": "2027-01-01T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2F"
+    },
+    {
+      "id": "3383739",
+      "loja": "Lauri Esporte",
+      "tipo": "cupom",
+      "titulo": "10% De Desconto Em Todo Site",
+      "descricao": "Utilize o cupom para receber 10% off em qualquer compra no site",
+      "termos": "10% de desconto em todo o site, inclusive produtos em promoção. Cumulativo com o desconto de 10% no Pix: pagando no Pix, o cliente pode ter até 20% de desconto. A compra também gera 15% de cashback para pedidos futuros. Frete grátis para todo o Brasil. Válido até 31/12/2026.",
+      "cupom": "AWIN10",
+      "validade": "2027-01-01T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2F"
     },
     {
       "id": "3928565",
