@@ -40,7 +40,7 @@ def _date(value):
     value = str(value or "").strip()
     if not value:
         return None
-    for fmt in ("%m%d%Y", "%m/%d/%Y", "%Y-%m-%d", "%Y%m%d", "%Y-%m-%dT%H:%M:%S"):
+    for fmt in ("%m%d%Y", "%m/%d/%Y", "%Y-%m-%d", "%Y%m%d", "%Y-%m-%dT%H:%M:%S", "%b %d, %Y", "%b %d %Y", "%B %d, %Y"):
         try:
             return datetime.strptime(value, fmt).replace(tzinfo=timezone.utc)
         except ValueError:
