@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-06T20:01:57+00:00",
+  "atualizado_em": "2026-11-06T20:59:40+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -533,16 +533,16 @@
   ],
   "cards": [
     {
-      "id": "lc-b64692e3a69c9324fb0b",
+      "id": "lc-d062ab54e80cd6373a43",
       "loja": "Amakha Paris",
       "tipo": "promocao",
-      "titulo": "Descontos progressivos + brinde",
-      "imagem": "https://cdn.lomadee.com.br/offer/3c04cbe5-956a-4aba-8aff-678801bb4913/banners/Imagem%20do%20Banner%20%287%29.png",
-      "link": "https://lmdee.link/uttuDmUg10NM",
+      "titulo": "banner elegance",
+      "imagem": "",
+      "link": "https://lmdee.link/uJRyMTx4DHLz",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-09T02:30:00.000Z",
+      "validade": "2026-12-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -771,20 +771,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-d0629263e1d88c8e77e0",
-      "loja": "eles.®",
-      "tipo": "cupom",
-      "titulo": "Oferta Outubro Rosa elas. para emagrecimento 15% off",
-      "imagem": "",
-      "link": "https://lmdee.link/4w25yU4r7V5b",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "outubrorosa",
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-a86078a74cd1df18a8dc",
       "loja": "Ferramentas Kennedy",
       "tipo": "promocao",
@@ -953,16 +939,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-f6470f23fd81fb51a20e",
+      "id": "lc-dbae9d1740b1bf2c0607",
       "loja": "Malwee",
       "tipo": "promocao",
-      "titulo": "Começou a Black November",
-      "imagem": "https://cdn.lomadee.com.br/offer/8c959e7e-8ac3-48e1-b761-3a4fe08ee278/banners/imagem%20-%202026-11-06T153323.635.png",
-      "link": "https://lmdee.link/NpobgMoLEKF3",
+      "titulo": "11.11 na Black da Malwee - até 40% OFF + 30% OFF 🎟️ Usando o cupom 11DO11",
+      "imagem": "https://cdn.lomadee.com.br/offer/247c030d-bc6d-4e84-bfb3-bccdb5238838/banners/imagem%20-%202026-11-06T172521.302.png",
+      "link": "https://lmdee.link/r3ycE6lc5E7D",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-09T02:30:00.000Z",
+      "validade": "2026-11-12T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -991,20 +977,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-17T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-065dfa512d13ef003ea0",
-      "loja": "Mundo Vem",
-      "tipo": "promocao",
-      "titulo": "[CATEGORIA] Copos",
-      "imagem": "",
-      "link": "https://lmdee.link/aeis6lFbJiH9",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1191,20 +1163,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-3fdea243af09ef5e78f1",
-      "loja": "Zupper",
-      "tipo": "cupom",
-      "titulo": "Cupom de R$ 25,00 de desconto (uso ilimitado)",
-      "imagem": "",
-      "link": "https://lmdee.link/geL8GLQ5Mgns",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "ZUPPLOM25",
-      "validade": "2027-01-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-3b88b003f768598af5bc",
       "loja": "Óticas Foto Paulo",
       "tipo": "promocao",
@@ -1219,16 +1177,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-3563909086ca2edbd863",
+      "id": "lc-0d2681339713b19eff9b",
       "loja": "Amakha Paris",
       "tipo": "promocao",
-      "titulo": "story BF V1 monte seu kit",
+      "titulo": "banner elegance",
       "imagem": "",
-      "link": "https://lmdee.link/vU98UgpAzqGI",
+      "link": "https://lmdee.link/uxRlawYMUnIh",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-11T02:30:00.000Z",
+      "validade": "2026-12-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1359,20 +1317,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-bcd8e91671704ecefb1c",
-      "loja": "Coza",
-      "tipo": "cupom",
-      "titulo": "R$20 off em compras acima de R$150",
-      "imagem": "",
-      "link": "https://lmdee.link/SVnu99vLQb3k",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "BLACK20",
-      "validade": "2026-12-11T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lp-eb35fd6840641a14b2bd",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
@@ -1384,20 +1328,6 @@
       "cupom": null,
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-9c1c5c847b6d9a5aeb08",
-      "loja": "eles.®",
-      "tipo": "promocao",
-      "titulo": "Outubro Rosa elas.",
-      "imagem": "https://cdn.lomadee.com.br/offer/27cc1c2b-f455-4961-a476-13072d01e502/banners/Imagem%20do%20ChatGPT%209%20de%20out.%20de%202026%2C%2017_22_23.png",
-      "link": "https://lmdee.link/IQDiC3iOZkT3",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
       "origem": "Lomadee"
     },
     {
@@ -1527,30 +1457,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-e86372a81cc5675b5c61",
+      "id": "lc-2ce9b67b3c782a38b9c6",
       "loja": "Malwee",
       "tipo": "promocao",
-      "titulo": "Malwee Kids - FLASH SALE !! Promos Imperdíveis por 48H , Garante mais 5% OFF Extra com cupom EXTRA5",
-      "imagem": "https://cdn.lomadee.com.br/offer/ca26ae9c-96b6-4266-88ad-39134768a1b6/banners/imagem%20-%202026-11-04T134309.257.png",
-      "link": "https://lmdee.link/fydE55GKEtDE",
+      "titulo": "11.11 na Black da Malwee Kids - até 40% OFF + 30% OFF 🎟️ Usando o cupom 11DO11",
+      "imagem": "https://cdn.lomadee.com.br/offer/aad8a6a7-b3c1-4f2f-a124-134b2dfcc87f/banners/imagem%20-%202026-11-06T172044.645.png",
+      "link": "https://lmdee.link/U5lg96rjqLwY",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-23T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-88db0c926054a9af9da1",
-      "loja": "Mundo Vem",
-      "tipo": "promocao",
-      "titulo": "[CATEGORIA] Ramequins",
-      "imagem": "",
-      "link": "https://lmdee.link/7MISKfU0QDZI",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
+      "validade": "2026-11-12T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1639,20 +1555,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-5f147fca1f2f59c516a2",
-      "loja": "Zupper",
-      "tipo": "cupom",
-      "titulo": "Cupom de R$ 25,00 de desconto (apenas para primeira compra 1 por CPF)",
-      "imagem": "",
-      "link": "https://lmdee.link/goTvpMKdOivt",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "ZUPPLOM40",
-      "validade": "2027-01-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-0a07dd45c6b24055143a",
       "loja": "Óticas Foto Paulo",
       "tipo": "cupom",
@@ -1667,16 +1569,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-f2dea15e1c0737187df4",
+      "id": "lc-d4cb9f97875862d72b3c",
       "loja": "Amakha Paris",
       "tipo": "promocao",
-      "titulo": "banner BF monte seu kit 2336x300",
+      "titulo": "banner elegance",
       "imagem": "",
-      "link": "https://lmdee.link/uMeeEbKTYJKm",
+      "link": "https://lmdee.link/qBvcbqUpBWd7",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-11T02:30:00.000Z",
+      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1737,34 +1639,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-553797bfed878a6dcd2d",
-      "loja": "China in Box",
-      "tipo": "cupom",
-      "titulo": "Cupom Frete Gratis",
-      "imagem": "",
-      "link": "https://lmdee.link/69aTXVdd4fbx",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "FRETELOMADEE",
-      "validade": "2027-01-01T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-bdc0bf70fde614d282ce",
-      "loja": "Coza",
-      "tipo": "cupom",
-      "titulo": "R$15 off em compras acima de R$100",
-      "imagem": "",
-      "link": "https://lmdee.link/1QFD5FFnXqZr",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "BLACK15",
-      "validade": "2026-12-11T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lp-5076ce9fb35dbb14660d",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
@@ -1776,20 +1650,6 @@
       "cupom": null,
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-3bd2c1db834cf21116a8",
-      "loja": "eles.®",
-      "tipo": "cupom",
-      "titulo": "Preblack",
-      "imagem": "",
-      "link": "https://lmdee.link/iIBsvCOgPe2m",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "Preblack",
-      "validade": null,
-      "descricao": "",
       "origem": "Lomadee"
     },
     {
@@ -1835,16 +1695,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-68555904da74986452ad",
+      "id": "lc-f6470f23fd81fb51a20e",
       "loja": "Malwee",
       "tipo": "promocao",
-      "titulo": "Malwee - FLASH SALE:  Promos Imperdíveis por 48H , Garante mais 5% OFF Extra com cupom EXTRA5",
-      "imagem": "https://cdn.lomadee.com.br/offer/a1b22092-0169-448a-b544-e1c409d527b0/banners/imagem%20-%202026-11-04T134209.221.png",
-      "link": "https://lmdee.link/pvMuH6esRn0i",
+      "titulo": "Começou a Black November",
+      "imagem": "https://cdn.lomadee.com.br/offer/8c959e7e-8ac3-48e1-b761-3a4fe08ee278/banners/imagem%20-%202026-11-06T153323.635.png",
+      "link": "https://lmdee.link/NpobgMoLEKF3",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-23T02:30:00.000Z",
+      "validade": "2026-11-09T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1891,12 +1751,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-173be41b4745841bcdcc",
+      "id": "lc-8e8cb599a8e161953eae",
       "loja": "Amakha Paris",
       "tipo": "promocao",
-      "titulo": "Durante todo o mês de Novembro estaremos com comissionamento EXCLUSIVO e muitas ofertas de Black Friday Acompanhe em nossa plataforma",
+      "titulo": "banner chic woman",
       "imagem": "",
-      "link": "https://lmdee.link/5weNmERgR44c",
+      "link": "https://lmdee.link/X7kF4rNz8xHY",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1915,20 +1775,6 @@
       "preco_anterior": null,
       "cupom": "AAStore",
       "validade": "2026-12-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-6a494c7ce1cb19c4802f",
-      "loja": "Bauducco",
-      "tipo": "promocao",
-      "titulo": "Fornada de Natal",
-      "imagem": "",
-      "link": "https://lmdee.link/aDV67SbpzSPG",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1975,30 +1821,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-a6a3f910fb196b6de150",
-      "loja": "eles.®",
+      "id": "lc-e86372a81cc5675b5c61",
+      "loja": "Malwee",
       "tipo": "promocao",
-      "titulo": "PRÉ BLACK FRIDAY EMAGRECIMENTO ELES",
-      "imagem": "https://cdn.lomadee.com.br/offer/938705ff-f523-429f-b809-53ba601b317e/banners/banners_pre_black_eles_10_separados.zip",
-      "link": "https://lmdee.link/QbF7zsGwzdpL",
+      "titulo": "Malwee Kids - FLASH SALE !! Promos Imperdíveis por 48H , Garante mais 5% OFF Extra com cupom EXTRA5",
+      "imagem": "https://cdn.lomadee.com.br/offer/ca26ae9c-96b6-4266-88ad-39134768a1b6/banners/imagem%20-%202026-11-04T134309.257.png",
+      "link": "https://lmdee.link/fydE55GKEtDE",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-5826c2ebf64508022a31",
-      "loja": "Malwee",
-      "tipo": "cupom",
-      "titulo": "Malwee - PLUS SIZE COM DESCONTO 🔥 20% OFF em peças Plus Size",
-      "imagem": "",
-      "link": "https://lmdee.link/MP8g1V67BXF3",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "MAIS20",
-      "validade": "2026-11-09T02:30:00.000Z",
+      "validade": "2026-11-23T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2017,6 +1849,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-1974f81031cf43bfafdd",
+      "loja": "Amakha Paris",
+      "tipo": "promocao",
+      "titulo": "banner chic woman",
+      "imagem": "",
+      "link": "https://lmdee.link/Yf2JfvnEK8W6",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-ab8c31921b04f6dffa6b",
       "loja": "Autoamerica Store",
       "tipo": "promocao",
@@ -2027,20 +1873,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2027-01-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-dacc943985f951031750",
-      "loja": "Bauducco",
-      "tipo": "promocao",
-      "titulo": "Cestas de Natal",
-      "imagem": "",
-      "link": "https://lmdee.link/5RDqxMpqPmEj",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2087,16 +1919,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-a705d4c63575d88e222b",
+      "id": "lc-68555904da74986452ad",
       "loja": "Malwee",
       "tipo": "promocao",
-      "titulo": "COMEÇOU A BLACK NOVEMBER -Garante mais 5% OFF Extra com cupom EXTRA5",
-      "imagem": "https://cdn.lomadee.com.br/offer/6cc799f6-50f8-4bd1-b42f-2f381e28c538/banners/imagem%20-%202026-11-03T173249.388.png",
-      "link": "https://lmdee.link/c5hTSo8hF3eX",
+      "titulo": "Malwee - FLASH SALE:  Promos Imperdíveis por 48H , Garante mais 5% OFF Extra com cupom EXTRA5",
+      "imagem": "https://cdn.lomadee.com.br/offer/a1b22092-0169-448a-b544-e1c409d527b0/banners/imagem%20-%202026-11-04T134209.221.png",
+      "link": "https://lmdee.link/pvMuH6esRn0i",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-16T02:30:00.000Z",
+      "validade": "2026-11-23T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2115,16 +1947,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-11af6e9cabee366fb216",
-      "loja": "Bauducco",
+      "id": "lc-69db9015b186d2c9e786",
+      "loja": "Amakha Paris",
       "tipo": "promocao",
-      "titulo": "Frete Grátis para o estado de SP para pedidos acima de R$ 199",
-      "imagem": "https://cdn.lomadee.com.br/offer/86005dd8-01db-44da-af9c-d08d0542027c/banners/800x1200%20pixels%20-%20com%20logo%20e%20CTA.jpg",
-      "link": "https://lmdee.link/JLVS7g08gIfS",
+      "titulo": "banner chic woan",
+      "imagem": "",
+      "link": "https://lmdee.link/L9Jac7wcqpbB",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": null,
+      "validade": "2026-12-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2157,6 +1989,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-5826c2ebf64508022a31",
+      "loja": "Malwee",
+      "tipo": "cupom",
+      "titulo": "Malwee - PLUS SIZE COM DESCONTO 🔥 20% OFF em peças Plus Size",
+      "imagem": "",
+      "link": "https://lmdee.link/MP8g1V67BXF3",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "MAIS20",
+      "validade": "2026-11-09T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-e29a4122b2c485e0aa07",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -2167,6 +2013,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-98646e13be039db4ab70",
+      "loja": "Amakha Paris",
+      "tipo": "promocao",
+      "titulo": "feed monte seu kit bf v3",
+      "imagem": "",
+      "link": "https://lmdee.link/AB3NSu6el02X",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-11T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2199,6 +2059,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-a705d4c63575d88e222b",
+      "loja": "Malwee",
+      "tipo": "promocao",
+      "titulo": "COMEÇOU A BLACK NOVEMBER -Garante mais 5% OFF Extra com cupom EXTRA5",
+      "imagem": "https://cdn.lomadee.com.br/offer/6cc799f6-50f8-4bd1-b42f-2f381e28c538/banners/imagem%20-%202026-11-03T173249.388.png",
+      "link": "https://lmdee.link/c5hTSo8hF3eX",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-16T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-f5cc0a3186ba5aea97e8",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -2209,6 +2083,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-b51216c4671d710b4ce9",
+      "loja": "Amakha Paris",
+      "tipo": "promocao",
+      "titulo": "story BF V3 monte seu kit",
+      "imagem": "",
+      "link": "https://lmdee.link/2xYpJmzwUbAf",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-11T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2255,6 +2143,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-dcd310f7edbd95645ab9",
+      "loja": "Amakha Paris",
+      "tipo": "promocao",
+      "titulo": "feed monte seu kit bf v2",
+      "imagem": "",
+      "link": "https://lmdee.link/TWZ2eZeVvSSJ",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-11T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lp-5adcaf5019c6129b45c6",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
@@ -2279,6 +2181,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-ecc4a093a4ff5261aef0",
+      "loja": "Amakha Paris",
+      "tipo": "promocao",
+      "titulo": "story BF V2 monte seu kit",
+      "imagem": "",
+      "link": "https://lmdee.link/vsW3z6lTDr0R",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-11T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2311,6 +2227,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-dea464fc532307890ceb",
+      "loja": "Amakha Paris",
+      "tipo": "promocao",
+      "titulo": "feed monte seu kit bf",
+      "imagem": "",
+      "link": "https://lmdee.link/kjRpHXUWycGV",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-11T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lp-c3ec428b05249bb18c02",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
@@ -2339,6 +2269,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-58592c2806a2974cfd5b",
+      "loja": "Amakha Paris",
+      "tipo": "promocao",
+      "titulo": "banner BF monte seu kit",
+      "imagem": "",
+      "link": "https://lmdee.link/Gu3Ef7hmfPyL",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-11T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lp-e873aaea60e3957740ba",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
@@ -2353,16 +2297,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-cb39d936dec613105b71",
-      "loja": "Soulier",
+      "id": "lc-cbb143dc0474bd001153",
+      "loja": "Amakha Paris",
       "tipo": "promocao",
-      "titulo": "Até 25% na coleção de primavera verão",
-      "imagem": "https://cdn.lomadee.com.br/offer/b0ddcd45-be1d-44d3-998d-5111c589bddd/banners/120x600%20%281%29.jpg",
-      "link": "https://lmdee.link/vIXrh5IyxHHQ",
+      "titulo": "banner monte seu ki bf",
+      "imagem": "",
+      "link": "https://lmdee.link/x6WFLAeJq5yO",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-12-01T02:59:59.000Z",
+      "validade": "2026-11-11T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2381,6 +2325,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-b64692e3a69c9324fb0b",
+      "loja": "Amakha Paris",
+      "tipo": "promocao",
+      "titulo": "Descontos progressivos + brinde",
+      "imagem": "https://cdn.lomadee.com.br/offer/3c04cbe5-956a-4aba-8aff-678801bb4913/banners/Imagem%20do%20Banner%20%287%29.png",
+      "link": "https://lmdee.link/uttuDmUg10NM",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-09T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lp-74c8623136e856d25c1f",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
@@ -2392,6 +2350,20 @@
       "cupom": null,
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-3563909086ca2edbd863",
+      "loja": "Amakha Paris",
+      "tipo": "promocao",
+      "titulo": "story BF V1 monte seu kit",
+      "imagem": "",
+      "link": "https://lmdee.link/vU98UgpAzqGI",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-11T02:30:00.000Z",
+      "descricao": "",
       "origem": "Lomadee"
     },
     {
@@ -2409,6 +2381,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-f2dea15e1c0737187df4",
+      "loja": "Amakha Paris",
+      "tipo": "promocao",
+      "titulo": "banner BF monte seu kit 2336x300",
+      "imagem": "",
+      "link": "https://lmdee.link/uMeeEbKTYJKm",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-11T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lp-af8fb1ba3cf2a48c7197",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
@@ -2420,6 +2406,20 @@
       "cupom": null,
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-173be41b4745841bcdcc",
+      "loja": "Amakha Paris",
+      "tipo": "promocao",
+      "titulo": "Durante todo o mês de Novembro estaremos com comissionamento EXCLUSIVO e muitas ofertas de Black Friday Acompanhe em nossa plataforma",
+      "imagem": "",
+      "link": "https://lmdee.link/5weNmERgR44c",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
       "origem": "Lomadee"
     },
     {
