@@ -1,9 +1,9 @@
 {
   "market": "mercado-livre",
   "name": "Mercado Livre",
-  "generatedAt": "2026-11-06T15:44:29+00:00",
+  "generatedAt": "2026-11-06T16:47:44+00:00",
   "refreshMinutes": 30,
-  "count": 38,
+  "count": 44,
   "sources": {
     "Cuponomia": {
       "ok": false,
@@ -12,7 +12,7 @@
     },
     "Meliuz": {
       "ok": true,
-      "quantidade": 32
+      "quantidade": 38
     },
     "Pelando": {
       "ok": false,
@@ -27,6 +27,20 @@
   "note": "Cupons listados nas fontes, nao testados no checkout. Cashback exclusivo de outros sites nao e oferecido pela Sol Garimpa.",
   "coupons": [
     {
+      "title": "Cupom Mercado Livre - 15% OFF acima de R$69 limitado à R$20",
+      "couponCode": "VALE15",
+      "discountText": "15% OFF",
+      "description": "Em itens Selecionados ,testem",
+      "sources": [
+        "Pelando"
+      ],
+      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Mercado%20Livre",
+      "publishedAt": "2026-11-06T16:00:54.679Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-06T16:47:44+00:00",
+      "status": "listed"
+    },
+    {
       "title": "Cupom Mercado Livre - 10% OFF acima de R$89 limitado à R$20 Itens Beleza",
       "couponCode": "BELEZA0611",
       "discountText": "10% OFF",
@@ -37,7 +51,7 @@
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Mercado%20Livre",
       "publishedAt": "2026-11-06T15:09:01.119Z",
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -51,7 +65,7 @@
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Mercado%20Livre",
       "publishedAt": "2026-11-06T15:02:28.169Z",
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -65,35 +79,7 @@
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Mercado%20Livre",
       "publishedAt": "2026-11-06T15:01:52.592Z",
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Mercado Livre oferece R$ 400 OFF em R$ 2699",
-      "couponCode": "SEMPREOFF",
-      "discountText": "R$ 400 OFF",
-      "description": "Cupom Mercado Livre oferece R$ 400 em R$ 2699",
-      "sources": [
-        "Pelando"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Mercado%20Livre",
-      "publishedAt": "2026-11-06T15:00:36.669Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Mercado Livre 15% OFF em itens selecionadas da Electrolux",
-      "couponCode": "ELUX15",
-      "discountText": "15% OFF",
-      "description": "Cupom válido em itens selecionados",
-      "sources": [
-        "Pelando"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Mercado%20Livre",
-      "publishedAt": "2026-11-06T15:00:00.000Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -107,7 +93,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -121,7 +107,21 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Desconto bônus de 20% na seleção",
+      "couponCode": "BONUSML",
+      "discountText": "20% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -135,7 +135,21 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "30% OFF em produtos Kenvue com cupom mercado livre",
+      "couponCode": "",
+      "discountText": "30% OFF",
+      "description": "Aqui deu frete grátis em praticamente tudo, compensando muito",
+      "sources": [
+        "Pelando"
+      ],
+      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Mercado%20Livre",
+      "publishedAt": "2026-11-06T16:15:27.087Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -149,7 +163,7 @@
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Mercado%20Livre",
       "publishedAt": "2026-11-06T15:12:46.490Z",
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -163,13 +177,13 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
-      "title": "Acessórios automotivos com 20% OFF",
+      "title": "18% OFF em produtos escolhidos da semana",
       "couponCode": "",
-      "discountText": "20% OFF",
+      "discountText": "18% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [
         "Meliuz"
@@ -177,7 +191,21 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Acessórios automotivos com 25% OFF",
+      "couponCode": "",
+      "discountText": "25% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -191,7 +219,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -205,7 +233,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -219,7 +247,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -233,13 +261,13 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
-      "title": "Casa e decoração com 20% de desconto",
+      "title": "Casa e decoração com 25% de desconto",
       "couponCode": "",
-      "discountText": "20% OFF",
+      "discountText": "25% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [
         "Meliuz"
@@ -247,7 +275,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -261,7 +289,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -275,13 +303,13 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
-      "title": "Cupom Mercado Livre com 12% de desconto",
+      "title": "Cupom Mercado Livre com 15% de desconto",
       "couponCode": "",
-      "discountText": "12% OFF",
+      "discountText": "15% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [
         "Meliuz"
@@ -289,7 +317,21 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom Mercado Livre de 20% na seleção de ofertas",
+      "couponCode": "",
+      "discountText": "20% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -303,7 +345,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -317,7 +359,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -331,7 +373,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -345,7 +387,35 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Ganhou OFF: 30% em produtos da lista",
+      "couponCode": "",
+      "discountText": "30% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-06T16:47:44+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Ganhou promo: 25% OFF em itens da seleção",
+      "couponCode": "",
+      "discountText": "25% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -359,7 +429,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -373,7 +443,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -387,13 +457,13 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
-      "title": "Moda feminina e masculina com 12% de desconto",
+      "title": "Moda feminina e masculina com 15% de desconto",
       "couponCode": "",
-      "discountText": "12% OFF",
+      "discountText": "15% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [
         "Meliuz"
@@ -401,7 +471,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -415,7 +485,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -429,7 +499,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -443,7 +513,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -457,7 +527,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -471,7 +541,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -485,7 +555,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -499,7 +569,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -513,7 +583,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
@@ -527,13 +597,13 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
-      "title": "Saúde e cuidados com 10% de desconto",
+      "title": "Saúde e cuidados com 20% de desconto",
       "couponCode": "",
-      "discountText": "10% OFF",
+      "discountText": "20% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [
         "Meliuz"
@@ -541,13 +611,13 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     },
     {
-      "title": "Smart TVs, celulares e notebooks com cupom Mercado Livre de 10%",
+      "title": "Seleção especial com 20% de abatimento",
       "couponCode": "",
-      "discountText": "10% OFF",
+      "discountText": "20% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [
         "Meliuz"
@@ -555,7 +625,21 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-06T15:44:29+00:00",
+      "observedAt": "2026-11-06T16:47:44+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Smart TVs, celulares e notebooks com cupom Mercado Livre de 15%",
+      "couponCode": "",
+      "discountText": "15% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-06T16:47:44+00:00",
       "status": "listed"
     }
   ]
