@@ -1,8 +1,8 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-06T23:13:01.986614Z",
-  "total": 336,
+  "atualizado_em": "2026-11-06T23:44:38.517362Z",
+  "total": 337,
   "ofertas": [
     {
       "id": "4165569",
@@ -3666,6 +3666,17 @@
       "cupom": "AFF8",
       "validade": "2029-09-28T10:58:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=3110826&ued=https%3A%2F%2Fstore.sirui.com%2Fpages%2Fsales-1"
+    },
+    {
+      "id": "4165812",
+      "loja": "Lauri Esporte",
+      "tipo": "cupom",
+      "titulo": "Primeira compra: 10% OFF + 10% no Pix (até 20% OFF)",
+      "descricao": "Cupom LAURI10: 10% OFF na primeira compra na Lauri Esporte, revenda oficial On Running. Acumula com 10% no Pix (até 20% OFF), 15% de cashback e frete grátis para todo o Brasil.",
+      "termos": "Válido somente na primeira compra no site lauriesporte.com.br. 10% de desconto no total da compra, cumulativo com o desconto de 10% no Pix. Frete grátis para todo o Brasil.",
+      "cupom": "LAURI10",
+      "validade": "2100-01-01T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2Fmarcas%2Fon-running%3Fsort_by%3Drelevance"
     },
     {
       "id": "4165180",
