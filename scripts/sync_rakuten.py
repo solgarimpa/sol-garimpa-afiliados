@@ -356,6 +356,8 @@ def main():
                 f"Link Locator indisponivel para {partner['loja']} ({type(exc).__name__})"
             )
     log(f'Segunda camada Rakuten: {creative_count} criativos adicionados')
+    for warning in [w for w in errors if 'Link Locator' in w][:15]:
+        log(f'Aviso segunda camada: {warning}')
     coupons_ok = False
     try:
         items = fetch_coupons(token, partners)
