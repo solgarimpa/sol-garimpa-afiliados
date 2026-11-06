@@ -87,12 +87,11 @@
     "20656": "2026-11-05T22:29:48.236255+00:00",
     "20646": "2026-11-06T09:13:42.327580+00:00"
   },
-  "ultima_consulta": "2026-11-06T09:13:42.327580+00:00",
+  "ultima_consulta": "2026-11-06T11:36:11.599412+00:00",
   "ultimo_diagnostico": {
     "mensagens_visiveis": 20,
-    "novas": 1,
-    "recentes": 1,
+    "novas": 0,
     "publicadas": 0,
-    "situacao": "verificacao concluida"
+    "situacao": "canal consultado; sem novidades"
   }
 }
