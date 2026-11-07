@@ -8,6 +8,7 @@ import datetime as dt
 import json
 import os
 import pathlib
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -116,8 +117,24 @@ def fetch_page(token, page):
         },
         method="POST",
     )
-    with urllib.request.urlopen(req, timeout=45) as response:
-        return unpack(json.load(response))
+    # Erros temporarios da API nao devem invalidar a rotina inteira imediatamente.
+    # Nao repetir erros de autenticacao (401/403) ou respostas invalidas.
+    for attempt in range(4):
+        try:
+            with urllib.request.urlopen(req, timeout=45) as response:
+                return unpack(json.load(response))
+        except urllib.error.HTTPError as exc:
+            if exc.code not in (429, 500, 502, 503, 504) or attempt == 3:
+                raise
+            delay = min(30, 2 ** attempt * 3)
+            print(f"Awin temporariamente indisponivel (HTTP {exc.code}); tentativa {attempt + 2}/4 em {delay}s.")
+            time.sleep(delay)
+        except (TimeoutError, urllib.error.URLError) as exc:
+            if attempt == 3:
+                raise
+            delay = min(30, 2 ** attempt * 3)
+            print(f"Awin indisponivel ({type(exc).__name__}); tentativa {attempt + 2}/4 em {delay}s.")
+            time.sleep(delay)
 
 
 def main():
