@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-07T11:53:25+00:00",
+  "atualizado_em": "2026-11-07T13:11:46+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -1681,16 +1681,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-2e553e7e7f1573682358",
+      "id": "lc-9541c965b41fe29c5bf8",
       "loja": "Lauri Esporte",
       "tipo": "promocao",
-      "titulo": "Columbia: tênis, jaquetas e mochilas com frete grátis",
+      "titulo": "Black Friday Outlet On Running: modelos On com desconto",
       "imagem": "",
-      "link": "https://lmdee.link/nnVKHtAkXS3W",
+      "link": "https://lmdee.link/mHIMy43nOEgS",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": null,
+      "validade": "2027-01-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1835,12 +1835,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-316c78c018698bf2a7fd",
+      "id": "lc-2e553e7e7f1573682358",
       "loja": "Lauri Esporte",
       "tipo": "promocao",
-      "titulo": "15% de cashback em todas as compras + frete grátis",
+      "titulo": "Columbia: tênis, jaquetas e mochilas com frete grátis",
       "imagem": "",
-      "link": "https://lmdee.link/D0GdBuj1W00U",
+      "link": "https://lmdee.link/nnVKHtAkXS3W",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1891,20 +1891,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-ab8c31921b04f6dffa6b",
-      "loja": "Autoamerica Store",
-      "tipo": "promocao",
-      "titulo": "Lançamento Autoamerica Store",
-      "imagem": "https://cdn.lomadee.com.br/offer/263beb4d-1c28-45be-85b8-d48ff27637c7/banners/PROMO%20Luva%20de%20lavagem%20-%20Mobile.jpg",
-      "link": "https://lmdee.link/yt4UkIouqEWb",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2027-01-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-fdf5d392c0b511cc39c6",
       "loja": "Brinox",
       "tipo": "cupom",
@@ -1947,12 +1933,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-3429e60e1eb7f0909053",
+      "id": "lc-316c78c018698bf2a7fd",
       "loja": "Lauri Esporte",
       "tipo": "promocao",
-      "titulo": "On Running: revenda oficial com frete grátis e 10% OFF no Pix",
+      "titulo": "15% de cashback em todas as compras + frete grátis",
       "imagem": "",
-      "link": "https://lmdee.link/aI4Irq0svFM5",
+      "link": "https://lmdee.link/D0GdBuj1W00U",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -2014,6 +2000,20 @@
       "cupom": null,
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-3429e60e1eb7f0909053",
+      "loja": "Lauri Esporte",
+      "tipo": "promocao",
+      "titulo": "On Running: revenda oficial com frete grátis e 10% OFF no Pix",
+      "imagem": "",
+      "link": "https://lmdee.link/aI4Irq0svFM5",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
       "origem": "Lomadee"
     },
     {
