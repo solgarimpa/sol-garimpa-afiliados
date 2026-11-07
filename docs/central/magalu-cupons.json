@@ -1,9 +1,9 @@
 {
   "market": "magalu",
   "name": "Magalu",
-  "generatedAt": "2026-11-07T03:17:50+00:00",
+  "generatedAt": "2026-11-07T04:20:48+00:00",
   "refreshMinutes": 30,
-  "count": 41,
+  "count": 45,
   "sources": {
     "Cuponomia": {
       "ok": false,
@@ -12,7 +12,7 @@
     },
     "Meliuz": {
       "ok": true,
-      "quantidade": 37
+      "quantidade": 41
     },
     "Pelando": {
       "ok": false,
@@ -37,7 +37,7 @@
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
       "publishedAt": "2026-11-04T22:26:18.031Z",
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -51,7 +51,7 @@
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
       "publishedAt": "2026-11-04T20:00:00.000Z",
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -65,7 +65,7 @@
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
       "publishedAt": "2026-11-04T19:55:00.000Z",
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -79,7 +79,7 @@
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
       "publishedAt": "2026-11-04T19:48:55.121Z",
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -93,7 +93,7 @@
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Magalu",
       "publishedAt": "2026-11-04T14:30:00.000Z",
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -107,7 +107,49 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "15% OFF aplicando cupom Magazine Luiza",
+      "couponCode": "",
+      "discountText": "15% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-07T04:20:48+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "15% OFF no lançamento Foreverliss com código promocional Magazine Luiza",
+      "couponCode": "",
+      "discountText": "15% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-07T04:20:48+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Aproveite cupom Magazine Luiza e ganhe R$300 OFF",
+      "couponCode": "",
+      "discountText": "R$ 300 OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -121,7 +163,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -135,7 +177,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -149,7 +191,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -163,7 +205,21 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Código Magazine Luiza garante R$150 de desconto em suas compras",
+      "couponCode": "",
+      "discountText": "R$ 150 OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [
+        "Meliuz"
+      ],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -177,7 +233,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -191,7 +247,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -205,7 +261,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -219,7 +275,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -233,7 +289,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -247,7 +303,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -261,7 +317,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -275,7 +331,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -289,7 +345,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -303,7 +359,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -317,7 +373,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -331,7 +387,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -345,7 +401,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -359,7 +415,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -373,7 +429,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -387,13 +443,13 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
-      "title": "Monte seu setup com até 60% de vantagem",
+      "title": "Magazine Luiza com 15% OFF em dermocosméticos",
       "couponCode": "",
-      "discountText": "60% OFF",
+      "discountText": "15% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [
         "Meliuz"
@@ -401,7 +457,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -415,7 +471,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -429,7 +485,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -443,7 +499,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -457,7 +513,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -471,7 +527,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -485,7 +541,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -499,7 +555,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -513,7 +569,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -527,7 +583,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -541,7 +597,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -555,7 +611,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -569,7 +625,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -583,7 +639,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     },
     {
@@ -597,7 +653,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-magazine-luiza",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-07T03:17:50+00:00",
+      "observedAt": "2026-11-07T04:20:48+00:00",
       "status": "listed"
     }
   ]
