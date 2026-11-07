@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-07T02:12:06+00:00",
+  "atualizado_em": "2026-11-07T03:03:53+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -743,20 +743,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-15de72c6afc4694268e6",
-      "loja": "Coza",
-      "tipo": "cupom",
-      "titulo": "R$35 off em compras acima de R$200",
-      "imagem": "",
-      "link": "https://lmdee.link/X6FCsHGOS2bW",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "BLACK35",
-      "validade": "2026-12-11T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-b28a0aff99ef48e6c71b",
       "loja": "ECO FLAME GARDEN",
       "tipo": "promocao",
@@ -865,6 +851,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-fad933b9bfaa275667ca",
+      "loja": "Lauri Esporte",
+      "tipo": "cupom",
+      "titulo": "Black Friday: 10% OFF em todo o site + 10% no Pix (até 20% OFF)",
+      "imagem": "",
+      "link": "https://lmdee.link/3KPx6QfOUJ2k",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "BLACKLOMADEE10",
+      "validade": "2026-12-02T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1401,6 +1401,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-c3c58b73fc5560664c80",
+      "loja": "Lauri Esporte",
+      "tipo": "cupom",
+      "titulo": "Cupom 10% OFF em todo o site + 10% no Pix (até 20% OFF)",
+      "imagem": "",
+      "link": "https://lmdee.link/8xM2KXahA1NR",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "LOMADEE10",
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-586c8344a9ac616d8093",
       "loja": "LITTLE DUCK",
       "tipo": "promocao",
@@ -1425,20 +1439,6 @@
       "preco_anterior": null,
       "cupom": "BLACKFRIDAY",
       "validade": "2026-12-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-6429bbd4b1133636ddad",
-      "loja": "Lojas REDE",
-      "tipo": "promocao",
-      "titulo": "Ofertas Lojas Rede 05-11",
-      "imagem": "",
-      "link": "https://lmdee.link/OASFPSQ8ubSR",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-07T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1681,6 +1681,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-2e553e7e7f1573682358",
+      "loja": "Lauri Esporte",
+      "tipo": "promocao",
+      "titulo": "Columbia: tênis, jaquetas e mochilas com frete grátis",
+      "imagem": "",
+      "link": "https://lmdee.link/nnVKHtAkXS3W",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lp-cdc08742338f712bb676",
       "loja": "LITTLE DUCK",
       "tipo": "produto",
@@ -1821,6 +1835,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-316c78c018698bf2a7fd",
+      "loja": "Lauri Esporte",
+      "tipo": "promocao",
+      "titulo": "15% de cashback em todas as compras + frete grátis",
+      "imagem": "",
+      "link": "https://lmdee.link/D0GdBuj1W00U",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-e86372a81cc5675b5c61",
       "loja": "Malwee",
       "tipo": "promocao",
@@ -1919,6 +1947,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-3429e60e1eb7f0909053",
+      "loja": "Lauri Esporte",
+      "tipo": "promocao",
+      "titulo": "On Running: revenda oficial com frete grátis e 10% OFF no Pix",
+      "imagem": "",
+      "link": "https://lmdee.link/aI4Irq0svFM5",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-68555904da74986452ad",
       "loja": "Malwee",
       "tipo": "promocao",
@@ -1957,20 +1999,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-601a28b540080890d985",
-      "loja": "Brinox",
-      "tipo": "promocao",
-      "titulo": "Esquenta Black Friday",
-      "imagem": "https://cdn.lomadee.com.br/offer/d68c7a5e-c32d-468e-a073-803e7712ee68/banners/Visualiza%C3%A7%C3%A3o%20da%20imagem%20%2849%29.png",
-      "link": "https://lmdee.link/xxOsgPgpJNQG",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-12-11T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2031,20 +2059,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-fcf2c7975359e50280cc",
-      "loja": "Brinox",
-      "tipo": "cupom",
-      "titulo": "R$ 100 em compras acima de R$699",
-      "imagem": "",
-      "link": "https://lmdee.link/mGEeBYw6ZwcY",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "BF100",
-      "validade": "2026-12-21T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lp-3bad2b6a071fc3eb073f",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
@@ -2097,20 +2111,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-11T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-5dfd6c15ad056df41f16",
-      "loja": "Brinox",
-      "tipo": "cupom",
-      "titulo": "R$ 50 em compras acima de R$399",
-      "imagem": "",
-      "link": "https://lmdee.link/nRs51ZGLWI6v",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "BF50",
-      "validade": "2026-12-21T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2603,11 +2603,39 @@
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
       "origem": "Lomadee"
+    },
+    {
+      "id": "lp-33dc8ad956e5420f20a2",
+      "loja": "ECO FLAME GARDEN",
+      "tipo": "produto",
+      "titulo": "2 Espreguiçadeiras Casal Duo",
+      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/ecoflame_site_produtos_2-duo_preto.webp?v=1774290227",
+      "link": "https://lmdee.link/WCjLtniRXf5c",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lp-411a188f52d25dc1b934",
+      "loja": "ECO FLAME GARDEN",
+      "tipo": "produto",
+      "titulo": "2 Espreguiçadeiras Casal Duo",
+      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/ecoflame_site_produtos_2-duo_linho.webp?v=1774290227",
+      "link": "https://lmdee.link/YVYbdYKlUE0v",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
+      "origem": "Lomadee"
     }
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 148,
+    "com_ofertas": 150,
     "marcas": 132,
     "campanhas": 120,
     "produtos": 60,
