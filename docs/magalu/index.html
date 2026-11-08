@@ -45,15 +45,15 @@
   <header class="cab"><h2>Ofertas da Magalu pra vc!</h2><a class="ver-vitrine" href="https://www.magazinevoce.com.br/magazinesolgarimpa/" target="_blank" rel="noopener noreferrer sponsored nofollow">Ver vitrine completa ↗</a></header>
   <div class="janela" id="janela" role="region" aria-label="Produtos deslizando automaticamente"><div class="trilha" id="trilha"></div></div>
   <div class="erro" id="erro">Nenhum produto disponível. Confira o catálogo informado.</div>
-  <div class="controles"><span class="status">Seleção Sol Garimpa</span><div class="tools"><button id="ant" type="button" title="Voltar um produto" aria-label="Produto anterior">‹</button><button id="pausa" type="button" aria-label="Pausar reprodução" aria-pressed="false">Pausar</button><button id="prox" type="button" title="Avançar um produto" aria-label="Próximo produto">›</button></div></div>
-  <div class="aviso">Preços, estoque e promoções devem ser consultados na loja Magalu. A compra ocorre no ambiente oficial do Magalu.</div>
+  <div class="controles"><span class="status">20 produtos selecionados • ordem aleatória</span><div class="tools"><button id="ant" type="button" title="Voltar um produto" aria-label="Produto anterior">‹</button><button id="pausa" type="button" aria-label="Pausar reprodução" aria-pressed="false">Pausar</button><button id="prox" type="button" title="Avançar um produto" aria-label="Próximo produto">›</button></div></div>
+  <div class="aviso">20 produtos populares selecionados, sem classificação oficial de vendas. Preços e estoque no Magalu. Links individuais da Magazine Solgarimpa; atribuição de comissão depende de validação no programa.</div>
 </section>
 <script>
 /* SOL GARIMPA — Versão Wix/GitHub — 08/11/2026
   SUPORTA ATÉ 1000 PRODUTOS reais, mas não os gera por conta própria.
   Atualização por JSON: publicar arquivo https://.../magalu-produtos.json no servidor com CORS liberado;
   colar abaixo em CATALOGO_JSON_URL, ou usar CATALOGO_CSV_URL para planilha publicada.
-  Sem endereço, usa os 5 itens de demonstração.
+  Sem endereço, usa os 20 produtos reais de catálogo selecionado.
   Cada registro: { id, nome, imagem, link, categoria, preco } (preco opcional, numérico BRL).
   IMPORTANTE: links de afiliado devem ser os LINKS REAIS gerados ou confirmados na sua conta.
   Não inferir nem acrescentar promoter_id em links de terceiros.
@@ -61,49 +61,169 @@
 const CATALOGO_JSON_URL = ''; // URL HTTPS pública de arquivo JSON (opcional)
 const CATALOGO_CSV_URL = '';  // Alternativa: URL HTTPS pública de uma planilha publicada em CSV
 const LOJA_OFICIAL='https://www.magazinevoce.com.br/magazinesolgarimpa/';
+/* 20 produtos reais de catálogo público, não ranking oficial de vendas.
+   ATENÇÃO: os 19 links específicos da vitrine são derivados de páginas Magalu existentes
+   e a atribuição só é confirmável por links emitidos no painel da Sol Garimpa. */
 const PRODUTOS_INICIAIS = [
   {
     "id": "240466500",
-    "nome": "Celular Samsung Galaxy A07 128 GB Preto, 4 GB RAM",
-    "categoria": "Tecnologia",
+    "nome": "Samsung Galaxy A07 128GB 4GB RAM Preto",
+    "categoria": "Celulares",
     "imagem": "https://a-static.mlcdn.com.br/800x800/smartphone-galaxy-a07-128gb-4g-samsung/lojasmm/18334/7d2f182f0b146ac2dc3d08bc3c1743f3.jpg",
     "link": "https://magazineluiza.onelink.me/589508454/836uwcf1",
-    "status": "validado"
+    "status": "link-gerado-pela-conta"
   },
   {
-    "id": "dc5f7d7gf4",
-    "nome": "Kit 3 Potes de Vidro 600ml com Tampa de Bambu Oikos",
-    "categoria": "Casa e cozinha",
-    "imagem": "https://product-hub-prd.madeiramadeira.com.br/4515429/images/154dd0b1-7d7a-4e96-8e78-610e75522e7025897939kit3potesdevidroquadrado600mlctampaflatbambuoikos17833oik123371600x505.jpg",
-    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/potes-de-vidro-p-mantimentos-600ml-c-tampa-bambu-3-pcs-oikos/p/dc5f7d7gf4/ud/porm/?seller_id=lojamozcada",
-    "status": "validado"
+    "id": "238974500",
+    "nome": "Motorola Moto G15 256GB Grafite",
+    "categoria": "Celulares",
+    "imagem": "https://a-static.mlcdn.com.br/800x800/smartphone-motorola-moto-g15-grafite-256gb-4gb-ram-8gb-ram-boost-e-camera-50mp-com-ai-e-night-vision/celcomerce/a0d76f664e0311f096a342010a480899/6a3213fd7bd095051282cdfb2ebed801.jpeg",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/smartphone-motorola-moto-g15-256gb-grafite-4g-4gb-ram-67-cam-dupla-selfie-8mp/p/238974500/te/mg15/?seller_id=magazineluiza",
+    "status": "link-loja-preparado-validacao-pendente"
   },
   {
-    "id": "ac5cck3cb9",
-    "nome": "Air Fryer Mondial Family 4 Litros AFN-40-BI",
-    "categoria": "Eletroportáteis",
-    "imagem": "https://a-static.mlcdn.com.br/800x560/fritadeira-air-fryer-mondial-afn-40-bi-4l-127v/alfixshop/12029/b12420cd6ed502f171b802c6d1db417f.jpeg",
-    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/",
-    "status": "verificar",
-    "url_candidata": "https://www.magazinevoce.com.br/magazinesolgarimpa/fritadeira-air-fryer-4-litros-mondial-220v-preto-afn-40-bi/p/ac5cck3cb9/ep/efso/"
+    "id": "238898600",
+    "nome": "Samsung Galaxy A16 128GB Preto",
+    "categoria": "Celulares",
+    "imagem": "https://a-static.mlcdn.com.br/800x560/smartphone-samsung-a16-a165-128gb-4g-samsung-celulares/tabaratotolevando/17010/aaef5d779094b8d95ba845ab9b87b0c0.jpeg",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/smartphone-samsung-galaxy-a16-128gb-preto-4gb-ram-67-fhd-cam-tripla-de-ate-50mp-selfie-13mp-bateria-5000mah/p/238898600/te/ga16/?seller_id=magazineluiza",
+    "status": "link-loja-preparado-validacao-pendente"
   },
   {
-    "id": "240354400",
-    "nome": "Notebook Acer Aspire Go 15 Intel Core i5, 8 GB, 512 GB SSD",
-    "categoria": "Informática",
-    "imagem": "https://img.dynos.es/img/289e7/1e848/720-BE7G040J0-0X0N-0.jpg",
-    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/",
-    "status": "verificar",
-    "url_candidata": "https://www.magazinevoce.com.br/magazinesolgarimpa/notebook-acer-aspire-go-intel-core-i5-13420h-8gb-ram-512gb-ssd-156-full-hd-windows-11-ag15-71p-53gm/p/240354400/in/nota/"
-  },
-  {
-    "id": "237862900",
-    "nome": "Smart TV TCL 40 Polegadas Full HD Android 40S5400A",
+    "id": "240428400",
+    "nome": "Smart TV SEMP 32 polegadas Google TV 32S42",
     "categoria": "TV e vídeo",
-    "imagem": "https://vega.ge/image/cache/catalog/files/1Emil/01ge/32S5400AF%2040S5400A%2043S5400A%20%281%29-2000x1500.jpg",
-    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/",
-    "status": "verificar",
-    "url_candidata": "https://www.magazinevoce.com.br/magazinesolgarimpa/smart-tv-40-full-hd-led-tcl-40s5400a-android-wi-fi-bluetooth-google-assistente-2-hdmi-1-usb/p/237862900/et/tves/"
+    "imagem": "https://a-static.mlcdn.com.br/420x420/smart-tv-semp-32-polegadas-led-hd-s42-wifi-bluetooth-google-tv-2-hdmi-hdr10-dolby-audio-32s42/lojatclsemp/32398/b5379b855e5e3d1092b2d70a63009f4f.jpeg",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/smart-tv-32-semp-hd-led-32s42-google-tv-2-hdmi/p/240428400/et/elit/?seller_id=magazineluiza",
+    "status": "link-loja-preparado-validacao-pendente"
+  },
+  {
+    "id": "238611500",
+    "nome": "Fogão Esmaltec Ideal Pop Branco 4 bocas",
+    "categoria": "Eletrodomésticos",
+    "imagem": "https://bemol.vtexassets.com/arquivos/ids/414282/265346_a.jpg?v=638802451451230000",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/fogao-4-bocas-esmaltec-branco-ideal-pop-4120/p/238611500/ed/fg4b/?seller_id=magazineluiza",
+    "status": "link-loja-preparado-validacao-pendente"
+  },
+  {
+    "id": "240005400",
+    "nome": "Impressora Epson EcoTank L1250 Wi-Fi",
+    "categoria": "Informática",
+    "imagem": "https://static3.tcdn.com.br/img/img_prod/872390/impressora_epson_l1250_ecotank_multifuncional_usb_wifi_bivolt_1031_3_56d05ddab77fd880fada1b850839e285.jpg",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/impressora-epson-ecotank-l1250-tanque-de-tinta-wi-fi-usb/p/240005400/in/ipmf/?seller_id=magazineluiza",
+    "status": "link-loja-preparado-validacao-pendente"
+  },
+  {
+    "id": "225277900",
+    "nome": "Fogão Atlas Mônaco Top Glass Preto 4 bocas",
+    "categoria": "Eletrodomésticos",
+    "imagem": "https://a-static.mlcdn.com.br/1500x1500/fogao-atlas-4-bocas-preto-monaco-top-glass-com-acendimento-automatico-bivolt-atlas-eletrodomesticos/atlaseletrodomesticos3/300000708/3c677e6ac754af7bbb180b08e93a863b.jpg",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/fogao-4-bocas-atlas-preto-mesa-de-vidro-monaco-top-glass/p/225277900/ed/fg4b/?seller_id=magazineluiza",
+    "status": "link-loja-preparado-validacao-pendente"
+  },
+  {
+    "id": "237219400",
+    "nome": "Air Fryer Forno Mondial Oven 12L AFON-12L-BI",
+    "categoria": "Eletroportáteis",
+    "imagem": "https://a-static.mlcdn.com.br/420x420/fritadeira-air-fryer-forno-mondial-afon-12l-bi-12l-2200w-220v-preto-inox/2eletroinfo/frimon16/a4e75470c9716209a7468bc50750ed90.jpeg",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/air-fryer-mondial-forno-oven-afon-12l-bi-preto-e-inox-12l/p/237219400/ep/efso/?seller_id=magazineluiza",
+    "status": "link-loja-preparado-validacao-pendente"
+  },
+  {
+    "id": "237304900",
+    "nome": "Impressora HP Smart Tank 581 Wi-Fi",
+    "categoria": "Informática",
+    "imagem": "https://images.tcdn.com.br/img/img_prod/872390/impressora_hp_smart_tank_581_multifuncional_colorida_wi_fi_conexao_usb_bivolt_4a8d5a_1149_3_1bfa400d3a17e79555eec38c30f3e62b.jpg",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/impressora-multifuncional-hp-smart-tank-581-wi-fi-tanque-de-tinta-colorida-usb/p/237304900/in/imtt/?seller_id=magazineluiza",
+    "status": "link-loja-preparado-validacao-pendente"
+  },
+  {
+    "id": "011398601",
+    "nome": "Micro-ondas Electrolux MEO44 Branco 34L",
+    "categoria": "Eletrodomésticos",
+    "imagem": "https://cdn.leroymerlin.com.br/products/microondas_34l_220v_branco_eletrolux_90232954_0001_1800x1800.jpg",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/micro-ondas-electrolux-de-bancada-branco-com-funcao-tira-odor-e-manter-aquecido-34l-meo44/p/011398601/ed/mond/?seller_id=magazineluiza",
+    "status": "link-loja-preparado-validacao-pendente"
+  },
+  {
+    "id": "238968800",
+    "nome": "Monitor Gamer AOC G4 24G4/P 24 polegadas 180Hz",
+    "categoria": "Informática",
+    "imagem": "https://images8.kabum.com.br/produtos/fotos/659038/monitor-gamer-aoc-24-fhd-ips-180hz-0-5ms-hdmi-e-dp-w-led-antireflexo-ajuste-de-altura-preto-24g4-p_1733834296_gg.jpg",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/monitor-gamer-aoc-24-full-hd-180hz-gaming-g4-24g4-p-hdmi-displayport-base-ajustavel/p/238968800/in/mnpc/?seller_id=magazineluiza",
+    "status": "link-loja-preparado-validacao-pendente"
+  },
+  {
+    "id": "088852500",
+    "nome": "Bebedouro Esmaltec Stilo Black EGM30 de Mesa",
+    "categoria": "Utilidades",
+    "imagem": "https://cdn.leroymerlin.com.br/products/bebdouro_preto_egm30_92140461_857e_600x600.png",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/bebedouro-de-agua-esmaltec-de-mesa-refrigerado-por-compressor-stilo-black-egm30/p/088852500/ep/bbms/?seller_id=magazineluiza",
+    "status": "link-loja-preparado-validacao-pendente"
+  },
+  {
+    "id": "235657000",
+    "nome": "Guarda-roupa Araplac Pequim 4 Portas com Espelho",
+    "categoria": "Móveis",
+    "imagem": "https://a-static.mlcdn.com.br/1500x1500/guarda-roupa-com-espelho-4-portas-4-gavetas-araplac-pequim/magazineluiza/236860700/d8004f4ce60b07c7947966210401fcce.jpg",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/guarda-roupa-com-espelho-4-portas-4-gavetas-araplac-pequim/p/235657000/mo/guro/?seller_id=magazineluiza",
+    "status": "link-loja-preparado-validacao-pendente"
+  },
+  {
+    "id": "010300601",
+    "nome": "Bebedouro Esmaltec de Coluna EGC35B",
+    "categoria": "Utilidades",
+    "imagem": "https://www.millenamoveiseeletro.com.br/on/demandware.static/-/Sites-millena-catalog-master/default/dw1317c2e0/images/211_Black_large_02.jpg",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/bebedouro-de-agua-esmaltec-de-coluna-refrigerado-por-compressor-egc35b/p/010300601/ep/bbcl/?seller_id=magazineluiza",
+    "status": "link-loja-preparado-validacao-pendente"
+  },
+  {
+    "id": "240161500",
+    "nome": "Cooktop Electrolux KE4GR Vidro 4 bocas",
+    "categoria": "Eletrodomésticos",
+    "imagem": "https://fastshopbr.vtexassets.com/arquivos/ids/3465400/17679855513936.jpg?v=639035823601330000",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/cooktop-4-bocas-a-gas-glp-electrolux-mesa-de-vidro-preto-acendimento-automatico-efficient-ke4gr/p/240161500/ed/ck4b/?seller_id=magazineluiza",
+    "status": "link-loja-preparado-validacao-pendente"
+  },
+  {
+    "id": "224108300",
+    "nome": "Tanquinho Colormaq LCS10 10kg",
+    "categoria": "Lavanderia",
+    "imagem": "https://a-static.mlcdn.com.br/1500x1500/lavadora-de-roupas-colormaq-10kg-semiautomatica-lcs10-branca-110v/mega-mamute/10725/8143e67fdef315b700638d9a51d37ac9.jpg",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/tanquinho-de-lavar-roupas-semiautomatico-colormaq-10kg-lcs-10-br/p/224108300/ed/tank/?seller_id=magazineluiza",
+    "status": "link-loja-preparado-validacao-pendente"
+  },
+  {
+    "id": "023301400",
+    "nome": "Panela de Pressão Elétrica Electrolux PCC20 6L",
+    "categoria": "Eletroportáteis",
+    "imagem": "https://static1.efacil.com.br/wcsstore/ExtendedSitesCatalogAssetStore/Imagens/1000/2214376_03.jpg",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/panela-de-pressao-eletrica-6l-electrolux-pcc20-4340ajbr483-rita-lobo/p/023301400/ep/eppe/?seller_id=magazineluiza",
+    "status": "link-loja-preparado-validacao-pendente"
+  },
+  {
+    "id": "225608200",
+    "nome": "Smart TV Samsung T4300 32 polegadas HD",
+    "categoria": "TV e vídeo",
+    "imagem": "https://lojaibyte.vteximg.com.br/arquivos/ids/191653/landing-page-samsung-T4300--01E.jpg?v=637282234457800000",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/smart-tv-32-samsung-hd-un32t4300agxzd-bivolt/p/225608200/et/elit/?seller_id=magazineluiza",
+    "status": "link-loja-preparado-validacao-pendente"
+  },
+  {
+    "id": "237324100",
+    "nome": "Tanquinho Colormaq LCS15 15kg",
+    "categoria": "Lavanderia",
+    "imagem": "https://static1.efacil.com.br/wcsstore/ExtendedSitesCatalogAssetStore/Imagens/1000/2222637_02.jpg",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/tanquinho-de-lavar-roupas-colormaq-15kg-lcs-15/p/237324100/ed/tank/?seller_id=magazineluiza",
+    "status": "link-loja-preparado-validacao-pendente"
+  },
+  {
+    "id": "240149600",
+    "nome": "Samsung Galaxy A06 5G 128GB Preto",
+    "categoria": "Celulares",
+    "imagem": "https://a-static.mlcdn.com.br/800x560/smt-samsung-sm-a066m-ds-a06-128gb-5g-pt/lojaslebiscuit/1300621/cf4197e707aa621a2e857d18e651b9f0.jpeg",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/smartphone-samsung-galaxy-a06-5g-128gb-4gb-ram-preto-cam-50mp-selfie-8mp/p/240149600/te/ga06/?seller_id=magazineluiza",
+    "status": "link-loja-preparado-validacao-pendente"
   }
 ];
 const q=(s)=>document.querySelector(s);
