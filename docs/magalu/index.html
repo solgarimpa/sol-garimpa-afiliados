@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ofertas da Magalu pra vc! | Sol Garimpa</title>
+<style>
+  :root {--cor:#0086ff;--escuro:#182237;--borda:#e7eaf1}
+  * {box-sizing:border-box}
+  html,body{margin:0;background:#fff;color:var(--escuro);font:14px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+  .sc{position:relative;overflow:hidden;padding:14px 0 13px;max-width:100%}
+  .cab{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:0 14px 12px}
+  h2{font-size:clamp(17px,2.6vw,23px);margin:0;font-weight:800;letter-spacing:-.035em;line-height:1.25;color:var(--cor)}
+  .marca{font-size:11px;color:#677184;display:block;font-weight:500;letter-spacing:0}
+  .ver-vitrine{color:#0073dd;font-size:12px;font-weight:750;text-decoration:none;white-space:nowrap}
+  .ver-vitrine:hover{text-decoration:underline}
+  .controles{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:12px 14px 0}
+  .status{color:#677184;font-size:12px;line-height:1.35}
+  .tools{display:flex;align-items:center;gap:6px;flex:none}
+  button{color:#28354d;background:#fff;border:1px solid #dde4ed;border-radius:8px;cursor:pointer;padding:8px 12px;font:600 12px system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+  button:hover{border-color:var(--cor);background:#f2f8ff}
+  button:focus-visible,a:focus-visible{outline:3px solid #ff9d16;outline-offset:2px}
+  .janela{overflow:hidden;position:relative;touch-action:pan-y;mask-image:linear-gradient(90deg,transparent,#000 1.5%,#000 98.5%,transparent)}
+  .trilha{display:flex;align-items:stretch;gap:12px;width:max-content;will-change:transform;animation:passar var(--duracao,50s) linear infinite}
+  .trilha.pausado,.trilha:hover{animation-play-state:paused}
+  @keyframes passar {from{transform:translateX(0)} to{transform:translateX(calc(-1 * var(--metade, 1000px)))}}
+  .card{display:flex;flex-direction:column;width:190px;min-width:190px;min-height:289px;overflow:hidden;background:#fff;border:1px solid var(--borda);border-radius:14px;text-decoration:none;color:inherit;box-shadow:0 2px 12px rgba(27,39,59,.045);transition:box-shadow .2s,transform .2s}
+  .card:hover{box-shadow:0 5px 18px rgba(27,39,59,.12);transform:translateY(-2px)}
+  .foto{height:169px;display:flex;align-items:center;justify-content:center;padding:11px;background:white;overflow:hidden}
+  .foto img{width:100%;height:100%;object-fit:contain}
+  .semfoto{color:#65748e;font-size:12px;text-align:center;line-height:1.4}
+  .detalhes{padding:0 12px 11px;display:flex;flex-direction:column;flex:1;gap:7px}
+  .categoria{color:#6a7286;font-size:11px;font-weight:600;letter-spacing:.01em}
+  .nome{font-weight:700;font-size:12.5px;line-height:1.34;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;min-height:51px}
+  .preco{color:#167347;font-weight:850;font-size:17px;margin-top:auto}
+  .preco.vazio{color:#8c95a2;font-weight:500;font-size:11px}
+  .cta{background:var(--cor);color:#fff;text-align:center;border-radius:9px;font-size:12px;font-weight:800;padding:6px}
+  .aviso{font-size:10px;color:#727b8d;text-align:center;padding:10px 16px 0}
+  .erro{display:none;margin:5px 14px 15px;color:#6b7280;font-size:13px;padding:20px;border:1px dashed #b6c3da;border-radius:12px}
+  @media(max-width:520px){.cab{padding:0 10px 10px}.ver-vitrine{font-size:11px;max-width:115px;text-align:right;white-space:normal}.controles{margin:11px 10px 0}.status{font-size:11px}.card{width:156px;min-width:156px;min-height:272px}.foto{height:138px}.trilha{gap:9px}.nome{font-size:12px}.detalhes{padding:0 9px 9px}.tools button{padding:7px 9px}}
+  @media(prefers-reduced-motion:reduce){.trilha{animation:none;max-width:100%;overflow-x:auto}.janela{overflow:auto;mask-image:none}}
+</style>
+</head>
+<body>
+<section class="sc" aria-label="Carrossel de ofertas Magalu Sol Garimpa">
+  <header class="cab"><h2>Ofertas da Magalu pra vc!</h2><a class="ver-vitrine" href="https://www.magazinevoce.com.br/magazinesolgarimpa/" target="_blank" rel="noopener noreferrer sponsored nofollow">Ver vitrine completa ↗</a></header>
+  <div class="janela" id="janela" role="region" aria-label="Produtos deslizando automaticamente"><div class="trilha" id="trilha"></div></div>
+  <div class="erro" id="erro">Nenhum produto disponível. Confira o catálogo informado.</div>
+  <div class="controles"><span class="status">Seleção Sol Garimpa</span><div class="tools"><button id="ant" type="button" title="Voltar um produto" aria-label="Produto anterior">‹</button><button id="pausa" type="button" aria-label="Pausar reprodução" aria-pressed="false">Pausar</button><button id="prox" type="button" title="Avançar um produto" aria-label="Próximo produto">›</button></div></div>
+  <div class="aviso">Preços, estoque e promoções devem ser consultados na loja Magalu. A compra ocorre no ambiente oficial do Magalu.</div>
+</section>
+<script>
+/* SOL GARIMPA — Versão Wix/GitHub — 08/11/2026
+  SUPORTA ATÉ 1000 PRODUTOS reais, mas não os gera por conta própria.
+  Atualização por JSON: publicar arquivo https://.../magalu-produtos.json no servidor com CORS liberado;
+  colar abaixo em CATALOGO_JSON_URL, ou usar CATALOGO_CSV_URL para planilha publicada.
+  Sem endereço, usa os 5 itens de demonstração.
+  Cada registro: { id, nome, imagem, link, categoria, preco } (preco opcional, numérico BRL).
+  IMPORTANTE: links de afiliado devem ser os LINKS REAIS gerados ou confirmados na sua conta.
+  Não inferir nem acrescentar promoter_id em links de terceiros.
+*/
+const CATALOGO_JSON_URL = ''; // URL HTTPS pública de arquivo JSON (opcional)
+const CATALOGO_CSV_URL = '';  // Alternativa: URL HTTPS pública de uma planilha publicada em CSV
+const LOJA_OFICIAL='https://www.magazinevoce.com.br/magazinesolgarimpa/';
+const PRODUTOS_INICIAIS = [
+  {
+    "id": "240466500",
+    "nome": "Celular Samsung Galaxy A07 128 GB Preto, 4 GB RAM",
+    "categoria": "Tecnologia",
+    "imagem": "https://a-static.mlcdn.com.br/800x800/smartphone-galaxy-a07-128gb-4g-samsung/lojasmm/18334/7d2f182f0b146ac2dc3d08bc3c1743f3.jpg",
+    "link": "https://magazineluiza.onelink.me/589508454/836uwcf1",
+    "status": "validado"
+  },
+  {
+    "id": "dc5f7d7gf4",
+    "nome": "Kit 3 Potes de Vidro 600ml com Tampa de Bambu Oikos",
+    "categoria": "Casa e cozinha",
+    "imagem": "https://product-hub-prd.madeiramadeira.com.br/4515429/images/154dd0b1-7d7a-4e96-8e78-610e75522e7025897939kit3potesdevidroquadrado600mlctampaflatbambuoikos17833oik123371600x505.jpg",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/potes-de-vidro-p-mantimentos-600ml-c-tampa-bambu-3-pcs-oikos/p/dc5f7d7gf4/ud/porm/?seller_id=lojamozcada",
+    "status": "validado"
+  },
+  {
+    "id": "ac5cck3cb9",
+    "nome": "Air Fryer Mondial Family 4 Litros AFN-40-BI",
+    "categoria": "Eletroportáteis",
+    "imagem": "https://a-static.mlcdn.com.br/800x560/fritadeira-air-fryer-mondial-afn-40-bi-4l-127v/alfixshop/12029/b12420cd6ed502f171b802c6d1db417f.jpeg",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/",
+    "status": "verificar",
+    "url_candidata": "https://www.magazinevoce.com.br/magazinesolgarimpa/fritadeira-air-fryer-4-litros-mondial-220v-preto-afn-40-bi/p/ac5cck3cb9/ep/efso/"
+  },
+  {
+    "id": "240354400",
+    "nome": "Notebook Acer Aspire Go 15 Intel Core i5, 8 GB, 512 GB SSD",
+    "categoria": "Informática",
+    "imagem": "https://img.dynos.es/img/289e7/1e848/720-BE7G040J0-0X0N-0.jpg",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/",
+    "status": "verificar",
+    "url_candidata": "https://www.magazinevoce.com.br/magazinesolgarimpa/notebook-acer-aspire-go-intel-core-i5-13420h-8gb-ram-512gb-ssd-156-full-hd-windows-11-ag15-71p-53gm/p/240354400/in/nota/"
+  },
+  {
+    "id": "237862900",
+    "nome": "Smart TV TCL 40 Polegadas Full HD Android 40S5400A",
+    "categoria": "TV e vídeo",
+    "imagem": "https://vega.ge/image/cache/catalog/files/1Emil/01ge/32S5400AF%2040S5400A%2043S5400A%20%281%29-2000x1500.jpg",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/",
+    "status": "verificar",
+    "url_candidata": "https://www.magazinevoce.com.br/magazinesolgarimpa/smart-tv-40-full-hd-led-tcl-40s5400a-android-wi-fi-bluetooth-google-assistente-2-hdmi-1-usb/p/237862900/et/tves/"
+  }
+];
+const q=(s)=>document.querySelector(s);
+let pausado=false,vel=0,lista=[];
+function ehLinkSeguro(link){
+ try {const u=new URL(link); if(u.protocol!=='https:')return false;
+  const host=u.hostname.toLowerCase();
+  return (host==='www.magazinevoce.com.br' && u.pathname.startsWith('/magazinesolgarimpa/')) ||
+         (host==='magazinevoce.com.br' && u.pathname.startsWith('/magazinesolgarimpa/')) ||
+         (host==='magazineluiza.onelink.me' && u.pathname.startsWith('/589508454/'));
+ }catch(e){return false;}
+}
+function fonteValida(link){try{const u=new URL(link);return u.protocol==='https:'?u.href:null;}catch(e){return null;}}
+function limpar(p){if(!p || !p.nome || !p.imagem || !p.link)return null;
+ const link=String(p.link); if(!ehLinkSeguro(link))return null;
+ const imagem=fonteValida(String(p.imagem));if(!imagem)return null;
+ return {id:String(p.id||p.nome).slice(0,80),nome:String(p.nome).slice(0,180),categoria:String(p.categoria||'Ofertas Magalu').slice(0,55),imagem,link,preco:(typeof p.preco==='number'&&p.preco>0&&Number.isFinite(p.preco))?p.preco:null};
+}
+function embaralhar(xs){const a=xs.slice(); for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+
+// A cada visita, sortear uma nova frente da vitrine.
+// Quando o armazenamento estiver disponível, dar preferência aos itens que
+// apareceram menos nas primeiras posições das últimas visitas.
+// No modo privado ou com bloqueio de armazenamento, mantém o sorteio normal.
+const CHAVE_FRENTE='solgarimpa_magalu_primeiros_v2';
+function lerFrentes(){
+ for(const armazenamento of [()=>localStorage,()=>sessionStorage]){
+  try{
+   const h=JSON.parse(armazenamento().getItem(CHAVE_FRENTE)||'[]');
+   if(Array.isArray(h))return h.filter(v=>Array.isArray(v)).slice(0,5);
+  }catch(e){}
+ }
+ return [];
+}
+function salvarFrentes(frentes){
+ const valor=JSON.stringify(frentes.slice(0,5));
+ try{localStorage.setItem(CHAVE_FRENTE,valor);return;}catch(e){}
+ try{sessionStorage.setItem(CHAVE_FRENTE,valor);}catch(e){}
+}
+function ordenarParaVisita(produtos){
+ const misturados=embaralhar(produtos);
+ if(misturados.length<2)return misturados;
+ const historico=lerFrentes();
+ const penalidade=new Map();
+ historico.forEach((ids,visita)=>ids.forEach((id,pos)=>{
+  const chave=String(id);
+  penalidade.set(chave,(penalidade.get(chave)||0)+(6-visita)*(4-pos));
+ }));
+ // O sorteio anterior desempata as pontuações e evita uma sequência fixa.
+ misturados.sort((a,b)=>(penalidade.get(a.id)||0)-(penalidade.get(b.id)||0));
+ // Garantir que o primeiro item não seja o mesmo da visita imediatamente anterior.
+ const ultimo=historico[0]?.[0];
+ if(ultimo!==undefined && misturados[0].id===String(ultimo)){
+  const alternativa=misturados.findIndex(p=>p.id!==String(ultimo));
+  if(alternativa>0)[misturados[0],misturados[alternativa]]=[misturados[alternativa],misturados[0]];
+ }
+ const visiveis=Math.min(3,misturados.length);
+ salvarFrentes([misturados.slice(0,visiveis).map(p=>p.id),...historico]);
+ return misturados;
+}
+function card(p){
+ const a=document.createElement('a');a.className='card';a.href=p.link;a.target='_blank';a.rel='noopener noreferrer sponsored';a.title='Ver '+p.nome+' no Magalu';
+ const foto=document.createElement('div');foto.className='foto';const img=document.createElement('img');img.loading='lazy';img.src=p.imagem;img.alt=p.nome;
+ img.addEventListener('error',()=>{img.remove();const x=document.createElement('span');x.className='semfoto';x.textContent='Foto temporariamente indisponível';foto.append(x);},{once:true});
+ foto.append(img);const det=document.createElement('div');det.className='detalhes';
+ const cat=document.createElement('span');cat.className='categoria';cat.textContent=p.categoria;
+ const nome=document.createElement('span');nome.className='nome';nome.textContent=p.nome;
+ const preco=document.createElement('div');preco.className=p.preco!==null?'preco':'preco vazio';preco.textContent=p.preco!==null?p.preco.toLocaleString('pt-BR',{style:'currency',currency:'BRL'}):'Confira o preço na loja';
+ const cta=document.createElement('div');cta.className='cta';cta.textContent='Ver no Magalu ↗';
+ det.append(cat,nome,preco,cta);a.append(foto,det);return a;
+}
+function montar(raw){
+ const vistos=new Set();const validos=[];
+ for(const x of raw){const p=limpar(x);if(!p||vistos.has(p.id))continue;vistos.add(p.id);validos.push(p);if(validos.length>=1000)break;}
+ lista=ordenarParaVisita(validos);const trilha=q('#trilha');trilha.replaceChildren();
+ if(!lista.length){q('#erro').style.display='block';return;}
+ q('#erro').style.display='none';const frag=document.createDocumentFragment();
+ /* Repetir exatamente o conjunto (sem inventar novos produtos) cria loop contínuo. */
+ const grupo1=document.createElement('div');grupo1.style.cssText='display:flex;gap:inherit;align-items:stretch;flex:none';
+ for(const p of lista)grupo1.append(card(p));frag.append(grupo1);const grupo2=grupo1.cloneNode(true);grupo2.setAttribute('aria-hidden','true');for(const a of grupo2.querySelectorAll('a'))a.tabIndex=-1;frag.append(grupo2);
+ trilha.append(frag);const medir=()=>{const gap=Number.parseFloat(getComputedStyle(trilha).gap)||0;const metade=grupo1.getBoundingClientRect().width+gap;
+    trilha.style.setProperty('--metade',metade+'px');const segundos=Math.max(15,metade/40);trilha.style.setProperty('--duracao',segundos+'s');};
+ requestAnimationFrame(medir);window.addEventListener('resize',medir,{passive:true});if(pausado)trilha.classList.add('pausado');
+}
+function lerCSV(texto){
+ const linhas=[];let linha=[],valor='',dentro=false;
+ texto=texto.replace(/^\uFEFF/,'');
+ for(let i=0;i<texto.length;i++){
+  const c=texto[i];
+  if(c==='"'){
+   if(dentro && texto[i+1]==='"'){valor+='"';i++;}else dentro=!dentro;
+  }else if(c===','&&!dentro){linha.push(valor);valor='';}
+  else if((c==='\n'||c==='\r')&&!dentro){
+   if(c==='\r'&&texto[i+1]==='\n')i++;
+   linha.push(valor);if(linha.some(x=>x.trim()))linhas.push(linha);linha=[];valor='';
+  }else valor+=c;
+ }
+ if(valor||linha.length){linha.push(valor);linhas.push(linha);}
+ const cab=linhas.shift()?.map(s=>s.trim())||[];
+ return linhas.map(l=>{
+  const p={};cab.forEach((key,i)=>p[key]=(l[i]||'').trim());
+  if(p.preco){const v=p.preco.replace(/R\$/gi,'').replace(/\./g,'').replace(',','.').trim();p.preco=Number(v)||undefined;}
+  return p;
+ });
+}
+async function iniciar(){let produtos=PRODUTOS_INICIAIS;
+ if(CATALOGO_JSON_URL || CATALOGO_CSV_URL){try{const csv=!!CATALOGO_CSV_URL&&!CATALOGO_JSON_URL;const u=new URL(CATALOGO_JSON_URL||CATALOGO_CSV_URL);if(u.protocol!=='https:')throw Error('URL do catálogo requer HTTPS');
+ const resp=await fetch(u.href,{cache:'no-store'});if(!resp.ok)throw Error('HTTP '+resp.status);const dados=csv?lerCSV(await resp.text()):await resp.json();
+ if(!Array.isArray(dados))throw Error('Catálogo precisa ser uma lista JSON');produtos=dados;
+ }catch(e){console.warn('Falha ao carregar catálogo externo; exibindo itens iniciais:',e);}}
+ montar(produtos);
+}
+q('#pausa').addEventListener('click',()=>{pausado=!pausado;const t=q('#trilha');t.classList.toggle('pausado',pausado);q('#pausa').textContent=pausado?'Reproduzir':'Pausar';q('#pausa').setAttribute('aria-pressed',String(pausado));q('#pausa').setAttribute('aria-label',pausado?'Reproduzir animação':'Pausar reprodução');});
+function mover(sinal){const trilha=q('#trilha');trilha.classList.add('pausado');pausado=true;q('#pausa').textContent='Reproduzir';q('#pausa').setAttribute('aria-pressed','true');q('#pausa').setAttribute('aria-label','Reproduzir animação');
+ const grupo=trilha.firstElementChild, tamanho=grupo.getBoundingClientRect().width+12;
+ const e=trilha.getAnimations()[0];if(e&&tamanho){const delta=Math.min(210,tamanho);const pct=delta/tamanho;const dur=e.effect.getTiming().duration;
+ e.currentTime=(((e.currentTime||0)+(sinal*dur*pct))%dur+dur)%dur;}}
+q('#ant').addEventListener('click',()=>mover(-1));q('#prox').addEventListener('click',()=>mover(1));
+iniciar();
+</script>
+</body>
+</html>
