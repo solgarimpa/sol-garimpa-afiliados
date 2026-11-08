@@ -2,6 +2,13 @@ name: SOL GARIMPA - Vitrine AliExpress
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/aliexpress/index.html'
+      - 'scripts/sync_aliexpress.py'
+      - 'tests/test_sync_aliexpress.py'
+      - '.github/workflows/atualizar_aliexpress.yml'
   schedule:
     # 08h, 12h, 16h e 20h em America/Sao_Paulo (UTC-3).
     - cron: '17 11,15,19,23 * * *'
