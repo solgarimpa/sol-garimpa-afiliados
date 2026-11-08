@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-08T01:26:21+00:00",
+  "atualizado_em": "2026-11-08T03:06:10+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -893,20 +893,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-d1e297b62e81cc624d77",
-      "loja": "Lojas REDE",
-      "tipo": "promocao",
-      "titulo": "Ofertas 07-11",
-      "imagem": "",
-      "link": "https://lmdee.link/myspE2rvsZIN",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-08T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1891,6 +1877,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-ab8c31921b04f6dffa6b",
+      "loja": "Autoamerica Store",
+      "tipo": "promocao",
+      "titulo": "Lançamento Autoamerica Store",
+      "imagem": "https://cdn.lomadee.com.br/offer/263beb4d-1c28-45be-85b8-d48ff27637c7/banners/PROMO%20Luva%20de%20lavagem%20-%20Mobile.jpg",
+      "link": "https://lmdee.link/yt4UkIouqEWb",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2027-01-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-fdf5d392c0b511cc39c6",
       "loja": "Brinox",
       "tipo": "cupom",
@@ -2631,11 +2631,25 @@
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
       "origem": "Lomadee"
+    },
+    {
+      "id": "lp-66f644edc5060b33946c",
+      "loja": "ECO FLAME GARDEN",
+      "tipo": "produto",
+      "titulo": "2 Espreguiçadeiras Casal Duo",
+      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/ecoflame_site_produtos_2-duo_branco.webp?v=1774290227",
+      "link": "https://lmdee.link/mrC0lraMJCpl",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
+      "origem": "Lomadee"
     }
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 150,
+    "com_ofertas": 151,
     "marcas": 132,
     "campanhas": 120,
     "produtos": 60,
