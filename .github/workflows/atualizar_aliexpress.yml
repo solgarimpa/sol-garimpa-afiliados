@@ -2,6 +2,12 @@ name: SOL GARIMPA - Vitrine AliExpress
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/sync_aliexpress.py'
+      - 'tests/test_sync_aliexpress.py'
+      - '.github/workflows/atualizar_aliexpress.yml'
 
 permissions:
   contents: write
