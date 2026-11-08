@@ -1,0 +1,68 @@
+name: SOL GARIMPA - Vitrine AliExpress
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  sincronizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Baixar repositorio
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Testar catalogo sem acesso a API
+        run: python -m unittest discover -s tests -p 'test_sync_aliexpress.py' -v
+
+      - name: Consultar produtos e links AliExpress
+        env:
+          ALIEXPRESS_APP_KEY: ${{ secrets.ALIEXPRESS_APP_KEY }}
+          ALIEXPRESS_APP_SECRET: ${{ secrets.ALIEXPRESS_APP_SECRET }}
+          ALIEXPRESS_TRACKING_ID: ${{ secrets.ALIEXPRESS_TRACKING_ID }}
+        run: python scripts/sync_aliexpress.py
+
+      - name: Publicar JSON do AliExpress
+        run: |
+          git config user.name "sol-garimpa-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/aliexpress/ofertas.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Atualiza vitrine AliExpress via API"
+            bash scripts/git_push_retry.sh main
+          fi
+          git fetch origin main
+          git merge --ff-only origin/main
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Empacotar site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./docs
+
+      - name: Publicar vitrine
+        id: deployment
+        uses: actions/deploy-pages@v4
