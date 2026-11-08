@@ -137,12 +137,17 @@ async function load(){
     if(primeiraCarga){
       all=ordenarNovaVisita(all);
       primeiraCarga=false;
+      show();
     }else{
-      // Atualizações periódicas não reiniciam a sequência que o usuário vê.
+      // Em atualizações periódicas, mantém a ordem e a posição do carrossel.
       const ordem=new Map(anteriores.map((p,i)=>[String(p.id),i]));
       all.sort((a,b)=>(ordem.get(String(a.id))??Infinity)-(ordem.get(String(b.id))??Infinity));
+      const termo=search.toLocaleLowerCase('pt-BR');
+      items=all.filter(p=>p.nome.toLocaleLowerCase('pt-BR').includes(termo));
+      index=items.length?index%items.length:0;
+      render();
     }
-    show();if(!all.length)status.textContent='Aguardando produtos verificados';
+    if(!all.length)status.textContent='Aguardando produtos verificados';
   }catch(err){if(!all.length){status.textContent='Vitrine em atualização';empty.hidden=false;frame.hidden=true}}
 }
 $('search').addEventListener('input',e=>{search=e.target.value.trim();show()});
