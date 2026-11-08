@@ -1,11 +1,11 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-08T02:57:23.128773Z",
-  "total": 117,
+  "atualizado_em": "2026-11-08T03:40:54.105590Z",
+  "total": 115,
   "total_cupons": 96,
-  "total_promocoes": 21,
+  "total_promocoes": 19,
   "fontes": {
-    "Awin": 99,
+    "Awin": 97,
     "Rakuten": 0,
     "Lomadee": 18
   },
@@ -1187,18 +1187,6 @@
       "rede": "Awin"
     },
     {
-      "id": "0545e724436492baba",
-      "loja": "Eurorelogios BR",
-      "tipo": "promocao",
-      "titulo": "Esquenta BF | Compre e Ganhe",
-      "descricao": "Esquenta Black Friday - ofertas em produtos selecionados e nas compras a partir de 399,00, ganha uma pashmina exclusiva da Euro.",
-      "termos": "Promoção válida apenas no site oficial da EURO.",
-      "cupom": "",
-      "validade": "2026-11-08T03:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=28167&awinaffid=3110826&ued=https%3A%2F%2Fwww.eurorelogios.com.br%2Fblack-friday",
-      "rede": "Awin"
-    },
-    {
       "id": "e498609e2398b419f0",
       "loja": "Fast Technology Limited",
       "tipo": "promocao",
@@ -1388,18 +1376,6 @@
       "cupom": "",
       "validade": "2026-11-10T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=65354&awinaffid=3110826&ued=https%3A%2F%2Fsoldiersnutrition.com.br%2Fproducts%2Fcreatina-monohidratada-100-pura-importada-soldiers-nutrition-tamanho-500g%3Fvariant%3D47173659033849",
-      "rede": "Awin"
-    },
-    {
-      "id": "7206ba88a360434dce",
-      "loja": "Technos BR",
-      "tipo": "promocao",
-      "titulo": "ESQUENTA BF - COMPRE E GANHE",
-      "descricao": "Esquenta Black Friday, ofertas em produtos selecionados e nas compras a partir de 899,00 você ganha um presente exclusivo da Technos",
-      "termos": "Ofertas válidas apenas no site oficial da Technos.",
-      "cupom": "",
-      "validade": "2026-11-08T03:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=28161&awinaffid=3110826&ued=https%3A%2F%2Fwww.technos.com.br%2Fblack-friday",
       "rede": "Awin"
     },
     {
