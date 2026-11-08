@@ -63,6 +63,9 @@ jobs:
         with:
           path: ./docs
 
+      - name: Aguardar indexacao do artefato GitHub Pages
+        run: sleep 20
+
       - name: Publicar GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
