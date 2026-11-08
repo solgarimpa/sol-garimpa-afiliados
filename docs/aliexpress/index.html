@@ -54,6 +54,47 @@ const $=id=>document.getElementById(id);
 const track=$('track'),frame=$('frame'),status=$('status'),empty=$('empty');
 let all=[],items=[],index=0,paused=matchMedia('(prefers-reduced-motion: reduce)').matches;
 let search='';
+const CHAVE_INICIAIS='solgarimpa_aliexpress_iniciais_v1';
+let primeiraCarga=true;
+
+// Sorteia a vitrine a cada nova visita. No mesmo navegador, evita repetir
+// produtos que apareceram primeiro nas visitas mais recentes.
+function embaralhar(lista){
+  const saida=[...lista];
+  for(let i=saida.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1));
+    [saida[i],saida[j]]=[saida[j],saida[i]];
+  }
+  return saida;
+}
+function lerIniciais(){
+  try{
+    const salvo=localStorage.getItem(CHAVE_INICIAIS);
+    const ids=JSON.parse(salvo||'[]');
+    return Array.isArray(ids)?ids.filter(x=>typeof x==='string').slice(0,24):[];
+  }catch{
+    try{
+      const ids=JSON.parse(sessionStorage.getItem(CHAVE_INICIAIS)||'[]');
+      return Array.isArray(ids)?ids.filter(x=>typeof x==='string').slice(0,24):[];
+    }catch{return []}
+  }
+}
+function guardarIniciais(ids){
+  const atual=lerIniciais();
+  const historico=[...new Set([...ids,...atual])].slice(0,24);
+  try{localStorage.setItem(CHAVE_INICIAIS,JSON.stringify(historico))}
+  catch{try{sessionStorage.setItem(CHAVE_INICIAIS,JSON.stringify(historico))}catch{}}
+}
+function ordenarNovaVisita(lista){
+  const misturados=embaralhar(lista);
+  const vistos=new Set(lerIniciais());
+  const novos=misturados.filter(p=>!vistos.has(String(p.id)));
+  const anteriores=misturados.filter(p=>vistos.has(String(p.id)));
+  // Dá prioridade a itens ainda não vistos no início, sem ocultar nenhum.
+  const ordenados=novos.length?[...novos,...anteriores]:misturados;
+  guardarIniciais(ordenados.slice(0,8).map(p=>String(p.id)));
+  return ordenados;
+}
 function safeLink(v){try{const u=new URL(String(v||''));return u.protocol==='https:'&&u.hostname==='s.click.aliexpress.com'?u.href:''}catch{return ''}}
 function safeImage(v){try{const u=new URL(String(v||''));return u.protocol==='https:'&&['alicdn.com','aliexpress.com','aliexpress-media.com'].some(h=>u.hostname===h||u.hostname.endsWith('.'+h))?u.href:''}catch{return ''}}
 function formatPrice(p){if(p.moeda!=='BRL'||typeof p.preco!=='number')return '';return new Intl.NumberFormat('pt-BR',{style:'currency',currency:'BRL'}).format(p.preco)}
@@ -89,10 +130,18 @@ async function load(){
     if(!response.ok)throw Error('Fonte indisponível');
     const data=await response.json();
     if(!Array.isArray(data.produtos))throw Error('Catálogo inválido');
+    const anteriores=all;
     all=data.produtos.map(p=>({...p,link:safeLink(p.link),imagem:safeImage(p.imagem)}))
       .filter(p=>p.link&&p.imagem&&typeof p.nome==='string'&&p.nome.trim());
     const ids=new Set();all=all.filter(p=>{if(ids.has(p.id))return false;ids.add(p.id);return true});
-    for(let i=all.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[all[i],all[j]]=[all[j],all[i]]}
+    if(primeiraCarga){
+      all=ordenarNovaVisita(all);
+      primeiraCarga=false;
+    }else{
+      // Atualizações periódicas não reiniciam a sequência que o usuário vê.
+      const ordem=new Map(anteriores.map((p,i)=>[String(p.id),i]));
+      all.sort((a,b)=>(ordem.get(String(a.id))??Infinity)-(ordem.get(String(b.id))??Infinity));
+    }
     show();if(!all.length)status.textContent='Aguardando produtos verificados';
   }catch(err){if(!all.length){status.textContent='Vitrine em atualização';empty.hidden=false;frame.hidden=true}}
 }
