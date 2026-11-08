@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Achadinhos AliExpress | Sol Garimpa</title>
+<style>
+:root{font-family:Arial,Helvetica,sans-serif;color:#262626;background:#fff;--ali:#f34536;--cor:#ebebeb}
+*{box-sizing:border-box}body{margin:0}main{max-width:1380px;margin:auto;padding:14px 12px 18px}
+header{text-align:center;margin-bottom:11px}h1{margin:0;font-size:clamp(20px,3vw,28px);color:var(--ali);line-height:1.2}
+header p{font-size:12px;color:#676767;margin:6px 0}
+.toolbar{display:flex;gap:9px;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap}
+#search{flex:1;min-width:175px;border:1px solid #ddd;border-radius:9px;padding:11px;font-size:14px}
+#status{font-size:11px;color:#666;min-width:150px}
+.frame{overflow:hidden;touch-action:pan-y}
+.track{display:flex;gap:13px;transition:transform .45s ease}
+.card{flex:0 0 210px;width:210px;display:flex;flex-direction:column;border:1px solid #e9e9ea;border-radius:13px;overflow:hidden;background:white;color:inherit;text-decoration:none}
+.card:focus-visible{outline:3px solid var(--ali);outline-offset:2px}
+.photo{height:174px;display:flex;align-items:center;justify-content:center;background:#fafafa}
+.photo img{width:100%;height:100%;object-fit:contain;padding:8px}
+.body{padding:10px;display:flex;flex-direction:column;flex:1;gap:6px}
+.name{font-weight:750;font-size:13px;line-height:1.4;min-height:54px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.price{font-weight:800;font-size:17px;color:#222}
+.btn{margin-top:auto;text-align:center;background:var(--ali);color:white;border-radius:8px;padding:10px 6px;font-size:12px;font-weight:800}
+footer{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-top:12px}
+.controls{display:flex;gap:6px}button{cursor:pointer;background:white;border:1px solid #ddd;padding:8px 11px;border-radius:8px;font-weight:700}
+button:hover{border-color:var(--ali)}button:disabled{opacity:.4;cursor:default}
+.note{font-size:10px;color:#777;max-width:620px}
+.empty{padding:32px 14px;background:#fafafa;border:1px dashed #ddd;border-radius:12px;color:#666;text-align:center;font-size:13px}
+@media(max-width:600px){main{padding:12px 8px}.card{flex-basis:166px;width:166px}.photo{height:146px}.name{font-size:12px;min-height:50px}#status{font-size:10px}}
+@media(prefers-reduced-motion:reduce){.track{transition:none}}
+</style>
+</head>
+<body>
+<main>
+<header>
+<h1>Achadinhos do AliExpress pra você!</h1>
+<p>Uma seleção da Sol Garimpa com links de afiliados para produtos no AliExpress.</p>
+</header>
+<div class="toolbar">
+<input id="search" type="search" placeholder="Pesquisar na vitrine" aria-label="Pesquisar produtos">
+<span id="status" role="status">Carregando produtos...</span>
+</div>
+<div id="empty" class="empty" hidden>Nenhuma oferta com link de afiliado foi confirmada ainda. Volte em breve.</div>
+<section id="frame" class="frame" aria-label="Carrossel de produtos"><div id="track" class="track"></div></section>
+<footer>
+<div class="note">Ao comprar pelos links, a Sol Garimpa pode receber comissão. Preços, estoque e elegibilidade são confirmados no AliExpress.</div>
+<div class="controls">
+<button id="prev" aria-label="Produto anterior">‹</button>
+<button id="pause" aria-label="Pausar carrossel">Pausar</button>
+<button id="next" aria-label="Produto seguinte">›</button>
+</div>
+</footer>
+</main>
+<script>
+(()=>{
+'use strict';
+const source='./ofertas.json';
+const $=id=>document.getElementById(id);
+const track=$('track'),frame=$('frame'),status=$('status'),empty=$('empty');
+let all=[],items=[],index=0,paused=matchMedia('(prefers-reduced-motion: reduce)').matches;
+let search='';
+function safeLink(v){try{const u=new URL(String(v||''));return u.protocol==='https:'&&u.hostname==='s.click.aliexpress.com'?u.href:''}catch{return ''}}
+function safeImage(v){try{const u=new URL(String(v||''));return u.protocol==='https:'&&['alicdn.com','aliexpress.com','aliexpress-media.com'].some(h=>u.hostname===h||u.hostname.endsWith('.'+h))?u.href:''}catch{return ''}}
+function formatPrice(p){if(p.moeda!=='BRL'||typeof p.preco!=='number')return '';return new Intl.NumberFormat('pt-BR',{style:'currency',currency:'BRL'}).format(p.preco)}
+function card(p){
+  const a=document.createElement('a');a.className='card';a.href=p.link;a.target='_blank';a.rel='noopener noreferrer sponsored';
+  const photo=document.createElement('div');photo.className='photo';
+  const img=document.createElement('img');img.src=p.imagem;img.alt=p.nome;img.loading='lazy';img.onerror=()=>img.remove();photo.append(img);
+  const body=document.createElement('div');body.className='body';
+  const name=document.createElement('span');name.className='name';name.textContent=p.nome;
+  body.append(name);
+  const price=formatPrice(p);if(price){const t=document.createElement('span');t.className='price';t.textContent=price;body.append(t)}
+  const btn=document.createElement('span');btn.className='btn';btn.textContent='Ver produto no AliExpress';body.append(btn);
+  a.append(photo,body);return a;
+}
+function show(){
+  const term=search.toLocaleLowerCase('pt-BR');
+  items=all.filter(p=>p.nome.toLocaleLowerCase('pt-BR').includes(term));
+  index=0;render();
+}
+function render(){
+  track.replaceChildren();
+  if(!items.length){empty.hidden=false;frame.hidden=true;return}
+  empty.hidden=true;frame.hidden=false;
+  const w=window.innerWidth<=600?166:210;
+  const n=Math.max(2,Math.ceil(frame.clientWidth/(w+13))+1);
+  for(let i=0;i<Math.min(n,items.length);i++)track.append(card(items[(index+i)%items.length]));
+  status.textContent=items.length+' ofertas disponíveis';
+}
+function step(dir){if(items.length<2)return;index=(index+dir+items.length)%items.length;render()}
+async function load(){
+  try{
+    const response=await fetch(source+'?t='+Date.now(),{cache:'no-store'});
+    if(!response.ok)throw Error('Fonte indisponível');
+    const data=await response.json();
+    if(!Array.isArray(data.produtos))throw Error('Catálogo inválido');
+    all=data.produtos.map(p=>({...p,link:safeLink(p.link),imagem:safeImage(p.imagem)}))
+      .filter(p=>p.link&&p.imagem&&typeof p.nome==='string'&&p.nome.trim());
+    const ids=new Set();all=all.filter(p=>{if(ids.has(p.id))return false;ids.add(p.id);return true});
+    for(let i=all.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[all[i],all[j]]=[all[j],all[i]]}
+    show();if(!all.length)status.textContent='Aguardando produtos verificados';
+  }catch(err){if(!all.length){status.textContent='Vitrine em atualização';empty.hidden=false;frame.hidden=true}}
+}
+$('search').addEventListener('input',e=>{search=e.target.value.trim();show()});
+$('prev').addEventListener('click',()=>step(-1));
+$('next').addEventListener('click',()=>step(1));
+$('pause').addEventListener('click',()=>{paused=!paused;$('pause').textContent=paused?'Continuar':'Pausar'});
+frame.addEventListener('mouseenter',()=>paused=true);
+frame.addEventListener('mouseleave',()=>{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){paused=false;$('pause').textContent='Pausar'}});
+let touch=0;frame.addEventListener('touchstart',e=>touch=e.changedTouches[0].clientX,{passive:true});
+frame.addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-touch;if(Math.abs(dx)>45)step(dx<0?1:-1)},{passive:true});
+window.addEventListener('resize',render);
+setInterval(()=>{if(!paused&&!document.hidden&&!search)step(1)},3000);
+setInterval(load,15*60*1000);load();
+})();
+</script>
+</body>
+</html>
