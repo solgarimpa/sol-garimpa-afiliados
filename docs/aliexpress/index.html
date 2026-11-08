@@ -7,6 +7,7 @@
 <style>
 :root{font-family:Arial,Helvetica,sans-serif;color:#262626;background:#fff;--ali:#f34536;--cor:#ebebeb}
 *{box-sizing:border-box}body{margin:0}main{max-width:1380px;margin:auto;padding:14px 12px 18px}
+.titulo-vitrine{text-align:center;color:var(--ali);font-size:clamp(20px,3vw,28px);line-height:1.2;margin:0 0 14px;font-weight:800}
 .toolbar{display:flex;gap:9px;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap}
 #search{flex:1;min-width:175px;border:1px solid #ddd;border-radius:9px;padding:11px;font-size:14px}
 #status{font-size:11px;color:#666;min-width:150px}
@@ -31,6 +32,7 @@ button:hover{border-color:var(--ali)}button:disabled{opacity:.4;cursor:default}
 </head>
 <body>
 <main>
+<h1 class="titulo-vitrine">Achadinhos do AliExpress pra você!</h1>
 <div class="toolbar">
 <input id="search" type="search" placeholder="Pesquisar na vitrine" aria-label="Pesquisar produtos">
 <span id="status" role="status">Carregando produtos...</span>
