@@ -1,9 +1,20 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-09T15:01:59.626355Z",
-  "total": 96,
+  "atualizado_em": "2026-11-09T15:48:33.534230Z",
+  "total": 102,
   "ofertas": [
+    {
+      "id": "4166878",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "15% OFF no Processador AMD Ryzen 7 5700 3.7GHz até 4.6GHz Max Turbo Cache 20MB 8 Núcleos 16 Threads AM4 sem vídeo integrado",
+      "descricao": "15% OFF no Processador AMD Ryzen 7 5700 3.7GHz até 4.6GHz Max Turbo Cache 20MB 8 Núcleos 16 Threads AM4 sem vídeo integrado",
+      "termos": ".",
+      "cupom": "AMD15OFF",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F938497%2Fprocessador-amd-ryzen-7-5700-3-7-ghz-4-6ghz-max-turbo-cache-20mb-8-nucleos-16-threads-am4-sem-video-integrado-100-100000743sbx"
+    },
     {
       "id": "4165035",
       "loja": "Kabum BR",
@@ -71,6 +82,17 @@
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1080075%2Fnotebook-lenovo-ideapad-slim-3-15ahp10-amd-ryzen-7-8840hs-16gb-512gb-ssd-windows-11-home-83ty000jbo"
     },
     {
+      "id": "4166884",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF em produtos participantes da campanha Casa Ninja",
+      "descricao": "10% OFF em produtos participantes da campanha Casa Ninja",
+      "termos": ".",
+      "cupom": "CASANINJA10",
+      "validade": "2026-11-10T17:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1CASANINJA10"
+    },
+    {
       "id": "4144100",
       "loja": "Kabum BR",
       "tipo": "cupom",
@@ -102,6 +124,39 @@
       "cupom": "",
       "validade": "2026-11-12T07:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=3110826&ued=https%3A%2F%2Fstore.sirui.com%2Fproducts%2Fsirui-swift-series-20mm-f2-4-40mm-f2-2-full-frame-autofocus-lens"
+    },
+    {
+      "id": "4166894",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "20% OFF em produtos participantes da campanha Precisão",
+      "descricao": "20% OFF em produtos participantes da campanha Precisão",
+      "termos": ".",
+      "cupom": "PRECISAO20",
+      "validade": "2026-11-13T13:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1PRECISAO20"
+    },
+    {
+      "id": "4166892",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "15% OFF em produtos participantes da campanha Tomou 15",
+      "descricao": "15% OFF em produtos participantes da campanha Tomou 15",
+      "termos": ".",
+      "cupom": "TOMOU15",
+      "validade": "2026-11-13T13:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1TOMOU15"
+    },
+    {
+      "id": "4166886",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "40% OFF em produtos participantes da campanha Endgame",
+      "descricao": "40% OFF em produtos participantes da campanha Endgame",
+      "termos": ".",
+      "cupom": "ENDGAME40",
+      "validade": "2026-11-13T13:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1ENDGAME40"
     },
     {
       "id": "4166614",
@@ -179,6 +234,17 @@
       "cupom": "",
       "validade": "2026-11-30T15:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=114180&awinaffid=3110826&campaign=safe+accu+kit+50+off+oct26&ued=https%3A%2F%2Fen.sinocare.com%2Fproducts%2Fsinocare-blood-glucose-monitor-safe-accu%3Fvariant%3D43072245825768"
+    },
+    {
+      "id": "4166889",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "30% OFF em produtos participantes da marca JBL",
+      "descricao": "30% OFF em produtos participantes da marca JBL",
+      "termos": ".",
+      "cupom": "JBL30",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP3JBL30"
     },
     {
       "id": "4165028",

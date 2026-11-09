@@ -1,11 +1,11 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-09T15:02:00.738699Z",
-  "total": 125,
-  "total_cupons": 105,
+  "atualizado_em": "2026-11-09T15:48:34.705703Z",
+  "total": 131,
+  "total_cupons": 111,
   "total_promocoes": 20,
   "fontes": {
-    "Awin": 96,
+    "Awin": 102,
     "Rakuten": 0,
     "Lomadee": 29
   },
@@ -659,6 +659,18 @@
       "rede": "Awin"
     },
     {
+      "id": "ebb59a6db69db95db7",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF em produtos participantes da campanha Casa Ninja",
+      "descricao": "10% OFF em produtos participantes da campanha Casa Ninja",
+      "termos": ".",
+      "cupom": "CASANINJA10",
+      "validade": "2026-11-10T17:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1CASANINJA10",
+      "rede": "Awin"
+    },
+    {
       "id": "0a1d68eb0b14a72b0d",
       "loja": "Kabum BR",
       "tipo": "cupom",
@@ -707,6 +719,42 @@
       "rede": "Awin"
     },
     {
+      "id": "36c15417ad88ccc502",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "15% OFF em produtos participantes da campanha Tomou 15",
+      "descricao": "15% OFF em produtos participantes da campanha Tomou 15",
+      "termos": ".",
+      "cupom": "TOMOU15",
+      "validade": "2026-11-13T13:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1TOMOU15",
+      "rede": "Awin"
+    },
+    {
+      "id": "64944bba703d355bff",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "15% OFF no Processador AMD Ryzen 7 5700 3.7GHz até 4.6GHz Max Turbo Cache 20MB 8 Núcleos 16 Threads AM4 sem vídeo integrado",
+      "descricao": "15% OFF no Processador AMD Ryzen 7 5700 3.7GHz até 4.6GHz Max Turbo Cache 20MB 8 Núcleos 16 Threads AM4 sem vídeo integrado",
+      "termos": ".",
+      "cupom": "AMD15OFF",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F938497%2Fprocessador-amd-ryzen-7-5700-3-7-ghz-4-6ghz-max-turbo-cache-20mb-8-nucleos-16-threads-am4-sem-video-integrado-100-100000743sbx",
+      "rede": "Awin"
+    },
+    {
+      "id": "cf067cfe849ba11dce",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "20% OFF em produtos participantes da campanha Precisão",
+      "descricao": "20% OFF em produtos participantes da campanha Precisão",
+      "termos": ".",
+      "cupom": "PRECISAO20",
+      "validade": "2026-11-13T13:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1PRECISAO20",
+      "rede": "Awin"
+    },
+    {
       "id": "7cf0f83b37986cbf64",
       "loja": "Kabum BR",
       "tipo": "cupom",
@@ -716,6 +764,30 @@
       "cupom": "JBL25",
       "validade": "2027-09-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP3PJBL25OFF",
+      "rede": "Awin"
+    },
+    {
+      "id": "a04165e74e176f6fb9",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "30% OFF em produtos participantes da marca JBL",
+      "descricao": "30% OFF em produtos participantes da marca JBL",
+      "termos": ".",
+      "cupom": "JBL30",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP3JBL30",
+      "rede": "Awin"
+    },
+    {
+      "id": "5e423133032ba3b64d",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "40% OFF em produtos participantes da campanha Endgame",
+      "descricao": "40% OFF em produtos participantes da campanha Endgame",
+      "termos": ".",
+      "cupom": "ENDGAME40",
+      "validade": "2026-11-13T13:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1ENDGAME40",
       "rede": "Awin"
     },
     {
