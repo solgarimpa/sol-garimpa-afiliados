@@ -136,11 +136,11 @@ async function carregar(){
      :'https://shopee.com.br/m/cupom-de-desconto';
     itens.push({
      idLoja:'shopee',loja:'Shopee',
-     titulo:String(cupom.title).slice(0,190),
-     descricao:String(cupom.rulesDescription||cupom.description||'').trim().slice(0,270),
+     titulo:/pelando/i.test(cupom.title)?'Cupom Shopee — confira as condições':String(cupom.title).slice(0,190),
+     descricao:/pelando/i.test(String(cupom.rulesDescription||cupom.description||''))?'Consulte as regras e a disponibilidade na Shopee.':String(cupom.rulesDescription||cupom.description||'').trim().slice(0,270),
      cupom:String(cupom.couponCode||'').trim().slice(0,80),
      validade:ate,link:destino,
-     rede:'Pelando · conferir disponibilidade no app',
+     rede:'Cupom público · conferir disponibilidade no app',
      publicadoEm:cupom.createdAt
     });
    }

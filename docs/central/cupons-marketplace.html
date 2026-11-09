@@ -41,7 +41,7 @@ footer{color:#777;font-size:11px;line-height:1.6;text-align:center;padding-top:2
 <main>
 <input type="search" id="busca" placeholder="🔎 Pesquisar cupom ou desconto..." aria-label="Pesquisar cupons">
 <nav class="filtros"><button data-filtro="todos" class="ativo">Todos os cupons</button><button data-filtro="codigo">Com código</button><button data-filtro="resgate">Resgatar no app</button></nav>
-<div class="status"><div class="verde" id="data">Consultando fontes...</div><div id="fontes">Pelando, Cuponomia e Méliuz</div><div id="quantidade">Carregando...</div></div>
+<div class="status"><div class="verde" id="data">Consultando fontes...</div><div id="fontes">Consulte as condições na loja</div><div id="quantidade">Carregando...</div></div>
 <section id="grade" class="grid"></section>
 <footer>Cupons e ofertas publicados por terceiros. A presença em uma fonte não garante validade: confira sempre as condições e o desconto na loja correspondente. A Sol Garimpa não oferece cashback anunciado por outros sites.</footer>
 </main>
@@ -73,9 +73,12 @@ function cartao(c){
   const art=node("article","card");
   art.appendChild(node("h2","",txt(c.title)));
   art.appendChild(node("div","desconto",txt(c.discountText)||"OFERTA"));
-  art.appendChild(node("p","descricao",txt(c.description)||"Consulte as regras na Shopee."));
-  const fontes=(Array.isArray(c.sources)?c.sources:[]).join(" · ");
-  art.appendChild(node("div","metadados","Fonte: "+fontes+(c.status==="unverified"?" · Código NÃO VERIFICADO":" · Condições sujeitas à loja")));
+  const descricao=txt(c.description);
+  art.appendChild(node("p","descricao",escolhido==="shopee"&&/pelando/i.test(descricao)?"Consulte as regras e a validade do cupom na Shopee.":(descricao||"Consulte as regras na loja.")));
+  if(escolhido!=="shopee"){
+    const fontes=(Array.isArray(c.sources)?c.sources:[]).join(" · ");
+    art.appendChild(node("div","metadados","Fonte: "+fontes+(c.status==="unverified"?" · Código NÃO VERIFICADO":" · Condições sujeitas à loja")));
+  }
   if(c.couponCode){
     const a=node("div","codigoarea"),cod=node("strong","",c.couponCode),btn=node("button","","COPIAR");
     btn.type="button";btn.onclick=async()=>{let ok=false;try{await navigator.clipboard.writeText(c.couponCode);ok=true}catch(e){const t=document.createElement("textarea");t.value=c.couponCode;t.style.position="fixed";t.style.opacity="0";document.body.appendChild(t);t.select();try{ok=document.execCommand("copy")}catch(e){}t.remove()}btn.textContent=ok?"COPIADO ✓":"SELECIONE O CÓDIGO";if(ok)setTimeout(()=>btn.textContent="COPIAR",2500)};
@@ -102,9 +105,13 @@ async function atualizar(){
     if(!Number.isFinite(data.getTime()))throw new Error("Data do catálogo inválida");
     const idade=Date.now()-data.getTime();
     el("data").textContent="Última coleta automática: "+fmt.format(data);
-    const fonte=dados.sources||{};
-    const ok=["Pelando","Cuponomia","Meliuz"].filter(n=>fonte[n]&&fonte[n].ok);
-    el("fontes").textContent="Fontes consultadas diretamente: "+(ok.length?ok.join(", "):"nenhuma; somente fonte complementar")+(idade>2*60*60*1000?" · ATENÇÃO: catálogo desatualizado":"");
+    if(escolhido==="shopee"){
+      el("fontes").textContent="Cupons divulgados publicamente. Confira as condições na Shopee."+(idade>2*60*60*1000?" · ATENÇÃO: catálogo desatualizado":"");
+    }else{
+      const fonte=dados.sources||{};
+      const ok=["Pelando","Cuponomia","Meliuz"].filter(n=>fonte[n]&&fonte[n].ok);
+      el("fontes").textContent="Fontes consultadas diretamente: "+(ok.length?ok.join(", "):"nenhuma; somente fonte complementar")+(idade>2*60*60*1000?" · ATENÇÃO: catálogo desatualizado":"");
+    }
     desenhar();
   }catch(e){
     todos=[];el("data").textContent="A atualização automática está indisponível";

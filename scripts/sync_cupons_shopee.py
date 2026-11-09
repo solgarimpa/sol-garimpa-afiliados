@@ -264,6 +264,14 @@ def main():
         return 1
     # Ordenar: cupons com codigo primeiro, depois fonte.
     unicos.sort(key=lambda x: (not bool(x["couponCode"]), x["title"].casefold()))
+    for item in unicos:
+        item["sources"] = []
+        item["sourceUrl"] = ""
+        if "pelando" in padrao(item.get("description", "")):
+            item["description"] = "Consulte as regras e a validade do cupom na Shopee."
+        if "pelando" in padrao(item.get("title", "")):
+            item["title"] = "Cupom Shopee - confira as condicoes"
+    status.pop("Pelando", None)
     payload = {
         "generatedAt": AGORA,
         "refreshMinutes": 30,
