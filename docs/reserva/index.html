@@ -7,7 +7,10 @@
 <style>
 :root{--amarelo:#ffd12a;--texto:#202020;--borda:#e5e6e8}
 *{box-sizing:border-box}
-html,body{margin:0;background:#fff;color:var(--texto);font:14px/1.4 Arial,Helvetica,sans-serif}
+html,body{margin:0;background:#fff;color:var(--texto);font:14px/1.4 Arial,Helvetica,sans-serif;scrollbar-width:none;-ms-overflow-style:none}
+/* Oculta barras no HTML do Wix sem bloquear o scroll nem as setas */
+html::-webkit-scrollbar,body::-webkit-scrollbar,.janela::-webkit-scrollbar{width:0;height:0;display:none}
+*{scrollbar-width:none}
 main{max-width:1450px;margin:auto;padding:12px}
 header{text-align:center;margin-bottom:13px}
 .marca{font-size:clamp(23px,4vw,34px);font-weight:900;letter-spacing:2px;margin:3px 0}
@@ -191,6 +194,36 @@ function elemento(tag,classe,txt){
 }
 function moeda(n){return new Intl.NumberFormat('pt-BR',{style:'currency',currency:'BRL'}).format(Number(n))}
 function shuffle(a){var x=a.slice();for(var i=x.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var z=x[i];x[i]=x[j];x[j]=z}return x}
+// Em cada visita, sorteia novamente; evita repetir o primeiro produto anterior.
+var CHAVE_PRIMEIRO='solgarimpa_reserva_primeiro_anterior_v1';
+var primeiroDaVisita='';
+function identificador(c){return String(c.id||c.destino||c.link||c.titulo||'')}
+function lerPrimeiroAnterior(){
+ try{return localStorage.getItem(CHAVE_PRIMEIRO)||''}
+ catch(e){try{return sessionStorage.getItem(CHAVE_PRIMEIRO)||''}catch(e2){return ''}}
+}
+function guardarPrimeiroAtual(id){
+ try{localStorage.setItem(CHAVE_PRIMEIRO,id)}
+ catch(e){try{sessionStorage.setItem(CHAVE_PRIMEIRO,id)}catch(e2){}}
+}
+function ordenarVitrine(lista,novaVisita){
+ var x=shuffle(lista);
+ if(!x.length)return x;
+ if(novaVisita){
+  var anterior=lerPrimeiroAnterior();
+  if(x.length>1&&identificador(x[0])===anterior){
+   var j=1+Math.floor(Math.random()*(x.length-1));
+   var aux=x[0];x[0]=x[j];x[j]=aux;
+  }
+  primeiroDaVisita=identificador(x[0]);
+  guardarPrimeiroAtual(primeiroDaVisita);
+ }else if(primeiroDaVisita){
+  // A consulta ao JSON nao altera o destaque inicial da visita.
+  var i=x.findIndex(function(c){return identificador(c)===primeiroDaVisita});
+  if(i>0){var item=x.splice(i,1)[0];x.unshift(item)}
+ }
+ return x;
+}
 function reserva(c){
  var loja=String(c.loja||'').trim().toLowerCase();
  var dominio=String(c.dominio_loja||'').toLowerCase();
@@ -267,13 +300,13 @@ function carregar(){
    var reais=produtos.filter(function(c){return c.tipo==='produto'||c.tipo==='cupom'});
    var chaves=new Set(reais.map(function(c){return String(c.titulo||'').toLowerCase()}));
    var apoio=vitrineInicial.filter(function(c){return !chaves.has(c.titulo.toLowerCase())});
-   dados=shuffle(reais.concat(apoio));
+   dados=ordenarVitrine(reais.concat(apoio),false);
    atualizaLista();
   }
   status.textContent=reais.length?reais.length+' ofertas atualizadas pela Awin e '+apoio.length+' produtos selecionados da Reserva.':'Produtos reais da Reserva • valores consultados em 09/11/2026. Confirme o preço atual na loja.';
  })
  .catch(function(){
-  if(!dados.length){dados=shuffle(vitrineInicial);atualizaLista()}
+  if(!dados.length){dados=ordenarVitrine(vitrineInicial,false);atualizaLista()}
   status.textContent='Catálogo indisponível no momento; explore as categorias oficiais da Reserva.';
  });
 }
@@ -287,7 +320,7 @@ pagina.addEventListener('scroll',function(){
  if(a)indice=Math.round(pagina.scrollLeft/(a.getBoundingClientRect().width+12));
 },{passive:true});
 atualizarEstadoPausa();
-dados=shuffle(vitrineInicial);atualizaLista();carregar();
+dados=ordenarVitrine(vitrineInicial,true);atualizaLista();carregar();
 setInterval(function(){if(!pausado&&!document.hidden)mover(1)},4500);
 setInterval(carregar,300000);
 })();
