@@ -1,8 +1,8 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-09T12:02:53.553517Z",
-  "total": 94,
+  "atualizado_em": "2026-11-09T12:51:25.693256Z",
+  "total": 95,
   "ofertas": [
     {
       "id": "4165035",
@@ -102,6 +102,17 @@
       "cupom": "",
       "validade": "2026-11-12T07:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=3110826&ued=https%3A%2F%2Fstore.sirui.com%2Fproducts%2Fsirui-swift-series-20mm-f2-4-40mm-f2-2-full-frame-autofocus-lens"
+    },
+    {
+      "id": "4166614",
+      "loja": "Technos BR",
+      "tipo": "promocao",
+      "titulo": "ESQUENTA BF | 15% off extra",
+      "descricao": "Produtos selecionados com ofertas do esquenta da Black + 15% na compra de dois ou mais produtos da lista de selecionados",
+      "termos": "Ofertas válidas apenas no site oficial da Technos",
+      "cupom": "",
+      "validade": "2026-11-15T03:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=28161&awinaffid=3110826&ued=https%3A%2F%2Fwww.technos.com.br%2Fblack-friday"
     },
     {
       "id": "4165010",
