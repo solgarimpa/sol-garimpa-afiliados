@@ -1,20 +1,9 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-09T11:25:05.028882Z",
-  "total": 95,
+  "atualizado_em": "2026-11-09T12:02:53.553517Z",
+  "total": 94,
   "ofertas": [
-    {
-      "id": "4165020",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "15% OFF em notebooks selecionados",
-      "descricao": "15% OFF em notebooks selecionados",
-      "termos": ".",
-      "cupom": "NOTE15OFF",
-      "validade": "2026-11-09T12:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1NOTE15OFF"
-    },
     {
       "id": "4165035",
       "loja": "Kabum BR",

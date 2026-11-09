@@ -1,11 +1,11 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-09T11:25:06.480954Z",
-  "total": 125,
-  "total_cupons": 107,
+  "atualizado_em": "2026-11-09T12:02:54.563255Z",
+  "total": 124,
+  "total_cupons": 106,
   "total_promocoes": 18,
   "fontes": {
-    "Awin": 95,
+    "Awin": 94,
     "Rakuten": 0,
     "Lomadee": 30
   },
@@ -692,18 +692,6 @@
       "cupom": "NOTE14",
       "validade": "2026-11-10T13:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1080075%2Fnotebook-lenovo-ideapad-slim-3-15ahp10-amd-ryzen-7-8840hs-16gb-512gb-ssd-windows-11-home-83ty000jbo",
-      "rede": "Awin"
-    },
-    {
-      "id": "00f075ea0f45c0e5f4",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "15% OFF em notebooks selecionados",
-      "descricao": "15% OFF em notebooks selecionados",
-      "termos": ".",
-      "cupom": "NOTE15OFF",
-      "validade": "2026-11-09T12:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1NOTE15OFF",
       "rede": "Awin"
     },
     {
