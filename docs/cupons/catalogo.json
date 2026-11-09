@@ -1,11 +1,11 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-09T20:23:57.841488Z",
-  "total": 266,
+  "atualizado_em": "2026-11-09T20:58:14.147728Z",
+  "total": 356,
   "total_cupons": 119,
-  "total_promocoes": 147,
+  "total_promocoes": 237,
   "fontes": {
-    "Awin": 232,
+    "Awin": 322,
     "Rakuten": 0,
     "Lomadee": 34
   },
@@ -1511,6 +1511,54 @@
       "rede": "Awin"
     },
     {
+      "id": "a56c7d2dd46f69497c",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Access Point Tp-Link Eap772 Wi-Fi 7 Tri-Band Be11000 Ethernet 2.5g S/Fonte",
+      "descricao": "Access Point Tp-Link Eap772 Wi-Fi 7 Tri-Band Be11000 Ethernet 2.5g S/Fonte",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F621082",
+      "rede": "Awin"
+    },
+    {
+      "id": "9fd8da8f82dd1b1f8a",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Adaptador De Rede Tp-Link Archer T3u, Wireless, Omni Direcional, Usb Mini, Dual Band - Mu-Mimo Ac1300",
+      "descricao": "Adaptador De Rede Tp-Link Archer T3u, Wireless, Omni Direcional, Usb Mini, Dual Band - Mu-Mimo Ac1300",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F169217",
+      "rede": "Awin"
+    },
+    {
+      "id": "2f7e93af03a51b638e",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Adaptador Tp-Link Ue300c Gigabit Usb, 3.0, Tipo C - Tpn0242",
+      "descricao": "Adaptador Tp-Link Ue300c Gigabit Usb, 3.0, Tipo C - Tpn0242",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F188027",
+      "rede": "Awin"
+    },
+    {
+      "id": "8d57d6dac76c2c895e",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Adaptador Usb Tipo C, Com 8 Saídas, Hdmi Usb-C, Usb 3.0, Usb 2.0, Micro Sd, Sd E Rj45, F3 - Jc-Tyc-860",
+      "descricao": "Adaptador Usb Tipo C, Com 8 Saídas, Hdmi Usb-C, Usb 3.0, Usb 2.0, Micro Sd, Sd E Rj45, F3 - Jc-Tyc-860",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F521228",
+      "rede": "Awin"
+    },
+    {
       "id": "a4be3152ef00a15497",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -1523,6 +1571,30 @@
       "rede": "Awin"
     },
     {
+      "id": "311620bbf3dab44412",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Air Cooler Para Processador Deepcool Ag400 G2 Wh Argb, 120mm, Intel-Amd, Branco, R-Ag400-Whammg2-G",
+      "descricao": "Air Cooler Para Processador Deepcool Ag400 G2 Wh Argb, 120mm, Intel-Amd, Branco, R-Ag400-Whammg2-G",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1048194",
+      "rede": "Awin"
+    },
+    {
+      "id": "bebd660f3044a49ea4",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Ar Condicionado 9000 Btus Split Hi Wall Inverter Springer Midea Frio Airvolution Connect R-32 220v",
+      "descricao": "Ar Condicionado 9000 Btus Split Hi Wall Inverter Springer Midea Frio Airvolution Connect R-32 220v",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F506782",
+      "rede": "Awin"
+    },
+    {
       "id": "2ed3e3d89fb5eefba0",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -1532,6 +1604,30 @@
       "cupom": "",
       "validade": "2026-11-10T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F353367",
+      "rede": "Awin"
+    },
+    {
+      "id": "56c1d6dfd0682545d7",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Bateria Para Dell Inspiron 15-5568 13-5368 7378 Wdx0r 11.4v 3680mah 42wh",
+      "descricao": "Bateria Para Dell Inspiron 15-5568 13-5368 7378 Wdx0r 11.4v 3680mah 42wh",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F617026",
+      "rede": "Awin"
+    },
+    {
+      "id": "f614756481aca4c080",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Bateria Sony Np-Fw50",
+      "descricao": "Bateria Sony Np-Fw50",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F640391",
       "rede": "Awin"
     },
     {
@@ -1556,6 +1652,18 @@
       "cupom": "",
       "validade": "2026-11-10T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F641646",
+      "rede": "Awin"
+    },
+    {
+      "id": "2bef889fbedf9bf72f",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cabo Adaptador F3, Displayport E Hdmi, 1.8m, Preto - Jc- Cb-Dmi18",
+      "descricao": "Cabo Adaptador F3, Displayport E Hdmi, 1.8m, Preto - Jc- Cb-Dmi18",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F153489",
       "rede": "Awin"
     },
     {
@@ -1607,6 +1715,30 @@
       "rede": "Awin"
     },
     {
+      "id": "11b1a177703a20d14c",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cabo Displayport Para Hdmi, Fy Monitor, 1.80m",
+      "descricao": "Cabo Displayport Para Hdmi, Fy Monitor, 1.80m",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F233445",
+      "rede": "Awin"
+    },
+    {
+      "id": "d084fa5204a8f5ec45",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cabo Extensor Ugreen, Usb 3.0, 5gbps, Extensão 3m",
+      "descricao": "Cabo Extensor Ugreen, Usb 3.0, 5gbps, Extensão 3m",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F355078",
+      "rede": "Awin"
+    },
+    {
       "id": "cb95e25945a3734049",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -1619,6 +1751,42 @@
       "rede": "Awin"
     },
     {
+      "id": "6b992838b02d4192aa",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cabo Hdmi Chip Sce Pix 19 Pinos, 5m, 3d, 4k - 018-2225",
+      "descricao": "Cabo Hdmi Chip Sce Pix 19 Pinos, 5m, 3d, 4k - 018-2225",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F189700",
+      "rede": "Awin"
+    },
+    {
+      "id": "0bdc3289702fd75a65",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cadeira Gamer Cougar Armor Elite Royal, Até 120kg - 3meliglb.0001",
+      "descricao": "Cadeira Gamer Cougar Armor Elite Royal, Até 120kg - 3meliglb.0001",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F477028",
+      "rede": "Awin"
+    },
+    {
+      "id": "6c79344f86f453f529",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cadeira Gamer Draxen Dn2, 150 Kg, Altura Ajustáveis, Reclinação, Com Almofadas, Preto",
+      "descricao": "Cadeira Gamer Draxen Dn2, 150 Kg, Altura Ajustáveis, Reclinação, Com Almofadas, Preto",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F175912",
+      "rede": "Awin"
+    },
+    {
       "id": "0b0a3e9c5e1662b12f",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -1628,6 +1796,30 @@
       "cupom": "",
       "validade": "2026-11-10T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F196712",
+      "rede": "Awin"
+    },
+    {
+      "id": "07665d2944f6912a8b",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cadeira Gamer Mymax Mx12, Até 150 Kg, Giratória, Preto E Azul",
+      "descricao": "Cadeira Gamer Mymax Mx12, Até 150 Kg, Giratória, Preto E Azul",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F154466",
+      "rede": "Awin"
+    },
+    {
+      "id": "6cef41a01dcb8786f4",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cadeira Gamer Mymax Mx5, Até 150 Kg, Giratória, Preta E Vermelha",
+      "descricao": "Cadeira Gamer Mymax Mx5, Até 150 Kg, Giratória, Preta E Vermelha",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F354731",
       "rede": "Awin"
     },
     {
@@ -1655,6 +1847,30 @@
       "rede": "Awin"
     },
     {
+      "id": "384013fd8df9011c1c",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cadeira Gamer Mymax, Mx5, Até 150kg, Giratória Branco E Verde",
+      "descricao": "Cadeira Gamer Mymax, Mx5, Até 150kg, Giratória Branco E Verde",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F446651",
+      "rede": "Awin"
+    },
+    {
+      "id": "d4cb26fc8457b73f93",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cadeira Gamer Oficial Webshop Stillus, Até 120 Kg, Ergonômica, Apoio Para Os Pés, Preta E Branca",
+      "descricao": "Cadeira Gamer Oficial Webshop Stillus, Até 120 Kg, Ergonômica, Apoio Para Os Pés, Preta E Branca",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F458534",
+      "rede": "Awin"
+    },
+    {
       "id": "9102aa66803411e6fe",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -1664,6 +1880,18 @@
       "cupom": "",
       "validade": "2026-11-10T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F905400",
+      "rede": "Awin"
+    },
+    {
+      "id": "8b2bc250a54e93b27f",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cadeira Gamer Rise Mode X06 Até 100kg Preto E Vermelho - Rm-Cg-X06-Br",
+      "descricao": "Cadeira Gamer Rise Mode X06 Até 100kg Preto E Vermelho - Rm-Cg-X06-Br",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1046561",
       "rede": "Awin"
     },
     {
@@ -1715,6 +1943,78 @@
       "rede": "Awin"
     },
     {
+      "id": "00bb5540abaad5c5db",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cadeira Office Mymax Presidente Confort, Até 120kg, Em Couro Pu, Giratória, Preto",
+      "descricao": "Cadeira Office Mymax Presidente Confort, Até 120kg, Em Couro Pu, Giratória, Preto",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F216964",
+      "rede": "Awin"
+    },
+    {
+      "id": "a3eb78d733519499f0",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Caixa De Som Soundbar Gamer Redragon Orpheus Stereo 2.0, 2x3w, P2 + Usb, Com Led, Preto E Vermelho - Gs550",
+      "descricao": "Caixa De Som Soundbar Gamer Redragon Orpheus Stereo 2.0, 2x3w, P2 + Usb, Com Led, Preto E Vermelho - Gs550",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F156127",
+      "rede": "Awin"
+    },
+    {
+      "id": "b6f064030bf2d21091",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Caixa De Som Vibesound V12 800w Rms C/ Microfone - Vs001",
+      "descricao": "Caixa De Som Vibesound V12 800w Rms C/ Microfone - Vs001",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F694759",
+      "rede": "Awin"
+    },
+    {
+      "id": "dfa18f7087924023c5",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Carregador Ugreen 3 Em 1 Gan X 65w, Porta Usb C E Usb A",
+      "descricao": "Carregador Ugreen 3 Em 1 Gan X 65w, Porta Usb C E Usb A",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F513313",
+      "rede": "Awin"
+    },
+    {
+      "id": "f78f61bf423effa5f3",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cartucho Hp 664xl, Jato De Tinta, 8.5ml, Preto - F6v31ab",
+      "descricao": "Cartucho Hp 664xl, Jato De Tinta, 8.5ml, Preto - F6v31ab",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F294484",
+      "rede": "Awin"
+    },
+    {
+      "id": "85250adfd1133669e2",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cartão De Memória Kingston Canvas Select Plus Micro Sd 64gb, Classe 10, Com Adaptador - Sdcs2/64gb.",
+      "descricao": "Cartão De Memória Kingston Canvas Select Plus Micro Sd 64gb, Classe 10, Com Adaptador - Sdcs2/64gb.",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F311506",
+      "rede": "Awin"
+    },
+    {
       "id": "259cfbfaa0120526ef",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -1763,6 +2063,30 @@
       "rede": "Awin"
     },
     {
+      "id": "30a2b3088e11eddee4",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Computador Completo Skill Pro Intel 12ª Geração Core I5 12400f 16gb Ddr4 Placa De Vídeo Geforce 2gb Ssd 256gb Monitor 21.5\" Led Sp-091",
+      "descricao": "Computador Completo Skill Pro Intel 12ª Geração Core I5 12400f 16gb Ddr4 Placa De Vídeo Geforce 2gb Ssd 256gb Monitor 21.5\" Led Sp-091",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F429340",
+      "rede": "Awin"
+    },
+    {
+      "id": "a6cdd1e0cf7119eafe",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Computador Gamer 2eletro Chroma, Intel Core I5, 16gb Ram, Ssd 256gb, Fonte 500w - Pg2e-1002ch",
+      "descricao": "Computador Gamer 2eletro Chroma, Intel Core I5, 16gb Ram, Ssd 256gb, Fonte 500w - Pg2e-1002ch",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F644324",
+      "rede": "Awin"
+    },
+    {
       "id": "24eee3442241f4b119",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -1799,6 +2123,30 @@
       "rede": "Awin"
     },
     {
+      "id": "de343263d56f21ef17",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Controlador De Fan E Hub Deepcool Fh-10, Com 10 Saídas, 3 E 4 Pinos, Função Pwm - Dp-F10pwm-Hub",
+      "descricao": "Controlador De Fan E Hub Deepcool Fh-10, Com 10 Saídas, 3 E 4 Pinos, Função Pwm - Dp-F10pwm-Hub",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F188305",
+      "rede": "Awin"
+    },
+    {
+      "id": "d14742ab620b68848f",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Controle Sem Fio Compatível Com Play4 Ps4 Playstation 4 / Slim / Pro / Pc E Smart Tvs Samsung , Android Recarregável Cor Preto",
+      "descricao": "Controle Sem Fio Compatível Com Play4 Ps4 Playstation 4 / Slim / Pro / Pc E Smart Tvs Samsung , Android Recarregável Cor Preto",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F942425",
+      "rede": "Awin"
+    },
+    {
       "id": "e2b0c6dc8a9a91e5c0",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -1808,6 +2156,42 @@
       "cupom": "",
       "validade": "2026-11-10T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F941666",
+      "rede": "Awin"
+    },
+    {
+      "id": "154a521114cdc31e32",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Dock Station Usb 3.0 - Hd Sata 2.5 E 3.5 - Preto - Mymax",
+      "descricao": "Dock Station Usb 3.0 - Hd Sata 2.5 E 3.5 - Preto - Mymax",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F352491",
+      "rede": "Awin"
+    },
+    {
+      "id": "9c45bc89a7ce818aa1",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Estabilizador No-Break 1500va Bivolt, Proteção Para Pc Roteador Câmera",
+      "descricao": "Estabilizador No-Break 1500va Bivolt, Proteção Para Pc Roteador Câmera",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F884533",
+      "rede": "Awin"
+    },
+    {
+      "id": "8333656ae5874b6766",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Estabilizador Ts Shara Powerest, 300va, Mono 115v - 9100",
+      "descricao": "Estabilizador Ts Shara Powerest, 300va, Mono 115v - 9100",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F348388",
       "rede": "Awin"
     },
     {
@@ -1835,6 +2219,18 @@
       "rede": "Awin"
     },
     {
+      "id": "4769328f8b24dc5f05",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Fita Brother M-231 De 12mm X 8m, Preto Sobre Branco",
+      "descricao": "Fita Brother M-231 De 12mm X 8m, Preto Sobre Branco",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F216224",
+      "rede": "Awin"
+    },
+    {
       "id": "11934270733b45a58d",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -1844,6 +2240,18 @@
       "cupom": "",
       "validade": "2026-11-10T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1019455",
+      "rede": "Awin"
+    },
+    {
+      "id": "c98e4edfd7d6cd3d75",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Fone De Ouvido C/Microfone Taue101bk/00 Preto Philips",
+      "descricao": "Fone De Ouvido C/Microfone Taue101bk/00 Preto Philips",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F120543",
       "rede": "Awin"
     },
     {
@@ -1955,6 +2363,30 @@
       "rede": "Awin"
     },
     {
+      "id": "eb17842851bb86e30f",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Fonte Mymax Atx, 1000w, 80 Plus Silver, Pfc Ativo - Mpsu/Fp1000",
+      "descricao": "Fonte Mymax Atx, 1000w, 80 Plus Silver, Pfc Ativo - Mpsu/Fp1000",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F259694",
+      "rede": "Awin"
+    },
+    {
+      "id": "004cdc517cb23d79fd",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Fonte Thermaltake Tt Smart Atx2.3, 600w, 80+ White, A-Pfc - Ps-Spd-0600npcwbz-W",
+      "descricao": "Fonte Thermaltake Tt Smart Atx2.3, 600w, 80+ White, A-Pfc - Ps-Spd-0600npcwbz-W",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F173835",
+      "rede": "Awin"
+    },
+    {
       "id": "7511d321ced8c8baf8",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -1964,6 +2396,18 @@
       "cupom": "",
       "validade": "2026-11-10T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F514896",
+      "rede": "Awin"
+    },
+    {
+      "id": "47f5c288b7a0900c3c",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Gabinete Fortrek Sc501bk, Sem Fonte, Usb, Preto - 67244",
+      "descricao": "Gabinete Fortrek Sc501bk, Sem Fonte, Usb, Preto - 67244",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F119916",
       "rede": "Awin"
     },
     {
@@ -1988,6 +2432,42 @@
       "cupom": "",
       "validade": "2026-11-10T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F657435",
+      "rede": "Awin"
+    },
+    {
+      "id": "0edf2b233395af8c76",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Gabinete Gamer Deepcool Ch160 Plus Micro Atx Sem Fan Preto",
+      "descricao": "Gabinete Gamer Deepcool Ch160 Plus Micro Atx Sem Fan Preto",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F985935",
+      "rede": "Awin"
+    },
+    {
+      "id": "d9b227af9f8a20ecdc",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Gabinete Gamer Duex Aquario, Mid-Tower, Lateral E Frontal De Vidro, Preto, Sem Fan - Dxga275bk",
+      "descricao": "Gabinete Gamer Duex Aquario, Mid-Tower, Lateral E Frontal De Vidro, Preto, Sem Fan - Dxga275bk",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1012384",
+      "rede": "Awin"
+    },
+    {
+      "id": "718d9e8c135ad19857",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Gabinete Gamer Duex Aquário, Mid-Tower, Lateral E Frontal De Vidro, Preto - Dxj270-2",
+      "descricao": "Gabinete Gamer Duex Aquário, Mid-Tower, Lateral E Frontal De Vidro, Preto - Dxj270-2",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F596148",
       "rede": "Awin"
     },
     {
@@ -2051,6 +2531,30 @@
       "rede": "Awin"
     },
     {
+      "id": "161b00fb7a689c48b7",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Gabinete Servidor K-Mex Rack 19 4u (Sem Fonte) - Cr-S350",
+      "descricao": "Gabinete Servidor K-Mex Rack 19 4u (Sem Fonte) - Cr-S350",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F769017",
+      "rede": "Awin"
+    },
+    {
+      "id": "bd188aa75ccb52d47b",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Gpu Nvidia Geforce Gt740 4gb Gddr5 128 Bit Single Fan - Gpuk7404gbfsf1",
+      "descricao": "Gpu Nvidia Geforce Gt740 4gb Gddr5 128 Bit Single Fan - Gpuk7404gbfsf1",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1056508",
+      "rede": "Awin"
+    },
+    {
       "id": "e0769e5fcab957352f",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2060,6 +2564,18 @@
       "cupom": "",
       "validade": "2026-11-10T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F311769",
+      "rede": "Awin"
+    },
+    {
+      "id": "b00fe09341dea3353d",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Hd Externo Seagate Expansion, Ps4, Xbox, 1tb - Stgx1000400",
+      "descricao": "Hd Externo Seagate Expansion, Ps4, Xbox, 1tb - Stgx1000400",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F586382",
       "rede": "Awin"
     },
     {
@@ -2087,6 +2603,42 @@
       "rede": "Awin"
     },
     {
+      "id": "e9bd70996153fba056",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Headset Gamer Fortrek, Blackfire Rainbow, Preto - Multiplataforma",
+      "descricao": "Headset Gamer Fortrek, Blackfire Rainbow, Preto - Multiplataforma",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F132186",
+      "rede": "Awin"
+    },
+    {
+      "id": "9feea0dc9f0b5a484e",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Headset Gamer Hyperx Xbox One, Cloud Chat - Hx-Hscchx-Bk/Ww",
+      "descricao": "Headset Gamer Hyperx Xbox One, Cloud Chat - Hx-Hscchx-Bk/Ww",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F229830",
+      "rede": "Awin"
+    },
+    {
+      "id": "4b354be614a68d482b",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Headset Gamer Sem Fio Jbl Quantum 910, Rgb, Drivers 50mm, Wireless, Preto",
+      "descricao": "Headset Gamer Sem Fio Jbl Quantum 910, Rgb, Drivers 50mm, Wireless, Preto",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F456701",
+      "rede": "Awin"
+    },
+    {
       "id": "0c52ae0f2778d3a21f",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2099,6 +2651,18 @@
       "rede": "Awin"
     },
     {
+      "id": "cbd6292f2d0ef6c0cc",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Hub Adaptador Ugreen Revodok 6 In 1 P/Usb C Cinza",
+      "descricao": "Hub Adaptador Ugreen Revodok 6 In 1 P/Usb C Cinza",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F819568",
+      "rede": "Awin"
+    },
+    {
       "id": "579c395366b70f7b50",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2108,6 +2672,18 @@
       "cupom": "",
       "validade": "2026-11-10T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F442699",
+      "rede": "Awin"
+    },
+    {
+      "id": "2615f75476e46d39d7",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Hub Usb-C Uno Ugreen 6 Em 1 Pd100w Hdmi 4k/60hz Preto",
+      "descricao": "Hub Usb-C Uno Ugreen 6 Em 1 Pd100w Hdmi 4k/60hz Preto",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F887430",
       "rede": "Awin"
     },
     {
@@ -2171,6 +2747,18 @@
       "rede": "Awin"
     },
     {
+      "id": "09ff7a61699d18e4a5",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Kit Com 3 Ventoinhas Rise Mode Aura 120mm Rgb Preto - Rm-Au-02-Rgb",
+      "descricao": "Kit Com 3 Ventoinhas Rise Mode Aura 120mm Rgb Preto - Rm-Au-02-Rgb",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F173047",
+      "rede": "Awin"
+    },
+    {
       "id": "b7b24b2c382f5aa158",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2183,6 +2771,18 @@
       "rede": "Awin"
     },
     {
+      "id": "89fc2d77a2121adde4",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Kit De Pilhas Alcalina Aaa + Aa 10 Unidades De Cada Lr036p20bp/59",
+      "descricao": "Kit De Pilhas Alcalina Aaa + Aa 10 Unidades De Cada Lr036p20bp/59",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F283918",
+      "rede": "Awin"
+    },
+    {
       "id": "129cb1be36fb1a5933",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2192,6 +2792,30 @@
       "cupom": "",
       "validade": "2026-11-10T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1061511",
+      "rede": "Awin"
+    },
+    {
+      "id": "261efa38cb850a4291",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Kit Fan Com 3 Unidades Pcyes Sangue Frio 3 Argb Black Vulcan, Reverse, 120mm, Preto, K3argbsf3rvbr",
+      "descricao": "Kit Fan Com 3 Unidades Pcyes Sangue Frio 3 Argb Black Vulcan, Reverse, 120mm, Preto, K3argbsf3rvbr",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F728551",
+      "rede": "Awin"
+    },
+    {
+      "id": "4c6792d7985d964705",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Kit Roteador Tp-Link Deco M4, Com 2 Mesh Archer Ac1200, Gigabit Dual Band",
+      "descricao": "Kit Roteador Tp-Link Deco M4, Com 2 Mesh Archer Ac1200, Gigabit Dual Band",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F481276",
       "rede": "Awin"
     },
     {
@@ -2216,6 +2840,18 @@
       "cupom": "",
       "validade": "2026-11-10T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F183883",
+      "rede": "Awin"
+    },
+    {
+      "id": "870c643514cfa1a98a",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Leitor Código E Barras, Laser, Com Suporte, Usb, C3tech - Lb-50bk",
+      "descricao": "Leitor Código E Barras, Laser, Com Suporte, Usb, C3tech - Lb-50bk",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F127144",
       "rede": "Awin"
     },
     {
@@ -2279,6 +2915,18 @@
       "rede": "Awin"
     },
     {
+      "id": "3590775593a669801c",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Memória Notebook Rise Mode Value Series 8gb Ddr3l 1600mhz - Rm-D3-8g1600nl",
+      "descricao": "Memória Notebook Rise Mode Value Series 8gb Ddr3l 1600mhz - Rm-D3-8g1600nl",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F175139",
+      "rede": "Awin"
+    },
+    {
       "id": "7d35f500a0092df797",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2300,6 +2948,18 @@
       "cupom": "",
       "validade": "2026-11-10T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F378307",
+      "rede": "Awin"
+    },
+    {
+      "id": "b77f444bad7a05203c",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Mesa Gamer Hayom Slim, Com Suporte Para Headset E Copo, Preto, Mg1000",
+      "descricao": "Mesa Gamer Hayom Slim, Com Suporte Para Headset E Copo, Preto, Mg1000",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1032697",
       "rede": "Awin"
     },
     {
@@ -2327,6 +2987,30 @@
       "rede": "Awin"
     },
     {
+      "id": "50aade4c95c99e0659",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Microfone Gamer Usb Rgb Condensador, Cardioide, Plug & Play Para Pc E Streaming, Gravação Alta Qualidade Mt-1060r",
+      "descricao": "Microfone Gamer Usb Rgb Condensador, Cardioide, Plug & Play Para Pc E Streaming, Gravação Alta Qualidade Mt-1060r",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F776824",
+      "rede": "Awin"
+    },
+    {
+      "id": "546680b25d97806e43",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Monitor Acer 23.8\" Ek241y Gbi Full Hd Led Ips 120 Hz 1 Ms",
+      "descricao": "Monitor Acer 23.8\" Ek241y Gbi Full Hd Led Ips 120 Hz 1 Ms",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F775956",
+      "rede": "Awin"
+    },
+    {
       "id": "a799811808b0020cbb",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2348,6 +3032,18 @@
       "cupom": "",
       "validade": "2026-11-10T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F941806",
+      "rede": "Awin"
+    },
+    {
+      "id": "48e4352d12092c2de3",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Monitor Gamer Alltek 21.5 Led Fhd Hdmi 100hz Mnt-Atk125",
+      "descricao": "Monitor Gamer Alltek 21.5 Led Fhd Hdmi 100hz Mnt-Atk125",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F640433",
       "rede": "Awin"
     },
     {
@@ -2399,6 +3095,18 @@
       "rede": "Awin"
     },
     {
+      "id": "71771e8081b609a9bc",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Monitor Mymax 19\" Hd Led, 60hz, 3.6ms, Hdmi, Vga, Preto",
+      "descricao": "Monitor Mymax 19\" Hd Led, 60hz, 3.6ms, Hdmi, Vga, Preto",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F396492",
+      "rede": "Awin"
+    },
+    {
       "id": "f645c79e2eeab75080",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2408,6 +3116,54 @@
       "cupom": "",
       "validade": "2026-11-10T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F396491",
+      "rede": "Awin"
+    },
+    {
+      "id": "ddf90c45acb71916a1",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Mouse Gamer Attack Shark X3 Pro 4k/8k Wireless Tri-Mode Paw3395 26.000 Dpi, Vermelho",
+      "descricao": "Mouse Gamer Attack Shark X3 Pro 4k/8k Wireless Tri-Mode Paw3395 26.000 Dpi, Vermelho",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1028955",
+      "rede": "Awin"
+    },
+    {
+      "id": "4634b48021724ef396",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Mouse Gamer Dazz Gmo2001 Rgb 12800 Dpi Usb 2.0 Com Cabo U Unica Unica",
+      "descricao": "Mouse Gamer Dazz Gmo2001 Rgb 12800 Dpi Usb 2.0 Com Cabo U Unica Unica",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F911305",
+      "rede": "Awin"
+    },
+    {
+      "id": "2438bfb30f3fab1c53",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Mouse Gamer Kalkan Draugr 12400dpi Pixart Rgb Chroma",
+      "descricao": "Mouse Gamer Kalkan Draugr 12400dpi Pixart Rgb Chroma",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F819893",
+      "rede": "Awin"
+    },
+    {
+      "id": "dad276a7f5ef606d5c",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Mouse Gamer Razer Deathadder Essential, 6400dpi, 5 Botões - Branco",
+      "descricao": "Mouse Gamer Razer Deathadder Essential, 6400dpi, 5 Botões - Branco",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F220599",
       "rede": "Awin"
     },
     {
@@ -2423,6 +3179,30 @@
       "rede": "Awin"
     },
     {
+      "id": "30158257caa79c6c2e",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Mouse Gamer Razer Deathadder V3 Pro, 63g Ultraleve, 90hr De Bateria, Recarregável, 30000 Dpi, Branco",
+      "descricao": "Mouse Gamer Razer Deathadder V3 Pro, 63g Ultraleve, 90hr De Bateria, Recarregável, 30000 Dpi, Branco",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F633612",
+      "rede": "Awin"
+    },
+    {
+      "id": "766fed83fdf2ff24b5",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Mouse Gamer Razer Deathadder V3 Usb, 30000dpi, 6 Botões, Preto - Rz01-04640100-R3u1",
+      "descricao": "Mouse Gamer Razer Deathadder V3 Usb, 30000dpi, 6 Botões, Preto - Rz01-04640100-R3u1",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F505752",
+      "rede": "Awin"
+    },
+    {
       "id": "31c2447a937a75d55f",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2432,6 +3212,30 @@
       "cupom": "",
       "validade": "2026-11-10T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F94555",
+      "rede": "Awin"
+    },
+    {
+      "id": "b6e6fd33c5a96a0684",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Mouse Gamer Redragon Invader, Rgb, 10000dpi, 8 Botões Programáveis, Preto - M719-Rgb",
+      "descricao": "Mouse Gamer Redragon Invader, Rgb, 10000dpi, 8 Botões Programáveis, Preto - M719-Rgb",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F148070",
+      "rede": "Awin"
+    },
+    {
+      "id": "aa4a8f85e8ddb9b842",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Mouse Gamer Redragon Predator, 9 Botões, Rgb, 8000dpi - M612",
+      "descricao": "Mouse Gamer Redragon Predator, 9 Botões, Rgb, 8000dpi - M612",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F149233",
       "rede": "Awin"
     },
     {
@@ -2483,6 +3287,18 @@
       "rede": "Awin"
     },
     {
+      "id": "8cccb2f2771df7b1d3",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Mouse Gamer Sem Fio Attack Shark X6, 26000 Dpi, Paw3395, Tri-Mode Com Dock Magnético, Rgb, Branco",
+      "descricao": "Mouse Gamer Sem Fio Attack Shark X6, 26000 Dpi, Paw3395, Tri-Mode Com Dock Magnético, Rgb, Branco",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F883181",
+      "rede": "Awin"
+    },
+    {
       "id": "837187ad4df17f9c93",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2531,6 +3347,18 @@
       "rede": "Awin"
     },
     {
+      "id": "20b36f17eac083108d",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Mousepad Gamer Borda Led Rgb 7 Cores Grande Antiderrapante Usb 80x30cm",
+      "descricao": "Mousepad Gamer Borda Led Rgb 7 Cores Grande Antiderrapante Usb 80x30cm",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F689582",
+      "rede": "Awin"
+    },
+    {
       "id": "b562cdfa5cfd4c5a94",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2576,6 +3404,66 @@
       "cupom": "",
       "validade": "2026-11-10T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F100632",
+      "rede": "Awin"
+    },
+    {
+      "id": "9288fbc2051ac231ae",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Módulo Tp-Link Sfp+ Rj45 10g Base-T Cat6a 30 Metros 10gbps - Tl-Sm5310t",
+      "descricao": "Módulo Tp-Link Sfp+ Rj45 10g Base-T Cat6a 30 Metros 10gbps - Tl-Sm5310t",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F582812",
+      "rede": "Awin"
+    },
+    {
+      "id": "21b65185cd85a54dc4",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Nobreak Nhs 600va Mini 4, Ent. Monovolt 120v, Saida 120v, 6t, Bat. 1x 7ah/12v - 90.A1.006000",
+      "descricao": "Nobreak Nhs 600va Mini 4, Ent. Monovolt 120v, Saida 120v, 6t, Bat. 1x 7ah/12v - 90.A1.006000",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F298289",
+      "rede": "Awin"
+    },
+    {
+      "id": "9de17b13abedbccc8b",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Nobreak Sms Premium 700va/490w, Senoidal, Interativo, Ent 115/ 220v, Sai 115/ 220v - 29500",
+      "descricao": "Nobreak Sms Premium 700va/490w, Senoidal, Interativo, Ent 115/ 220v, Sai 115/ 220v - 29500",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F474414",
+      "rede": "Awin"
+    },
+    {
+      "id": "ab3fd2d606e05a0211",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Nobreak Sms Tech 800va/400w, Interativo, Ent 115/ 220v, Sai 115v - 29302",
+      "descricao": "Nobreak Sms Tech 800va/400w, Interativo, Ent 115/ 220v, Sai 115v - 29302",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F474418",
+      "rede": "Awin"
+    },
+    {
+      "id": "659b170951f80980f6",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Pc Gamer Amd Ryzen 5 5500| 16gb| (Rtx 4060 8gb)| Ssd 480gb| 600w| Watercooler| Neologic By Blue| Nli86309",
+      "descricao": "Pc Gamer Amd Ryzen 5 5500| 16gb| (Rtx 4060 8gb)| Ssd 480gb| 600w| Watercooler| Neologic By Blue| Nli86309",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F525605",
       "rede": "Awin"
     },
     {
@@ -2651,6 +3539,18 @@
       "rede": "Awin"
     },
     {
+      "id": "58a931680a7da869f0",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Pendrive Kingston 128gb, Exodia M, Usb 3.2, Gen 1 Dtxm",
+      "descricao": "Pendrive Kingston 128gb, Exodia M, Usb 3.2, Gen 1 Dtxm",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F427309",
+      "rede": "Awin"
+    },
+    {
       "id": "82737e983ada445873",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2672,6 +3572,18 @@
       "cupom": "",
       "validade": "2026-11-10T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F459144",
+      "rede": "Awin"
+    },
+    {
+      "id": "4ad52a4727eee11b22",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Placa Mãe Asrock B650m Pro Rs Am5 4xddr5 Chipset Amd B650 Matx",
+      "descricao": "Placa Mãe Asrock B650m Pro Rs Am5 4xddr5 Chipset Amd B650 Matx",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F954744",
       "rede": "Awin"
     },
     {
@@ -2699,6 +3611,18 @@
       "rede": "Awin"
     },
     {
+      "id": "e179af1d7200ef4b49",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Processador Amd Ryzen 3 4100, 4.0ghz, Cache 6mb, Am4, Wraith Stealth, Sem Ví­deo Integrado - 100-100000510box",
+      "descricao": "Processador Amd Ryzen 3 4100, 4.0ghz, Cache 6mb, Am4, Wraith Stealth, Sem Ví­deo Integrado - 100-100000510box",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F357485",
+      "rede": "Awin"
+    },
+    {
       "id": "60460d59661061ad90",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2723,6 +3647,54 @@
       "rede": "Awin"
     },
     {
+      "id": "c3f1a1f0e5b75ece85",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Protetor Clamper Energia 3 Lcf, 3 Tomadas, 3 Pinos, 10 Amperes, Bivolt, Transparente",
+      "descricao": "Protetor Clamper Energia 3 Lcf, 3 Tomadas, 3 Pinos, 10 Amperes, Bivolt, Transparente",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F643330",
+      "rede": "Awin"
+    },
+    {
+      "id": "14d31704e6b11ed5ca",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Relógio Smartwatch Huawei Band 10, Tela 1.47\" Amoled, Inteligente, Preto",
+      "descricao": "Relógio Smartwatch Huawei Band 10, Tela 1.47\" Amoled, Inteligente, Preto",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F729518",
+      "rede": "Awin"
+    },
+    {
+      "id": "d28c45b4d389942e41",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Roteador E Repetidor Tp-Link, Wi-Fi, N300 Mbps - Tl-Wr840nw V6",
+      "descricao": "Roteador E Repetidor Tp-Link, Wi-Fi, N300 Mbps - Tl-Wr840nw V6",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F132343",
+      "rede": "Awin"
+    },
+    {
+      "id": "189fb8bdb278f7f7e1",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Servidor De Dados Nas Alpine Quad-Core 1.7ghz, 1gb, 4 Baias, Sem Disco - Ts-431k-Us",
+      "descricao": "Servidor De Dados Nas Alpine Quad-Core 1.7ghz, 1gb, 4 Baias, Sem Disco - Ts-431k-Us",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F323134",
+      "rede": "Awin"
+    },
+    {
       "id": "39177675b5324a57b6",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2732,6 +3704,18 @@
       "cupom": "",
       "validade": "2026-11-10T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F951780",
+      "rede": "Awin"
+    },
+    {
+      "id": "9ba5509a05c22e62e4",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Soundbar Para Tv E Pc Soundbar 24007 Gxt-619 Thorne Rgb Led Stereo Para Pc 12w",
+      "descricao": "Soundbar Para Tv E Pc Soundbar 24007 Gxt-619 Thorne Rgb Led Stereo Para Pc 12w",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F188346",
       "rede": "Awin"
     },
     {
@@ -2759,6 +3743,30 @@
       "rede": "Awin"
     },
     {
+      "id": "8dd58c8293c8c8f77b",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Suporte Articulado De Mesa Para Tv Compativel Com Telas De Até 32 \" Fitter",
+      "descricao": "Suporte Articulado De Mesa Para Tv Compativel Com Telas De Até 32 \" Fitter",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F926036",
+      "rede": "Awin"
+    },
+    {
+      "id": "67aebf3427467a1be1",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Suporte Articulado Fortrek Fk485s, Para Monitor E Notebook",
+      "descricao": "Suporte Articulado Fortrek Fk485s, Para Monitor E Notebook",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F531659",
+      "rede": "Awin"
+    },
+    {
       "id": "a567ffbdd570decdd4",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2780,6 +3788,30 @@
       "cupom": "",
       "validade": "2026-11-10T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F884877",
+      "rede": "Awin"
+    },
+    {
+      "id": "19f7f85379edcd5ac8",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Suporte Ergonômico Para Notebook Dva Lima",
+      "descricao": "Suporte Ergonômico Para Notebook Dva Lima",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F184387",
+      "rede": "Awin"
+    },
+    {
+      "id": "e212fdee8f146fb1d2",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Suporte Para Headset Fortrek, Blackfire, Preto",
+      "descricao": "Suporte Para Headset Fortrek, Blackfire, Preto",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F227779",
       "rede": "Awin"
     },
     {
@@ -2855,6 +3887,30 @@
       "rede": "Awin"
     },
     {
+      "id": "4500268a46242de341",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Teclado Mecanico Gamer Redragon Fizz Pro, Rgb, Switch Brown, Preto - K616-Rgb-B",
+      "descricao": "Teclado Mecanico Gamer Redragon Fizz Pro, Rgb, Switch Brown, Preto - K616-Rgb-B",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F495725",
+      "rede": "Awin"
+    },
+    {
+      "id": "0dc44c65ed90a2165b",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Teclado Mecanico Gamer Redragon Kumara Elite Rainbow, Wireless, Switch Brown, Preto - K552-Krs",
+      "descricao": "Teclado Mecanico Gamer Redragon Kumara Elite Rainbow, Wireless, Switch Brown, Preto - K552-Krs",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F906706",
+      "rede": "Awin"
+    },
+    {
       "id": "e4974d6cad8c7d0be6",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2900,6 +3956,30 @@
       "cupom": "",
       "validade": "2026-11-10T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F353122",
+      "rede": "Awin"
+    },
+    {
+      "id": "ac255743b94d943a9b",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Toner Original Hp 105a Preto Laser W1105ab W1105a Cx 1 Un 1k",
+      "descricao": "Toner Original Hp 105a Preto Laser W1105ab W1105a Cx 1 Un 1k",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F777210",
+      "rede": "Awin"
+    },
+    {
+      "id": "8a029b17359aeede19",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Unidade De Cilindro Brother, Preto, Para Dcp-L2540dw 12.000 Pag - Dr2340",
+      "descricao": "Unidade De Cilindro Brother, Preto, Para Dcp-L2540dw 12.000 Pag - Dr2340",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F213727",
       "rede": "Awin"
     },
     {
