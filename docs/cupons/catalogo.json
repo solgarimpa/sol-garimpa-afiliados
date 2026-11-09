@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-09T02:29:53.455852Z",
-  "total": 115,
-  "total_cupons": 96,
+  "atualizado_em": "2026-11-09T02:55:54.714723Z",
+  "total": 113,
+  "total_cupons": 94,
   "total_promocoes": 19,
   "fontes": {
     "Awin": 97,
     "Rakuten": 0,
-    "Lomadee": 18
+    "Lomadee": 16
   },
   "ofertas": [
     {
@@ -995,18 +995,6 @@
       "rede": "Lomadee"
     },
     {
-      "id": "fef73b64644a524e0c",
-      "loja": "Malwee",
-      "tipo": "cupom",
-      "titulo": "Malwee - PLUS SIZE COM DESCONTO 🔥 20% OFF em peças Plus Size",
-      "descricao": "",
-      "termos": "",
-      "cupom": "MAIS20",
-      "validade": "2026-11-09T02:30:00Z",
-      "link": "https://lmdee.link/MP8g1V67BXF3",
-      "rede": "Lomadee"
-    },
-    {
       "id": "a3ac18320162620c8b",
       "loja": "Posthaus BR",
       "tipo": "cupom",
@@ -1136,18 +1124,6 @@
       "cupom": "LOMADEE",
       "validade": null,
       "link": "https://lmdee.link/SG7hMFDpj30P",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "0fd825eed0513871a7",
-      "loja": "Walita",
-      "tipo": "cupom",
-      "titulo": "Ganhe até R$200 com cupom PREBLACK",
-      "descricao": "",
-      "termos": "",
-      "cupom": "PREBLACK",
-      "validade": "2026-11-09T02:30:00Z",
-      "link": "https://lmdee.link/bpez6dO2sip2",
       "rede": "Lomadee"
     },
     {
