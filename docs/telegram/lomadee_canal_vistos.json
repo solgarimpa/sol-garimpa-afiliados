@@ -105,12 +105,11 @@
     "20673": "2026-11-09T12:43:08.605669+00:00",
     "20674": "2026-11-09T12:43:08.605669+00:00"
   },
-  "ultima_consulta": "2026-11-09T12:43:08.605669+00:00",
+  "ultima_consulta": "2026-11-09T15:13:00.643354+00:00",
   "ultimo_diagnostico": {
     "mensagens_visiveis": 20,
-    "novas": 2,
-    "recentes": 2,
-    "publicadas": 1,
-    "situacao": "verificacao concluida"
+    "novas": 0,
+    "publicadas": 0,
+    "situacao": "canal consultado; sem novidades"
   }
 }
