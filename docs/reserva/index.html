@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reserva | Sol Garimpa — Ofertas e Achadinhos</title>
+<style>
+:root{--amarelo:#ffd12a;--texto:#202020;--borda:#e5e6e8}
+*{box-sizing:border-box}
+html,body{margin:0;background:#fff;color:var(--texto);font:14px/1.4 Arial,Helvetica,sans-serif}
+main{max-width:1450px;margin:auto;padding:12px}
+header{text-align:center;margin-bottom:13px}
+.marca{font-size:clamp(23px,4vw,34px);font-weight:900;letter-spacing:2px;margin:3px 0}
+.marca span{color:#df252e}
+h2{font-size:clamp(18px,3vw,25px);line-height:1.2;margin:4px 0}
+mark{background:var(--amarelo);padding:1px 7px;border-radius:5px}
+.sub{font-size:11px;color:#68717c;margin:5px 0}
+.busca{display:flex;gap:7px;margin:12px 0}
+.busca input{min-width:0;flex:1;padding:11px;border:1px solid #d9dce1;border-radius:9px;font-size:13px}
+button{cursor:pointer;font:inherit}
+.busca button{border:0;border-radius:9px;background:var(--amarelo);padding:0 14px;font-size:11px;font-weight:850}
+.busca .limpar{background:#f1f1f1}
+.status{font-size:11px;color:#65707b;min-height:21px;margin:6px 0}
+.janela{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:none;padding:4px 2px 10px}
+.janela::-webkit-scrollbar{display:none}
+.card{flex:0 0 266px;width:266px;scroll-snap-align:start;border:1px solid var(--borda);border-radius:15px;background:#fff;overflow:hidden;display:flex;flex-direction:column}
+.capa{height:172px;border-bottom:1px solid #eee;display:flex;align-items:center;justify-content:center;position:relative;background:#fff}
+.capa img{max-width:92%;max-height:90%;object-fit:contain}
+.sem-foto{font-size:22px;letter-spacing:1px;text-align:center;font-weight:900;padding:18px;overflow-wrap:anywhere}
+.sem-foto small{display:block;font-size:12px;letter-spacing:0;color:#777;font-weight:500;margin-top:5px}
+.selo{position:absolute;right:8px;top:8px;background:#232323;color:#fff;border-radius:6px;padding:5px 8px;font-size:10px;font-weight:800}
+.corpo{padding:11px;display:flex;flex:1;flex-direction:column;gap:7px;min-height:190px}
+.grupo{font-size:10px;color:#66717a;font-weight:800;text-transform:uppercase}
+.nome{font-weight:850;font-size:13px;min-height:35px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.preco{font-size:19px;font-weight:900}
+.preco s{font-size:11px;color:#808080;font-weight:400;margin-left:7px}
+.descricao{font-size:11px;color:#66717a;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.cupom{background:#fff2bc;border:1px dashed #c9a42a;padding:5px 7px;border-radius:7px;align-self:flex-start;font-size:11px;font-weight:bold}
+.acoes{display:flex;gap:7px;margin-top:auto;padding-top:8px}
+.acoes a{flex:1;min-height:39px;border-radius:9px;font-size:11px;font-weight:850;display:flex;align-items:center;justify-content:center;text-align:center;padding:7px 5px;text-decoration:none}
+.comprar{background:var(--amarelo);color:#111}
+.whatsapp{background:#ecf8ef;color:#176538;border:1px solid #c9e8ce}
+footer{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;border-top:1px solid #eee;padding-top:10px;font-size:10px;color:#727c86}
+.controles{display:flex;gap:6px}
+.controles button{border:1px solid #ddd;background:white;border-radius:8px;padding:8px 11px;font-size:11px;font-weight:800}
+@media(max-width:580px){main{padding:8px 6px}.card{flex-basis:247px;width:247px}.capa{height:159px}.busca button{padding:0 8px;font-size:10px}}
+@media(prefers-reduced-motion:reduce){.janela{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<main>
+<header>
+<div class="marca">RESERVA <span>●</span></div>
+<h2>Achadinhos <mark>RESERVA</mark> na SOL GARIMPA</h2>
+<p class="sub">Moda masculina, calçados e oportunidades. Consulte os valores na loja.</p>
+</header>
+<form class="busca" id="form">
+<input id="q" type="search" placeholder="Pesquisar produtos Reserva..." aria-label="Pesquisar na vitrine" autocomplete="off">
+<button type="submit">PESQUISAR</button>
+<button type="button" id="limpar" class="limpar">Limpar</button>
+</form>
+<div id="status" class="status" role="status" aria-live="polite">Consultando catálogo...</div>
+<section id="janela" class="janela" aria-label="Carrossel de produtos e categorias Reserva"></section>
+<footer>
+<span id="rodape">Preços e condições confirmados na Reserva. Links de afiliados.</span>
+<div class="controles">
+<button type="button" id="antes" aria-label="Anterior">‹</button>
+<button type="button" id="pausar">Pausar</button>
+<button type="button" id="depois" aria-label="Próximo">›</button>
+</div>
+</footer>
+</main>
+<script>
+(function(){
+'use strict';
+var PID='3110826', MID='61287';
+var JSON_URL='https://solgarimpa.github.io/sol-garimpa-afiliados/ofertas.json';
+var site='https://www.usereserva.com/';
+var $=function(id){return document.getElementById(id)};
+var pagina=$('janela'),status=$('status'),termo=$('q');
+var dados=[],visiveis=[],indice=0,pausado=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+var ultimaAssinatura='';
+var categorias=[
+ {titulo:'Ofertas da Reserva',tipo:'categoria',descricao:'Confira a seção de ofertas na loja oficial.',destino:'https://www.usereserva.com/colecao-reserva-ofertas'},
+ {titulo:'Camisetas Reserva',tipo:'categoria',descricao:'Explore camisetas e modelos da marca.',destino:'https://www.usereserva.com/reserva/masculino/camisetas'},
+ {titulo:'Calçados Reserva',tipo:'categoria',descricao:'Conheça tênis e outros calçados.',destino:'https://www.usereserva.com/calcados'},
+ {titulo:'Moda masculina Reserva',tipo:'categoria',descricao:'Veja a coleção de moda masculina.',destino:'https://www.usereserva.com/colecao-reserva-masculino'},
+ {titulo:'Conheça a Reserva',tipo:'categoria',descricao:'Acesse a loja oficial e navegue pelas coleções.',destino:site}
+];
+function afiliado(dest){
+ return 'https://www.awin1.com/cread.php?awinmid='+MID+'&awinaffid='+PID+'&ued='+encodeURIComponent(dest);
+}
+function valida(u){
+ try{var x=new URL(String(u||''));return x.protocol==='https:'&&!x.username&&!x.password?x.href:''}
+ catch(e){return ''}
+}
+function linkAwin(u){
+ var v=valida(u);
+ if(!v)return '';
+ var h=new URL(v).hostname.toLowerCase();
+ return h==='awin1.com'||h==='www.awin1.com'?v:'';
+}
+function elemento(tag,classe,txt){
+ var el=document.createElement(tag);if(classe)el.className=classe;
+ if(txt!==undefined)el.textContent=String(txt);return el;
+}
+function moeda(n){return new Intl.NumberFormat('pt-BR',{style:'currency',currency:'BRL'}).format(Number(n))}
+function shuffle(a){var x=a.slice();for(var i=x.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var z=x[i];x[i]=x[j];x[j]=z}return x}
+function reserva(c){
+ var loja=String(c.loja||'').trim().toLowerCase();
+ var dominio=String(c.dominio_loja||'').toLowerCase();
+ var url=String(c.link||'');
+ return loja==='reserva'||loja==='reserva br'||dominio.includes('usereserva.com')||
+ /(?:[?&]awinmid=61287(?:&|$)|[?&]m=61287(?:&|$))/.test(url);
+}
+function atualizaLista(){
+ var q=termo.value.toLocaleLowerCase('pt-BR').trim();
+ visiveis=dados.filter(function(c){return !q || (String(c.titulo||'')+' '+String(c.descricao||'')+' '+String(c.tipo||'')).toLocaleLowerCase('pt-BR').includes(q)});
+ indice=0;render();
+}
+function card(c){
+ var url=c.tipo==='categoria'?afiliado(c.destino):linkAwin(c.link);
+ if(!url)return null;
+ var x=elemento('article','card');
+ var capa=elemento('div','capa');
+ var foto=valida(c.imagem);
+ if(foto){
+  var img=elemento('img');img.src=foto;img.alt=String(c.titulo||'Produto Reserva');img.loading='lazy';
+  img.onerror=function(){img.remove();capa.appendChild(semFoto(c))};capa.appendChild(img);
+ }else capa.appendChild(semFoto(c));
+ if(c.desconto_pct && Number(c.desconto_pct)>0){
+  capa.appendChild(elemento('span','selo','-'+Math.round(Number(c.desconto_pct))+'%'));
+ }else if(c.tipo==='cupom')capa.appendChild(elemento('span','selo','CUPOM'));
+ x.appendChild(capa);
+ var corpo=elemento('div','corpo');
+ corpo.appendChild(elemento('div','grupo',c.tipo==='categoria'?'CATEGORIA OFICIAL':'RESERVA'));
+ corpo.appendChild(elemento('div','nome',c.titulo||'Produto Reserva'));
+ if(Number(c.preco)>0){
+  var preco=elemento('div','preco',moeda(c.preco));
+  if(Number(c.preco_anterior)>Number(c.preco)){
+   preco.appendChild(elemento('s','',moeda(c.preco_anterior)));
+  }corpo.appendChild(preco);
+ }
+ if(c.descricao)corpo.appendChild(elemento('div','descricao',c.descricao));
+ if(c.cupom)corpo.appendChild(elemento('div','cupom','Cupom: '+c.cupom));
+ var acoes=elemento('div','acoes');
+ var comprar=elemento('a','comprar',c.tipo==='categoria'?'EXPLORAR LOJA':'VER OFERTA');
+ comprar.href=url;comprar.target='_blank';comprar.rel='noopener noreferrer sponsored nofollow';
+ var whats=elemento('a','whatsapp','WhatsApp');
+ whats.href='https://wa.me/?text='+encodeURIComponent('Olha esse achadinho Reserva na Sol Garimpa! '+(c.titulo||'')+' '+url);
+ whats.target='_blank';whats.rel='noopener noreferrer nofollow';
+ acoes.appendChild(comprar);acoes.appendChild(whats);
+ corpo.appendChild(acoes);x.appendChild(corpo);return x;
+}
+function semFoto(c){var x=elemento('div','sem-foto','RESERVA');x.appendChild(elemento('small','',c.tipo==='categoria'?'Conheça a categoria':'Moda e estilo'));return x}
+function render(){
+ pagina.replaceChildren();
+ if(!visiveis.length){
+  pagina.appendChild(elemento('div','status','Nenhum resultado para a pesquisa.'));return;
+ }
+ visiveis.forEach(function(c){var x=card(c);if(x)pagina.appendChild(x)});
+ pagina.scrollLeft=0;
+}
+function mover(d){
+ var a=pagina.querySelector('.card');if(!a)return;
+ indice=(indice+d+visiveis.length)%visiveis.length;
+ pagina.scrollTo({left:indice*(a.getBoundingClientRect().width+12),behavior:pausado?'auto':'smooth'});
+}
+function atualizarEstadoPausa(){$('pausar').textContent=pausado?'Retomar':'Pausar'}
+function carregar(){
+ fetch(JSON_URL+'?reserva='+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw Error('HTTP '+r.status);return r.json()})
+ .then(function(j){
+  var lista=Array.isArray(j.cards)?j.cards:[];
+  var produtos=lista.filter(function(c){
+   if(!reserva(c)||!linkAwin(c.link))return false;
+   if(c.validade && Date.parse(c.validade)<Date.now())return false;
+   return true;
+  });
+  var novo=JSON.stringify(produtos.map(function(c){return [c.id,c.link,c.preco,c.validade]}));
+  if(novo!==ultimaAssinatura){
+   ultimaAssinatura=novo;
+   dados=shuffle(produtos.length?produtos:categorias);
+   atualizaLista();
+  }
+  status.textContent=produtos.length?produtos.length+' opções da Reserva no catálogo Awin.':'O catálogo ainda não contém produtos da Reserva; explore as categorias oficiais.';
+ })
+ .catch(function(){
+  if(!dados.length){dados=shuffle(categorias);atualizaLista()}
+  status.textContent='Catálogo indisponível no momento; explore as categorias oficiais da Reserva.';
+ });
+}
+$('form').addEventListener('submit',function(e){e.preventDefault();atualizaLista()});
+$('limpar').addEventListener('click',function(){termo.value='';atualizaLista()});
+$('antes').addEventListener('click',function(){mover(-1)});
+$('depois').addEventListener('click',function(){mover(1)});
+$('pausar').addEventListener('click',function(){pausado=!pausado;atualizarEstadoPausa()});
+pagina.addEventListener('scroll',function(){
+ var a=pagina.querySelector('.card');
+ if(a)indice=Math.round(pagina.scrollLeft/(a.getBoundingClientRect().width+12));
+},{passive:true});
+atualizarEstadoPausa();
+dados=shuffle(categorias);atualizaLista();carregar();
+setInterval(function(){if(!pausado&&!document.hidden)mover(1)},4500);
+setInterval(carregar,300000);
+})();
+</script>
+</body>
+</html>
