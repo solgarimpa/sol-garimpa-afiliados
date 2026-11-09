@@ -1,31 +1,9 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-09T02:55:53.654290Z",
-  "total": 97,
+  "atualizado_em": "2026-11-09T03:44:04.574761Z",
+  "total": 95,
   "ofertas": [
-    {
-      "id": "4164988",
-      "loja": "Adcos BR",
-      "tipo": "promocao",
-      "titulo": "40% OFF em sabonetes",
-      "descricao": "40% OFF em sabonetes",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-09T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=85419&awinaffid=3110826&ued=https%3A%2F%2Fwww.lojaadcos.com.br%2Fblack-friday%2Fnovos-descontos"
-    },
-    {
-      "id": "4165024",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "10% OFF no Microfone Gamer Corsair Voxara USB RGB",
-      "descricao": "10% OFF no Microfone Gamer Corsair Voxara USB RGB",
-      "termos": ".",
-      "cupom": "VOXARA10",
-      "validade": "2026-11-09T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1070655%2Fmicrofone-condensador-gamer-corsair-voxara-usb-rgb-preto-ca-9011406-ww"
-    },
     {
       "id": "4165020",
       "loja": "Kabum BR",

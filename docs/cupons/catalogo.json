@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-09T02:55:54.714723Z",
-  "total": 113,
-  "total_cupons": 94,
-  "total_promocoes": 19,
+  "atualizado_em": "2026-11-09T03:44:05.504385Z",
+  "total": 125,
+  "total_cupons": 107,
+  "total_promocoes": 18,
   "fontes": {
-    "Awin": 97,
+    "Awin": 95,
     "Rakuten": 0,
-    "Lomadee": 16
+    "Lomadee": 30
   },
   "ofertas": [
     {
@@ -116,6 +116,102 @@
       "cupom": "BF50EXTRA",
       "validade": "2026-12-21T02:30:00Z",
       "link": "https://lmdee.link/jqpvsnRfWwhm",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "1e4b116008a1874259",
+      "loja": "Brinox",
+      "tipo": "cupom",
+      "titulo": "Cupom perfeito para você divulgar!",
+      "descricao": "",
+      "termos": "",
+      "cupom": "RENOVACASA",
+      "validade": "2026-12-21T02:30:00Z",
+      "link": "https://lmdee.link/DZo5pwUvAGaK",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "af19a5a02d0026f911",
+      "loja": "Brinox",
+      "tipo": "cupom",
+      "titulo": "R$ 100 em compras acima de R$699",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BF100",
+      "validade": "2026-12-21T02:30:00Z",
+      "link": "https://lmdee.link/mGEeBYw6ZwcY",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "f13eaa0f3f9143359b",
+      "loja": "Brinox",
+      "tipo": "cupom",
+      "titulo": "R$ 50 em compras acima de R$399",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BF50",
+      "validade": "2026-12-21T02:30:00Z",
+      "link": "https://lmdee.link/nRs51ZGLWI6v",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "52cb23a7d3e8a575f6",
+      "loja": "China in Box",
+      "tipo": "cupom",
+      "titulo": "Cupom Frete Gratis",
+      "descricao": "",
+      "termos": "",
+      "cupom": "FRETELOMADEE",
+      "validade": "2027-01-01T02:59:59Z",
+      "link": "https://lmdee.link/69aTXVdd4fbx",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "a478c787b4a5fe84a6",
+      "loja": "Colorstone",
+      "tipo": "cupom",
+      "titulo": "20% OFF em todo site",
+      "descricao": "",
+      "termos": "",
+      "cupom": "LOMADEE",
+      "validade": "2027-01-01T02:30:00Z",
+      "link": "https://lmdee.link/OjpcW1hfWIo6",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "ef70631976c24b3c0b",
+      "loja": "Coza",
+      "tipo": "cupom",
+      "titulo": "R$15 off em compras acima de R$100",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK15",
+      "validade": "2026-12-11T02:30:00Z",
+      "link": "https://lmdee.link/1QFD5FFnXqZr",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "2feaffcb1c78c66fcb",
+      "loja": "Coza",
+      "tipo": "cupom",
+      "titulo": "R$20 off em compras acima de R$150",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK20",
+      "validade": "2026-12-11T02:30:00Z",
+      "link": "https://lmdee.link/SVnu99vLQb3k",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "f5ad1b14e407c2f192",
+      "loja": "Coza",
+      "tipo": "cupom",
+      "titulo": "R$35 off em compras acima de R$200",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK35",
+      "validade": "2026-12-11T02:30:00Z",
+      "link": "https://lmdee.link/X6FCsHGOS2bW",
       "rede": "Lomadee"
     },
     {
@@ -431,6 +527,30 @@
       "rede": "Awin"
     },
     {
+      "id": "dcbdc6ebff60c6e1f7",
+      "loja": "eles.®",
+      "tipo": "cupom",
+      "titulo": "Oferta Outubro Rosa elas. para emagrecimento 15% off",
+      "descricao": "",
+      "termos": "",
+      "cupom": "outubrorosa",
+      "validade": null,
+      "link": "https://lmdee.link/4w25yU4r7V5b",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "2064a07eb6fac20ab4",
+      "loja": "eles.®",
+      "tipo": "cupom",
+      "titulo": "Preblack",
+      "descricao": "",
+      "termos": "",
+      "cupom": "Preblack",
+      "validade": null,
+      "link": "https://lmdee.link/iIBsvCOgPe2m",
+      "rede": "Lomadee"
+    },
+    {
       "id": "cdeff649f429655f3f",
       "loja": "Eurorelogios BR",
       "tipo": "cupom",
@@ -548,18 +668,6 @@
       "cupom": "SOFTWARES10",
       "validade": "2026-12-01T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1SOFTWARES10",
-      "rede": "Awin"
-    },
-    {
-      "id": "e8718bee7a641ef791",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "10% OFF no Microfone Gamer Corsair Voxara USB RGB",
-      "descricao": "10% OFF no Microfone Gamer Corsair Voxara USB RGB",
-      "termos": ".",
-      "cupom": "VOXARA10",
-      "validade": "2026-11-09T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1070655%2Fmicrofone-condensador-gamer-corsair-voxara-usb-rgb-preto-ca-9011406-ww",
       "rede": "Awin"
     },
     {
@@ -863,6 +971,18 @@
       "rede": "Awin"
     },
     {
+      "id": "2ae26d1762bc0141cc",
+      "loja": "Kidy Calçados",
+      "tipo": "cupom",
+      "titulo": "CRIANCAKIDY",
+      "descricao": "",
+      "termos": "",
+      "cupom": "CRIANCAKIDY",
+      "validade": null,
+      "link": "https://lmdee.link/ffYOlSCTz6DW",
+      "rede": "Lomadee"
+    },
+    {
       "id": "90072377eff1fdf178",
       "loja": "Lauri Esporte",
       "tipo": "cupom",
@@ -992,6 +1112,18 @@
       "cupom": "LOMADEE10",
       "validade": "2027-01-01T02:30:00Z",
       "link": "https://lmdee.link/lJLkInykeDxg",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "1d28b29f5f8f78153f",
+      "loja": "Móveis Carraro",
+      "tipo": "cupom",
+      "titulo": "LANCAMENTOS10 - 10% OFF em Lançamentos",
+      "descricao": "",
+      "termos": "",
+      "cupom": "LANCAMENTOS10",
+      "validade": null,
+      "link": "https://lmdee.link/Zgad1XW8M6fK",
       "rede": "Lomadee"
     },
     {
@@ -1127,6 +1259,30 @@
       "rede": "Lomadee"
     },
     {
+      "id": "43e498746ad3f5fe71",
+      "loja": "Zupper",
+      "tipo": "cupom",
+      "titulo": "Cupom de R$ 25,00 de desconto (apenas para primeira compra 1 por CPF)",
+      "descricao": "",
+      "termos": "",
+      "cupom": "ZUPPLOM40",
+      "validade": "2027-01-01T02:30:00Z",
+      "link": "https://lmdee.link/goTvpMKdOivt",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "0f301a486e8c36849c",
+      "loja": "Zupper",
+      "tipo": "cupom",
+      "titulo": "Cupom de R$ 25,00 de desconto (uso ilimitado)",
+      "descricao": "",
+      "termos": "",
+      "cupom": "ZUPPLOM25",
+      "validade": "2027-01-01T02:30:00Z",
+      "link": "https://lmdee.link/geL8GLQ5Mgns",
+      "rede": "Lomadee"
+    },
+    {
       "id": "2eadc70b9c1b1cfed3",
       "loja": "Óticas Foto Paulo",
       "tipo": "cupom",
@@ -1137,18 +1293,6 @@
       "validade": null,
       "link": "https://lmdee.link/Im8Dkr3oDJbO",
       "rede": "Lomadee"
-    },
-    {
-      "id": "46b3f67ddfcd2d5ef2",
-      "loja": "Adcos BR",
-      "tipo": "promocao",
-      "titulo": "40% OFF em sabonetes",
-      "descricao": "40% OFF em sabonetes",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-09T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=85419&awinaffid=3110826&ued=https%3A%2F%2Fwww.lojaadcos.com.br%2Fblack-friday%2Fnovos-descontos",
-      "rede": "Awin"
     },
     {
       "id": "5b4775f044506057fd",
