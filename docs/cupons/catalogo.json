@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-09T12:51:26.997880Z",
+  "atualizado_em": "2026-11-09T13:56:58.171263Z",
   "total": 125,
-  "total_cupons": 106,
-  "total_promocoes": 19,
+  "total_cupons": 105,
+  "total_promocoes": 20,
   "fontes": {
-    "Awin": 95,
+    "Awin": 96,
     "Rakuten": 0,
-    "Lomadee": 30
+    "Lomadee": 29
   },
   "ofertas": [
     {
@@ -959,18 +959,6 @@
       "rede": "Awin"
     },
     {
-      "id": "2ae26d1762bc0141cc",
-      "loja": "Kidy Calçados",
-      "tipo": "cupom",
-      "titulo": "CRIANCAKIDY",
-      "descricao": "",
-      "termos": "",
-      "cupom": "CRIANCAKIDY",
-      "validade": null,
-      "link": "https://lmdee.link/ffYOlSCTz6DW",
-      "rede": "Lomadee"
-    },
-    {
       "id": "90072377eff1fdf178",
       "loja": "Lauri Esporte",
       "tipo": "cupom",
@@ -1292,6 +1280,18 @@
       "cupom": "",
       "validade": "2026-12-31T13:26:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=107702&awinaffid=3110826&ued=https%3A%2F%2Fwww.clovis.com.br%2Fmelissa",
+      "rede": "Awin"
+    },
+    {
+      "id": "4bc23a978a862c3e10",
+      "loja": "Eurorelogios BR",
+      "tipo": "promocao",
+      "titulo": "ESQUENTA BF | ATE 30% OFF",
+      "descricao": "Até 30% off em produtos selecionados e todo dia um produto surpresa com oferta especial",
+      "termos": "Oferta válida somente no site oficial da Euro",
+      "cupom": "",
+      "validade": "2026-11-15T13:21:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=28167&awinaffid=3110826&ued=https%3A%2F%2Fwww.eurorelogios.com.br%2Fblack-friday",
       "rede": "Awin"
     },
     {

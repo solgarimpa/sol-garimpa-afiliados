@@ -1,8 +1,8 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-09T12:51:25.693256Z",
-  "total": 95,
+  "atualizado_em": "2026-11-09T13:56:57.297463Z",
+  "total": 96,
   "ofertas": [
     {
       "id": "4165035",
@@ -113,6 +113,17 @@
       "cupom": "",
       "validade": "2026-11-15T03:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=28161&awinaffid=3110826&ued=https%3A%2F%2Fwww.technos.com.br%2Fblack-friday"
+    },
+    {
+      "id": "4166655",
+      "loja": "Eurorelogios BR",
+      "tipo": "promocao",
+      "titulo": "ESQUENTA BF | ATE 30% OFF",
+      "descricao": "Até 30% off em produtos selecionados e todo dia um produto surpresa com oferta especial",
+      "termos": "Oferta válida somente no site oficial da Euro",
+      "cupom": "",
+      "validade": "2026-11-15T13:21:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=28167&awinaffid=3110826&ued=https%3A%2F%2Fwww.eurorelogios.com.br%2Fblack-friday"
     },
     {
       "id": "4165010",
