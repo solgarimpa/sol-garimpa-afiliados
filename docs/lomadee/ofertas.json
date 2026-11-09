@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-09T16:20:10+00:00",
+  "atualizado_em": "2026-11-09T17:24:37+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -687,20 +687,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-7e9a301aaa633917f291",
-      "loja": "Colorstone",
-      "tipo": "cupom",
-      "titulo": "20% OFF em todo site",
-      "imagem": "",
-      "link": "https://lmdee.link/OjpcW1hfWIo6",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "LOMADEE",
-      "validade": "2027-01-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-15de72c6afc4694268e6",
       "loja": "Coza",
       "tipo": "cupom",
@@ -757,15 +743,15 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-b1e80c3d8a9ab73165d3",
+      "id": "lc-80939196793de73d709c",
       "loja": "Homedock",
-      "tipo": "promocao",
-      "titulo": "Lista de cupons Black November Homedock",
-      "imagem": "https://cdn.lomadee.com.br/offer/652faffd-ec87-49df-b19f-373eee6f8ce0/banners/imagem%20-%202026-11-05T101522.377.png",
-      "link": "https://lmdee.link/xBzJTkVk4Ypa",
+      "tipo": "cupom",
+      "titulo": "R$ 500 OFF para pedidos acima de R$ 6.799,99",
+      "imagem": "",
+      "link": "https://lmdee.link/VN3NxmhpaGwI",
       "preco": null,
       "preco_anterior": null,
-      "cupom": null,
+      "cupom": "BLACK500",
       "validade": "2026-11-12T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
@@ -795,20 +781,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-16T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-d697e2df97c01057c1bb",
-      "loja": "Komo Wellness",
-      "tipo": "promocao",
-      "titulo": "Nova Unidade no Ibirapuera Shopping",
-      "imagem": "https://cdn.lomadee.com.br/offer/534a288d-8210-438e-a91f-d00724abd389/banners/KOMO%20-%20PE%C3%87AS%20-%20INAUGURA%C3%87%C3%83O%20-%202026%20IBIRAPUERA.zip",
-      "link": "https://lmdee.link/llfUIGtzJzH5",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -981,17 +953,17 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-3967910dc04897e8cd53",
+      "id": "lp-290ba2aca341d2a59917",
       "loja": "Shopee",
-      "tipo": "promocao",
-      "titulo": "📺Smart TV AOC 43” (De: R$2.350,00 Por: R$1.280,64 no PIX)",
-      "imagem": "https://cdn.lomadee.com.br/offer/475c15e2-b713-4581-8ca3-f4629cb5cf4b/banners/imagem%20-%202026-09-10T115004.069.png",
-      "link": "https://lmdee.link/3SWR49pjGGgk",
-      "preco": null,
-      "preco_anterior": null,
+      "tipo": "produto",
+      "titulo": "#N/A",
+      "imagem": "https://cf.shopee.com.br/file/sg-11134201-825a8-mq6qihcseadnd1",
+      "link": "https://lmdee.link/6FZZwrHF5Ij4",
+      "preco": 1.43,
+      "preco_anterior": 1.68,
       "cupom": null,
       "validade": null,
-      "descricao": "",
+      "descricao": "Bateria para Notebook Acer Aspire 5750 5250 5733 5741 E1-571\n\nA Bateria Acer Aspire 5750 5250 5733 5741 E1-571 possui um excelente sistema de recarga inteligente que impede o sobrecarregamento e superaquecimento da peça.",
       "origem": "Lomadee"
     },
     {
@@ -1247,15 +1219,15 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-10838f8775c0e1427a97",
+      "id": "lc-87343edc58499aceb43b",
       "loja": "Homedock",
-      "tipo": "promocao",
-      "titulo": "Black November 11.11 : Pix com 10% off + Cupom Extra Ofertas com até 75% de desconto",
-      "imagem": "https://cdn.lomadee.com.br/offer/ad9d0748-6091-4619-b7e1-084389699130/banners/imagem%20-%202026-11-05T101334.111.png",
-      "link": "https://lmdee.link/RY0ku2gW04OV",
+      "tipo": "cupom",
+      "titulo": "R$ 350 OFF para pedidos acima de R$ 4.999,99",
+      "imagem": "",
+      "link": "https://lmdee.link/mrQjiM9fxMp5",
       "preco": null,
       "preco_anterior": null,
-      "cupom": null,
+      "cupom": "BLACK350",
       "validade": "2026-11-12T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
@@ -1373,17 +1345,17 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lp-290ba2aca341d2a59917",
+      "id": "lp-0df7d80e9a43ddd36e37",
       "loja": "Shopee",
       "tipo": "produto",
-      "titulo": "#N/A",
-      "imagem": "https://cf.shopee.com.br/file/sg-11134201-825a8-mq6qihcseadnd1",
-      "link": "https://lmdee.link/6FZZwrHF5Ij4",
-      "preco": 1.43,
-      "preco_anterior": 1.68,
+      "titulo": "( DIGIPACK Ver ) ATEEZ 13th Mini Album GOLDEN HOUR : Part.4",
+      "imagem": "https://cf.shopee.com.br/file/sg-11134207-825zk-mjf4ysgowx6s29",
+      "link": "https://lmdee.link/oZ9lEsriPHGH",
+      "preco": 1.05,
+      "preco_anterior": null,
       "cupom": null,
       "validade": null,
-      "descricao": "Bateria para Notebook Acer Aspire 5750 5250 5733 5741 E1-571\n\nA Bateria Acer Aspire 5750 5250 5733 5741 E1-571 possui um excelente sistema de recarga inteligente que impede o sobrecarregamento e superaquecimento da peça.",
+      "descricao": "ATUALIZADO; 2026-01-13\nDATA LIBERADA: FEB 6, 2026\n\n💖(Versão DIGIPACK) ATEEZ 13o Mini Álbum HORÁRIO DOURADO: Part.4\n\n#SIXKSHOP",
       "origem": "Lomadee"
     },
     {
@@ -1527,6 +1499,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-6db0680f279b95d98ac7",
+      "loja": "Homedock",
+      "tipo": "cupom",
+      "titulo": "R$ 120 OFF para pedidos acima de R$ 3.199,99",
+      "imagem": "",
+      "link": "https://lmdee.link/zSc7OJRw57mE",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "BLACK120",
+      "validade": "2026-11-12T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-3cdb9454b7efe1e37898",
       "loja": "Kidy Calçados",
       "tipo": "promocao",
@@ -1569,20 +1555,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-63f47491d34eb7e2c677",
-      "loja": "Mundo Vem",
-      "tipo": "promocao",
-      "titulo": "[CATEGORIA] Xícaras",
-      "imagem": "",
-      "link": "https://lmdee.link/kdZz2OrnS9ik",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-480461bbca3dee865f84",
       "loja": "Móveis Carraro",
       "tipo": "promocao",
@@ -1611,17 +1583,17 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lp-0df7d80e9a43ddd36e37",
+      "id": "lp-9d1c3a86878fbd4bf480",
       "loja": "Shopee",
       "tipo": "produto",
-      "titulo": "( DIGIPACK Ver ) ATEEZ 13th Mini Album GOLDEN HOUR : Part.4",
-      "imagem": "https://cf.shopee.com.br/file/sg-11134207-825zk-mjf4ysgowx6s29",
-      "link": "https://lmdee.link/oZ9lEsriPHGH",
-      "preco": 1.05,
+      "titulo": "( FIRST PRESS POB ONLY ) BABYMONSTER 3rd MINI ALBUM [CHOOM]",
+      "imagem": "https://cf.shopee.com.br/file/sg-11134207-823pn-mot0gnyax1j51c",
+      "link": "https://lmdee.link/c9NF3bH8UnH5",
+      "preco": 1.09,
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
-      "descricao": "ATUALIZADO; 2026-01-13\nDATA LIBERADA: FEB 6, 2026\n\n💖(Versão DIGIPACK) ATEEZ 13o Mini Álbum HORÁRIO DOURADO: Part.4\n\n#SIXKSHOP",
+      "descricao": "ATUALIZADO: 2026-05-29\n\nSEM ALBUMAS / SÓ PRESSO POB SERÁ DADO. \n\n#SIXKSHOP",
       "origem": "Lomadee"
     },
     {
@@ -1709,6 +1681,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-d677738b542fcf519cbd",
+      "loja": "Homedock",
+      "tipo": "cupom",
+      "titulo": "R$ 80 OFF para pedidos acima de R$ 2.399,99",
+      "imagem": "",
+      "link": "https://lmdee.link/rNYr5SuM8uNL",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "BLACK80",
+      "validade": "2026-11-12T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-3c55ff6613db21589bfc",
       "loja": "Kidy Calçados",
       "tipo": "promocao",
@@ -1751,20 +1737,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-81b3cfd128289ab772ba",
-      "loja": "Mundo Vem",
-      "tipo": "promocao",
-      "titulo": "[CATEGORIA] Sopeiras e Bowls",
-      "imagem": "https://cdn.lomadee.com.br/offer/ee905ca3-d07a-4d0c-a6dd-9463259fb060/banners/750x1351%20%288%29.jpg",
-      "link": "https://lmdee.link/uFdE8I7ZdVNm",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-bb5af2c0883a7399cb04",
       "loja": "Móveis Carraro",
       "tipo": "cupom",
@@ -1793,17 +1765,17 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lp-9d1c3a86878fbd4bf480",
+      "id": "lp-30f584005957e9905227",
       "loja": "Shopee",
       "tipo": "produto",
-      "titulo": "( FIRST PRESS POB ONLY ) BABYMONSTER 3rd MINI ALBUM [CHOOM]",
-      "imagem": "https://cf.shopee.com.br/file/sg-11134207-823pn-mot0gnyax1j51c",
-      "link": "https://lmdee.link/c9NF3bH8UnH5",
-      "preco": 1.09,
+      "titulo": "( NEMO ver ) T.O.P 1st Full Album Top Spot ( Another Dimension )",
+      "imagem": "https://cf.shopee.com.br/file/sg-11134207-8261q-mm1et9yphuyo16",
+      "link": "https://lmdee.link/wEqN01dAj1ad",
+      "preco": 1.0,
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
-      "descricao": "ATUALIZADO: 2026-05-29\n\nSEM ALBUMAS / SÓ PRESSO POB SERÁ DADO. \n\n#SIXKSHOP",
+      "descricao": "ATUALIZADO: 2026-03-20\nDATA LIBERADA: APR 3, 2026\n\n💖Ponto superior do álbum completo (outra dimensão)",
       "origem": "Lomadee"
     },
     {
@@ -1863,6 +1835,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-2ee2252b93ab01686cb9",
+      "loja": "Homedock",
+      "tipo": "cupom",
+      "titulo": "R$ 25 OFF para pedidos acima de R$ 999,99",
+      "imagem": "",
+      "link": "https://lmdee.link/NvjqQ31Qtkby",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "BLACK25",
+      "validade": "2026-11-12T02:59:59.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-316c78c018698bf2a7fd",
       "loja": "Lauri Esporte",
       "tipo": "promocao",
@@ -1891,45 +1877,17 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-67a3b74bce3f3536ce44",
-      "loja": "Mundo Vem",
-      "tipo": "promocao",
-      "titulo": "[CATEGORIA] Bandejas com tampa",
-      "imagem": "https://cdn.lomadee.com.br/offer/60b3f40d-1698-4927-ba9f-f35d529e9bbf/banners/320x50%20%287%29.jpg",
-      "link": "https://lmdee.link/aqJhq9hirYiq",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-551029e30bd9dea16827",
-      "loja": "Sawary",
-      "tipo": "promocao",
-      "titulo": "Seleção de Boot Cuts",
-      "imagem": "",
-      "link": "https://lmdee.link/ebKExEZm6XHR",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lp-30f584005957e9905227",
+      "id": "lp-338463ca4563d7ecad39",
       "loja": "Shopee",
       "tipo": "produto",
-      "titulo": "( NEMO ver ) T.O.P 1st Full Album Top Spot ( Another Dimension )",
-      "imagem": "https://cf.shopee.com.br/file/sg-11134207-8261q-mm1et9yphuyo16",
-      "link": "https://lmdee.link/wEqN01dAj1ad",
-      "preco": 1.0,
+      "titulo": "( ONLY MUSIC KOREA POB ) TWICE CHAEYOUNG THE FIRST ALBUM \"LIL FANTASY vol.1\"",
+      "imagem": "https://cf.shopee.com.br/file/sg-11134207-82635-mlfqk8la835v2e",
+      "link": "https://lmdee.link/IB3cqlc4txKN",
+      "preco": 0.56,
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
-      "descricao": "ATUALIZADO: 2026-03-20\nDATA LIBERADA: APR 3, 2026\n\n💖Ponto superior do álbum completo (outra dimensão)",
+      "descricao": "ATUALIZADO: 2026-03-05\n\n💖(SÓ MÚSICO COREIA POB) GROSSA CHAEYOUNG O PRIMEIRA ÁLBUM \"LIL FANTASY vol.1\"\n\nPOB DE COREIA MÚSICA SEM ÁLBUM = SOMENTE MÚSICO\n\n#SIXKSHOP",
       "origem": "Lomadee"
     },
     {
@@ -1989,6 +1947,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-7341e0568b266ccc609a",
+      "loja": "Homedock",
+      "tipo": "cupom",
+      "titulo": "R$ 15 OFF para pedidos acima de R$ 599,99",
+      "imagem": "",
+      "link": "https://lmdee.link/AAwrxEkdk0th",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "BLACK15",
+      "validade": "2026-11-12T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-3429e60e1eb7f0909053",
       "loja": "Lauri Esporte",
       "tipo": "promocao",
@@ -2003,31 +1975,17 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-5ea1d375de1de967ed7a",
-      "loja": "Sawary",
-      "tipo": "promocao",
-      "titulo": "Festival de Balloons",
-      "imagem": "",
-      "link": "https://lmdee.link/xR5PUlevjkkp",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lp-338463ca4563d7ecad39",
+      "id": "lp-28fffd4b88a707b327e6",
       "loja": "Shopee",
       "tipo": "produto",
-      "titulo": "( ONLY MUSIC KOREA POB ) TWICE CHAEYOUNG THE FIRST ALBUM \"LIL FANTASY vol.1\"",
-      "imagem": "https://cf.shopee.com.br/file/sg-11134207-82635-mlfqk8la835v2e",
-      "link": "https://lmdee.link/IB3cqlc4txKN",
-      "preco": 0.56,
+      "titulo": "( ONLY POB 8EA 1SET ) STRAY KIDS OFFICIAL PHOTOCARD",
+      "imagem": "https://cf.shopee.com.br/file/sg-11134207-81zv1-mn3pua27zfgl66",
+      "link": "https://lmdee.link/85Zb3MRUw4Ku",
+      "preco": 1.53,
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
-      "descricao": "ATUALIZADO: 2026-03-05\n\n💖(SÓ MÚSICO COREIA POB) GROSSA CHAEYOUNG O PRIMEIRA ÁLBUM \"LIL FANTASY vol.1\"\n\nPOB DE COREIA MÚSICA SEM ÁLBUM = SOMENTE MÚSICO\n\n#SIXKSHOP",
+      "descricao": "UPDATED: 2025-06-27\n\n⚠️ Please check the product release date before placing your order\n📦 Orders will be shipped within 2–7 days after the release date\n❗ If the package cannot be received due to customer reasons, the sto",
       "origem": "Lomadee"
     },
     {
@@ -2073,17 +2031,31 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lp-28fffd4b88a707b327e6",
+      "id": "lc-b1998a2e5e9028060809",
+      "loja": "Homedock",
+      "tipo": "cupom",
+      "titulo": "1ª Compra: R$ 50 OFF para pedidos acima de R$ 1.299,99",
+      "imagem": "",
+      "link": "https://lmdee.link/sU7RFKphMZ7z",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "NOVO50",
+      "validade": "2026-11-12T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lp-993d1a46223e50b8cfac",
       "loja": "Shopee",
       "tipo": "produto",
-      "titulo": "( ONLY POB 8EA 1SET ) STRAY KIDS OFFICIAL PHOTOCARD",
-      "imagem": "https://cf.shopee.com.br/file/sg-11134207-81zv1-mn3pua27zfgl66",
-      "link": "https://lmdee.link/85Zb3MRUw4Ku",
-      "preco": 1.53,
+      "titulo": "( POB _ PPULBATU ver ) Tomorrow x Together ( TXT ) 7th Year :  Official Album",
+      "imagem": "https://cf.shopee.com.br/file/sg-11134207-8261p-mlcyois68npc08",
+      "link": "https://lmdee.link/UTYtAtnMghho",
+      "preco": 0.73,
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
-      "descricao": "UPDATED: 2025-06-27\n\n⚠️ Please check the product release date before placing your order\n📦 Orders will be shipped within 2–7 days after the release date\n❗ If the package cannot be received due to customer reasons, the sto",
+      "descricao": "UPDATED: 2026-03-03\nRELEASED DATE: APRIL 13, 2026\n\n💖( POB _ PPULBATU ver ) Tomorrow x Together ( TXT ) 7th Year : 가시덤불에 잠시 바람이 멈췄을 때 Official\n💖ONLINE POB: \nWEVERSE: LOGO MEMOPAD 1:1\nKNPOPS: LOGO STICKER 1:1\nMAKESTAR: LOG",
       "origem": "Lomadee"
     },
     {
@@ -2129,17 +2101,31 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lp-993d1a46223e50b8cfac",
-      "loja": "Shopee",
-      "tipo": "produto",
-      "titulo": "( POB _ PPULBATU ver ) Tomorrow x Together ( TXT ) 7th Year :  Official Album",
-      "imagem": "https://cf.shopee.com.br/file/sg-11134207-8261p-mlcyois68npc08",
-      "link": "https://lmdee.link/UTYtAtnMghho",
-      "preco": 0.73,
+      "id": "lc-a604c9576b62ca3375a0",
+      "loja": "Homedock",
+      "tipo": "promocao",
+      "titulo": "Diversos cupons para você aproveitar",
+      "imagem": "",
+      "link": "https://lmdee.link/F85CmETgCKqV",
+      "preco": null,
       "preco_anterior": null,
       "cupom": null,
+      "validade": "2026-11-12T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lp-3a61736ef5ea1db7a045",
+      "loja": "Shopee",
+      "tipo": "produto",
+      "titulo": "( READY TO BE SHIPPED ) NCT DREAM Dreamiez Dream Forest Popup MD 2",
+      "imagem": "https://cf.shopee.com.br/file/sg-11134207-824iy-mejm6spp2vba1b",
+      "link": "https://lmdee.link/vPDDOrqgF9n7",
+      "preco": 0.88,
+      "preco_anterior": 1.09,
+      "cupom": null,
       "validade": null,
-      "descricao": "UPDATED: 2026-03-03\nRELEASED DATE: APRIL 13, 2026\n\n💖( POB _ PPULBATU ver ) Tomorrow x Together ( TXT ) 7th Year : 가시덤불에 잠시 바람이 멈췄을 때 Official\n💖ONLINE POB: \nWEVERSE: LOGO MEMOPAD 1:1\nKNPOPS: LOGO STICKER 1:1\nMAKESTAR: LOG",
+      "descricao": "ATUALIZADO EM ATUALIZADO: 2025-05-29\nDATA LIBERADA: FINAL DE ÁUG, 2025\n\n🛒Pelúcia NCT DREAM Dreamiez com AMIGOS DE LINHA MD\n\n🎁PLUSH DE CUSTURA florestal DE SONHO\nTamanho: 12CM \n🎁CHAVE DE PELÚCIA DE PELUCIA\nTamanho da caix",
       "origem": "Lomadee"
     },
     {
@@ -2185,17 +2171,31 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lp-3a61736ef5ea1db7a045",
+      "id": "lc-b1e80c3d8a9ab73165d3",
+      "loja": "Homedock",
+      "tipo": "promocao",
+      "titulo": "Lista de cupons Black November Homedock",
+      "imagem": "https://cdn.lomadee.com.br/offer/652faffd-ec87-49df-b19f-373eee6f8ce0/banners/imagem%20-%202026-11-05T101522.377.png",
+      "link": "https://lmdee.link/xBzJTkVk4Ypa",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-12T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lp-4abf2b50785f5c9611ee",
       "loja": "Shopee",
       "tipo": "produto",
-      "titulo": "( READY TO BE SHIPPED ) NCT DREAM Dreamiez Dream Forest Popup MD 2",
-      "imagem": "https://cf.shopee.com.br/file/sg-11134207-824iy-mejm6spp2vba1b",
-      "link": "https://lmdee.link/vPDDOrqgF9n7",
-      "preco": 0.88,
-      "preco_anterior": 1.09,
+      "titulo": "( READY TO SHIP ) ZEROBASEONE X Zeroni FLUFFY Wonderland POP-UP with Line Friends MD 2",
+      "imagem": "https://cf.shopee.com.br/file/sg-11134207-82583-mgbwjil7zhu454",
+      "link": "https://lmdee.link/VCSFttpGZ12f",
+      "preco": 0.75,
+      "preco_anterior": null,
       "cupom": null,
       "validade": null,
-      "descricao": "ATUALIZADO EM ATUALIZADO: 2025-05-29\nDATA LIBERADA: FINAL DE ÁUG, 2025\n\n🛒Pelúcia NCT DREAM Dreamiez com AMIGOS DE LINHA MD\n\n🎁PLUSH DE CUSTURA florestal DE SONHO\nTamanho: 12CM \n🎁CHAVE DE PELÚCIA DE PELUCIA\nTamanho da caix",
+      "descricao": "ATUALIZADO EM ATUALIZADO: 2025-10-27\n\n💖(PRONTO PARA ENVIAR) ZEROBASEONE X Zeroni FLUFFY Wonderland POP-UP com amigos de linha MD\n💖Se você comprar vale 50.000 WON, 1ea Photocard será dado. \n\nPORTA FOTO FOTO MAGNET PLUSH 1",
       "origem": "Lomadee"
     },
     {
@@ -2227,30 +2227,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lp-4abf2b50785f5c9611ee",
-      "loja": "Shopee",
-      "tipo": "produto",
-      "titulo": "( READY TO SHIP ) ZEROBASEONE X Zeroni FLUFFY Wonderland POP-UP with Line Friends MD 2",
-      "imagem": "https://cf.shopee.com.br/file/sg-11134207-82583-mgbwjil7zhu454",
-      "link": "https://lmdee.link/VCSFttpGZ12f",
-      "preco": 0.75,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "ATUALIZADO EM ATUALIZADO: 2025-10-27\n\n💖(PRONTO PARA ENVIAR) ZEROBASEONE X Zeroni FLUFFY Wonderland POP-UP com amigos de linha MD\n💖Se você comprar vale 50.000 WON, 1ea Photocard será dado. \n\nPORTA FOTO FOTO MAGNET PLUSH 1",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-dea464fc532307890ceb",
-      "loja": "Amakha Paris",
+      "id": "lc-10838f8775c0e1427a97",
+      "loja": "Homedock",
       "tipo": "promocao",
-      "titulo": "feed monte seu kit bf",
-      "imagem": "",
-      "link": "https://lmdee.link/kjRpHXUWycGV",
+      "titulo": "Black November 11.11 : Pix com 10% off + Cupom Extra Ofertas com até 75% de desconto",
+      "imagem": "https://cdn.lomadee.com.br/offer/ad9d0748-6091-4619-b7e1-084389699130/banners/imagem%20-%202026-11-05T101334.111.png",
+      "link": "https://lmdee.link/RY0ku2gW04OV",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-11T02:30:00.000Z",
+      "validade": "2026-11-12T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2269,12 +2255,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-58592c2806a2974cfd5b",
+      "id": "lc-dea464fc532307890ceb",
       "loja": "Amakha Paris",
       "tipo": "promocao",
-      "titulo": "banner BF monte seu kit",
+      "titulo": "feed monte seu kit bf",
       "imagem": "",
-      "link": "https://lmdee.link/Gu3Ef7hmfPyL",
+      "link": "https://lmdee.link/kjRpHXUWycGV",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -2297,12 +2283,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-cbb143dc0474bd001153",
+      "id": "lc-58592c2806a2974cfd5b",
       "loja": "Amakha Paris",
       "tipo": "promocao",
-      "titulo": "banner monte seu ki bf",
+      "titulo": "banner BF monte seu kit",
       "imagem": "",
-      "link": "https://lmdee.link/x6WFLAeJq5yO",
+      "link": "https://lmdee.link/Gu3Ef7hmfPyL",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -2325,12 +2311,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-3563909086ca2edbd863",
+      "id": "lc-cbb143dc0474bd001153",
       "loja": "Amakha Paris",
       "tipo": "promocao",
-      "titulo": "story BF V1 monte seu kit",
+      "titulo": "banner monte seu ki bf",
       "imagem": "",
-      "link": "https://lmdee.link/vU98UgpAzqGI",
+      "link": "https://lmdee.link/x6WFLAeJq5yO",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -2353,12 +2339,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-f2dea15e1c0737187df4",
+      "id": "lc-3563909086ca2edbd863",
       "loja": "Amakha Paris",
       "tipo": "promocao",
-      "titulo": "banner BF monte seu kit 2336x300",
+      "titulo": "story BF V1 monte seu kit",
       "imagem": "",
-      "link": "https://lmdee.link/uMeeEbKTYJKm",
+      "link": "https://lmdee.link/vU98UgpAzqGI",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -2381,16 +2367,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-173be41b4745841bcdcc",
+      "id": "lc-f2dea15e1c0737187df4",
       "loja": "Amakha Paris",
       "tipo": "promocao",
-      "titulo": "Durante todo o mês de Novembro estaremos com comissionamento EXCLUSIVO e muitas ofertas de Black Friday Acompanhe em nossa plataforma",
+      "titulo": "banner BF monte seu kit 2336x300",
       "imagem": "",
-      "link": "https://lmdee.link/5weNmERgR44c",
+      "link": "https://lmdee.link/uMeeEbKTYJKm",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-12-01T02:30:00.000Z",
+      "validade": "2026-11-11T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2406,6 +2392,20 @@
       "cupom": null,
       "validade": null,
       "descricao": "◈Solar - 2o Mini Álbum [CORES]◈\n\n💿Solar - 2o Mini Álbum [Cores]_Nemo ver\n🎵 Conteúdo do conteúdo\nPacote de álbum\nChaveiro (tipo Nfc)\nCartão de foto oficial (6ea)\n- Cartão de foto Selfie (1 de 3)\nAdesivo - Adesivo\n\n✅Pob do",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-173be41b4745841bcdcc",
+      "loja": "Amakha Paris",
+      "tipo": "promocao",
+      "titulo": "Durante todo o mês de Novembro estaremos com comissionamento EXCLUSIVO e muitas ofertas de Black Friday Acompanhe em nossa plataforma",
+      "imagem": "",
+      "link": "https://lmdee.link/5weNmERgR44c",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
       "origem": "Lomadee"
     },
     {
@@ -2715,25 +2715,11 @@
       "validade": null,
       "descricao": "✅DESTAQUES \n-❤️Faixa Lateral\n-❤️Bainha com babados Bainha com babados\n-❤️Simples\n-❤️Macio e confortável\n-❤️Primavera e verão\n\n✅DESCRIÇÕES\nEstampa / Padrão:Listrado\nEstilo:Casual\nTipo de vestido:Um Item.\nTamanho Plus:No\nM",
       "origem": "Lomadee"
-    },
-    {
-      "id": "lp-779281d8d890a1831a42",
-      "loja": "Shopee",
-      "tipo": "produto",
-      "titulo": "(Casual) Lovito Vestido Verão Plissado Jacquard Botão Vestido Para Mulheres L86ED347",
-      "imagem": "https://cf.shopee.com.br/file/sg-11134201-7ra0p-mbhkv14wn6hz04",
-      "link": "https://lmdee.link/PWfYtJJSjv3G",
-      "preco": 0.62,
-      "preco_anterior": 0.92,
-      "cupom": null,
-      "validade": null,
-      "descricao": "✅DESTAQUES \n-❤️Pregueado \n-❤️Jacquard \n-❤️Botão \n-❤️Macio E Confortável\n\n✅DESCRIÇÕES \nPadrão: Simples\nEstilo: Casual\nTipo Vestido: Uma Linha\nMais Tamanho: Não\nMaterial: Poliéster\nComposição: 100%Poliéster\nTipo Fit: Slim ",
-      "origem": "Lomadee"
     }
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 157,
+    "com_ofertas": 156,
     "marcas": 132,
     "campanhas": 120,
     "produtos": 60,
