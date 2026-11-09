@@ -14,11 +14,6 @@
       "ok": true,
       "quantidade": 38
     },
-    "Pelando": {
-      "ok": false,
-      "quantidade": 0,
-      "erro": "403 Client Error: Forbidden for url: https://www.pelando.com.br/cupons-de-descontos/amazon"
-    },
     "WorkerExistente": {
       "ok": true,
       "quantidade": 6
@@ -31,10 +26,8 @@
       "couponCode": "COMPRANOAPP",
       "discountText": "OFERTA",
       "description": "R$20 off. Insira o código COMPRANOAPP na finalização da compra. Válido na sua primeira compra na Amazon, pelo App",
-      "sources": [
-        "Pelando"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": "2026-11-09T21:27:30.695Z",
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -45,10 +38,8 @@
       "couponCode": "BRINQU3DOS15",
       "discountText": "15% OFF",
       "description": "Valido na lista do itens",
-      "sources": [
-        "Pelando"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": "2026-11-09T20:55:22.287Z",
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -59,10 +50,8 @@
       "couponCode": "MODA40",
       "discountText": "R$ 40 OFF",
       "description": "corrre aioioiiiiii",
-      "sources": [
-        "Pelando"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": "2026-11-06T21:24:00.952Z",
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -73,10 +62,8 @@
       "couponCode": "AQUI20",
       "discountText": "20% OFF",
       "description": "Além de alimentos de tem hidratantes",
-      "sources": [
-        "Pelando"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": "2026-11-06T20:35:12.010Z",
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -87,10 +74,8 @@
       "couponCode": "HEINZ20",
       "discountText": "20% OFF",
       "description": "Itens selecionados",
-      "sources": [
-        "Pelando"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": "2026-11-06T12:54:23.090Z",
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -101,10 +86,8 @@
       "couponCode": "ACESSEEGANHE",
       "discountText": "10% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -115,10 +98,8 @@
       "couponCode": "DESCONTOJAATIVO",
       "discountText": "10% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -129,10 +110,8 @@
       "couponCode": "CUPOMAUTOMATICO",
       "discountText": "5% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -143,10 +122,8 @@
       "couponCode": "TERMICOS15",
       "discountText": "15% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -157,10 +134,8 @@
       "couponCode": "OFERTANOLINK",
       "discountText": "15% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -171,10 +146,8 @@
       "couponCode": "CAMAEBANHO20",
       "discountText": "20% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -185,10 +158,8 @@
       "couponCode": "GANHEAQUI",
       "discountText": "20% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -199,10 +170,8 @@
       "couponCode": "MODAPRIME20",
       "discountText": "20% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -213,10 +182,8 @@
       "couponCode": "P4NELAS10",
       "discountText": "10% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -227,10 +194,8 @@
       "couponCode": "REFORMA020",
       "discountText": "20% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -241,10 +206,8 @@
       "couponCode": "EXCLUSIVO40",
       "discountText": "40% OFF",
       "description": "Exclusiva para usuários Prime, para itens selecionados e desconto limitado a R$300",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -255,10 +218,8 @@
       "couponCode": "ATIVENOLINK",
       "discountText": "5% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -269,10 +230,8 @@
       "couponCode": "APROVEITEAQUI",
       "discountText": "5% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -283,10 +242,8 @@
       "couponCode": "VCPRIME10",
       "discountText": "10% OFF",
       "description": "Compre a partir de R$100, desconto máximo limitado a R$20",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -297,10 +254,8 @@
       "couponCode": "VENTILAR10",
       "discountText": "10% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -311,10 +266,8 @@
       "couponCode": "",
       "discountText": "R$ 20 OFF",
       "description": "Promoção válida exclusivamente para compras na loja Amazon do Brasil ( http://www.amazon.com.br ). * Esta promoção se aplica somente aos clientes que estão comprando na Amazon pela primeira ",
-      "sources": [
-        "Pelando"
-      ],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": "2026-11-06T20:21:43.803Z",
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -325,10 +278,8 @@
       "couponCode": "",
       "discountText": "20% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -339,10 +290,8 @@
       "couponCode": "",
       "discountText": "25% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -353,10 +302,8 @@
       "couponCode": "",
       "discountText": "20% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -367,10 +314,8 @@
       "couponCode": "",
       "discountText": "80% OFF",
       "description": "Aproveite milhões em cupons e ofertas, promoção já embutida nos valores",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -381,10 +326,8 @@
       "couponCode": "",
       "discountText": "15% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -395,10 +338,8 @@
       "couponCode": "",
       "discountText": "30% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -409,10 +350,8 @@
       "couponCode": "",
       "discountText": "10% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -423,10 +362,8 @@
       "couponCode": "",
       "discountText": "20% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -437,10 +374,8 @@
       "couponCode": "",
       "discountText": "50% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -451,10 +386,8 @@
       "couponCode": "",
       "discountText": "15% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -465,10 +398,8 @@
       "couponCode": "",
       "discountText": "15% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -479,10 +410,8 @@
       "couponCode": "",
       "discountText": "5% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -493,10 +422,8 @@
       "couponCode": "",
       "discountText": "20% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -507,10 +434,8 @@
       "couponCode": "",
       "discountText": "5% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -521,10 +446,8 @@
       "couponCode": "",
       "discountText": "10% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -535,10 +458,8 @@
       "couponCode": "",
       "discountText": "5% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -549,10 +470,8 @@
       "couponCode": "",
       "discountText": "10% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",
@@ -563,10 +482,8 @@
       "couponCode": "",
       "discountText": "15% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [
-        "Meliuz"
-      ],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "sources": [],
+      "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
       "observedAt": "2026-11-09T21:40:28+00:00",

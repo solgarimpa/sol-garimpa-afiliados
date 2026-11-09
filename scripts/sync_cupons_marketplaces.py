@@ -354,17 +354,17 @@ def process(market, conf):
             except Exception as e:
                 statuses[name] = {"ok": False, "quantidade": 0, "erro": str(e)[:140]}
     records = combine(all_items)
-    if market in ("shopee", "mercado-livre"):
-        # Limpar marcas concorrentes dos catalogos publicos Shopee e Mercado Livre.
-        nome_loja = "Shopee" if market == "shopee" else "Mercado Livre"
+    # Todas as paginas de cupons publicam ofertas sem divulgar agregadores externos.
+    nome_loja = conf["name"]
+    if records:
         for item in records:
             item["sources"] = []
             item["sourceUrl"] = ""
             if "pelando" in norm(item.get("description", "")):
-                item["description"] = f"Consulte as regras e a validade do cupom no {nome_loja}."
+                item["description"] = "Consulte as regras e a validade do cupom diretamente na loja."
             if "pelando" in norm(item.get("title", "")):
                 item["title"] = f"Cupom {nome_loja} - confira as condicoes"
-        statuses.pop("Pelando", None)
+    statuses.pop("Pelando", None)
     if not records:
         print("ERRO", market, "sem dados; arquivo anterior preservado", statuses, flush=True)
         return False

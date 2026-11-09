@@ -72,14 +72,11 @@ function node(tag,classe,texto){const n=document.createElement(tag);if(classe)n.
 function cartao(c){
   const art=node("article","card");
   const titulo=txt(c.title);
-  art.appendChild(node("h2","",["shopee","mercado-livre"].includes(escolhido)&&/pelando/i.test(titulo)?"Cupom "+atual.nome+" — confira as condições":titulo));
+  art.appendChild(node("h2","",/pelando/i.test(titulo)?"Cupom "+atual.nome+" — confira as condições":titulo));
   art.appendChild(node("div","desconto",txt(c.discountText)||"OFERTA"));
   const descricao=txt(c.description);
-  art.appendChild(node("p","descricao",["shopee","mercado-livre"].includes(escolhido)&&/pelando/i.test(descricao)?"Consulte as regras e a validade do cupom no "+atual.nome+".":(descricao||"Consulte as regras na loja.")));
-  if(!["shopee","mercado-livre"].includes(escolhido)){
-    const fontes=(Array.isArray(c.sources)?c.sources:[]).join(" · ");
-    art.appendChild(node("div","metadados","Fonte: "+fontes+(c.status==="unverified"?" · Código NÃO VERIFICADO":" · Condições sujeitas à loja")));
-  }
+  art.appendChild(node("p","descricao",/pelando/i.test(descricao)?"Consulte as regras e a validade do cupom diretamente na loja.":(descricao||"Consulte as regras na loja.")));
+  if(c.status==="unverified")art.appendChild(node("div","metadados","Código NÃO VERIFICADO · Confira as condições na loja"));
   if(c.couponCode){
     const a=node("div","codigoarea"),cod=node("strong","",c.couponCode),btn=node("button","","COPIAR");
     btn.type="button";btn.onclick=async()=>{let ok=false;try{await navigator.clipboard.writeText(c.couponCode);ok=true}catch(e){const t=document.createElement("textarea");t.value=c.couponCode;t.style.position="fixed";t.style.opacity="0";document.body.appendChild(t);t.select();try{ok=document.execCommand("copy")}catch(e){}t.remove()}btn.textContent=ok?"COPIADO ✓":"SELECIONE O CÓDIGO";if(ok)setTimeout(()=>btn.textContent="COPIAR",2500)};
@@ -106,13 +103,7 @@ async function atualizar(){
     if(!Number.isFinite(data.getTime()))throw new Error("Data do catálogo inválida");
     const idade=Date.now()-data.getTime();
     el("data").textContent="Última coleta automática: "+fmt.format(data);
-    if(["shopee","mercado-livre"].includes(escolhido)){
-      el("fontes").textContent="Cupons divulgados publicamente. Confira as condições no "+atual.nome+"."+(idade>2*60*60*1000?" · ATENÇÃO: catálogo desatualizado":"");
-    }else{
-      const fonte=dados.sources||{};
-      const ok=["Pelando","Cuponomia","Meliuz"].filter(n=>fonte[n]&&fonte[n].ok);
-      el("fontes").textContent="Fontes consultadas diretamente: "+(ok.length?ok.join(", "):"nenhuma; somente fonte complementar")+(idade>2*60*60*1000?" · ATENÇÃO: catálogo desatualizado":"");
-    }
+    el("fontes").textContent="Cupons divulgados publicamente. Confira as condições diretamente na "+atual.nome+"."+(idade>2*60*60*1000?" · ATENÇÃO: catálogo desatualizado":"");
     desenhar();
   }catch(e){
     todos=[];el("data").textContent="A atualização automática está indisponível";

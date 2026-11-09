@@ -53,7 +53,7 @@ function norm(v){return txt(v).normalize("NFD").replace(/[\u0300-\u036f]/g,"").t
 function node(tag,classe,texto){const n=document.createElement(tag);if(classe)n.className=classe;if(texto!==undefined)n.textContent=texto;return n}
 function cartao(c){
   const art=node("article","card");
-  art.appendChild(node("h2","",txt(c.title)));
+  art.appendChild(node("h2","",/pelando/i.test(txt(c.title))?"Cupom Shopee — confira as condições":txt(c.title)));
   art.appendChild(node("div","desconto",txt(c.discountText)||"OFERTA"));
   const descricao=txt(c.description);
   art.appendChild(node("p","descricao",/pelando/i.test(descricao)?"Consulte as regras e a validade do cupom na Shopee.":(descricao||"Consulte as regras na Shopee.")));

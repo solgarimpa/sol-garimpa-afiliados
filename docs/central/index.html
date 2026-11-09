@@ -67,10 +67,11 @@ function lojaId(nome){const n=norm(nome);for(const x of LOJAS.slice(1))if(n.incl
 function serveLoja(c){return id==='todas'||c.idLoja===id;}
 function money(v){return Number.isFinite(Number(v))&&Number(v)>0?Number(v).toLocaleString('pt-BR',{style:'currency',currency:'BRL'}):''}
 function cartao(c){
- const card=el('article','card');card.append(el('div','rede',(c.loja||'Loja')+' · '+(c.rede||'Sol Garimpa')));
+ const card=el('article','card');card.append(el('div','rede',tipo==='cupons'?(c.loja||'Loja'):(c.loja||'Loja')+' · '+(c.rede||'Sol Garimpa')));
  if(tipo==='achadinhos'&&seguro(c.imagem)){const img=el('img');img.src=seguro(c.imagem);img.alt=c.titulo;img.loading='lazy';img.referrerPolicy='no-referrer';img.onerror=()=>img.remove();card.append(img);}
- card.append(el('h2','',c.titulo||'Oferta'));
- if(c.descricao)card.append(el('p','',c.descricao.slice(0,270)));
+ const titulo=String(c.titulo||'Oferta');
+ card.append(el('h2','',tipo==='cupons'&&/pelando/i.test(titulo)?'Cupom '+(c.loja||'da loja')+' — confira as condições':titulo));
+ if(c.descricao)card.append(el('p','',tipo==='cupons'&&/pelando/i.test(c.descricao)?'Confira as regras e a validade diretamente na loja.':c.descricao.slice(0,270)));
  if(tipo==='achadinhos'&&money(c.preco))card.append(el('div','price',money(c.preco)));
  if(c.cupom)card.append(el('div','codigo',c.cupom));
  if(c.validade)card.append(el('div','nota','Validade informada: '+new Date(c.validade).toLocaleDateString('pt-BR')));
