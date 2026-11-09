@@ -74,9 +74,21 @@ def rakuten_creatives(token, partner, request_fn, safe_id_fn, *, now=None):
         for page in range(1, max_pages + 1):
             suffix = (f"{mid}/-1///-1/{page}" if kind == "texto"
                       else f"{mid}/-1///-1/-1/{page}")
-            path = f"/linklocator/1.0?{operation}/{suffix}"
+            # Rakuten documents both query-form and path-form routes.
+            # If the legacy query route returns HTTP 500, try the REST path
+            # once before treating this advertiser's creatives as unavailable.
+            paths = (
+                f"/linklocator/1.0?{operation}/{suffix}",
+                f"/linklocator/1.0/{operation}/{suffix}",
+            )
             try:
-                root = ET.fromstring(request_fn(path, token))
+                try:
+                    raw = request_fn(paths[0], token)
+                except RuntimeError as first_error:
+                    if "HTTP 500" not in str(first_error):
+                        raise
+                    raw = request_fn(paths[1], token)
+                root = ET.fromstring(raw)
                 records = root.findall(".//{*}return")
                 if root.tag.rsplit("}", 1)[-1].lower() == "return":
                     records = [root]
