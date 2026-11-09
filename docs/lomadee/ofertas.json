@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-09T17:24:37+00:00",
+  "atualizado_em": "2026-11-09T19:14:23+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -827,6 +827,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-40cd8b74245b26e49f87",
+      "loja": "Lojas REDE",
+      "tipo": "promocao",
+      "titulo": "Ofertas 09-11",
+      "imagem": "",
+      "link": "https://lmdee.link/yCDSvm0K9dct",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-10T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-319d2f8c9df2083b0f76",
       "loja": "Líquido",
       "tipo": "cupom",
@@ -939,15 +953,15 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-377493ab895f133e5d38",
+      "id": "lc-c07f9bd5426b70026e7a",
       "loja": "Sem Parar",
-      "tipo": "promocao",
-      "titulo": "Mega Black Sem Parar - PLANO ULTRA - 6 MENSALIDADES COM 96% DE DESC",
-      "imagem": "https://cdn.lomadee.com.br/offer/05eb0bba-b584-4f67-b682-cfbcb6452395/banners/450x450-96off-megablack%20%281%29.png",
-      "link": "https://lmdee.link/hWXJhcEyhV2A",
+      "tipo": "cupom",
+      "titulo": "PLANO ULTRA - 6 MENSALIDADES COM 96% DE DESC",
+      "imagem": "",
+      "link": "https://lmdee.link/yeZLdeqVJchD",
       "preco": null,
       "preco_anterior": null,
-      "cupom": null,
+      "cupom": "SEMPARAR96OFF",
       "validade": "2026-12-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
@@ -1345,6 +1359,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-377493ab895f133e5d38",
+      "loja": "Sem Parar",
+      "tipo": "promocao",
+      "titulo": "Mega Black Sem Parar - PLANO ULTRA - 6 MENSALIDADES COM 96% DE DESC",
+      "imagem": "https://cdn.lomadee.com.br/offer/05eb0bba-b584-4f67-b682-cfbcb6452395/banners/450x450-96off-megablack%20%281%29.png",
+      "link": "https://lmdee.link/hWXJhcEyhV2A",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-12-01T02:59:59.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lp-0df7d80e9a43ddd36e37",
       "loja": "Shopee",
       "tipo": "produto",
@@ -1733,20 +1761,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-23T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-bb5af2c0883a7399cb04",
-      "loja": "Móveis Carraro",
-      "tipo": "cupom",
-      "titulo": "LANCAMENTOS10 - 10% OFF em Lançamentos",
-      "imagem": "",
-      "link": "https://lmdee.link/Zgad1XW8M6fK",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "LANCAMENTOS10",
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2153,20 +2167,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-11T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-890b72814ca708f2943c",
-      "loja": "Brinox",
-      "tipo": "cupom",
-      "titulo": "Cupom perfeito para você divulgar!",
-      "imagem": "",
-      "link": "https://lmdee.link/DZo5pwUvAGaK",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "RENOVACASA",
-      "validade": "2026-12-21T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2701,25 +2701,11 @@
       "validade": null,
       "descricao": "✅DESTAQUES \n-❤️Bolso de bolso \n-❤️Boa textura\n\n✅Descrições \nPadrão: simples\nEstilo do estilo: Casual\nTipo de vestido: Uma linha\nTamanho da peça Plus: Não\nMaterial: Poliéster\nComposição: 100% Poliéster\nTipo de Encaixe: En",
       "origem": "Lomadee"
-    },
-    {
-      "id": "lp-cc0e72fe1c92339ef4df",
-      "loja": "Shopee",
-      "tipo": "produto",
-      "titulo": "(Casual) Lovito Vestido Rosa com Simples para Primavera/verão para Mulheres L178ED851",
-      "imagem": "https://cf.shopee.com.br/file/sg-11134201-8262p-mkhsqw6gsyytc7",
-      "link": "https://lmdee.link/gWjSsR0DRfw4",
-      "preco": 0.41,
-      "preco_anterior": 0.59,
-      "cupom": null,
-      "validade": null,
-      "descricao": "✅DESTAQUES \n-❤️Faixa Lateral\n-❤️Bainha com babados Bainha com babados\n-❤️Simples\n-❤️Macio e confortável\n-❤️Primavera e verão\n\n✅DESCRIÇÕES\nEstampa / Padrão:Listrado\nEstilo:Casual\nTipo de vestido:Um Item.\nTamanho Plus:No\nM",
-      "origem": "Lomadee"
     }
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 156,
+    "com_ofertas": 155,
     "marcas": 132,
     "campanhas": 120,
     "produtos": 60,
