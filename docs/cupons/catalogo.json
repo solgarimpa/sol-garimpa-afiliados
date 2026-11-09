@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-09T20:58:14.147728Z",
-  "total": 356,
-  "total_cupons": 119,
+  "atualizado_em": "2026-11-09T21:39:03.401000Z",
+  "total": 357,
+  "total_cupons": 120,
   "total_promocoes": 237,
   "fontes": {
     "Awin": 322,
     "Rakuten": 0,
-    "Lomadee": 34
+    "Lomadee": 35
   },
   "ofertas": [
     {
@@ -1256,6 +1256,18 @@
       "cupom": "LOMADEE10",
       "validade": "2027-01-01T02:30:00Z",
       "link": "https://lmdee.link/lJLkInykeDxg",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "bd4ba91264dfca8099",
+      "loja": "Malwee",
+      "tipo": "cupom",
+      "titulo": "Black November - 3 PEÇAS POR R$ 99",
+      "descricao": "",
+      "termos": "",
+      "cupom": "3POR99",
+      "validade": "2026-11-16T02:30:00Z",
+      "link": "https://lmdee.link/kJ8Z6ntDOzlg",
       "rede": "Lomadee"
     },
     {
