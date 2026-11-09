@@ -1,7 +1,7 @@
 {
   "market": "amazon",
   "name": "Amazon",
-  "generatedAt": "2026-11-09T21:46:42+00:00",
+  "generatedAt": "2026-11-09T22:15:42+00:00",
   "refreshMinutes": 30,
   "count": 39,
   "sources": {
@@ -12,27 +12,15 @@
     },
     "Meliuz": {
       "ok": true,
-      "quantidade": 38
+      "quantidade": 39
     },
     "WorkerExistente": {
       "ok": true,
-      "quantidade": 6
+      "quantidade": 5
     }
   },
   "note": "Cupons listados nas fontes, nao testados no checkout. Cashback exclusivo de outros sites nao e oferecido pela Sol Garimpa.",
   "coupons": [
-    {
-      "title": "Balde Retrátil 12 Litros com Alça por R$29,97",
-      "couponCode": "COMPRANOAPP",
-      "discountText": "OFERTA",
-      "description": "R$20 off. Insira o código COMPRANOAPP na finalização da compra. Válido na sua primeira compra na Amazon, pelo App",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-09T21:27:30.695Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
-      "status": "listed"
-    },
     {
       "title": "15% OFF em Brinquedos na Amazon no APP",
       "couponCode": "BRINQU3DOS15",
@@ -42,7 +30,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-09T20:55:22.287Z",
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -54,7 +42,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-06T21:24:00.952Z",
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -66,7 +54,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-06T20:35:12.010Z",
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -78,7 +66,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-06T12:54:23.090Z",
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -90,7 +78,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -102,7 +90,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -114,7 +102,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Esquenta Black: Cupom Amazon de 25% OFF",
+      "couponCode": "BLACK25OFF",
+      "discountText": "25% OFF",
+      "description": "Para produtos selecionados, desconto limitado a R$ 40",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -126,7 +126,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -138,7 +138,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -150,7 +150,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -162,7 +162,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -174,7 +174,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -186,7 +186,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -198,19 +198,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Saldão Black Friday com cupom Amazon de 40% OFF",
-      "couponCode": "EXCLUSIVO40",
-      "discountText": "40% OFF",
-      "description": "Exclusiva para usuários Prime, para itens selecionados e desconto limitado a R$300",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -222,7 +210,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -234,7 +222,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -246,7 +234,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -258,7 +246,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -270,7 +258,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-06T20:21:43.803Z",
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -282,7 +270,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -294,7 +282,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -306,19 +294,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
-      "title": "Black dos Sonhos: até 80% OFF antecipado",
+      "title": "Até 60% de desconto em produtos de limpeza",
       "couponCode": "",
-      "discountText": "80% OFF",
-      "description": "Aproveite milhões em cupons e ofertas, promoção já embutida nos valores",
+      "discountText": "60% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -330,7 +318,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -342,7 +330,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -354,7 +342,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -366,7 +354,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -378,7 +366,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -390,7 +378,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -402,7 +390,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -414,7 +402,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -426,7 +414,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -438,7 +426,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -450,7 +438,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -462,7 +450,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -474,7 +462,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Use cupom Amazon e ganhe 5% OFF em computadores e informática",
+      "couponCode": "",
+      "discountText": "5% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     },
     {
@@ -486,7 +486,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-09T21:46:42+00:00",
+      "observedAt": "2026-11-09T22:15:42+00:00",
       "status": "listed"
     }
   ]
