@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-09T16:47:05.028966Z",
-  "total": 131,
-  "total_cupons": 111,
+  "atualizado_em": "2026-11-09T17:29:39.035760Z",
+  "total": 137,
+  "total_cupons": 117,
   "total_promocoes": 20,
   "fontes": {
     "Awin": 102,
     "Rakuten": 0,
-    "Lomadee": 29
+    "Lomadee": 35
   },
   "ofertas": [
     {
@@ -164,18 +164,6 @@
       "cupom": "FRETELOMADEE",
       "validade": "2027-01-01T02:59:59Z",
       "link": "https://lmdee.link/69aTXVdd4fbx",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "a478c787b4a5fe84a6",
-      "loja": "Colorstone",
-      "tipo": "cupom",
-      "titulo": "20% OFF em todo site",
-      "descricao": "",
-      "termos": "",
-      "cupom": "LOMADEE",
-      "validade": "2027-01-01T02:30:00Z",
-      "link": "https://lmdee.link/OjpcW1hfWIo6",
       "rede": "Lomadee"
     },
     {
@@ -633,6 +621,90 @@
       "validade": "2027-01-01T02:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=46269&awinaffid=3110826&ued=https%3A%2F%2Fhipervarejo.com.br%2F",
       "rede": "Awin"
+    },
+    {
+      "id": "28c053d80b99e6012f",
+      "loja": "Homedock",
+      "tipo": "cupom",
+      "titulo": "1ª Compra: R$ 50 OFF para pedidos acima de R$ 1.299,99",
+      "descricao": "",
+      "termos": "",
+      "cupom": "NOVO50",
+      "validade": "2026-11-12T02:30:00Z",
+      "link": "https://lmdee.link/sU7RFKphMZ7z",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "d8ad59509505dfa777",
+      "loja": "Homedock",
+      "tipo": "cupom",
+      "titulo": "R$ 120 OFF para pedidos acima de R$ 3.199,99",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK120",
+      "validade": "2026-11-12T02:30:00Z",
+      "link": "https://lmdee.link/zSc7OJRw57mE",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "4e1af405f9c1195ba0",
+      "loja": "Homedock",
+      "tipo": "cupom",
+      "titulo": "R$ 15 OFF para pedidos acima de R$ 599,99",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK15",
+      "validade": "2026-11-12T02:30:00Z",
+      "link": "https://lmdee.link/AAwrxEkdk0th",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "63e045af7610303002",
+      "loja": "Homedock",
+      "tipo": "cupom",
+      "titulo": "R$ 25 OFF para pedidos acima de R$ 999,99",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK25",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://lmdee.link/NvjqQ31Qtkby",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "5e55729ef66e8a8e86",
+      "loja": "Homedock",
+      "tipo": "cupom",
+      "titulo": "R$ 350 OFF para pedidos acima de R$ 4.999,99",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK350",
+      "validade": "2026-11-12T02:30:00Z",
+      "link": "https://lmdee.link/mrQjiM9fxMp5",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "8dbca78cd343d34ad7",
+      "loja": "Homedock",
+      "tipo": "cupom",
+      "titulo": "R$ 500 OFF para pedidos acima de R$ 6.799,99",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK500",
+      "validade": "2026-11-12T02:30:00Z",
+      "link": "https://lmdee.link/VN3NxmhpaGwI",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "6840e52d4f56a8a3f8",
+      "loja": "Homedock",
+      "tipo": "cupom",
+      "titulo": "R$ 80 OFF para pedidos acima de R$ 2.399,99",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK80",
+      "validade": "2026-11-12T02:30:00Z",
+      "link": "https://lmdee.link/rNYr5SuM8uNL",
+      "rede": "Lomadee"
     },
     {
       "id": "62ef94595b8213c9ad",
