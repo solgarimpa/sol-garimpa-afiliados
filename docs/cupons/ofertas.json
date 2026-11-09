@@ -1,9 +1,64 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-09T18:41:34.655133Z",
-  "total": 102,
+  "atualizado_em": "2026-11-09T19:40:52.036148Z",
+  "total": 110,
   "ofertas": [
+    {
+      "id": "4167284",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Fonte Mach1 Steady, 750w, 80 Plus Bronze, Pfc Ativo, Preto - 750steady",
+      "descricao": "Fonte Mach1 Steady, 750w, 80 Plus Bronze, Pfc Ativo, Preto - 750steady",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F912176"
+    },
+    {
+      "id": "4167281",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Ssd Rise Mode Gamer Line, 120gb, 2.5\", Sata Iii, Leitura: 530 Mb/S, Gravação: 520 Mb/S, Preto - Rm-Ssd-120",
+      "descricao": "Ssd Rise Mode Gamer Line, 120gb, 2.5\", Sata Iii, Leitura: 530 Mb/S, Gravação: 520 Mb/S, Preto - Rm-Ssd-120",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F105104"
+    },
+    {
+      "id": "4167279",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Memória Ram Husky Impulse, 16gb, 3200mhz, Ddr4, Cl22, Preto - Hrm001163222pt",
+      "descricao": "Memória Ram Husky Impulse, 16gb, 3200mhz, Ddr4, Cl22, Preto - Hrm001163222pt",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F922166"
+    },
+    {
+      "id": "4167276",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Fonte Xpg Core Reactor Ii Ve, 850w, 80 Plus Gold, Modular, Pfc Ativo, Preto - 75261436",
+      "descricao": "Fonte Xpg Core Reactor Ii Ve, 850w, 80 Plus Gold, Modular, Pfc Ativo, Preto - 75261436",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F514896"
+    },
+    {
+      "id": "4167272",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Placa De Vídeo Rx 7600 Challenger Asrock Amd Radeon, 8gb Gddr6 - 90-Ga41zz-00uanf",
+      "descricao": "Placa De Vídeo Rx 7600 Challenger Asrock Amd Radeon, 8gb Gddr6 - 90-Ga41zz-00uanf",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-10T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F459144"
+    },
     {
       "id": "4166878",
       "loja": "Kabum BR",
@@ -82,6 +137,17 @@
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1080075%2Fnotebook-lenovo-ideapad-slim-3-15ahp10-amd-ryzen-7-8840hs-16gb-512gb-ssd-windows-11-home-83ty000jbo"
     },
     {
+      "id": "4167262",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "Desconto de R$ 350 na compra do Console Sony PlayStation 5 SSD 825GB Controle sem Fio DualSense Edição Digital.",
+      "descricao": "Desconto de R$ 350 na compra do Console Sony PlayStation 5 SSD 825GB Controle sem Fio DualSense Edição Digital.",
+      "termos": ".",
+      "cupom": "VEMCOMPLAY",
+      "validade": "2026-11-10T15:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F989702%2Fconsole-sony-playstation-5-ssd-825gb-controle-sem-fio-dualsense-2-jogos-digitais-edicao-digital"
+    },
+    {
       "id": "4166884",
       "loja": "Kabum BR",
       "tipo": "cupom",
@@ -91,6 +157,17 @@
       "cupom": "CASANINJA10",
       "validade": "2026-11-10T17:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1CASANINJA10"
+    },
+    {
+      "id": "4167255",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "Ganhe 10% OFF com o cupom ZAFADINHO10. Aproveite a oferta por tempo limitado.",
+      "descricao": "Ganhe 10% OFF com o cupom ZAFADINHO10. Aproveite a oferta por tempo limitado.",
+      "termos": ".",
+      "cupom": "ZAFADINHO10",
+      "validade": "2026-11-11T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1ZAFADINHO10"
     },
     {
       "id": "4144100",
@@ -223,6 +300,17 @@
       "cupom": "",
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=18864&awinaffid=3110826&ued=https%3A%2F%2Fwww.underarmour.com.br%2Fblack-friday"
+    },
+    {
+      "id": "4167260",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "Desconto de R$ 50 na compra do Kit Starlink Mini x Antena Roteador Internet via Satélite Wi‑Fi 5 Branca.",
+      "descricao": "Desconto de R$ 50 na compra do Kit Starlink Mini x Antena Roteador Internet via Satélite Wi‑Fi 5 Branca.",
+      "termos": ".",
+      "cupom": "ANTENA50",
+      "validade": "2026-11-29T15:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1074997%2Fkit-starlink-mini-x-antena-roteador-internet-via-satelite-wi-fi-5-branca-02535308-501"
     },
     {
       "id": "4143581",
