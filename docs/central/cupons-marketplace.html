@@ -71,11 +71,12 @@ function norm(v){return txt(v).normalize("NFD").replace(/[\u0300-\u036f]/g,"").t
 function node(tag,classe,texto){const n=document.createElement(tag);if(classe)n.className=classe;if(texto!==undefined)n.textContent=texto;return n}
 function cartao(c){
   const art=node("article","card");
-  art.appendChild(node("h2","",txt(c.title)));
+  const titulo=txt(c.title);
+  art.appendChild(node("h2","",["shopee","mercado-livre"].includes(escolhido)&&/pelando/i.test(titulo)?"Cupom "+atual.nome+" — confira as condições":titulo));
   art.appendChild(node("div","desconto",txt(c.discountText)||"OFERTA"));
   const descricao=txt(c.description);
-  art.appendChild(node("p","descricao",escolhido==="shopee"&&/pelando/i.test(descricao)?"Consulte as regras e a validade do cupom na Shopee.":(descricao||"Consulte as regras na loja.")));
-  if(escolhido!=="shopee"){
+  art.appendChild(node("p","descricao",["shopee","mercado-livre"].includes(escolhido)&&/pelando/i.test(descricao)?"Consulte as regras e a validade do cupom no "+atual.nome+".":(descricao||"Consulte as regras na loja.")));
+  if(!["shopee","mercado-livre"].includes(escolhido)){
     const fontes=(Array.isArray(c.sources)?c.sources:[]).join(" · ");
     art.appendChild(node("div","metadados","Fonte: "+fontes+(c.status==="unverified"?" · Código NÃO VERIFICADO":" · Condições sujeitas à loja")));
   }
@@ -105,8 +106,8 @@ async function atualizar(){
     if(!Number.isFinite(data.getTime()))throw new Error("Data do catálogo inválida");
     const idade=Date.now()-data.getTime();
     el("data").textContent="Última coleta automática: "+fmt.format(data);
-    if(escolhido==="shopee"){
-      el("fontes").textContent="Cupons divulgados publicamente. Confira as condições na Shopee."+(idade>2*60*60*1000?" · ATENÇÃO: catálogo desatualizado":"");
+    if(["shopee","mercado-livre"].includes(escolhido)){
+      el("fontes").textContent="Cupons divulgados publicamente. Confira as condições no "+atual.nome+"."+(idade>2*60*60*1000?" · ATENÇÃO: catálogo desatualizado":"");
     }else{
       const fonte=dados.sources||{};
       const ok=["Pelando","Cuponomia","Meliuz"].filter(n=>fonte[n]&&fonte[n].ok);
