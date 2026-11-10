@@ -1,20 +1,9 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-10T12:47:42.998208Z",
-  "total": 100,
+  "atualizado_em": "2026-11-10T13:52:20.361281Z",
+  "total": 99,
   "ofertas": [
-    {
-      "id": "4150132",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "14% OFF no Notebook Lenovo IdeaPad Slim 3 15AHP10 AMD Ryzen 7 8840HS 16GB 512GB SSD Windows 11 Home com o cupom NOTE14",
-      "descricao": "14% OFF no Notebook Lenovo IdeaPad Slim 3 15AHP10 AMD Ryzen 7 8840HS 16GB 512GB SSD Windows 11 Home com o cupom NOTE14",
-      "termos": ".",
-      "cupom": "NOTE14",
-      "validade": "2026-11-10T13:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1080075%2Fnotebook-lenovo-ideapad-slim-3-15ahp10-amd-ryzen-7-8840hs-16gb-512gb-ssd-windows-11-home-83ty000jbo"
-    },
     {
       "id": "4167262",
       "loja": "Kabum BR",

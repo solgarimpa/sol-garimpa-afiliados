@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-10T12:47:44.407768Z",
-  "total": 134,
-  "total_cupons": 117,
+  "atualizado_em": "2026-11-10T13:52:21.412050Z",
+  "total": 135,
+  "total_cupons": 118,
   "total_promocoes": 17,
   "fontes": {
-    "Awin": 100,
+    "Awin": 99,
     "Rakuten": 0,
-    "Lomadee": 34
+    "Lomadee": 36
   },
   "ofertas": [
     {
@@ -743,18 +743,6 @@
       "rede": "Awin"
     },
     {
-      "id": "48733f76dd6df06eba",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "14% OFF no Notebook Lenovo IdeaPad Slim 3 15AHP10 AMD Ryzen 7 8840HS 16GB 512GB SSD Windows 11 Home com o cupom NOTE14",
-      "descricao": "14% OFF no Notebook Lenovo IdeaPad Slim 3 15AHP10 AMD Ryzen 7 8840HS 16GB 512GB SSD Windows 11 Home com o cupom NOTE14",
-      "termos": ".",
-      "cupom": "NOTE14",
-      "validade": "2026-11-10T13:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1080075%2Fnotebook-lenovo-ideapad-slim-3-15ahp10-amd-ryzen-7-8840hs-16gb-512gb-ssd-windows-11-home-83ty000jbo",
-      "rede": "Awin"
-    },
-    {
       "id": "4b89f91eed4879779b",
       "loja": "Kabum BR",
       "tipo": "cupom",
@@ -1244,6 +1232,30 @@
       "cupom": "3POR99",
       "validade": "2026-11-16T02:30:00Z",
       "link": "https://lmdee.link/kJ8Z6ntDOzlg",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "8978784825a74e4697",
+      "loja": "Malwee",
+      "tipo": "cupom",
+      "titulo": "CAMISETAS PIMA COM 40% OFF",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BFBASICO",
+      "validade": "2026-11-16T02:30:00Z",
+      "link": "https://lmdee.link/ZEChbLcypOt5",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "e411559e3607dea058",
+      "loja": "Malwee",
+      "tipo": "cupom",
+      "titulo": "Tecnologia NoLiquid e Flex com 40% OFF",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BFTECH",
+      "validade": "2026-11-16T02:30:00Z",
+      "link": "https://lmdee.link/q0TOjgKn3Lkq",
       "rede": "Lomadee"
     },
     {
