@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-10T11:06:13+00:00",
+  "atualizado_em": "2026-11-10T12:04:01+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -1411,20 +1411,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-f6c5bea34d7c09e890bf",
-      "loja": "Vapza Alimentos",
-      "tipo": "cupom",
-      "titulo": "Cupom de 10% de desconto no site todo!",
-      "imagem": "",
-      "link": "https://lmdee.link/0L3uJFpl7WR8",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "LOMADEE10",
-      "validade": "2027-10-22T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-5f147fca1f2f59c516a2",
       "loja": "Zupper",
       "tipo": "cupom",
@@ -1575,6 +1561,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-12T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-480461bbca3dee865f84",
+      "loja": "Móveis Carraro",
+      "tipo": "promocao",
+      "titulo": "Lançamentos Carraro - 10% OFF com LANCAMENTOS10",
+      "imagem": "https://cdn.lomadee.com.br/offer/ec3cfdf8-0371-4ab8-a847-20acecd26843/banners/LANCAMENTOS10_1080x1920.png",
+      "link": "https://lmdee.link/5DYHfMpHSgxT",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
