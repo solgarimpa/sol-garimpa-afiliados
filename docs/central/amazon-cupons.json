@@ -1,9 +1,9 @@
 {
   "market": "amazon",
   "name": "Amazon",
-  "generatedAt": "2026-11-10T17:43:03+00:00",
+  "generatedAt": "2026-11-10T18:42:20+00:00",
   "refreshMinutes": 30,
-  "count": 44,
+  "count": 41,
   "sources": {
     "Cuponomia": {
       "ok": false,
@@ -22,6 +22,18 @@
   "note": "Cupons listados nas fontes, nao testados no checkout. Cashback exclusivo de outros sites nao e oferecido pela Sol Garimpa.",
   "coupons": [
     {
+      "title": "(Selecionados) Cupom de 20% pagando com cartão ELO na Amazon",
+      "couponCode": "ELONOV",
+      "discountText": "20% OFF",
+      "description": "20% off com cartão ELO a partir de R$ 120, limitado a R$ 50",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-10T18:20:33.415Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-10T18:42:20+00:00",
+      "status": "listed"
+    },
+    {
       "title": "15% OFF em Brinquedos na Amazon no APP",
       "couponCode": "BRINQU3DOS15",
       "discountText": "15% OFF",
@@ -30,7 +42,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-09T20:55:22.287Z",
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -42,7 +54,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-06T21:24:00.952Z",
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -54,19 +66,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-06T20:35:12.010Z",
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Produtos Heinz com 20% OFF no APP da Amazon",
-      "couponCode": "HEINZ20",
-      "discountText": "20% OFF",
-      "description": "Itens selecionados",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-06T12:54:23.090Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -78,7 +78,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -90,43 +90,31 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
-      "title": "Cupom de desconto Amazon com 20% em livros",
-      "couponCode": "20PAGINA",
+      "title": "Desconto Amazon: 20% OFF em escovas Marco Boni",
+      "couponCode": "GANHEAQUI",
       "discountText": "20% OFF",
-      "description": "Para a sua primeira compra de livros no site, desconto máximo limitado a R$10",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom de desconto Amazon: até 15% em livros",
-      "couponCode": "ACESSEEGANHE",
-      "discountText": "15% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
-      "title": "Desconto Amazon: 5% OFF em combos gamer",
-      "couponCode": "CUPOMAUTOMATICO",
+      "title": "Economize 5% em colchões Luuna na Amazon",
+      "couponCode": "APROVEITEAQUI",
       "discountText": "5% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -138,7 +126,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -150,19 +138,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Garrafas, copos e itens térmicos com 15% OFF",
-      "couponCode": "TERMICOS15",
-      "discountText": "15% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -174,19 +150,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Importados dos EUA com 15% OFF para Prime",
-      "couponCode": "OFERTANOLINK",
-      "discountText": "15% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -198,19 +162,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
-      "title": "Moda feminina com 20% OFF no app da Amazon",
-      "couponCode": "GANHEAQUI",
-      "discountText": "20% OFF",
+      "title": "Máscaras de cílios com 25% de desconto na Amazon",
+      "couponCode": "CUPOMAUTOMATICO",
+      "discountText": "25% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -222,7 +186,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -234,7 +198,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -246,19 +210,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Use cupom Amazon e ganhe 5% OFF em cozinha",
-      "couponCode": "APROVEITEAQUI",
-      "discountText": "5% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -270,7 +222,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-10T12:28:03.475Z",
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -282,7 +234,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-06T20:21:43.803Z",
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -294,7 +246,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -306,7 +258,31 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "6% OFF em capinhas para iPhone 17 com cupom Amazon",
+      "couponCode": "",
+      "discountText": "6% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-10T18:42:20+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Amazon: 10% de desconto em kits de cronograma capilar",
+      "couponCode": "",
+      "discountText": "10% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -318,7 +294,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -330,19 +306,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Black dos Sonhos: até 80% OFF antecipado",
-      "couponCode": "",
-      "discountText": "80% OFF",
-      "description": "Aproveite milhões em cupons e ofertas, promoção já embutida nos valores",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -354,19 +318,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Combo de ofertas com até 30% de desconto progressivo",
-      "couponCode": "",
-      "discountText": "30% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -378,7 +330,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -390,7 +342,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -402,7 +354,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -414,7 +366,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom Amazon: 5% OFF em formas de gelo",
+      "couponCode": "",
+      "discountText": "5% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -426,7 +390,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -438,7 +402,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom de desconto Amazon: 5% em mochilas para notebook",
+      "couponCode": "",
+      "discountText": "5% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -450,7 +426,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -462,7 +438,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -474,7 +450,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -486,7 +462,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -498,7 +474,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -510,7 +486,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -522,7 +498,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     },
     {
@@ -534,19 +510,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Whey e suplementos Dux com 15% OFF no app",
-      "couponCode": "",
-      "discountText": "15% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-10T17:43:03+00:00",
+      "observedAt": "2026-11-10T18:42:20+00:00",
       "status": "listed"
     }
   ]
