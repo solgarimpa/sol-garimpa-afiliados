@@ -1,11 +1,11 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-10T09:45:14.667318Z",
-  "total": 134,
+  "atualizado_em": "2026-11-10T10:37:57.807719Z",
+  "total": 135,
   "total_cupons": 118,
-  "total_promocoes": 16,
+  "total_promocoes": 17,
   "fontes": {
-    "Awin": 99,
+    "Awin": 100,
     "Rakuten": 0,
     "Lomadee": 35
   },
@@ -1580,6 +1580,18 @@
       "cupom": "",
       "validade": "2026-11-30T15:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=114180&awinaffid=3110826&campaign=safe+accu+kit+50+off+oct26&ued=https%3A%2F%2Fen.sinocare.com%2Fproducts%2Fsinocare-blood-glucose-monitor-safe-accu%3Fvariant%3D43072245825768",
+      "rede": "Awin"
+    },
+    {
+      "id": "879d69f4b2b6f13ffa",
+      "loja": "SIRUI",
+      "tipo": "promocao",
+      "titulo": "BFCM Clearance Sale",
+      "descricao": "Enjoy exclusive deals and save up to 80% OFF on selected lenses and photography gear. Don't miss out on these limited-time offers. Find your next creative essential at an unbeatable price!",
+      "termos": "/",
+      "cupom": "",
+      "validade": "2027-01-01T08:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=3110826&ued=https%3A%2F%2Fstore.sirui.com%2Fpages%2Fsales-1",
       "rede": "Awin"
     },
     {
