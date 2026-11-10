@@ -1,9 +1,9 @@
 {
   "market": "shein",
   "name": "SHEIN",
-  "generatedAt": "2026-11-10T20:39:42+00:00",
+  "generatedAt": "2026-11-10T21:36:33+00:00",
   "refreshMinutes": 30,
-  "count": 67,
+  "count": 70,
   "sources": {
     "Cuponomia": {
       "ok": false,
@@ -12,7 +12,7 @@
     },
     "Meliuz": {
       "ok": true,
-      "quantidade": 31
+      "quantidade": 39
     },
     "WorkerExistente": {
       "ok": true,
@@ -22,6 +22,18 @@
   "note": "Cupons listados nas fontes, nao testados no checkout. Cashback exclusivo de outros sites nao e oferecido pela Sol Garimpa.",
   "coupons": [
     {
+      "title": "20% OFF no pedido com voucher Shein",
+      "couponCode": "SHEIN25BH",
+      "discountText": "20% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-10T21:36:33+00:00",
+      "status": "listed"
+    },
+    {
       "title": "Até 20% OFF no voucher Shein",
       "couponCode": "SHEINFLORIPA",
       "discountText": "20% OFF",
@@ -30,7 +42,31 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Ative 20% OFF com o código Shein",
+      "couponCode": "SHEINEG",
+      "discountText": "20% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-10T21:36:33+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Código Shein com até 20% OFF",
+      "couponCode": "SHEINGI",
+      "discountText": "20% OFF",
+      "description": "Insira o código antes de finalizar e confira se o desconto se aplica ao pedido",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
@@ -42,43 +78,55 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Shein com 20% OFF no pedido",
-      "couponCode": "SHEIN25BH",
-      "discountText": "20% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
       "title": "Cupom Shein de novembro com 20% OFF",
       "couponCode": "MUSERA20OFF",
       "discountText": "20% OFF",
-      "description": "— 20% OFF Cupom Shein de novembro com 20% OFF · visto hoje às 17:25:06 · usado 2 vezes hoje",
+      "description": "— 20% OFF Cupom Shein de novembro com 20% OFF · visto hoje às 18:25:06 · usado 1 vez hoje",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Leve frete grátis com cupom Shein",
+      "couponCode": "NOVBR20",
+      "discountText": "FRETE GRÁTIS",
+      "description": "acima de R$ 20 — FRETE GRÁTIS Válido em compras acima de R$20, de produtos de envio nacional da lista selecionada. · visto hoje às 18:25:06 · usado 9 vezes hoje",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-10T21:36:33+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Obtenha R$12 OFF com o cupom Shein",
+      "couponCode": "PRIMEIRA",
+      "discountText": "R$ 12 OFF",
+      "description": "na primeira compra — R$12 OFF Válido em primeira compra no site acima de R$80 em produtos da Shein. · visto hoje às 18:25:06 · usado 2 vezes na semana",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
       "title": "Receba R$17 OFF com o cupom Shein",
       "couponCode": "JANLCH",
       "discountText": "R$ 17 OFF",
-      "description": "— R$ 17 OFF Receba R$17 OFF com o cupom Shein · visto hoje às 17:25:06 · usado 3 vezes hoje",
+      "description": "— R$ 17 OFF Receba R$17 OFF com o cupom Shein · visto hoje às 18:25:06 · usado 2 vezes hoje",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
@@ -90,7 +138,31 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Tenha 20% OFF com cupom Shein",
+      "couponCode": "SHEINLUISA",
+      "discountText": "20% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-10T21:36:33+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "10% OFF no carrinho com desconto Shein",
+      "couponCode": "",
+      "discountText": "10% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
@@ -102,7 +174,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
@@ -114,7 +186,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
@@ -126,7 +198,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
@@ -138,7 +210,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
@@ -150,19 +222,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Coleção Eduarda Gutierrez com 20% OFF na Shein",
-      "couponCode": "",
-      "discountText": "20% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
@@ -174,7 +234,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Desbloqueie até 20% OFF com cupom Shein",
+      "couponCode": "",
+      "discountText": "20% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
@@ -186,7 +258,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Faça seu pedido com até 20% OFF no voucher Shein",
+      "couponCode": "",
+      "discountText": "20% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
@@ -198,7 +282,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
@@ -210,7 +294,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
@@ -222,7 +306,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
@@ -234,7 +318,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
@@ -246,11 +330,11 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
-      "title": "Garanta 20% OFF com o cupom de desconto Shein",
+      "title": "Hora de economizar até 20% com cupom Shein",
       "couponCode": "",
       "discountText": "20% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
@@ -258,7 +342,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
@@ -270,7 +354,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
@@ -282,7 +366,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
@@ -294,7 +378,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
@@ -306,7 +390,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
@@ -318,7 +402,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Pague até 20% a menos com cupom de desconto Shein",
+      "couponCode": "",
+      "discountText": "20% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
@@ -330,7 +426,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
@@ -342,7 +438,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
@@ -354,7 +450,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
@@ -366,7 +462,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
@@ -378,7 +474,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
@@ -390,163 +486,151 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "listed"
     },
     {
       "title": "10% OFF na SHEIN",
       "couponCode": "LINHA10",
       "discountText": "10% OFF",
-      "description": "— 10% OFF Confira a lista de produtos selecionados no site e ganhe desconto aplicando o cupom no carrinho. Válido para itens próprios Shein. · visto hoje às 17:25:06 · usado 1 vez hoje",
+      "description": "— 10% OFF Confira a lista de produtos selecionados no site e ganhe desconto aplicando o cupom no carrinho. Válido para itens próprios Shein. · visto hoje às 18:25:06 · usado 6 vezes na seman",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
       "title": "15% OFF na SHEIN",
       "couponCode": "MOTFBR15OFF",
       "discountText": "15% OFF",
-      "description": "— 15% OFF Ganhe 15% OFF nas compras com o código Shein · visto hoje às 17:25:06 · usado 3 vezes hoje",
+      "description": "— 15% OFF Ganhe 15% OFF nas compras com o código Shein · visto hoje às 18:25:06 · usado 2 vezes hoje",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
       "title": "15% OFF na SHEIN",
       "couponCode": "COZYPIXIES15OFF",
       "discountText": "15% OFF",
-      "description": "— 15% OFF Looks infantis com até 15% OFF no desconto Shein · visto hoje às 17:25:06 · usado 1 vez hoje",
+      "description": "— 15% OFF Looks infantis com até 15% OFF no desconto Shein · visto hoje às 18:25:06 · usado 4 vezes na semana",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
       "title": "20% OFF na SHEIN",
       "couponCode": "SHEINIZA",
       "discountText": "20% OFF",
-      "description": "acima de R$ 300 — 20% OFF Garanta 15% OFF sem valor mínimo. Nas compras acima de R$300, obtenha 20% OFF. Válido para produtos selecionados próprios da Shein. · visto hoje às 17:25:06 · usado",
+      "description": "acima de R$ 300 — 20% OFF Garanta 15% OFF sem valor mínimo. Nas compras acima de R$300, obtenha 20% OFF. Válido para produtos selecionados próprios da Shein. · visto hoje às 18:25:06 · usado",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
       "title": "20% OFF na SHEIN",
       "couponCode": "SHEINBELEM",
       "discountText": "20% OFF",
-      "description": "— 20% OFF Até 20% OFF nas compras com desconto Shein · visto hoje às 17:25:06 · usado 8 vezes hoje",
+      "description": "— 20% OFF Até 20% OFF nas compras com desconto Shein · visto hoje às 18:25:06 · usado 7 vezes hoje",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
       "title": "20% OFF na SHEIN",
       "couponCode": "ANEWSTA20OFF",
       "discountText": "20% OFF",
-      "description": "— 20% OFF Voucher Shein garante 20% OFF nos looks Anewsta · visto hoje às 17:25:06 · usado 1 vez hoje",
+      "description": "— 20% OFF Voucher Shein garante 20% OFF nos looks Anewsta · visto hoje às 18:25:06 · usado 2 vezes na semana",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
       "title": "20% OFF na SHEIN",
       "couponCode": "MAIJA20OFF",
       "discountText": "20% OFF",
-      "description": "— 20% OFF Aplique o cupom Shein e ganhe 20% OFF na compra · visto hoje às 17:25:06 · usado 1 vez hoje",
+      "description": "— 20% OFF Aplique o cupom Shein e ganhe 20% OFF na compra · visto hoje às 18:25:06 · usado 6 vezes na semana",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
       "title": "20% OFF na SHEIN",
       "couponCode": "SHEINBAE20OFF",
       "discountText": "20% OFF",
-      "description": "— 20% OFF Garanta 20% OFF com cupom de desconto Shein · visto hoje às 17:25:06 · usado 3 vezes hoje",
+      "description": "— 20% OFF Garanta 20% OFF com cupom de desconto Shein · visto hoje às 18:25:06 · usado 2 vezes hoje",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
       "title": "20% OFF na SHEIN",
       "couponCode": "ALORUH20OFF",
       "discountText": "20% OFF",
-      "description": "— 20% OFF Use o cupom Shein e leve 20% OFF nas suas compras · visto hoje às 17:25:06 · usado 1 vez hoje",
+      "description": "— 20% OFF Use o cupom Shein e leve 20% OFF nas suas compras · visto hoje às 18:25:06 · usado 5 vezes na semana",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
       "title": "20% OFF na SHEIN",
       "couponCode": "MISSGUIDED20OFF",
       "discountText": "20% OFF",
-      "description": "— 20% OFF Missguided com 20% OFF no cupom de desconto Shein · visto hoje às 17:25:06 · usado 1 vez hoje",
+      "description": "— 20% OFF Missguided com 20% OFF no cupom de desconto Shein · visto hoje às 18:25:06 · usado 4 vezes na semana",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
       "title": "20% OFF na SHEIN",
       "couponCode": "SWIMCHICCIA20OFF",
       "discountText": "20% OFF",
-      "description": "— 20% OFF Moda praia com 20% OFF no cupom de desconto Shein · visto hoje às 17:25:06 · usado 1 vez hoje",
+      "description": "— 20% OFF Moda praia com 20% OFF no cupom de desconto Shein · visto hoje às 18:25:06 · usado 4 vezes na semana",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
       "title": "20% OFF na SHEIN",
       "couponCode": "SHEINTATA",
       "discountText": "20% OFF",
-      "description": "acima de R$ 300 — 20% OFF Garanta 15% OFF nas compras de produtos selecionados próprios da Shein. Em compras acima de R$300, obtenha 20% de desconto. · visto hoje às 17:25:06 · usado 1 vez h",
+      "description": "acima de R$ 300 — 20% OFF Garanta 15% OFF nas compras de produtos selecionados próprios da Shein. Em compras acima de R$300, obtenha 20% de desconto. · visto hoje às 18:25:06 · usado 1 vez n",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
-      "status": "unverified"
-    },
-    {
-      "title": "20% OFF na SHEIN",
-      "couponCode": "SHEINLUISA",
-      "discountText": "20% OFF",
-      "description": "acima de R$ 300 — 20% OFF Válido nas compras de produtos selecionados próprios da Shein. Obtenha 15% OFF sem valor mínimo. Nas compras acima de R$300, garanta 20% OFF. · visto hoje às 17:25:",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
@@ -558,7 +642,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
@@ -570,7 +654,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
@@ -582,31 +666,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
-      "status": "unverified"
-    },
-    {
-      "title": "20% OFF na SHEIN",
-      "couponCode": "SHEINGI",
-      "discountText": "20% OFF",
-      "description": "acima de R$ 400 — 20% OFF 10% OFF sem valor mínimo e 20% OFF para compras acima de R$400, com desconto limitado a R$200. Válido para produtos selecionados. · visto hoje às 17:25:06",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
-      "status": "unverified"
-    },
-    {
-      "title": "20% OFF na SHEIN",
-      "couponCode": "SHEINEG",
-      "discountText": "20% OFF",
-      "description": "acima de R$ 300 — 20% OFF Válido na compra de produtos Shein selecionados, garanta 15% OFF. Nas compras acima de R$300, obtenha 20% de desconto, limitado a R$200. · visto hoje às 17:25:06",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
@@ -618,7 +678,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
@@ -630,7 +690,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
@@ -642,7 +702,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
@@ -654,175 +714,151 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
       "title": "20% OFF na SHEIN",
       "couponCode": "SHEINGOL",
       "discountText": "20% OFF",
-      "description": "acima de R$ 300 — 20% OFF Garanta 15% OFF sem valor mínimo e 20% OFF nas compras acima de R$300. Válido somente para produtos selecionados próprios da Shein. · visto hoje às 17:25:06",
+      "description": "acima de R$ 300 — 20% OFF Garanta 15% OFF sem valor mínimo e 20% OFF nas compras acima de R$300. Válido somente para produtos selecionados próprios da Shein. · visto hoje às 18:25:06",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
-      "status": "unverified"
-    },
-    {
-      "title": "frete grátis na SHEIN",
-      "couponCode": "NOVBR20",
-      "discountText": "FRETE GRÁTIS",
-      "description": "acima de R$ 20 — FRETE GRÁTIS Válido em compras acima de R$20, de produtos de envio nacional da lista selecionada. · visto hoje às 17:25:06 · usado 9 vezes hoje",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
       "title": "frete grátis na SHEIN",
       "couponCode": "FG1111",
       "discountText": "FRETE GRÁTIS",
-      "description": "— FRETE GRÁTIS Válido somente para produtos selecionados de envio nacional. Não cumulativo com outras promoções. · visto hoje às 17:25:06 · usado 2 vezes hoje",
+      "description": "— FRETE GRÁTIS Válido somente para produtos selecionados de envio nacional. Não cumulativo com outras promoções. · visto hoje às 18:25:06 · usado 2 vezes hoje",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
       "title": "frete grátis na SHEIN",
       "couponCode": "LCFEB20",
       "discountText": "FRETE GRÁTIS",
-      "description": "acima de R$ 20 — FRETE GRÁTIS Válido para compras acima de R$20 em produtos selecionados com envio nacional. · visto hoje às 17:25:06 · usado 1 vez hoje",
+      "description": "acima de R$ 20 — FRETE GRÁTIS Válido para compras acima de R$20 em produtos selecionados com envio nacional. · visto hoje às 18:25:06 · usado 4 vezes na semana",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
       "title": "frete grátis na SHEIN",
       "couponCode": "INVERNO55",
       "discountText": "FRETE GRÁTIS",
-      "description": "— FRETE GRÁTIS Oferta válida para produtos de envio nacional. · visto hoje às 17:25:06",
+      "description": "— FRETE GRÁTIS Oferta válida para produtos de envio nacional. · visto hoje às 18:25:06",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
       "title": "frete grátis na SHEIN",
       "couponCode": "26JUNSD20",
       "discountText": "FRETE GRÁTIS",
-      "description": "acima de R$ 20 — FRETE GRÁTIS Válido nas compras acima de R$20, apenas para produtos de envio nacional da lista selecionada. · visto hoje às 17:25:06 · usado 1 vez na semana",
+      "description": "acima de R$ 20 — FRETE GRÁTIS Válido nas compras acima de R$20, apenas para produtos de envio nacional da lista selecionada. · visto hoje às 18:25:06 · usado 1 vez na semana",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
       "title": "frete grátis na SHEIN",
       "couponCode": "2026ABRSD20",
       "discountText": "FRETE GRÁTIS",
-      "description": "acima de R$ 20 — FRETE GRÁTIS Válido nas compras acima de R$20 para produtos de envio nacional da lista selecionada. · visto hoje às 17:25:06 · usado 1 vez hoje",
+      "description": "acima de R$ 20 — FRETE GRÁTIS Válido nas compras acima de R$20 para produtos de envio nacional da lista selecionada. · visto hoje às 18:25:06 · usado 1 vez hoje",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
       "title": "frete grátis na SHEIN",
       "couponCode": "SETEMBRO20",
       "discountText": "FRETE GRÁTIS",
-      "description": "— FRETE GRÁTIS Válido na compra de itens de envio nacional da lista selecionada. · visto hoje às 17:25:06",
+      "description": "— FRETE GRÁTIS Válido na compra de itens de envio nacional da lista selecionada. · visto hoje às 18:25:06",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
       "title": "frete grátis na SHEIN",
       "couponCode": "20MAIO",
       "discountText": "FRETE GRÁTIS",
-      "description": "acima de R$ 20 — FRETE GRÁTIS Válido para compras acima de R$20 em produtos de envio nacional. · visto hoje às 17:25:06",
+      "description": "acima de R$ 20 — FRETE GRÁTIS Válido para compras acima de R$20 em produtos de envio nacional. · visto hoje às 18:25:06",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
       "title": "frete grátis na SHEIN",
       "couponCode": "SHEINBF2025",
       "discountText": "FRETE GRÁTIS",
-      "description": "— FRETE GRÁTIS Válido na compra de produtos de envio nacional da lista selecionada. · visto hoje às 17:25:06",
+      "description": "— FRETE GRÁTIS Válido na compra de produtos de envio nacional da lista selecionada. · visto hoje às 18:25:06",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
       "title": "frete grátis na SHEIN",
       "couponCode": "JANEIRO20",
       "discountText": "FRETE GRÁTIS",
-      "description": "— FRETE GRÁTIS Válido na compra de produtos de envio nacional da lista selecionada. Não cumulativo com outras promoções. · visto hoje às 17:25:06",
+      "description": "— FRETE GRÁTIS Válido na compra de produtos de envio nacional da lista selecionada. Não cumulativo com outras promoções. · visto hoje às 18:25:06",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
       "title": "frete grátis na SHEIN",
       "couponCode": "26SHEIN77",
       "discountText": "FRETE GRÁTIS",
-      "description": "— FRETE GRÁTIS Válido na compra de produtos de envio nacional da lista selecionada. Não cumulativo com outras promoções. · visto hoje às 17:25:06",
+      "description": "— FRETE GRÁTIS Válido na compra de produtos de envio nacional da lista selecionada. Não cumulativo com outras promoções. · visto hoje às 18:25:06",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     },
     {
       "title": "R$ 12 OFF na SHEIN",
       "couponCode": "FIRST1",
       "discountText": "R$ 12 OFF",
-      "description": "no primeiro pedido — R$12 OFF Aproveite em seu primeiro pedido acima de R$80. Válido apenas para produtos Shein. · visto hoje às 17:25:06 · usado 1 vez na semana",
+      "description": "no primeiro pedido — R$12 OFF Aproveite em seu primeiro pedido acima de R$80. Válido apenas para produtos Shein. · visto hoje às 18:25:06 · usado 1 vez na semana",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
-      "status": "unverified"
-    },
-    {
-      "title": "R$ 12 OFF na SHEIN",
-      "couponCode": "PRIMEIRA",
-      "discountText": "R$ 12 OFF",
-      "description": "na primeira compra — R$12 OFF Válido em primeira compra no site acima de R$80 em produtos da Shein. · visto hoje às 17:25:06 · usado 2 vezes na semana",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-10T20:39:42+00:00",
+      "observedAt": "2026-11-10T21:36:33+00:00",
       "status": "unverified"
     }
   ]
