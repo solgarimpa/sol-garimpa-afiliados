@@ -1,53 +1,9 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-10T20:52:23.234328Z",
-  "total": 340,
+  "atualizado_em": "2026-11-10T21:29:47.284581Z",
+  "total": 336,
   "ofertas": [
-    {
-      "id": "4168720",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "7% OFF em produto JBL selecionado",
-      "descricao": "7% OFF em produto JBL selecionado",
-      "termos": ".",
-      "cupom": "JBL7",
-      "validade": "2026-11-10T21:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F943781"
-    },
-    {
-      "id": "4168718",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "5% OFF em Smartphone POCO X85 selecionado",
-      "descricao": "5% OFF em Smartphone POCO X85 selecionado",
-      "termos": ".",
-      "cupom": "POCOX85",
-      "validade": "2026-11-10T21:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1048606"
-    },
-    {
-      "id": "4168713",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "5% OFF em Smartphone POCO selecionado",
-      "descricao": "5% OFF em Smartphone POCO selecionado",
-      "termos": ".",
-      "cupom": "POCO5",
-      "validade": "2026-11-10T21:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1020438"
-    },
-    {
-      "id": "4168711",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "7% OFF em TV selecionada",
-      "descricao": "7% OFF em TV selecionada",
-      "termos": ".",
-      "cupom": "TV7OFF",
-      "validade": "2026-11-10T21:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F938060"
-    },
     {
       "id": "4169086",
       "loja": "Kabum BR",

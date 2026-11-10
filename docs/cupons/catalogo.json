@@ -1,11 +1,11 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-10T20:52:25.164189Z",
-  "total": 377,
-  "total_cupons": 128,
+  "atualizado_em": "2026-11-10T21:29:49.926164Z",
+  "total": 373,
+  "total_cupons": 124,
   "total_promocoes": 249,
   "fontes": {
-    "Awin": 340,
+    "Awin": 336,
     "Rakuten": 0,
     "Lomadee": 37
   },
@@ -851,30 +851,6 @@
       "rede": "Awin"
     },
     {
-      "id": "4a116469b5c3d52271",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "5% OFF em Smartphone POCO selecionado",
-      "descricao": "5% OFF em Smartphone POCO selecionado",
-      "termos": ".",
-      "cupom": "POCO5",
-      "validade": "2026-11-10T21:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1020438",
-      "rede": "Awin"
-    },
-    {
-      "id": "57cfdf79e9eb85f5ab",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "5% OFF em Smartphone POCO X85 selecionado",
-      "descricao": "5% OFF em Smartphone POCO X85 selecionado",
-      "termos": ".",
-      "cupom": "POCOX85",
-      "validade": "2026-11-10T21:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1048606",
-      "rede": "Awin"
-    },
-    {
       "id": "95b0a0b7ae97886153",
       "loja": "Kabum BR",
       "tipo": "cupom",
@@ -896,30 +872,6 @@
       "cupom": "ARFRIO5",
       "validade": "2026-11-17T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1059731%2Far-condicionado-split-electrolux-hi-wall-maxcomfort-full-inverter-9-000-btu-h-frio-monofasico-branco-ni09f-ne09f-220v",
-      "rede": "Awin"
-    },
-    {
-      "id": "16aa6a5d2822ecca9b",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "7% OFF em produto JBL selecionado",
-      "descricao": "7% OFF em produto JBL selecionado",
-      "termos": ".",
-      "cupom": "JBL7",
-      "validade": "2026-11-10T21:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F943781",
-      "rede": "Awin"
-    },
-    {
-      "id": "4c069773a0aaba674b",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "7% OFF em TV selecionada",
-      "descricao": "7% OFF em TV selecionada",
-      "termos": ".",
-      "cupom": "TV7OFF",
-      "validade": "2026-11-10T21:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F938060",
       "rede": "Awin"
     },
     {
