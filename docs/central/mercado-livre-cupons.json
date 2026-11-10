@@ -1,7 +1,7 @@
 {
   "market": "mercado-livre",
   "name": "Mercado Livre",
-  "generatedAt": "2026-11-10T13:38:04+00:00",
+  "generatedAt": "2026-11-10T14:49:46+00:00",
   "refreshMinutes": 30,
   "count": 43,
   "sources": {
@@ -22,27 +22,39 @@
   "note": "Cupons listados nas fontes, nao testados no checkout. Cashback exclusivo de outros sites nao e oferecido pela Sol Garimpa.",
   "coupons": [
     {
+      "title": "Cupom Mercado Livre 15% OFF acima de R$ 79 (limitado a R$ 100)",
+      "couponCode": "ULTIMASCHANCES",
+      "discountText": "15% OFF",
+      "description": "Cupom Mercado Livre 15% OFF acima de R$ 79 (limitado a R$ 100)",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-10T14:00:00.000Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-10T14:49:46+00:00",
+      "status": "listed"
+    },
+    {
       "title": "Cupom Mercado Livre - 15% OFF acima de R$79 limitado à R$60 MODA",
       "couponCode": "CUPOMPRAMODA",
       "discountText": "15% OFF",
-      "description": "Em itens Selecionados Moda",
+      "description": "15% de economia em peças de moda nas compras de R$79 ou mais, limitado a R$60",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": "2026-11-10T13:09:38.444Z",
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
       "title": "Cupom Mercado Livre - 12% OFF acima de R$79 limitado à R$50 Beleza",
       "couponCode": "PROMOBELEZA",
       "discountText": "12% OFF",
-      "description": "Em itens Selecionados Beleza",
+      "description": "Em beleza, compras de R$79 ou mais ganham 12% OFF, com teto de R$50",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": "2026-11-10T13:07:41.809Z",
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -54,7 +66,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-10T12:02:57.468Z",
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -66,19 +78,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-10T12:01:52.030Z",
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Mercado Livre - 15% OFF acima de R$89 limitado à R$20 Moda e Beleza",
-      "couponCode": "MODABELEZA1011",
-      "discountText": "15% OFF",
-      "description": "﻿🚨 Fiquem atentos: A maioria dos cupons do Mercado Livre agora se aplica apenas a itens selecionados. 📌 Dica: Na hora de adicionar o cupom, clique em \"Conferir lista\" para ver todos os produ",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-10T12:01:21.965Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -90,7 +90,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -102,7 +102,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -114,7 +114,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -126,19 +126,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Aproveite 30% de desconto em ofertas selecionadas",
-      "couponCode": "",
-      "discountText": "30% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -150,7 +138,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -162,7 +150,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -174,7 +162,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -186,7 +174,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -198,7 +186,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Chegou desconto: 30% OFF na lista de ofertas",
+      "couponCode": "",
+      "discountText": "30% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -210,7 +210,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -222,7 +222,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -234,19 +234,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom de desconto Mercado Livre com 30% OFF",
-      "couponCode": "",
-      "discountText": "30% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -258,7 +246,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -270,7 +258,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -282,19 +270,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
-      "title": "Cupom Mercado Livre com 25% OFF na lista",
+      "title": "Cupom Mercado Livre com 30% OFF em ofertas de vendedores",
       "couponCode": "",
-      "discountText": "25% OFF",
+      "discountText": "30% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -306,7 +294,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -318,7 +306,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -330,7 +318,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -342,7 +330,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -354,7 +342,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -366,19 +354,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Desconto na hora: 30% OFF em itens da lista",
-      "couponCode": "",
-      "discountText": "30% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -390,7 +366,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -402,7 +378,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -414,7 +390,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -426,7 +402,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -438,7 +414,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Leve agora com 30% de desconto na lista",
+      "couponCode": "",
+      "discountText": "30% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -450,31 +438,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
-      "title": "Oferta boa: 25% de desconto em produtos da lista",
+      "title": "Moda com 15% de desconto em peças selecionadas",
       "couponCode": "",
-      "discountText": "25% OFF",
+      "discountText": "15% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Ofertas da seleção com 30% de desconto",
-      "couponCode": "",
-      "discountText": "30% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -486,19 +462,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
-      "title": "Pegue 25% OFF em ofertas da seleção",
+      "title": "Poupe agora: 30% de economia em itens da lista",
       "couponCode": "",
-      "discountText": "25% OFF",
+      "discountText": "30% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -510,7 +486,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -522,7 +498,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Seleção de vendedores com 25% de desconto",
+      "couponCode": "",
+      "discountText": "25% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     },
     {
@@ -534,7 +522,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T13:38:04+00:00",
+      "observedAt": "2026-11-10T14:49:46+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Skincare, maquiagem e perfumes com 12% de desconto",
+      "couponCode": "",
+      "discountText": "12% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-10T14:49:46+00:00",
       "status": "listed"
     }
   ]
