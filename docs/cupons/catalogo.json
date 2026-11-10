@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-10T18:35:31.454872Z",
-  "total": 376,
-  "total_cupons": 127,
+  "atualizado_em": "2026-11-10T19:35:25.290854Z",
+  "total": 377,
+  "total_cupons": 128,
   "total_promocoes": 249,
   "fontes": {
     "Awin": 340,
     "Rakuten": 0,
-    "Lomadee": 36
+    "Lomadee": 37
   },
   "ofertas": [
     {
@@ -68,6 +68,18 @@
       "cupom": "BEEPLOMADEE",
       "validade": "2027-01-01T02:30:00Z",
       "link": "https://lmdee.link/SMMDzag5yqcf",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "326be716b1fd788d52",
+      "loja": "Brinox",
+      "tipo": "cupom",
+      "titulo": "Cupom de 10% off em todo o site",
+      "descricao": "",
+      "termos": "",
+      "cupom": "Lomadee10",
+      "validade": null,
+      "link": "https://lmdee.link/B3ZrjMqddZCX",
       "rede": "Lomadee"
     },
     {
@@ -143,15 +155,15 @@
       "rede": "Lomadee"
     },
     {
-      "id": "52cb23a7d3e8a575f6",
-      "loja": "China in Box",
+      "id": "588eaee50ddad11f81",
+      "loja": "Coza",
       "tipo": "cupom",
-      "titulo": "Cupom Frete Gratis",
+      "titulo": "Cupom de 20% off em todo o site!",
       "descricao": "",
       "termos": "",
-      "cupom": "FRETELOMADEE",
-      "validade": "2027-01-01T02:59:59Z",
-      "link": "https://lmdee.link/69aTXVdd4fbx",
+      "cupom": "Lomadee20",
+      "validade": null,
+      "link": "https://lmdee.link/EXXfFSuBtslm",
       "rede": "Lomadee"
     },
     {
