@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-10T11:55:56.415418Z",
-  "total": 135,
-  "total_cupons": 118,
+  "atualizado_em": "2026-11-10T12:47:44.407768Z",
+  "total": 134,
+  "total_cupons": 117,
   "total_promocoes": 17,
   "fontes": {
     "Awin": 100,
     "Rakuten": 0,
-    "Lomadee": 35
+    "Lomadee": 34
   },
   "ofertas": [
     {
@@ -1364,18 +1364,6 @@
       "cupom": "LOMADEE12",
       "validade": "2027-01-01T02:30:00Z",
       "link": "https://lmdee.link/Sw3sUzNLNSN9",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "b97f67d01a215f81d2",
-      "loja": "Vapza Alimentos",
-      "tipo": "cupom",
-      "titulo": "Cupom de 10% de desconto no site todo!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "LOMADEE10",
-      "validade": "2027-10-22T02:30:00Z",
-      "link": "https://lmdee.link/0L3uJFpl7WR8",
       "rede": "Lomadee"
     },
     {
