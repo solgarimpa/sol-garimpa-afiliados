@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-10T15:06:52+00:00",
+  "atualizado_em": "2026-11-10T16:06:17+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -335,10 +335,6 @@
       "loja": "Gazin"
     },
     {
-      "id": "c364d4e3-56e2-4da9-a6ea-195716da559a",
-      "loja": "Malwee"
-    },
-    {
       "id": "b08af64e-f7bd-434c-b0ac-6baec265f9fc",
       "loja": "BabyStock"
     },
@@ -391,6 +387,10 @@
       "loja": "Zinco"
     },
     {
+      "id": "bbecdd07-33c6-4390-996b-e93e7455d731",
+      "loja": "POMANDER"
+    },
+    {
       "id": "a4ea6ed5-0ffd-4ee7-b0eb-f6073dc4fc12",
       "loja": "Sieno Perfumes"
     },
@@ -431,16 +431,16 @@
       "loja": "Toymania"
     },
     {
+      "id": "c364d4e3-56e2-4da9-a6ea-195716da559a",
+      "loja": "Malwee"
+    },
+    {
       "id": "d855f505-7e26-4961-a182-c2139aeadd2c",
       "loja": "Drogasmil"
     },
     {
       "id": "df3a5d1f-150c-4ce8-9b98-cf85dad06b6d",
       "loja": "Honor"
-    },
-    {
-      "id": "e1d43df5-8c98-4f7a-9f75-e507ecbd649c",
-      "loja": "Xiaomi Brasil"
     },
     {
       "id": "e198615b-4c17-4180-b06f-43376f162714",
@@ -493,6 +493,10 @@
     {
       "id": "f31e32be-c116-4739-85a3-43f85681b237",
       "loja": "Móveis Carraro"
+    },
+    {
+      "id": "e1d43df5-8c98-4f7a-9f75-e507ecbd649c",
+      "loja": "Xiaomi Brasil"
     },
     {
       "id": "ecd9089c-0147-41aa-b974-bdfbf220a3d4",
@@ -959,6 +963,20 @@
       "preco_anterior": null,
       "cupom": "SEMPARAR96OFF",
       "validade": "2026-12-01T02:59:59.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-5c1ba6576dac440e2ff1",
+      "loja": "Shopee",
+      "tipo": "promocao",
+      "titulo": "Aproveite para compartilhar e ganhe 20% de comissão nas vendas realizadas através das redes sociais!",
+      "imagem": "https://cdn.lomadee.com.br/offer/05a2a89b-e900-461d-b435-b65e3fe02db0/banners/imagem%20-%202026-11-10T123929.016.png",
+      "link": "https://lmdee.link/rsKqgGbNoGo7",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-11T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1729,20 +1747,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-12T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-7c18f03bdcaddea5b727",
-      "loja": "Sawary",
-      "tipo": "promocao",
-      "titulo": "Últimos Dias Mês Do Cliente",
-      "imagem": "",
-      "link": "https://lmdee.link/VxbpF2FfGnOH",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2697,26 +2701,12 @@
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
       "origem": "Lomadee"
-    },
-    {
-      "id": "lp-755320b557146dba7c76",
-      "loja": "ECO FLAME GARDEN",
-      "tipo": "produto",
-      "titulo": "2 Espreguiçadeiras Double mild chaise",
-      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Prancheta_14_3e39a7f4-f53c-4942-84b3-b1abfe18733f.webp?v=1774380413",
-      "link": "https://lmdee.link/Z0YeqkYPB59U",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
     }
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 156,
-    "marcas": 131,
+    "com_ofertas": 155,
+    "marcas": 132,
     "campanhas": 120,
     "produtos": 60,
     "links_solicitados": 45,
