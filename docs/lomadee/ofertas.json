@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-10T01:23:21+00:00",
+  "atualizado_em": "2026-11-10T03:03:55+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -837,20 +837,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-40cd8b74245b26e49f87",
-      "loja": "Lojas REDE",
-      "tipo": "promocao",
-      "titulo": "Ofertas 09-11",
-      "imagem": "",
-      "link": "https://lmdee.link/yCDSvm0K9dct",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-10T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-319d2f8c9df2083b0f76",
       "loja": "Líquido",
       "tipo": "cupom",
@@ -1333,6 +1319,20 @@
       "titulo": "[CATEGORIA] Ramequins",
       "imagem": "",
       "link": "https://lmdee.link/7MISKfU0QDZI",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-46baebe4716d72ac86a2",
+      "loja": "Móveis Carraro",
+      "tipo": "promocao",
+      "titulo": "Módulos de Cozinha - 8% OFF com MODULAR8",
+      "imagem": "https://cdn.lomadee.com.br/offer/01059650-81a6-4fa0-97e2-4083eccc056d/banners/MODULAR8_1064x557.png",
+      "link": "https://lmdee.link/EbWlVCQ6jcrZ",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -2697,11 +2697,25 @@
       "validade": null,
       "descricao": "✅DESTAQUES \n-❤️Bolso de bolso \n-❤️Boa textura\n\n✅Descrições \nPadrão: simples\nEstilo do estilo: Casual\nTipo de vestido: Uma linha\nTamanho da peça Plus: Não\nMaterial: Poliéster\nComposição: 100% Poliéster\nTipo de Encaixe: En",
       "origem": "Lomadee"
+    },
+    {
+      "id": "lp-cc0e72fe1c92339ef4df",
+      "loja": "Shopee",
+      "tipo": "produto",
+      "titulo": "(Casual) Lovito Vestido Rosa com Simples para Primavera/verão para Mulheres L178ED851",
+      "imagem": "https://cf.shopee.com.br/file/sg-11134201-8262p-mkhsqw6gsyytc7",
+      "link": "https://lmdee.link/gWjSsR0DRfw4",
+      "preco": 0.41,
+      "preco_anterior": 0.59,
+      "cupom": null,
+      "validade": null,
+      "descricao": "✅DESTAQUES \n-❤️Faixa Lateral\n-❤️Bainha com babados Bainha com babados\n-❤️Simples\n-❤️Macio e confortável\n-❤️Primavera e verão\n\n✅DESCRIÇÕES\nEstampa / Padrão:Listrado\nEstilo:Casual\nTipo de vestido:Um Item.\nTamanho Plus:No\nM",
+      "origem": "Lomadee"
     }
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 155,
+    "com_ofertas": 156,
     "marcas": 131,
     "campanhas": 120,
     "produtos": 60,
