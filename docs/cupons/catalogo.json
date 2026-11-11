@@ -1,11 +1,11 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-11T11:25:31.059923Z",
-  "total": 143,
-  "total_cupons": 126,
+  "atualizado_em": "2026-11-11T12:00:36.847487Z",
+  "total": 142,
+  "total_cupons": 125,
   "total_promocoes": 17,
   "fontes": {
-    "Awin": 101,
+    "Awin": 100,
     "Rakuten": 0,
     "Lomadee": 42
   },
@@ -776,18 +776,6 @@
       "cupom": "PEGAOJOGO",
       "validade": "2026-11-13T15:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1087864%2Fjogo-metroid-ravenous-nintendo-switch-2-nsca10000088fgr",
-      "rede": "Awin"
-    },
-    {
-      "id": "fde097d8d672408d1a",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "11% OFF em produtos Husky selecionados",
-      "descricao": "11% OFF em produtos Husky selecionados",
-      "termos": ".",
-      "cupom": "11DO11HUSKY",
-      "validade": "2026-11-11T11:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2F11DO11HUSKY",
       "rede": "Awin"
     },
     {
