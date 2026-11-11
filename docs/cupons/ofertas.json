@@ -1,8 +1,8 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-11T18:41:33.446226Z",
-  "total": 321,
+  "atualizado_em": "2026-11-11T19:42:55.070952Z",
+  "total": 324,
   "ofertas": [
     {
       "id": "4170683",
@@ -2456,6 +2456,39 @@
       "cupom": "",
       "validade": "2026-11-12T07:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=3110826&ued=https%3A%2F%2Fstore.sirui.com%2Fproducts%2Fsirui-swift-series-20mm-f2-4-40mm-f2-2-full-frame-autofocus-lens"
+    },
+    {
+      "id": "4171145",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "R$ 400 OFF na compra do Console PlayStation 5 Pro Sony SSD 2TB com Controle Sem Fio DualSense Branco",
+      "descricao": "R$ 400 OFF na compra do Console PlayStation 5 Pro Sony SSD 2TB com Controle Sem Fio DualSense Branco",
+      "termos": ".",
+      "cupom": "PRO11DO11",
+      "validade": "2026-11-12T15:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F636960%2Fconsole-playstation-5-pro-sony-ssd-2tb-com-controle-sem-fio-dualsense-branco-1000046552"
+    },
+    {
+      "id": "4171150",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "7% OFF em produtos AMD X3D selecionados",
+      "descricao": "7% OFF em produtos AMD X3D selecionados",
+      "termos": ".",
+      "cupom": "11DO11X3D",
+      "validade": "2026-11-13T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP111DO11X3D"
+    },
+    {
+      "id": "4171148",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "11% OFF na Fonte XPG CoreShift II VE 850W 80 Plus Gold Preto",
+      "descricao": "11% OFF na Fonte XPG CoreShift II VE 850W 80 Plus Gold Preto",
+      "termos": ".",
+      "cupom": "SUAPSUXPG",
+      "validade": "2026-11-13T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1059447%2Ffonte-xpg-coreshift-ii-ve-850w-80-plus-gold-preto-coreshiftiive850gd-bkcbr"
     },
     {
       "id": "4166894",
