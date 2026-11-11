@@ -1,8 +1,8 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-11T14:32:57.215271Z",
-  "total": 100,
+  "atualizado_em": "2026-11-11T14:59:55.222551Z",
+  "total": 129,
   "ofertas": [
     {
       "id": "4168694",
@@ -14,6 +14,314 @@
       "cupom": "VEMGTAZIN",
       "validade": "2026-11-11T15:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1051619%2Fjogo-grand-theft-auto-gta-vi-6-ps5-tt000272ps5"
+    },
+    {
+      "id": "4170640",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Power Bank Universal Geonav, 10000 Mah, Preto - Pb10kbk",
+      "descricao": "Power Bank Universal Geonav, 10000 Mah, Preto - Pb10kbk",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F103657"
+    },
+    {
+      "id": "4170639",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Suporte De Mesa Articulado Para Monitor De 17\" A 32\" North Bayou, Ajustes Com Pistão A Gás, Grafite - F80 Nb",
+      "descricao": "Suporte De Mesa Articulado Para Monitor De 17\" A 32\" North Bayou, Ajustes Com Pistão A Gás, Grafite - F80 Nb",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F480097"
+    },
+    {
+      "id": "4170638",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Mouse Gamer Sem Fio Attack Shark X1 Ultraleve Com Base De Carregamento Magnético Rgb, Tri-Mode, 40.000 Dpi, Sensor Óptico Paw3395 Pro, 6 Botões - Preto",
+      "descricao": "Mouse Gamer Sem Fio Attack Shark X1 Ultraleve Com Base De Carregamento Magnético Rgb, Tri-Mode, 40.000 Dpi, Sensor Óptico Paw3395 Pro, 6 Botões - Preto",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F904342"
+    },
+    {
+      "id": "4170637",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Gabinete Gamer Corsair 3500x Rsr Argb, Mid Tower, Lateral E Frontal Em Vidro Temperado, 3 Ventoinhas Rsr Argb, Preto - Cc-9011322-Ww",
+      "descricao": "Gabinete Gamer Corsair 3500x Rsr Argb, Mid Tower, Lateral E Frontal Em Vidro Temperado, 3 Ventoinhas Rsr Argb, Preto - Cc-9011322-Ww",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F989686"
+    },
+    {
+      "id": "4170635",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Mouse Gamer Sem Fio Attack Shark R1 Ultraleve E Design Ergonômico, Tri-Mode, 18.000 Dpi, Sensor Óptico Paw3311, 6 Botões - Preto",
+      "descricao": "Mouse Gamer Sem Fio Attack Shark R1 Ultraleve E Design Ergonômico, Tri-Mode, 18.000 Dpi, Sensor Óptico Paw3311, 6 Botões - Preto",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F904351"
+    },
+    {
+      "id": "4170634",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Teclado Mecânico Gamer Machenike K500b-B87, Switch Brown, Abnt, Azul - Ref Jj02g200a",
+      "descricao": "Teclado Mecânico Gamer Machenike K500b-B87, Switch Brown, Abnt, Azul - Ref Jj02g200a",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F531158"
+    },
+    {
+      "id": "4170632",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Mouse Gamer Sem Fio Redragon Invader Pro, Rgb, 10000 Dpi, 8 Botões, Wireless, Branco - M719w-Rgb-Pro",
+      "descricao": "Mouse Gamer Sem Fio Redragon Invader Pro, Rgb, 10000 Dpi, 8 Botões, Wireless, Branco - M719w-Rgb-Pro",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F611255"
+    },
+    {
+      "id": "4170630",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Gabinete Gamer Rise Mode Galaxy Glass M Mini, M-Atx, Lateral E Frontal Em Vidro Temperado, Sem Fans, Preto - Rm-Ga-Ggmn-Fb",
+      "descricao": "Gabinete Gamer Rise Mode Galaxy Glass M Mini, M-Atx, Lateral E Frontal Em Vidro Temperado, Sem Fans, Preto - Rm-Ga-Ggmn-Fb",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F485726"
+    },
+    {
+      "id": "4170629",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Teclado Magnético Gamer Attack Shark X68 He, Rapid Trigger, 8000hz, 0.01mm, 65%, Black, Preto - As-X68he-Bk",
+      "descricao": "Teclado Magnético Gamer Attack Shark X68 He, Rapid Trigger, 8000hz, 0.01mm, 65%, Black, Preto - As-X68he-Bk",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F904387"
+    },
+    {
+      "id": "4170627",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Placa Mãe Asus Tuf Gaming B850m-Plus Ii, Amd Am5, Matx, Ddr5, Preto - 90mb1mt0-M0eay0",
+      "descricao": "Placa Mãe Asus Tuf Gaming B850m-Plus Ii, Amd Am5, Matx, Ddr5, Preto - 90mb1mt0-M0eay0",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F911806"
+    },
+    {
+      "id": "4170626",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Mouse Gamer Sem Fio Attack Shark X11 Com Base De Carregamento Magnético Rgb, Tri-Mode, 22.000 Dpi, Sensor Óptico Paw3311, 5 Botões - Branco",
+      "descricao": "Mouse Gamer Sem Fio Attack Shark X11 Com Base De Carregamento Magnético Rgb, Tri-Mode, 22.000 Dpi, Sensor Óptico Paw3311, 5 Botões - Branco",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F904346"
+    },
+    {
+      "id": "4170622",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Water Cooler Msi Mag Coreliquid A12, Argb, 240mm, Intel E Amd, Preto - Cla12240",
+      "descricao": "Water Cooler Msi Mag Coreliquid A12, Argb, 240mm, Intel E Amd, Preto - Cla12240",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F716001"
+    },
+    {
+      "id": "4170620",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Gabinete Gamer Husky Dome 10, Micro-Atx, Lateral E Frontal Em Vidro, Sem Fans, Preto - Hgn10pt",
+      "descricao": "Gabinete Gamer Husky Dome 10, Micro-Atx, Lateral E Frontal Em Vidro, Sem Fans, Preto - Hgn10pt",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F909319"
+    },
+    {
+      "id": "4170617",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Mouse Gamer Redragon Cobra, Chroma Rgb, 12400 Dpi, 8 Botões, Preto - M711",
+      "descricao": "Mouse Gamer Redragon Cobra, Chroma Rgb, 12400 Dpi, 8 Botões, Preto - M711",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F94555"
+    },
+    {
+      "id": "4170613",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Headset Gamer Fifine H9, Som Surround 7.1, Usb, Console E Pc, Preto - H9",
+      "descricao": "Headset Gamer Fifine H9, Som Surround 7.1, Usb, Console E Pc, Preto - H9",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F486211"
+    },
+    {
+      "id": "4170612",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cadeira Gamer Husky Tempest 700, Até 145kg, Almofadas, Reclinável 150º, Pu, Descanso Para Pés, Preta E Vermelha - Hcg700ptvr",
+      "descricao": "Cadeira Gamer Husky Tempest 700, Até 145kg, Almofadas, Reclinável 150º, Pu, Descanso Para Pés, Preta E Vermelha - Hcg700ptvr",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F134177"
+    },
+    {
+      "id": "4170610",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Mouse Gamer Sem Fio Redragon Invader Pro, Rgb, 10000 Dpi, 8 Botões, Wireless, Preto - M719rgb-Pro",
+      "descricao": "Mouse Gamer Sem Fio Redragon Invader Pro, Rgb, 10000 Dpi, 8 Botões, Wireless, Preto - M719rgb-Pro",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F610298"
+    },
+    {
+      "id": "4170608",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Teclado Mecânico Gamer Husky Anchorage Full Size, Rgb, Switch Gateron Ef Red, Abnt2, Preto - Htg200ptvr",
+      "descricao": "Teclado Mecânico Gamer Husky Anchorage Full Size, Rgb, Switch Gateron Ef Red, Abnt2, Preto - Htg200ptvr",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F538689"
+    },
+    {
+      "id": "4170607",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Mesa Gamer Husky Snow, Preto - Superfície Em Fibra De Carbono, Suporte Para Headset E Copo, Resistente À Umidade - Hdg100",
+      "descricao": "Mesa Gamer Husky Snow, Preto - Superfície Em Fibra De Carbono, Suporte Para Headset E Copo, Resistente À Umidade - Hdg100",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F151914"
+    },
+    {
+      "id": "4170604",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Water Cooler Msi Mag Coreliquid A12, Argb, 360mm, Intel E Amd, Preto - Cla12360",
+      "descricao": "Water Cooler Msi Mag Coreliquid A12, Argb, 360mm, Intel E Amd, Preto - Cla12360",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F716000"
+    },
+    {
+      "id": "4170600",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Ssd Kingston A400, 240gb, 2.5\", Sata Iii, Leitura: 500 Mb/S, Gravação: 350 Mb/S, Preto - Sa400s37/240g",
+      "descricao": "Ssd Kingston A400, 240gb, 2.5\", Sata Iii, Leitura: 500 Mb/S, Gravação: 350 Mb/S, Preto - Sa400s37/240g",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F85197"
+    },
+    {
+      "id": "4170598",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Memoria Ram Kingston Fury Beast, 16gb, 3200mt/S, Ddr4, Cl16, Dimm, Preto - Kf432c16bb/16",
+      "descricao": "Memoria Ram Kingston Fury Beast, 16gb, 3200mt/S, Ddr4, Cl16, Dimm, Preto - Kf432c16bb/16",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1029658"
+    },
+    {
+      "id": "4170595",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Fonte Mach1 Steady, 750w, 80 Plus Bronze, Pfc Ativo, Preto - 750steady",
+      "descricao": "Fonte Mach1 Steady, 750w, 80 Plus Bronze, Pfc Ativo, Preto - 750steady",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F912176"
+    },
+    {
+      "id": "4170593",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Ssd Rise Mode Gamer Line, 120gb, 2.5\", Sata Iii, Leitura: 530 Mb/S, Gravação: 520 Mb/S, Preto - Rm-Ssd-120",
+      "descricao": "Ssd Rise Mode Gamer Line, 120gb, 2.5\", Sata Iii, Leitura: 530 Mb/S, Gravação: 520 Mb/S, Preto - Rm-Ssd-120",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F105104"
+    },
+    {
+      "id": "4170592",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Memória Ram Husky Impulse, 16gb, 3200mhz, Ddr4, Cl22, Preto - Hrm001163222pt",
+      "descricao": "Memória Ram Husky Impulse, 16gb, 3200mhz, Ddr4, Cl22, Preto - Hrm001163222pt",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F922166"
+    },
+    {
+      "id": "4170589",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Placa De Vídeo Asus Dual Rtx 5060 Ti O16g Nvidia Geforce, 16gb Gddr7, 2602mhz, 128 Bits, Opengl4.6, Dlss 4, Ray Tracing - 90yv0mh0-M0na00",
+      "descricao": "Placa De Vídeo Asus Dual Rtx 5060 Ti O16g Nvidia Geforce, 16gb Gddr7, 2602mhz, 128 Bits, Opengl4.6, Dlss 4, Ray Tracing - 90yv0mh0-M0na00",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F730378"
+    },
+    {
+      "id": "4170586",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Fonte Xpg Core Reactor Ii Ve, 850w, 80 Plus Gold, Modular, Pfc Ativo, Preto - 75261436",
+      "descricao": "Fonte Xpg Core Reactor Ii Ve, 850w, 80 Plus Gold, Modular, Pfc Ativo, Preto - 75261436",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F514896"
+    },
+    {
+      "id": "4170581",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Placa De Vídeo Rx 7600 Challenger Asrock Amd Radeon, 8gb Gddr6 - 90-Ga41zz-00uanf",
+      "descricao": "Placa De Vídeo Rx 7600 Challenger Asrock Amd Radeon, 8gb Gddr6 - 90-Ga41zz-00uanf",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F459144"
     },
     {
       "id": "4167258",
@@ -80,6 +388,17 @@
       "cupom": "PEGAOJOGO",
       "validade": "2026-11-13T15:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1087864%2Fjogo-metroid-ravenous-nintendo-switch-2-nsca10000088fgr"
+    },
+    {
+      "id": "4170587",
+      "loja": "Nike BR",
+      "tipo": "cupom",
+      "titulo": "Ganhe R$ 50 OFF em compras acima de R$ 250 com o cupom GANHE50. Válido para produtos elegíveis da campanha",
+      "descricao": "Ganhe R$ 50 OFF em compras acima de R$ 250 com o cupom GANHE50. Válido para produtos elegíveis da campanha",
+      "termos": ".",
+      "cupom": "GANHE50",
+      "validade": "2026-11-14T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17652&awinaffid=3110826&ued=https%3A%2F%2Fwww.nike.com.br%2Fhotsite%2Fganhe50"
     },
     {
       "id": "4166614",
