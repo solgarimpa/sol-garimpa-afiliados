@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-11T13:29:46+00:00",
+  "atualizado_em": "2026-11-11T15:08:38+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -603,6 +603,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-be23af2b77218f502a82",
+      "loja": "BALAROTI",
+      "tipo": "cupom",
+      "titulo": "11/11 BALAROTI",
+      "imagem": "",
+      "link": "https://lmdee.link/sM0UByXj3yNJ",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "11/11BALAROTI",
+      "validade": "2026-11-12T13:00:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-80b667df035303e15643",
       "loja": "Bauducco",
       "tipo": "cupom",
@@ -701,20 +715,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-553797bfed878a6dcd2d",
-      "loja": "China in Box",
-      "tipo": "cupom",
-      "titulo": "Cupom Frete Gratis",
-      "imagem": "",
-      "link": "https://lmdee.link/69aTXVdd4fbx",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "FRETELOMADEE",
-      "validade": "2027-01-01T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-33379d20b3d550b67aed",
       "loja": "Coza",
       "tipo": "cupom",
@@ -725,6 +725,20 @@
       "preco_anterior": null,
       "cupom": "Lomadee20",
       "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-19d65bbfb06b6c56ada3",
+      "loja": "Dyson",
+      "tipo": "promocao",
+      "titulo": "BLACK FRIDAY Dyson",
+      "imagem": "https://cdn.lomadee.com.br/offer/4d4e63e2-2b9f-44e9-8bdf-5f75e20dad5e/banners/imagem%20-%202026-11-11T111636.940.png",
+      "link": "https://lmdee.link/hAMjtkUZ1mQZ",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-12T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -785,16 +799,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-2638eb9c7cf4ce5ab26f",
+      "id": "lc-65792baa4b5b586adf2d",
       "loja": "Iodice",
       "tipo": "promocao",
-      "titulo": "BLACK NOVEMBER! Descontos progressivos 65%Off em 3 ou mais peças!",
-      "imagem": "",
-      "link": "https://lmdee.link/n0Jw1A47NbL0",
+      "titulo": "Especial 11.11 | Novidades com 11% off",
+      "imagem": "https://cdn.lomadee.com.br/offer/ed471f99-9dc1-486c-b088-c2e0c5705e1f/banners/full_banner%20%283%29.png",
+      "link": "https://lmdee.link/5269UOyoolDc",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-17T02:59:59.000Z",
+      "validade": "2026-11-12T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -897,6 +911,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-416633a7f8ca9dc66e32",
+      "loja": "Maria Valentina",
+      "tipo": "promocao",
+      "titulo": "Especial 11.11 | Novidades com 11% off",
+      "imagem": "https://cdn.lomadee.com.br/offer/41fd9998-fe6e-4dc5-9eb8-ce58fd7aa20a/banners/imagem%20-%202026-11-11T111019.672.png",
+      "link": "https://lmdee.link/qeq1gT5aZMpv",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-12T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-2d4c146a77a26bb8123c",
       "loja": "Mobly",
       "tipo": "promocao",
@@ -911,16 +939,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-070caa5022424d97d59c",
+      "id": "lc-1908d4f28aef36820c31",
       "loja": "Morena Rosa",
       "tipo": "promocao",
-      "titulo": "BLACK NOVEMBER! Descontos progressivos 65%Off em 3 ou mais peças!",
-      "imagem": "",
-      "link": "https://lmdee.link/1GhM2jL1liA2",
+      "titulo": "Especial 11.11 Novidades com 11% off",
+      "imagem": "https://cdn.lomadee.com.br/offer/d775472b-efdf-4ac6-a6b8-9b03269ff923/banners/imagem%20-%202026-11-11T110616.344.png",
+      "link": "https://lmdee.link/8ho5WkgD5OgI",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-17T02:59:59.000Z",
+      "validade": "2026-11-12T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -939,16 +967,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-2e245a7c7dfe3ee2cd7e",
+      "id": "lc-b30d4afbeca090ba2d23",
       "loja": "Móveis Carraro",
       "tipo": "promocao",
-      "titulo": "Festival de Cupons Carraro - de R$ 50 a R$ 300 OFF",
-      "imagem": "https://cdn.lomadee.com.br/offer/969cc5cf-4ce6-4f96-9e2d-01f0ad049c64/banners/FESTIVAL_1080x1920.png",
-      "link": "https://lmdee.link/RoVZrZFHqYis",
+      "titulo": "11.11 – Ofertas relâmpago só hoje – Até 40% OFF* – 7% OFF no Pix",
+      "imagem": "https://cdn.lomadee.com.br/offer/0fc55229-e5f2-40e5-8284-40e7c012252f/banners/imagem%20-%202026-11-11T114937.555.png",
+      "link": "https://lmdee.link/vQcE951WFFMX",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": null,
+      "validade": "2026-11-12T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1093,16 +1121,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-dc50f50c12f747166d7a",
+      "id": "lc-c548e496686b9ce40aed",
       "loja": "Zinco",
       "tipo": "promocao",
-      "titulo": "BLACK NOVEMBER! Descontos progressivos 65%Off em 3 ou mais peças!",
-      "imagem": "",
-      "link": "https://lmdee.link/DLBg6Ux9co0l",
+      "titulo": "Especial 11.11 | Novidades com 11% off",
+      "imagem": "https://cdn.lomadee.com.br/offer/d5b68eb2-626f-4180-9f8d-9104dc661683/banners/imagem%20-%202026-11-11T112738.162.png",
+      "link": "https://lmdee.link/mhmCRpa94iv8",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-17T02:59:59.000Z",
+      "validade": "2026-11-12T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1173,6 +1201,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2027-01-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-676988b744323d77d096",
+      "loja": "BALAROTI",
+      "tipo": "promocao",
+      "titulo": "OFERTAS 11/11 BALAROTI",
+      "imagem": "https://cdn.lomadee.com.br/offer/b9c43b13-e8a9-4e50-b38d-f306b2c1cda3/banners/11-11%20-%20imagem%201.png",
+      "link": "https://lmdee.link/jxAHirCq616y",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-12T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1289,6 +1331,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-2638eb9c7cf4ce5ab26f",
+      "loja": "Iodice",
+      "tipo": "promocao",
+      "titulo": "BLACK NOVEMBER! Descontos progressivos 65%Off em 3 ou mais peças!",
+      "imagem": "",
+      "link": "https://lmdee.link/n0Jw1A47NbL0",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-17T02:59:59.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-6ad4e0b34b00deda15b0",
       "loja": "Kidy Calçados",
       "tipo": "promocao",
@@ -1359,26 +1415,26 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-070caa5022424d97d59c",
+      "loja": "Morena Rosa",
+      "tipo": "promocao",
+      "titulo": "BLACK NOVEMBER! Descontos progressivos 65%Off em 3 ou mais peças!",
+      "imagem": "",
+      "link": "https://lmdee.link/1GhM2jL1liA2",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-17T02:59:59.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-88db0c926054a9af9da1",
       "loja": "Mundo Vem",
       "tipo": "promocao",
       "titulo": "[CATEGORIA] Ramequins",
       "imagem": "",
       "link": "https://lmdee.link/7MISKfU0QDZI",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-46baebe4716d72ac86a2",
-      "loja": "Móveis Carraro",
-      "tipo": "promocao",
-      "titulo": "Módulos de Cozinha - 8% OFF com MODULAR8",
-      "imagem": "https://cdn.lomadee.com.br/offer/01059650-81a6-4fa0-97e2-4083eccc056d/banners/MODULAR8_1064x557.png",
-      "link": "https://lmdee.link/EbWlVCQ6jcrZ",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1453,6 +1509,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-28T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-dc50f50c12f747166d7a",
+      "loja": "Zinco",
+      "tipo": "promocao",
+      "titulo": "BLACK NOVEMBER! Descontos progressivos 65%Off em 3 ou mais peças!",
+      "imagem": "",
+      "link": "https://lmdee.link/DLBg6Ux9co0l",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-17T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1639,34 +1709,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-480461bbca3dee865f84",
-      "loja": "Móveis Carraro",
-      "tipo": "promocao",
-      "titulo": "Lançamentos Carraro - 10% OFF com LANCAMENTOS10",
-      "imagem": "https://cdn.lomadee.com.br/offer/ec3cfdf8-0371-4ab8-a847-20acecd26843/banners/LANCAMENTOS10_1080x1920.png",
-      "link": "https://lmdee.link/5DYHfMpHSgxT",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-4bfe794e2b20b42f123c",
-      "loja": "Sawary",
-      "tipo": "promocao",
-      "titulo": "Temporada de Rodeio",
-      "imagem": "",
-      "link": "https://lmdee.link/xTfMf5WhGpiF",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-27d5c5b79cfc5ebdfd40",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -1831,34 +1873,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-12T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-bb5af2c0883a7399cb04",
-      "loja": "Móveis Carraro",
-      "tipo": "cupom",
-      "titulo": "LANCAMENTOS10 - 10% OFF em Lançamentos",
-      "imagem": "",
-      "link": "https://lmdee.link/Zgad1XW8M6fK",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "LANCAMENTOS10",
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-7c18f03bdcaddea5b727",
-      "loja": "Sawary",
-      "tipo": "promocao",
-      "titulo": "Últimos Dias Mês Do Cliente",
-      "imagem": "",
-      "link": "https://lmdee.link/VxbpF2FfGnOH",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2283,20 +2297,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-890b72814ca708f2943c",
-      "loja": "Brinox",
-      "tipo": "cupom",
-      "titulo": "Cupom perfeito para você divulgar!",
-      "imagem": "",
-      "link": "https://lmdee.link/DZo5pwUvAGaK",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "RENOVACASA",
-      "validade": "2026-12-21T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lp-5adcaf5019c6129b45c6",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
@@ -2701,25 +2701,11 @@
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
       "origem": "Lomadee"
-    },
-    {
-      "id": "lp-755320b557146dba7c76",
-      "loja": "ECO FLAME GARDEN",
-      "tipo": "produto",
-      "titulo": "2 Espreguiçadeiras Double mild chaise",
-      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Prancheta_14_3e39a7f4-f53c-4942-84b3-b1abfe18733f.webp?v=1774380413",
-      "link": "https://lmdee.link/Z0YeqkYPB59U",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
     }
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 156,
+    "com_ofertas": 155,
     "marcas": 132,
     "campanhas": 120,
     "produtos": 60,
