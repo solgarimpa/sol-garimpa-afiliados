@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-11T18:00:27.861386Z",
-  "total": 361,
-  "total_cupons": 123,
+  "atualizado_em": "2026-11-11T18:41:35.702438Z",
+  "total": 358,
+  "total_cupons": 120,
   "total_promocoes": 238,
   "fontes": {
     "Awin": 321,
     "Rakuten": 0,
-    "Lomadee": 40
+    "Lomadee": 37
   },
   "ofertas": [
     {
@@ -537,18 +537,6 @@
       "validade": "2026-12-31T02:33:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=61233&awinaffid=3110826&ued=https%3A%2F%2Fwww.myearfun.com%2Fheadphones%2Fearfun-wave-pro-hi-res-wireless-headphone-black",
       "rede": "Awin"
-    },
-    {
-      "id": "dcbdc6ebff60c6e1f7",
-      "loja": "eles.®",
-      "tipo": "cupom",
-      "titulo": "Oferta Outubro Rosa elas. para emagrecimento 15% off",
-      "descricao": "",
-      "termos": "",
-      "cupom": "outubrorosa",
-      "validade": null,
-      "link": "https://lmdee.link/4w25yU4r7V5b",
-      "rede": "Lomadee"
     },
     {
       "id": "cdeff649f429655f3f",
@@ -1448,30 +1436,6 @@
       "cupom": "LOMADEE",
       "validade": null,
       "link": "https://lmdee.link/SG7hMFDpj30P",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "43e498746ad3f5fe71",
-      "loja": "Zupper",
-      "tipo": "cupom",
-      "titulo": "Cupom de R$ 25,00 de desconto (apenas para primeira compra 1 por CPF)",
-      "descricao": "",
-      "termos": "",
-      "cupom": "ZUPPLOM40",
-      "validade": "2027-01-01T02:30:00Z",
-      "link": "https://lmdee.link/goTvpMKdOivt",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "0f301a486e8c36849c",
-      "loja": "Zupper",
-      "tipo": "cupom",
-      "titulo": "Cupom de R$ 25,00 de desconto (uso ilimitado)",
-      "descricao": "",
-      "termos": "",
-      "cupom": "ZUPPLOM25",
-      "validade": "2027-01-01T02:30:00Z",
-      "link": "https://lmdee.link/geL8GLQ5Mgns",
       "rede": "Lomadee"
     },
     {
