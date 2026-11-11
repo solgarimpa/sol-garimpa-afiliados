@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-11T17:15:32+00:00",
+  "atualizado_em": "2026-11-11T18:06:57+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -175,6 +175,10 @@
       "loja": "Dona Coelha"
     },
     {
+      "id": "55595ca4-52f3-4dd4-9447-a0a081c034bd",
+      "loja": "Óticas Foto Paulo"
+    },
+    {
       "id": "5c3bec7a-fe41-40bb-9a16-684289117b36",
       "loja": "Mérito Comercial"
     },
@@ -237,10 +241,6 @@
     {
       "id": "6fe8dae4-a946-4c32-8142-18de9ac8b608",
       "loja": "Vinícola Jolimont"
-    },
-    {
-      "id": "55595ca4-52f3-4dd4-9447-a0a081c034bd",
-      "loja": "Óticas Foto Paulo"
     },
     {
       "id": "99e48d06-96e6-433c-a392-ca29582dbe2e",
@@ -757,20 +757,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-d0629263e1d88c8e77e0",
-      "loja": "eles.®",
-      "tipo": "cupom",
-      "titulo": "Oferta Outubro Rosa elas. para emagrecimento 15% off",
-      "imagem": "",
-      "link": "https://lmdee.link/4w25yU4r7V5b",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "outubrorosa",
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-af542c632bfe941c53ee",
       "loja": "Friopeças",
       "tipo": "promocao",
@@ -967,6 +953,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-6d60e345ffbfe731d9f1",
+      "loja": "Moto BR",
+      "tipo": "promocao",
+      "titulo": "11.11 :  15% off no pix em produtos selecionados e descontos imperdíveis",
+      "imagem": "",
+      "link": "https://lmdee.link/EplVKuy60YOP",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-12T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-065dfa512d13ef003ea0",
       "loja": "Mundo Vem",
       "tipo": "promocao",
@@ -1135,6 +1135,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-4a24894f08289e92c0d8",
+      "loja": "Vinícola Jolimont",
+      "tipo": "promocao",
+      "titulo": "Vinhos até R$ 89",
+      "imagem": "",
+      "link": "https://lmdee.link/vzvjg8B6xgtz",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-12T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-889c196d94f7e5fe8b75",
       "loja": "Walita",
       "tipo": "cupom",
@@ -1159,20 +1173,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-12T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-3fdea243af09ef5e78f1",
-      "loja": "Zupper",
-      "tipo": "cupom",
-      "titulo": "Cupom de R$ 25,00 de desconto (uso ilimitado)",
-      "imagem": "",
-      "link": "https://lmdee.link/geL8GLQ5Mgns",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "ZUPPLOM25",
-      "validade": "2027-01-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1527,6 +1527,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-3134424805a48fcab898",
+      "loja": "Vinícola Jolimont",
+      "tipo": "promocao",
+      "titulo": "Black Jolimont Somente em 11.11",
+      "imagem": "",
+      "link": "https://lmdee.link/ohkg4ReLmiby",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-12T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-dc50f50c12f747166d7a",
       "loja": "Zinco",
       "tipo": "promocao",
@@ -1537,20 +1551,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-17T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-5f147fca1f2f59c516a2",
-      "loja": "Zupper",
-      "tipo": "cupom",
-      "titulo": "Cupom de R$ 25,00 de desconto (apenas para primeira compra 1 por CPF)",
-      "imagem": "",
-      "link": "https://lmdee.link/goTvpMKdOivt",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "ZUPPLOM40",
-      "validade": "2027-01-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
