@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-11T20:13:51+00:00",
+  "atualizado_em": "2026-11-11T23:06:53+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -1037,15 +1037,15 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-46ae6e380a6ee93cdb07",
+      "id": "lc-10de65d70138fc5b50b2",
       "loja": "Shopee",
-      "tipo": "promocao",
-      "titulo": "Chuva de Achadinhos no 11.11 🔥",
+      "tipo": "cupom",
+      "titulo": ": R$20 OFF em compras acima de R$99",
       "imagem": "",
-      "link": "https://lmdee.link/DaLnRZYo4LJe",
+      "link": "https://lmdee.link/yejwCYbTqzFk",
       "preco": null,
       "preco_anterior": null,
-      "cupom": null,
+      "cupom": "20D3SBL0QU34D0",
       "validade": "2026-11-12T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
@@ -1485,12 +1485,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-fe54aa12f9a6079045d1",
+      "id": "lc-46ae6e380a6ee93cdb07",
       "loja": "Shopee",
       "tipo": "promocao",
-      "titulo": "O 11.11 está chegando e já temos a programação de cupons para vocês se prepararem e organizarem suas divulgações! 🧡   🧡 Cupons da Plataforma: ⏰ 00h | 09h | 12h | 16h | 20h",
+      "titulo": "Chuva de Achadinhos no 11.11 🔥",
       "imagem": "",
-      "link": "https://lmdee.link/tEYJeTeG4dgl",
+      "link": "https://lmdee.link/DaLnRZYo4LJe",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1709,15 +1709,15 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-2c1df057d1468b8914eb",
+      "id": "lc-fe54aa12f9a6079045d1",
       "loja": "Shopee",
-      "tipo": "cupom",
-      "titulo": "R$15 OFF em compras acima de R$65",
+      "tipo": "promocao",
+      "titulo": "O 11.11 está chegando e já temos a programação de cupons para vocês se prepararem e organizarem suas divulgações! 🧡   🧡 Cupons da Plataforma: ⏰ 00h | 09h | 12h | 16h | 20h",
       "imagem": "",
-      "link": "https://lmdee.link/O8Ih4xZUOMj2",
+      "link": "https://lmdee.link/tEYJeTeG4dgl",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "11D011N4SH0",
+      "cupom": null,
       "validade": "2026-11-12T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
@@ -1835,15 +1835,15 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-841f004997b0ae366d45",
+      "id": "lc-2c1df057d1468b8914eb",
       "loja": "Shopee",
       "tipo": "cupom",
-      "titulo": "R$30 OFF para compras acima de R$100",
+      "titulo": "R$15 OFF em compras acima de R$65",
       "imagem": "",
-      "link": "https://lmdee.link/4hajfKIvIEJg",
+      "link": "https://lmdee.link/O8Ih4xZUOMj2",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "L0M4DEE1111SHOPB",
+      "cupom": "11D011N4SH0",
       "validade": "2026-11-12T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
@@ -1928,6 +1928,20 @@
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
+      "validade": "2026-11-12T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-841f004997b0ae366d45",
+      "loja": "Shopee",
+      "tipo": "cupom",
+      "titulo": "R$30 OFF para compras acima de R$100",
+      "imagem": "",
+      "link": "https://lmdee.link/4hajfKIvIEJg",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "L0M4DEE1111SHOPB",
       "validade": "2026-11-12T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
@@ -2153,20 +2167,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-5dfd6c15ad056df41f16",
-      "loja": "Brinox",
-      "tipo": "cupom",
-      "titulo": "R$ 50 em compras acima de R$399",
-      "imagem": "",
-      "link": "https://lmdee.link/nRs51ZGLWI6v",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "BF50",
-      "validade": "2026-12-21T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
