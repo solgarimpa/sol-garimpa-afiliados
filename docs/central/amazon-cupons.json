@@ -1,9 +1,9 @@
 {
   "market": "amazon",
   "name": "Amazon",
-  "generatedAt": "2026-11-11T19:54:06+00:00",
+  "generatedAt": "2026-11-11T22:37:35+00:00",
   "refreshMinutes": 30,
-  "count": 37,
+  "count": 39,
   "sources": {
     "Cuponomia": {
       "ok": false,
@@ -16,11 +16,47 @@
     },
     "WorkerExistente": {
       "ok": true,
-      "quantidade": 3
+      "quantidade": 5
     }
   },
   "note": "Cupons listados nas fontes, nao testados no checkout. Cashback exclusivo de outros sites nao e oferecido pela Sol Garimpa.",
   "coupons": [
+    {
+      "title": "Cupom Amazon - R$400 Off Notebook Acer Selecionados",
+      "couponCode": "ACER",
+      "discountText": "R$ 400 OFF",
+      "description": "Expira em: quinta-feira 12 de novembro de 2026",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-11T21:53:34.928Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-11T22:37:35+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Notebooks com R$ 500 OFF na Amazon",
+      "couponCode": "VEMDE11",
+      "discountText": "R$ 500 OFF",
+      "description": "Seleção de notebooks",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-11T21:35:17.697Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-11T22:37:35+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom de 20% OFF em Produtos Kenveu (Neutrogena)",
+      "couponCode": "LIVE20",
+      "discountText": "20% OFF",
+      "description": "Válido de 11/11, às 09h, até 12/11, às 09h",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-11T21:30:29.850Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-11T22:37:35+00:00",
+      "status": "listed"
+    },
     {
       "title": "10% OFF em cozinha aplicando cupom Amazon",
       "couponCode": "ATIVENOLINK",
@@ -30,7 +66,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -42,7 +78,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -54,7 +90,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -66,7 +102,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -78,7 +114,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -90,7 +126,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -102,7 +138,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -114,7 +150,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -126,7 +162,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -138,7 +174,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -150,7 +186,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -162,7 +198,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -174,7 +210,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -186,7 +222,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -198,7 +234,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom Amazon - R$ 300 Off em Laptops Selecionados",
+      "couponCode": "",
+      "discountText": "R$ 300 OFF",
+      "description": "Lálido até quinta-feira 12 de novembro de 2026",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-11T21:56:41.603Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -210,31 +258,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-11T15:01:43.977Z",
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Amazon 40% OFF em Reforma e Cozinha , itens selecionados",
-      "couponCode": "",
-      "discountText": "40% OFF",
-      "description": "De segunda-feira 28 de setembro de 2026 às 18:00 BRT até quarta-feira 30 de dezembro de 2026",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-11T14:37:56.153Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "[Prime] Itens de Futebol com 40% OFF",
-      "couponCode": "",
-      "discountText": "40% OFF",
-      "description": "Itens do link",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-11T11:38:45.881Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -246,7 +270,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -258,7 +282,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -270,7 +294,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -282,7 +306,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -294,7 +318,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -306,7 +330,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -318,7 +342,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -330,7 +354,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -342,7 +366,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -354,7 +378,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -366,7 +390,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -378,7 +402,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -390,7 +414,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -402,7 +426,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -414,7 +438,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -426,7 +450,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -438,7 +462,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -450,7 +474,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -462,7 +486,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     }
   ]

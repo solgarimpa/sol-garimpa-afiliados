@@ -1,7 +1,7 @@
 {
   "market": "magalu",
   "name": "Magalu",
-  "generatedAt": "2026-11-11T19:54:06+00:00",
+  "generatedAt": "2026-11-11T22:37:35+00:00",
   "refreshMinutes": 30,
   "count": 46,
   "sources": {
@@ -22,6 +22,42 @@
   "note": "Cupons listados nas fontes, nao testados no checkout. Cashback exclusivo de outros sites nao e oferecido pela Sol Garimpa.",
   "coupons": [
     {
+      "title": "Magalu: Cupom de R$110 OFF em compras acima de R$1.000",
+      "couponCode": "CUPOMBLACK110",
+      "discountText": "R$ 110 OFF",
+      "description": "R$110 OFF em compras acima de R$1.000",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-11T22:00:00.000Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-11T22:37:35+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "[ZAP ZAP] Cupom Magalu R$ 11 OFF acima de R$ 25",
+      "couponCode": "CUPOMLUBLACK11",
+      "discountText": "R$ 11 OFF",
+      "description": "Chame a Magalu no WhatsApp: https://wa.me/5511974627106",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-11T21:33:56.904Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-11T22:37:35+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Magalu: Cupom de R$220 OFF em compras acima de R$2.000",
+      "couponCode": "CUPOMINFLU220",
+      "discountText": "R$ 220 OFF",
+      "description": "R$220 OFF em compras acima de R$2.000",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-11T21:00:00.000Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-11T22:37:35+00:00",
+      "status": "listed"
+    },
+    {
       "title": "Cupom Magazine Luiza R$ 250 OFF acima de R$ 2500",
       "couponCode": "QUERO11DO11",
       "discountText": "R$ 250 OFF",
@@ -30,7 +66,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-11T19:03:48.224Z",
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -42,7 +78,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-11T17:58:27.946Z",
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -54,43 +90,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-11T17:34:07.584Z",
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Magalu: Cupom de R$330 OFF em compras acima de R$3.000",
-      "couponCode": "CUPOMINFLU330",
-      "discountText": "R$ 330 OFF",
-      "description": "R$330 OFF em compras acima de R$3.000",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-11T17:00:00.000Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "[APP] Cupom Magalu R$ 500 OFF em R$ 5000",
-      "couponCode": "MEGA11DO11",
-      "discountText": "R$ 500 OFF",
-      "description": "Esgota muito rápido",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-11T16:09:00.319Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Magalu: 11% OFF com cupom | Até R$1.000 de desconto",
-      "couponCode": "CUPOMINFLU11",
-      "discountText": "11% OFF",
-      "description": "11% de desconto limitado até R$1.000 de desconto",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-11T14:30:00.000Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -102,7 +102,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -114,7 +114,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -126,7 +126,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -138,7 +138,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -150,7 +150,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -162,7 +162,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -174,7 +174,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -186,7 +186,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -198,7 +198,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -210,7 +210,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -222,7 +222,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -234,7 +234,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -246,7 +246,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -258,7 +258,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -270,7 +270,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom de desconto Magazine Luiza com R$100 OFF",
+      "couponCode": "",
+      "discountText": "R$ 100 OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -282,7 +294,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -294,7 +306,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -306,7 +318,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -318,7 +330,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -330,7 +342,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -342,7 +354,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -354,7 +366,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -366,7 +378,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -378,7 +390,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -390,7 +402,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -402,7 +414,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -414,7 +426,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -426,7 +438,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -438,7 +450,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -450,7 +462,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -462,7 +474,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -474,7 +486,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -486,7 +498,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -498,7 +510,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -510,7 +522,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -522,19 +534,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Use cupom de desconto Magalu e tenha R$100 OFF",
-      "couponCode": "",
-      "discountText": "R$ 100 OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -546,7 +546,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -558,7 +558,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     },
     {
@@ -570,7 +570,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T19:54:06+00:00",
+      "observedAt": "2026-11-11T22:37:35+00:00",
       "status": "listed"
     }
   ]
