@@ -1,8 +1,8 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-11T19:42:55.070952Z",
-  "total": 324,
+  "atualizado_em": "2026-11-11T22:38:59.420356Z",
+  "total": 325,
   "ofertas": [
     {
       "id": "4170683",
@@ -2445,6 +2445,17 @@
       "cupom": "ZAFADINHO11",
       "validade": "2026-11-12T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1ZAFADINHO11"
+    },
+    {
+      "id": "4171261",
+      "loja": "Posthaus BR",
+      "tipo": "promocao",
+      "titulo": "11 do 11 da Black Friday com até 70% OFF em produtos selecionados em até 10x sem juros + 5% de cashback interno",
+      "descricao": "11 do 11 da Black Friday com até 70% OFF em produtos selecionados em até 10x sem juros + 5% de cashback interno",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17634&awinaffid=3110826&ued=https%3A%2F%2Fwww.posthaus.com.br%2Fmoda%2F11-do-11-da-black-friday%3Flnk%3D17396"
     },
     {
       "id": "4153675",

@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-11T19:42:57.202631Z",
+  "atualizado_em": "2026-11-11T22:39:01.742892Z",
   "total": 360,
-  "total_cupons": 122,
-  "total_promocoes": 238,
+  "total_cupons": 121,
+  "total_promocoes": 239,
   "fontes": {
-    "Awin": 324,
+    "Awin": 325,
     "Rakuten": 0,
-    "Lomadee": 36
+    "Lomadee": 35
   },
   "ofertas": [
     {
@@ -188,30 +188,6 @@
       "cupom": "Lomadee20",
       "validade": null,
       "link": "https://lmdee.link/EXXfFSuBtslm",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "2feaffcb1c78c66fcb",
-      "loja": "Coza",
-      "tipo": "cupom",
-      "titulo": "R$20 off em compras acima de R$150",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BLACK20",
-      "validade": "2026-12-11T02:30:00Z",
-      "link": "https://lmdee.link/SVnu99vLQb3k",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "f5ad1b14e407c2f192",
-      "loja": "Coza",
-      "tipo": "cupom",
-      "titulo": "R$35 off em compras acima de R$200",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BLACK35",
-      "validade": "2026-12-11T02:30:00Z",
-      "link": "https://lmdee.link/X6FCsHGOS2bW",
       "rede": "Lomadee"
     },
     {
@@ -1448,6 +1424,18 @@
       "cupom": "LOMADEE12",
       "validade": "2027-01-01T02:30:00Z",
       "link": "https://lmdee.link/Sw3sUzNLNSN9",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "fd7a66a003a4444937",
+      "loja": "UP Kids",
+      "tipo": "cupom",
+      "titulo": "Especial 11.11 com até 80% + 11% EXTRA em todo o site e app",
+      "descricao": "",
+      "termos": "",
+      "cupom": "11DO11",
+      "validade": "2026-11-14T02:59:59Z",
+      "link": "https://lmdee.link/8Jw24jlIp5zq",
       "rede": "Lomadee"
     },
     {
@@ -4268,6 +4256,18 @@
       "cupom": "",
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=51271&awinaffid=3110826&ued=https%3A%2F%2Fwww.mizuno.com.br%2Fblack-friday-cupons",
+      "rede": "Awin"
+    },
+    {
+      "id": "18e2a780d4cb70b34d",
+      "loja": "Posthaus BR",
+      "tipo": "promocao",
+      "titulo": "11 do 11 da Black Friday com até 70% OFF em produtos selecionados em até 10x sem juros + 5% de cashback interno",
+      "descricao": "11 do 11 da Black Friday com até 70% OFF em produtos selecionados em até 10x sem juros + 5% de cashback interno",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-12T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17634&awinaffid=3110826&ued=https%3A%2F%2Fwww.posthaus.com.br%2Fmoda%2F11-do-11-da-black-friday%3Flnk%3D17396",
       "rede": "Awin"
     },
     {
