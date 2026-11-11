@@ -1,9 +1,9 @@
 {
   "market": "shopee",
   "name": "Shopee",
-  "generatedAt": "2026-11-11T11:24:40+00:00",
+  "generatedAt": "2026-11-11T12:25:36+00:00",
   "refreshMinutes": 30,
-  "count": 45,
+  "count": 44,
   "sources": {
     "Cuponomia": {
       "ok": false,
@@ -16,11 +16,47 @@
     },
     "WorkerExistente": {
       "ok": true,
-      "quantidade": 6
+      "quantidade": 5
     }
   },
   "note": "Cupons listados nas fontes, nao testados no checkout. Cashback exclusivo de outros sites nao e oferecido pela Sol Garimpa.",
   "coupons": [
+    {
+      "title": "Cupom Shopee oferece R$ 15 OFF em R$ 89 em MODA",
+      "couponCode": "NOVM0DA15OFF",
+      "discountText": "R$ 15 OFF",
+      "description": "Consulte as regras e a validade do cupom diretamente na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-11T12:18:31.736Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-11T12:25:36+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom Shopee oferece R$ 35 OFF em R$ 170",
+      "couponCode": "C0M3C0U35",
+      "discountText": "R$ 35 OFF",
+      "description": "Consulte as regras e a validade do cupom diretamente na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-11T12:09:52.991Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-11T12:25:36+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom Shopee oferece R$ 30 OFF em R$ 100",
+      "couponCode": "ESF3R41111SHOPB",
+      "discountText": "R$ 30 OFF",
+      "description": "Consulte as regras e a validade do cupom diretamente na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-11T11:59:35.697Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-11T12:25:36+00:00",
+      "status": "listed"
+    },
     {
       "title": "Cupom Shopee oferece R$ 20 OFF em R$ 99",
       "couponCode": "11D31GH",
@@ -30,7 +66,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-11T03:34:20.202Z",
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -42,7 +78,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -54,55 +90,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-11T03:26:19.610Z",
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Shopee - R$160 OFF acima R$1500 Moveis",
-      "couponCode": "",
-      "discountText": "R$ 160 OFF",
-      "description": "https://s.shopee.com.br/2Vsq7DlU4q",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-11T03:14:08.032Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Shopee - R$80 OFF Acima de R$549 Auto e Moto",
-      "couponCode": "",
-      "discountText": "R$ 80 OFF",
-      "description": "https://s.shopee.com.br/2Vsq7DlU4q",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-11T03:09:50.498Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Shopee - R$70 OFF Acima de R$599 Casa e Decoração",
-      "couponCode": "",
-      "discountText": "R$ 70 OFF",
-      "description": "https://s.shopee.com.br/2Vsq7DlU4q",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-11T03:08:48.436Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Shopee oferece R$ 60 OFF em R$ 450 em Tecnologia",
-      "couponCode": "",
-      "discountText": "R$ 60 OFF",
-      "description": "Consulte as regras e a validade do cupom diretamente na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-11T03:03:28.835Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -114,7 +102,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -126,7 +114,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -138,7 +126,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -150,7 +138,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -162,7 +150,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -174,7 +162,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -186,7 +174,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -198,7 +186,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -210,7 +198,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -222,7 +210,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -234,7 +222,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -246,7 +234,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -258,7 +246,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -270,7 +258,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -282,7 +270,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -294,7 +282,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -306,7 +294,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -318,7 +306,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -330,7 +318,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -342,7 +330,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -354,7 +342,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -366,7 +354,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -378,7 +366,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -390,7 +378,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -402,7 +390,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -414,7 +402,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -426,7 +414,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -438,7 +426,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -450,7 +438,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -462,7 +450,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -474,7 +462,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -486,7 +474,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -498,7 +486,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -510,7 +498,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -522,7 +510,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -534,7 +522,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -546,7 +534,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -558,7 +546,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     }
   ]

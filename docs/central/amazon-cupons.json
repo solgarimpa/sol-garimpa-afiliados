@@ -1,7 +1,7 @@
 {
   "market": "amazon",
   "name": "Amazon",
-  "generatedAt": "2026-11-11T11:24:40+00:00",
+  "generatedAt": "2026-11-11T12:25:36+00:00",
   "refreshMinutes": 30,
   "count": 35,
   "sources": {
@@ -22,6 +22,30 @@
   "note": "Cupons listados nas fontes, nao testados no checkout. Cashback exclusivo de outros sites nao e oferecido pela Sol Garimpa.",
   "coupons": [
     {
+      "title": "Cupom Amazon 100 off acima de R$ 999",
+      "couponCode": "CURTE11DO11",
+      "discountText": "R$ 999 OFF",
+      "description": "Esgota rapidoooo",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-11T12:02:05.983Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-11T12:25:36+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "[1ª Compra APP Amazon] R$30 OFF em compras acima de R$100",
+      "couponCode": "30COMPELANDO",
+      "discountText": "R$ 30 OFF",
+      "description": "Cupom Exclusivo!! * R$30 OFF em compras acima de R$100 * Válido só pra 1ª compra no app da Amazon * De 11/11 (00h00) até 30/11 (23h59) * 1 uso por cliente",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-11T12:00:00.000Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-11T12:25:36+00:00",
+      "status": "listed"
+    },
+    {
       "title": "Cupom Amazon 35% OFF limitado a R$ 50 OFF",
       "couponCode": "VIROU11DO11",
       "discountText": "35% OFF",
@@ -30,19 +54,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-11T03:00:00.000Z",
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "15% OFF em Brinquedos na Amazon no APP",
-      "couponCode": "BRINQU3DOS15",
-      "discountText": "15% OFF",
-      "description": "Valido na lista do itens",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-09T20:55:22.287Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -54,7 +66,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -66,7 +78,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -78,7 +90,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -90,7 +102,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -102,7 +114,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -114,7 +126,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -126,7 +138,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -138,7 +150,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -150,7 +162,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -162,7 +174,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -174,7 +186,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -186,7 +198,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -198,7 +210,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -210,31 +222,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
-      "title": "15% OFF em Apple Watchs",
+      "title": "[Prime] Itens de Futebol com 40% OFF",
       "couponCode": "",
-      "discountText": "15% OFF",
-      "description": "Esta promoção é válida apenas para produtos vendidos pela Amazon.com.br e não por vendedores terceiros (mesmo que enviados pela Amazon)",
+      "discountText": "40% OFF",
+      "description": "Itens do link",
       "sources": [],
       "sourceUrl": "",
-      "publishedAt": "2026-11-11T01:48:42.652Z",
+      "publishedAt": "2026-11-11T11:38:45.881Z",
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "10% OFF em Smartphones Selecionados",
-      "couponCode": "",
-      "discountText": "10% OFF",
-      "description": "Esta promoção é válida apenas para produtos vendidos pela Amazon.com.br e não por vendedores terceiros (mesmo que enviados pela Amazon)",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-11T01:47:01.075Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -246,7 +246,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -258,7 +258,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -270,7 +270,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -282,7 +282,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -294,7 +294,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -306,7 +306,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -318,7 +318,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -330,7 +330,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -342,7 +342,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -354,7 +354,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -366,7 +366,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -378,7 +378,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -390,7 +390,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -402,7 +402,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -414,7 +414,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -426,7 +426,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     },
     {
@@ -438,7 +438,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T11:24:40+00:00",
+      "observedAt": "2026-11-11T12:25:36+00:00",
       "status": "listed"
     }
   ]
