@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-11T16:08:31+00:00",
+  "atualizado_em": "2026-11-11T17:15:32+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -659,12 +659,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-ee606a3fe59a6e0e25b0",
+      "id": "lc-7b31eb63f17207e42c03",
       "loja": "Buddha SPA",
       "tipo": "promocao",
-      "titulo": "Durante todo o mês de novembro, aproveite 12% OFF em combos de terapias no Buddha Spa e permita-se viver uma experiência de relaxamento e renovação.",
-      "imagem": "https://cdn.lomadee.com.br/offer/6b1606c6-5b78-451c-9c64-b4c53ced078f/banners/imagem%20-%202026-11-09T172621.309.png",
-      "link": "https://lmdee.link/pbYNMLgtwuXn",
+      "titulo": "Black Friday 12% OFF – Desconto no combo! Escolha uma das terapias selecionadas (60 min) + Indian Head e garanta seu desconto. – Conhecer a promoção",
+      "imagem": "https://cdn.lomadee.com.br/offer/1be2459e-ad96-469b-a080-3c6fb4a733d6/banners/imagem%20-%202026-11-11T134731.957.png",
+      "link": "https://lmdee.link/krIztWCg3q92",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1093,6 +1093,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-0fc57c68c329a2bffe72",
+      "loja": "UP Kids",
+      "tipo": "promocao",
+      "titulo": "Especial 11.11 com 11% EXTRA em todo o site e app – Cupom 11DO11 – Aproveite agora!",
+      "imagem": "https://cdn.lomadee.com.br/offer/4b78f607-83b2-4f1c-9e82-44cb33980322/banners/imagem%20-%202026-11-11T134851.495.png",
+      "link": "https://lmdee.link/2TYFQswXgoOd",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-12T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-09a9f86d7b14546a1dbf",
       "loja": "Up4you",
       "tipo": "promocao",
@@ -1261,6 +1275,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-1629ceeb5d446f16bc66",
+      "loja": "Buddha SPA",
+      "tipo": "promocao",
+      "titulo": "Lançamento Flor de Lótus – Nova coleção sensorial Buddha Spa",
+      "imagem": "https://cdn.lomadee.com.br/offer/c10a011c-a5aa-4923-9f21-a53f5962acbc/banners/imagem%20-%202026-11-11T134626.015.png",
+      "link": "https://lmdee.link/ywvY8DtLIwI5",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-12T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-15de72c6afc4694268e6",
       "loja": "Coza",
       "tipo": "cupom",
@@ -1285,20 +1313,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-26T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-9c1c5c847b6d9a5aeb08",
-      "loja": "eles.®",
-      "tipo": "promocao",
-      "titulo": "Outubro Rosa elas.",
-      "imagem": "https://cdn.lomadee.com.br/offer/27cc1c2b-f455-4961-a476-13072d01e502/banners/Imagem%20do%20ChatGPT%209%20de%20out.%20de%202026%2C%2017_22_23.png",
-      "link": "https://lmdee.link/IQDiC3iOZkT3",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1597,6 +1611,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-ee606a3fe59a6e0e25b0",
+      "loja": "Buddha SPA",
+      "tipo": "promocao",
+      "titulo": "Durante todo o mês de novembro, aproveite 12% OFF em combos de terapias no Buddha Spa e permita-se viver uma experiência de relaxamento e renovação.",
+      "imagem": "https://cdn.lomadee.com.br/offer/6b1606c6-5b78-451c-9c64-b4c53ced078f/banners/imagem%20-%202026-11-09T172621.309.png",
+      "link": "https://lmdee.link/pbYNMLgtwuXn",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-bcd8e91671704ecefb1c",
       "loja": "Coza",
       "tipo": "cupom",
@@ -1622,20 +1650,6 @@
       "cupom": null,
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-3bd2c1db834cf21116a8",
-      "loja": "eles.®",
-      "tipo": "cupom",
-      "titulo": "Preblack",
-      "imagem": "",
-      "link": "https://lmdee.link/iIBsvCOgPe2m",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "Preblack",
-      "validade": null,
-      "descricao": "",
       "origem": "Lomadee"
     },
     {
@@ -1804,20 +1818,6 @@
       "cupom": null,
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-a6a3f910fb196b6de150",
-      "loja": "eles.®",
-      "tipo": "promocao",
-      "titulo": "PRÉ BLACK FRIDAY EMAGRECIMENTO ELES",
-      "imagem": "https://cdn.lomadee.com.br/offer/938705ff-f523-429f-b809-53ba601b317e/banners/banners_pre_black_eles_10_separados.zip",
-      "link": "https://lmdee.link/QbF7zsGwzdpL",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
       "origem": "Lomadee"
     },
     {
