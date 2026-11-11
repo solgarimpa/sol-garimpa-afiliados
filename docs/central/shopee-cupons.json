@@ -1,9 +1,9 @@
 {
   "market": "shopee",
   "name": "Shopee",
-  "generatedAt": "2026-11-11T00:02:39+00:00",
+  "generatedAt": "2026-11-11T00:57:30+00:00",
   "refreshMinutes": 30,
-  "count": 38,
+  "count": 44,
   "sources": {
     "Cuponomia": {
       "ok": false,
@@ -15,13 +15,24 @@
       "quantidade": 38
     },
     "WorkerExistente": {
-      "ok": false,
-      "quantidade": 0,
-      "erro": "Worker sem cupons no formato esperado"
+      "ok": true,
+      "quantidade": 6
     }
   },
   "note": "Cupons listados nas fontes, nao testados no checkout. Cashback exclusivo de outros sites nao e oferecido pela Sol Garimpa.",
   "coupons": [
+    {
+      "title": "Cupom 50% cashback limitado a 1.500 moedas (0:00hs ate 2:00hs)",
+      "couponCode": "BOR4C0MPR4R11",
+      "discountText": "50% OFF",
+      "description": "Cupom 50% cashback limitado a 1.500 moedas (0:00hs ate 2:00hs)",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-10T22:08:40.350Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-11T00:57:30+00:00",
+      "status": "listed"
+    },
     {
       "title": "Compre com economia de R$40",
       "couponCode": "CLIQUEEGANHE",
@@ -31,7 +42,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -43,7 +54,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -55,7 +66,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -67,7 +78,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -79,7 +90,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -91,7 +102,67 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom Surpresa Shopee - Resgate das 19h as 23h",
+      "couponCode": "",
+      "discountText": "OFERTA",
+      "description": "Resgate nos horários programados pra usar Amanhã das 00h as 2:00h",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-10T23:27:43.767Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-11T00:57:30+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "CUPOM DE FRETE GRÁTIS LIBERADO",
+      "couponCode": "",
+      "discountText": "FRETE GRÁTIS",
+      "description": "Resgate no App",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-10T23:04:18.587Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-11T00:57:30+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "[Válido as 00h] Cupom Shopee - Frete Grátis Sem Mínimo Exclusivo para Vídeo",
+      "couponCode": "",
+      "discountText": "FRETE GRÁTIS",
+      "description": "Válido pra itens Exclusivo pra Vídeo",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-10T20:12:17.942Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-11T00:57:30+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "[Válido as 00h] Cupom Shopee - Frete Grátis Sem Mínimo Todas as Lojas",
+      "couponCode": "",
+      "discountText": "FRETE GRÁTIS",
+      "description": "s.shopee.com.br/9zzCsNkPPu",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-10T20:10:31.130Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-11T00:57:30+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "[Válido as 00h] Cupom Shopee -R$50 OFF acima de R$249 SParcelado",
+      "couponCode": "",
+      "discountText": "R$ 50 OFF",
+      "description": "Resgate as 00h s.shopee.com.br/9zzCsNkPPu",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-10T20:08:11.871Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -103,7 +174,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -115,7 +186,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -127,7 +198,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -139,7 +210,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -151,7 +222,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -163,7 +234,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -175,7 +246,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -187,7 +258,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -199,7 +270,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -211,7 +282,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -223,7 +294,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -235,7 +306,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -247,7 +318,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -259,7 +330,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -271,7 +342,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -283,7 +354,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -295,7 +366,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -307,7 +378,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -319,7 +390,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -331,7 +402,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -343,7 +414,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -355,7 +426,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -367,7 +438,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -379,7 +450,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -391,7 +462,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -403,7 +474,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -415,7 +486,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -427,7 +498,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -439,7 +510,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -451,7 +522,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -463,7 +534,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -475,7 +546,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     }
   ]

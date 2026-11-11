@@ -1,9 +1,9 @@
 {
   "market": "mercado-livre",
   "name": "Mercado Livre",
-  "generatedAt": "2026-11-11T00:02:39+00:00",
+  "generatedAt": "2026-11-11T00:57:30+00:00",
   "refreshMinutes": 30,
-  "count": 34,
+  "count": 39,
   "sources": {
     "Cuponomia": {
       "ok": false,
@@ -15,13 +15,72 @@
       "quantidade": 35
     },
     "WorkerExistente": {
-      "ok": false,
-      "quantidade": 0,
-      "erro": "Worker sem cupons no formato esperado"
+      "ok": true,
+      "quantidade": 5
     }
   },
   "note": "Cupons listados nas fontes, nao testados no checkout. Cashback exclusivo de outros sites nao e oferecido pela Sol Garimpa.",
   "coupons": [
+    {
+      "title": "Exclusivo Mercado Livre: Ganhe 12% OFF em compras a partir de R$149",
+      "couponCode": "MELHORCUPOM",
+      "discountText": "12% OFF",
+      "description": "Apenas categoria Home Electronics com desconto máximo de R$300",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-11T00:30:00.000Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-11T00:57:30+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom Exclusivo Mercado Livre: 15% OFF acima de R$79",
+      "couponCode": "MELIHOJE",
+      "discountText": "15% OFF",
+      "description": "Cupom válido no site inteiro (1P e 3P): 15% OFF em compras acima de R$79, com abatimento máximo de R$100",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-10T23:55:00.000Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-11T00:57:30+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Mercado Livre: Ganhe 12% OFF com cupom exclusivo",
+      "couponCode": "OFERTAS",
+      "discountText": "12% OFF",
+      "description": "Apenas na categoria Home Electronics com desconto máximo de R$300 OFF",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-10T22:30:00.000Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-11T00:57:30+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "21h - 35% limitado a R$50 em Moda e Bem estar",
+      "couponCode": "",
+      "discountText": "35% OFF",
+      "description": "Clique em \"Mais\" na parte inferior da tela \"Cupons relâmpago do 11/11\" E resgate o cupom de 35% OFF",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-11T00:06:43.699Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-11T00:57:30+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "20h - 35% limitado a R$50 em Lojas Oficiais",
+      "couponCode": "",
+      "discountText": "35% OFF",
+      "description": "Clique em \"Mais\" na parte inferior da tela \"Cupons relâmpago do 11/11\" E resgate o cupom de 35% OFF",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-10T23:07:04.113Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-11T00:57:30+00:00",
+      "status": "listed"
+    },
     {
       "title": "11.11 Meli: até R$600 OFF + cupons relâmpago",
       "couponCode": "",
@@ -31,7 +90,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -43,7 +102,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -55,7 +114,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -67,7 +126,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -79,7 +138,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -91,7 +150,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -103,7 +162,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -115,7 +174,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -127,7 +186,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -139,7 +198,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -151,7 +210,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -163,19 +222,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
-      "title": "Cupom Mercado Livre com 12% de desconto",
+      "title": "Cupom Mercado Livre com 15% OFF em todo o site no Esquenta 11.11",
       "couponCode": "",
-      "discountText": "12% OFF",
+      "discountText": "15% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -187,7 +246,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -199,7 +258,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -211,7 +270,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -223,7 +282,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -235,7 +294,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -247,7 +306,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -259,7 +318,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -271,7 +330,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -283,7 +342,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -295,7 +354,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -307,7 +366,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -319,7 +378,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -331,7 +390,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -343,7 +402,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -355,7 +414,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -367,7 +426,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -379,7 +438,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -391,7 +450,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -403,7 +462,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -415,7 +474,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     },
     {
@@ -427,7 +486,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T00:02:39+00:00",
+      "observedAt": "2026-11-11T00:57:30+00:00",
       "status": "listed"
     }
   ]
