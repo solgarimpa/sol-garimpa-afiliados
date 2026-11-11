@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-11T18:06:57+00:00",
+  "atualizado_em": "2026-11-11T19:18:40+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -673,16 +673,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-b28d58a6e7953fe29c27",
+      "id": "lc-c27e5072d74c5e9af869",
       "loja": "Camisaria Colombo",
       "tipo": "promocao",
-      "titulo": "Black November Colombo!",
-      "imagem": "https://cdn.lomadee.com.br/offer/b96c3904-2ec5-4a77-a326-e8718a66082a/banners/Colombo_Black_November_Google_960x1200_com_CTA.jpg",
-      "link": "https://lmdee.link/t4kA4sc6UUOv",
+      "titulo": "11.11 Camisaria Colombo",
+      "imagem": "",
+      "link": "https://lmdee.link/kxudtwthT2fi",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-12-01T02:59:59.000Z",
+      "validade": "2026-11-12T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -753,6 +753,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-16T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-36931ecd50b402ada917",
+      "loja": "Ferramentas Kennedy",
+      "tipo": "promocao",
+      "titulo": "11.11 com descontos imperdíveis",
+      "imagem": "",
+      "link": "https://lmdee.link/gxz3cBrHxWPD",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-12T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -967,20 +981,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-065dfa512d13ef003ea0",
-      "loja": "Mundo Vem",
-      "tipo": "promocao",
-      "titulo": "[CATEGORIA] Copos",
-      "imagem": "",
-      "link": "https://lmdee.link/aeis6lFbJiH9",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-b30d4afbeca090ba2d23",
       "loja": "Móveis Carraro",
       "tipo": "promocao",
@@ -1075,6 +1075,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-30T03:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-6f2091847be39a368021",
+      "loja": "Super Pro Atacado",
+      "tipo": "promocao",
+      "titulo": "11.11 com descontos imperdíveis",
+      "imagem": "",
+      "link": "https://lmdee.link/hzzcNOZRzooI",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-12T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1285,6 +1299,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-12T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-b28d58a6e7953fe29c27",
+      "loja": "Camisaria Colombo",
+      "tipo": "promocao",
+      "titulo": "Black November Colombo!",
+      "imagem": "https://cdn.lomadee.com.br/offer/b96c3904-2ec5-4a77-a326-e8718a66082a/banners/Colombo_Black_November_Google_960x1200_com_CTA.jpg",
+      "link": "https://lmdee.link/t4kA4sc6UUOv",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-12-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1789,20 +1817,6 @@
       "preco_anterior": null,
       "cupom": "BF30",
       "validade": "2026-12-21T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-bdc0bf70fde614d282ce",
-      "loja": "Coza",
-      "tipo": "cupom",
-      "titulo": "R$15 off em compras acima de R$100",
-      "imagem": "",
-      "link": "https://lmdee.link/1QFD5FFnXqZr",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "BLACK15",
-      "validade": "2026-12-11T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2325,20 +2339,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-cb39d936dec613105b71",
-      "loja": "Soulier",
-      "tipo": "promocao",
-      "titulo": "Até 25% na coleção de primavera verão",
-      "imagem": "https://cdn.lomadee.com.br/offer/b0ddcd45-be1d-44d3-998d-5111c589bddd/banners/120x600%20%281%29.jpg",
-      "link": "https://lmdee.link/vIXrh5IyxHHQ",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-12-01T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lp-981849181ec33900ecae",
       "loja": "ECO FLAME GARDEN",
       "tipo": "produto",
@@ -2687,25 +2687,11 @@
       "validade": null,
       "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
       "origem": "Lomadee"
-    },
-    {
-      "id": "lp-e17916a332d7c8a2b589",
-      "loja": "ECO FLAME GARDEN",
-      "tipo": "produto",
-      "titulo": "2 Espreguiçadeiras Double mild chaise",
-      "imagem": "https://cdn.shopify.com/s/files/1/0659/1528/9847/files/Prancheta_12_5cd8459b-a73f-4c66-bb47-dbfabf7a48dc.webp?v=1774380413",
-      "link": "https://lmdee.link/omLQynl43MKh",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "Eco Flame Garden - Móveis para Área Externa de Alta Qualidade Descubra a linha Comfort da Eco Flame Garden e transforme seu espaço ao ar livre em um oásis de conforto e sofisticação. Nossa coleção inclui puffs, lareiras,",
-      "origem": "Lomadee"
     }
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 155,
+    "com_ofertas": 154,
     "marcas": 132,
     "campanhas": 120,
     "produtos": 60,
