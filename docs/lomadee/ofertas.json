@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-11T15:08:38+00:00",
+  "atualizado_em": "2026-11-11T16:08:31+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -603,16 +603,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-be23af2b77218f502a82",
+      "id": "lc-662bb9f215cdea378f41",
       "loja": "BALAROTI",
       "tipo": "cupom",
-      "titulo": "11/11 BALAROTI",
+      "titulo": "10% OFF nas seguintes categorias: Jardinagem, Casa e decoração, Ferramentas, Iluminação, Louças, Pisos e porcelanatos, Elétrica, Metais, Portas e janelas",
       "imagem": "",
-      "link": "https://lmdee.link/sM0UByXj3yNJ",
+      "link": "https://lmdee.link/vuU8UnjsKTuM",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "11/11BALAROTI",
-      "validade": "2026-11-12T13:00:00.000Z",
+      "cupom": "LOMADEE",
+      "validade": "2027-02-11T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -767,6 +767,20 @@
       "preco_anterior": null,
       "cupom": "outubrorosa",
       "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-af542c632bfe941c53ee",
+      "loja": "Friopeças",
+      "tipo": "promocao",
+      "titulo": "11.11 Friopeças: Somente hoje 10% off no pix Em itens selecionados",
+      "imagem": "https://cdn.lomadee.com.br/offer/6c693149-2b26-4255-8a7d-7cc1b8952c44/banners/11_11%20_%2010%25OFF%20no%20pix.png",
+      "link": "https://lmdee.link/wB3MvrcZvRHp",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-12T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1023,15 +1037,15 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-841f004997b0ae366d45",
+      "id": "lc-fe54aa12f9a6079045d1",
       "loja": "Shopee",
-      "tipo": "cupom",
-      "titulo": "R$30 OFF para compras acima de R$100",
+      "tipo": "promocao",
+      "titulo": "O 11.11 está chegando e já temos a programação de cupons para vocês se prepararem e organizarem suas divulgações! 🧡   🧡 Cupons da Plataforma: ⏰ 00h | 09h | 12h | 16h | 20h",
       "imagem": "",
-      "link": "https://lmdee.link/4hajfKIvIEJg",
+      "link": "https://lmdee.link/tEYJeTeG4dgl",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "L0M4DEE1111SHOPB",
+      "cupom": null,
       "validade": "2026-11-12T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
@@ -1205,30 +1219,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-676988b744323d77d096",
+      "id": "lc-be23af2b77218f502a82",
       "loja": "BALAROTI",
-      "tipo": "promocao",
-      "titulo": "OFERTAS 11/11 BALAROTI",
-      "imagem": "https://cdn.lomadee.com.br/offer/b9c43b13-e8a9-4e50-b38d-f306b2c1cda3/banners/11-11%20-%20imagem%201.png",
-      "link": "https://lmdee.link/jxAHirCq616y",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-12T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-6a494c7ce1cb19c4802f",
-      "loja": "Bauducco",
-      "tipo": "promocao",
-      "titulo": "Fornada de Natal",
+      "tipo": "cupom",
+      "titulo": "11/11 BALAROTI",
       "imagem": "",
-      "link": "https://lmdee.link/aDV67SbpzSPG",
+      "link": "https://lmdee.link/sM0UByXj3yNJ",
       "preco": null,
       "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
+      "cupom": "11/11BALAROTI",
+      "validade": "2026-11-12T13:00:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1429,20 +1429,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-88db0c926054a9af9da1",
-      "loja": "Mundo Vem",
-      "tipo": "promocao",
-      "titulo": "[CATEGORIA] Ramequins",
-      "imagem": "",
-      "link": "https://lmdee.link/7MISKfU0QDZI",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-f7de0ae70b64cfab6f59",
       "loja": "Sawary",
       "tipo": "promocao",
@@ -1467,6 +1453,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:59:59.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-2c1df057d1468b8914eb",
+      "loja": "Shopee",
+      "tipo": "cupom",
+      "titulo": "R$15 OFF em compras acima de R$65",
+      "imagem": "",
+      "link": "https://lmdee.link/O8Ih4xZUOMj2",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "11D011N4SH0",
+      "validade": "2026-11-12T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1569,16 +1569,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-dacc943985f951031750",
-      "loja": "Bauducco",
+      "id": "lc-676988b744323d77d096",
+      "loja": "BALAROTI",
       "tipo": "promocao",
-      "titulo": "Cestas de Natal",
-      "imagem": "",
-      "link": "https://lmdee.link/5RDqxMpqPmEj",
+      "titulo": "OFERTAS 11/11 BALAROTI",
+      "imagem": "https://cdn.lomadee.com.br/offer/b9c43b13-e8a9-4e50-b38d-f306b2c1cda3/banners/11-11%20-%20imagem%201.png",
+      "link": "https://lmdee.link/jxAHirCq616y",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": null,
+      "validade": "2026-11-12T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1709,6 +1709,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-841f004997b0ae366d45",
+      "loja": "Shopee",
+      "tipo": "cupom",
+      "titulo": "R$30 OFF para compras acima de R$100",
+      "imagem": "",
+      "link": "https://lmdee.link/4hajfKIvIEJg",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "L0M4DEE1111SHOPB",
+      "validade": "2026-11-12T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-27d5c5b79cfc5ebdfd40",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -1747,20 +1761,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-11af6e9cabee366fb216",
-      "loja": "Bauducco",
-      "tipo": "promocao",
-      "titulo": "Frete Grátis para o estado de SP para pedidos acima de R$ 199",
-      "imagem": "https://cdn.lomadee.com.br/offer/86005dd8-01db-44da-af9c-d08d0542027c/banners/800x1200%20pixels%20-%20com%20logo%20e%20CTA.jpg",
-      "link": "https://lmdee.link/JLVS7g08gIfS",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
