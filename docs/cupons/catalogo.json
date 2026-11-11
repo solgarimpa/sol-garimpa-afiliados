@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-11T12:49:38.706536Z",
-  "total": 142,
-  "total_cupons": 125,
+  "atualizado_em": "2026-11-11T13:55:58.622032Z",
+  "total": 141,
+  "total_cupons": 124,
   "total_promocoes": 17,
   "fontes": {
     "Awin": 100,
     "Rakuten": 0,
-    "Lomadee": 42
+    "Lomadee": 41
   },
   "ofertas": [
     {
@@ -176,18 +176,6 @@
       "cupom": "FRETELOMADEE",
       "validade": "2027-01-01T02:59:59Z",
       "link": "https://lmdee.link/69aTXVdd4fbx",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "a478c787b4a5fe84a6",
-      "loja": "Colorstone",
-      "tipo": "cupom",
-      "titulo": "20% OFF em todo site",
-      "descricao": "",
-      "termos": "",
-      "cupom": "LOMADEE",
-      "validade": "2027-01-01T02:30:00Z",
-      "link": "https://lmdee.link/OjpcW1hfWIo6",
       "rede": "Lomadee"
     },
     {
