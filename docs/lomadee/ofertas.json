@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-11T03:06:17+00:00",
+  "atualizado_em": "2026-11-11T04:14:39+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -995,6 +995,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-841f004997b0ae366d45",
+      "loja": "Shopee",
+      "tipo": "cupom",
+      "titulo": "R$30 OFF para compras acima de R$100",
+      "imagem": "",
+      "link": "https://lmdee.link/4hajfKIvIEJg",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "L0M4DEE1111SHOPB",
+      "validade": "2026-11-12T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-ca00c592e0fea8b845d3",
       "loja": "Sofá na Caixa",
       "tipo": "promocao",
@@ -1607,20 +1621,6 @@
       "preco_anterior": null,
       "cupom": "3POR99",
       "validade": "2026-11-16T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-63f47491d34eb7e2c677",
-      "loja": "Mundo Vem",
-      "tipo": "promocao",
-      "titulo": "[CATEGORIA] Xícaras",
-      "imagem": "",
-      "link": "https://lmdee.link/kdZz2OrnS9ik",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
