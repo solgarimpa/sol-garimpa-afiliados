@@ -1,7 +1,7 @@
 {
   "market": "amazon",
   "name": "Amazon",
-  "generatedAt": "2026-11-11T02:44:28+00:00",
+  "generatedAt": "2026-11-11T03:49:00+00:00",
   "refreshMinutes": 30,
   "count": 41,
   "sources": {
@@ -16,57 +16,45 @@
     },
     "WorkerExistente": {
       "ok": true,
-      "quantidade": 6
+      "quantidade": 5
     }
   },
   "note": "Cupons listados nas fontes, nao testados no checkout. Cashback exclusivo de outros sites nao e oferecido pela Sol Garimpa.",
   "coupons": [
     {
-      "title": "(Selecionados) Cupom de 20% pagando com cartão ELO na Amazon",
-      "couponCode": "ELONOV",
-      "discountText": "20% OFF",
-      "description": "20% off com cartão ELO a partir de R$ 120, limitado a R$ 50",
+      "title": "R$ 500 em Celulares Samsung",
+      "couponCode": "SAMSUNG500",
+      "discountText": "OFERTA",
+      "description": "Lista boa!!!!!!!!",
       "sources": [],
       "sourceUrl": "",
-      "publishedAt": "2026-11-10T18:20:33.415Z",
+      "publishedAt": "2026-11-11T03:21:52.026Z",
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
-      "title": "15% OFF em Brinquedos na Amazon no APP",
-      "couponCode": "BRINQU3DOS15",
-      "discountText": "15% OFF",
-      "description": "Valido na lista do itens",
+      "title": "Cupom Amazon 35% OFF limitado a R$ 50 OFF",
+      "couponCode": "VIROU11DO11",
+      "discountText": "35% OFF",
+      "description": "Geralmente cupons amazon são válidos para itens vendidos e entregues por Amazon",
       "sources": [],
       "sourceUrl": "",
-      "publishedAt": "2026-11-09T20:55:22.287Z",
+      "publishedAt": "2026-11-11T03:00:00.000Z",
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
-      "title": "Itens de Moda com R$ 40 OFF no APP da Amazon",
-      "couponCode": "MODA40",
-      "discountText": "R$ 40 OFF",
-      "description": "corrre aioioiiiiii",
+      "title": "Cupom Amazon R$ 150 OFF acima de R$ 1499",
+      "couponCode": "BLACK150",
+      "discountText": "R$ 150 OFF",
+      "description": "Cupom válido para itens vendidos por Amazon",
       "sources": [],
       "sourceUrl": "",
-      "publishedAt": "2026-11-06T21:24:00.952Z",
+      "publishedAt": "2026-11-11T03:00:00.000Z",
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Seleção de Alimentos com 20% na Amazon",
-      "couponCode": "AQUI20",
-      "discountText": "20% OFF",
-      "description": "Além de alimentos de tem hidratantes",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-06T20:35:12.010Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -78,7 +66,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -90,7 +78,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -102,7 +90,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -114,7 +102,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -126,7 +114,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -138,7 +126,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Garrafas, copos e itens térmicos com 15% OFF",
+      "couponCode": "TERMICOS15",
+      "discountText": "15% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -150,7 +150,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -162,7 +162,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -174,7 +174,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -186,7 +186,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -198,7 +198,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -210,7 +210,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Ganhe 35% off em compras Amazon",
+      "couponCode": "",
+      "discountText": "35% OFF",
+      "description": "link leva para lista que funciona o cupom",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-11T03:16:47.398Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -222,31 +234,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-11T01:48:42.652Z",
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "10% OFF em Smartphones Selecionados",
-      "couponCode": "",
-      "discountText": "10% OFF",
-      "description": "Esta promoção é válida apenas para produtos vendidos pela Amazon.com.br e não por vendedores terceiros (mesmo que enviados pela Amazon)",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-11T01:47:01.075Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "20% OFF em produtos selecionados: cupom relâmpago Amazon",
-      "couponCode": "",
-      "discountText": "20% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -258,7 +246,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -270,7 +258,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -282,7 +270,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -294,7 +282,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Aproveite 10% OFF em casa com cupom Amazon",
+      "couponCode": "",
+      "discountText": "10% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -306,7 +306,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -318,7 +318,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -330,7 +330,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -342,19 +342,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Amazon: 15% OFF na seleção de beleza",
-      "couponCode": "",
-      "discountText": "15% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -366,7 +354,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -378,7 +366,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -390,7 +378,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -402,7 +390,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -414,7 +402,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -426,7 +414,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -438,7 +426,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -450,7 +438,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -462,7 +450,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Garanta 15% de desconto em beleza com voucher Amazon",
+      "couponCode": "",
+      "discountText": "15% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -474,7 +474,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -486,7 +486,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -498,7 +498,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     },
     {
@@ -510,7 +510,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-11T02:44:28+00:00",
+      "observedAt": "2026-11-11T03:49:00+00:00",
       "status": "listed"
     }
   ]
