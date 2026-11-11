@@ -1,9 +1,9 @@
 {
   "market": "magalu",
   "name": "Magalu",
-  "generatedAt": "2026-11-10T23:30:15+00:00",
+  "generatedAt": "2026-11-11T00:02:39+00:00",
   "refreshMinutes": 30,
-  "count": 46,
+  "count": 40,
   "sources": {
     "Cuponomia": {
       "ok": false,
@@ -15,84 +15,13 @@
       "quantidade": 41
     },
     "WorkerExistente": {
-      "ok": true,
-      "quantidade": 6
+      "ok": false,
+      "quantidade": 0,
+      "erro": "Worker sem cupons no formato esperado"
     }
   },
   "note": "Cupons listados nas fontes, nao testados no checkout. Cashback exclusivo de outros sites nao e oferecido pela Sol Garimpa.",
   "coupons": [
-    {
-      "title": "Itens do Aliexpress com 50% OFF na Magazine Luiza",
-      "couponCode": "CUPOMALI50",
-      "discountText": "50% OFF",
-      "description": "Itens selecionados",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-10T19:48:58.629Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "[WhatsAPP] Cupom Magalu R$ 60 OFF acima de R$ 150",
-      "couponCode": "CUPOMLUESQUENTABLACK",
-      "discountText": "R$ 60 OFF",
-      "description": "Chame a Magalu no WhatsApp: wa.me/5511974627106",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-04T22:26:18.031Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Magazine Luiza R$ 300 OFF acima de R$ 3000",
-      "couponCode": "INFLU300",
-      "discountText": "R$ 300 OFF",
-      "description": "Cupom válido para itens vendidos por Magalu",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-04T20:00:00.000Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Magazine Luiza R$ 200 OFF acima de R$ 2000",
-      "couponCode": "INFLU200",
-      "discountText": "R$ 200 OFF",
-      "description": "Cupom válido para itens vendidos por Magalu",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-04T19:55:00.000Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Magazine Luiza R$ 100 OFF acima de R$ 1000",
-      "couponCode": "INFLU100",
-      "discountText": "R$ 100 OFF",
-      "description": "Válido para itens vendidos por Magazine Luiza",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-04T19:48:55.121Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Magazine Luiza R$ 10% OFF em compras de até R$ 1000",
-      "couponCode": "CUPOMBLACKINFLU",
-      "discountText": "10% OFF",
-      "description": "Cupom válido em compras de até R$ 1000 em lojas Parceiras",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-04T14:30:00.000Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
-      "status": "listed"
-    },
     {
       "title": "Cupom Magazine Luiza que funciona!",
       "couponCode": "MAGAZINE",
@@ -102,7 +31,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -114,7 +43,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -126,7 +55,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -138,7 +67,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -150,7 +79,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -162,7 +91,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -174,7 +103,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -186,7 +115,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -198,7 +127,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -210,7 +139,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -222,7 +151,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -234,7 +163,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -246,7 +175,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -258,7 +187,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -270,7 +199,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -282,7 +211,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -294,7 +223,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -306,7 +235,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -318,7 +247,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -330,7 +259,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -342,7 +271,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -354,7 +283,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -366,7 +295,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -378,7 +307,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -390,7 +319,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -402,7 +331,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -414,7 +343,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -426,7 +355,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -438,7 +367,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -450,7 +379,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -462,7 +391,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -474,7 +403,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -486,7 +415,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -498,7 +427,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -510,7 +439,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -522,7 +451,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -534,7 +463,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -546,7 +475,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -558,7 +487,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -570,7 +499,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     }
   ]

@@ -1,9 +1,9 @@
 {
   "market": "mercado-livre",
   "name": "Mercado Livre",
-  "generatedAt": "2026-11-10T23:30:15+00:00",
+  "generatedAt": "2026-11-11T00:02:39+00:00",
   "refreshMinutes": 30,
-  "count": 40,
+  "count": 34,
   "sources": {
     "Cuponomia": {
       "ok": false,
@@ -15,84 +15,13 @@
       "quantidade": 35
     },
     "WorkerExistente": {
-      "ok": true,
-      "quantidade": 6
+      "ok": false,
+      "quantidade": 0,
+      "erro": "Worker sem cupons no formato esperado"
     }
   },
   "note": "Cupons listados nas fontes, nao testados no checkout. Cashback exclusivo de outros sites nao e oferecido pela Sol Garimpa.",
   "coupons": [
-    {
-      "title": "Mercado Livre: Economize 20% com cupom exclusivo acima de R$79",
-      "couponCode": "CORREHOJE",
-      "discountText": "20% OFF",
-      "description": "Desconto máximo de R$60",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-10T23:20:00.000Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Mercado Livre: Ganhe 12% OFF com cupom exclusivo",
-      "couponCode": "OFERTAS",
-      "discountText": "12% OFF",
-      "description": "Eletrônicos e eletrodomésticos com 12% de desconto em compras acima de R$149, até R$300",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-10T22:30:00.000Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Mercado Livre - 15% OFF acima de R$89 limitado à R$20",
-      "couponCode": "FULL1011ENTREGAS",
-      "discountText": "15% OFF",
-      "description": "﻿🚨 Fiquem atentos: A maioria dos cupons do Mercado Livre agora se aplica apenas a itens selecionados. 📌 Dica: Na hora de adicionar o cupom, clique em \"Conferir lista\" para ver todos os produ",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-10T19:02:57.395Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Mercado Livre - R$220 OFF acima de R$1599",
-      "couponCode": "TVCEL1011",
-      "discountText": "R$ 220 OFF",
-      "description": "﻿🚨 Fiquem atentos: A maioria dos cupons do Mercado Livre agora se aplica apenas a itens selecionados. 📌 Dica: Na hora de adicionar o cupom, clique em \"Conferir lista\" para ver todos os produ",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-10T19:02:08.756Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Mercado Livre - R$100 OFF Acima de R$799",
-      "couponCode": "OFERTAMELIMAIS1011",
-      "discountText": "R$ 100 OFF",
-      "description": "﻿🚨 Fiquem atentos: A maioria dos cupons do Mercado Livre agora se aplica apenas a itens selecionados. 📌 Dica: Na hora de adicionar o cupom, clique em \"Conferir lista\" para ver todos os produ",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-10T19:00:47.329Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "20h - 35% limitado a R$50 em Lojas Oficiais",
-      "couponCode": "",
-      "discountText": "35% OFF",
-      "description": "Clique em \"Mais\" na parte inferior da tela \"Cupons relâmpago do 11/11\" E resgate o cupom de 35% OFF",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-10T23:07:04.113Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
-      "status": "listed"
-    },
     {
       "title": "11.11 Meli: até R$600 OFF + cupons relâmpago",
       "couponCode": "",
@@ -102,7 +31,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -114,7 +43,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -126,7 +55,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -138,7 +67,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -150,7 +79,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -162,7 +91,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -174,7 +103,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -186,7 +115,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -198,7 +127,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -210,7 +139,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -222,7 +151,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -234,7 +163,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -246,7 +175,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -258,7 +187,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -270,7 +199,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -282,7 +211,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -294,7 +223,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -306,7 +235,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -318,7 +247,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -330,7 +259,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -342,7 +271,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -354,7 +283,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -366,7 +295,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -378,7 +307,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -390,7 +319,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -402,7 +331,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -414,7 +343,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -426,7 +355,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -438,7 +367,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -450,7 +379,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -462,7 +391,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -474,7 +403,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -486,7 +415,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     },
     {
@@ -498,7 +427,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-10T23:30:15+00:00",
+      "observedAt": "2026-11-11T00:02:39+00:00",
       "status": "listed"
     }
   ]
