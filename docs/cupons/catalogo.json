@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-11T03:42:17.483196Z",
-  "total": 142,
-  "total_cupons": 125,
+  "atualizado_em": "2026-11-11T04:39:40.102872Z",
+  "total": 143,
+  "total_cupons": 126,
   "total_promocoes": 17,
   "fontes": {
     "Awin": 101,
     "Rakuten": 0,
-    "Lomadee": 41
+    "Lomadee": 42
   },
   "ofertas": [
     {
@@ -1364,6 +1364,18 @@
       "cupom": "SEMPARAR96OFF",
       "validade": "2026-12-01T02:59:59Z",
       "link": "https://lmdee.link/yeZLdeqVJchD",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "c8d35b495bba1d8545",
+      "loja": "Shopee",
+      "tipo": "cupom",
+      "titulo": "R$30 OFF para compras acima de R$100",
+      "descricao": "",
+      "termos": "",
+      "cupom": "L0M4DEE1111SHOPB",
+      "validade": "2026-11-12T02:30:00Z",
+      "link": "https://lmdee.link/4hajfKIvIEJg",
       "rede": "Lomadee"
     },
     {
