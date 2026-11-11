@@ -1,11 +1,11 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-11T22:39:01.742892Z",
-  "total": 360,
-  "total_cupons": 121,
+  "atualizado_em": "2026-11-11T23:22:21.616123Z",
+  "total": 361,
+  "total_cupons": 122,
   "total_promocoes": 239,
   "fontes": {
-    "Awin": 325,
+    "Awin": 326,
     "Rakuten": 0,
     "Lomadee": 35
   },
@@ -164,18 +164,6 @@
       "cupom": "BF100",
       "validade": "2026-12-21T02:30:00Z",
       "link": "https://lmdee.link/mGEeBYw6ZwcY",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "f13eaa0f3f9143359b",
-      "loja": "Brinox",
-      "tipo": "cupom",
-      "titulo": "R$ 50 em compras acima de R$399",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BF50",
-      "validade": "2026-12-21T02:30:00Z",
-      "link": "https://lmdee.link/nRs51ZGLWI6v",
       "rede": "Lomadee"
     },
     {
@@ -704,6 +692,18 @@
       "cupom": "PEGAOJOGO",
       "validade": "2026-11-13T15:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1087864%2Fjogo-metroid-ravenous-nintendo-switch-2-nsca10000088fgr",
+      "rede": "Awin"
+    },
+    {
+      "id": "c6f8174be80e75519f",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "11% OFF em itens selecionados na campanha Korujão Especial 11.11",
+      "descricao": "11% OFF em itens selecionados na campanha Korujão Especial 11.11",
+      "termos": ".",
+      "cupom": "KORUJAO",
+      "validade": "2026-11-12T12:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FKORUJAO",
       "rede": "Awin"
     },
     {
@@ -1304,6 +1304,18 @@
       "cupom": "SEMPARAR96OFF",
       "validade": "2026-12-01T02:59:59Z",
       "link": "https://lmdee.link/yeZLdeqVJchD",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "53c7756bd82bf27158",
+      "loja": "Shopee",
+      "tipo": "cupom",
+      "titulo": ": R$20 OFF em compras acima de R$99",
+      "descricao": "",
+      "termos": "",
+      "cupom": "20D3SBL0QU34D0",
+      "validade": "2026-11-12T02:30:00Z",
+      "link": "https://lmdee.link/yejwCYbTqzFk",
       "rede": "Lomadee"
     },
     {

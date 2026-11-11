@@ -1,8 +1,8 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-11T22:38:59.420356Z",
-  "total": 325,
+  "atualizado_em": "2026-11-11T23:22:19.960757Z",
+  "total": 326,
   "ofertas": [
     {
       "id": "4170683",
@@ -2467,6 +2467,17 @@
       "cupom": "",
       "validade": "2026-11-12T07:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=3110826&ued=https%3A%2F%2Fstore.sirui.com%2Fproducts%2Fsirui-swift-series-20mm-f2-4-40mm-f2-2-full-frame-autofocus-lens"
+    },
+    {
+      "id": "4171153",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "11% OFF em itens selecionados na campanha Korujão Especial 11.11",
+      "descricao": "11% OFF em itens selecionados na campanha Korujão Especial 11.11",
+      "termos": ".",
+      "cupom": "KORUJAO",
+      "validade": "2026-11-12T12:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FKORUJAO"
     },
     {
       "id": "4171145",
