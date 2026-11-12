@@ -1,11 +1,11 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-12T06:55:42.551613Z",
-  "total": 144,
+  "atualizado_em": "2026-11-12T07:59:02.998914Z",
+  "total": 143,
   "total_cupons": 127,
-  "total_promocoes": 17,
+  "total_promocoes": 16,
   "fontes": {
-    "Awin": 103,
+    "Awin": 102,
     "Rakuten": 0,
     "Lomadee": 41
   },
@@ -1700,18 +1700,6 @@
       "cupom": "",
       "validade": "2027-01-01T08:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=3110826&ued=https%3A%2F%2Fstore.sirui.com%2Fpages%2Fsales-1",
-      "rede": "Awin"
-    },
-    {
-      "id": "e081486030ae70ab00",
-      "loja": "SIRUI",
-      "tipo": "promocao",
-      "titulo": "SIRUI Swift 20/40mm is Out Now!",
-      "descricao": "Discover the new SIRUI Swift 20mm and 40mm F2.2–2.4 AF lenses, featuring a lightweight design, reliable autofocus, and all-glass optics. Now available from just $149.",
-      "termos": "/",
-      "cupom": "",
-      "validade": "2026-11-12T07:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=3110826&ued=https%3A%2F%2Fstore.sirui.com%2Fproducts%2Fsirui-swift-series-20mm-f2-4-40mm-f2-2-full-frame-autofocus-lens",
       "rede": "Awin"
     },
     {

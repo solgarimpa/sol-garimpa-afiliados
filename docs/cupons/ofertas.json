@@ -1,20 +1,9 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-12T06:55:41.742973Z",
-  "total": 103,
+  "atualizado_em": "2026-11-12T07:59:02.102938Z",
+  "total": 102,
   "ofertas": [
-    {
-      "id": "4153675",
-      "loja": "SIRUI",
-      "tipo": "promocao",
-      "titulo": "SIRUI Swift 20/40mm is Out Now!",
-      "descricao": "Discover the new SIRUI Swift 20mm and 40mm F2.2–2.4 AF lenses, featuring a lightweight design, reliable autofocus, and all-glass optics. Now available from just $149.",
-      "termos": "/",
-      "cupom": "",
-      "validade": "2026-11-12T07:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=3110826&ued=https%3A%2F%2Fstore.sirui.com%2Fproducts%2Fsirui-swift-series-20mm-f2-4-40mm-f2-2-full-frame-autofocus-lens"
-    },
     {
       "id": "4171153",
       "loja": "Kabum BR",
