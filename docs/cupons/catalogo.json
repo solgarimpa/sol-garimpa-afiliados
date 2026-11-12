@@ -1,11 +1,11 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-12T11:18:43.330182Z",
-  "total": 143,
-  "total_cupons": 127,
+  "atualizado_em": "2026-11-12T12:43:43.004156Z",
+  "total": 142,
+  "total_cupons": 126,
   "total_promocoes": 16,
   "fontes": {
-    "Awin": 102,
+    "Awin": 101,
     "Rakuten": 0,
     "Lomadee": 41
   },
@@ -728,18 +728,6 @@
       "cupom": "PEGAOJOGO",
       "validade": "2026-11-13T15:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1087864%2Fjogo-metroid-ravenous-nintendo-switch-2-nsca10000088fgr",
-      "rede": "Awin"
-    },
-    {
-      "id": "c6f8174be80e75519f",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "11% OFF em itens selecionados na campanha Korujão Especial 11.11",
-      "descricao": "11% OFF em itens selecionados na campanha Korujão Especial 11.11",
-      "termos": ".",
-      "cupom": "KORUJAO",
-      "validade": "2026-11-12T12:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FKORUJAO",
       "rede": "Awin"
     },
     {
