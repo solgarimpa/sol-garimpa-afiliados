@@ -174,12 +174,11 @@
     "20742": "2026-11-11T21:12:24.691458+00:00",
     "20743": "2026-11-11T22:23:38.397336+00:00"
   },
-  "ultima_consulta": "2026-11-11T22:23:38.397336+00:00",
+  "ultima_consulta": "2026-11-12T00:37:38.663140+00:00",
   "ultimo_diagnostico": {
     "mensagens_visiveis": 20,
-    "novas": 1,
-    "recentes": 1,
+    "novas": 0,
     "publicadas": 0,
-    "situacao": "verificacao concluida"
+    "situacao": "canal consultado; sem novidades"
   }
 }
