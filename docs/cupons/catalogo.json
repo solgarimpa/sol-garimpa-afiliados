@@ -1,11 +1,11 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-12T20:33:54.166084Z",
-  "total": 377,
-  "total_cupons": 127,
+  "atualizado_em": "2026-11-12T21:30:15.905627Z",
+  "total": 378,
+  "total_cupons": 128,
   "total_promocoes": 250,
   "fontes": {
-    "Awin": 363,
+    "Awin": 368,
     "Rakuten": 0,
     "Lomadee": 36
   },
@@ -1485,6 +1485,18 @@
       "validade": "2026-11-14T02:59:59Z",
       "link": "https://lmdee.link/8Jw24jlIp5zq",
       "rede": "Lomadee"
+    },
+    {
+      "id": "451715af7e7d96a240",
+      "loja": "VX Case BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF com Cupom PRIMEIRACOMPRA",
+      "descricao": "É a sua primeira compra na VX Case? Então não deixe de aproveitar: 10% OFF no seu 1º produto VX Case e sinta a sensação de qualidade, benefícios e vantagens logo na sua primeira compra.",
+      "termos": "Termos e Condições — Cupom PRIMEIRACOMPRA | 10% OFF O cupom PRIMEIRACOMPRA concede 10% OFF exclusivo para novos clientes, válido apenas na primeira compra realizada no site oficial da VX Case. Válido exclusivamente no site oficial da VX Case. O desconto é aplicado mediante a inserção do cupom PRIMEIRACOMPRA no carrinho, antes da finalização do pedido. Oferta válida por tempo indeterminado, podendo ser alterada ou encerrada a qualquer momento pela VX Case. Promoção não cumulativa com outros cupons, campanhas, descontos progressivos ou benefícios promocionais vigentes. Válido para produtos elegíveis, conforme disponibilidade no site. O desconto não é aplicado sobre o valor do frete, taxas ou serviços adicionais. Limitado a 1 (um) uso por CPF, caracterizando-se como benefício exclusivo de primeira compra. A VX Case se reserva o direito de cancelar pedidos que não atendam às regras do cupom.",
+      "cupom": "PRIMEIRACOMPRA",
+      "validade": "2027-01-01T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=117795&awinaffid=3110826&campaign=Primeira+Compra+com+10+OFF&ued=https%3A%2F%2Fwww.vxcase.com.br%2Fdiscount%2FPRIMEIRACOMPRA",
+      "rede": "Awin"
     },
     {
       "id": "2352ff048a0a69653a",

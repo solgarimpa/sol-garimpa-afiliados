@@ -1,8 +1,8 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-12T20:33:52.419256Z",
-  "total": 364,
+  "atualizado_em": "2026-11-12T21:30:14.153746Z",
+  "total": 369,
   "ofertas": [
     {
       "id": "4172734",
@@ -3622,6 +3622,61 @@
       "cupom": "SOLDIERS05",
       "validade": "2027-01-01T02:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=65354&awinaffid=3110826&ued=https%3A%2F%2Fsoldiersnutrition.com.br%2F"
+    },
+    {
+      "id": "3662526",
+      "loja": "VX Case BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF com Cupom PRIMEIRACOMPRA",
+      "descricao": "É a sua primeira compra na VX Case? Então não deixe de aproveitar: 10% OFF no seu 1º produto VX Case e sinta a sensação de qualidade, benefícios e vantagens logo na sua primeira compra.",
+      "termos": "Termos e Condições — Cupom PRIMEIRACOMPRA | 10% OFF O cupom PRIMEIRACOMPRA concede 10% OFF exclusivo para novos clientes, válido apenas na primeira compra realizada no site oficial da VX Case. Válido exclusivamente no site oficial da VX Case. O desconto é aplicado mediante a inserção do cupom PRIMEIRACOMPRA no carrinho, antes da finalização do pedido. Oferta válida por tempo indeterminado, podendo ser alterada ou encerrada a qualquer momento pela VX Case. Promoção não cumulativa com outros cupons, campanhas, descontos progressivos ou benefícios promocionais vigentes. Válido para produtos elegíveis, conforme disponibilidade no site. O desconto não é aplicado sobre o valor do frete, taxas ou serviços adicionais. Limitado a 1 (um) uso por CPF, caracterizando-se como benefício exclusivo de primeira compra. A VX Case se reserva o direito de cancelar pedidos que não atendam às regras do cupom.",
+      "cupom": "PRIMEIRACOMPRA",
+      "validade": "2027-01-01T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=117795&awinaffid=3110826&campaign=Primeira+Compra+com+10+OFF&ued=https%3A%2F%2Fwww.vxcase.com.br%2Fdiscount%2FPRIMEIRACOMPRA"
+    },
+    {
+      "id": "3661978",
+      "loja": "VX Case BR",
+      "tipo": "promocao",
+      "titulo": "Até 70% OFF na compra da 2ª Unidade",
+      "descricao": "Compre 1, o 2º com até 70% OFF. Nesta promoção da VX Case, na compra de 1 acessório VX Case, leve o 2º da mesma categoria com até 70% de desconto.",
+      "termos": "",
+      "cupom": "",
+      "validade": "2027-01-01T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=117795&awinaffid=3110826&campaign=Eu+Quero+Bis&ued=https%3A%2F%2Fwww.vxcase.com.br%2F"
+    },
+    {
+      "id": "3661958",
+      "loja": "VX Case BR",
+      "tipo": "promocao",
+      "titulo": "Compre 1 e Leve 2 Capas VX Case",
+      "descricao": "Dobro de estilo, metade do preço! Na VX Case, comprou 1 capa, leva 2. Adicione as duas capas da seleção no carrinho e ganhe de brinde a de menor valor — mas só enquanto durar o estoque!",
+      "termos": "",
+      "cupom": "",
+      "validade": "2027-01-01T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=117795&awinaffid=3110826&campaign=Leve+Duas+Capas+e+pague+uma&ued=https%3A%2F%2Fwww.vxcase.com.br%2F"
+    },
+    {
+      "id": "3661952",
+      "loja": "VX Case BR",
+      "tipo": "promocao",
+      "titulo": "Até 90% OFF: Outlet VX Case",
+      "descricao": "É agora ou nunca: o Outlet VX Case está liquidando tudo com até 90% OFF! Produtos exclusivos, preços surreais e estoque que pode sumir a qualquer momento",
+      "termos": "",
+      "cupom": "",
+      "validade": "2027-01-01T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=117795&awinaffid=3110826&campaign=Outlet+VX+Case+com+ate+90+OFF&ued=https%3A%2F%2Fwww.vxcase.com.br%2F"
+    },
+    {
+      "id": "3661950",
+      "loja": "VX Case BR",
+      "tipo": "promocao",
+      "titulo": "FRETE GRÁTIS para compras a partir de R$ 249",
+      "descricao": "Quanto mais você leva, menos você gasta: acima de R$ 249, o frete é totalmente gratuito! Transforme seu carrinho em frete grátis.",
+      "termos": "",
+      "cupom": "",
+      "validade": "2027-01-01T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=117795&awinaffid=3110826&campaign=Frete+Gratis+a+partir+de+249&ued=https%3A%2F%2Fwww.vxcase.com.br%2F"
     },
     {
       "id": "4040661",
