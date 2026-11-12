@@ -1,7 +1,7 @@
 {
   "market": "magalu",
   "name": "Magalu",
-  "generatedAt": "2026-11-12T21:41:59+00:00",
+  "generatedAt": "2026-11-12T22:40:48+00:00",
   "refreshMinutes": 30,
   "count": 42,
   "sources": {
@@ -30,7 +30,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-12T13:37:17.735Z",
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -42,7 +42,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-11T23:19:18.250Z",
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -54,19 +54,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
-      "title": "11.11 Magazine Luiza: confira ofertas antecipadas da Black Friday",
+      "title": "11% de desconto com cupom Magalu",
       "couponCode": "",
-      "discountText": "OFERTA",
+      "discountText": "11% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -78,7 +78,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -90,7 +90,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -102,7 +102,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -114,7 +114,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Aproveite R$ 50 OFF com cupom Magazine Luiza",
+      "couponCode": "",
+      "discountText": "R$ 50 OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -126,19 +138,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
-      "title": "Ative código promocional Magazine Luiza e economize R$150",
+      "title": "Código Magalu oferece R$ 50 de desconto",
       "couponCode": "",
-      "discountText": "R$ 150 OFF",
+      "discountText": "R$ 50 OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -150,7 +162,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -162,7 +174,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -174,7 +186,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -186,7 +198,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -198,7 +210,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -210,7 +222,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -222,11 +234,23 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
-      "title": "Cupom de desconto Magazine Luiza com R$100 OFF",
+      "title": "Cupom de desconto Magalu garante R$ 300 OFF",
+      "couponCode": "",
+      "discountText": "R$ 300 OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-12T22:40:48+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom Magazine Luiza com R$ 100 OFF",
       "couponCode": "",
       "discountText": "R$ 100 OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
@@ -234,7 +258,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -246,31 +270,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Magazine Luiza com R$5 de desconto em itens com entrega rápida",
-      "couponCode": "",
-      "discountText": "R$ 5 OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Magazine Luiza garante R$100 OFF",
-      "couponCode": "",
-      "discountText": "R$ 100 OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -282,7 +282,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Economize R$ 100 com cupom Magalu",
+      "couponCode": "",
+      "discountText": "R$ 100 OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -294,7 +306,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -306,7 +318,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -318,19 +330,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
-      "title": "Eletrodomésticos com condições especiais de até 60%",
+      "title": "Ganhe R$ 50 OFF usando cupom Magazine Luiza",
       "couponCode": "",
-      "discountText": "60% OFF",
+      "discountText": "R$ 50 OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -342,7 +354,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Garanta R$ 200 de economia com código Magalu",
+      "couponCode": "",
+      "discountText": "R$ 200 OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -354,31 +378,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Grandes marcas com até 70% de desconto e frete grátis",
-      "couponCode": "",
-      "discountText": "70% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Magazine Luiza com 10% OFF na seleção Asics",
-      "couponCode": "",
-      "discountText": "10% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -390,7 +390,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -402,7 +402,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -414,19 +414,31 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
-      "title": "R$15 OFF aplicando cupom Magazine Luiza",
+      "title": "R$ 100 OFF para você com cupom Magazine Luiza",
       "couponCode": "",
-      "discountText": "R$ 15 OFF",
+      "discountText": "R$ 100 OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "R$ 200 de desconto com código Magazine Luiza",
+      "couponCode": "",
+      "discountText": "R$ 200 OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -438,19 +450,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "R$300 de economia em suas compras: use cupom Magazine Luiza",
-      "couponCode": "",
-      "discountText": "R$ 300 OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -462,7 +462,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -474,7 +474,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -486,7 +486,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Use cupom de desconto Magalu e economize R$ 50",
+      "couponCode": "",
+      "discountText": "R$ 50 OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -498,19 +510,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Use o cupom de desconto Magazine Luiza e aproveite R$200 OFF",
-      "couponCode": "",
-      "discountText": "R$ 200 OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     },
     {
@@ -522,7 +522,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T21:41:59+00:00",
+      "observedAt": "2026-11-12T22:40:48+00:00",
       "status": "listed"
     }
   ]
