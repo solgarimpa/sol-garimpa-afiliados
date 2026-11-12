@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-12T13:32:29+00:00",
+  "atualizado_em": "2026-11-12T15:13:07+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -561,16 +561,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-50c013a4b2ef1516be9a",
+      "id": "lc-eb60a39e5984fa3ef1ff",
       "loja": "Anhanguera Ferramentas",
       "tipo": "promocao",
-      "titulo": "Black Friday Anhanguera Ferramentas",
+      "titulo": "Use o cupom exclusivo e ganhe 6% OFF em selecionados (Código: BLACK6)",
       "imagem": "",
-      "link": "https://lmdee.link/ScDIP120Exls",
+      "link": "https://lmdee.link/zG8j5ILqziah",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": null,
+      "validade": "2026-12-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -701,16 +701,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-553797bfed878a6dcd2d",
+      "id": "lc-10e75c1702891b77d839",
       "loja": "China in Box",
       "tipo": "cupom",
-      "titulo": "Cupom Frete Gratis",
+      "titulo": "25% de desconto em pedidos acima de R$ 60,00",
       "imagem": "",
-      "link": "https://lmdee.link/69aTXVdd4fbx",
+      "link": "https://lmdee.link/8VMMfdnFV58B",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "FRETELOMADEE",
-      "validade": "2027-01-01T02:59:59.000Z",
+      "cupom": "CHINALOMADEE25",
+      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -851,6 +851,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-4620fc7acbbe736078c5",
+      "loja": "Lojas REDE",
+      "tipo": "promocao",
+      "titulo": "Última chance 11.11",
+      "imagem": "https://cdn.lomadee.com.br/offer/fd9af4d5-6420-42e4-b748-83103d66bf33/banners/Sebastian%20com%20ate%2039%25%20OFF.png",
+      "link": "https://lmdee.link/m9GABIJHYDqH",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-13T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1135,6 +1149,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-50c013a4b2ef1516be9a",
+      "loja": "Anhanguera Ferramentas",
+      "tipo": "promocao",
+      "titulo": "Black Friday Anhanguera Ferramentas",
+      "imagem": "",
+      "link": "https://lmdee.link/ScDIP120Exls",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-ab8c31921b04f6dffa6b",
       "loja": "Autoamerica Store",
       "tipo": "promocao",
@@ -1215,6 +1243,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-553797bfed878a6dcd2d",
+      "loja": "China in Box",
+      "tipo": "cupom",
+      "titulo": "Cupom Frete Gratis",
+      "imagem": "",
+      "link": "https://lmdee.link/69aTXVdd4fbx",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "FRETELOMADEE",
+      "validade": "2027-01-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1527,20 +1569,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-e66096d058ee90a49da2",
-      "loja": "ECO FLAME GARDEN",
-      "tipo": "cupom",
-      "titulo": "Cupom de 10% de desconto sem limite de uso por cliente",
-      "imagem": "",
-      "link": "https://lmdee.link/Wxgfxx4SFd8Z",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "LOMADEE",
-      "validade": "2026-11-26T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-3bd2c1db834cf21116a8",
       "loja": "eles.®",
       "tipo": "cupom",
@@ -1579,20 +1607,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2027-01-01T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-0ca98fd0d3b1e79e3e61",
-      "loja": "LITTLE DUCK",
-      "tipo": "cupom",
-      "titulo": "Cupom de 10% de desconto sem limite de uso por cliente",
-      "imagem": "",
-      "link": "https://lmdee.link/M4F1X160qeEM",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "LOMADEE",
-      "validade": "2026-11-26T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1975,20 +1989,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-4a5acef125fe7768be92",
-      "loja": "Sofá na Caixa",
-      "tipo": "cupom",
-      "titulo": "Cupom de 10% de desconto sem limite de uso por cliente",
-      "imagem": "",
-      "link": "https://lmdee.link/EtTGl3WFIjOp",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "LOMADEE",
-      "validade": "2026-11-26T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-f5cc0a3186ba5aea97e8",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -2219,7 +2219,7 @@
     "marcas": 132,
     "campanhas": 120,
     "produtos": 60,
-    "links_solicitados": 5,
+    "links_solicitados": 7,
     "consulta_campanhas": "ok",
     "consulta_produtos": "ok"
   }
