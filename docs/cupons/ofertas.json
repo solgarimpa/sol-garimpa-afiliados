@@ -1,20 +1,9 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-12T13:59:40.687798Z",
-  "total": 101,
+  "atualizado_em": "2026-11-12T15:14:41.688565Z",
+  "total": 100,
   "ofertas": [
-    {
-      "id": "4171145",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "R$ 400 OFF na compra do Console PlayStation 5 Pro Sony SSD 2TB com Controle Sem Fio DualSense Branco",
-      "descricao": "R$ 400 OFF na compra do Console PlayStation 5 Pro Sony SSD 2TB com Controle Sem Fio DualSense Branco",
-      "termos": ".",
-      "cupom": "PRO11DO11",
-      "validade": "2026-11-12T15:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F636960%2Fconsole-playstation-5-pro-sony-ssd-2tb-com-controle-sem-fio-dualsense-branco-1000046552"
-    },
     {
       "id": "4171150",
       "loja": "Kabum BR",

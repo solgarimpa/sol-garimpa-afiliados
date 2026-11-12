@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-12T13:59:41.851780Z",
-  "total": 142,
-  "total_cupons": 126,
+  "atualizado_em": "2026-11-12T15:14:42.899016Z",
+  "total": 139,
+  "total_cupons": 123,
   "total_promocoes": 16,
   "fontes": {
-    "Awin": 101,
+    "Awin": 100,
     "Rakuten": 0,
-    "Lomadee": 41
+    "Lomadee": 39
   },
   "ofertas": [
     {
@@ -188,6 +188,18 @@
       "cupom": "BF50",
       "validade": "2026-12-21T02:30:00Z",
       "link": "https://lmdee.link/nRs51ZGLWI6v",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "f0027ee22d2a709de4",
+      "loja": "China in Box",
+      "tipo": "cupom",
+      "titulo": "25% de desconto em pedidos acima de R$ 60,00",
+      "descricao": "",
+      "termos": "",
+      "cupom": "CHINALOMADEE25",
+      "validade": null,
+      "link": "https://lmdee.link/8VMMfdnFV58B",
       "rede": "Lomadee"
     },
     {
@@ -575,18 +587,6 @@
       "rede": "Awin"
     },
     {
-      "id": "41f72e3c0a5bcffd3c",
-      "loja": "ECO FLAME GARDEN",
-      "tipo": "cupom",
-      "titulo": "Cupom de 10% de desconto sem limite de uso por cliente",
-      "descricao": "",
-      "termos": "",
-      "cupom": "LOMADEE",
-      "validade": "2026-11-26T02:59:59Z",
-      "link": "https://lmdee.link/Wxgfxx4SFd8Z",
-      "rede": "Lomadee"
-    },
-    {
       "id": "dcbdc6ebff60c6e1f7",
       "loja": "eles.®",
       "tipo": "cupom",
@@ -959,18 +959,6 @@
       "rede": "Awin"
     },
     {
-      "id": "9e97ddf114bed080a5",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "R$ 400 OFF na compra do Console PlayStation 5 Pro Sony SSD 2TB com Controle Sem Fio DualSense Branco",
-      "descricao": "R$ 400 OFF na compra do Console PlayStation 5 Pro Sony SSD 2TB com Controle Sem Fio DualSense Branco",
-      "termos": ".",
-      "cupom": "PRO11DO11",
-      "validade": "2026-11-12T15:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F636960%2Fconsole-playstation-5-pro-sony-ssd-2tb-com-controle-sem-fio-dualsense-branco-1000046552",
-      "rede": "Awin"
-    },
-    {
       "id": "972f646e1533ab06a1",
       "loja": "Kabum BR",
       "tipo": "cupom",
@@ -1235,18 +1223,6 @@
       "rede": "Awin"
     },
     {
-      "id": "f63ed94cc8f2dea245",
-      "loja": "LITTLE DUCK",
-      "tipo": "cupom",
-      "titulo": "Cupom de 10% de desconto sem limite de uso por cliente",
-      "descricao": "",
-      "termos": "",
-      "cupom": "LOMADEE",
-      "validade": "2026-11-26T02:59:59Z",
-      "link": "https://lmdee.link/M4F1X160qeEM",
-      "rede": "Lomadee"
-    },
-    {
       "id": "75f929ca507e63a1a9",
       "loja": "Livrarias Curitiba",
       "tipo": "cupom",
@@ -1425,18 +1401,6 @@
       "validade": "2027-01-01T04:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=3110826&campaign=sirui+exclusive+deals+event&ued=https%3A%2F%2Fstore.sirui.com%2Fpages%2Fexclusive-deals",
       "rede": "Awin"
-    },
-    {
-      "id": "edc33714b150e1ba94",
-      "loja": "Sofá na Caixa",
-      "tipo": "cupom",
-      "titulo": "Cupom de 10% de desconto sem limite de uso por cliente",
-      "descricao": "",
-      "termos": "",
-      "cupom": "LOMADEE",
-      "validade": "2026-11-26T02:59:59Z",
-      "link": "https://lmdee.link/EtTGl3WFIjOp",
-      "rede": "Lomadee"
     },
     {
       "id": "46a319277f68fe5d8c",
