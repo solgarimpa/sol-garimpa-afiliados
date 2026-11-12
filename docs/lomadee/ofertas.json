@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-12T12:15:06+00:00",
+  "atualizado_em": "2026-11-12T13:32:29+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -415,16 +415,16 @@
       "loja": "China in Box"
     },
     {
+      "id": "d4f00f2f-a064-4a3e-87a0-83c7589ee65d",
+      "loja": "Moto BR"
+    },
+    {
       "id": "e03cdaaf-233d-4019-9171-0e12be587de0",
       "loja": "Vapza Alimentos"
     },
     {
       "id": "cb4ebfb0-1586-446d-a86b-b894d92d4dea",
       "loja": "Mobly"
-    },
-    {
-      "id": "d4f00f2f-a064-4a3e-87a0-83c7589ee65d",
-      "loja": "Moto BR"
     },
     {
       "id": "d9a040f8-bb54-40d2-804b-150f007305d0",
@@ -1149,16 +1149,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-be23af2b77218f502a82",
+      "id": "lc-81f783aa7516bb11ba1c",
       "loja": "BALAROTI",
       "tipo": "cupom",
-      "titulo": "11/11 BALAROTI",
+      "titulo": "CLIENTEVIP10",
       "imagem": "",
-      "link": "https://lmdee.link/sM0UByXj3yNJ",
+      "link": "https://lmdee.link/daUtg6lAeKHR",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "11/11BALAROTI",
-      "validade": "2026-11-12T13:00:00.000Z",
+      "cupom": "CLIENTEVIP10",
+      "validade": "2026-12-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1485,20 +1485,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-81f783aa7516bb11ba1c",
-      "loja": "BALAROTI",
-      "tipo": "cupom",
-      "titulo": "CLIENTEVIP10",
-      "imagem": "",
-      "link": "https://lmdee.link/daUtg6lAeKHR",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "CLIENTEVIP10",
-      "validade": "2026-12-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-dacc943985f951031750",
       "loja": "Bauducco",
       "tipo": "promocao",
@@ -1537,6 +1523,20 @@
       "preco_anterior": null,
       "cupom": "BLACK20",
       "validade": "2026-12-11T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-e66096d058ee90a49da2",
+      "loja": "ECO FLAME GARDEN",
+      "tipo": "cupom",
+      "titulo": "Cupom de 10% de desconto sem limite de uso por cliente",
+      "imagem": "",
+      "link": "https://lmdee.link/Wxgfxx4SFd8Z",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "LOMADEE",
+      "validade": "2026-11-26T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
