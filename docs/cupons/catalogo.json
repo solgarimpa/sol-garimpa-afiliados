@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-12T02:28:19.302746Z",
-  "total": 361,
-  "total_cupons": 122,
+  "atualizado_em": "2026-11-12T02:57:09.484980Z",
+  "total": 352,
+  "total_cupons": 113,
   "total_promocoes": 239,
   "fontes": {
     "Awin": 326,
     "Rakuten": 0,
-    "Lomadee": 35
+    "Lomadee": 26
   },
   "ofertas": [
     {
@@ -575,42 +575,6 @@
       "rede": "Awin"
     },
     {
-      "id": "28c053d80b99e6012f",
-      "loja": "Homedock",
-      "tipo": "cupom",
-      "titulo": "1ª Compra: R$ 50 OFF para pedidos acima de R$ 1.299,99",
-      "descricao": "",
-      "termos": "",
-      "cupom": "NOVO50",
-      "validade": "2026-11-12T02:30:00Z",
-      "link": "https://lmdee.link/sU7RFKphMZ7z",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "d8ad59509505dfa777",
-      "loja": "Homedock",
-      "tipo": "cupom",
-      "titulo": "R$ 120 OFF para pedidos acima de R$ 3.199,99",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BLACK120",
-      "validade": "2026-11-12T02:30:00Z",
-      "link": "https://lmdee.link/zSc7OJRw57mE",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "4e1af405f9c1195ba0",
-      "loja": "Homedock",
-      "tipo": "cupom",
-      "titulo": "R$ 15 OFF para pedidos acima de R$ 599,99",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BLACK15",
-      "validade": "2026-11-12T02:30:00Z",
-      "link": "https://lmdee.link/AAwrxEkdk0th",
-      "rede": "Lomadee"
-    },
-    {
       "id": "63e045af7610303002",
       "loja": "Homedock",
       "tipo": "cupom",
@@ -620,42 +584,6 @@
       "cupom": "BLACK25",
       "validade": "2026-11-12T02:59:59Z",
       "link": "https://lmdee.link/NvjqQ31Qtkby",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "5e55729ef66e8a8e86",
-      "loja": "Homedock",
-      "tipo": "cupom",
-      "titulo": "R$ 350 OFF para pedidos acima de R$ 4.999,99",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BLACK350",
-      "validade": "2026-11-12T02:30:00Z",
-      "link": "https://lmdee.link/mrQjiM9fxMp5",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "8dbca78cd343d34ad7",
-      "loja": "Homedock",
-      "tipo": "cupom",
-      "titulo": "R$ 500 OFF para pedidos acima de R$ 6.799,99",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BLACK500",
-      "validade": "2026-11-12T02:30:00Z",
-      "link": "https://lmdee.link/VN3NxmhpaGwI",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "6840e52d4f56a8a3f8",
-      "loja": "Homedock",
-      "tipo": "cupom",
-      "titulo": "R$ 80 OFF para pedidos acima de R$ 2.399,99",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BLACK80",
-      "validade": "2026-11-12T02:30:00Z",
-      "link": "https://lmdee.link/rNYr5SuM8uNL",
       "rede": "Lomadee"
     },
     {
@@ -1304,42 +1232,6 @@
       "cupom": "SEMPARAR96OFF",
       "validade": "2026-12-01T02:59:59Z",
       "link": "https://lmdee.link/yeZLdeqVJchD",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "53c7756bd82bf27158",
-      "loja": "Shopee",
-      "tipo": "cupom",
-      "titulo": ": R$20 OFF em compras acima de R$99",
-      "descricao": "",
-      "termos": "",
-      "cupom": "20D3SBL0QU34D0",
-      "validade": "2026-11-12T02:30:00Z",
-      "link": "https://lmdee.link/yejwCYbTqzFk",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "efccebbe424595180d",
-      "loja": "Shopee",
-      "tipo": "cupom",
-      "titulo": "R$15 OFF em compras acima de R$65",
-      "descricao": "",
-      "termos": "",
-      "cupom": "11D011N4SH0",
-      "validade": "2026-11-12T02:30:00Z",
-      "link": "https://lmdee.link/O8Ih4xZUOMj2",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "c8d35b495bba1d8545",
-      "loja": "Shopee",
-      "tipo": "cupom",
-      "titulo": "R$30 OFF para compras acima de R$100",
-      "descricao": "",
-      "termos": "",
-      "cupom": "L0M4DEE1111SHOPB",
-      "validade": "2026-11-12T02:30:00Z",
-      "link": "https://lmdee.link/4hajfKIvIEJg",
       "rede": "Lomadee"
     },
     {
