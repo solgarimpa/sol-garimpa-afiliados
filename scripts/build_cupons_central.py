@@ -20,7 +20,7 @@ FONTES = (
     ("Rakuten", ROOT / "docs/rakuten/ofertas.json"),
     ("Lomadee", ROOT / "docs/lomadee/ofertas.json"),
 )
-MAX_IDADE_FONTE_H = 72
+MAX_IDADE_FONTE_H = 3
 MAX_CUPONS = 2500
 MAX_PROMOS = 250
 
