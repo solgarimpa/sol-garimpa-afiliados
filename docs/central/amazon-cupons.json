@@ -1,9 +1,9 @@
 {
   "market": "amazon",
   "name": "Amazon",
-  "generatedAt": "2026-11-12T22:40:48+00:00",
+  "generatedAt": "2026-11-12T23:37:54+00:00",
   "refreshMinutes": 30,
-  "count": 37,
+  "count": 35,
   "sources": {
     "Cuponomia": {
       "ok": false,
@@ -16,7 +16,7 @@
     },
     "WorkerExistente": {
       "ok": true,
-      "quantidade": 3
+      "quantidade": 1
     }
   },
   "note": "Cupons listados nas fontes, nao testados no checkout. Cashback exclusivo de outros sites nao e oferecido pela Sol Garimpa.",
@@ -30,19 +30,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-12T17:01:01.236Z",
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "10% OFF em cozinha aplicando cupom Amazon",
-      "couponCode": "ATIVENOLINK",
-      "discountText": "10% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -54,7 +42,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Aproveite R$100 para o seu pedido",
+      "couponCode": "CURTE11DO11",
+      "discountText": "OFERTA",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -66,19 +66,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Amazon com 20% OFF, limitado a R$80",
-      "couponCode": "PRIMEBLACK20",
-      "discountText": "20% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -90,7 +78,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom de desconto Amazon com 20% em todo o site",
+      "couponCode": "PRIMEBLACK20",
+      "discountText": "20% OFF",
+      "description": "20% OFF limitado a R$80. Vale só por 30 minutos, das 12h às 12h30",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -102,7 +102,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -114,7 +114,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -126,19 +126,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Esquenta Black: Cupom Amazon de 25% OFF",
-      "couponCode": "BLACK25OFF",
-      "discountText": "25% OFF",
-      "description": "Para produtos selecionados, desconto limitado a R$ 40",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -150,7 +138,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -162,7 +150,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -174,7 +162,43 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Seleção de boleiras de vidro com 5% OFF na Amazon",
+      "couponCode": "ATIVENOLINK",
+      "discountText": "5% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-12T23:37:54+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Seu primeiro eBook com cupom Amazon de 30%",
+      "couponCode": "LER30",
+      "discountText": "30% OFF",
+      "description": "Aplicável na sua primeira compra de eBooks, desconto máximo limitado a R$20",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-12T23:37:54+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Sua compra com R$150 de desconto Amazon válido",
+      "couponCode": "BLACK150",
+      "discountText": "R$ 150 OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -186,31 +210,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Amazon - 40% off em Itens Selecionados",
-      "couponCode": "",
-      "discountText": "40% OFF",
-      "description": "Válido até segunda-feira 30 de novembro de 2026",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-11T23:25:13.355Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Amazon - Exclusivo Prime: 40% off em Futebol Selecionados",
-      "couponCode": "",
-      "discountText": "40% OFF",
-      "description": "Válido até quarta-feira 11 de novembro de 2026",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-11T23:15:41.795Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -222,7 +222,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -234,7 +234,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -246,7 +246,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -258,7 +258,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -270,7 +270,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -282,7 +282,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -294,19 +294,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Amazon de R$150 OFF em compras acima de R$1.499",
-      "couponCode": "",
-      "discountText": "R$ 150 OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -318,7 +306,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -330,7 +318,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -342,19 +330,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom de desconto Amazon com R$100 OFF em todo o site no 11.11",
-      "couponCode": "",
-      "discountText": "R$ 100 OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -366,7 +342,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -378,7 +354,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -390,7 +366,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -402,7 +378,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -414,7 +390,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -426,7 +402,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -438,7 +414,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -450,7 +426,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     },
     {
@@ -462,7 +438,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T22:40:48+00:00",
+      "observedAt": "2026-11-12T23:37:54+00:00",
       "status": "listed"
     }
   ]
