@@ -1,4 +1,4 @@
-name: SOL GARIMPA - Cupons unificados a cada 45 minutos
+name: SOL GARIMPA - Cupons unificados a cada 30 minutos
 
 on:
   workflow_dispatch:
@@ -10,10 +10,7 @@ on:
       - 'docs/cupons/index.html'
       - '.github/workflows/atualizar_cupons_awin.yml'
   schedule:
-    - cron: '0 */3 * * *'
-    - cron: '45 */3 * * *'
-    - cron: '30 1-23/3 * * *'
-    - cron: '15 2-23/3 * * *'
+    - cron: '17,47 * * * *'
 
 permissions:
   contents: write
