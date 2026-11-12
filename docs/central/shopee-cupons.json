@@ -1,7 +1,7 @@
 {
   "market": "shopee",
   "name": "Shopee",
-  "generatedAt": "2026-11-12T20:44:48+00:00",
+  "generatedAt": "2026-11-12T21:41:59+00:00",
   "refreshMinutes": 30,
   "count": 45,
   "sources": {
@@ -30,7 +30,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-12T18:26:51.829Z",
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -42,7 +42,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -54,7 +54,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -66,7 +66,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -78,31 +78,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
-      "title": "R$70 de economia: use cupom Shopee",
-      "couponCode": "70D3D3SC0NT0",
-      "discountText": "R$ 70 OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
+      "title": "R$90 OFF em produtos do link",
+      "couponCode": "AUTO90",
+      "discountText": "R$ 90 OFF",
+      "description": "Válido em produtos selecionados em compras acima de R$799",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Use cupom e receba 50% de volta",
-      "couponCode": "SASH4VILELA",
-      "discountText": "50% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -114,7 +102,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -126,7 +114,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-12T15:03:30.307Z",
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -138,7 +126,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-12T03:05:15.655Z",
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -150,7 +138,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-12T03:02:16.843Z",
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -162,7 +150,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-12T03:01:58.412Z",
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -174,7 +162,19 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-12T03:01:29.243Z",
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "10% OFF em seus pedidos com desconto Shopee",
+      "couponCode": "",
+      "discountText": "10% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -186,7 +186,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -198,7 +198,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -210,7 +210,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Código Shopee garante R$70 de economia em suas compras",
+      "couponCode": "",
+      "discountText": "R$ 70 OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -222,19 +234,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Compre com desconto de 10%",
-      "couponCode": "",
-      "discountText": "10% OFF",
-      "description": "Nas compras acima de R$0 Limite de R$20",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -246,31 +246,43 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
-      "title": "Cupom de desconto Shopee com 10% OFF a partir de R$59",
+      "title": "Cupom de desconto Shopee com R$60 OFF em produtos selecionados",
       "couponCode": "",
-      "discountText": "10% OFF",
+      "discountText": "R$ 60 OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
-      "title": "Cupom de desconto Shopee com R$80 OFF em itens de automotivo",
+      "title": "Cupom de desconto Shopee concede R$15 OFF",
       "couponCode": "",
-      "discountText": "R$ 80 OFF",
+      "discountText": "R$ 15 OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom de desconto Shopee garante R$ 30",
+      "couponCode": "",
+      "discountText": "R$ 30 OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -282,7 +294,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -294,7 +306,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -306,11 +318,11 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
-      "title": "Cupom Shopee: R$20 OFF em pedidos acima de R$199",
+      "title": "Cupom Shopee: R$20 OFF em produtos selecionados",
       "couponCode": "",
       "discountText": "R$ 20 OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
@@ -318,7 +330,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -330,19 +342,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
-      "title": "Economize 20% em suas compras",
+      "title": "Desconto Shopee garante 10% OFF a partir de R$59",
       "couponCode": "",
-      "discountText": "20% OFF",
-      "description": "Desconto máximo de R$20. Confira no link",
+      "discountText": "10% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -354,7 +366,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -366,7 +378,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -378,7 +390,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -390,7 +402,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -402,7 +414,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -414,7 +426,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Ofertas Shopee em produtos com entrega FULL",
+      "couponCode": "",
+      "discountText": "OFERTA",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -426,43 +450,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
-      "title": "Pegue cupom e economize R$90 em pedidos",
+      "title": "Pegue 20% OFF em compras",
       "couponCode": "",
-      "discountText": "R$ 90 OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
+      "discountText": "20% OFF",
+      "description": "Desconto máximo de R$20. Confira no link",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Produtos com entrega FULL com até 50% garantidos",
-      "couponCode": "",
-      "discountText": "50% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Produtos selecionados com R$60 OFF para você",
-      "couponCode": "",
-      "discountText": "R$ 60 OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -474,7 +474,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -486,7 +486,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -498,7 +498,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Receba 50% de volta em moedas Shopee em compras a partir de R$40",
+      "couponCode": "",
+      "discountText": "50% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -510,7 +522,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -522,31 +534,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Todas as lojas com R$15 OFF para você",
-      "couponCode": "",
-      "discountText": "R$ 15 OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Use o cupom Shopee e aproveite economia de R$20",
-      "couponCode": "",
-      "discountText": "R$ 20 OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     },
     {
@@ -558,7 +546,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T20:44:48+00:00",
+      "observedAt": "2026-11-12T21:41:59+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Voucher Shopee oferece R$20 de economia",
+      "couponCode": "",
+      "discountText": "OFERTA",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-12T21:41:59+00:00",
       "status": "listed"
     }
   ]
