@@ -231,7 +231,7 @@ function setup(data){
 }
 
 async function carregarFonte(url){
- const resp=await fetch(url+"?v="+Math.floor(Date.now()/2700000),{cache:"no-store"});
+ const resp=await fetch(url+"?v="+Date.now(),{cache:"no-store"});
  if(!resp.ok)throw Error("HTTP "+resp.status);
  const data=await resp.json();
  if(!data||!Array.isArray(data.ofertas))throw Error("JSON inválido");
@@ -244,23 +244,20 @@ async function load(){
   catch(e){data=await carregarFonte(RESERVA);usouReserva=true}
   const atualizada=validDate(data.atualizado_em);
   if(!atualizada)throw Error("Sem atualização de origem");
-  if((Date.now()-atualizada.getTime())>72*3600000)throw Error("Feed desatualizado");
+  if((Date.now()-atualizada.getTime())>3*3600000||atualizada.getTime()>Date.now()+10*60000)throw Error("Feed desatualizado");
   setup(data);
   if(usouReserva)$("status").textContent+=" • Exibindo cupons Awin enquanto catálogo unificado atualiza.";
  }catch(e){
-  if(!state.pronto){
-    state.pronto=true;state.ofertas=[];
-    $("status").textContent="Catálogo temporariamente indisponível. Não exibimos cupons sem confirmação recente.";
-    $("contagem").textContent="Sem dados atualizados";
-    render();
-  }else{
-    $("status").textContent="Não foi possível consultar uma atualização agora; confira as datas de validade.";
-  }
+  state.pronto=true;
+  state.ofertas=[];
+  render();
+  $("status").textContent="Catálogo temporariamente indisponível. Não exibimos cupons sem confirmação recente.";
+  $("contagem").textContent="Sem dados atualizados";
  }
 }
 $("busca").addEventListener("input",()=>{state.pagina=1;render()});$("lojas").addEventListener("change",()=>{state.pagina=1;render()});$("ordem").addEventListener("change",()=>{state.pagina=1;render()});
 document.querySelectorAll(".pill").forEach(btn=>btn.addEventListener("click",()=>{state.tipo=btn.dataset.type;state.pagina=1;document.querySelectorAll(".pill").forEach(b=>b.setAttribute("aria-pressed",String(b===btn)));render()}));
-load();setInterval(load,45*60*1000);
+load();setInterval(load,5*60*1000);
 })();
 </script>
 </body>
