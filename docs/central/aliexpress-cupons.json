@@ -1,9 +1,9 @@
 {
   "market": "aliexpress",
   "name": "AliExpress",
-  "generatedAt": "2026-11-12T09:29:46+00:00",
+  "generatedAt": "2026-11-12T10:02:37+00:00",
   "refreshMinutes": 30,
-  "count": 39,
+  "count": 35,
   "sources": {
     "Cuponomia": {
       "ok": false,
@@ -15,60 +15,13 @@
       "quantidade": 35
     },
     "WorkerExistente": {
-      "ok": true,
-      "quantidade": 4
+      "ok": false,
+      "quantidade": 0,
+      "erro": "Worker sem cupons no formato esperado"
     }
   },
   "note": "Cupons listados nas fontes, nao testados no checkout. Cashback exclusivo de outros sites nao e oferecido pela Sol Garimpa.",
   "coupons": [
-    {
-      "title": "[Cupom Exclusivo] Cupom Aliexpress R$ 610 OFF acima de R$ 3400",
-      "couponCode": "PELANDO610",
-      "discountText": "R$ 610 OFF",
-      "description": "Dica adicione o cupom a um produto que o cupom fica até o final https://pt.aliexpress.com/item/1005010154482837.html?sp",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-11T03:00:00.000Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Aliexpress R$ 580 OFF acima de R$ 2900",
-      "couponCode": "AESUPER3",
-      "discountText": "R$ 580 OFF",
-      "description": "Dica adicione o cupom a um produto que o cupom fica até o final CUPOM VAI ACABAR!",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-11T03:00:00.000Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Aliexpress R$ 610 OFF acima de R$ 3400",
-      "couponCode": "AFFNOV1111",
-      "discountText": "R$ 610 OFF",
-      "description": "Dica adicione o cupom a um produto que o cupom fica até o final CUPOM VAI ACABAR!",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-11T03:00:00.000Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Aliexpress R$ 780 OFF acima de R$ 4350",
-      "couponCode": "AFFNOV2222",
-      "discountText": "R$ 780 OFF",
-      "description": "Dica adicione o cupom a um produto que o cupom fica até o final CUPOM VAI ACABAR!",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-11T03:00:00.000Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
-      "status": "listed"
-    },
     {
       "title": "11.11: Cupom AliExpress exclusivo com R$16 OFF",
       "couponCode": "",
@@ -78,7 +31,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -90,7 +43,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -102,7 +55,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -114,7 +67,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -126,7 +79,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -138,7 +91,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -150,7 +103,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -162,7 +115,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -174,7 +127,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -186,7 +139,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -198,7 +151,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -210,7 +163,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -222,7 +175,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -234,7 +187,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -246,7 +199,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -258,7 +211,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -270,7 +223,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -282,7 +235,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -294,7 +247,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -306,7 +259,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -318,7 +271,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -330,7 +283,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -342,7 +295,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -354,7 +307,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -366,7 +319,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -378,7 +331,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -390,7 +343,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -402,7 +355,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -414,7 +367,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -426,7 +379,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -438,7 +391,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -450,7 +403,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -462,7 +415,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -474,7 +427,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     },
     {
@@ -486,7 +439,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-12T09:29:46+00:00",
+      "observedAt": "2026-11-12T10:02:37+00:00",
       "status": "listed"
     }
   ]
