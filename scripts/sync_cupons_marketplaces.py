@@ -76,6 +76,13 @@ EXCLUSIVE = re.compile(
     re.I,
 )
 
+# Nao publicar codigos que a propria fonte identifica como indisponiveis.
+INACTIVE_TITLE = re.compile(
+    r"^\s*(?:\[\s*(?:resgatad[oa]|esgotad[oa]|expirad[oa]|vencid[oa]|encerrad[oa]|finalizad[oa])\s*\]"
+    r"|(?:cupom\s+)?(?:esgotad[oa]|expirad[oa]|vencid[oa]|encerrad[oa]|finalizad[oa])\b)",
+    re.I,
+)
+
 
 def plain(value):
     return re.sub(r"\s+", " ", BeautifulSoup(str(value or ""), "html.parser").get_text(" ", strip=True)).strip()
@@ -137,7 +144,7 @@ def record(title, code, desc, source, url, published=None, expiry=None):
     title = plain(title)[:175]
     desc = summary(desc)
     normalized = norm(title)
-    if len(title) < 10 or "?" in title or EXCLUDE.search(normalized):
+    if len(title) < 10 or "?" in title or EXCLUDE.search(normalized) or INACTIVE_TITLE.search(title):
         return None
     if EXCLUSIVE.search(norm(title + " " + desc)):
         return None
@@ -295,7 +302,7 @@ def parse_worker(market, conf):
         # Itens Meliuz so entram se aparecerem na pagina publica atual.
         if src != "Pelando" or not dt_published:
             continue
-        if NOW < dt_published - dt.timedelta(minutes=5) or NOW - dt_published > dt.timedelta(days=7):
+        if NOW < dt_published - dt.timedelta(minutes=5) or NOW - dt_published > dt.timedelta(hours=24):
             continue
         r = record(
             c.get("title"), c.get("couponCode") or c.get("code"),
@@ -364,6 +371,8 @@ def process(market, conf):
                 item["description"] = "Consulte as regras e a validade do cupom diretamente na loja."
             if "pelando" in norm(item.get("title", "")):
                 item["title"] = f"Cupom {nome_loja} - confira as condicoes"
+    # Diagnostico completo apenas nos logs; nomes dos agregadores nao vao para a pagina.
+    print("STATUS FONTES", market, statuses, flush=True)
     statuses.pop("Pelando", None)
     if not records:
         print("ERRO", market, "sem dados; arquivo anterior preservado", statuses, flush=True)
