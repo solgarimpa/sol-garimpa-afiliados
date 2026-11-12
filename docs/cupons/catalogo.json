@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-12T17:37:56.522870Z",
-  "total": 381,
-  "total_cupons": 131,
+  "atualizado_em": "2026-11-12T18:35:15.494994Z",
+  "total": 377,
+  "total_cupons": 127,
   "total_promocoes": 250,
   "fontes": {
     "Awin": 363,
     "Rakuten": 0,
-    "Lomadee": 40
+    "Lomadee": 36
   },
   "ofertas": [
     {
@@ -44,18 +44,6 @@
       "cupom": "LOMADEE",
       "validade": "2027-02-11T02:30:00Z",
       "link": "https://lmdee.link/vuU8UnjsKTuM",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "296a5945fd84c53ef9",
-      "loja": "BALAROTI",
-      "tipo": "cupom",
-      "titulo": "CLIENTEVIP10",
-      "descricao": "",
-      "termos": "",
-      "cupom": "CLIENTEVIP10",
-      "validade": "2026-12-01T02:30:00Z",
-      "link": "https://lmdee.link/daUtg6lAeKHR",
       "rede": "Lomadee"
     },
     {
@@ -155,18 +143,6 @@
       "rede": "Lomadee"
     },
     {
-      "id": "1e4b116008a1874259",
-      "loja": "Brinox",
-      "tipo": "cupom",
-      "titulo": "Cupom perfeito para você divulgar!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "RENOVACASA",
-      "validade": "2026-12-21T02:30:00Z",
-      "link": "https://lmdee.link/DZo5pwUvAGaK",
-      "rede": "Lomadee"
-    },
-    {
       "id": "af19a5a02d0026f911",
       "loja": "Brinox",
       "tipo": "cupom",
@@ -212,18 +188,6 @@
       "cupom": "FRETELOMADEE",
       "validade": "2027-01-01T02:59:59Z",
       "link": "https://lmdee.link/69aTXVdd4fbx",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "a478c787b4a5fe84a6",
-      "loja": "Colorstone",
-      "tipo": "cupom",
-      "titulo": "20% OFF em todo site",
-      "descricao": "",
-      "termos": "",
-      "cupom": "LOMADEE",
-      "validade": "2027-01-01T02:30:00Z",
-      "link": "https://lmdee.link/OjpcW1hfWIo6",
       "rede": "Lomadee"
     },
     {
@@ -1364,18 +1328,6 @@
       "cupom": "SHOES10",
       "validade": "2026-12-01T02:59:59Z",
       "link": "https://lmdee.link/m0zR9Eohrlwb",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "1d28b29f5f8f78153f",
-      "loja": "Móveis Carraro",
-      "tipo": "cupom",
-      "titulo": "LANCAMENTOS10 - 10% OFF em Lançamentos",
-      "descricao": "",
-      "termos": "",
-      "cupom": "LANCAMENTOS10",
-      "validade": null,
-      "link": "https://lmdee.link/Zgad1XW8M6fK",
       "rede": "Lomadee"
     },
     {
