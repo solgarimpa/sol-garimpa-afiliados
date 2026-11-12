@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-12T16:20:21+00:00",
+  "atualizado_em": "2026-11-12T17:18:51+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -547,6 +547,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-5e26167a519887762b85",
+      "loja": "Amoedo",
+      "tipo": "promocao",
+      "titulo": "5° especial Amoedo: 5 produtos, 5 preços, Somente 5° feira",
+      "imagem": "",
+      "link": "https://lmdee.link/TRu0bQnjC3Wj",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-13T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-e6db3727ace010beb24c",
       "loja": "AmoKarité",
       "tipo": "promocao",
@@ -934,6 +948,20 @@
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-37569ff75eff64af34a4",
+      "loja": "PCYES",
+      "tipo": "cupom",
+      "titulo": "10% off na sua primeira compra",
+      "imagem": "",
+      "link": "https://lmdee.link/jk2E9pzFLxY1",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "BEMVINDO10",
       "validade": null,
       "descricao": "",
       "origem": "Lomadee"
@@ -1639,20 +1667,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-63f47491d34eb7e2c677",
-      "loja": "Mundo Vem",
-      "tipo": "promocao",
-      "titulo": "[CATEGORIA] Xícaras",
-      "imagem": "",
-      "link": "https://lmdee.link/kdZz2OrnS9ik",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-480461bbca3dee865f84",
       "loja": "Móveis Carraro",
       "tipo": "promocao",
@@ -1831,20 +1845,6 @@
       "preco_anterior": null,
       "cupom": "SHOES10",
       "validade": "2026-12-01T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-81b3cfd128289ab772ba",
-      "loja": "Mundo Vem",
-      "tipo": "promocao",
-      "titulo": "[CATEGORIA] Sopeiras e Bowls",
-      "imagem": "https://cdn.lomadee.com.br/offer/ee905ca3-d07a-4d0c-a6dd-9463259fb060/banners/750x1351%20%288%29.jpg",
-      "link": "https://lmdee.link/uFdE8I7ZdVNm",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
