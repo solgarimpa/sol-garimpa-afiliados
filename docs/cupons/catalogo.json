@@ -1,6 +1,6 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-12T12:43:43.004156Z",
+  "atualizado_em": "2026-11-12T13:59:41.851780Z",
   "total": 142,
   "total_cupons": 126,
   "total_promocoes": 16,
@@ -44,18 +44,6 @@
       "cupom": "LOMADEE",
       "validade": "2027-02-11T02:30:00Z",
       "link": "https://lmdee.link/vuU8UnjsKTuM",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "bfd97b04fb109af589",
-      "loja": "BALAROTI",
-      "tipo": "cupom",
-      "titulo": "11/11 BALAROTI",
-      "descricao": "",
-      "termos": "",
-      "cupom": "11/11BALAROTI",
-      "validade": "2026-11-12T13:00:00Z",
-      "link": "https://lmdee.link/sM0UByXj3yNJ",
       "rede": "Lomadee"
     },
     {
@@ -585,6 +573,18 @@
       "validade": "2026-12-31T02:33:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=61233&awinaffid=3110826&ued=https%3A%2F%2Fwww.myearfun.com%2Fheadphones%2Fearfun-wave-pro-hi-res-wireless-headphone-black",
       "rede": "Awin"
+    },
+    {
+      "id": "41f72e3c0a5bcffd3c",
+      "loja": "ECO FLAME GARDEN",
+      "tipo": "cupom",
+      "titulo": "Cupom de 10% de desconto sem limite de uso por cliente",
+      "descricao": "",
+      "termos": "",
+      "cupom": "LOMADEE",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://lmdee.link/Wxgfxx4SFd8Z",
+      "rede": "Lomadee"
     },
     {
       "id": "dcbdc6ebff60c6e1f7",
