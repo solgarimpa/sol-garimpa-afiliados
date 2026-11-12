@@ -62,10 +62,20 @@ const atual=CONFIG[escolhido];
 document.documentElement.setAttribute("data-loja",escolhido);
 document.title="Cupons "+atual.nome+" | Sol Garimpa";
 const JSON_URL="https://solgarimpa.github.io/sol-garimpa-afiliados/central/"+escolhido+"-cupons.json";
-const LINK_SHOPEE=atual.link;
+const LINK_LOJA=atual.link;
+const IDADE_MAXIMA_MS=90*60*1000;
 const el=id=>document.getElementById(id);
 const fmt=new Intl.DateTimeFormat("pt-BR",{day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit",timeZone:"America/Sao_Paulo"});
 let todos=[], filtro="todos";
+function indisponivel(c){
+  const title=norm(c.title);
+  return /^(?:\[\s*(?:resgatad[oa]|esgotad[oa]|expirad[oa]|vencid[oa]|encerrad[oa]|finalizad[oa])\s*\]|(?:cupom\s+)?(?:esgotad[oa]|expirad[oa]|vencid[oa]|encerrad[oa]|finalizad[oa])\b)/.test(title);
+}
+function aindaValido(c){
+  if(!c.expiresAt)return true;
+  const fim=Date.parse(c.expiresAt);
+  return Number.isFinite(fim)&&fim>Date.now();
+}
 function txt(v){return String(v==null?"":v).trim()}
 function norm(v){return txt(v).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()}
 function node(tag,classe,texto){const n=document.createElement(tag);if(classe)n.className=classe;if(texto!==undefined)n.textContent=texto;return n}
@@ -82,7 +92,7 @@ function cartao(c){
     btn.type="button";btn.onclick=async()=>{let ok=false;try{await navigator.clipboard.writeText(c.couponCode);ok=true}catch(e){const t=document.createElement("textarea");t.value=c.couponCode;t.style.position="fixed";t.style.opacity="0";document.body.appendChild(t);t.select();try{ok=document.execCommand("copy")}catch(e){}t.remove()}btn.textContent=ok?"COPIADO ✓":"SELECIONE O CÓDIGO";if(ok)setTimeout(()=>btn.textContent="COPIAR",2500)};
     a.append(cod,btn);art.appendChild(a);
   }else art.appendChild(node("div","aviso","🎟️ Consulte as condições de resgate na loja"));
-  const link=node("a","acao",c.status==="unverified"?"CONFERIR CÓDIGO":(c.couponCode?"USAR CUPOM":"VER OFERTA NA LOJA"));link.href=LINK_SHOPEE;link.target="_blank";link.rel="noopener noreferrer nofollow";art.appendChild(link);
+  const link=node("a","acao",c.status==="unverified"?"CONFERIR CÓDIGO":(c.couponCode?"USAR CUPOM":"VER OFERTA NA LOJA"));link.href=LINK_LOJA;link.target="_blank";link.rel="noopener noreferrer nofollow";art.appendChild(link);
   return art;
 }
 function desenhar(){
@@ -97,13 +107,20 @@ async function atualizar(){
     const resposta=await fetch(JSON_URL+"?v="+Date.now(),{cache:"no-store"});
     if(!resposta.ok)throw new Error("HTTP "+resposta.status);
     const dados=await resposta.json();
-    if(!Array.isArray(dados.coupons))throw new Error("Formato de catálogo inválido");
-    todos=dados.coupons.filter(c=>c&&c.title&&(c.status==="listed"||c.status==="unverified"));
+    if(!Array.isArray(dados.coupons)||dados.market!==escolhido)throw new Error("Formato de catálogo inválido");
     const data=new Date(dados.generatedAt);
     if(!Number.isFinite(data.getTime()))throw new Error("Data do catálogo inválida");
     const idade=Date.now()-data.getTime();
+    if(idade>IDADE_MAXIMA_MS||idade< -5*60*1000){
+      todos=[];
+      el("data").textContent="Catálogo desatualizado · última coleta: "+fmt.format(data);
+      el("fontes").textContent="Sem coleta recente. Não exibimos cupons antigos como se estivessem atualizados.";
+      desenhar();
+      return;
+    }
+    todos=dados.coupons.filter(c=>c&&c.title&&(c.status==="listed"||c.status==="unverified")&&!indisponivel(c)&&aindaValido(c));
     el("data").textContent="Última coleta automática: "+fmt.format(data);
-    el("fontes").textContent="Cupons divulgados publicamente. Confira as condições diretamente na "+atual.nome+"."+(idade>2*60*60*1000?" · ATENÇÃO: catálogo desatualizado":"");
+    el("fontes").textContent="Cupons divulgados publicamente. Podem se esgotar antes da próxima atualização. Confira as condições na "+atual.nome+".";
     desenhar();
   }catch(e){
     todos=[];el("data").textContent="A atualização automática está indisponível";
