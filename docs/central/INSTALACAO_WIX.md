@@ -51,7 +51,7 @@ O HTML fica em `docs/central/index.html`. Alterá-lo atualiza os 16 contextos po
 - Arquivo público da **nova central**: `docs/cupons-geral/index.html`. O HTML anterior de cupons Awin continua em `docs/cupons/index.html`, e a galeria geral Awin permanece em `docs/index.html`.
 - Catálogo único: `docs/cupons/catalogo.json`, atualizado por `scripts/build_cupons_central.py` com dados existentes da Awin, Rakuten e Lomadee, sem raspagem da Promobit.
 - A nova central é um **segundo elemento HTML**, a ser adicionado em uma página separada no Wix via **Incorporar um site** com a URL `https://solgarimpa.github.io/sol-garimpa-afiliados/cupons-geral/`. Não substitua os HTML Awin existentes.
-- Agendamento de origem: quatro regras cron em `.github/workflows/atualizar_cupons_awin.yml` para intervalos de 45 minutos, conforme execução efetiva da plataforma.
+- Agendamento de origem: cron `17,47 * * * *` em `.github/workflows/atualizar_cupons_awin.yml` para intervalo programado de 30 minutos. A execução real do GitHub Actions pode atrasar.
 - Se o catálogo unificado ainda não estiver publicado, o HTML usa o feed já disponível `docs/cupons/ofertas.json` como reserva.
 - Para SEO na página Wix mantenha H1 nativo e texto visível, pois indexação do conteúdo do iframe não é garantida.
 - Não confundir estrutura de navegação semelhante com redistribuir material protegido da Promobit: fontes de dados são as redes de afiliados próprias.
@@ -80,3 +80,14 @@ Fontes diretas da Awin/Rakuten/Lomadee continuam independentes em docs/cupons/ca
 Nao confundir atualizado (observado) com testado: os cupons nao foram testados no checkout.
 Somente o link SHEIN do Worker existente tem rastreamento historicamente configurado;
 para outras lojas, os links atuais nao devem ser apresentados como links de afiliado.
+
+## Revisao de atualizacao — 12/11/2026
+
+- Coleta dos seis marketplaces: cron `5,35 * * * *`, intervalo programado de 30 minutos.
+- Central de cupons Awin/Rakuten/Lomadee: cron `17,47 * * * *`, intervalo programado de 30 minutos.
+- HTML dos marketplaces e das centrais: busca novo JSON a cada 5 minutos enquanto a pagina estiver aberta.
+- HTML dos marketplaces oculta listas com mais de 90 minutos desde a coleta, registros com validade expirada e codigos marcados como resgatados/esgotados/vencidos.
+- Worker historico Pelando sem prazo valido: so importar publicacoes das ultimas 24 horas, nao sete dias.
+- Feeds Awin/Rakuten/Lomadee com mais de 3 horas nao sao usados pelo consolidado.
+- Falhas HTTP 403 de Pelando/Cuponomia continuam possiveis; nao contornar bloqueios. Meliuz e os Workers continuam como fontes alternativas quando responderem.
+- O GitHub Pages precisa concluir uma publicacao; o editor Wix deve estar incorporando o URL remoto e nao uma copia estaticamente colada do HTML.
