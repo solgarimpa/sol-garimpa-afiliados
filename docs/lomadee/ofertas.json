@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-13T18:03:45+00:00",
+  "atualizado_em": "2026-11-13T19:15:22+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -575,16 +575,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-c30efa0726c01faa8459",
+      "id": "lc-aa7998fa2a128552e057",
       "loja": "Autoamerica Store",
-      "tipo": "cupom",
-      "titulo": "Cupom de 10% de desconto",
-      "imagem": "",
-      "link": "https://lmdee.link/rar16NbFmsr8",
+      "tipo": "promocao",
+      "titulo": "As melhores marcas de estética automotiva estão aqui!",
+      "imagem": "https://cdn.lomadee.com.br/offer/4ee565e0-4cbb-4963-8d2a-ae7b5c76060c/banners/banner%20%2823%29.png",
+      "link": "https://lmdee.link/aF3mac4YQEPv",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "AAStore",
-      "validade": "2026-12-01T02:30:00.000Z",
+      "cupom": null,
+      "validade": "2026-11-16T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1023,6 +1023,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-7739bb95ebc5fff96c8e",
+      "loja": "Pneu Store",
+      "tipo": "promocao",
+      "titulo": "Bridgestone e Firestone até R$ 480 OFF",
+      "imagem": "https://cdn.lomadee.com.br/offer/d1c31739-3a76-4733-b6e9-ee77bd12403e/banners/480OFF.png",
+      "link": "https://lmdee.link/wx0ucxTkYn4T",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-828c9874e8ffccfd5ac5",
       "loja": "PromoFarma",
       "tipo": "promocao",
@@ -1051,12 +1065,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-a06793aa7f1366e1047d",
+      "id": "lc-26d7fcedf4412b96b911",
       "loja": "Sawary",
       "tipo": "promocao",
-      "titulo": "Campanha Alvorecer",
+      "titulo": "Seleção de Black Friday",
       "imagem": "",
-      "link": "https://lmdee.link/dUgeY1kD17uo",
+      "link": "https://lmdee.link/yrdaLJPc1w5X",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1103,6 +1117,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-30T03:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-d6b795537eb8da8c57f2",
+      "loja": "Speedmax",
+      "tipo": "promocao",
+      "titulo": "Black November SpeedMax! Descontos o mês inteiro! Até 10x sem juros ou 12% no pix",
+      "imagem": "https://cdn.lomadee.com.br/offer/74d73a8d-9ed7-43a4-b7c5-b150f3d4b4c4/banners/PIX%20E%20PARCELAMENTO.png",
+      "link": "https://lmdee.link/p3lghZNamR4j",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-12-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1247,16 +1275,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-ab8c31921b04f6dffa6b",
+      "id": "lc-c30efa0726c01faa8459",
       "loja": "Autoamerica Store",
-      "tipo": "promocao",
-      "titulo": "Lançamento Autoamerica Store",
-      "imagem": "https://cdn.lomadee.com.br/offer/263beb4d-1c28-45be-85b8-d48ff27637c7/banners/PROMO%20Luva%20de%20lavagem%20-%20Mobile.jpg",
-      "link": "https://lmdee.link/yt4UkIouqEWb",
+      "tipo": "cupom",
+      "titulo": "Cupom de 10% de desconto",
+      "imagem": "",
+      "link": "https://lmdee.link/rar16NbFmsr8",
       "preco": null,
       "preco_anterior": null,
-      "cupom": null,
-      "validade": "2027-01-01T02:30:00.000Z",
+      "cupom": "AAStore",
+      "validade": "2026-12-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1485,12 +1513,26 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-f7de0ae70b64cfab6f59",
+      "id": "lc-d89d7d30bfeda889793b",
+      "loja": "Pneu Store",
+      "tipo": "promocao",
+      "titulo": "Mês roxo com rota premiada! 11% off no pix ou 10z sem juros no cartão!",
+      "imagem": "",
+      "link": "https://lmdee.link/2cmU6JQcBajX",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-a06793aa7f1366e1047d",
       "loja": "Sawary",
       "tipo": "promocao",
-      "titulo": "Temporada de Bermudas, Shorts e Saias",
+      "titulo": "Campanha Alvorecer",
       "imagem": "",
-      "link": "https://lmdee.link/GkWJOtX32N7Q",
+      "link": "https://lmdee.link/dUgeY1kD17uo",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1611,6 +1653,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-ab8c31921b04f6dffa6b",
+      "loja": "Autoamerica Store",
+      "tipo": "promocao",
+      "titulo": "Lançamento Autoamerica Store",
+      "imagem": "https://cdn.lomadee.com.br/offer/263beb4d-1c28-45be-85b8-d48ff27637c7/banners/PROMO%20Luva%20de%20lavagem%20-%20Mobile.jpg",
+      "link": "https://lmdee.link/yt4UkIouqEWb",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2027-01-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-80b667df035303e15643",
       "loja": "Bauducco",
       "tipo": "cupom",
@@ -1649,20 +1705,6 @@
       "preco_anterior": null,
       "cupom": "BLACK20",
       "validade": "2026-12-11T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-3bd2c1db834cf21116a8",
-      "loja": "eles.®",
-      "tipo": "cupom",
-      "titulo": "Preblack",
-      "imagem": "",
-      "link": "https://lmdee.link/iIBsvCOgPe2m",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "Preblack",
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1737,6 +1779,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-f7de0ae70b64cfab6f59",
+      "loja": "Sawary",
+      "tipo": "promocao",
+      "titulo": "Temporada de Bermudas, Shorts e Saias",
+      "imagem": "",
+      "link": "https://lmdee.link/GkWJOtX32N7Q",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-27d5c5b79cfc5ebdfd40",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -1779,20 +1835,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-6a494c7ce1cb19c4802f",
-      "loja": "Bauducco",
-      "tipo": "promocao",
-      "titulo": "Fornada de Natal",
-      "imagem": "",
-      "link": "https://lmdee.link/aDV67SbpzSPG",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-9bf7f751e97a1685d857",
       "loja": "Brinox",
       "tipo": "cupom",
@@ -1817,20 +1859,6 @@
       "preco_anterior": null,
       "cupom": "BLACK15",
       "validade": "2026-12-11T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-a6a3f910fb196b6de150",
-      "loja": "eles.®",
-      "tipo": "promocao",
-      "titulo": "PRÉ BLACK FRIDAY EMAGRECIMENTO ELES",
-      "imagem": "https://cdn.lomadee.com.br/offer/938705ff-f523-429f-b809-53ba601b317e/banners/banners_pre_black_eles_10_separados.zip",
-      "link": "https://lmdee.link/QbF7zsGwzdpL",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1919,20 +1947,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-dacc943985f951031750",
-      "loja": "Bauducco",
-      "tipo": "promocao",
-      "titulo": "Cestas de Natal",
-      "imagem": "",
-      "link": "https://lmdee.link/5RDqxMpqPmEj",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-57489fdbdbf12c83d0b3",
       "loja": "Brinox",
       "tipo": "cupom",
@@ -2013,20 +2027,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-11af6e9cabee366fb216",
-      "loja": "Bauducco",
-      "tipo": "promocao",
-      "titulo": "Frete Grátis para o estado de SP para pedidos acima de R$ 199",
-      "imagem": "https://cdn.lomadee.com.br/offer/86005dd8-01db-44da-af9c-d08d0542027c/banners/800x1200%20pixels%20-%20com%20logo%20e%20CTA.jpg",
-      "link": "https://lmdee.link/JLVS7g08gIfS",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
