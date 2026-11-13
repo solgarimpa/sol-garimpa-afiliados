@@ -85,7 +85,10 @@ def rakuten_creatives(token, partner, request_fn, safe_id_fn, *, now=None):
                 try:
                     raw = request_fn(paths[0], token)
                 except RuntimeError as first_error:
-                    if "HTTP 500" not in str(first_error):
+                    # Tentar rota REST alternativa apenas se a rota documentada
+                    # devolveu erro de endpoint. Nunca insistir em 401/403.
+                    if not any(code in str(first_error) for code in
+                               ("HTTP 404", "HTTP 405", "HTTP 500")):
                         raise
                     raw = request_fn(paths[1], token)
                 root = ET.fromstring(raw)
@@ -97,7 +100,10 @@ def rakuten_creatives(token, partner, request_fn, safe_id_fn, *, now=None):
                 if faults:
                     raise ValueError("Link Locator retornou falha")
             except (ET.ParseError, ValueError, RuntimeError, OSError) as exc:
-                warnings.append(f"{partner['loja']}: Link Locator {kind}: {type(exc).__name__}")
+                # Registrar o codigo HTTP, sem expor tokens nem o corpo da API.
+                status_match = re.search(r"HTTP\s+(\d{3})", str(exc))
+                motivo = ("HTTP " + status_match.group(1)) if status_match else type(exc).__name__
+                warnings.append(f"{partner['loja']}: Link Locator {kind}: {motivo}")
                 break
             for item in records:
                 item_mid = _field(item, "mid")
