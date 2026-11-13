@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-13T01:27:43+00:00",
+  "atualizado_em": "2026-11-13T03:03:26+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -547,20 +547,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-5e26167a519887762b85",
-      "loja": "Amoedo",
-      "tipo": "promocao",
-      "titulo": "5° especial Amoedo: 5 produtos, 5 preços, Somente 5° feira",
-      "imagem": "",
-      "link": "https://lmdee.link/TRu0bQnjC3Wj",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-13T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-e6db3727ace010beb24c",
       "loja": "AmoKarité",
       "tipo": "promocao",
@@ -879,20 +865,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-4620fc7acbbe736078c5",
-      "loja": "Lojas REDE",
-      "tipo": "promocao",
-      "titulo": "Última chance 11.11",
-      "imagem": "https://cdn.lomadee.com.br/offer/fd9af4d5-6420-42e4-b748-83103d66bf33/banners/Sebastian%20com%20ate%2039%25%20OFF.png",
-      "link": "https://lmdee.link/m9GABIJHYDqH",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-13T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2017,6 +1989,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-bb5af2c0883a7399cb04",
+      "loja": "Móveis Carraro",
+      "tipo": "cupom",
+      "titulo": "LANCAMENTOS10 - 10% OFF em Lançamentos",
+      "imagem": "",
+      "link": "https://lmdee.link/Zgad1XW8M6fK",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "LANCAMENTOS10",
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-f5cc0a3186ba5aea97e8",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -2199,6 +2185,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-890b72814ca708f2943c",
+      "loja": "Brinox",
+      "tipo": "cupom",
+      "titulo": "Cupom perfeito para você divulgar!",
+      "imagem": "",
+      "link": "https://lmdee.link/DZo5pwUvAGaK",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "RENOVACASA",
+      "validade": "2026-12-21T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-cb39d936dec613105b71",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -2219,7 +2219,7 @@
     "marcas": 132,
     "campanhas": 120,
     "produtos": 60,
-    "links_solicitados": 8,
+    "links_solicitados": 7,
     "consulta_campanhas": "ok",
     "consulta_produtos": "ok"
   }
