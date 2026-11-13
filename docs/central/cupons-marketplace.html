@@ -31,6 +31,7 @@ main{max-width:1170px;margin:auto;padding:14px 11px 25px}
 .codigoarea button{border:0;border-radius:8px;background:#eee;font-size:11px;font-weight:700;padding:0 12px;cursor:pointer}
 .aviso{background:var(--fundo-aviso);color:var(--texto-aviso);padding:11px;text-align:center;font-size:12px;border-radius:8px}
 .acao{background:var(--destaque);color:var(--texto-acao)!important;text-align:center;text-decoration:none;font-weight:900;border-radius:8px;padding:13px 7px;display:block;margin-top:auto}
+.acao-secundaria{display:block;text-align:center;color:#343434;font-weight:750;font-size:11px;text-decoration:underline;padding:6px}
 .vazio{grid-column:1/-1;background:#fff;border-radius:12px;border:1px solid #ddd;text-align:center;padding:23px 15px;line-height:1.6;color:#666}
 footer{color:#777;font-size:11px;line-height:1.6;text-align:center;padding-top:22px}
 @media(max-width:870px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
@@ -43,18 +44,20 @@ footer{color:#777;font-size:11px;line-height:1.6;text-align:center;padding-top:2
 <nav class="filtros"><button data-filtro="todos" class="ativo">Todos os cupons</button><button data-filtro="codigo">Com código</button><button data-filtro="resgate">Resgatar no app</button></nav>
 <div class="status"><div class="verde" id="data">Consultando fontes...</div><div id="fontes">Consulte as condições na loja</div><div id="quantidade">Carregando...</div></div>
 <section id="grade" class="grid"></section>
-<footer>Cupons e ofertas publicados por terceiros. A presença em uma fonte não garante validade: confira sempre as condições e o desconto na loja correspondente. A Sol Garimpa não oferece cashback anunciado por outros sites.</footer>
+<footer>Cupons divulgados por fontes externas, sem validação individual no carrinho. A seleção Sol Garimpa contém produtos da nossa vitrine, não necessariamente participantes do cupom exibido. Os links diretos das lojas não garantem comissões de afiliado. Confira sempre as regras e validade no aplicativo da loja.</footer>
 </main>
 <script>
 (function(){
 "use strict";
+// A pagina de cupons da loja nao e, por si so, um link de afiliado.
+ // Vitrines abaixo sao enderecos ja configurados pela propria Sol Garimpa.
 const CONFIG={
-  "mercado-livre":{nome:"Mercado Livre",link:"https://www.mercadolivre.com.br/"},
-  "shopee":{nome:"Shopee",link:"https://shopee.com.br/m/cupom-de-desconto"},
-  "magalu":{nome:"Magalu",link:"https://www.magazineluiza.com.br/"},
-  "aliexpress":{nome:"AliExpress",link:"https://pt.aliexpress.com/"},
-  "shein":{nome:"SHEIN",link:"https://onelink.shein.com/58/66nnzcmvg0zu"},
-  "amazon":{nome:"Amazon",link:"https://www.amazon.com.br/gp/coupons"}
+  "mercado-livre":{nome:"Mercado Livre",link:"https://www.mercadolivre.com.br/",vitrine:"https://www.mercadolivre.com.br/social/sa20260928144535570"},
+  "shopee":{nome:"Shopee",link:"https://shopee.com.br/m/cupom-de-desconto",vitrine:"https://collshp.com/solgarimpaofertas?view=storefront"},
+  "magalu":{nome:"Magalu",link:"https://www.magazineluiza.com.br/",vitrine:"https://www.magazinevoce.com.br/magazinesolgarimpa/"},
+  "aliexpress":{nome:"AliExpress",link:"https://pt.aliexpress.com/",vitrine:"https://www.ofertaspravc.com.br/aliexpress"},
+  "shein":{nome:"SHEIN",link:"https://onelink.shein.com/58/66nnzcmvg0zu",vitrine:"https://onelink.shein.com/58/66nnzcmvg0zu"},
+  "amazon":{nome:"Amazon",link:"https://www.amazon.com.br/gp/coupons",vitrine:"https://www.amazon.com.br/hz/wishlist/ls/XBEEZXOQSI3R"}
 };
 const slug=new URLSearchParams(location.search).get("loja")||"shopee";
 const escolhido=CONFIG[slug]?slug:"shopee";
@@ -92,7 +95,18 @@ function cartao(c){
     btn.type="button";btn.onclick=async()=>{let ok=false;try{await navigator.clipboard.writeText(c.couponCode);ok=true}catch(e){const t=document.createElement("textarea");t.value=c.couponCode;t.style.position="fixed";t.style.opacity="0";document.body.appendChild(t);t.select();try{ok=document.execCommand("copy")}catch(e){}t.remove()}btn.textContent=ok?"COPIADO ✓":"SELECIONE O CÓDIGO";if(ok)setTimeout(()=>btn.textContent="COPIAR",2500)};
     a.append(cod,btn);art.appendChild(a);
   }else art.appendChild(node("div","aviso","🎟️ Consulte as condições de resgate na loja"));
-  const link=node("a","acao",c.status==="unverified"?"CONFERIR CÓDIGO":(c.couponCode?"USAR CUPOM":"VER OFERTA NA LOJA"));link.href=LINK_LOJA;link.target="_blank";link.rel="noopener noreferrer nofollow";art.appendChild(link);
+  const vitrine=node("a","acao","VER SELEÇÃO SOL GARIMPA");
+  vitrine.href=atual.vitrine||LINK_LOJA;
+  vitrine.target="_blank";
+  vitrine.rel="noopener noreferrer nofollow sponsored";
+  art.appendChild(vitrine);
+  if(atual.vitrine&&atual.vitrine!==LINK_LOJA){
+    const oficial=node("a","acao-secundaria","CONFERIR NA LOJA (LINK DIRETO)");
+    oficial.href=LINK_LOJA;
+    oficial.target="_blank";
+    oficial.rel="noopener noreferrer nofollow";
+    art.appendChild(oficial);
+  }
   return art;
 }
 function desenhar(){
