@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-13T21:07:06+00:00",
+  "atualizado_em": "2026-11-13T21:59:59+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -211,10 +211,6 @@
       "loja": "Hunter Fan"
     },
     {
-      "id": "77936e43-fa01-4b39-b22d-f0e729b22aed",
-      "loja": "Hugart "
-    },
-    {
       "id": "4a2f41d4-099d-4c8d-a003-5a37bef52ac8",
       "loja": "Hipervarejo"
     },
@@ -237,6 +233,10 @@
     {
       "id": "53d73adc-5131-4adc-98d2-181706347a09",
       "loja": "eles.®"
+    },
+    {
+      "id": "784b9d36-c373-4bf3-86d4-b1ca859e1ebe",
+      "loja": "Vittal Calçados"
     },
     {
       "id": "6fe8dae4-a946-4c32-8142-18de9ac8b608",
@@ -295,16 +295,16 @@
       "loja": "Kidy Calçados"
     },
     {
+      "id": "a463682f-09a7-420a-9858-1e9681591513",
+      "loja": "Dyson"
+    },
+    {
       "id": "9ad41f3f-431f-44e9-bf4c-ead611331557",
       "loja": "Up4you"
     },
     {
       "id": "9aad28fe-dddf-4b4e-81c7-cdfaf5f00ee7",
       "loja": "Ortope"
-    },
-    {
-      "id": "784b9d36-c373-4bf3-86d4-b1ca859e1ebe",
-      "loja": "Vittal Calçados"
     },
     {
       "id": "a13dab7d-c16d-4de9-a70a-8181cd7c6e49",
@@ -335,6 +335,10 @@
       "loja": "Gazin"
     },
     {
+      "id": "c364d4e3-56e2-4da9-a6ea-195716da559a",
+      "loja": "Malwee"
+    },
+    {
       "id": "b08af64e-f7bd-434c-b0ac-6baec265f9fc",
       "loja": "BabyStock"
     },
@@ -345,10 +349,6 @@
     {
       "id": "c0520326-00a8-4064-b4fe-ba1b8cd3bfe7",
       "loja": "Homedock"
-    },
-    {
-      "id": "a463682f-09a7-420a-9858-1e9681591513",
-      "loja": "Dyson"
     },
     {
       "id": "b89e4834-6f7c-4ac8-9972-5d579488432c",
@@ -431,16 +431,16 @@
       "loja": "Toymania"
     },
     {
-      "id": "c364d4e3-56e2-4da9-a6ea-195716da559a",
-      "loja": "Malwee"
-    },
-    {
       "id": "d855f505-7e26-4961-a182-c2139aeadd2c",
       "loja": "Drogasmil"
     },
     {
       "id": "df3a5d1f-150c-4ce8-9b98-cf85dad06b6d",
       "loja": "Honor"
+    },
+    {
+      "id": "e1d43df5-8c98-4f7a-9f75-e507ecbd649c",
+      "loja": "Xiaomi Brasil"
     },
     {
       "id": "e198615b-4c17-4180-b06f-43376f162714",
@@ -493,10 +493,6 @@
     {
       "id": "f31e32be-c116-4739-85a3-43f85681b237",
       "loja": "Móveis Carraro"
-    },
-    {
-      "id": "e1d43df5-8c98-4f7a-9f75-e507ecbd649c",
-      "loja": "Xiaomi Brasil"
     },
     {
       "id": "ecd9089c-0147-41aa-b974-bdfbf220a3d4",
@@ -2216,7 +2212,7 @@
   "status": {
     "integracao": "api_oficial",
     "com_ofertas": 120,
-    "marcas": 132,
+    "marcas": 131,
     "campanhas": 120,
     "produtos": 60,
     "links_solicitados": 12,
