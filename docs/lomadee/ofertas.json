@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-13T19:15:22+00:00",
+  "atualizado_em": "2026-11-13T20:08:08+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -981,6 +981,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-3ea10ae95d0aa6db0c15",
+      "loja": "Moto BR",
+      "tipo": "promocao",
+      "titulo": "Black Friday Moto BR com ofertas imperdíveis! Condições especiais para parcelar suas compras",
+      "imagem": "",
+      "link": "https://lmdee.link/V8jJGVxqMni0",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-16T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-065dfa512d13ef003ea0",
       "loja": "Mundo Vem",
       "tipo": "promocao",
@@ -1383,20 +1397,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-26T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-9c1c5c847b6d9a5aeb08",
-      "loja": "eles.®",
-      "tipo": "promocao",
-      "titulo": "Outubro Rosa elas.",
-      "imagem": "https://cdn.lomadee.com.br/offer/27cc1c2b-f455-4961-a476-13072d01e502/banners/Imagem%20do%20ChatGPT%209%20de%20out.%20de%202026%2C%2017_22_23.png",
-      "link": "https://lmdee.link/IQDiC3iOZkT3",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
