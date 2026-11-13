@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-13T17:12:49+00:00",
+  "atualizado_em": "2026-11-13T18:03:45+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -757,6 +757,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-18caf80cde421349de3a",
+      "loja": "Drogasmil",
+      "tipo": "cupom",
+      "titulo": "Cupom de 10% de desconto",
+      "imagem": "",
+      "link": "https://lmdee.link/O7u8y32qe1cX",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "PRIMEIRA10",
+      "validade": "2026-11-16T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-30d9c8ab59bb7672914a",
       "loja": "ECO FLAME GARDEN",
       "tipo": "promocao",
@@ -813,12 +827,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-b8adaeefea9c6e22418b",
+      "id": "lc-246a9b93c593879ffb5b",
       "loja": "Gazin",
       "tipo": "promocao",
-      "titulo": "Ressaca 11.11 Black Friday",
-      "imagem": "https://cdn.lomadee.com.br/offer/b127a6e0-70d3-44d6-b844-f10c68780117/banners/Cooperado%20Philips%20-%2001%20a%2015_11.png",
-      "link": "https://lmdee.link/Eihe12MXSvK3",
+      "titulo": "Oferta exclusiva:: Soundbar JBL SB Cinema 110W Bluetooth 2.1 Canais ( R$ 779,90 à vista ou 12x de 69,88)",
+      "imagem": "",
+      "link": "https://lmdee.link/im0c5ff0CYHt",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1303,20 +1317,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-553797bfed878a6dcd2d",
-      "loja": "China in Box",
-      "tipo": "cupom",
-      "titulo": "Cupom Frete Gratis",
-      "imagem": "",
-      "link": "https://lmdee.link/69aTXVdd4fbx",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "FRETELOMADEE",
-      "validade": "2027-01-01T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-15de72c6afc4694268e6",
       "loja": "Coza",
       "tipo": "cupom",
@@ -1327,6 +1327,20 @@
       "preco_anterior": null,
       "cupom": "BLACK35",
       "validade": "2026-12-11T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-ededd173711c5555371a",
+      "loja": "Drogasmil",
+      "tipo": "promocao",
+      "titulo": "Esquenta Black Drogasmil",
+      "imagem": "https://cdn.lomadee.com.br/offer/4e2f712a-b849-4c59-b345-3c66d43d6975/banners/imagem%20-%202026-11-13T142056.862.png",
+      "link": "https://lmdee.link/nJ4e0vB6tixi",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-16T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1355,6 +1369,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-b8adaeefea9c6e22418b",
+      "loja": "Gazin",
+      "tipo": "promocao",
+      "titulo": "Ressaca 11.11 Black Friday",
+      "imagem": "https://cdn.lomadee.com.br/offer/b127a6e0-70d3-44d6-b844-f10c68780117/banners/Cooperado%20Philips%20-%2001%20a%2015_11.png",
+      "link": "https://lmdee.link/Eihe12MXSvK3",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-16T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1435,20 +1463,6 @@
       "titulo": "STUDIO com 15%Off nos Favoritos da Linha Festas",
       "imagem": "",
       "link": "https://lmdee.link/uiMxMqrxc5B6",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-88db0c926054a9af9da1",
-      "loja": "Mundo Vem",
-      "tipo": "promocao",
-      "titulo": "[CATEGORIA] Ramequins",
-      "imagem": "",
-      "link": "https://lmdee.link/7MISKfU0QDZI",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1723,20 +1737,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-4bfe794e2b20b42f123c",
-      "loja": "Sawary",
-      "tipo": "promocao",
-      "titulo": "Temporada de Rodeio",
-      "imagem": "",
-      "link": "https://lmdee.link/xTfMf5WhGpiF",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-27d5c5b79cfc5ebdfd40",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -1887,20 +1887,6 @@
       "preco_anterior": null,
       "cupom": "SHOES10",
       "validade": "2026-12-01T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-7c18f03bdcaddea5b727",
-      "loja": "Sawary",
-      "tipo": "promocao",
-      "titulo": "Últimos Dias Mês Do Cliente",
-      "imagem": "",
-      "link": "https://lmdee.link/VxbpF2FfGnOH",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2129,6 +2115,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-80ca459b7df05b5760ea",
+      "loja": "Malwee",
+      "tipo": "cupom",
+      "titulo": "Black November - Peças infantis até 30% OFF + 30% OFF Extra",
+      "imagem": "",
+      "link": "https://lmdee.link/mmSMVGrbiJcm",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "30OFF",
+      "validade": "2026-11-16T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-eea52423735c4368f992",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -2219,7 +2219,7 @@
     "marcas": 132,
     "campanhas": 120,
     "produtos": 60,
-    "links_solicitados": 11,
+    "links_solicitados": 12,
     "consulta_campanhas": "ok",
     "consulta_produtos": "ok"
   }
