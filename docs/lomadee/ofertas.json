@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-13T16:05:48+00:00",
+  "atualizado_em": "2026-11-13T17:12:49+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -715,6 +715,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-5d83ab8227c6c83547c7",
+      "loja": "Concórdia Informática ",
+      "tipo": "promocao",
+      "titulo": "Ofertas 13-11",
+      "imagem": "",
+      "link": "https://lmdee.link/z7xhgy3Va1nE",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-16T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-33379d20b3d550b67aed",
       "loja": "Coza",
       "tipo": "cupom",
@@ -795,6 +809,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-b8adaeefea9c6e22418b",
+      "loja": "Gazin",
+      "tipo": "promocao",
+      "titulo": "Ressaca 11.11 Black Friday",
+      "imagem": "https://cdn.lomadee.com.br/offer/b127a6e0-70d3-44d6-b844-f10c68780117/banners/Cooperado%20Philips%20-%2001%20a%2015_11.png",
+      "link": "https://lmdee.link/Eihe12MXSvK3",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-16T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -973,6 +1001,20 @@
       "titulo": "Mouse gamer sem fio ALEC com base carregadora",
       "imagem": "https://cdn.lomadee.com.br/offer/7d1a4471-2a3a-436a-ad5f-7efba1ad2588/banners/imagem%20-%202026-11-12T140542.288.png",
       "link": "https://lmdee.link/WOV3RY4hHrYn",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-16T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-828c9874e8ffccfd5ac5",
+      "loja": "PromoFarma",
+      "tipo": "promocao",
+      "titulo": "Esquenta Black Promofarma É hora de economizar!",
+      "imagem": "https://cdn.lomadee.com.br/offer/086b5e4f-352b-4f3c-ba12-17623b330171/banners/imagem%20-%202026-11-13T132541.049.png",
+      "link": "https://lmdee.link/0CMT3OUeeVYY",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1415,20 +1457,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-2e245a7c7dfe3ee2cd7e",
-      "loja": "Móveis Carraro",
-      "tipo": "promocao",
-      "titulo": "Festival de Cupons Carraro - de R$ 50 a R$ 300 OFF",
-      "imagem": "https://cdn.lomadee.com.br/offer/969cc5cf-4ce6-4f96-9e2d-01f0ad049c64/banners/FESTIVAL_1080x1920.png",
-      "link": "https://lmdee.link/RoVZrZFHqYis",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-b7f143e2e1f7baf34df5",
       "loja": "PCYES",
       "tipo": "promocao",
@@ -1681,20 +1709,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-46baebe4716d72ac86a2",
-      "loja": "Móveis Carraro",
-      "tipo": "promocao",
-      "titulo": "Módulos de Cozinha - 8% OFF com MODULAR8",
-      "imagem": "https://cdn.lomadee.com.br/offer/01059650-81a6-4fa0-97e2-4083eccc056d/banners/MODULAR8_1064x557.png",
-      "link": "https://lmdee.link/EbWlVCQ6jcrZ",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-37569ff75eff64af34a4",
       "loja": "PCYES",
       "tipo": "cupom",
@@ -1873,20 +1887,6 @@
       "preco_anterior": null,
       "cupom": "SHOES10",
       "validade": "2026-12-01T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-480461bbca3dee865f84",
-      "loja": "Móveis Carraro",
-      "tipo": "promocao",
-      "titulo": "Lançamentos Carraro - 10% OFF com LANCAMENTOS10",
-      "imagem": "https://cdn.lomadee.com.br/offer/ec3cfdf8-0371-4ab8-a847-20acecd26843/banners/LANCAMENTOS10_1080x1920.png",
-      "link": "https://lmdee.link/5DYHfMpHSgxT",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2219,7 +2219,7 @@
     "marcas": 132,
     "campanhas": 120,
     "produtos": 60,
-    "links_solicitados": 8,
+    "links_solicitados": 11,
     "consulta_campanhas": "ok",
     "consulta_produtos": "ok"
   }
