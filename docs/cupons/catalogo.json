@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-13T15:40:44.324065Z",
-  "total": 191,
-  "total_cupons": 124,
-  "total_promocoes": 67,
+  "atualizado_em": "2026-11-13T16:07:26.849377Z",
+  "total": 188,
+  "total_cupons": 130,
+  "total_promocoes": 58,
   "fontes": {
     "Awin": 106,
     "Rakuten": 47,
-    "Lomadee": 38
+    "Lomadee": 35
   },
   "ofertas": [
     {
@@ -140,18 +140,6 @@
       "cupom": "BF50EXTRA",
       "validade": "2026-12-21T02:30:00Z",
       "link": "https://lmdee.link/jqpvsnRfWwhm",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "1e4b116008a1874259",
-      "loja": "Brinox",
-      "tipo": "cupom",
-      "titulo": "Cupom perfeito para você divulgar!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "RENOVACASA",
-      "validade": "2026-12-21T02:30:00Z",
-      "link": "https://lmdee.link/DZo5pwUvAGaK",
       "rede": "Lomadee"
     },
     {
@@ -659,6 +647,18 @@
       "rede": "Awin"
     },
     {
+      "id": "933bbd05ca98390625",
+      "loja": "Fila BR",
+      "tipo": "cupom",
+      "titulo": "10 OFF (Cupom) Regras: válido para todo site para novos usuários. Uso único.",
+      "descricao": "",
+      "termos": "",
+      "cupom": "PRIMEIRACOMPRA",
+      "validade": "2029-03-28T03:00:00Z",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2109896.56&type=3&subid=0",
+      "rede": "Rakuten"
+    },
+    {
       "id": "a4c9a41cc74e2f6e9b",
       "loja": "Hipervarejo BR",
       "tipo": "cupom",
@@ -669,6 +669,54 @@
       "validade": "2027-01-01T02:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=46269&awinaffid=3110826&ued=https%3A%2F%2Fhipervarejo.com.br%2F",
       "rede": "Awin"
+    },
+    {
+      "id": "b63e666f0a4a9598a6",
+      "loja": "Insider Store BR",
+      "tipo": "cupom",
+      "titulo": "12% OFF em kit com CUPOM = BESTRKN",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BESTRKN",
+      "validade": "2032-03-13T03:00:00Z",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2072550.260&type=3&subid=0",
+      "rede": "Rakuten"
+    },
+    {
+      "id": "1355c593bc668691f8",
+      "loja": "Insider Store BR",
+      "tipo": "cupom",
+      "titulo": "12% OFF em kit com CUPOM = KITRKN",
+      "descricao": "",
+      "termos": "",
+      "cupom": "KITRKN",
+      "validade": "2032-03-13T03:00:00Z",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2072550.259&type=3&subid=0",
+      "rede": "Rakuten"
+    },
+    {
+      "id": "f6a6b53b058ba7f54a",
+      "loja": "Insider Store BR",
+      "tipo": "cupom",
+      "titulo": "15% OFF Recorrente cupom genérico = DESCONTORKN",
+      "descricao": "",
+      "termos": "",
+      "cupom": "DESCONTORKN",
+      "validade": "2032-03-13T03:00:00Z",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2072550.258&type=3&subid=0",
+      "rede": "Rakuten"
+    },
+    {
+      "id": "1e5b5f32f80b61b786",
+      "loja": "Insider Store BR",
+      "tipo": "cupom",
+      "titulo": "20% OFF para Primeira Compra = PRIMEIRARKN",
+      "descricao": "",
+      "termos": "",
+      "cupom": "PRIMEIRARKN",
+      "validade": "2032-03-13T03:00:00Z",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2072550.261&type=3&subid=0",
+      "rede": "Rakuten"
     },
     {
       "id": "62ef94595b8213c9ad",
@@ -1199,6 +1247,18 @@
       "rede": "Awin"
     },
     {
+      "id": "6b141cda6dcb946d73",
+      "loja": "Lenovo",
+      "tipo": "cupom",
+      "titulo": "R$400 off no loq com cupom LENOVO400",
+      "descricao": "",
+      "termos": "",
+      "cupom": "LENOVO400",
+      "validade": "2031-11-28T02:00:00Z",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1943417.1135&type=3&subid=0",
+      "rede": "Rakuten"
+    },
+    {
       "id": "75f929ca507e63a1a9",
       "loja": "Livrarias Curitiba",
       "tipo": "cupom",
@@ -1271,18 +1331,6 @@
       "rede": "Lomadee"
     },
     {
-      "id": "1d28b29f5f8f78153f",
-      "loja": "Móveis Carraro",
-      "tipo": "cupom",
-      "titulo": "LANCAMENTOS10 - 10% OFF em Lançamentos",
-      "descricao": "",
-      "termos": "",
-      "cupom": "LANCAMENTOS10",
-      "validade": null,
-      "link": "https://lmdee.link/Zgad1XW8M6fK",
-      "rede": "Lomadee"
-    },
-    {
       "id": "a8b56e0d3842c142f5",
       "loja": "Nike BR",
       "tipo": "cupom",
@@ -1322,13 +1370,13 @@
       "id": "5d1655a8bd28adeedd",
       "loja": "Sem Parar",
       "tipo": "cupom",
-      "titulo": "PLANO ULTRA - 6 MENSALIDADES COM 96% DE DESC",
+      "titulo": "Cupom - PLANO ULTRA - 6 MENSALIDADES COM 96% DE DESCONTO - CUPOM: SEMPARAR96OFF",
       "descricao": "",
       "termos": "",
       "cupom": "SEMPARAR96OFF",
-      "validade": "2026-12-01T02:59:59Z",
-      "link": "https://lmdee.link/yeZLdeqVJchD",
-      "rede": "Lomadee"
+      "validade": "2026-11-30T03:00:00Z",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.102&type=3&subid=0",
+      "rede": "Rakuten"
     },
     {
       "id": "8f29578c019b20c2d7",
@@ -1427,6 +1475,30 @@
       "rede": "Lomadee"
     },
     {
+      "id": "d4b567cfb19a413618",
+      "loja": "Trocafone",
+      "tipo": "cupom",
+      "titulo": "5% De Desconto Válido Para a Primeira Compra. (Cupom: PRIMEIROPEDIDO)",
+      "descricao": "",
+      "termos": "",
+      "cupom": "PRIMEIROPEDIDO",
+      "validade": "2031-07-25T03:00:00Z",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1599568.190&type=3&subid=0",
+      "rede": "Rakuten"
+    },
+    {
+      "id": "45daf9512e4fa3c36d",
+      "loja": "Trocafone",
+      "tipo": "cupom",
+      "titulo": "Começou a Black da Troca Cupom: BLACK5 5% OFF aplicando o cupom de desconto *limite de desconto: R$150!",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK5",
+      "validade": "2026-12-02T01:00:00Z",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1599568.298&type=3&subid=0",
+      "rede": "Rakuten"
+    },
+    {
       "id": "fd7a66a003a4444937",
       "loja": "UP Kids",
       "tipo": "cupom",
@@ -1459,7 +1531,7 @@
       "termos": "",
       "cupom": "LOMADEE",
       "validade": null,
-      "link": "https://lmdee.link/SG7hMFDpj30P",
+      "link": "https://lmdee.link/1ZOrSK4goA4S",
       "rede": "Lomadee"
     },
     {
@@ -1619,18 +1691,6 @@
       "rede": "Awin"
     },
     {
-      "id": "3ed1dd7828f4d41104",
-      "loja": "Fila BR",
-      "tipo": "promocao",
-      "titulo": "10 OFF (Cupom) Regras: válido para todo site para novos usuários. Uso único.",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2029-03-28T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2109896.56&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
       "id": "256b0a419003580674",
       "loja": "Fila BR",
       "tipo": "promocao",
@@ -1763,54 +1823,6 @@
       "rede": "Rakuten"
     },
     {
-      "id": "3878369092628d9334",
-      "loja": "Insider Store BR",
-      "tipo": "promocao",
-      "titulo": "12% OFF em kit com CUPOM = BESTRKN",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-03-13T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2072550.260&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "8d59ae3848061cf681",
-      "loja": "Insider Store BR",
-      "tipo": "promocao",
-      "titulo": "12% OFF em kit com CUPOM = KITRKN",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-03-13T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2072550.259&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "e1453815e1aff7012d",
-      "loja": "Insider Store BR",
-      "tipo": "promocao",
-      "titulo": "15% OFF Recorrente cupom genérico = DESCONTORKN",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-03-13T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2072550.258&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "c700f9ef37bee64a52",
-      "loja": "Insider Store BR",
-      "tipo": "promocao",
-      "titulo": "20% OFF para Primeira Compra = PRIMEIRARKN",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-03-13T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2072550.261&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
       "id": "b00401b8741cef6e49",
       "loja": "Lauri Esporte",
       "tipo": "promocao",
@@ -1916,18 +1928,6 @@
       "cupom": "",
       "validade": "2031-11-27T02:00:00Z",
       "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1943417.1133&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "7b5f053ae9ad11c879",
-      "loja": "Lenovo",
-      "tipo": "promocao",
-      "titulo": "R$400 off no loq com cupom LENOVO400",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2031-11-28T02:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1943417.1135&type=3&subid=0",
       "rede": "Rakuten"
     },
     {
@@ -2083,19 +2083,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-06-09T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1752486.818&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "740eaf4b839b508c14",
-      "loja": "Sem Parar",
-      "tipo": "promocao",
-      "titulo": "Cupom - PLANO ULTRA - 6 MENSALIDADES COM 96% DE DESCONTO - CUPOM: SEMPARAR96OFF",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-11-30T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.102&type=3&subid=0",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1752486.819&type=3&subid=0",
       "rede": "Rakuten"
     },
     {
@@ -2133,30 +2121,6 @@
       "validade": "2026-11-20T03:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=28161&awinaffid=3110826&ued=https%3A%2F%2Fwww.technos.com.br%2Fblack-friday",
       "rede": "Awin"
-    },
-    {
-      "id": "5be897d502bf3a571b",
-      "loja": "Trocafone",
-      "tipo": "promocao",
-      "titulo": "5% De Desconto Válido Para a Primeira Compra. (Cupom: PRIMEIROPEDIDO)",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2031-07-25T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1599568.190&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "e051520fe7e5e4b70b",
-      "loja": "Trocafone",
-      "tipo": "promocao",
-      "titulo": "Começou a Black da Troca Cupom: BLACK5 5% OFF aplicando o cupom de desconto *limite de desconto: R$150!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-12-02T01:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1599568.298&type=3&subid=0",
-      "rede": "Rakuten"
     },
     {
       "id": "b247271ad7cdfcdb5f",
