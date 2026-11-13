@@ -1,9 +1,9 @@
 {
   "market": "aliexpress",
   "name": "AliExpress",
-  "generatedAt": "2026-11-13T17:46:26+00:00",
+  "generatedAt": "2026-11-13T18:45:15+00:00",
   "refreshMinutes": 30,
-  "count": 37,
+  "count": 39,
   "sources": {
     "Cuponomia": {
       "ok": false,
@@ -12,7 +12,7 @@
     },
     "Meliuz": {
       "ok": true,
-      "quantidade": 35
+      "quantidade": 37
     },
     "WorkerExistente": {
       "ok": true,
@@ -30,7 +30,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-12T20:59:22.833Z",
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -42,7 +42,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-12T20:58:42.600Z",
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -54,7 +54,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -66,19 +66,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Código promocional AliExpress com R$10 OFF no carrinho",
-      "couponCode": "",
-      "discountText": "R$ 10 OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -90,7 +78,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom AliExpress com R$610 OFF",
+      "couponCode": "",
+      "discountText": "R$ 610 OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -102,7 +102,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -114,7 +114,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -126,7 +126,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -138,19 +138,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Desconto de R$240 aplicando voucher AliExpress",
-      "couponCode": "",
-      "discountText": "R$ 240 OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -162,19 +150,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
-      "title": "Economize R$35 em compras a partir de R$280",
+      "title": "Economize R$210 com o desconto AliExpress",
       "couponCode": "",
-      "discountText": "R$ 35 OFF",
+      "discountText": "R$ 210 OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -186,7 +174,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -198,7 +186,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -210,7 +198,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -222,7 +210,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -234,7 +222,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -246,7 +234,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -258,7 +246,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Mais economia: R$780 com código AliExpress",
+      "couponCode": "",
+      "discountText": "OFERTA",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -270,7 +270,31 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Pedido com R$50 OFF no cupom AliExpress",
+      "couponCode": "",
+      "discountText": "R$ 50 OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-13T18:45:15+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Poupe R$35 em compras a partir de R$280",
+      "couponCode": "",
+      "discountText": "OFERTA",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -282,7 +306,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -294,7 +318,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "R$10 OFF no carrinho com código promocional AliExpress",
+      "couponCode": "",
+      "discountText": "R$ 10 OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -306,7 +342,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -318,19 +354,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
-      "title": "R$210 de economia em suas compras com desconto AliExpress",
+      "title": "R$240 OFF aplicando voucher AliExpress",
       "couponCode": "",
-      "discountText": "R$ 210 OFF",
+      "discountText": "R$ 240 OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -342,7 +378,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -354,19 +390,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "R$50 OFF nas suas compras AliExpress",
-      "couponCode": "",
-      "discountText": "R$ 50 OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -378,7 +402,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -390,19 +414,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
-      "title": "R$750 OFF com cupom de desconto AliExpress",
+      "title": "Receba R$15 OFF aplicando cupom AliExpress",
       "couponCode": "",
-      "discountText": "R$ 750 OFF",
+      "discountText": "R$ 15 OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -414,7 +438,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -426,19 +450,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Use cupom AliExpress e ganhe R$15 OFF",
-      "couponCode": "",
-      "discountText": "R$ 15 OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -450,7 +462,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     },
     {
@@ -462,7 +474,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T17:46:26+00:00",
+      "observedAt": "2026-11-13T18:45:15+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Voucher AliExpress libera R$750 de desconto",
+      "couponCode": "",
+      "discountText": "R$ 750 OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-13T18:45:15+00:00",
       "status": "listed"
     }
   ]
