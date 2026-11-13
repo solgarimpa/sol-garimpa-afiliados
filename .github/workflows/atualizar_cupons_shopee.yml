@@ -6,6 +6,9 @@ on:
     branches: [main]
     paths:
       - 'scripts/sync_cupons_marketplaces.py'
+      - 'scripts/sync_rakuten.py'
+      - 'scripts/build_cupons_central.py'
+      - 'tests/test_cupons_integridade.py'
       - 'docs/central/cupons-marketplace.html'
       - '.github/workflows/atualizar_cupons_shopee.yml'
   schedule:
@@ -42,6 +45,9 @@ jobs:
 
       - name: Instalar leitor de paginas publicas
         run: python -m pip install --disable-pip-version-check requests beautifulsoup4
+
+      - name: Validar codigos e promocoes sem credenciais
+        run: python -m unittest discover -s tests -p 'test_cupons_integridade.py' -v
 
       - name: Coletar 6 lojas Pelando Cuponomia Meliuz e Worker
         run: python scripts/sync_cupons_marketplaces.py
