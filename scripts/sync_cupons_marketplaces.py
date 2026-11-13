@@ -58,6 +58,15 @@ MARKETS = {
         "meliuz": "cupom-desconto-amazon",
     },
 }
+# Alguns agregadores exibem instrucoes ("OFERTANOLINK") no lugar de vouchers.
+# Nao tratar esses textos como codigos copiaveis.
+INVALID_CODES = frozenset({
+    "CUPOM", "CUPOMAQUI", "CUPOMNOLINK", "GANHECUPOM",
+    "GARANTADESCONTO", "GANHEDESCONTO", "RESGATECUPONS",
+    "DESCONTONOLINK", "DESCONTOAQUI", "OFERTANOLINK", "COPIAR",
+    "SHOPEE", "VERCUPOM", "PEGARCUPOM",
+})
+
 EXCLUDE = re.compile(
     r"perguntas frequentes|principais duvidas|todos os cupons|confira todos|"
     r"como (usar|conseguir|funciona|ganhar)|por que meu|resumo de|"
@@ -114,11 +123,7 @@ def actual_code(block):
         m = re.search(pat, block, re.I)
         if m:
             cod = m.group(1).upper()
-            if cod not in {
-                "CUPOM", "CUPOMAQUI", "CUPOMNOLINK", "GANHECUPOM",
-                "GARANTADESCONTO", "GANHEDESCONTO", "RESGATECUPONS",
-                "DESCONTONOLINK", "DESCONTOAQUI", "SHOPEE", "COPIAR"
-            }:
+            if cod not in INVALID_CODES:
                 return cod
     return ""
 
@@ -160,7 +165,7 @@ def record(title, code, desc, source, url, published=None, expiry=None):
     if expires and expires <= NOW:
         return None
     code = plain(code).replace(" ", "").upper()[:50]
-    if code and not re.fullmatch(r"[A-Z0-9_-]{4,50}", code):
+    if code in INVALID_CODES or (code and not re.fullmatch(r"[A-Z0-9_-]{4,50}", code)):
         code = ""
     return {
         "title": title,
