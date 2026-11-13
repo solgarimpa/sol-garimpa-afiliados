@@ -247,11 +247,18 @@ def coupon_from_xml(el: ET.Element, partners: dict) -> dict | None:
     if (start and start > NOW) or (end and end < NOW):
         return None
     store = partners[mid]['loja']
+    # A API mistura vouchers com codigo e promocoes que nao exigem codigo.
+    # So anunciar um voucher como cupom copiavel se couponcode estiver presente.
+    code = txt(el, 'couponcode')
+    if not re.fullmatch(r'[A-Za-z0-9_-]{4,90}', code):
+        code = ''
     return {
-        'id': safe_id('c', mid, link, title), 'tipo': 'cupom',
+        'id': safe_id('c', mid, link, title), 'tipo': 'cupom' if code else 'promocao',
+        'cupom': code,
         'loja': store, 'mid': mid, 'titulo': title[:260],
         'imagem': None, 'preco': None, 'preco_anterior': None,
-        'moeda': None, 'link': link, 'descricao': '',
+        'moeda': None, 'link': link,
+        'descricao': txt(el, 'couponrestriction')[:320],
         'categoria': 'Cupons e promoções',
         'validade': end.isoformat() if end else None,
     }
