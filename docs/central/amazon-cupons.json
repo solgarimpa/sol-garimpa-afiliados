@@ -1,9 +1,9 @@
 {
   "market": "amazon",
   "name": "Amazon",
-  "generatedAt": "2026-11-13T12:25:06+00:00",
+  "generatedAt": "2026-11-13T13:42:35+00:00",
   "refreshMinutes": 30,
-  "count": 36,
+  "count": 37,
   "sources": {
     "Cuponomia": {
       "ok": false,
@@ -12,11 +12,11 @@
     },
     "Meliuz": {
       "ok": true,
-      "quantidade": 38
+      "quantidade": 39
     },
     "WorkerExistente": {
       "ok": true,
-      "quantidade": 2
+      "quantidade": 3
     }
   },
   "note": "Cupons listados nas fontes, nao testados no checkout. Cashback exclusivo de outros sites nao e oferecido pela Sol Garimpa.",
@@ -30,7 +30,19 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-12T17:01:01.236Z",
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "35% OFF em cozinha aplicando cupom Amazon",
+      "couponCode": "OFERTANOLINK",
+      "discountText": "35% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -42,7 +54,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -54,7 +66,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -66,7 +78,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -78,11 +90,11 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
-      "title": "Cupom de desconto Amazon com 20% em todo o site",
+      "title": "Cupom de desconto Amazon com 20%",
       "couponCode": "PRIMEBLACK20",
       "discountText": "20% OFF",
       "description": "20% OFF limitado a R$80. Vale só por 30 minutos, das 12h às 12h30",
@@ -90,7 +102,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom de desconto Amazon válido com R$100 OFF",
+      "couponCode": "BLACK100OFF",
+      "discountText": "R$ 100 OFF",
+      "description": "Compre acima de R$999 em itens selecionados no link e aproveite!",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -102,7 +126,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -114,31 +138,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Eletrônicos com 5% de desconto",
-      "couponCode": "DESCONTOJAATIVO",
-      "discountText": "5% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Garanta 5% de desconto em casa com voucher Amazon",
-      "couponCode": "OFERTANOLINK",
-      "discountText": "5% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -150,7 +150,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -162,19 +162,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Produtos para reforma com 20% de desconto",
-      "couponCode": "REFORMA020",
-      "discountText": "20% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -186,7 +174,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -198,7 +186,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Use cupom Amazon e ganhe 5% OFF em cozinha",
+      "couponCode": "DESCONTOJAATIVO",
+      "discountText": "5% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -210,7 +210,31 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Voucher Amazon libera 10% de desconto em cozinha",
+      "couponCode": "ATIVENOLINK",
+      "discountText": "10% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-13T13:42:35+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Ganhe R$ 100 em compras acima de R$ 999",
+      "couponCode": "",
+      "discountText": "R$ 100 OFF",
+      "description": "Expira em: sexta-feira 13 de novembro de 2026 às 12:00 BRT",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-13T13:03:51.287Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -222,7 +246,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-13T12:17:21.701Z",
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -234,7 +258,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -246,7 +270,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -258,7 +282,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -270,7 +294,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -282,7 +306,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -294,7 +318,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -306,7 +330,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -318,7 +342,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -330,7 +354,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -342,7 +366,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -354,7 +378,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -366,7 +390,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -378,19 +402,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Desconto Amazon: 5% OFF em organizadores de maquiagem",
-      "couponCode": "",
-      "discountText": "5% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -402,7 +414,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -414,7 +426,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -426,7 +438,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -438,7 +450,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     },
     {
@@ -450,7 +462,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-13T12:25:06+00:00",
+      "observedAt": "2026-11-13T13:42:35+00:00",
       "status": "listed"
     }
   ]
