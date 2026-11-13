@@ -64,10 +64,11 @@ def normalizar(entrada, fonte, agora):
         return None
     if not loja or not titulo or not link:
         return None
-    if entrada.get("tipo") == "produto":
+    if entrada.get("tipo") not in ("cupom", "promocao"):
         return None
     tipo = "cupom" if voucher else "promocao"
-    if tipo == "promocao" and fonte != "Awin":
+    # Rakuten fornece links promocionais validos sem codigo; exibir como promocao.
+    if tipo == "promocao" and fonte not in ("Awin", "Rakuten"):
         return None
     # Cupons sem código não são anunciados como se tivessem voucher.
     chave = (loja.casefold(), voucher.casefold() if voucher else titulo.casefold())
