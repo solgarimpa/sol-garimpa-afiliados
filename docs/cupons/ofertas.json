@@ -1,9 +1,20 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-13T17:14:25.154782Z",
-  "total": 106,
+  "atualizado_em": "2026-11-13T18:06:05.217622Z",
+  "total": 114,
   "ofertas": [
+    {
+      "id": "4174153",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF com o cupom ZAFADINHO10 em produtos participantes da campanha",
+      "descricao": "10% OFF com o cupom ZAFADINHO10 em produtos participantes da campanha",
+      "termos": ".",
+      "cupom": "ZAFADINHO10",
+      "validade": "2026-11-14T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1ZAFADINHO10"
+    },
     {
       "id": "4172382",
       "loja": "Kabum BR",
@@ -60,6 +71,17 @@
       "link": "https://www.awin1.com/cread.php?awinmid=28167&awinaffid=3110826&ued=https%3A%2F%2Fwww.eurorelogios.com.br%2Fblack-friday"
     },
     {
+      "id": "4174137",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "6% OFF com o cupom RECEBA em produtos participantes da campanha",
+      "descricao": "6% OFF com o cupom RECEBA em produtos participantes da campanha",
+      "termos": ".",
+      "cupom": "RECEBA",
+      "validade": "2026-11-16T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1RECEBA"
+    },
+    {
       "id": "4173759",
       "loja": "Kabum BR",
       "tipo": "cupom",
@@ -82,6 +104,39 @@
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1074881%2Fsmart-tv-lg-nanocell-50-4k-uhd-led-com-hdr-e-inteligencia-artificial-50un85cbpsa-bwz"
     },
     {
+      "id": "4174150",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "5% OFF na compra do MacBook Neo Apple 13\" Chip A18 Pro 256GB Prateado",
+      "descricao": "5% OFF na compra do MacBook Neo Apple 13\" Chip A18 Pro 256GB Prateado",
+      "termos": ".",
+      "cupom": "MACNEO5OFF",
+      "validade": "2026-11-16T12:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1015057%2Fmacbook-neo-apple-13-chip-a18-pro-cpu-de-6-nucleos-gpu-de-5-nucleos-256gb-prateado-mhfa4bz-a"
+    },
+    {
+      "id": "4174154",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "R$ 200 OFF na compra do Volante Logitech G29 Driving Force para PS5. PS4. PS3 e PC",
+      "descricao": "R$ 200 OFF na compra do Volante Logitech G29 Driving Force para PS5. PS4. PS3 e PC",
+      "termos": ".",
+      "cupom": "NOVOLANTE",
+      "validade": "2026-11-16T15:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F69305%2Fvolante-logitech-g29-driving-force-para-ps5-ps4-ps3-e-pc-941-000111"
+    },
+    {
+      "id": "4174148",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "R$ 30 OFF na compra do jogo Grand Theft Auto GTA VI para PS5",
+      "descricao": "R$ 30 OFF na compra do jogo Grand Theft Auto GTA VI para PS5",
+      "termos": ".",
+      "cupom": "PEGALOGOGTA",
+      "validade": "2026-11-16T15:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1051619%2Fjogo-grand-theft-auto-gta-vi-6-ps5-tt000272ps5"
+    },
+    {
       "id": "4168707",
       "loja": "Kabum BR",
       "tipo": "cupom",
@@ -93,6 +148,28 @@
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1059731%2Far-condicionado-split-electrolux-hi-wall-maxcomfort-full-inverter-9-000-btu-h-frio-monofasico-branco-ni09f-ne09f-220v"
     },
     {
+      "id": "4174142",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "R$ 100 OFF na compra do Tablet Samsung Galaxy Tab A11 128GB 6GB RAM Tela 11\"",
+      "descricao": "R$ 100 OFF na compra do Tablet Samsung Galaxy Tab A11 128GB 6GB RAM Tela 11\"",
+      "termos": ".",
+      "cupom": "MAGA100",
+      "validade": "2026-11-17T20:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F994395%2Ftablet-samsung-galaxy-tab-a11-128gb-6gb-ram-tela-de-11-camera-traseira-8mp-wifi-android-16"
+    },
+    {
+      "id": "4174138",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF com o cupom MAGALU10 em produtos participantes da campanha",
+      "descricao": "10% OFF com o cupom MAGALU10 em produtos participantes da campanha",
+      "termos": ".",
+      "cupom": "MAGALU10",
+      "validade": "2026-11-17T20:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP3MAGALU10"
+    },
+    {
       "id": "4173592",
       "loja": "Technos BR",
       "tipo": "promocao",
@@ -102,6 +179,17 @@
       "cupom": "",
       "validade": "2026-11-20T03:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=28161&awinaffid=3110826&ued=https%3A%2F%2Fwww.technos.com.br%2Fblack-friday"
+    },
+    {
+      "id": "4174145",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "5% OFF com o cupom CASADINHO em produtos participantes da campanha",
+      "descricao": "5% OFF com o cupom CASADINHO em produtos participantes da campanha",
+      "termos": ".",
+      "cupom": "CASADINHO",
+      "validade": "2026-11-20T12:30:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1CASADINHO"
     },
     {
       "id": "4172383",

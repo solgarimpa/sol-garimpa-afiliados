@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-13T17:14:26.380148Z",
-  "total": 188,
-  "total_cupons": 130,
+  "atualizado_em": "2026-11-13T18:06:06.866094Z",
+  "total": 199,
+  "total_cupons": 141,
   "total_promocoes": 58,
   "fontes": {
-    "Awin": 106,
-    "Rakuten": 47,
-    "Lomadee": 35
+    "Awin": 114,
+    "Rakuten": 49,
+    "Lomadee": 36
   },
   "ofertas": [
     {
@@ -179,18 +179,6 @@
       "rede": "Lomadee"
     },
     {
-      "id": "52cb23a7d3e8a575f6",
-      "loja": "China in Box",
-      "tipo": "cupom",
-      "titulo": "Cupom Frete Gratis",
-      "descricao": "",
-      "termos": "",
-      "cupom": "FRETELOMADEE",
-      "validade": "2027-01-01T02:59:59Z",
-      "link": "https://lmdee.link/69aTXVdd4fbx",
-      "rede": "Lomadee"
-    },
-    {
       "id": "588eaee50ddad11f81",
       "loja": "Coza",
       "tipo": "cupom",
@@ -261,6 +249,18 @@
       "validade": "2028-01-01T02:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=129043&awinaffid=3110826&ued=https%3A%2F%2Fwww.dafiti.com.br%2F",
       "rede": "Awin"
+    },
+    {
+      "id": "ad591549bee61d346a",
+      "loja": "Drogasmil",
+      "tipo": "cupom",
+      "titulo": "Cupom de 10% de desconto",
+      "descricao": "",
+      "termos": "",
+      "cupom": "PRIMEIRA10",
+      "validade": "2026-11-16T02:30:00Z",
+      "link": "https://lmdee.link/O7u8y32qe1cX",
+      "rede": "Lomadee"
     },
     {
       "id": "1c2e91a8ab21a85834",
@@ -731,6 +731,30 @@
       "rede": "Awin"
     },
     {
+      "id": "3103920f65a11e78c9",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF com o cupom MAGALU10 em produtos participantes da campanha",
+      "descricao": "10% OFF com o cupom MAGALU10 em produtos participantes da campanha",
+      "termos": ".",
+      "cupom": "MAGALU10",
+      "validade": "2026-11-17T20:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP3MAGALU10",
+      "rede": "Awin"
+    },
+    {
+      "id": "4007276dae0f78dbc6",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF com o cupom ZAFADINHO10 em produtos participantes da campanha",
+      "descricao": "10% OFF com o cupom ZAFADINHO10 em produtos participantes da campanha",
+      "termos": ".",
+      "cupom": "ZAFADINHO10",
+      "validade": "2026-11-14T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1ZAFADINHO10",
+      "rede": "Awin"
+    },
+    {
       "id": "41f0f78313eb543753",
       "loja": "Kabum BR",
       "tipo": "cupom",
@@ -803,6 +827,18 @@
       "rede": "Awin"
     },
     {
+      "id": "9c935040aae58f4666",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "5% OFF com o cupom CASADINHO em produtos participantes da campanha",
+      "descricao": "5% OFF com o cupom CASADINHO em produtos participantes da campanha",
+      "termos": ".",
+      "cupom": "CASADINHO",
+      "validade": "2026-11-20T12:30:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1CASADINHO",
+      "rede": "Awin"
+    },
+    {
       "id": "95b0a0b7ae97886153",
       "loja": "Kabum BR",
       "tipo": "cupom",
@@ -815,6 +851,18 @@
       "rede": "Awin"
     },
     {
+      "id": "b5494b3275bf267d64",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "5% OFF na compra do MacBook Neo Apple 13\" Chip A18 Pro 256GB Prateado",
+      "descricao": "5% OFF na compra do MacBook Neo Apple 13\" Chip A18 Pro 256GB Prateado",
+      "termos": ".",
+      "cupom": "MACNEO5OFF",
+      "validade": "2026-11-16T12:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1015057%2Fmacbook-neo-apple-13-chip-a18-pro-cpu-de-6-nucleos-gpu-de-5-nucleos-256gb-prateado-mhfa4bz-a",
+      "rede": "Awin"
+    },
+    {
       "id": "a33954759edb630e66",
       "loja": "Kabum BR",
       "tipo": "cupom",
@@ -824,6 +872,18 @@
       "cupom": "ARFRIO5",
       "validade": "2026-11-17T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1059731%2Far-condicionado-split-electrolux-hi-wall-maxcomfort-full-inverter-9-000-btu-h-frio-monofasico-branco-ni09f-ne09f-220v",
+      "rede": "Awin"
+    },
+    {
+      "id": "76d8669e02b01b6b7d",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "6% OFF com o cupom RECEBA em produtos participantes da campanha",
+      "descricao": "6% OFF com o cupom RECEBA em produtos participantes da campanha",
+      "termos": ".",
+      "cupom": "RECEBA",
+      "validade": "2026-11-16T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1RECEBA",
       "rede": "Awin"
     },
     {
@@ -872,6 +932,18 @@
       "cupom": "ANTENA50",
       "validade": "2026-11-29T15:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1074997%2Fkit-starlink-mini-x-antena-roteador-internet-via-satelite-wi-fi-5-branca-02535308-501",
+      "rede": "Awin"
+    },
+    {
+      "id": "3d1d885ab54f2311bd",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "R$ 100 OFF na compra do Tablet Samsung Galaxy Tab A11 128GB 6GB RAM Tela 11\"",
+      "descricao": "R$ 100 OFF na compra do Tablet Samsung Galaxy Tab A11 128GB 6GB RAM Tela 11\"",
+      "termos": ".",
+      "cupom": "MAGA100",
+      "validade": "2026-11-17T20:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F994395%2Ftablet-samsung-galaxy-tab-a11-128gb-6gb-ram-tela-de-11-camera-traseira-8mp-wifi-android-16",
       "rede": "Awin"
     },
     {
@@ -935,6 +1007,18 @@
       "rede": "Awin"
     },
     {
+      "id": "af6d7f1a27d084e99d",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "R$ 200 OFF na compra do Volante Logitech G29 Driving Force para PS5. PS4. PS3 e PC",
+      "descricao": "R$ 200 OFF na compra do Volante Logitech G29 Driving Force para PS5. PS4. PS3 e PC",
+      "termos": ".",
+      "cupom": "NOVOLANTE",
+      "validade": "2026-11-16T15:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F69305%2Fvolante-logitech-g29-driving-force-para-ps5-ps4-ps3-e-pc-941-000111",
+      "rede": "Awin"
+    },
+    {
       "id": "a8211dc9ce81c7859a",
       "loja": "Kabum BR",
       "tipo": "cupom",
@@ -956,6 +1040,18 @@
       "cupom": "HORADOCAFE",
       "validade": "2026-11-24T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F367383%2Fcafeteira-nespresso-citiz-para-cafe-espresso-110v-vermelho-cereja-c113-br",
+      "rede": "Awin"
+    },
+    {
+      "id": "1efe4b5d8778461b4a",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "R$ 30 OFF na compra do jogo Grand Theft Auto GTA VI para PS5",
+      "descricao": "R$ 30 OFF na compra do jogo Grand Theft Auto GTA VI para PS5",
+      "termos": ".",
+      "cupom": "PEGALOGOGTA",
+      "validade": "2026-11-16T15:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1051619%2Fjogo-grand-theft-auto-gta-vi-6-ps5-tt000272ps5",
       "rede": "Awin"
     },
     {
@@ -1295,6 +1391,18 @@
       "rede": "Lomadee"
     },
     {
+      "id": "c92cf607c475a874a1",
+      "loja": "Malwee",
+      "tipo": "cupom",
+      "titulo": "Black November - Peças infantis até 30% OFF + 30% OFF Extra",
+      "descricao": "",
+      "termos": "",
+      "cupom": "30OFF",
+      "validade": "2026-11-16T02:30:00Z",
+      "link": "https://lmdee.link/mmSMVGrbiJcm",
+      "rede": "Lomadee"
+    },
+    {
       "id": "8978784825a74e4697",
       "loja": "Malwee",
       "tipo": "cupom",
@@ -1329,6 +1437,30 @@
       "validade": "2026-12-01T02:59:59Z",
       "link": "https://lmdee.link/m0zR9Eohrlwb",
       "rede": "Lomadee"
+    },
+    {
+      "id": "444ceae1adc4ff4e12",
+      "loja": "Mundo Danone",
+      "tipo": "cupom",
+      "titulo": "10% extra - Profutura 800g Cupom: BFAPTANUTRI",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BFAPTANUTRI",
+      "validade": "2026-11-16T00:00:00Z",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.6&type=3&subid=0",
+      "rede": "Rakuten"
+    },
+    {
+      "id": "ab79d506660136b0ba",
+      "loja": "Mundo Danone",
+      "tipo": "cupom",
+      "titulo": "11% extra em Souvenaid Cupom: BFSOUVENAID",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BFSOUVENAID",
+      "validade": "2026-11-16T00:00:00Z",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.7&type=3&subid=0",
+      "rede": "Rakuten"
     },
     {
       "id": "a8b56e0d3842c142f5",
