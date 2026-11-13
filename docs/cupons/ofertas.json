@@ -1,42 +1,9 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-13T12:42:36.431927Z",
+  "atualizado_em": "2026-11-13T13:57:29.817545Z",
   "total": 107,
   "ofertas": [
-    {
-      "id": "4166894",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "20% OFF em produtos participantes da campanha Precisão",
-      "descricao": "20% OFF em produtos participantes da campanha Precisão",
-      "termos": ".",
-      "cupom": "PRECISAO20",
-      "validade": "2026-11-13T13:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1PRECISAO20"
-    },
-    {
-      "id": "4166892",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "15% OFF em produtos participantes da campanha Tomou 15",
-      "descricao": "15% OFF em produtos participantes da campanha Tomou 15",
-      "termos": ".",
-      "cupom": "TOMOU15",
-      "validade": "2026-11-13T13:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1TOMOU15"
-    },
-    {
-      "id": "4166886",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "40% OFF em produtos participantes da campanha Endgame",
-      "descricao": "40% OFF em produtos participantes da campanha Endgame",
-      "termos": ".",
-      "cupom": "ENDGAME40",
-      "validade": "2026-11-13T13:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1ENDGAME40"
-    },
     {
       "id": "4168724",
       "loja": "Kabum BR",
@@ -104,6 +71,17 @@
       "link": "https://www.awin1.com/cread.php?awinmid=28167&awinaffid=3110826&ued=https%3A%2F%2Fwww.eurorelogios.com.br%2Fblack-friday"
     },
     {
+      "id": "4173759",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "R$ 100 OFF no Console PlayStation 5 Slim Digital SSD 825GB com 2 jogos",
+      "descricao": "R$ 100 OFF no Console PlayStation 5 Slim Digital SSD 825GB com 2 jogos",
+      "termos": ".",
+      "cupom": "MAGALUPS5",
+      "validade": "2026-11-16T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F939943%2Fconsole-playstation-5-slim-digital-ssd-825gb-4k-uhd-120hz-ray-tracing-controle-dualsense-e-2-jogos-bivolt-branco"
+    },
+    {
       "id": "4165010",
       "loja": "Kabum BR",
       "tipo": "cupom",
@@ -146,6 +124,17 @@
       "cupom": "TOMA400",
       "validade": "2026-11-21T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F938060"
+    },
+    {
+      "id": "4173752",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "R$ 30 OFF na Cafeteira Nespresso CitiZ para Café Espresso 110V Vermelho Cereja",
+      "descricao": "R$ 30 OFF na Cafeteira Nespresso CitiZ para Café Espresso 110V Vermelho Cereja",
+      "termos": ".",
+      "cupom": "HORADOCAFE",
+      "validade": "2026-11-24T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F367383%2Fcafeteira-nespresso-citiz-para-cafe-espresso-110v-vermelho-cereja-c113-br"
     },
     {
       "id": "4156929",
@@ -201,6 +190,17 @@
       "cupom": "",
       "validade": "2026-11-30T15:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=114180&awinaffid=3110826&campaign=safe+accu+kit+50+off+oct26&ued=https%3A%2F%2Fen.sinocare.com%2Fproducts%2Fsinocare-blood-glucose-monitor-safe-accu%3Fvariant%3D43072245825768"
+    },
+    {
+      "id": "4173757",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "30% OFF em produtos selecionados da campanha JBL",
+      "descricao": "30% OFF em produtos selecionados da campanha JBL",
+      "termos": ".",
+      "cupom": "JBL30OFF",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP3JBL30OFF"
     },
     {
       "id": "4168701",
