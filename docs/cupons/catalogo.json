@@ -1,11 +1,11 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-13T13:57:31.040627Z",
-  "total": 145,
-  "total_cupons": 125,
+  "atualizado_em": "2026-11-13T15:07:32.273282Z",
+  "total": 144,
+  "total_cupons": 124,
   "total_promocoes": 20,
   "fontes": {
-    "Awin": 107,
+    "Awin": 106,
     "Rakuten": 0,
     "Lomadee": 38
   },
@@ -704,18 +704,6 @@
       "cupom": "SOFTWARES10",
       "validade": "2026-12-01T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1SOFTWARES10",
-      "rede": "Awin"
-    },
-    {
-      "id": "6e60dd1d02854724ef",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "10% OFF no jogo Metroid Ravenous para Nintendo Switch 2",
-      "descricao": "10% OFF no jogo Metroid Ravenous para Nintendo Switch 2",
-      "termos": ".",
-      "cupom": "PEGAOJOGO",
-      "validade": "2026-11-13T15:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1087864%2Fjogo-metroid-ravenous-nintendo-switch-2-nsca10000088fgr",
       "rede": "Awin"
     },
     {
