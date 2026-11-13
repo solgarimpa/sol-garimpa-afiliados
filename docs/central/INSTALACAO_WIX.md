@@ -78,8 +78,29 @@ A coleta de Pelando e Cuponomia pode retornar HTTP 403 e NAO deve ser contornada
 nesse caso o JSON registra a falha sem afirmar acesso.
 Fontes diretas da Awin/Rakuten/Lomadee continuam independentes em docs/cupons/catalogo.json.
 Nao confundir atualizado (observado) com testado: os cupons nao foram testados no checkout.
-Somente o link SHEIN do Worker existente tem rastreamento historicamente configurado;
-para outras lojas, os links atuais nao devem ser apresentados como links de afiliado.
+O HTML das subpaginas separa dois destinos: uma selecao Sol Garimpa
+(vitrines Shopee, Mercado Livre, Magalu, AliExpress/Site Wix, SHEIN e lista Amazon)
+e o link direto para o marketplace. O link direto **nao deve ser divulgado como
+rastreado**; as vitrines e listas nao asseguram que um cupom especifico sirva
+para todos os produtos nem comissionamento de cada compra.
+
+## Auditoria de integridade dos cupons — 13/11/2026
+
+- A Rakuten devolvia cupons e promocoes pela API, mas o script nao exportava
+  `couponcode`; corrigido no `scripts/sync_rakuten.py`.
+- A consolidacao `scripts/build_cupons_central.py` agora aceita promocoes
+  Rakuten sem codigo, mas so exibe voucher copiavel quando existe codigo oficial.
+- O coletor dos marketplaces descarta placeholders como `OFERTANOLINK`
+  inclusive quando vierem do Worker (nao apenas do HTML de agregadores).
+- Testes unitarios de dados de cupons em `tests/test_cupons_integridade.py`.
+- Link Locator da Rakuten continua respondendo HTTP 404 para anunciantes
+  sem feed de produto: agora o registro explicita status HTTP em vez de
+  somente `RuntimeError`. Sem credencial/acesso a endpoint funcional nao
+  ha como garantir novas criacoes por essa fonte.
+- Magalu e AliExpress podem continuar com poucos vouchers com codigo:
+  a escassez nas fontes consultadas nao deve ser mascarada com codigos inventados.
+- As campanhas de produtos nao sao verificadas em carrinho. Se um cupom
+  perder validade entre coletas, a confirmacao final continua sendo da loja.
 
 ## Revisao de atualizacao — 12/11/2026
 
