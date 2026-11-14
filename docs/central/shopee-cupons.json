@@ -1,9 +1,9 @@
 {
   "market": "shopee",
   "name": "Shopee",
-  "generatedAt": "2026-11-14T02:44:29+00:00",
+  "generatedAt": "2026-11-14T03:44:31+00:00",
   "refreshMinutes": 30,
-  "count": 45,
+  "count": 43,
   "sources": {
     "Cuponomia": {
       "ok": false,
@@ -12,7 +12,7 @@
     },
     "Meliuz": {
       "ok": true,
-      "quantidade": 39
+      "quantidade": 37
     },
     "WorkerExistente": {
       "ok": true,
@@ -22,27 +22,39 @@
   "note": "Cupons listados nas fontes, nao testados no checkout. Cashback exclusivo de outros sites nao e oferecido pela Sol Garimpa.",
   "coupons": [
     {
-      "title": "Cupom Shopee oferece R$ 80 OFF em R$ 599 em Automóveis e Motocicletas",
-      "couponCode": "AUTOEMOTO",
-      "discountText": "R$ 80 OFF",
+      "title": "Cupom Shopee oferece 33% de Cashback, máximo R$ 20, em R$ 60",
+      "couponCode": "N4HC4RDO5O",
+      "discountText": "33% OFF",
       "description": "Consulte as regras e a validade do cupom diretamente na loja.",
       "sources": [],
       "sourceUrl": "",
-      "publishedAt": "2026-11-13T13:18:11.091Z",
+      "publishedAt": "2026-11-14T03:38:32.742Z",
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
-      "title": "Cupom Shopee oferece R$ 15 OFF em R$ 99",
-      "couponCode": "C0RR1D411D011",
-      "discountText": "R$ 15 OFF",
+      "title": "Cupom Shopee oferece 25% de Cashback, máximo R$ 10, em R$ 40",
+      "couponCode": "KAROLCONK4",
+      "discountText": "25% OFF",
       "description": "Consulte as regras e a validade do cupom diretamente na loja.",
       "sources": [],
       "sourceUrl": "",
-      "publishedAt": "2026-11-13T13:17:51.024Z",
+      "publishedAt": "2026-11-14T03:34:45.294Z",
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom Shopee oferece 33% de Cashback, máximo R$ 20, em R$ 60",
+      "couponCode": "1MPROT4",
+      "discountText": "33% OFF",
+      "description": "Consulte as regras e a validade do cupom diretamente na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-14T03:32:42.311Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -54,7 +66,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -66,7 +78,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -78,7 +90,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -90,7 +102,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -102,7 +114,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -114,43 +126,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Shopee - R$25 OFF acima de R$299 Moda",
-      "couponCode": "",
-      "discountText": "R$ 25 OFF",
-      "description": "s.shopee.com.br/6filRGwxAI",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-13T03:07:18.100Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Shopee R$100 OFF acima de R$999 Tecnologia",
-      "couponCode": "",
-      "discountText": "R$ 100 OFF",
-      "description": "s.shopee.com.br/50aacbLjEH",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-13T03:03:58.806Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Shopee oferece 10% OFF, máximo R$ 10, sem pedido mínimo",
-      "couponCode": "",
-      "discountText": "10% OFF",
-      "description": "Consulte as regras e a validade do cupom diretamente na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-13T03:01:13.324Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -160,9 +136,33 @@
       "description": "Consulte as regras e a validade do cupom diretamente na loja.",
       "sources": [],
       "sourceUrl": "",
-      "publishedAt": "2026-11-13T03:00:32.858Z",
+      "publishedAt": "2026-11-14T03:01:50.787Z",
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom Shopee oferece 10% OFF, máximo R$ 10, sem pedido mínimo",
+      "couponCode": "",
+      "discountText": "10% OFF",
+      "description": "Consulte as regras e a validade do cupom diretamente na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-14T03:00:39.979Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-14T03:44:31+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "(VIP) Cupom Shopee oferece 30% OFF, máximo R$ 15, sem pedido mínimo",
+      "couponCode": "",
+      "discountText": "30% OFF",
+      "description": "Consulte as regras e a validade do cupom diretamente na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-14T03:00:28.742Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -174,7 +174,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -186,7 +186,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -198,7 +198,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -210,7 +210,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -222,7 +222,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -234,7 +234,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -246,7 +246,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -258,7 +258,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -270,7 +270,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -282,7 +282,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -294,7 +294,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -306,7 +306,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -318,7 +318,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -330,7 +330,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -342,7 +342,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -354,7 +354,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -366,7 +366,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -378,7 +378,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -390,19 +390,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Ganhe R$15 usando cupom relâmpago Shopee",
-      "couponCode": "",
-      "discountText": "R$ 15 OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -414,7 +402,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Ofertas relâmpago Shopee: Aproveite até 85% OFF em suas compras",
+      "couponCode": "",
+      "discountText": "85% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -426,7 +426,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -438,7 +438,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -450,19 +450,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "R$100 OFF em tecnologia acima de R$999",
-      "couponCode": "",
-      "discountText": "R$ 100 OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -474,19 +462,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "R$70 OFF no seu pedido: use cupom e aproveite",
-      "couponCode": "",
-      "discountText": "R$ 70 OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -498,7 +474,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -510,7 +486,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -522,7 +498,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -534,7 +510,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -546,7 +522,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     },
     {
@@ -558,7 +534,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T02:44:29+00:00",
+      "observedAt": "2026-11-14T03:44:31+00:00",
       "status": "listed"
     }
   ]
