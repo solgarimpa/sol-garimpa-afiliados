@@ -1,11 +1,11 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-14T02:31:28.443068Z",
-  "total": 198,
-  "total_cupons": 140,
+  "atualizado_em": "2026-11-14T03:32:01.512792Z",
+  "total": 194,
+  "total_cupons": 136,
   "total_promocoes": 58,
   "fontes": {
-    "Awin": 114,
+    "Awin": 110,
     "Rakuten": 49,
     "Lomadee": 35
   },
@@ -563,6 +563,18 @@
       "rede": "Lomadee"
     },
     {
+      "id": "2064a07eb6fac20ab4",
+      "loja": "eles.®",
+      "tipo": "cupom",
+      "titulo": "Preblack",
+      "descricao": "",
+      "termos": "",
+      "cupom": "Preblack",
+      "validade": null,
+      "link": "https://lmdee.link/iIBsvCOgPe2m",
+      "rede": "Lomadee"
+    },
+    {
       "id": "cdeff649f429655f3f",
       "loja": "Eurorelogios BR",
       "tipo": "cupom",
@@ -731,30 +743,6 @@
       "rede": "Awin"
     },
     {
-      "id": "4007276dae0f78dbc6",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "10% OFF com o cupom ZAFADINHO10 em produtos participantes da campanha",
-      "descricao": "10% OFF com o cupom ZAFADINHO10 em produtos participantes da campanha",
-      "termos": ".",
-      "cupom": "ZAFADINHO10",
-      "validade": "2026-11-14T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1ZAFADINHO10",
-      "rede": "Awin"
-    },
-    {
-      "id": "41f0f78313eb543753",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "10% OFF em produtos selecionados da campanha Hey Alexa VIP",
-      "descricao": "10% OFF em produtos selecionados da campanha Hey Alexa VIP",
-      "termos": ".",
-      "cupom": "HEYALEXAVIP",
-      "validade": "2026-11-14T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FHEYALEXAVIP",
-      "rede": "Awin"
-    },
-    {
       "id": "0a1d68eb0b14a72b0d",
       "loja": "Kabum BR",
       "tipo": "cupom",
@@ -872,18 +860,6 @@
       "cupom": "RECEBA",
       "validade": "2026-11-16T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1RECEBA",
-      "rede": "Awin"
-    },
-    {
-      "id": "c6d53aa92711e77ab9",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "7% OFF em produtos selecionados da campanha Hey Alexa",
-      "descricao": "7% OFF em produtos selecionados da campanha Hey Alexa",
-      "termos": ".",
-      "cupom": "HEYALEXA",
-      "validade": "2026-11-14T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FHEYALEXA",
       "rede": "Awin"
     },
     {
@@ -1430,12 +1406,12 @@
       "id": "444ceae1adc4ff4e12",
       "loja": "Mundo Danone",
       "tipo": "cupom",
-      "titulo": "10% extra - Profutura 800g Cupom: BFAPTANUTRI",
+      "titulo": "10% extra - Aptanutri Premium 800g Cupom: BFAPTANUTRI",
       "descricao": "",
       "termos": "",
       "cupom": "BFAPTANUTRI",
       "validade": "2026-11-16T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.6&type=3&subid=0",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.5&type=3&subid=0",
       "rede": "Rakuten"
     },
     {
@@ -1449,18 +1425,6 @@
       "validade": "2026-11-16T00:00:00Z",
       "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.7&type=3&subid=0",
       "rede": "Rakuten"
-    },
-    {
-      "id": "a8b56e0d3842c142f5",
-      "loja": "Nike BR",
-      "tipo": "cupom",
-      "titulo": "Ganhe R$ 50 OFF em compras acima de R$ 250 com o cupom GANHE50. Válido para produtos elegíveis da campanha",
-      "descricao": "Ganhe R$ 50 OFF em compras acima de R$ 250 com o cupom GANHE50. Válido para produtos elegíveis da campanha",
-      "termos": ".",
-      "cupom": "GANHE50",
-      "validade": "2026-11-14T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17652&awinaffid=3110826&ued=https%3A%2F%2Fwww.nike.com.br%2Fhotsite%2Fganhe50",
-      "rede": "Awin"
     },
     {
       "id": "ac681230be5861174b",
@@ -1617,18 +1581,6 @@
       "validade": "2026-12-02T01:00:00Z",
       "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1599568.298&type=3&subid=0",
       "rede": "Rakuten"
-    },
-    {
-      "id": "fd7a66a003a4444937",
-      "loja": "UP Kids",
-      "tipo": "cupom",
-      "titulo": "Especial 11.11 com até 80% + 11% EXTRA em todo o site e app",
-      "descricao": "",
-      "termos": "",
-      "cupom": "11DO11",
-      "validade": "2026-11-14T02:59:59Z",
-      "link": "https://lmdee.link/8Jw24jlIp5zq",
-      "rede": "Lomadee"
     },
     {
       "id": "451715af7e7d96a240",

@@ -1,53 +1,9 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-14T02:31:27.362534Z",
-  "total": 114,
+  "atualizado_em": "2026-11-14T03:32:00.650226Z",
+  "total": 110,
   "ofertas": [
-    {
-      "id": "4174153",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "10% OFF com o cupom ZAFADINHO10 em produtos participantes da campanha",
-      "descricao": "10% OFF com o cupom ZAFADINHO10 em produtos participantes da campanha",
-      "termos": ".",
-      "cupom": "ZAFADINHO10",
-      "validade": "2026-11-14T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1ZAFADINHO10"
-    },
-    {
-      "id": "4172382",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "10% OFF em produtos selecionados da campanha Hey Alexa VIP",
-      "descricao": "10% OFF em produtos selecionados da campanha Hey Alexa VIP",
-      "termos": ".",
-      "cupom": "HEYALEXAVIP",
-      "validade": "2026-11-14T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FHEYALEXAVIP"
-    },
-    {
-      "id": "4172379",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "7% OFF em produtos selecionados da campanha Hey Alexa",
-      "descricao": "7% OFF em produtos selecionados da campanha Hey Alexa",
-      "termos": ".",
-      "cupom": "HEYALEXA",
-      "validade": "2026-11-14T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FHEYALEXA"
-    },
-    {
-      "id": "4170587",
-      "loja": "Nike BR",
-      "tipo": "cupom",
-      "titulo": "Ganhe R$ 50 OFF em compras acima de R$ 250 com o cupom GANHE50. Válido para produtos elegíveis da campanha",
-      "descricao": "Ganhe R$ 50 OFF em compras acima de R$ 250 com o cupom GANHE50. Válido para produtos elegíveis da campanha",
-      "termos": ".",
-      "cupom": "GANHE50",
-      "validade": "2026-11-14T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17652&awinaffid=3110826&ued=https%3A%2F%2Fwww.nike.com.br%2Fhotsite%2Fganhe50"
-    },
     {
       "id": "4172387",
       "loja": "Kabum BR",
