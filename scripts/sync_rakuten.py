@@ -114,6 +114,28 @@ def parsedate(value: str | None):
     return result.astimezone(timezone.utc)
 
 
+def link_com_macro_nao_resolvida(value: str | None) -> bool:
+    """Identifica placeholders de afiliado nao substituidos em URLs oficiais.
+
+    Alguns produtos da Trocafone chegam com affiliateID=[ld_site_id]
+    dentro da URL codificada do anunciante; o destino responde HTTP 400.
+    Nao substituir o parametro por um ID presumido nem retirar o
+    rastreador da Rakuten: impedir a publicacao ate a fonte corrigir.
+    """
+    if not isinstance(value, str):
+        return False
+    decoded = value
+    for _ in range(4):
+        newer = urllib.parse.unquote(decoded)
+        if newer == decoded:
+            break
+        decoded = newer
+    return bool(re.search(
+        r"\[(?:ld_site_id|site_id|affiliate_id|publisher_id)\]",
+        decoded, flags=re.IGNORECASE
+    ))
+
+
 def clean_url(value: str | None):
     if not isinstance(value, str):
         return None
@@ -124,6 +146,8 @@ def clean_url(value: str | None):
         return None
     # Rakuten links are never rebuilt/modified, only validated.
     if u.scheme != 'https' or not u.netloc or '@' in u.netloc:
+        return None
+    if link_com_macro_nao_resolvida(value):
         return None
     return value
 
