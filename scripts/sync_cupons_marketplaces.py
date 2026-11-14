@@ -266,7 +266,7 @@ def parse_site(conf, source):
 
 
 def parse_seletronic_ifood(conf):
-    """Complemento iFood: somente códigos publicamente visíveis, sem links de terceiros."""
+    """Lê somente vouchers públicos; nunca usa o redirecionamento afiliado da fonte."""
     url = source_url(conf, "Seletronic")
     doc = get(url)
     out = []
@@ -274,15 +274,32 @@ def parse_seletronic_ifood(conf):
         title = h.get_text(" ", strip=True)
         if not re.search(r"cupom|desconto|off", norm(title)):
             continue
-        block = block_of_heading(h)
-        text = block.get_text(" ", strip=True)
-        match = re.search(r"\b([A-Z][A-Z0-9_-]{3,34})\s*\(\s*Copiar", text, re.I)
-        if not match:
+        code = ""
+        current = h
+        for _ in range(9):
+            current = current.parent
+            if current is None:
+                break
+            txt = current.get_text(" ", strip=True)
+            if len(txt) > 2400 or len(current.find_all("h3")) > 2:
+                break
+            match = re.search(r"\b([A-Z][A-Z0-9_-]{3,34})\s*\(?\s*Copiar\b", txt, re.I)
+            if match:
+                code = match.group(1).upper()
+                break
+            for link in current.find_all("a"):
+                label = link.get_text(" ", strip=True)
+                if "copiar" not in norm(label):
+                    continue
+                match = re.match(r"\s*([A-Z][A-Z0-9_-]{3,34})\b", label, re.I)
+                if match:
+                    code = match.group(1).upper()
+                    break
+            if code:
+                break
+        if not code or code in INVALID_CODES:
             continue
-        code = match.group(1).upper()
-        if code in INVALID_CODES:
-            continue
-        row = record(title, code, "Confira no iFood os itens, a conta e as regras elegíveis.", "Seletronic", url)
+        row = record(title, code, "Confira a elegibilidade do código diretamente no iFood.", "Seletronic", url)
         if row:
             out.append(row)
     if not out:
