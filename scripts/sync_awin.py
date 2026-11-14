@@ -997,10 +997,9 @@ def attach_sol_page(item):
         f"{base}-{digest}"
     )
 
-    item["url_sol_garimpa"] = (
-        f"{SITE_URL}/oferta/"
-        f"{item['slug']}"
-    )
+    # Rotas /oferta/<slug> ainda nao existem no Wix.
+    # Mantem compatibilidade com leitores deste campo usando o link rastreado.
+    item["url_sol_garimpa"] = item["link"]
 
     return item
 
