@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""SOL GARIMPA - catálogo informativo de cupons de seis marketplaces.
+"""SOL GARIMPA - catálogo informativo de cupons de sete lojas.
 
 Fontes: Pelando, Cuponomia, Meliuz e Workers proprios ja existentes.
 Extrai apenas dados factuais publicamente anunciados; nao contorna bloqueios,
@@ -56,6 +56,11 @@ MARKETS = {
         "name": "Amazon", "worker": "Amazon",
         "pelando": "amazon", "cuponomia": "amazon",
         "meliuz": "cupom-desconto-amazon",
+    },
+    "ifood": {
+        "name": "iFood", "worker": "iFood",
+        "pelando": "ifood", "cuponomia": "ifood",
+        "meliuz": "cupom-ifood",
     },
 }
 # Alguns agregadores exibem instrucoes ("OFERTANOLINK") no lugar de vouchers.
@@ -198,6 +203,8 @@ def source_url(conf, source):
         return "https://www.pelando.com.br/cupons-de-descontos/" + conf["pelando"]
     if source == "Cuponomia":
         return "https://www.cuponomia.com.br/desconto/" + conf["cuponomia"]
+    if source == "Seletronic":
+        return "https://ofertas.seletronic.com.br/loja/ifood/cupons/"
     return "https://www.meliuz.com.br/desconto/" + conf["meliuz"]
 
 
@@ -255,6 +262,31 @@ def parse_site(conf, source):
                 out.append(r)
     if len(out) < 2:
         raise ValueError("extraidos menos de 2 cupons: pagina bloqueada ou seletor alterado")
+    return out
+
+
+def parse_seletronic_ifood(conf):
+    """Complemento iFood: somente códigos publicamente visíveis, sem links de terceiros."""
+    url = source_url(conf, "Seletronic")
+    doc = get(url)
+    out = []
+    for h in doc.find_all("h3"):
+        title = h.get_text(" ", strip=True)
+        if not re.search(r"cupom|desconto|off", norm(title)):
+            continue
+        block = block_of_heading(h)
+        text = block.get_text(" ", strip=True)
+        match = re.search(r"\b([A-Z][A-Z0-9_-]{3,34})\s*\(\s*Copiar", text, re.I)
+        if not match:
+            continue
+        code = match.group(1).upper()
+        if code in INVALID_CODES:
+            continue
+        row = record(title, code, "Confira no iFood os itens, a conta e as regras elegíveis.", "Seletronic", url)
+        if row:
+            out.append(row)
+    if not out:
+        raise ValueError("Seletronic não expôs cupons legíveis")
     return out
 
 
@@ -354,8 +386,10 @@ def combine(items):
 def process(market, conf):
     all_items, statuses = [], {}
     tasks = [(name, source_url(conf, name)) for name in ("Pelando", "Cuponomia", "Meliuz")]
-    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
         futures = {pool.submit(parse_site, conf, name): name for name, _ in tasks}
+        if market == "ifood":
+            futures[pool.submit(parse_seletronic_ifood, conf)] = "Seletronic"
         futures[pool.submit(parse_worker, market, conf)] = "WorkerExistente"
         for future in concurrent.futures.as_completed(futures):
             name = futures[future]
