@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-14T01:23:53+00:00",
+  "atualizado_em": "2026-11-14T03:04:51+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -1159,20 +1159,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-d01ebf3e7b1387e0c5d0",
-      "loja": "UP Kids",
-      "tipo": "cupom",
-      "titulo": "Especial 11.11 com até 80% + 11% EXTRA em todo o site e app",
-      "imagem": "",
-      "link": "https://lmdee.link/8Jw24jlIp5zq",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "11DO11",
-      "validade": "2026-11-14T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-09a9f86d7b14546a1dbf",
       "loja": "Up4you",
       "tipo": "promocao",
@@ -1397,6 +1383,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-9c1c5c847b6d9a5aeb08",
+      "loja": "eles.®",
+      "tipo": "promocao",
+      "titulo": "Outubro Rosa elas.",
+      "imagem": "https://cdn.lomadee.com.br/offer/27cc1c2b-f455-4961-a476-13072d01e502/banners/Imagem%20do%20ChatGPT%209%20de%20out.%20de%202026%2C%2017_22_23.png",
+      "link": "https://lmdee.link/IQDiC3iOZkT3",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-b8adaeefea9c6e22418b",
       "loja": "Gazin",
       "tipo": "promocao",
@@ -1579,20 +1579,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-0fc57c68c329a2bffe72",
-      "loja": "UP Kids",
-      "tipo": "promocao",
-      "titulo": "Especial 11.11 com 11% EXTRA em todo o site e app – Cupom 11DO11 – Aproveite agora!",
-      "imagem": "https://cdn.lomadee.com.br/offer/4b78f607-83b2-4f1c-9e82-44cb33980322/banners/imagem%20-%202026-11-11T134851.495.png",
-      "link": "https://lmdee.link/2TYFQswXgoOd",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-14T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-87b449fb2570e14f3286",
       "loja": "Up4you",
       "tipo": "promocao",
@@ -1701,6 +1687,20 @@
       "preco_anterior": null,
       "cupom": "BLACK20",
       "validade": "2026-12-11T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-3bd2c1db834cf21116a8",
+      "loja": "eles.®",
+      "tipo": "cupom",
+      "titulo": "Preblack",
+      "imagem": "",
+      "link": "https://lmdee.link/iIBsvCOgPe2m",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "Preblack",
+      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
