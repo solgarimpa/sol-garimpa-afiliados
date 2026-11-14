@@ -6,6 +6,11 @@ on:
     branches: [main]
     paths:
       - 'docs/central/**'
+      # Publicar imediatamente ajustes da vitrine Rakuten e das
+      # paginas individuais de ofertas, sem esperar o cron da Awin.
+      - 'docs/rakuten/index.html'
+      - 'docs/rakuten/ofertas.json'
+      - 'docs/paginas_ofertas.json'
       - 'docs/.nojekyll'
       - '.github/workflows/publicar_central.yml'
 
