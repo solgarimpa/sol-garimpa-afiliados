@@ -45,15 +45,15 @@
   <header class="cab"><h2>Ofertas da Magalu pra vc!</h2><a class="ver-vitrine" href="https://www.magazinevoce.com.br/magazinesolgarimpa/" target="_blank" rel="noopener noreferrer sponsored nofollow">Ver vitrine completa ↗</a></header>
   <div class="janela" id="janela" role="region" aria-label="Produtos deslizando automaticamente"><div class="trilha" id="trilha"></div></div>
   <div class="erro" id="erro">Nenhum produto disponível. Confira o catálogo informado.</div>
-  <div class="controles"><span class="status">20 produtos selecionados • ordem aleatória</span><div class="tools"><button id="ant" type="button" title="Voltar um produto" aria-label="Produto anterior">‹</button><button id="pausa" type="button" aria-label="Pausar reprodução" aria-pressed="false">Pausar</button><button id="prox" type="button" title="Avançar um produto" aria-label="Próximo produto">›</button></div></div>
-  <div class="aviso">20 produtos populares selecionados, sem classificação oficial de vendas. Preços e estoque no Magalu. Links individuais da Magazine Solgarimpa; atribuição de comissão depende de validação no programa.</div>
+  <div class="controles"><span class="status">30 produtos selecionados • ordem aleatória</span><div class="tools"><button id="ant" type="button" title="Voltar um produto" aria-label="Produto anterior">‹</button><button id="pausa" type="button" aria-label="Pausar reprodução" aria-pressed="false">Pausar</button><button id="prox" type="button" title="Avançar um produto" aria-label="Próximo produto">›</button></div></div>
+  <div class="aviso">30 produtos populares selecionados, sem classificação oficial de vendas. Preços e estoque no Magalu. Links individuais da Magazine Solgarimpa; atribuição de comissão depende de validação no programa.</div>
 </section>
 <script>
 /* SOL GARIMPA — Versão Wix/GitHub — 08/11/2026
   SUPORTA ATÉ 1000 PRODUTOS reais, mas não os gera por conta própria.
   Atualização por JSON: publicar arquivo https://.../magalu-produtos.json no servidor com CORS liberado;
   colar abaixo em CATALOGO_JSON_URL, ou usar CATALOGO_CSV_URL para planilha publicada.
-  Sem endereço, usa os 20 produtos reais de catálogo selecionado.
+  Sem endereço, usa os 30 produtos reais de catálogo selecionado.
   Cada registro: { id, nome, imagem, link, categoria, preco } (preco opcional, numérico BRL).
   IMPORTANTE: links de afiliado devem ser os LINKS REAIS gerados ou confirmados na sua conta.
   Não inferir nem acrescentar promoter_id em links de terceiros.
@@ -61,7 +61,7 @@
 const CATALOGO_JSON_URL = ''; // URL HTTPS pública de arquivo JSON (opcional)
 const CATALOGO_CSV_URL = '';  // Alternativa: URL HTTPS pública de uma planilha publicada em CSV
 const LOJA_OFICIAL='https://www.magazinevoce.com.br/magazinesolgarimpa/';
-/* 20 produtos reais de catálogo público, não ranking oficial de vendas.
+/* 30 produtos reais de catálogo público, não ranking oficial de vendas.
    ATENÇÃO: os 19 links específicos da vitrine são derivados de páginas Magalu existentes
    e a atribuição só é confirmável por links emitidos no painel da Sol Garimpa. */
 const PRODUTOS_INICIAIS = [
@@ -224,6 +224,86 @@ const PRODUTOS_INICIAIS = [
     "imagem": "https://a-static.mlcdn.com.br/800x560/smt-samsung-sm-a066m-ds-a06-128gb-5g-pt/lojaslebiscuit/1300621/cf4197e707aa621a2e857d18e651b9f0.jpeg",
     "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/smartphone-samsung-galaxy-a06-5g-128gb-4gb-ram-preto-cam-50mp-selfie-8mp/p/240149600/te/ga06/?seller_id=magazineluiza",
     "status": "link-loja-preparado-validacao-pendente"
+  },
+  {
+    "id": "dc5f7d7gf4",
+    "nome": "Kit 3 Potes de Vidro 600ml com Tampa de Bambu Oikos",
+    "categoria": "Casa e cozinha",
+    "imagem": "https://product-hub-prd.madeiramadeira.com.br/4515429/images/154dd0b1-7d7a-4e96-8e78-610e75522e7025897939kit3potesdevidroquadrado600mlctampaflatbambuoikos17833oik123371600x505.jpg",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/potes-de-vidro-p-mantimentos-600ml-c-tampa-bambu-3-pcs-oikos/p/dc5f7d7gf4/ud/porm/?seller_id=lojamozcada",
+    "status": "link-magazinevoce-validacao-de-atribuicao-pendente"
+  },
+  {
+    "id": "240354400",
+    "nome": "Notebook Acer Aspire Go 15 Intel Core i5 8GB RAM 512GB SSD",
+    "categoria": "Informática",
+    "imagem": "https://img.dynos.es/img/289e7/1e848/720-BE7G040J0-0X0N-0.jpg",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/notebook-acer-aspire-go-intel-core-i5-13420h-8gb-ram-512gb-ssd-156-full-hd-windows-11-ag15-71p-53gm/p/240354400/in/nota/?seller_id=magazineluiza",
+    "status": "link-magazinevoce-validacao-de-atribuicao-pendente"
+  },
+  {
+    "id": "237862900",
+    "nome": "Smart TV TCL 40 polegadas Full HD Android 40S5400A",
+    "categoria": "TV e vídeo",
+    "imagem": "https://vega.ge/image/cache/catalog/files/1Emil/01ge/32S5400AF%2040S5400A%2043S5400A%20%281%29-2000x1500.jpg",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/smart-tv-40-full-hd-led-tcl-40s5400a-android-wi-fi-bluetooth-google-assistente-2-hdmi-1-usb/p/237862900/et/tves/?seller_id=magazineluiza",
+    "status": "link-magazinevoce-validacao-de-atribuicao-pendente"
+  },
+  {
+    "id": "021756600",
+    "nome": "Liquidificador Mondial Turbo Power L-99-FB 550W",
+    "categoria": "Eletroportáteis",
+    "imagem": "https://a-static.mlcdn.com.br/420x420/liquidificador-mondial-turbo-power-l-99-jarra-de-san-cristal-22l-550w-3-velocidades/carrefouroficial/900010073/2664a7b8a69c6a4ddbdd53ce2e35a0c9.jpeg",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/liquidificador-mondial-turbo-power-l-99-fb-preto-com-filtro-3-velocidades-550w/p/021756600/ep/liqu/?seller_id=magazineluiza",
+    "status": "link-magazinevoce-validacao-de-atribuicao-pendente"
+  },
+  {
+    "id": "230460100",
+    "nome": "Cafeteira Elétrica Oster Compacta OCAF300 19 Cafés Preto",
+    "categoria": "Eletroportáteis",
+    "imagem": "https://imgs.pontofrio.com.br/55021465/5g.jpg?imwidth=1000",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/cafeteira-eletrica-oster-compacta-ocaf300-19-cafes-preto/p/230460100/ep/cafe/?seller_id=magazineluiza",
+    "status": "link-magazinevoce-validacao-de-atribuicao-pendente"
+  },
+  {
+    "id": "240304100",
+    "nome": "Air Fryer Philco PAF65A Preto e Inox 6,5L",
+    "categoria": "Eletroportáteis",
+    "imagem": "https://a-static.mlcdn.com.br/1366x720/air-fryer-philco-paf65a-preto-e-inox-65l/magazineluiza/240304100/a4e967ffc82297200e235a70501ccb4d.jpg",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/air-fryer-philco-paf65a-preto-65l/p/240304100/ep/efso/?seller_id=magazineluiza",
+    "status": "link-magazinevoce-validacao-de-atribuicao-pendente"
+  },
+  {
+    "id": "230023900",
+    "nome": "Aspirador de Pó Vertical Electrolux STK14 Denim Blue 1450W",
+    "categoria": "Casa e limpeza",
+    "imagem": "https://a-static.mlcdn.com.br/1500x1500/aspirador-de-po-vertical-e-portatil-electrolux-filtro-hepa-1450w-plus-stk14-denim-blue/magazineluiza/230023900/305cf42a3aacb694863fa646e78f2c3f.jpg",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/aspirador-de-po-vertical-e-portatil-electrolux-filtro-hepa-1450w-plus-stk14-denim-blue/p/230023900/ep/elat/?seller_id=magazineluiza",
+    "status": "link-magazinevoce-validacao-de-atribuicao-pendente"
+  },
+  {
+    "id": "jdk5326055",
+    "nome": "Cafeteira Electrolux ECM22 Efficient com Jarra Inox 1,2L",
+    "categoria": "Eletroportáteis",
+    "imagem": "https://bemol.vtexassets.com/arquivos/ids/260006/243379.jpg?v=639035828963970000",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/cafeteira-eletrica-electrolux-ecm22-30-xicaras-de-40ml-jarra-inox-de-12l-cinza-inox-750w-127v/p/jdk5326055/ep/cafe/?seller_id=magazineluiza",
+    "status": "link-magazinevoce-validacao-de-atribuicao-pendente"
+  },
+  {
+    "id": "238660800",
+    "nome": "Air Fryer Britânia Redstone BFR50 Preto 5,5L",
+    "categoria": "Eletroportáteis",
+    "imagem": "https://product-hub-prd.madeiramadeira.com.br/633753223/images/5e43e36f-20ab-4ba4-83c7-2bf8878a879c40a298a1eaebbc10e5a373228q.jpg?bg-color=FFF&canvas=1%3A1&width=620",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/air-fryer-britania-redstone-bfr50-preto-com-timer-55l/p/238660800/ep/efso/?seller_id=magazineluiza",
+    "status": "link-magazinevoce-validacao-de-atribuicao-pendente"
+  },
+  {
+    "id": "228887100",
+    "nome": "Air Fryer Mondial Family AFN-40-BI Preto e Inox 4L",
+    "categoria": "Eletroportáteis",
+    "imagem": "https://product-hub-prd.madeiramadeira.com.br/4189916/images/bc8f9dc5-58b1-4730-b8df-e172480fd99360353992fritadeiraairfryermondialfamilyinox4lafn40bi127v378317371600x600.jpg",
+    "link": "https://www.magazinevoce.com.br/magazinesolgarimpa/fritadeira-eletrica-sem-oleo-air-fryer-mondial-family-afn-40-bi-preto-4l-com-timer/p/228887100/ep/efso/?seller_id=magazineluiza",
+    "status": "link-magazinevoce-validacao-de-atribuicao-pendente"
   }
 ];
 const q=(s)=>document.querySelector(s);
