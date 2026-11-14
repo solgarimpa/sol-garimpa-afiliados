@@ -1,9 +1,9 @@
 {
   "market": "ifood",
   "name": "iFood",
-  "generatedAt": "2026-11-14T14:42:51+00:00",
+  "generatedAt": "2026-11-14T14:45:34+00:00",
   "refreshMinutes": 30,
-  "count": 38,
+  "count": 39,
   "sources": {
     "Cuponomia": {
       "ok": false,
@@ -15,9 +15,8 @@
       "quantidade": 38
     },
     "Seletronic": {
-      "ok": false,
-      "quantidade": 0,
-      "erro": "Seletronic não expôs cupons legíveis"
+      "ok": true,
+      "quantidade": 2
     },
     "WorkerExistente": {
       "ok": false,
@@ -28,6 +27,18 @@
   "note": "Cupons listados nas fontes, nao testados no checkout. Cashback exclusivo de outros sites nao e oferecido pela Sol Garimpa.",
   "coupons": [
     {
+      "title": "Cupom iFood com R$25 OFF no primeiro pedido",
+      "couponCode": "GANHE25",
+      "discountText": "R$ 25 OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-14T14:45:34+00:00",
+      "status": "listed"
+    },
+    {
       "title": "15% OFF no pedido com cupom de desconto iFood",
       "couponCode": "DESCONTO15",
       "discountText": "15% OFF",
@@ -36,7 +47,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -48,7 +59,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -60,7 +71,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -72,7 +83,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -84,7 +95,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -96,7 +107,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -108,7 +119,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -120,7 +131,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -132,7 +143,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -144,19 +155,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
-      "title": "Cupom iFood com R$25 OFF no primeiro pedido",
-      "couponCode": "GANHE25",
-      "discountText": "R$ 25 OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
+      "title": "Cupom R$ 10 OFF iFood para pedidos com Fanta",
+      "couponCode": "FANTAGUARANA10",
+      "discountText": "R$ 10 OFF",
+      "description": "Confira a elegibilidade do código diretamente no iFood",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -168,7 +179,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -180,7 +191,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -192,7 +203,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -204,7 +215,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -216,7 +227,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -228,7 +239,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -240,7 +251,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -252,7 +263,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -264,7 +275,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -276,7 +287,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -288,7 +299,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -300,7 +311,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -312,7 +323,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -324,7 +335,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -336,7 +347,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -348,7 +359,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -360,7 +371,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -372,7 +383,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -384,7 +395,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -396,7 +407,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -408,7 +419,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -420,7 +431,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -432,7 +443,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -444,7 +455,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -456,7 +467,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -468,7 +479,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     },
     {
@@ -480,7 +491,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-14T14:42:51+00:00",
+      "observedAt": "2026-11-14T14:45:34+00:00",
       "status": "listed"
     }
   ]
