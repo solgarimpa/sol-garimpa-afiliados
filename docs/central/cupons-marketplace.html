@@ -10,6 +10,11 @@
 :root[data-loja="magalu"]{--destaque:#0086FF;--cor-destaque:#006BCA;--texto-acao:#fff;--fundo-codigo:#EDF6FF;--fundo-aviso:#EAF5FF;--texto-aviso:#00599E}
 :root[data-loja="shein"]{--destaque:#000000;--cor-destaque:#000000;--texto-acao:#fff;--fundo-codigo:#F5F5F5;--fundo-aviso:#F2F2F2;--texto-aviso:#111111}
 :root[data-loja="amazon"]{--destaque:#17263E;--cor-destaque:#17263E;--texto-acao:#fff;--fundo-codigo:#F2F5F9;--fundo-aviso:#EDF1F6;--texto-aviso:#17263E}
+:root[data-loja="ifood"]{--destaque:#ea1d2c;--cor-destaque:#c91e2c;--texto-acao:#fff;--fundo-codigo:#fff4f5;--fundo-aviso:#fff0f1;--texto-aviso:#a71e2a}
+.grupo-ifood{display:none;margin-bottom:12px;border:1px solid #f3c3c6;border-radius:12px;background:#fff;padding:13px 15px;gap:9px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.grupo-ifood strong{font-size:15px}
+.grupo-ifood a{border-radius:8px;text-decoration:none;background:#148f62;color:white;padding:10px 13px;font-size:12px;font-weight:800}
+:root[data-loja="ifood"] .grupo-ifood{display:flex}
 *{box-sizing:border-box}body{margin:0;font:13px Arial,Helvetica,sans-serif;color:#171717;background:#f5f5f5}
 main{max-width:1170px;margin:auto;padding:14px 11px 25px}
 
@@ -40,6 +45,7 @@ footer{color:#777;font-size:11px;line-height:1.6;text-align:center;padding-top:2
 </head>
 <body>
 <main>
+<div class="grupo-ifood"><strong>🍔 Cupons iFood | Sol Garimpa</strong><a href="https://www.ofertaspravc.com.br/whatsapp" target="_blank" rel="noopener noreferrer">ENTRE NO GRUPO DO WHATSAPP</a></div>
 <input type="search" id="busca" placeholder="🔎 Pesquisar cupom ou desconto..." aria-label="Pesquisar cupons">
 <nav class="filtros"><button data-filtro="todos" class="ativo">Todos os cupons</button><button data-filtro="codigo">Com código</button><button data-filtro="resgate">Resgatar no app</button></nav>
 <div class="status"><div class="verde" id="data">Consultando fontes...</div><div id="fontes">Consulte as condições na loja</div><div id="quantidade">Carregando...</div></div>
@@ -57,7 +63,8 @@ const CONFIG={
   "magalu":{nome:"Magalu",link:"https://www.magazineluiza.com.br/",vitrine:"https://www.magazinevoce.com.br/magazinesolgarimpa/"},
   "aliexpress":{nome:"AliExpress",link:"https://pt.aliexpress.com/",vitrine:"https://www.ofertaspravc.com.br/aliexpress"},
   "shein":{nome:"SHEIN",link:"https://onelink.shein.com/58/66nnzcmvg0zu",vitrine:"https://onelink.shein.com/58/66nnzcmvg0zu"},
-  "amazon":{nome:"Amazon",link:"https://www.amazon.com.br/gp/coupons",vitrine:"https://www.amazon.com.br/hz/wishlist/ls/XBEEZXOQSI3R"}
+  "amazon":{nome:"Amazon",link:"https://www.amazon.com.br/gp/coupons",vitrine:"https://www.amazon.com.br/hz/wishlist/ls/XBEEZXOQSI3R"},
+  "ifood":{nome:"iFood",link:"https://www.ifood.com.br/cupons/",vitrine:""}
 };
 const slug=new URLSearchParams(location.search).get("loja")||"shopee";
 const escolhido=CONFIG[slug]?slug:"shopee";
@@ -95,10 +102,10 @@ function cartao(c){
     btn.type="button";btn.onclick=async()=>{let ok=false;try{await navigator.clipboard.writeText(c.couponCode);ok=true}catch(e){const t=document.createElement("textarea");t.value=c.couponCode;t.style.position="fixed";t.style.opacity="0";document.body.appendChild(t);t.select();try{ok=document.execCommand("copy")}catch(e){}t.remove()}btn.textContent=ok?"COPIADO ✓":"SELECIONE O CÓDIGO";if(ok)setTimeout(()=>btn.textContent="COPIAR",2500)};
     a.append(cod,btn);art.appendChild(a);
   }else art.appendChild(node("div","aviso","🎟️ Consulte as condições de resgate na loja"));
-  const vitrine=node("a","acao","VER SELEÇÃO SOL GARIMPA");
+  const vitrine=node("a","acao",atual.vitrine?"VER SELEÇÃO SOL GARIMPA":"ABRIR "+atual.nome.toUpperCase());
   vitrine.href=atual.vitrine||LINK_LOJA;
   vitrine.target="_blank";
-  vitrine.rel="noopener noreferrer nofollow sponsored";
+  vitrine.rel=atual.vitrine?"noopener noreferrer nofollow sponsored":"noopener noreferrer nofollow";
   art.appendChild(vitrine);
   if(atual.vitrine&&atual.vitrine!==LINK_LOJA){
     const oficial=node("a","acao-secundaria","CONFERIR NA LOJA (LINK DIRETO)");
