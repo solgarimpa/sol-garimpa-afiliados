@@ -10,12 +10,14 @@ on:
       - 'docs/rakuten/ofertas.json'
       - 'docs/lomadee/ofertas.json'
       - 'scripts/build_paginas_ofertas.py'
+      - 'scripts/auditar_links_afiliados.py'
       - '.github/workflows/atualizar_paginas_ofertas.yml'
   pull_request:
     paths:
       - 'scripts/build_paginas_ofertas.py'
       - 'tests/test_paginas_ofertas.py'
       - 'tests/test_segunda_camada.py'
+      - 'scripts/auditar_links_afiliados.py'
       - 'scripts/segunda_camada.py'
       - 'scripts/sync_awin.py'
       - 'scripts/sync_rakuten.py'
@@ -43,6 +45,7 @@ jobs:
         run: |
           python -m unittest discover -s tests -p 'test_paginas_ofertas.py' -v
           python -m unittest discover -s tests -p 'test_segunda_camada.py' -v
+          python scripts/auditar_links_afiliados.py
 
   gerar:
     if: github.event_name != 'pull_request'
