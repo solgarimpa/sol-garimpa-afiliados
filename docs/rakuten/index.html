@@ -124,6 +124,21 @@ const seguro=v=>{
  }catch{return ''}
 };
 
+// Bloqueia links do anunciante com identificadores de afiliado
+// nao substituidos. Ex.: Trocafone/trackeame, erro HTTP 400.
+// Nunca alterar ou contornar a URL de rastreamento oficial.
+function rastreadorIncompleto(valor){
+ let texto=String(valor||'');
+ for(let i=0;i<4;i++){
+  try{
+   const decodificado=decodeURIComponent(texto);
+   if(decodificado===texto)break;
+   texto=decodificado;
+  }catch(_){break;}
+ }
+ return /\[(?:ld_site_id|site_id|affiliate_id|publisher_id)\]/i.test(texto);
+}
+
 const moeda=(v,codigo='BRL')=>{
  try{
   return new Intl.NumberFormat('pt-BR',{
@@ -429,7 +444,7 @@ async function atualizar(){
 
   const ofertas=dados.cards.filter(p=>
    p&&['produto','promocao','cupom'].includes(p.tipo)&&
-   p.titulo&&seguro(p.link)
+   p.titulo&&seguro(p.link)&&!rastreadorIncompleto(p.link)
   ).map(p=>{
    const meta=mapa.get(String(p.mid))||{};
    return {
