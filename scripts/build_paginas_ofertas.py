@@ -47,6 +47,21 @@ def url_segura(valor):
             return ""
         if host.endswith(".local"):
             return ""
+        # Alguns links Rakuten/Trocafone possuem [ld_site_id] nao
+        # substituido dentro de redirecionamentos codificados e geram HTTP 400.
+        # Nao publicar nem preservar no historico links com essa macro.
+        from urllib.parse import unquote
+        caminho = valor
+        for _ in range(4):
+            proximo = unquote(caminho)
+            if proximo == caminho:
+                break
+            caminho = proximo
+        if any(m in caminho.lower() for m in (
+            "[ld_site_id]", "[site_id]", "[affiliate_id]",
+            "[publisher_id]",
+        )):
+            return ""
         return u.geturl()
     except (ValueError, TypeError):
         return ""
