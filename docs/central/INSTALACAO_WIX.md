@@ -112,3 +112,15 @@ para todos os produtos nem comissionamento de cada compra.
 - Feeds Awin/Rakuten/Lomadee com mais de 3 horas nao sao usados pelo consolidado.
 - Falhas HTTP 403 de Pelando/Cuponomia continuam possiveis; nao contornar bloqueios. Meliuz e os Workers continuam como fontes alternativas quando responderem.
 - O GitHub Pages precisa concluir uma publicacao; o editor Wix deve estar incorporando o URL remoto e nao uma copia estaticamente colada do HTML.
+
+## Nova página iFood (14/11/2026)
+
+- Criar uma subpágina Wix de cupons iFood, sugerida URL: `/cupons-ifood`.
+- No Wix Editor > Adicionar elementos > Incorporar código > Incorporar site, usar a URL:
+  `https://solgarimpa.github.io/sol-garimpa-afiliados/central/cupons-marketplace.html?loja=ifood`
+- A lista vem de `docs/central/ifood-cupons.json`, alimentada pelo mesmo workflow programado de 30 minutos.
+- Fontes públicas: Méliuz, Seletronic e complementos Pelando/Cuponomia, somente se acessíveis; falhas HTTP 403 não são contornadas.
+- A página recarrega o JSON a cada 5 minutos enquanto aberta, oculta lista desatualizada acima de 90 minutos e exibe o CTA para o WhatsApp Sol Garimpa.
+- O botão iFood é link direto, NÃO há rastreamento de afiliado nem comissão afirmada.
+- O catálogo apresenta cupons divulgados publicamente, NÃO códigos validados no checkout.
+- O Wix Editor ainda precisa receber a nova página e incorporar a URL; publicar código no GitHub NÃO publica automaticamente uma nova página Wix.
