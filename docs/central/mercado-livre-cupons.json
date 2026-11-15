@@ -1,9 +1,9 @@
 {
   "market": "mercado-livre",
   "name": "Mercado Livre",
-  "generatedAt": "2026-11-15T17:11:32+00:00",
+  "generatedAt": "2026-11-15T18:03:56+00:00",
   "refreshMinutes": 30,
-  "count": 40,
+  "count": 42,
   "sources": {
     "Cuponomia": {
       "ok": false,
@@ -16,21 +16,33 @@
     },
     "WorkerExistente": {
       "ok": true,
-      "quantidade": 5
+      "quantidade": 6
     }
   },
   "note": "Cupons listados nas fontes, nao testados no checkout. Cashback exclusivo de outros sites nao e oferecido pela Sol Garimpa.",
   "coupons": [
     {
-      "title": "18% de economia para a casa",
-      "couponCode": "OFERTASNOML",
-      "discountText": "18% OFF",
-      "description": "Decoração e utilidades com 18% OFF em toda a categoria, a partir de R$79, com abatimento máximo de R$60",
+      "title": "Cupom Mercado Livre - 15% OFF acima de R$129 limitado à R$25 MARCAS COREANAS",
+      "couponCode": "KBEAUTY1511",
+      "discountText": "15% OFF",
+      "description": "﻿🚨 Fiquem atentos: A maioria dos cupons do Mercado Livre agora se aplica apenas a itens selecionados, mas as vezes pega em muita coisa tbm, testem",
       "sources": [],
       "sourceUrl": "",
-      "publishedAt": "2026-11-15T12:07:02.136Z",
+      "publishedAt": "2026-11-15T18:01:27.005Z",
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom Mercado Livre - 15% OFF acima de R$200 limitado à R$60 BEBES E PETS",
+      "couponCode": "BEBESPETS1511",
+      "discountText": "15% OFF",
+      "description": "﻿🚨 Fiquem atentos: A maioria dos cupons do Mercado Livre agora se aplica apenas a itens selecionados, mas as vezes pega em muita coisa tbm, testem",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-15T18:01:04.818Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -42,7 +54,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-15T16:00:00.000Z",
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -54,7 +66,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-15T15:00:45.652Z",
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -66,19 +78,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-15T15:00:36.595Z",
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Mercado Livre - 18% OFF acima de R$99 limitado à R$60",
-      "couponCode": "PROMOVEIC",
-      "discountText": "18% OFF",
-      "description": "Carro e moto com 18% de desconto em toda a categoria, pedidos de R$99 ou mais, no máximo R$60",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-15T12:05:54.898Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -90,7 +90,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "18% de economia para a casa",
+      "couponCode": "OFERTASNOML",
+      "discountText": "18% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -102,7 +114,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -114,7 +126,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -126,7 +138,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -138,7 +150,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -150,7 +162,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -162,7 +174,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "[APP] MERCADO LIVRE: Às 19h Terá Cupom Surpresa",
+      "couponCode": "",
+      "discountText": "OFERTA",
+      "description": "Deixe o carinho ok",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": "2026-11-15T17:50:45.044Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -174,7 +198,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -186,7 +210,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -198,7 +222,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -210,7 +234,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -222,7 +246,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -234,7 +258,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -246,7 +270,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -258,7 +282,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -270,7 +294,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -282,7 +306,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -294,7 +318,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -306,7 +330,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -318,7 +342,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -330,7 +354,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -342,7 +366,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -354,7 +378,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -366,7 +390,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -378,7 +402,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -390,7 +414,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -402,7 +426,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -414,7 +438,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -426,7 +450,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -438,7 +462,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -450,7 +474,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -462,7 +486,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -474,7 +498,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -486,7 +510,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     },
     {
@@ -498,7 +522,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-15T17:11:32+00:00",
+      "observedAt": "2026-11-15T18:03:56+00:00",
       "status": "listed"
     }
   ]
