@@ -10,9 +10,9 @@
 html,body{margin:0;padding:0;background:#fff;font-family:Arial,Helvetica,sans-serif;color:var(--ink)}
 .wrap{max-width:1440px;margin:auto;padding:15px 12px}
 header{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:14px}
-h2{font-size:21px;letter-spacing:-.4px;margin:0 0 3px;font-weight:800}h2 span{color:var(--vermelho)}
-.sub{font-size:12px;color:#656e7b;margin:0}.tudo{font-size:12px;color:var(--vermelho-escuro);font-weight:800;text-decoration:none;white-space:nowrap}
-.tudo:hover{text-decoration:underline}
+h2{font-size:21px;letter-spacing:-.4px;margin:0 0 3px;font-weight:800}h2 .marca{display:inline-block;color:#fff;background:var(--vermelho);border-radius:4px;padding:2px 7px;line-height:1.16;white-space:nowrap}
+.sub{font-size:12px;color:#656e7b;margin:0}.tudo{display:inline-block;background:var(--vermelho);color:white;font-size:12px;font-weight:800;text-decoration:none;padding:10px 13px;border-radius:8px;text-align:center;white-space:nowrap}
+.tudo:hover{background:var(--vermelho-escuro);text-decoration:none}
 .viewport{overflow:hidden;touch-action:pan-y;border-radius:10px}.track{display:flex;gap:var(--gap);will-change:transform}
 .card{flex:0 0 var(--card);border:1px solid #e3e7ec;border-radius:12px;display:flex;flex-direction:column;text-decoration:none;color:inherit;background:#fff;overflow:hidden;box-shadow:0 1px 4px #1b26360b;transition:border-color .2s,box-shadow .2s}
 .card:hover{border-color:var(--vermelho);box-shadow:0 5px 18px #ea1d2c20}
@@ -32,15 +32,15 @@ h2{font-size:21px;letter-spacing:-.4px;margin:0 0 3px;font-weight:800}h2 span{co
 .legal{font-size:10px;line-height:1.45;color:#6d7680;margin:12px 1px 0}
 .card:focus-visible,button:focus-visible,.tudo:focus-visible{outline:2px solid var(--vermelho);outline-offset:2px}
 .empty{padding:34px 14px;color:#666;text-align:center;font-size:13px;border:1px dashed #efc7ca;border-radius:12px}
-@media(max-width:560px){:root{--card:159px;--gap:9px}.wrap{padding:10px 7px}h2{font-size:17px}.sub{font-size:11px}.tudo{font-size:10px;white-space:normal;text-align:right;max-width:95px}.photo{height:155px;padding:8px}.emoji{font-size:44px}.valor{font-size:16px;bottom:10px}.name{font-size:11.5px;margin:9px 9px 8px;min-height:50px;max-height:50px}.cat{font-size:10px;margin:0 9px 9px}.cta{font-size:11px;margin: auto 9px 9px;padding:9px 5px}.buttons button{padding:7px 10px}}
+@media(max-width:560px){:root{--card:159px;--gap:9px}.wrap{padding:10px 7px}h2{font-size:17px}.sub{font-size:11px}.tudo{font-size:10px;white-space:normal;max-width:135px;padding:9px 8px}.photo{height:155px;padding:8px}.emoji{font-size:44px}.valor{font-size:16px;bottom:10px}.name{font-size:11.5px;margin:9px 9px 8px;min-height:50px;max-height:50px}.cat{font-size:10px;margin:0 9px 9px}.cta{font-size:11px;margin: auto 9px 9px;padding:9px 5px}.buttons button{padding:7px 10px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important}}
 </style>
 </head>
 <body>
 <section class="wrap" aria-label="Carrossel Sol Garimpa de cupons e ofertas iFood">
  <header>
-  <div><h2>Cupons e ofertas no <span>iFood</span> 🍔</h2><p class="sub">Economize no delivery, mercado e outros pedidos elegíveis.</p></div>
-  <a class="tudo" id="ver-todos" href="https://solgarimpa.github.io/sol-garimpa-afiliados/central/cupons-marketplace.html?loja=ifood" target="_blank" rel="noopener noreferrer">Ver todos os cupons ↗</a>
+  <div><h2>Cupons e Ofertas <span class="marca">iFood</span> para você</h2><p class="sub">Economize no delivery, mercado e outros pedidos elegíveis.</p></div>
+  <a class="tudo" id="ver-produtos" href="https://www.ifood.com.br/" target="_blank" rel="noopener noreferrer" aria-label="Veja produtos no iFood">Veja produtos no iFood</a>
  </header>
  <div class="viewport" id="viewport" tabindex="0" aria-label="Carrossel de cupons iFood. Use as setas para navegar."><div class="track" id="track"></div></div>
  <div class="controls"><span class="status" id="status" role="status">Consultando os cupons divulgados publicamente...</span><div class="buttons"><button type="button" id="prev" aria-label="Anterior">‹</button><button type="button" id="pause" aria-pressed="false">Pausar</button><button type="button" id="next" aria-label="Próximo">›</button></div></div>
@@ -56,7 +56,7 @@ const DESTINO='https://solgarimpa.github.io/sol-garimpa-afiliados/central/cupons
 const INTERVALO_MS=3000,IDADE_MAXIMA_MS=90*60*1000;
 const viewport=document.getElementById('viewport'),track=document.getElementById('track');
 const pause=document.getElementById('pause'),status=document.getElementById('status');
-document.getElementById('ver-todos').href=DESTINO;
+// O botão superior abre o site oficial do iFood; o aparelho pode encaminhar ao app instalado.
 const reduced=window.matchMedia('(prefers-reduced-motion: reduce)');
 let lista=[],indice=0,ocupado=false,pausado=reduced.matches,hover=false,focused=false,swipeX=0;
 const txt=v=>String(v??'').trim();
