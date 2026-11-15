@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cupons e ofertas iFood | Sol Garimpa</title>
+<style>
+:root{--vermelho:#ea1d2c;--vermelho-escuro:#bd1521;--ink:#1a2638;--card:198px;--gap:12px}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#fff;font-family:Arial,Helvetica,sans-serif;color:var(--ink)}
+.wrap{max-width:1440px;margin:auto;padding:15px 12px}
+header{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:14px}
+h2{font-size:21px;letter-spacing:-.4px;margin:0 0 3px;font-weight:800}h2 span{color:var(--vermelho)}
+.sub{font-size:12px;color:#656e7b;margin:0}.tudo{font-size:12px;color:var(--vermelho-escuro);font-weight:800;text-decoration:none;white-space:nowrap}
+.tudo:hover{text-decoration:underline}
+.viewport{overflow:hidden;touch-action:pan-y;border-radius:10px}.track{display:flex;gap:var(--gap);will-change:transform}
+.card{flex:0 0 var(--card);border:1px solid #e3e7ec;border-radius:12px;display:flex;flex-direction:column;text-decoration:none;color:inherit;background:#fff;overflow:hidden;box-shadow:0 1px 4px #1b26360b;transition:border-color .2s,box-shadow .2s}
+.card:hover{border-color:var(--vermelho);box-shadow:0 5px 18px #ea1d2c20}
+.photo{height:188px;position:relative;background:linear-gradient(145deg,#fff0f1 0%,#fff8f9 55%,#fff 100%);display:flex;align-items:center;justify-content:center;padding:9px 8px;border-bottom:1px solid #f5dadd;overflow:hidden}
+.photo:before{content:"";position:absolute;width:180px;height:180px;border:2px solid #ea1d2c18;border-radius:50%;top:-92px;right:-62px}
+.photo:after{content:"";position:absolute;width:120px;height:120px;border:2px solid #ea1d2c20;border-radius:50%;bottom:-70px;left:-54px}
+.emoji{font-size:58px;z-index:1;filter:drop-shadow(0 5px 5px #ea1d2c15)}
+.valor{position:absolute;z-index:2;bottom:14px;font-size:20px;font-weight:900;color:var(--vermelho-escuro);background:#fff;border:1px solid #f3c8cd;padding:6px 10px;border-radius:9px;text-align:center;max-width:94%;overflow-wrap:anywhere}
+.badge{position:absolute;z-index:2;top:9px;left:9px;color:var(--vermelho-escuro);background:#fff;border:1px solid #f5d4d7;border-radius:7px;padding:5px 7px;font-size:10px;font-weight:900}
+.name{font-size:12.5px;font-weight:700;line-height:1.45;margin:11px 10px 8px;min-height:54px;max-height:54px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.cat{margin:0 10px 12px;color:#687586;font-size:11px;min-height:14px}
+.cta{background:var(--vermelho);color:#fff;margin:auto 10px 11px;padding:10px 5px;border-radius:7px;text-align:center;font-size:12px;font-weight:800}
+.controls{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:12px}
+.status{color:#606e7a;font-size:11px;line-height:1.4}.buttons{display:flex;gap:6px;flex-shrink:0}
+.buttons button{font-size:12px;background:#fff;border:1px solid #e6cbd0;color:#4b2130;border-radius:8px;padding:8px 12px;cursor:pointer}
+.buttons button:hover{background:#fff4f5;border-color:#ef9da4}
+.legal{font-size:10px;line-height:1.45;color:#6d7680;margin:12px 1px 0}
+.card:focus-visible,button:focus-visible,.tudo:focus-visible{outline:2px solid var(--vermelho);outline-offset:2px}
+.empty{padding:34px 14px;color:#666;text-align:center;font-size:13px;border:1px dashed #efc7ca;border-radius:12px}
+@media(max-width:560px){:root{--card:159px;--gap:9px}.wrap{padding:10px 7px}h2{font-size:17px}.sub{font-size:11px}.tudo{font-size:10px;white-space:normal;text-align:right;max-width:95px}.photo{height:155px;padding:8px}.emoji{font-size:44px}.valor{font-size:16px;bottom:10px}.name{font-size:11.5px;margin:9px 9px 8px;min-height:50px;max-height:50px}.cat{font-size:10px;margin:0 9px 9px}.cta{font-size:11px;margin: auto 9px 9px;padding:9px 5px}.buttons button{padding:7px 10px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important}}
+</style>
+</head>
+<body>
+<section class="wrap" aria-label="Carrossel Sol Garimpa de cupons e ofertas iFood">
+ <header>
+  <div><h2>Cupons e ofertas no <span>iFood</span> 🍔</h2><p class="sub">Economize no delivery, mercado e outros pedidos elegíveis.</p></div>
+  <a class="tudo" id="ver-todos" href="https://solgarimpa.github.io/sol-garimpa-afiliados/central/cupons-marketplace.html?loja=ifood" target="_blank" rel="noopener noreferrer">Ver todos os cupons ↗</a>
+ </header>
+ <div class="viewport" id="viewport" tabindex="0" aria-label="Carrossel de cupons iFood. Use as setas para navegar."><div class="track" id="track"></div></div>
+ <div class="controls"><span class="status" id="status" role="status">Consultando os cupons divulgados publicamente...</span><div class="buttons"><button type="button" id="prev" aria-label="Anterior">‹</button><button type="button" id="pause" aria-pressed="false">Pausar</button><button type="button" id="next" aria-label="Próximo">›</button></div></div>
+ <p class="legal">Cupons divulgados em fontes públicas, não testados individualmente. Consulte condições, elegibilidade e validade diretamente no aplicativo iFood. A Sol Garimpa não possui link de afiliado iFood confirmado.</p>
+</section>
+<script>
+(()=>{
+'use strict';
+const FEED='https://solgarimpa.github.io/sol-garimpa-afiliados/central/ifood-cupons.json';
+// Endereço de destino: página específica de cupons iFood já criada no GitHub.
+// Se a subpágina Wix tiver outro endereço, altere apenas a constante abaixo.
+const DESTINO='https://solgarimpa.github.io/sol-garimpa-afiliados/central/cupons-marketplace.html?loja=ifood';
+const INTERVALO_MS=3000,IDADE_MAXIMA_MS=90*60*1000;
+const viewport=document.getElementById('viewport'),track=document.getElementById('track');
+const pause=document.getElementById('pause'),status=document.getElementById('status');
+document.getElementById('ver-todos').href=DESTINO;
+const reduced=window.matchMedia('(prefers-reduced-motion: reduce)');
+let lista=[],indice=0,ocupado=false,pausado=reduced.matches,hover=false,focused=false,swipeX=0;
+const txt=v=>String(v??'').trim();
+const norm=v=>txt(v).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+function categoria(c){const t=norm(c.title+' '+c.description);if(/mercado|supermercado|mercearia/.test(t))return ['Mercado','🛒'];if(/farmacia|medicamento/.test(t))return ['Farmácia','💊'];if(/pet|animal/.test(t))return ['Pet shop','🐾'];if(/padaria|cafe/.test(t))return ['Padaria','🥐'];if(/bebida|refrigerante|fanta/.test(t))return ['Bebidas','🥤'];if(/frete/.test(t))return ['Entrega','🛵'];return ['Delivery','🍔'];}
+function embaralhar(items){const a=[...items];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a;}
+function card(c){
+ const a=document.createElement('a');a.className='card';a.href=DESTINO;a.target='_blank';a.rel='noopener noreferrer';a.title='Ver condições e copiar o cupom na página de cupons iFood da Sol Garimpa';
+ const [cat,emo]=categoria(c);
+ const foto=document.createElement('div');foto.className='photo';
+ const badge=document.createElement('span');badge.className='badge';badge.textContent=c.couponCode?'CUPOM IFOOD':'OFERTA IFOOD';
+ const emoji=document.createElement('span');emoji.className='emoji';emoji.textContent=emo;emoji.setAttribute('aria-hidden','true');
+ const valor=document.createElement('span');valor.className='valor';valor.textContent=txt(c.discountText)||'OFERTA';
+ foto.append(badge,emoji,valor);
+ const titulo=document.createElement('div');titulo.className='name';titulo.textContent=txt(c.title);
+ const tipo=document.createElement('div');tipo.className='cat';tipo.textContent=(c.couponCode?'🎟️ Com código · ':'📣 Oferta · ')+cat;
+ const cta=document.createElement('div');cta.className='cta';cta.textContent=c.couponCode?'VER E COPIAR CUPOM ↗':'CONFERIR OFERTA ↗';
+ a.append(foto,titulo,tipo,cta);return a;
+}
+function gap(){return parseFloat(getComputedStyle(track).gap)||12}
+function render(){
+ track.replaceChildren();track.style.transition='none';track.style.transform='translateX(0)';
+ const n=Math.min(lista.length,Math.ceil(viewport.clientWidth/((parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--card'))||198)+gap()))+2);
+ for(let i=0;i<n;i++)track.appendChild(card(lista[(indice+i)%lista.length]));
+}
+function mover(dir){
+ if(ocupado||lista.length<2)return;ocupado=true;
+ const dist=track.firstElementChild.getBoundingClientRect().width+gap(),ms=reduced.matches?0:440;
+ if(dir<0){indice=(indice-1+lista.length)%lista.length;render();track.style.transform='translateX(-'+dist+'px)';void track.offsetWidth;track.style.transition='transform '+ms+'ms ease';track.style.transform='translateX(0)';setTimeout(()=>{ocupado=false},ms+25)}
+ else{track.style.transition='transform '+ms+'ms ease';track.style.transform='translateX(-'+dist+'px)';setTimeout(()=>{indice=(indice+1)%lista.length;render();ocupado=false},ms+25)}
+}
+function botaoPausa(){pause.textContent=pausado?'Reproduzir':'Pausar';pause.setAttribute('aria-pressed',String(pausado));}
+async function carregar(){
+ try{
+  const resp=await fetch(FEED+'?v='+Date.now(),{cache:'no-store'});
+  if(!resp.ok)throw new Error('HTTP '+resp.status);
+  const data=await resp.json(),at=new Date(data.generatedAt).getTime();
+  if(data.market!=='ifood'||!Array.isArray(data.coupons)||!Number.isFinite(at)||Date.now()-at>IDADE_MAXIMA_MS||at-Date.now()>300000)throw Error('Catálogo sem coleta recente');
+  const validos=data.coupons.filter(c=>c&&c.title&&['listed','unverified'].includes(c.status)&&(!c.expiresAt||(Number.isFinite(Date.parse(c.expiresAt))&&Date.parse(c.expiresAt)>Date.now()))&&!/^(esgotad|vencid|expirad|encerrad|finalizad)/.test(norm(c.title)));
+  lista=embaralhar(validos);indice=0;
+  if(lista.length){status.textContent=lista.length+' cupons e ofertas divulgados • confira as regras no iFood.';render();}
+  else{track.innerHTML='<div class="empty">Nenhum cupom disponível nesta atualização. Confira novamente depois.</div>';status.textContent='Sem cupons na coleta mais recente.';}
+ }catch(err){lista=[];track.innerHTML='<div class="empty">Não foi possível consultar cupons atualizados. Acesse a página de cupons para verificar novamente.</div>';status.textContent='Catálogo temporariamente indisponível.';}
+}
+document.getElementById('prev').onclick=()=>mover(-1);
+document.getElementById('next').onclick=()=>mover(1);
+pause.onclick=()=>{pausado=!pausado;botaoPausa();};
+viewport.addEventListener('pointerenter',e=>{if(e.pointerType==='mouse')hover=true});viewport.addEventListener('pointerleave',()=>hover=false);
+viewport.addEventListener('focusin',()=>focused=true);viewport.addEventListener('focusout',()=>focused=false);
+viewport.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();mover(e.key==='ArrowRight'?1:-1);}});
+viewport.addEventListener('touchstart',e=>{swipeX=e.touches[0].clientX},{passive:true});
+viewport.addEventListener('touchend',e=>{const diff=e.changedTouches[0].clientX-swipeX;if(Math.abs(diff)>45)mover(diff<0?1:-1);},{passive:true});
+setInterval(()=>{if(!pausado&&!hover&&!focused&&!document.hidden)mover(1)},INTERVALO_MS);
+setInterval(carregar,5*60*1000);
+if('ResizeObserver'in window){let ant=viewport.clientWidth;new ResizeObserver(()=>{if(lista.length&&!ocupado&&Math.abs(viewport.clientWidth-ant)>4){ant=viewport.clientWidth;render()}}).observe(viewport)}
+carregar();botaoPausa();
+})();
+</script>
+</body>
+</html>
