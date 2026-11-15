@@ -6,14 +6,14 @@
 <style>
   :root {--cor:#0086ff;--escuro:#182237;--borda:#e7eaf1}
   * {box-sizing:border-box}
-  html,body{margin:0;background:#fff;color:var(--escuro);font:14px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
-  .sc{position:relative;overflow:hidden;padding:14px 0 13px;max-width:100%}
+  html,body{margin:0;padding:0;border:0;outline:0;box-shadow:none;background:#fff;color:var(--escuro);font:14px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+  .sc{position:relative;overflow:hidden;padding:12px 0 6px;max-width:100%;border:0;outline:0;box-shadow:none}
   .cab{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:0 14px 12px}
   h2{font-size:clamp(17px,2.6vw,23px);margin:0;font-weight:800;letter-spacing:-.035em;line-height:1.25;color:var(--cor)}
   .marca{font-size:11px;color:#677184;display:block;font-weight:500;letter-spacing:0}
   .ver-vitrine{color:#0073dd;font-size:12px;font-weight:750;text-decoration:none;white-space:nowrap}
   .ver-vitrine:hover{text-decoration:underline}
-  .controles{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:12px 14px 0}
+  .controles{display:flex;justify-content:flex-end;align-items:center;gap:10px;margin:12px 14px 0}
   .status{color:#677184;font-size:12px;line-height:1.35}
   .tools{display:flex;align-items:center;gap:6px;flex:none}
   button{color:#28354d;background:#fff;border:1px solid #dde4ed;border-radius:8px;cursor:pointer;padding:8px 12px;font:600 12px system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
@@ -45,8 +45,7 @@
   <header class="cab"><h2>Ofertas da Magalu pra vc!</h2><a class="ver-vitrine" href="https://www.magazinevoce.com.br/magazinesolgarimpa/" target="_blank" rel="noopener noreferrer sponsored nofollow">Ver vitrine completa ↗</a></header>
   <div class="janela" id="janela" role="region" aria-label="Produtos deslizando automaticamente"><div class="trilha" id="trilha"></div></div>
   <div class="erro" id="erro">Nenhum produto disponível. Confira o catálogo informado.</div>
-  <div class="controles"><span class="status">30 produtos selecionados • ordem aleatória</span><div class="tools"><button id="ant" type="button" title="Voltar um produto" aria-label="Produto anterior">‹</button><button id="pausa" type="button" aria-label="Pausar reprodução" aria-pressed="false">Pausar</button><button id="prox" type="button" title="Avançar um produto" aria-label="Próximo produto">›</button></div></div>
-  <div class="aviso">30 produtos populares selecionados, sem classificação oficial de vendas. Preços e estoque no Magalu. Links individuais da Magazine Solgarimpa; atribuição de comissão depende de validação no programa.</div>
+  <div class="controles"><div class="tools"><button id="ant" type="button" title="Voltar um produto" aria-label="Produto anterior">‹</button><button id="pausa" type="button" aria-label="Pausar reprodução" aria-pressed="false">Pausar</button><button id="prox" type="button" title="Avançar um produto" aria-label="Próximo produto">›</button></div></div>
 </section>
 <script>
 /* SOL GARIMPA — Versão Wix/GitHub — 08/11/2026
@@ -62,7 +61,7 @@ const CATALOGO_JSON_URL = ''; // URL HTTPS pública de arquivo JSON (opcional)
 const CATALOGO_CSV_URL = '';  // Alternativa: URL HTTPS pública de uma planilha publicada em CSV
 const LOJA_OFICIAL='https://www.magazinevoce.com.br/magazinesolgarimpa/';
 /* 30 produtos reais de catálogo público, não ranking oficial de vendas.
-   ATENÇÃO: os 19 links específicos da vitrine são derivados de páginas Magalu existentes
+   ATENÇÃO: os 29 links específicos da vitrine são derivados de páginas Magalu existentes
    e a atribuição só é confirmável por links emitidos no painel da Sol Garimpa. */
 const PRODUTOS_INICIAIS = [
   {
