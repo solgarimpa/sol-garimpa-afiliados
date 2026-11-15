@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-15T01:27:47+00:00",
+  "atualizado_em": "2026-11-15T03:04:12+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -1061,20 +1061,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-f7eb6c39470c68ba860e",
-      "loja": "Rovitex",
-      "tipo": "promocao",
-      "titulo": "Mês Inteiro de Ofertas : até 80%OFF",
-      "imagem": "https://cdn.lomadee.com.br/offer/0f277964-f5dc-4894-92fd-e2b8bc06d638/banners/Achadinhos%20por%20at%C3%A9%2049%2C99.png",
-      "link": "https://lmdee.link/Vm5ogyqN3eS9",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-15T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-26d7fcedf4412b96b911",
       "loja": "Sawary",
       "tipo": "promocao",
@@ -1859,6 +1845,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-a6a3f910fb196b6de150",
+      "loja": "eles.®",
+      "tipo": "promocao",
+      "titulo": "PRÉ BLACK FRIDAY EMAGRECIMENTO ELES",
+      "imagem": "https://cdn.lomadee.com.br/offer/938705ff-f523-429f-b809-53ba601b317e/banners/banners_pre_black_eles_10_separados.zip",
+      "link": "https://lmdee.link/QbF7zsGwzdpL",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-3c55ff6613db21589bfc",
       "loja": "Kidy Calçados",
       "tipo": "promocao",
@@ -2215,7 +2215,7 @@
     "marcas": 131,
     "campanhas": 120,
     "produtos": 60,
-    "links_solicitados": 12,
+    "links_solicitados": 11,
     "consulta_campanhas": "ok",
     "consulta_produtos": "ok"
   }
