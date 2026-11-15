@@ -1,31 +1,9 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-15T12:23:57.730365Z",
-  "total": 110,
+  "atualizado_em": "2026-11-15T13:38:15.535421Z",
+  "total": 108,
   "ofertas": [
-    {
-      "id": "4172387",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "R$ 50 OFF na compra do Jogo Grand Theft Auto VI (GTA 6) para PS5",
-      "descricao": "R$ 50 OFF na compra do Jogo Grand Theft Auto VI (GTA 6) para PS5",
-      "termos": ".",
-      "cupom": "VEMNOGTA",
-      "validade": "2026-11-15T13:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1051619%2Fjogo-grand-theft-auto-gta-vi-6-ps5-tt000272ps5"
-    },
-    {
-      "id": "4166655",
-      "loja": "Eurorelogios BR",
-      "tipo": "promocao",
-      "titulo": "ESQUENTA BF | ATE 30% OFF",
-      "descricao": "Até 30% off em produtos selecionados e todo dia um produto surpresa com oferta especial",
-      "termos": "Oferta válida somente no site oficial da Euro",
-      "cupom": "",
-      "validade": "2026-11-15T13:21:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=28167&awinaffid=3110826&ued=https%3A%2F%2Fwww.eurorelogios.com.br%2Fblack-friday"
-    },
     {
       "id": "4174137",
       "loja": "Kabum BR",

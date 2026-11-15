@@ -1,11 +1,11 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-15T12:23:58.598390Z",
-  "total": 194,
-  "total_cupons": 136,
-  "total_promocoes": 58,
+  "atualizado_em": "2026-11-15T13:38:16.459942Z",
+  "total": 192,
+  "total_cupons": 135,
+  "total_promocoes": 57,
   "fontes": {
-    "Awin": 110,
+    "Awin": 108,
     "Rakuten": 49,
     "Lomadee": 35
   },
@@ -1043,18 +1043,6 @@
       "rede": "Awin"
     },
     {
-      "id": "fc056554c0758abaea",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "R$ 50 OFF na compra do Jogo Grand Theft Auto VI (GTA 6) para PS5",
-      "descricao": "R$ 50 OFF na compra do Jogo Grand Theft Auto VI (GTA 6) para PS5",
-      "termos": ".",
-      "cupom": "VEMNOGTA",
-      "validade": "2026-11-15T13:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1051619%2Fjogo-grand-theft-auto-gta-vi-6-ps5-tt000272ps5",
-      "rede": "Awin"
-    },
-    {
       "id": "972f646e1533ab06a1",
       "loja": "Kabum BR",
       "tipo": "cupom",
@@ -1406,12 +1394,12 @@
       "id": "444ceae1adc4ff4e12",
       "loja": "Mundo Danone",
       "tipo": "cupom",
-      "titulo": "10% extra - Profutura 800g Cupom: BFAPTANUTRI",
+      "titulo": "10% extra - Aptanutri Premium 800g Cupom: BFAPTANUTRI",
       "descricao": "",
       "termos": "",
       "cupom": "BFAPTANUTRI",
       "validade": "2026-11-16T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.6&type=3&subid=0",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.5&type=3&subid=0",
       "rede": "Rakuten"
     },
     {
@@ -1701,18 +1689,6 @@
       "validade": "2030-02-09T00:00:00Z",
       "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1516341.5&type=3&subid=0",
       "rede": "Rakuten"
-    },
-    {
-      "id": "4bc23a978a862c3e10",
-      "loja": "Eurorelogios BR",
-      "tipo": "promocao",
-      "titulo": "ESQUENTA BF | ATE 30% OFF",
-      "descricao": "Até 30% off em produtos selecionados e todo dia um produto surpresa com oferta especial",
-      "termos": "Oferta válida somente no site oficial da Euro",
-      "cupom": "",
-      "validade": "2026-11-15T13:21:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=28167&awinaffid=3110826&ued=https%3A%2F%2Fwww.eurorelogios.com.br%2Fblack-friday",
-      "rede": "Awin"
     },
     {
       "id": "e498609e2398b419f0",
