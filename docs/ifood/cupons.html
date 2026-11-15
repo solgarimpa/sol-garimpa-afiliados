@@ -131,6 +131,7 @@ function aindaValido(c){
 function txt(v){return String(v==null?"":v).trim()}
 function norm(v){return txt(v).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()}
 function node(tag,classe,texto){const n=document.createElement(tag);if(classe)n.className=classe;if(texto!==undefined)n.textContent=texto;return n}
+function embaralhar(registros){const copia=[...registros];for(let i=copia.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[copia[i],copia[j]]=[copia[j],copia[i]];}return copia;}
 function cartao(c){
   const art=node("article","card");
   const titulo=txt(c.title);
@@ -197,7 +198,7 @@ async function atualizar(){
       desenhar();
       return;
     }
-    todos=dados.coupons.filter(c=>c&&c.title&&(c.status==="listed"||c.status==="unverified")&&!indisponivel(c)&&aindaValido(c));
+    todos=embaralhar(dados.coupons.filter(c=>c&&c.title&&(c.status==="listed"||c.status==="unverified")&&!indisponivel(c)&&aindaValido(c)));
     el("data").textContent="Última coleta automática: "+fmt.format(data);
     el("fontes").textContent="Cupons divulgados publicamente, não verificados individualmente no checkout. Podem se esgotar antes da próxima atualização. Confira as condições no aplicativo iFood.";
     desenhar();
