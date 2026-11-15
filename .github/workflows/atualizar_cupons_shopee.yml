@@ -10,6 +10,7 @@ on:
       - 'scripts/build_cupons_central.py'
       - 'tests/test_cupons_integridade.py'
       - 'docs/central/cupons-marketplace.html'
+      - 'docs/ifood/index.html'
       - '.github/workflows/atualizar_cupons_shopee.yml'
   schedule:
     - cron: '5,35 * * * *'
