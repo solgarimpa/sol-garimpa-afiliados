@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-16T18:38:46.945141Z",
-  "total": 385,
-  "total_cupons": 135,
+  "atualizado_em": "2026-11-16T19:43:29.695865Z",
+  "total": 387,
+  "total_cupons": 137,
   "total_promocoes": 250,
   "fontes": {
     "Awin": 354,
     "Rakuten": 47,
-    "Lomadee": 35
+    "Lomadee": 37
   },
   "ofertas": [
     {
@@ -44,18 +44,6 @@
       "cupom": "LOMADEE",
       "validade": "2027-02-11T02:30:00Z",
       "link": "https://lmdee.link/vuU8UnjsKTuM",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "296a5945fd84c53ef9",
-      "loja": "BALAROTI",
-      "tipo": "cupom",
-      "titulo": "CLIENTEVIP10",
-      "descricao": "",
-      "termos": "",
-      "cupom": "CLIENTEVIP10",
-      "validade": "2026-12-01T02:30:00Z",
-      "link": "https://lmdee.link/daUtg6lAeKHR",
       "rede": "Lomadee"
     },
     {
@@ -155,18 +143,6 @@
       "rede": "Lomadee"
     },
     {
-      "id": "1e4b116008a1874259",
-      "loja": "Brinox",
-      "tipo": "cupom",
-      "titulo": "Cupom perfeito para você divulgar!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "RENOVACASA",
-      "validade": "2026-12-21T02:30:00Z",
-      "link": "https://lmdee.link/DZo5pwUvAGaK",
-      "rede": "Lomadee"
-    },
-    {
       "id": "af19a5a02d0026f911",
       "loja": "Brinox",
       "tipo": "cupom",
@@ -200,30 +176,6 @@
       "cupom": "CHINALOMADEE25",
       "validade": null,
       "link": "https://lmdee.link/8VMMfdnFV58B",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "52cb23a7d3e8a575f6",
-      "loja": "China in Box",
-      "tipo": "cupom",
-      "titulo": "Cupom Frete Gratis",
-      "descricao": "",
-      "termos": "",
-      "cupom": "FRETELOMADEE",
-      "validade": "2027-01-01T02:59:59Z",
-      "link": "https://lmdee.link/69aTXVdd4fbx",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "a478c787b4a5fe84a6",
-      "loja": "Colorstone",
-      "tipo": "cupom",
-      "titulo": "20% OFF em todo site",
-      "descricao": "",
-      "termos": "",
-      "cupom": "LOMADEE",
-      "validade": "2027-01-01T02:30:00Z",
-      "link": "https://lmdee.link/OjpcW1hfWIo6",
       "rede": "Lomadee"
     },
     {
@@ -717,6 +669,90 @@
       "validade": "2027-01-01T02:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=46269&awinaffid=3110826&ued=https%3A%2F%2Fhipervarejo.com.br%2F",
       "rede": "Awin"
+    },
+    {
+      "id": "28c053d80b99e6012f",
+      "loja": "Homedock",
+      "tipo": "cupom",
+      "titulo": "1ª Compra: R$ 50 OFF para pedidos acima de R$ 1.299,99",
+      "descricao": "",
+      "termos": "",
+      "cupom": "NOVO50",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://lmdee.link/sU7RFKphMZ7z",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "d8ad59509505dfa777",
+      "loja": "Homedock",
+      "tipo": "cupom",
+      "titulo": "R$ 120 OFF para pedidos acima de R$ 3.199,99",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK120",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://lmdee.link/zSc7OJRw57mE",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "4e1af405f9c1195ba0",
+      "loja": "Homedock",
+      "tipo": "cupom",
+      "titulo": "R$ 15 OFF para pedidos acima de R$ 599,99",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK15",
+      "validade": "2026-12-01T02:30:00Z",
+      "link": "https://lmdee.link/AAwrxEkdk0th",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "63e045af7610303002",
+      "loja": "Homedock",
+      "tipo": "cupom",
+      "titulo": "R$ 25 OFF para pedidos acima de R$ 999,99",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK25",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://lmdee.link/NvjqQ31Qtkby",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "5e55729ef66e8a8e86",
+      "loja": "Homedock",
+      "tipo": "cupom",
+      "titulo": "R$ 350 OFF para pedidos acima de R$ 4.999,99",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK350",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://lmdee.link/mrQjiM9fxMp5",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "8dbca78cd343d34ad7",
+      "loja": "Homedock",
+      "tipo": "cupom",
+      "titulo": "R$ 500 OFF para pedidos acima de R$ 6.799,99",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK500",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://lmdee.link/VN3NxmhpaGwI",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "6840e52d4f56a8a3f8",
+      "loja": "Homedock",
+      "tipo": "cupom",
+      "titulo": "R$ 80 OFF para pedidos acima de R$ 2.399,99",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK80",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://lmdee.link/rNYr5SuM8uNL",
+      "rede": "Lomadee"
     },
     {
       "id": "b63e666f0a4a9598a6",
@@ -1400,18 +1436,6 @@
       "cupom": "SHOES10",
       "validade": "2026-12-01T02:59:59Z",
       "link": "https://lmdee.link/m0zR9Eohrlwb",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "1d28b29f5f8f78153f",
-      "loja": "Móveis Carraro",
-      "tipo": "cupom",
-      "titulo": "LANCAMENTOS10 - 10% OFF em Lançamentos",
-      "descricao": "",
-      "termos": "",
-      "cupom": "LANCAMENTOS10",
-      "validade": null,
-      "link": "https://lmdee.link/Zgad1XW8M6fK",
       "rede": "Lomadee"
     },
     {
