@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-16T19:17:20+00:00",
+  "atualizado_em": "2026-11-16T20:10:28+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -665,16 +665,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-b28d58a6e7953fe29c27",
+      "id": "lc-4c57785710cc8f35105f",
       "loja": "Camisaria Colombo",
       "tipo": "promocao",
-      "titulo": "Black November Colombo!",
-      "imagem": "https://cdn.lomadee.com.br/offer/b96c3904-2ec5-4a77-a326-e8718a66082a/banners/Colombo_Black_November_Google_960x1200_com_CTA.jpg",
-      "link": "https://lmdee.link/t4kA4sc6UUOv",
+      "titulo": "BLACK NOVEMBER COLOMBO!",
+      "imagem": "https://cdn.lomadee.com.br/offer/a56e1bf5-d261-41a8-9794-5894faf7f560/banners/imagem%20-%202026-11-16T161910.097.png",
+      "link": "https://lmdee.link/v5rc2ywShDVe",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-12-01T02:59:59.000Z",
+      "validade": "2026-11-22T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -913,6 +913,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-f3ac6d6c3eda5b3c2f82",
+      "loja": "Lojas REDE",
+      "tipo": "promocao",
+      "titulo": "Começou a Black Week da Rede",
+      "imagem": "",
+      "link": "https://lmdee.link/FS95F58hzrRs",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-18T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1319,6 +1333,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-b28d58a6e7953fe29c27",
+      "loja": "Camisaria Colombo",
+      "tipo": "promocao",
+      "titulo": "Black November Colombo!",
+      "imagem": "https://cdn.lomadee.com.br/offer/b96c3904-2ec5-4a77-a326-e8718a66082a/banners/Colombo_Black_November_Google_960x1200_com_CTA.jpg",
+      "link": "https://lmdee.link/t4kA4sc6UUOv",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-12-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1897,20 +1925,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-6a494c7ce1cb19c4802f",
-      "loja": "Bauducco",
-      "tipo": "promocao",
-      "titulo": "Fornada de Natal",
-      "imagem": "",
-      "link": "https://lmdee.link/aDV67SbpzSPG",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-57489fdbdbf12c83d0b3",
       "loja": "Brinox",
       "tipo": "cupom",
@@ -1991,20 +2005,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-dacc943985f951031750",
-      "loja": "Bauducco",
-      "tipo": "promocao",
-      "titulo": "Cestas de Natal",
-      "imagem": "",
-      "link": "https://lmdee.link/5RDqxMpqPmEj",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2211,7 +2211,7 @@
     "marcas": 130,
     "campanhas": 120,
     "produtos": 60,
-    "links_solicitados": 8,
+    "links_solicitados": 10,
     "consulta_campanhas": "ok",
     "consulta_produtos": "ok"
   }
