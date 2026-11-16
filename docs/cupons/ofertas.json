@@ -1,8 +1,8 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-16T06:50:44.069422Z",
-  "total": 105,
+  "atualizado_em": "2026-11-16T09:55:56.762025Z",
+  "total": 106,
   "ofertas": [
     {
       "id": "4174150",
@@ -289,6 +289,17 @@
       "cupom": "100IMPRESSORA",
       "validade": "2026-12-01T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F699106%2Fmultifuncional-tanque-de-tinta-brother-dcp-t530dw-bivolt"
+    },
+    {
+      "id": "4173487",
+      "loja": "SIRUI",
+      "tipo": "promocao",
+      "titulo": "Black Friday Sale is Live Now!",
+      "descricao": "Get ready for incredible Black Friday savings at SIRUI! Enjoy exclusive deals and save up to 80% OFF on selected lenses and photography gear. Discover great prices on your favorite SIRUI products and upgrade your creative gear for less. Don't miss these limited-time offers!",
+      "termos": "/",
+      "cupom": "",
+      "validade": "2026-12-01T08:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=3110826&ued=https%3A%2F%2Fstore.sirui.com%2Fpages%2Fsales-1"
     },
     {
       "id": "4164641",

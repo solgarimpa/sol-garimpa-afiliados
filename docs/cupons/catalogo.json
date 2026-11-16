@@ -1,11 +1,11 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-16T06:50:44.972681Z",
-  "total": 188,
+  "atualizado_em": "2026-11-16T09:55:58.386394Z",
+  "total": 189,
   "total_cupons": 131,
-  "total_promocoes": 57,
+  "total_promocoes": 58,
   "fontes": {
-    "Awin": 105,
+    "Awin": 106,
     "Rakuten": 47,
     "Lomadee": 36
   },
@@ -2083,7 +2083,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-06-09T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1752486.818&type=3&subid=0",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1752486.819&type=3&subid=0",
       "rede": "Rakuten"
     },
     {
@@ -2108,6 +2108,18 @@
       "cupom": "",
       "validade": "2027-01-01T08:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=3110826&campaign=sirui+exclusive+deals+event&ued=https%3A%2F%2Fstore.sirui.com%2Fpages%2Fsales-1",
+      "rede": "Awin"
+    },
+    {
+      "id": "8a1de68b8f9ca0741f",
+      "loja": "SIRUI",
+      "tipo": "promocao",
+      "titulo": "Black Friday Sale is Live Now!",
+      "descricao": "Get ready for incredible Black Friday savings at SIRUI! Enjoy exclusive deals and save up to 80% OFF on selected lenses and photography gear. Discover great prices on your favorite SIRUI products and upgrade your creative gear for less. Don't miss these limited-time offers!",
+      "termos": "/",
+      "cupom": "",
+      "validade": "2026-12-01T08:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=3110826&ued=https%3A%2F%2Fstore.sirui.com%2Fpages%2Fsales-1",
       "rede": "Awin"
     },
     {
