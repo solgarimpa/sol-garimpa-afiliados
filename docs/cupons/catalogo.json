@@ -1,11 +1,11 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-16T11:39:55.299823Z",
-  "total": 189,
-  "total_cupons": 131,
+  "atualizado_em": "2026-11-16T14:12:29.749879Z",
+  "total": 188,
+  "total_cupons": 130,
   "total_promocoes": 58,
   "fontes": {
-    "Awin": 106,
+    "Awin": 105,
     "Rakuten": 47,
     "Lomadee": 36
   },
@@ -860,18 +860,6 @@
       "cupom": "STAR5",
       "validade": "2026-12-01T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1078538%2Fantena-starlink-mini-x-com-roteador",
-      "rede": "Awin"
-    },
-    {
-      "id": "b5494b3275bf267d64",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "5% OFF na compra do MacBook Neo Apple 13\" Chip A18 Pro 256GB Prateado",
-      "descricao": "5% OFF na compra do MacBook Neo Apple 13\" Chip A18 Pro 256GB Prateado",
-      "termos": ".",
-      "cupom": "MACNEO5OFF",
-      "validade": "2026-11-16T12:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1015057%2Fmacbook-neo-apple-13-chip-a18-pro-cpu-de-6-nucleos-gpu-de-5-nucleos-256gb-prateado-mhfa4bz-a",
       "rede": "Awin"
     },
     {
