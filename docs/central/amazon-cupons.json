@@ -1,9 +1,9 @@
 {
   "market": "amazon",
   "name": "Amazon",
-  "generatedAt": "2026-11-16T15:59:24+00:00",
+  "generatedAt": "2026-11-16T17:06:49+00:00",
   "refreshMinutes": 30,
-  "count": 43,
+  "count": 33,
   "sources": {
     "Cuponomia": {
       "ok": false,
@@ -12,27 +12,15 @@
     },
     "Meliuz": {
       "ok": true,
-      "quantidade": 39
+      "quantidade": 30
     },
     "WorkerExistente": {
       "ok": true,
-      "quantidade": 6
+      "quantidade": 4
     }
   },
   "note": "Cupons listados nas fontes, nao testados no checkout. Cashback exclusivo de outros sites nao e oferecido pela Sol Garimpa.",
   "coupons": [
-    {
-      "title": "[PRIMEIRA COMPRA/PRIME] R$25 OFF em Perdidos Acima de R$40 no App da Amazon",
-      "couponCode": "25PRIMEBF",
-      "discountText": "R$ 25 OFF",
-      "description": "CUPONS AMAZON PRIMEIRA COMPRA APPDEZ (10/30) DESCONTAOAPP (20/40) APPCOMPRA (20/80) 25PRIMEBF (25/40+) Assine o Amazon Prime aqui: https://link.amazon/B0g9KD4Z4AMAZON",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-16T14:09:38.068Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
-      "status": "listed"
-    },
     {
       "title": "Seleção de Produdos de Beleza com 20% OFF na Amazon",
       "couponCode": "IMPERDIVEL20",
@@ -42,7 +30,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-16T12:08:26.764Z",
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -54,7 +42,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-16T12:07:05.720Z",
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -66,7 +54,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -78,43 +66,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
       "title": "Compre sem restrições de produtos com R$20 OFF",
-      "couponCode": "COMPRANOAPP",
+      "couponCode": "DESCONTAOAPP",
       "discountText": "R$ 20 OFF",
       "description": "Somente aos clientes que estão comprando na Amazon pela primeira vez. Para pedidos acima de R$40, através do aplicativo Amazon Shopping. Verifique regulamento completo no site!",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Amazon para cozinha com 25% de desconto",
-      "couponCode": "RESGATEAQUI",
-      "discountText": "25% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom de desconto Amazon com 20%",
-      "couponCode": "PRIMEBLACK20",
-      "discountText": "20% OFF",
-      "description": "20% OFF limitado a R$80. Vale só por 30 minutos, das 12h às 12h30",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -126,31 +90,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
-      "title": "Desconto Amazon: 20% OFF em escovas Marco Boni",
-      "couponCode": "GANHEAQUI",
-      "discountText": "20% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
+      "title": "Exclusivo Prime: todo o site com R$25 OFF",
+      "couponCode": "25PRIMEBF",
+      "discountText": "R$ 25 OFF",
+      "description": "Apenas para clientes selecionados que estão realizando a primeira compra na Amazon via aplicativo. Aplicável em compras a partir de R$40",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Economize 5% em colchões Luuna na Amazon",
-      "couponCode": "APROVEITEAQUI",
-      "discountText": "5% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -162,7 +114,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -174,7 +126,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -186,7 +138,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -198,7 +150,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Sua primeira compra com R$20 de desconto Amazon",
+      "couponCode": "APPCOMPRA",
+      "discountText": "R$ 20 OFF",
+      "description": "Aplicável apenas para clientes que estão comprando no aplicativo Amazon Shopping pela primeira vez, em pedidos acima de R$80",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -210,7 +174,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -222,19 +186,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "[Prime] 25% OFF em Jogos para Play e Nintendo",
-      "couponCode": "",
-      "discountText": "25% OFF",
-      "description": "Hora de garimpar",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": "2026-11-16T13:51:33.581Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -246,7 +198,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-16T13:48:36.018Z",
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -258,11 +210,11 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-16T03:23:40.899Z",
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
-      "title": "35% OFF em cozinha aplicando cupom Amazon",
+      "title": "35% OFF aplicando cupom Amazon",
       "couponCode": "",
       "discountText": "35% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
@@ -270,7 +222,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -282,19 +234,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Amazon: 10% de desconto em kits de cronograma capilar",
-      "couponCode": "",
-      "discountText": "10% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -306,7 +246,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -318,7 +258,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -330,7 +270,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -342,7 +282,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -354,7 +294,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -366,19 +306,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Amazon para eletrônicos e tecnologia com 5% de desconto",
-      "couponCode": "",
-      "discountText": "5% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -390,19 +318,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Amazon: 5% OFF em formas de gelo",
-      "couponCode": "",
-      "discountText": "5% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -414,19 +330,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom de desconto Amazon com R$20 na primeira compra",
-      "couponCode": "",
-      "discountText": "R$ 20 OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -438,7 +342,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -450,7 +354,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -462,7 +366,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -474,7 +378,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -486,7 +390,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -498,31 +402,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Seleção com até 60% OFF Amazon",
-      "couponCode": "",
-      "discountText": "60% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Use cupom Amazon e ganhe 15% OFF em eletrônicos e tecnologia",
-      "couponCode": "",
-      "discountText": "15% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     },
     {
@@ -534,7 +414,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T15:59:24+00:00",
+      "observedAt": "2026-11-16T17:06:49+00:00",
       "status": "listed"
     }
   ]
