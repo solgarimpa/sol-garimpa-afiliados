@@ -1,12 +1,12 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-15T23:29:25.596261Z",
-  "total": 192,
-  "total_cupons": 135,
+  "atualizado_em": "2026-11-16T00:36:24.346771Z",
+  "total": 190,
+  "total_cupons": 133,
   "total_promocoes": 57,
   "fontes": {
     "Awin": 108,
-    "Rakuten": 49,
+    "Rakuten": 47,
     "Lomadee": 35
   },
   "ofertas": [
@@ -1391,30 +1391,6 @@
       "rede": "Lomadee"
     },
     {
-      "id": "444ceae1adc4ff4e12",
-      "loja": "Mundo Danone",
-      "tipo": "cupom",
-      "titulo": "10% extra - Aptanutri Premium 800g Cupom: BFAPTANUTRI",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BFAPTANUTRI",
-      "validade": "2026-11-16T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.5&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "ab79d506660136b0ba",
-      "loja": "Mundo Danone",
-      "tipo": "cupom",
-      "titulo": "11% extra em Souvenaid Cupom: BFSOUVENAID",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BFSOUVENAID",
-      "validade": "2026-11-16T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.7&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
       "id": "ac681230be5861174b",
       "loja": "PCYES",
       "tipo": "cupom",
@@ -2131,7 +2107,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-06-09T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1752486.819&type=3&subid=0",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1752486.818&type=3&subid=0",
       "rede": "Rakuten"
     },
     {
