@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-16T17:29:56+00:00",
+  "atualizado_em": "2026-11-16T19:17:20+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -31,8 +31,8 @@
       "loja": "Vivavinho"
     },
     {
-      "id": "09562538-fde7-4bbf-947b-2ccebbc1c887",
-      "loja": "Le Loyn Parfums"
+      "id": "1ba96890-8d3b-45d6-8e55-247bf62f6b4e",
+      "loja": "Pneunet"
     },
     {
       "id": "038925ab-7cd8-462d-9c27-1266f14ee3b2",
@@ -147,8 +147,8 @@
       "loja": "AmoKarité"
     },
     {
-      "id": "1ba96890-8d3b-45d6-8e55-247bf62f6b4e",
-      "loja": "Pneunet"
+      "id": "37eb2500-9232-4491-9ab1-e1880025f7e3",
+      "loja": "Revest Acabamentos"
     },
     {
       "id": "20ead81f-493b-45a7-8ab6-5f523d4df803",
@@ -199,6 +199,10 @@
       "loja": "UP Kids"
     },
     {
+      "id": "79084ddb-bc21-40a1-955e-e19716e16493",
+      "loja": "NutriBullet"
+    },
+    {
       "id": "4df457ad-c0ca-469d-8608-7bb9620392fa",
       "loja": "Angeloni"
     },
@@ -213,10 +217,6 @@
     {
       "id": "4a2f41d4-099d-4c8d-a003-5a37bef52ac8",
       "loja": "Hipervarejo"
-    },
-    {
-      "id": "37eb2500-9232-4491-9ab1-e1880025f7e3",
-      "loja": "Revest Acabamentos"
     },
     {
       "id": "392fe765-2ba9-47b5-8b41-d2540d6c24b2",
@@ -257,10 +257,6 @@
     {
       "id": "9c5602b5-365f-4a43-b7d6-fb69643e55b0",
       "loja": "iRobot"
-    },
-    {
-      "id": "79084ddb-bc21-40a1-955e-e19716e16493",
-      "loja": "NutriBullet"
     },
     {
       "id": "83655185-8ee0-4011-a70b-a733a8237ed5",
@@ -315,6 +311,10 @@
       "loja": "BALAROTI"
     },
     {
+      "id": "a4ea6ed5-0ffd-4ee7-b0eb-f6073dc4fc12",
+      "loja": "Sieno Perfumes"
+    },
+    {
       "id": "9b4047d8-7011-4264-8144-d43fd0fb1f77",
       "loja": "LITTLE DUCK"
     },
@@ -355,6 +355,10 @@
       "loja": "DeÔnibus"
     },
     {
+      "id": "c43edf8e-c151-474a-83e8-d52ec3e13a24",
+      "loja": "FOM"
+    },
+    {
       "id": "b9964938-0c46-4b54-8069-2176b382a260",
       "loja": "Disney"
     },
@@ -389,10 +393,6 @@
     {
       "id": "bbecdd07-33c6-4390-996b-e93e7455d731",
       "loja": "POMANDER"
-    },
-    {
-      "id": "a4ea6ed5-0ffd-4ee7-b0eb-f6073dc4fc12",
-      "loja": "Sieno Perfumes"
     },
     {
       "id": "a563f102-2bf3-4101-8f9c-ff54bef37932",
@@ -455,10 +455,6 @@
       "loja": "MiniPreço"
     },
     {
-      "id": "c43edf8e-c151-474a-83e8-d52ec3e13a24",
-      "loja": "FOM"
-    },
-    {
       "id": "db8f0553-4f5d-4f94-8b40-dbe6f0cbecbc",
       "loja": "Laluna"
     },
@@ -469,6 +465,10 @@
     {
       "id": "cda2b486-0ba6-4be9-8944-5d5096735e03",
       "loja": "Buddha SPA"
+    },
+    {
+      "id": "e2c06410-a5e3-47c1-bcb2-d5f65f355c4f",
+      "loja": "Relax Saboaria"
     },
     {
       "id": "c7fda3cb-c9e5-4a06-822d-5d687cc56802",
@@ -515,10 +515,6 @@
       "loja": "Prime Video"
     },
     {
-      "id": "e2c06410-a5e3-47c1-bcb2-d5f65f355c4f",
-      "loja": "Relax Saboaria"
-    },
-    {
       "id": "f901efab-f85c-4546-bacc-375795b8c52d",
       "loja": "Descomplica"
     },
@@ -535,6 +531,20 @@
       "titulo": "banner elegance",
       "imagem": "",
       "link": "https://lmdee.link/uJRyMTx4DHLz",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-4415b20c1177ee41abcc",
+      "loja": "Amoedo",
+      "tipo": "promocao",
+      "titulo": "Esquenta Black Friday Grandes marcas com preços imbatíveis",
+      "imagem": "https://cdn.lomadee.com.br/offer/9c29c81b-95c4-49c5-ac2e-279d219488bb/banners/Banner%20image%20%2814%29.png",
+      "link": "https://lmdee.link/Jn7gKhZTQSzt",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -711,20 +721,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-7e9a301aaa633917f291",
-      "loja": "Colorstone",
-      "tipo": "cupom",
-      "titulo": "20% OFF em todo site",
-      "imagem": "",
-      "link": "https://lmdee.link/OjpcW1hfWIo6",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "LOMADEE",
-      "validade": "2027-01-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-33379d20b3d550b67aed",
       "loja": "Coza",
       "tipo": "cupom",
@@ -795,6 +791,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-a86078a74cd1df18a8dc",
+      "loja": "Ferramentas Kennedy",
+      "tipo": "promocao",
+      "titulo": "Bosch Friday: Ofertas imperdívei",
+      "imagem": "https://cdn.lomadee.com.br/offer/ea28ce77-474a-4b95-acd4-a11a4317eed7/banners/Bosch%20Friday%20%281%29.png",
+      "link": "https://lmdee.link/pwa1Eb2xD6uh",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-19T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-e7424f2567fbe95b24e9",
       "loja": "FOM",
       "tipo": "promocao",
@@ -819,6 +829,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-23T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-80939196793de73d709c",
+      "loja": "Homedock",
+      "tipo": "cupom",
+      "titulo": "R$ 500 OFF para pedidos acima de R$ 6.799,99",
+      "imagem": "",
+      "link": "https://lmdee.link/VN3NxmhpaGwI",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "BLACK500",
+      "validade": "2026-12-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1047,6 +1071,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-d24c162a3ff712dfcddc",
+      "loja": "Simple Organic",
+      "tipo": "promocao",
+      "titulo": "Clean Friday: TUDO COM ATÉ 70% OFF!",
+      "imagem": "https://cdn.lomadee.com.br/offer/7b6fea52-c395-43ac-ac71-0dd94ce7502f/banners/Image%20%2835%29.jpg",
+      "link": "https://lmdee.link/QzvLVmJ5ztKu",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-e958ebfff6ed294a228a",
       "loja": "Sofá na Caixa",
       "tipo": "promocao",
@@ -1085,6 +1123,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-eaaed9cf51b3d967e9f6",
+      "loja": "Super Pro Atacado",
+      "tipo": "promocao",
+      "titulo": "Bosch Friday: Ofertas imperdíveis",
+      "imagem": "https://cdn.lomadee.com.br/offer/a4d97d9f-6ac2-4e88-bf1f-f8911b895dc8/banners/Bosch%20Friday.png",
+      "link": "https://lmdee.link/FoL9i965hNWu",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-19T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1215,20 +1267,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-81f783aa7516bb11ba1c",
-      "loja": "BALAROTI",
-      "tipo": "cupom",
-      "titulo": "CLIENTEVIP10",
-      "imagem": "",
-      "link": "https://lmdee.link/daUtg6lAeKHR",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "CLIENTEVIP10",
-      "validade": "2026-12-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-2ac1dc93af34e2a9f382",
       "loja": "Bauducco",
       "tipo": "promocao",
@@ -1285,20 +1323,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-553797bfed878a6dcd2d",
-      "loja": "China in Box",
-      "tipo": "cupom",
-      "titulo": "Cupom Frete Gratis",
-      "imagem": "",
-      "link": "https://lmdee.link/69aTXVdd4fbx",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "FRETELOMADEE",
-      "validade": "2027-01-01T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-15de72c6afc4694268e6",
       "loja": "Coza",
       "tipo": "cupom",
@@ -1323,6 +1347,34 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-cd826e2da5b5edf27037",
+      "loja": "Ferramentas Kennedy",
+      "tipo": "promocao",
+      "titulo": "Esquenta Black Friday : Até 60% off em produtos selecionados  + 10% off à vista | 5% off no cartão em até 5x | Até 10x sem juros no cartão",
+      "imagem": "https://cdn.lomadee.com.br/offer/03c10310-c8ed-4156-bdfe-2f0754137e0e/banners/Esquenta%20Black%20Friday%20%281%29.png",
+      "link": "https://lmdee.link/Qw6sMRxUsvgq",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-19T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-87343edc58499aceb43b",
+      "loja": "Homedock",
+      "tipo": "cupom",
+      "titulo": "R$ 350 OFF para pedidos acima de R$ 4.999,99",
+      "imagem": "",
+      "link": "https://lmdee.link/mrQjiM9fxMp5",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "BLACK350",
+      "validade": "2026-12-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1397,20 +1449,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-88db0c926054a9af9da1",
-      "loja": "Mundo Vem",
-      "tipo": "promocao",
-      "titulo": "[CATEGORIA] Ramequins",
-      "imagem": "",
-      "link": "https://lmdee.link/7MISKfU0QDZI",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-b4493757ddb1df79a53e",
       "loja": "Móveis Carraro",
       "tipo": "promocao",
@@ -1477,6 +1515,20 @@
       "preco_anterior": null,
       "cupom": "LOMADEE12",
       "validade": "2027-01-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-e21dcb4311888ca21b47",
+      "loja": "Super Pro Atacado",
+      "tipo": "promocao",
+      "titulo": "Super Esquenta Black Friday!! Ferramentas Elétricas com até 60% off em produtos selecionados!",
+      "imagem": "https://cdn.lomadee.com.br/offer/b33394d6-6815-4578-affa-9948164b3039/banners/Ferramentas%20El%C3%A9tricas.png",
+      "link": "https://lmdee.link/IOziY3h921Uk",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-19T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1579,6 +1631,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-6db0680f279b95d98ac7",
+      "loja": "Homedock",
+      "tipo": "cupom",
+      "titulo": "R$ 120 OFF para pedidos acima de R$ 3.199,99",
+      "imagem": "",
+      "link": "https://lmdee.link/zSc7OJRw57mE",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "BLACK120",
+      "validade": "2026-12-01T02:59:59.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-3c55ff6613db21589bfc",
       "loja": "Kidy Calçados",
       "tipo": "promocao",
@@ -1635,20 +1701,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-2e245a7c7dfe3ee2cd7e",
-      "loja": "Móveis Carraro",
-      "tipo": "promocao",
-      "titulo": "Festival de Cupons Carraro - de R$ 50 a R$ 300 OFF",
-      "imagem": "https://cdn.lomadee.com.br/offer/969cc5cf-4ce6-4f96-9e2d-01f0ad049c64/banners/FESTIVAL_1080x1920.png",
-      "link": "https://lmdee.link/RoVZrZFHqYis",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-f7de0ae70b64cfab6f59",
       "loja": "Sawary",
       "tipo": "promocao",
@@ -1673,6 +1725,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-49e2e0fcaf42e1f48500",
+      "loja": "Super Pro Atacado",
+      "tipo": "promocao",
+      "titulo": "Super Esquenta Black Friday! Mais de 5 mil produtos com até 60% off e as melhores condições de pagamento",
+      "imagem": "https://cdn.lomadee.com.br/offer/153f215f-8651-4da8-a16f-5daff65c25bd/banners/Esquenta%20Black%20Friday.png",
+      "link": "https://lmdee.link/UtKxSZm8Mj6I",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-19T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1761,6 +1827,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-d677738b542fcf519cbd",
+      "loja": "Homedock",
+      "tipo": "cupom",
+      "titulo": "R$ 80 OFF para pedidos acima de R$ 2.399,99",
+      "imagem": "",
+      "link": "https://lmdee.link/rNYr5SuM8uNL",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "BLACK80",
+      "validade": "2026-12-01T02:59:59.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-2e553e7e7f1573682358",
       "loja": "Lauri Esporte",
       "tipo": "promocao",
@@ -1785,34 +1865,6 @@
       "preco_anterior": null,
       "cupom": "SHOES10",
       "validade": "2026-12-01T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-46baebe4716d72ac86a2",
-      "loja": "Móveis Carraro",
-      "tipo": "promocao",
-      "titulo": "Módulos de Cozinha - 8% OFF com MODULAR8",
-      "imagem": "https://cdn.lomadee.com.br/offer/01059650-81a6-4fa0-97e2-4083eccc056d/banners/MODULAR8_1064x557.png",
-      "link": "https://lmdee.link/EbWlVCQ6jcrZ",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-4bfe794e2b20b42f123c",
-      "loja": "Sawary",
-      "tipo": "promocao",
-      "titulo": "Temporada de Rodeio",
-      "imagem": "",
-      "link": "https://lmdee.link/xTfMf5WhGpiF",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1873,6 +1925,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-2ee2252b93ab01686cb9",
+      "loja": "Homedock",
+      "tipo": "cupom",
+      "titulo": "R$ 25 OFF para pedidos acima de R$ 999,99",
+      "imagem": "",
+      "link": "https://lmdee.link/NvjqQ31Qtkby",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "BLACK25",
+      "validade": "2026-12-01T02:59:59.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-316c78c018698bf2a7fd",
       "loja": "Lauri Esporte",
       "tipo": "promocao",
@@ -1897,34 +1963,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-17T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-480461bbca3dee865f84",
-      "loja": "Móveis Carraro",
-      "tipo": "promocao",
-      "titulo": "Lançamentos Carraro - 10% OFF com LANCAMENTOS10",
-      "imagem": "https://cdn.lomadee.com.br/offer/ec3cfdf8-0371-4ab8-a847-20acecd26843/banners/LANCAMENTOS10_1080x1920.png",
-      "link": "https://lmdee.link/5DYHfMpHSgxT",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-7c18f03bdcaddea5b727",
-      "loja": "Sawary",
-      "tipo": "promocao",
-      "titulo": "Últimos Dias Mês Do Cliente",
-      "imagem": "",
-      "link": "https://lmdee.link/VxbpF2FfGnOH",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1985,40 +2023,26 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-7341e0568b266ccc609a",
+      "loja": "Homedock",
+      "tipo": "cupom",
+      "titulo": "R$ 15 OFF para pedidos acima de R$ 599,99",
+      "imagem": "",
+      "link": "https://lmdee.link/AAwrxEkdk0th",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "BLACK15",
+      "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-3429e60e1eb7f0909053",
       "loja": "Lauri Esporte",
       "tipo": "promocao",
       "titulo": "On Running: revenda oficial com frete grátis e 10% OFF no Pix",
       "imagem": "",
       "link": "https://lmdee.link/aI4Irq0svFM5",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-bb5af2c0883a7399cb04",
-      "loja": "Móveis Carraro",
-      "tipo": "cupom",
-      "titulo": "LANCAMENTOS10 - 10% OFF em Lançamentos",
-      "imagem": "",
-      "link": "https://lmdee.link/Zgad1XW8M6fK",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "LANCAMENTOS10",
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-551029e30bd9dea16827",
-      "loja": "Sawary",
-      "tipo": "promocao",
-      "titulo": "Seleção de Boot Cuts",
-      "imagem": "",
-      "link": "https://lmdee.link/ebKExEZm6XHR",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -2069,16 +2093,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-5ea1d375de1de967ed7a",
-      "loja": "Sawary",
-      "tipo": "promocao",
-      "titulo": "Festival de Balloons",
+      "id": "lc-b1998a2e5e9028060809",
+      "loja": "Homedock",
+      "tipo": "cupom",
+      "titulo": "1ª Compra: R$ 50 OFF para pedidos acima de R$ 1.299,99",
       "imagem": "",
-      "link": "https://lmdee.link/xR5PUlevjkkp",
+      "link": "https://lmdee.link/sU7RFKphMZ7z",
       "preco": null,
       "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
+      "cupom": "NOVO50",
+      "validade": "2026-12-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2107,6 +2131,20 @@
       "preco_anterior": null,
       "cupom": "BF100",
       "validade": "2026-12-21T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-a604c9576b62ca3375a0",
+      "loja": "Homedock",
+      "tipo": "promocao",
+      "titulo": "Diversos cupons para você aproveitar",
+      "imagem": "",
+      "link": "https://lmdee.link/F85CmETgCKqV",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-12-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2153,20 +2191,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-890b72814ca708f2943c",
-      "loja": "Brinox",
-      "tipo": "cupom",
-      "titulo": "Cupom perfeito para você divulgar!",
-      "imagem": "",
-      "link": "https://lmdee.link/DZo5pwUvAGaK",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "RENOVACASA",
-      "validade": "2026-12-21T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-cb39d936dec613105b71",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -2183,11 +2207,11 @@
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 118,
-    "marcas": 131,
+    "com_ofertas": 120,
+    "marcas": 130,
     "campanhas": 120,
     "produtos": 60,
-    "links_solicitados": 7,
+    "links_solicitados": 8,
     "consulta_campanhas": "ok",
     "consulta_produtos": "ok"
   }
