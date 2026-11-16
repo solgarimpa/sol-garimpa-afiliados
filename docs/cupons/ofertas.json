@@ -1,42 +1,9 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-16T02:11:53.240660Z",
-  "total": 108,
+  "atualizado_em": "2026-11-16T03:17:52.768471Z",
+  "total": 105,
   "ofertas": [
-    {
-      "id": "4174137",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "6% OFF com o cupom RECEBA em produtos participantes da campanha",
-      "descricao": "6% OFF com o cupom RECEBA em produtos participantes da campanha",
-      "termos": ".",
-      "cupom": "RECEBA",
-      "validade": "2026-11-16T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1RECEBA"
-    },
-    {
-      "id": "4173759",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "R$ 100 OFF no Console PlayStation 5 Slim Digital SSD 825GB com 2 jogos",
-      "descricao": "R$ 100 OFF no Console PlayStation 5 Slim Digital SSD 825GB com 2 jogos",
-      "termos": ".",
-      "cupom": "MAGALUPS5",
-      "validade": "2026-11-16T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F939943%2Fconsole-playstation-5-slim-digital-ssd-825gb-4k-uhd-120hz-ray-tracing-controle-dualsense-e-2-jogos-bivolt-branco"
-    },
-    {
-      "id": "4165010",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "R$ 300 OFF na Smart TV LG NanoCell 50\" 4K UHD",
-      "descricao": "R$ 300 OFF na Smart TV LG NanoCell 50\" 4K UHD",
-      "termos": ".",
-      "cupom": "TV300",
-      "validade": "2026-11-16T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1074881%2Fsmart-tv-lg-nanocell-50-4k-uhd-led-com-hdr-e-inteligencia-artificial-50un85cbpsa-bwz"
-    },
     {
       "id": "4174150",
       "loja": "Kabum BR",

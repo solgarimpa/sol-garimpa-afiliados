@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-16T02:11:54.270459Z",
-  "total": 190,
-  "total_cupons": 133,
+  "atualizado_em": "2026-11-16T03:17:53.774461Z",
+  "total": 188,
+  "total_cupons": 131,
   "total_promocoes": 57,
   "fontes": {
-    "Awin": 108,
+    "Awin": 105,
     "Rakuten": 47,
-    "Lomadee": 35
+    "Lomadee": 36
   },
   "ofertas": [
     {
@@ -44,6 +44,18 @@
       "cupom": "LOMADEE",
       "validade": "2027-02-11T02:30:00Z",
       "link": "https://lmdee.link/vuU8UnjsKTuM",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "296a5945fd84c53ef9",
+      "loja": "BALAROTI",
+      "tipo": "cupom",
+      "titulo": "CLIENTEVIP10",
+      "descricao": "",
+      "termos": "",
+      "cupom": "CLIENTEVIP10",
+      "validade": "2026-12-01T02:30:00Z",
+      "link": "https://lmdee.link/daUtg6lAeKHR",
       "rede": "Lomadee"
     },
     {
@@ -143,6 +155,18 @@
       "rede": "Lomadee"
     },
     {
+      "id": "1e4b116008a1874259",
+      "loja": "Brinox",
+      "tipo": "cupom",
+      "titulo": "Cupom perfeito para você divulgar!",
+      "descricao": "",
+      "termos": "",
+      "cupom": "RENOVACASA",
+      "validade": "2026-12-21T02:30:00Z",
+      "link": "https://lmdee.link/DZo5pwUvAGaK",
+      "rede": "Lomadee"
+    },
+    {
       "id": "af19a5a02d0026f911",
       "loja": "Brinox",
       "tipo": "cupom",
@@ -176,6 +200,30 @@
       "cupom": "CHINALOMADEE25",
       "validade": null,
       "link": "https://lmdee.link/8VMMfdnFV58B",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "52cb23a7d3e8a575f6",
+      "loja": "China in Box",
+      "tipo": "cupom",
+      "titulo": "Cupom Frete Gratis",
+      "descricao": "",
+      "termos": "",
+      "cupom": "FRETELOMADEE",
+      "validade": "2027-01-01T02:59:59Z",
+      "link": "https://lmdee.link/69aTXVdd4fbx",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "a478c787b4a5fe84a6",
+      "loja": "Colorstone",
+      "tipo": "cupom",
+      "titulo": "20% OFF em todo site",
+      "descricao": "",
+      "termos": "",
+      "cupom": "LOMADEE",
+      "validade": "2027-01-01T02:30:00Z",
+      "link": "https://lmdee.link/OjpcW1hfWIo6",
       "rede": "Lomadee"
     },
     {
@@ -249,18 +297,6 @@
       "validade": "2028-01-01T02:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=129043&awinaffid=3110826&ued=https%3A%2F%2Fwww.dafiti.com.br%2F",
       "rede": "Awin"
-    },
-    {
-      "id": "ad591549bee61d346a",
-      "loja": "Drogasmil",
-      "tipo": "cupom",
-      "titulo": "Cupom de 10% de desconto",
-      "descricao": "",
-      "termos": "",
-      "cupom": "PRIMEIRA10",
-      "validade": "2026-11-16T02:30:00Z",
-      "link": "https://lmdee.link/O7u8y32qe1cX",
-      "rede": "Lomadee"
     },
     {
       "id": "1c2e91a8ab21a85834",
@@ -851,18 +887,6 @@
       "rede": "Awin"
     },
     {
-      "id": "76d8669e02b01b6b7d",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "6% OFF com o cupom RECEBA em produtos participantes da campanha",
-      "descricao": "6% OFF com o cupom RECEBA em produtos participantes da campanha",
-      "termos": ".",
-      "cupom": "RECEBA",
-      "validade": "2026-11-16T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1RECEBA",
-      "rede": "Awin"
-    },
-    {
       "id": "cddc5d774c9df25570",
       "loja": "Kabum BR",
       "tipo": "cupom",
@@ -920,18 +944,6 @@
       "cupom": "100IMPRESSORA",
       "validade": "2026-12-01T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F699106%2Fmultifuncional-tanque-de-tinta-brother-dcp-t530dw-bivolt",
-      "rede": "Awin"
-    },
-    {
-      "id": "7b340be7bb608458ad",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "R$ 100 OFF no Console PlayStation 5 Slim Digital SSD 825GB com 2 jogos",
-      "descricao": "R$ 100 OFF no Console PlayStation 5 Slim Digital SSD 825GB com 2 jogos",
-      "termos": ".",
-      "cupom": "MAGALUPS5",
-      "validade": "2026-11-16T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F939943%2Fconsole-playstation-5-slim-digital-ssd-825gb-4k-uhd-120hz-ray-tracing-controle-dualsense-e-2-jogos-bivolt-branco",
       "rede": "Awin"
     },
     {
@@ -1016,18 +1028,6 @@
       "cupom": "PEGALOGOGTA",
       "validade": "2026-11-16T15:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1051619%2Fjogo-grand-theft-auto-gta-vi-6-ps5-tt000272ps5",
-      "rede": "Awin"
-    },
-    {
-      "id": "ec5f4b0553f15f0493",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "R$ 300 OFF na Smart TV LG NanoCell 50\" 4K UHD",
-      "descricao": "R$ 300 OFF na Smart TV LG NanoCell 50\" 4K UHD",
-      "termos": ".",
-      "cupom": "TV300",
-      "validade": "2026-11-16T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1074881%2Fsmart-tv-lg-nanocell-50-4k-uhd-led-com-hdr-e-inteligencia-artificial-50un85cbpsa-bwz",
       "rede": "Awin"
     },
     {
@@ -1187,6 +1187,18 @@
       "rede": "Awin"
     },
     {
+      "id": "2ae26d1762bc0141cc",
+      "loja": "Kidy Calçados",
+      "tipo": "cupom",
+      "titulo": "CRIANCAKIDY",
+      "descricao": "",
+      "termos": "",
+      "cupom": "CRIANCAKIDY",
+      "validade": null,
+      "link": "https://lmdee.link/ffYOlSCTz6DW",
+      "rede": "Lomadee"
+    },
+    {
       "id": "90072377eff1fdf178",
       "loja": "Lauri Esporte",
       "tipo": "cupom",
@@ -1331,54 +1343,6 @@
       "rede": "Lomadee"
     },
     {
-      "id": "bd4ba91264dfca8099",
-      "loja": "Malwee",
-      "tipo": "cupom",
-      "titulo": "Black November - 3 PEÇAS POR R$ 99",
-      "descricao": "",
-      "termos": "",
-      "cupom": "3POR99",
-      "validade": "2026-11-16T02:30:00Z",
-      "link": "https://lmdee.link/kJ8Z6ntDOzlg",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "c92cf607c475a874a1",
-      "loja": "Malwee",
-      "tipo": "cupom",
-      "titulo": "Black November - Peças infantis até 30% OFF + 30% OFF Extra",
-      "descricao": "",
-      "termos": "",
-      "cupom": "30OFF",
-      "validade": "2026-11-16T02:30:00Z",
-      "link": "https://lmdee.link/mmSMVGrbiJcm",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "8978784825a74e4697",
-      "loja": "Malwee",
-      "tipo": "cupom",
-      "titulo": "CAMISETAS PIMA COM 40% OFF",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BFBASICO",
-      "validade": "2026-11-16T02:30:00Z",
-      "link": "https://lmdee.link/ZEChbLcypOt5",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "e411559e3607dea058",
-      "loja": "Malwee",
-      "tipo": "cupom",
-      "titulo": "Tecnologia NoLiquid e Flex com 40% OFF",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BFTECH",
-      "validade": "2026-11-16T02:30:00Z",
-      "link": "https://lmdee.link/q0TOjgKn3Lkq",
-      "rede": "Lomadee"
-    },
-    {
       "id": "06cd3907b05922f8c6",
       "loja": "Morena Rosa",
       "tipo": "cupom",
@@ -1388,6 +1352,18 @@
       "cupom": "SHOES10",
       "validade": "2026-12-01T02:59:59Z",
       "link": "https://lmdee.link/m0zR9Eohrlwb",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "1d28b29f5f8f78153f",
+      "loja": "Móveis Carraro",
+      "tipo": "cupom",
+      "titulo": "LANCAMENTOS10 - 10% OFF em Lançamentos",
+      "descricao": "",
+      "termos": "",
+      "cupom": "LANCAMENTOS10",
+      "validade": null,
+      "link": "https://lmdee.link/Zgad1XW8M6fK",
       "rede": "Lomadee"
     },
     {
@@ -2107,7 +2083,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-06-09T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1752486.818&type=3&subid=0",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1752486.819&type=3&subid=0",
       "rede": "Rakuten"
     },
     {
