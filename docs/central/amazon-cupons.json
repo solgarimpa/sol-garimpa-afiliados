@@ -1,9 +1,9 @@
 {
   "market": "amazon",
   "name": "Amazon",
-  "generatedAt": "2026-11-16T18:21:35+00:00",
+  "generatedAt": "2026-11-16T19:29:55+00:00",
   "refreshMinutes": 30,
-  "count": 34,
+  "count": 43,
   "sources": {
     "Cuponomia": {
       "ok": false,
@@ -12,7 +12,7 @@
     },
     "Meliuz": {
       "ok": true,
-      "quantidade": 30
+      "quantidade": 39
     },
     "WorkerExistente": {
       "ok": true,
@@ -30,7 +30,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-16T12:08:26.764Z",
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -42,7 +42,19 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-16T12:07:05.720Z",
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Alimentos e bebidas com 15% de desconto no app",
+      "couponCode": "PROMONOLINK",
+      "discountText": "15% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -54,7 +66,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -66,7 +78,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Brinquedos e jogos com 15% de desconto Amazon",
+      "couponCode": "CONFIRANOLINK",
+      "discountText": "15% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -78,7 +102,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom Amazon de 15% OFF em pet shop",
+      "couponCode": "GANHEAQUI",
+      "discountText": "15% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -90,7 +126,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom de desconto Amazon: 20% OFF em cama e banho",
+      "couponCode": "ATIVEAPROMO",
+      "discountText": "20% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -102,7 +150,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -114,7 +162,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Malas, mochilas e acessórios com 30% OFF no app",
+      "couponCode": "APROVEITEAQUI",
+      "discountText": "30% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -126,7 +186,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -138,7 +198,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -150,7 +210,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -162,7 +222,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -174,7 +234,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -186,7 +246,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -198,7 +258,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-16T17:36:26.033Z",
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -210,7 +270,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-16T13:48:36.018Z",
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -222,7 +282,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-16T03:23:40.899Z",
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -234,7 +294,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -246,7 +306,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Acessórios de tecnologia com 20% OFF no app Amazon",
+      "couponCode": "",
+      "discountText": "20% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -258,7 +330,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -270,7 +342,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Aproveite 10% OFF em eletrônicos e tecnologia com cupom Amazon",
+      "couponCode": "",
+      "discountText": "10% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -282,7 +366,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -294,7 +378,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -306,7 +390,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -318,7 +402,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -330,7 +414,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -342,7 +426,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -354,7 +438,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -366,7 +450,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -378,7 +462,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Eletroportáteis com 10% de desconto Amazon pelo app",
+      "couponCode": "",
+      "discountText": "10% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -390,7 +486,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -402,7 +498,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -414,7 +510,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Leve 2 bebidas alcoólicas e ganhe 20% OFF na Amazon",
+      "couponCode": "",
+      "discountText": "20% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     },
     {
@@ -426,7 +534,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-16T18:21:35+00:00",
+      "observedAt": "2026-11-16T19:29:55+00:00",
       "status": "listed"
     }
   ]
