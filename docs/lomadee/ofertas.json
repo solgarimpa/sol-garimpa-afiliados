@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-17T01:32:20+00:00",
+  "atualizado_em": "2026-11-17T03:05:11+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -847,20 +847,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-2638eb9c7cf4ce5ab26f",
-      "loja": "Iodice",
-      "tipo": "promocao",
-      "titulo": "BLACK NOVEMBER! Descontos progressivos 65%Off em 3 ou mais peças!",
-      "imagem": "",
-      "link": "https://lmdee.link/n0Jw1A47NbL0",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-17T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-6ad4e0b34b00deda15b0",
       "loja": "Kidy Calçados",
       "tipo": "promocao",
@@ -973,16 +959,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-16de715d256bda455961",
+      "id": "lc-4225c62925b4b3b33340",
       "loja": "Morena Rosa",
       "tipo": "promocao",
-      "titulo": "TODOS os JEANS com 30% OFF! peças à partir de r$ 258,93",
+      "titulo": "STUDIO com 15%Off nos Favoritos da Linha Festas",
       "imagem": "",
-      "link": "https://lmdee.link/mUKZNyr2oJ7Y",
+      "link": "https://lmdee.link/uiMxMqrxc5B6",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-17T02:59:59.000Z",
+      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1197,20 +1183,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-dc50f50c12f747166d7a",
-      "loja": "Zinco",
-      "tipo": "promocao",
-      "titulo": "BLACK NOVEMBER! Descontos progressivos 65%Off em 3 ou mais peças!",
-      "imagem": "",
-      "link": "https://lmdee.link/DLBg6Ux9co0l",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-17T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-3fdea243af09ef5e78f1",
       "loja": "Zupper",
       "tipo": "cupom",
@@ -1351,6 +1323,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-553797bfed878a6dcd2d",
+      "loja": "China in Box",
+      "tipo": "cupom",
+      "titulo": "Cupom Frete Gratis",
+      "imagem": "",
+      "link": "https://lmdee.link/69aTXVdd4fbx",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "FRETELOMADEE",
+      "validade": "2027-01-01T02:59:59.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-15de72c6afc4694268e6",
       "loja": "Coza",
       "tipo": "cupom",
@@ -1463,12 +1449,26 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-4225c62925b4b3b33340",
+      "id": "lc-a2d92c7756430d0e2dd4",
       "loja": "Morena Rosa",
-      "tipo": "promocao",
-      "titulo": "STUDIO com 15%Off nos Favoritos da Linha Festas",
+      "tipo": "cupom",
+      "titulo": "SHOES com 10% Off",
       "imagem": "",
-      "link": "https://lmdee.link/uiMxMqrxc5B6",
+      "link": "https://lmdee.link/m0zR9Eohrlwb",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "SHOES10",
+      "validade": "2026-12-01T02:59:59.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-88db0c926054a9af9da1",
+      "loja": "Mundo Vem",
+      "tipo": "promocao",
+      "titulo": "[CATEGORIA] Ramequins",
+      "imagem": "",
+      "link": "https://lmdee.link/7MISKfU0QDZI",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1715,20 +1715,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-c96937427952f74df6f0",
-      "loja": "Morena Rosa",
-      "tipo": "promocao",
-      "titulo": "50% Off nos FAVORITOS DA MODA PRAIS",
-      "imagem": "",
-      "link": "https://lmdee.link/2mP4yqgusFNE",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-17T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-f7de0ae70b64cfab6f59",
       "loja": "Sawary",
       "tipo": "promocao",
@@ -1883,16 +1869,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-a2d92c7756430d0e2dd4",
-      "loja": "Morena Rosa",
-      "tipo": "cupom",
-      "titulo": "SHOES com 10% Off",
+      "id": "lc-4bfe794e2b20b42f123c",
+      "loja": "Sawary",
+      "tipo": "promocao",
+      "titulo": "Temporada de Rodeio",
       "imagem": "",
-      "link": "https://lmdee.link/m0zR9Eohrlwb",
+      "link": "https://lmdee.link/xTfMf5WhGpiF",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "SHOES10",
-      "validade": "2026-12-01T02:59:59.000Z",
+      "cupom": null,
+      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1921,6 +1907,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-6a494c7ce1cb19c4802f",
+      "loja": "Bauducco",
+      "tipo": "promocao",
+      "titulo": "Fornada de Natal",
+      "imagem": "",
+      "link": "https://lmdee.link/aDV67SbpzSPG",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1967,20 +1967,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-070caa5022424d97d59c",
-      "loja": "Morena Rosa",
-      "tipo": "promocao",
-      "titulo": "BLACK NOVEMBER! Descontos progressivos 65%Off em 3 ou mais peças!",
-      "imagem": "",
-      "link": "https://lmdee.link/1GhM2jL1liA2",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-17T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-f5cc0a3186ba5aea97e8",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -2005,6 +1991,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-dacc943985f951031750",
+      "loja": "Bauducco",
+      "tipo": "promocao",
+      "titulo": "Cestas de Natal",
+      "imagem": "",
+      "link": "https://lmdee.link/5RDqxMpqPmEj",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
