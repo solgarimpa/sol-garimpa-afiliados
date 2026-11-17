@@ -1,6 +1,6 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-17T17:24:50.367345Z",
+  "atualizado_em": "2026-11-17T18:38:05.028952Z",
   "total": 391,
   "total_cupons": 141,
   "total_promocoes": 250,
@@ -548,18 +548,6 @@
       "cupom": "outubrorosa",
       "validade": null,
       "link": "https://lmdee.link/4w25yU4r7V5b",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "2064a07eb6fac20ab4",
-      "loja": "eles.®",
-      "tipo": "cupom",
-      "titulo": "Preblack",
-      "descricao": "",
-      "termos": "",
-      "cupom": "Preblack",
-      "validade": null,
-      "link": "https://lmdee.link/iIBsvCOgPe2m",
       "rede": "Lomadee"
     },
     {
@@ -1448,6 +1436,18 @@
       "cupom": "LOMADEE10",
       "validade": "2027-01-01T02:30:00Z",
       "link": "https://lmdee.link/lJLkInykeDxg",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "9e07ef1e6f5f1c98e4",
+      "loja": "Morena Rosa",
+      "tipo": "cupom",
+      "titulo": "10%OFF em NOVIDADES! Garanta seu look novo",
+      "descricao": "",
+      "termos": "",
+      "cupom": "GANHE10",
+      "validade": "2026-11-21T02:59:59Z",
+      "link": "https://lmdee.link/jQTKSCZ6JxE2",
       "rede": "Lomadee"
     },
     {
