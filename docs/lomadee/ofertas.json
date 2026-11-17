@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-17T19:22:45+00:00",
+  "atualizado_em": "2026-11-17T20:20:20+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -771,20 +771,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-d0629263e1d88c8e77e0",
-      "loja": "eles.®",
-      "tipo": "cupom",
-      "titulo": "Oferta Outubro Rosa elas. para emagrecimento 15% off",
-      "imagem": "",
-      "link": "https://lmdee.link/4w25yU4r7V5b",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "outubrorosa",
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-d6ad62c8806a5a04d9a3",
       "loja": "FATOR 5",
       "tipo": "promocao",
@@ -865,6 +851,20 @@
       "preco_anterior": null,
       "cupom": "BLACK500",
       "validade": "2026-12-01T02:59:59.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-1453849b3657301b422f",
+      "loja": "Iodice",
+      "tipo": "cupom",
+      "titulo": "NOVIDADES com 10%OFF",
+      "imagem": "",
+      "link": "https://lmdee.link/JA4DCvtVC7kt",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "GANHE10",
+      "validade": "2026-11-21T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -967,6 +967,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-5eeab1cb5353df39242f",
+      "loja": "Maria Valentina",
+      "tipo": "cupom",
+      "titulo": "NOVIDADES com 10%OFF",
+      "imagem": "",
+      "link": "https://lmdee.link/I461kKPTnfb0",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "GANHE10",
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-2d4c146a77a26bb8123c",
       "loja": "Mobly",
       "tipo": "promocao",
@@ -991,20 +1005,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-24T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-065dfa512d13ef003ea0",
-      "loja": "Mundo Vem",
-      "tipo": "promocao",
-      "titulo": "[CATEGORIA] Copos",
-      "imagem": "",
-      "link": "https://lmdee.link/aeis6lFbJiH9",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1205,16 +1205,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-3fdea243af09ef5e78f1",
-      "loja": "Zupper",
-      "tipo": "cupom",
-      "titulo": "Cupom de R$ 25,00 de desconto (uso ilimitado)",
+      "id": "lc-cec4047be3b2ace2e70b",
+      "loja": "Zinco",
+      "tipo": "promocao",
+      "titulo": "BLACK WEEK TUDO com 65%Off, Aproveite!",
       "imagem": "",
-      "link": "https://lmdee.link/geL8GLQ5Mgns",
+      "link": "https://lmdee.link/5MmC1YDdxTop",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "ZUPPLOM25",
-      "validade": "2027-01-01T02:30:00.000Z",
+      "cupom": null,
+      "validade": "2026-11-24T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1359,20 +1359,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-9c1c5c847b6d9a5aeb08",
-      "loja": "eles.®",
-      "tipo": "promocao",
-      "titulo": "Outubro Rosa elas.",
-      "imagem": "https://cdn.lomadee.com.br/offer/27cc1c2b-f455-4961-a476-13072d01e502/banners/Imagem%20do%20ChatGPT%209%20de%20out.%20de%202026%2C%2017_22_23.png",
-      "link": "https://lmdee.link/IQDiC3iOZkT3",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-cd826e2da5b5edf27037",
       "loja": "Ferramentas Kennedy",
       "tipo": "promocao",
@@ -1397,6 +1383,20 @@
       "preco_anterior": null,
       "cupom": "BLACK350",
       "validade": "2026-12-01T02:59:59.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-59efe594c9c9edfe58b1",
+      "loja": "Iodice",
+      "tipo": "promocao",
+      "titulo": "BLACK WEEK com 65%Off!",
+      "imagem": "",
+      "link": "https://lmdee.link/qphcCcKa4lOn",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-24T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1453,6 +1453,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-23T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-3dc4756bfcb6bb9ecbab",
+      "loja": "Maria Valentina",
+      "tipo": "promocao",
+      "titulo": "BLACK WEEK! TUDO com 65%Off!",
+      "imagem": "",
+      "link": "https://lmdee.link/JNIXxcFjsyd2",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-24T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1597,16 +1611,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-5f147fca1f2f59c516a2",
-      "loja": "Zupper",
+      "id": "lc-59af8f825f233b950f9d",
+      "loja": "Zinco",
       "tipo": "cupom",
-      "titulo": "Cupom de R$ 25,00 de desconto (apenas para primeira compra 1 por CPF)",
+      "titulo": "NOVIDADES com 10%OFF",
       "imagem": "",
-      "link": "https://lmdee.link/goTvpMKdOivt",
+      "link": "https://lmdee.link/56W2JjT7luml",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "ZUPPLOM40",
-      "validade": "2027-01-01T02:30:00.000Z",
+      "cupom": "GANHE10",
+      "validade": "2026-11-21T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2195,20 +2209,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-cb39d936dec613105b71",
-      "loja": "Soulier",
-      "tipo": "promocao",
-      "titulo": "Até 25% na coleção de primavera verão",
-      "imagem": "https://cdn.lomadee.com.br/offer/b0ddcd45-be1d-44d3-998d-5111c589bddd/banners/120x600%20%281%29.jpg",
-      "link": "https://lmdee.link/vIXrh5IyxHHQ",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-12-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     }
