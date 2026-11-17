@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-17T13:30:37+00:00",
+  "atualizado_em": "2026-11-17T15:09:49+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -343,6 +343,10 @@
       "loja": "BabyStock"
     },
     {
+      "id": "c0293dde-7d4a-413a-a689-50e4f2283ec0",
+      "loja": "CREDITAS"
+    },
+    {
       "id": "ac21d19c-3590-4a86-a9df-16bf6151e570",
       "loja": "Noble Nature"
     },
@@ -353,10 +357,6 @@
     {
       "id": "b89e4834-6f7c-4ac8-9972-5d579488432c",
       "loja": "DeÔnibus"
-    },
-    {
-      "id": "c43edf8e-c151-474a-83e8-d52ec3e13a24",
-      "loja": "FOM"
     },
     {
       "id": "b9964938-0c46-4b54-8069-2176b382a260",
@@ -455,6 +455,10 @@
       "loja": "MiniPreço"
     },
     {
+      "id": "c43edf8e-c151-474a-83e8-d52ec3e13a24",
+      "loja": "FOM"
+    },
+    {
       "id": "db8f0553-4f5d-4f94-8b40-dbe6f0cbecbc",
       "loja": "Laluna"
     },
@@ -465,10 +469,6 @@
     {
       "id": "cda2b486-0ba6-4be9-8944-5d5096735e03",
       "loja": "Buddha SPA"
-    },
-    {
-      "id": "e2c06410-a5e3-47c1-bcb2-d5f65f355c4f",
-      "loja": "Relax Saboaria"
     },
     {
       "id": "c7fda3cb-c9e5-4a06-822d-5d687cc56802",
@@ -513,6 +513,10 @@
     {
       "id": "e556ed73-0e02-421e-9393-860b040bfbb7",
       "loja": "Prime Video"
+    },
+    {
+      "id": "e2c06410-a5e3-47c1-bcb2-d5f65f355c4f",
+      "loja": "Relax Saboaria"
     },
     {
       "id": "f901efab-f85c-4546-bacc-375795b8c52d",
@@ -819,6 +823,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-f4ba2ad05ca6d0c84845",
+      "loja": "Friopeças",
+      "tipo": "promocao",
+      "titulo": "Esquenta Black Friday Compre com até 58% off",
+      "imagem": "https://cdn.lomadee.com.br/offer/50ea3069-a647-4d35-9d81-e4b5b5b3213e/banners/Banner%20Friope%C3%A7as.png",
+      "link": "https://lmdee.link/PGaFKa3osalX",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-23T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-fd64c189b94803f4d319",
       "loja": "Gazin",
       "tipo": "promocao",
@@ -1001,16 +1019,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-37569ff75eff64af34a4",
+      "id": "lc-a6bcd8061c56f83a7c14",
       "loja": "PCYES",
-      "tipo": "cupom",
-      "titulo": "10% off na sua primeira compra",
-      "imagem": "",
-      "link": "https://lmdee.link/jk2E9pzFLxY1",
+      "tipo": "promocao",
+      "titulo": "Esquenta Black PCYES Produtos com até 50% off",
+      "imagem": "https://cdn.lomadee.com.br/offer/d9e13747-d19a-4646-9698-8cd6787af1d7/banners/imagem%20-%202026-11-17T104919.319.png",
+      "link": "https://lmdee.link/zuh49VTEuquH",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "BEMVINDO10",
-      "validade": null,
+      "cupom": null,
+      "validade": "2026-12-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1099,16 +1117,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-7b713b423c8b0c17d5d0",
+      "id": "lc-842860296c8af419ff90",
       "loja": "Soulier",
       "tipo": "promocao",
-      "titulo": "https://www.soulier.com.br/611?map=productClusterIds&order=",
-      "imagem": "https://cdn.lomadee.com.br/offer/5e63481d-a8f4-44c7-bce0-d3b703a388bc/banners/160x600.jpg",
-      "link": "https://lmdee.link/YRGi3c5LCC8Y",
+      "titulo": "Esquenta Black Friday !! 15% em 1 peça e 20% em 2 ou mais peças",
+      "imagem": "https://cdn.lomadee.com.br/offer/68f6231f-d613-4cbc-aae2-f846488fdd34/banners/Banner%20%2824%29.png",
+      "link": "https://lmdee.link/X4RokVxxkdrB",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-30T03:30:00.000Z",
+      "validade": "2026-11-23T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1155,12 +1173,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-d57fbb88806ac4c48197",
+      "id": "lc-5f600ce2e5aec9bd4c1b",
       "loja": "Vapza Alimentos",
       "tipo": "promocao",
-      "titulo": "Black November Vapza até 50% OFF",
-      "imagem": "https://cdn.lomadee.com.br/offer/d6cd9b85-343b-4f95-b863-bce2bf6497c6/banners/00047_16298_KV%20BLACK%20FRIDAY_00047_16298_KV%20BLACK%20FRIDAY_B_1920x600px.png",
-      "link": "https://lmdee.link/olahvcKQ0sRR",
+      "titulo": "Lançamento com desconto de Black!",
+      "imagem": "",
+      "link": "https://lmdee.link/HuZtyMBJhgzg",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1323,20 +1341,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-553797bfed878a6dcd2d",
-      "loja": "China in Box",
-      "tipo": "cupom",
-      "titulo": "Cupom Frete Gratis",
-      "imagem": "",
-      "link": "https://lmdee.link/69aTXVdd4fbx",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "FRETELOMADEE",
-      "validade": "2027-01-01T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-15de72c6afc4694268e6",
       "loja": "Coza",
       "tipo": "cupom",
@@ -1463,20 +1467,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-88db0c926054a9af9da1",
-      "loja": "Mundo Vem",
-      "tipo": "promocao",
-      "titulo": "[CATEGORIA] Ramequins",
-      "imagem": "",
-      "link": "https://lmdee.link/7MISKfU0QDZI",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-b4493757ddb1df79a53e",
       "loja": "Móveis Carraro",
       "tipo": "promocao",
@@ -1487,6 +1477,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-37569ff75eff64af34a4",
+      "loja": "PCYES",
+      "tipo": "cupom",
+      "titulo": "10% off na sua primeira compra",
+      "imagem": "",
+      "link": "https://lmdee.link/jk2E9pzFLxY1",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "BEMVINDO10",
+      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1533,16 +1537,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-f898c9f359ac68ccf121",
+      "id": "lc-7b713b423c8b0c17d5d0",
       "loja": "Soulier",
-      "tipo": "cupom",
-      "titulo": "12% de desconto não cumulativo com outras promoções",
-      "imagem": "",
-      "link": "https://lmdee.link/Sw3sUzNLNSN9",
+      "tipo": "promocao",
+      "titulo": "Ofertas Soulier",
+      "imagem": "https://cdn.lomadee.com.br/offer/5e63481d-a8f4-44c7-bce0-d3b703a388bc/banners/160x600.jpg",
+      "link": "https://lmdee.link/YRGi3c5LCC8Y",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "LOMADEE12",
-      "validade": "2027-01-01T02:30:00.000Z",
+      "cupom": null,
+      "validade": "2026-11-30T03:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1571,6 +1575,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-28T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-d57fbb88806ac4c48197",
+      "loja": "Vapza Alimentos",
+      "tipo": "promocao",
+      "titulo": "Black November Vapza até 50% OFF",
+      "imagem": "https://cdn.lomadee.com.br/offer/d6cd9b85-343b-4f95-b863-bce2bf6497c6/banners/00047_16298_KV%20BLACK%20FRIDAY_00047_16298_KV%20BLACK%20FRIDAY_B_1920x600px.png",
+      "link": "https://lmdee.link/olahvcKQ0sRR",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-23T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1729,16 +1747,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-27d5c5b79cfc5ebdfd40",
+      "id": "lc-f898c9f359ac68ccf121",
       "loja": "Soulier",
-      "tipo": "promocao",
-      "titulo": "Tudo com 50%",
-      "imagem": "https://cdn.lomadee.com.br/offer/d0e3e535-14b3-4880-ac49-c128f19b8cbe/banners/120x600.jpg",
-      "link": "https://lmdee.link/xv7KGGfv92I0",
+      "tipo": "cupom",
+      "titulo": "12% de desconto não cumulativo com outras promoções",
+      "imagem": "",
+      "link": "https://lmdee.link/Sw3sUzNLNSN9",
       "preco": null,
       "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
+      "cupom": "LOMADEE12",
+      "validade": "2027-01-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1869,26 +1887,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-4bfe794e2b20b42f123c",
-      "loja": "Sawary",
-      "tipo": "promocao",
-      "titulo": "Temporada de Rodeio",
-      "imagem": "",
-      "link": "https://lmdee.link/xTfMf5WhGpiF",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-e29a4122b2c485e0aa07",
+      "id": "lc-27d5c5b79cfc5ebdfd40",
       "loja": "Soulier",
       "tipo": "promocao",
-      "titulo": "Tênis a partir de 119,90",
-      "imagem": "https://cdn.lomadee.com.br/offer/c329356b-aad6-4668-b2c7-8131dc0c8ff4/banners/120x600.jpg",
-      "link": "https://lmdee.link/9A2oBjQWU38U",
+      "titulo": "Tudo com 50%",
+      "imagem": "https://cdn.lomadee.com.br/offer/d0e3e535-14b3-4880-ac49-c128f19b8cbe/banners/120x600.jpg",
+      "link": "https://lmdee.link/xv7KGGfv92I0",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1967,12 +1971,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-f5cc0a3186ba5aea97e8",
+      "id": "lc-e29a4122b2c485e0aa07",
       "loja": "Soulier",
       "tipo": "promocao",
-      "titulo": "Sapatilha a partir de 139,90",
-      "imagem": "https://cdn.lomadee.com.br/offer/58d99912-de53-49dd-bc65-8835aa1dbbb7/banners/120x600.jpg",
-      "link": "https://lmdee.link/5c5sadrVWbLg",
+      "titulo": "Tênis a partir de 119,90",
+      "imagem": "https://cdn.lomadee.com.br/offer/c329356b-aad6-4668-b2c7-8131dc0c8ff4/banners/120x600.jpg",
+      "link": "https://lmdee.link/9A2oBjQWU38U",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1991,20 +1995,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-dacc943985f951031750",
-      "loja": "Bauducco",
-      "tipo": "promocao",
-      "titulo": "Cestas de Natal",
-      "imagem": "",
-      "link": "https://lmdee.link/5RDqxMpqPmEj",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2051,12 +2041,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-2fbebfaa5d37fe66de12",
+      "id": "lc-f5cc0a3186ba5aea97e8",
       "loja": "Soulier",
       "tipo": "promocao",
-      "titulo": "Saltos a partir de 99,90",
-      "imagem": "https://cdn.lomadee.com.br/offer/3ac58795-d412-4c9c-a630-e8c58954c5cd/banners/120x600.jpg",
-      "link": "https://lmdee.link/KCmG9fWZUn33",
+      "titulo": "Sapatilha a partir de 139,90",
+      "imagem": "https://cdn.lomadee.com.br/offer/58d99912-de53-49dd-bc65-8835aa1dbbb7/banners/120x600.jpg",
+      "link": "https://lmdee.link/5c5sadrVWbLg",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -2107,12 +2097,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-eea52423735c4368f992",
+      "id": "lc-2fbebfaa5d37fe66de12",
       "loja": "Soulier",
       "tipo": "promocao",
-      "titulo": "rasteiras a partir de 99,90",
-      "imagem": "https://cdn.lomadee.com.br/offer/11566f63-f771-41bc-9e2e-6baea94aac10/banners/120x600.jpg",
-      "link": "https://lmdee.link/AoaSV1wrR3AD",
+      "titulo": "Saltos a partir de 99,90",
+      "imagem": "https://cdn.lomadee.com.br/offer/3ac58795-d412-4c9c-a630-e8c58954c5cd/banners/120x600.jpg",
+      "link": "https://lmdee.link/KCmG9fWZUn33",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -2149,12 +2139,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-0558efff842b122b0e7f",
+      "id": "lc-eea52423735c4368f992",
       "loja": "Soulier",
       "tipo": "promocao",
-      "titulo": "Botas com até 50% off",
-      "imagem": "https://cdn.lomadee.com.br/offer/a49980b8-df80-481c-9ea7-86f83398ac6b/banners/120x600.jpg",
-      "link": "https://lmdee.link/kkXFkBPacpTh",
+      "titulo": "rasteiras a partir de 99,90",
+      "imagem": "https://cdn.lomadee.com.br/offer/11566f63-f771-41bc-9e2e-6baea94aac10/banners/120x600.jpg",
+      "link": "https://lmdee.link/AoaSV1wrR3AD",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -2173,6 +2163,20 @@
       "preco_anterior": null,
       "cupom": "BF50",
       "validade": "2026-12-21T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-0558efff842b122b0e7f",
+      "loja": "Soulier",
+      "tipo": "promocao",
+      "titulo": "Botas com até 50% off",
+      "imagem": "https://cdn.lomadee.com.br/offer/a49980b8-df80-481c-9ea7-86f83398ac6b/banners/120x600.jpg",
+      "link": "https://lmdee.link/kkXFkBPacpTh",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2208,10 +2212,10 @@
   "status": {
     "integracao": "api_oficial",
     "com_ofertas": 120,
-    "marcas": 130,
+    "marcas": 131,
     "campanhas": 120,
     "produtos": 60,
-    "links_solicitados": 10,
+    "links_solicitados": 12,
     "consulta_campanhas": "ok",
     "consulta_produtos": "ok"
   }
