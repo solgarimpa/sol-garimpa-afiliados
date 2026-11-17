@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-17T15:09:49+00:00",
+  "atualizado_em": "2026-11-17T16:14:28+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -255,6 +255,10 @@
       "loja": "Komo Wellness"
     },
     {
+      "id": "7fc90997-0db2-46e2-8a73-882d1cf5affc",
+      "loja": "Clovis Calçados"
+    },
+    {
       "id": "9c5602b5-365f-4a43-b7d6-fb69643e55b0",
       "loja": "iRobot"
     },
@@ -311,10 +315,6 @@
       "loja": "BALAROTI"
     },
     {
-      "id": "a4ea6ed5-0ffd-4ee7-b0eb-f6073dc4fc12",
-      "loja": "Sieno Perfumes"
-    },
-    {
       "id": "9b4047d8-7011-4264-8144-d43fd0fb1f77",
       "loja": "LITTLE DUCK"
     },
@@ -333,10 +333,6 @@
     {
       "id": "bb109aaa-cf69-45ba-8d0f-c3feb6fe8997",
       "loja": "Gazin"
-    },
-    {
-      "id": "c364d4e3-56e2-4da9-a6ea-195716da559a",
-      "loja": "Malwee"
     },
     {
       "id": "b08af64e-f7bd-434c-b0ac-6baec265f9fc",
@@ -395,6 +391,10 @@
       "loja": "POMANDER"
     },
     {
+      "id": "a4ea6ed5-0ffd-4ee7-b0eb-f6073dc4fc12",
+      "loja": "Sieno Perfumes"
+    },
+    {
       "id": "a563f102-2bf3-4101-8f9c-ff54bef37932",
       "loja": "Beep Saúde"
     },
@@ -431,16 +431,16 @@
       "loja": "Toymania"
     },
     {
+      "id": "c364d4e3-56e2-4da9-a6ea-195716da559a",
+      "loja": "Malwee"
+    },
+    {
       "id": "d855f505-7e26-4961-a182-c2139aeadd2c",
       "loja": "Drogasmil"
     },
     {
       "id": "df3a5d1f-150c-4ce8-9b98-cf85dad06b6d",
       "loja": "Honor"
-    },
-    {
-      "id": "e1d43df5-8c98-4f7a-9f75-e507ecbd649c",
-      "loja": "Xiaomi Brasil"
     },
     {
       "id": "e198615b-4c17-4180-b06f-43376f162714",
@@ -493,6 +493,10 @@
     {
       "id": "f31e32be-c116-4739-85a3-43f85681b237",
       "loja": "Móveis Carraro"
+    },
+    {
+      "id": "e1d43df5-8c98-4f7a-9f75-e507ecbd649c",
+      "loja": "Xiaomi Brasil"
     },
     {
       "id": "ecd9089c-0147-41aa-b974-bdfbf220a3d4",
@@ -2212,7 +2216,7 @@
   "status": {
     "integracao": "api_oficial",
     "com_ofertas": 120,
-    "marcas": 131,
+    "marcas": 132,
     "campanhas": 120,
     "produtos": 60,
     "links_solicitados": 12,
