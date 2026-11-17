@@ -1,7 +1,7 @@
 {
   "market": "mercado-livre",
   "name": "Mercado Livre",
-  "generatedAt": "2026-11-17T12:56:05+00:00",
+  "generatedAt": "2026-11-17T14:13:03+00:00",
   "refreshMinutes": 30,
   "count": 45,
   "sources": {
@@ -25,36 +25,36 @@
       "title": "Cupom Mercado Livre - 20% OFF acima de R$79 limitado à R$80",
       "couponCode": "MEUDESCONTOOBRA",
       "discountText": "20% OFF",
-      "description": "﻿🚨 Fiquem atentos: A maioria dos cupons do Mercado Livre agora se aplica apenas a itens selecionados, mas as vezes pega em muita coisa tbm, testem",
+      "description": "Itens selecionados de construção e indústria com 20% de desconto a partir de R$79, limitado a R$80",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": "2026-11-17T12:03:44.535Z",
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
       "title": "Cupom Mercado Livre - 18% OFF acima de R$99 limitado à R$60",
       "couponCode": "MLOFERTAS",
       "discountText": "18% OFF",
-      "description": "﻿🚨 Fiquem atentos: A maioria dos cupons do Mercado Livre agora se aplica apenas a itens selecionados, mas as vezes pega em muita coisa tbm, testem",
+      "description": "18% OFF em autopeças selecionadas nas compras a partir de R$99, com desconto máximo de R$60",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": "2026-11-17T12:02:58.312Z",
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
       "title": "Cupom Mercado Livre - 10% OFF acima de R$99 limitado à R$30 SAUDE",
       "couponCode": "MLSAUDE",
       "discountText": "10% OFF",
-      "description": "﻿🚨 Fiquem atentos: A maioria dos cupons do Mercado Livre agora se aplica apenas a itens selecionados, mas as vezes pega em muita coisa tbm, testem",
+      "description": "Produtos selecionados de saúde com 10% de economia em pedidos a partir de R$99, limitado a R$30",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": "2026-11-17T12:02:01.580Z",
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -66,7 +66,7 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-17T12:00:47.775Z",
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -78,19 +78,19 @@
       "sourceUrl": "",
       "publishedAt": "2026-11-17T12:00:04.022Z",
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
       "title": "Cupom Mercado Livre 20% OFF acima de R$ 79 (limitado a R$ 80 OFF) em Casa",
       "couponCode": "CARRINHONOML",
       "discountText": "20% OFF",
-      "description": "Cupom Mercado Livre 20% OFF acima de R$ 79 (limitado a R$ 80 OFF) em Casa",
+      "description": "Casa e decoração com 20% OFF em produtos selecionados, compras a partir de R$79 e desconto máximo de R$80",
       "sources": [],
       "sourceUrl": "",
       "publishedAt": "2026-11-17T12:00:00.000Z",
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -102,7 +102,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -114,7 +114,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -126,19 +126,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Deixe a casa nova com 18% OFF",
-      "couponCode": "CUPOMPRAVC",
-      "discountText": "18% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -150,7 +138,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -162,7 +150,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -174,7 +162,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -186,7 +174,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -198,7 +186,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -210,19 +198,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Acessórios automotivos com 15% de abatimento",
-      "couponCode": "",
-      "discountText": "15% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -234,7 +210,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -246,19 +222,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Black Friday Mercado Livre com até 70% OFF",
-      "couponCode": "",
-      "discountText": "70% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -270,7 +234,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom de desconto Mercado Livre com 10% de economia",
+      "couponCode": "",
+      "discountText": "10% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -282,7 +258,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -294,7 +270,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom Mercado Livre com 10% OFF para usar em todo o site",
+      "couponCode": "",
+      "discountText": "10% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -306,7 +294,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -318,7 +306,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom Mercado Livre de 18% em autopeças e acessórios",
+      "couponCode": "",
+      "discountText": "18% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -330,7 +330,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -342,11 +342,23 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
-      "title": "Cupom Mercado Livre válido com 10% de desconto",
+      "title": "Decoração e utilidades para casa com 20% de desconto",
+      "couponCode": "",
+      "discountText": "20% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-17T14:13:03+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Desconto Mercado Livre de 10% em saúde e bem-estar",
       "couponCode": "",
       "discountText": "10% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
@@ -354,7 +366,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -366,19 +378,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Economize 15% em ferramentas e materiais",
-      "couponCode": "",
-      "discountText": "15% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -390,7 +390,19 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Ferramentas e materiais de construção com 20% OFF",
+      "couponCode": "",
+      "discountText": "20% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -402,7 +414,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -414,7 +426,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -426,19 +438,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Itens de saúde escolhidos com 10% OFF",
-      "couponCode": "",
-      "discountText": "10% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -450,7 +450,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -462,7 +462,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -474,7 +474,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -486,7 +486,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -498,7 +498,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -510,7 +510,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -522,7 +522,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -534,7 +534,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -546,7 +546,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     },
     {
@@ -558,7 +558,7 @@
       "sourceUrl": "",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-17T12:56:05+00:00",
+      "observedAt": "2026-11-17T14:13:03+00:00",
       "status": "listed"
     }
   ]
