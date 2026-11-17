@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-17T12:04:22+00:00",
+  "atualizado_em": "2026-11-17T13:30:37+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -203,6 +203,10 @@
       "loja": "NutriBullet"
     },
     {
+      "id": "392fe765-2ba9-47b5-8b41-d2540d6c24b2",
+      "loja": "Anhanguera Ferramentas"
+    },
+    {
       "id": "4df457ad-c0ca-469d-8608-7bb9620392fa",
       "loja": "Angeloni"
     },
@@ -217,10 +221,6 @@
     {
       "id": "4a2f41d4-099d-4c8d-a003-5a37bef52ac8",
       "loja": "Hipervarejo"
-    },
-    {
-      "id": "392fe765-2ba9-47b5-8b41-d2540d6c24b2",
-      "loja": "Anhanguera Ferramentas"
     },
     {
       "id": "50576b61-e281-4518-b03f-ddbe75c5bc68",
