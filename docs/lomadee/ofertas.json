@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-17T16:14:28+00:00",
+  "atualizado_em": "2026-11-17T17:20:46+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -617,12 +617,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-a9f464d58e9ba797130c",
+      "id": "lc-2ac1dc93af34e2a9f382",
       "loja": "Bauducco",
       "tipo": "promocao",
-      "titulo": "Frete grátis para SP a partir de R$ 399",
-      "imagem": "https://cdn.lomadee.com.br/offer/2baba01c-c52e-4925-81d8-32e6fcd69d33/banners/Afiliados-20261116T134354Z-1-001.zip",
-      "link": "https://lmdee.link/LjVDQPqL64sr",
+      "titulo": "Produtos Bauducco",
+      "imagem": "https://cdn.lomadee.com.br/offer/c22f1940-5fd6-4530-8c31-46528dd632d1/banners/320x50.png",
+      "link": "https://lmdee.link/hLG7QEfVXiJ5",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1275,16 +1275,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-2ac1dc93af34e2a9f382",
+      "id": "lc-5cc40d288c339324324c",
       "loja": "Bauducco",
       "tipo": "promocao",
-      "titulo": "Produtos Bauducco",
-      "imagem": "https://cdn.lomadee.com.br/offer/c22f1940-5fd6-4530-8c31-46528dd632d1/banners/320x50.png",
-      "link": "https://lmdee.link/hLG7QEfVXiJ5",
+      "titulo": "Fome de Black: 15% OFF em produtos selecionados",
+      "imagem": "",
+      "link": "https://lmdee.link/tY8WWCWABWIv",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": null,
+      "validade": "2026-11-27T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1625,16 +1625,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-5cc40d288c339324324c",
+      "id": "lc-80b667df035303e15643",
       "loja": "Bauducco",
-      "tipo": "promocao",
-      "titulo": "Fome de Black: 15% OFF em produtos selecionados",
+      "tipo": "cupom",
+      "titulo": "Cupom de 10% de desconto na primeira compra",
       "imagem": "",
-      "link": "https://lmdee.link/tY8WWCWABWIv",
+      "link": "https://lmdee.link/MmnMtSRGuiYC",
       "preco": null,
       "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-27T02:30:00.000Z",
+      "cupom": "REDELOMADEE",
+      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1807,15 +1807,15 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-80b667df035303e15643",
+      "id": "lc-6a494c7ce1cb19c4802f",
       "loja": "Bauducco",
-      "tipo": "cupom",
-      "titulo": "Cupom de 10% de desconto na primeira compra",
+      "tipo": "promocao",
+      "titulo": "Fornada de Natal",
       "imagem": "",
-      "link": "https://lmdee.link/MmnMtSRGuiYC",
+      "link": "https://lmdee.link/aDV67SbpzSPG",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "REDELOMADEE",
+      "cupom": null,
       "validade": null,
       "descricao": "",
       "origem": "Lomadee"
@@ -1919,12 +1919,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-6a494c7ce1cb19c4802f",
+      "id": "lc-dacc943985f951031750",
       "loja": "Bauducco",
       "tipo": "promocao",
-      "titulo": "Fornada de Natal",
+      "titulo": "Cestas de Natal",
       "imagem": "",
-      "link": "https://lmdee.link/aDV67SbpzSPG",
+      "link": "https://lmdee.link/5RDqxMpqPmEj",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
