@@ -1,31 +1,9 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-17T19:49:24.707460Z",
-  "total": 383,
+  "atualizado_em": "2026-11-17T21:09:32.826595Z",
+  "total": 381,
   "ofertas": [
-    {
-      "id": "4174142",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "R$ 100 OFF na compra do Tablet Samsung Galaxy Tab A11 128GB 6GB RAM Tela 11\"",
-      "descricao": "R$ 100 OFF na compra do Tablet Samsung Galaxy Tab A11 128GB 6GB RAM Tela 11\"",
-      "termos": ".",
-      "cupom": "MAGA100",
-      "validade": "2026-11-17T20:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F994395%2Ftablet-samsung-galaxy-tab-a11-128gb-6gb-ram-tela-de-11-camera-traseira-8mp-wifi-android-16"
-    },
-    {
-      "id": "4174138",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "10% OFF com o cupom MAGALU10 em produtos participantes da campanha",
-      "descricao": "10% OFF com o cupom MAGALU10 em produtos participantes da campanha",
-      "termos": ".",
-      "cupom": "MAGALU10",
-      "validade": "2026-11-17T20:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP3MAGALU10"
-    },
     {
       "id": "4178368",
       "loja": "Kabum BR",

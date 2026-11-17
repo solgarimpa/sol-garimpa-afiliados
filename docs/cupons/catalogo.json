@@ -1,11 +1,11 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-17T19:49:27.759819Z",
-  "total": 396,
-  "total_cupons": 146,
+  "atualizado_em": "2026-11-17T21:09:35.288489Z",
+  "total": 394,
+  "total_cupons": 144,
   "total_promocoes": 250,
   "fontes": {
-    "Awin": 383,
+    "Awin": 381,
     "Rakuten": 48,
     "Lomadee": 37
   },
@@ -539,18 +539,6 @@
       "rede": "Awin"
     },
     {
-      "id": "dcbdc6ebff60c6e1f7",
-      "loja": "eles.®",
-      "tipo": "cupom",
-      "titulo": "Oferta Outubro Rosa elas. para emagrecimento 15% off",
-      "descricao": "",
-      "termos": "",
-      "cupom": "outubrorosa",
-      "validade": null,
-      "link": "https://lmdee.link/4w25yU4r7V5b",
-      "rede": "Lomadee"
-    },
-    {
       "id": "cdeff649f429655f3f",
       "loja": "Eurorelogios BR",
       "tipo": "cupom",
@@ -803,6 +791,18 @@
       "rede": "Rakuten"
     },
     {
+      "id": "bd91dcef556e4fcfee",
+      "loja": "Iodice",
+      "tipo": "cupom",
+      "titulo": "NOVIDADES com 10%OFF",
+      "descricao": "",
+      "termos": "",
+      "cupom": "GANHE10",
+      "validade": "2026-11-21T02:59:59Z",
+      "link": "https://lmdee.link/JA4DCvtVC7kt",
+      "rede": "Lomadee"
+    },
+    {
       "id": "62ef94595b8213c9ad",
       "loja": "Kabum BR",
       "tipo": "cupom",
@@ -812,18 +812,6 @@
       "cupom": "PLAYNINJA10",
       "validade": "2027-09-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1CAPCOM10",
-      "rede": "Awin"
-    },
-    {
-      "id": "3103920f65a11e78c9",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "10% OFF com o cupom MAGALU10 em produtos participantes da campanha",
-      "descricao": "10% OFF com o cupom MAGALU10 em produtos participantes da campanha",
-      "termos": ".",
-      "cupom": "MAGALU10",
-      "validade": "2026-11-17T20:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP3MAGALU10",
       "rede": "Awin"
     },
     {
@@ -1064,18 +1052,6 @@
       "cupom": "CEMCHORO",
       "validade": "2026-11-19T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCEMCHORO",
-      "rede": "Awin"
-    },
-    {
-      "id": "3d1d885ab54f2311bd",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "R$ 100 OFF na compra do Tablet Samsung Galaxy Tab A11 128GB 6GB RAM Tela 11\"",
-      "descricao": "R$ 100 OFF na compra do Tablet Samsung Galaxy Tab A11 128GB 6GB RAM Tela 11\"",
-      "termos": ".",
-      "cupom": "MAGA100",
-      "validade": "2026-11-17T20:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F994395%2Ftablet-samsung-galaxy-tab-a11-128gb-6gb-ram-tela-de-11-camera-traseira-8mp-wifi-android-16",
       "rede": "Awin"
     },
     {
@@ -1487,6 +1463,18 @@
       "rede": "Lomadee"
     },
     {
+      "id": "a1f0d2c6c32dc99711",
+      "loja": "Maria Valentina",
+      "tipo": "cupom",
+      "titulo": "NOVIDADES com 10%OFF",
+      "descricao": "",
+      "termos": "",
+      "cupom": "GANHE10",
+      "validade": null,
+      "link": "https://lmdee.link/I461kKPTnfb0",
+      "rede": "Lomadee"
+    },
+    {
       "id": "9e07ef1e6f5f1c98e4",
       "loja": "Morena Rosa",
       "tipo": "cupom",
@@ -1727,27 +1715,15 @@
       "rede": "Lomadee"
     },
     {
-      "id": "43e498746ad3f5fe71",
-      "loja": "Zupper",
+      "id": "4f993d92332185b3a3",
+      "loja": "Zinco",
       "tipo": "cupom",
-      "titulo": "Cupom de R$ 25,00 de desconto (apenas para primeira compra 1 por CPF)",
+      "titulo": "NOVIDADES com 10%OFF",
       "descricao": "",
       "termos": "",
-      "cupom": "ZUPPLOM40",
-      "validade": "2027-01-01T02:30:00Z",
-      "link": "https://lmdee.link/goTvpMKdOivt",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "0f301a486e8c36849c",
-      "loja": "Zupper",
-      "tipo": "cupom",
-      "titulo": "Cupom de R$ 25,00 de desconto (uso ilimitado)",
-      "descricao": "",
-      "termos": "",
-      "cupom": "ZUPPLOM25",
-      "validade": "2027-01-01T02:30:00Z",
-      "link": "https://lmdee.link/geL8GLQ5Mgns",
+      "cupom": "GANHE10",
+      "validade": "2026-11-21T02:59:59Z",
+      "link": "https://lmdee.link/56W2JjT7luml",
       "rede": "Lomadee"
     },
     {
