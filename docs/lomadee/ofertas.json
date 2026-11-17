@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-17T20:20:20+00:00",
+  "atualizado_em": "2026-11-17T21:12:14+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -925,16 +925,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-f3ac6d6c3eda5b3c2f82",
+      "id": "lc-30367564420b5db0ddcf",
       "loja": "Lojas REDE",
       "tipo": "promocao",
-      "titulo": "Começou a Black Week da Rede",
+      "titulo": "Começou a Black Week na Lojas Rede",
       "imagem": "",
-      "link": "https://lmdee.link/FS95F58hzrRs",
+      "link": "https://lmdee.link/20P31VnJROQZ",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-18T02:30:00.000Z",
+      "validade": "2026-11-23T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1047,6 +1047,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-7b0567b592bd87d36870",
+      "loja": "POMANDER",
+      "tipo": "cupom",
+      "titulo": "Cupom de 10% de desconto nos produtos selecionados",
+      "imagem": "",
+      "link": "https://lmdee.link/dguRKAuTzpSV",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "LOMA10",
+      "validade": "2027-01-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1443,6 +1457,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-f3ac6d6c3eda5b3c2f82",
+      "loja": "Lojas REDE",
+      "tipo": "promocao",
+      "titulo": "Começou a Black Week da Rede",
+      "imagem": "",
+      "link": "https://lmdee.link/FS95F58hzrRs",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-18T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-e86372a81cc5675b5c61",
       "loja": "Malwee",
       "tipo": "promocao",
@@ -1667,20 +1695,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-bcd8e91671704ecefb1c",
-      "loja": "Coza",
-      "tipo": "cupom",
-      "titulo": "R$20 off em compras acima de R$150",
-      "imagem": "",
-      "link": "https://lmdee.link/SVnu99vLQb3k",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "BLACK20",
-      "validade": "2026-12-11T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-6db0680f279b95d98ac7",
       "loja": "Homedock",
       "tipo": "cupom",
@@ -1831,20 +1845,6 @@
       "preco_anterior": null,
       "cupom": "BF30",
       "validade": "2026-12-21T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-bdc0bf70fde614d282ce",
-      "loja": "Coza",
-      "tipo": "cupom",
-      "titulo": "R$15 off em compras acima de R$100",
-      "imagem": "",
-      "link": "https://lmdee.link/1QFD5FFnXqZr",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "BLACK15",
-      "validade": "2026-12-11T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2219,7 +2219,7 @@
     "marcas": 132,
     "campanhas": 120,
     "produtos": 60,
-    "links_solicitados": 12,
+    "links_solicitados": 13,
     "consulta_campanhas": "ok",
     "consulta_produtos": "ok"
   }
