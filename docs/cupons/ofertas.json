@@ -1,8 +1,8 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-17T18:38:02.741328Z",
-  "total": 371,
+  "atualizado_em": "2026-11-17T19:49:24.707460Z",
+  "total": 383,
   "ofertas": [
     {
       "id": "4174142",
@@ -25,6 +25,17 @@
       "cupom": "MAGALU10",
       "validade": "2026-11-17T20:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP3MAGALU10"
+    },
+    {
+      "id": "4178368",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF em produtos selecionados na campanha Flash",
+      "descricao": "10% OFF em produtos selecionados na campanha Flash",
+      "termos": ".",
+      "cupom": "FLASH10",
+      "validade": "2026-11-18T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1FLASH10"
     },
     {
       "id": "4178191",
@@ -2810,6 +2821,17 @@
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F459144"
     },
     {
+      "id": "4178351",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "13% OFF em produtos selecionados na campanha Nossa Fonte",
+      "descricao": "13% OFF em produtos selecionados na campanha Nossa Fonte",
+      "termos": ".",
+      "cupom": "NOSSAFONTE",
+      "validade": "2026-11-19T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1NOSSAFONTE"
+    },
+    {
       "id": "4177731",
       "loja": "Kabum BR",
       "tipo": "cupom",
@@ -2819,6 +2841,17 @@
       "cupom": "CEMCHORO",
       "validade": "2026-11-19T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCEMCHORO"
+    },
+    {
+      "id": "4178350",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF em produtos selecionados na campanha Casa Ninja",
+      "descricao": "10% OFF em produtos selecionados na campanha Casa Ninja",
+      "termos": ".",
+      "cupom": "CASANINJA10",
+      "validade": "2026-11-19T15:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1CASANINJA10"
     },
     {
       "id": "4177725",
@@ -2995,6 +3028,17 @@
       "cupom": "ANTENA50",
       "validade": "2026-11-29T15:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1074997%2Fkit-starlink-mini-x-antena-roteador-internet-via-satelite-wi-fi-5-branca-02535308-501"
+    },
+    {
+      "id": "4178354",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "6% OFF em produtos selecionados na campanha Maga 6 OFF",
+      "descricao": "6% OFF em produtos selecionados na campanha Maga 6 OFF",
+      "termos": ".",
+      "cupom": "MAGA6OFF",
+      "validade": "2026-11-30T13:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP3MAGA6OFF"
     },
     {
       "id": "4177728",
@@ -3589,6 +3633,94 @@
       "cupom": "PRIMEIRACOMPRA",
       "validade": "2027-01-01T02:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=46269&awinaffid=3110826&ued=https%3A%2F%2Fhipervarejo.com.br%2F"
+    },
+    {
+      "id": "4178338",
+      "loja": "Lauri Esporte",
+      "tipo": "promocao",
+      "titulo": "Olympikus Corre Grafeno 3 e Corre 4 a partir de R$ 404,10 no Pix",
+      "descricao": "Tênis de corrida Olympikus com até 31% OFF na Lauri Esporte: Corre Grafeno 3 de R$ 799 por R$ 549 no cartão (R$ 494,10 no Pix) e Corre 4 de R$ 599 por R$ 449 no cartão (R$ 404,10 no Pix). Acumula com cupom de 10%. Frete grátis e 15% de cashback. Últimos tamanhos.",
+      "termos": "Corre Grafeno 3 a partir de R$ 549 no cartão ou R$ 494,10 no Pix; Corre 4 a partir de R$ 449 no cartão ou R$ 404,10 no Pix, conforme cor e tamanho. Últimas unidades, válido enquanto durar o estoque; preços podem mudar sem aviso. Acumula com cupons de 10% do programa. Frete grátis para todo o Brasil.",
+      "cupom": "",
+      "validade": "2027-01-01T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2Fbusca%3Fq%3Dolympikus%2Bcorre"
+    },
+    {
+      "id": "4178337",
+      "loja": "Lauri Esporte",
+      "tipo": "promocao",
+      "titulo": "New Balance 1080 v15 a partir de R$ 989,10 no Pix (de R$ 1.299)",
+      "descricao": "Tênis New Balance Fresh Foam X 1080 v15 com até 15% OFF na Lauri Esporte: a partir de R$ 1.099 no cartão em até 12x sem juros ou R$ 989,10 no Pix. Masculino e feminino, várias cores. Acumula com cupom de 10%. Frete grátis e 15% de cashback.",
+      "termos": "Preços a partir de R$ 1.099 no cartão (12x sem juros) ou R$ 989,10 no Pix, conforme cor e tamanho. Válido enquanto durar o estoque; preços podem mudar sem aviso. Acumula com cupons de 10% do programa. Frete grátis para todo o Brasil.",
+      "cupom": "",
+      "validade": "2027-01-01T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2Fbusca%3Fq%3D1080%2Bv15"
+    },
+    {
+      "id": "4178336",
+      "loja": "Lauri Esporte",
+      "tipo": "promocao",
+      "titulo": "Asics Gel-Nimbus 28 a partir de R$ 899,10 no Pix (de R$ 1.299)",
+      "descricao": "Tênis Asics Gel-Nimbus 28 com até 23% OFF na Lauri Esporte: a partir de R$ 999 no cartão em até 12x sem juros ou R$ 899,10 no Pix. Inclui as versões TR e Platinum, masculino e feminino, várias cores. Acumula com cupom de 10%. Frete grátis e 15% de cashback.",
+      "termos": "Preços a partir de R$ 999 no cartão (12x sem juros) ou R$ 899,10 no Pix, conforme versão, cor e tamanho. Válido enquanto durar o estoque; preços podem mudar sem aviso. Acumula com cupons de 10% do programa. Frete grátis para todo o Brasil.",
+      "cupom": "",
+      "validade": "2027-01-01T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2Fbusca%3Fq%3Dnimbus%2B28"
+    },
+    {
+      "id": "4178331",
+      "loja": "Lauri Esporte",
+      "tipo": "promocao",
+      "titulo": "On Cloudsurfer 2 a partir de R$ 809,10 no Pix (de R$ 1.199)",
+      "descricao": "Tênis On Running Cloudsurfer 2 com até 25% OFF na Lauri Esporte, revenda oficial On: a partir de R$ 899 no cartão em até 12x sem juros ou R$ 809,10 no Pix. Masculino e feminino, várias cores. Acumula com cupom de 10%. Frete grátis e 15% de cashback.",
+      "termos": "Preços a partir de R$ 899 no cartão (12x sem juros) ou R$ 809,10 no Pix, conforme cor e tamanho. Válido enquanto durar o estoque; preços podem mudar sem aviso. Acumula com cupons de 10% do programa. Frete grátis para todo o Brasil.",
+      "cupom": "",
+      "validade": "2027-01-01T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2Fbusca%3Fq%3Dcloudsurfer%2B2"
+    },
+    {
+      "id": "4178330",
+      "loja": "Lauri Esporte",
+      "tipo": "promocao",
+      "titulo": "On Cloudmonster 2 a partir de R$ 881,10 no Pix (de R$ 1.399)",
+      "descricao": "Tênis On Running Cloudmonster 2 com até 30% OFF na Lauri Esporte, revenda oficial On: a partir de R$ 979 no cartão em até 12x sem juros ou R$ 881,10 no Pix. Masculino e feminino, várias cores. Acumula com cupom de 10%. Frete grátis e 15% de cashback.",
+      "termos": "Preços a partir de R$ 979 no cartão (12x sem juros) ou R$ 881,10 no Pix, conforme cor e tamanho. Válido enquanto durar o estoque; preços podem mudar sem aviso. Acumula com cupons de 10% do programa. Frete grátis para todo o Brasil.",
+      "cupom": "",
+      "validade": "2027-01-01T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2Fbusca%3Fq%3Dcloudmonster%2B2"
+    },
+    {
+      "id": "4178329",
+      "loja": "Lauri Esporte",
+      "tipo": "promocao",
+      "titulo": "On Cloudflow 5 a partir de R$ 881,10 no Pix (de R$ 1.399)",
+      "descricao": "Tênis On Running Cloudflow 5 com até 30% OFF na Lauri Esporte, revenda oficial On: a partir de R$ 979 no cartão em até 12x sem juros ou R$ 881,10 no Pix. Masculino e feminino, várias cores. Acumula com cupom de 10%. Frete grátis e 15% de cashback.",
+      "termos": "Preços a partir de R$ 979 no cartão (12x sem juros) ou R$ 881,10 no Pix, conforme cor e tamanho. Válido enquanto durar o estoque; preços podem mudar sem aviso. Acumula com cupons de 10% do programa. Frete grátis para todo o Brasil.",
+      "cupom": "",
+      "validade": "2027-01-01T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2Fbusca%3Fq%3Dcloudflow%2B5"
+    },
+    {
+      "id": "4178327",
+      "loja": "Lauri Esporte",
+      "tipo": "promocao",
+      "titulo": "On Cloudsurfer Max a partir de R$ 755,10 no Pix (de R$ 1.399)",
+      "descricao": "Tênis On Running Cloudsurfer Max com até 40% OFF na Lauri Esporte, revenda oficial On: a partir de R$ 839 no cartão em até 12x sem juros ou R$ 755,10 no Pix. Masculino e feminino, várias cores. Acumula com cupom de 10%. Frete grátis e 15% de cashback.",
+      "termos": "Preços a partir de R$ 839 no cartão (12x sem juros) ou R$ 755,10 no Pix, conforme cor e tamanho. Válido enquanto durar o estoque; preços podem mudar sem aviso. Acumula com cupons de 10% do programa. Frete grátis para todo o Brasil.",
+      "cupom": "",
+      "validade": "2027-01-01T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2Fbusca%3Fq%3Dcloudsurfer%2Bmax"
+    },
+    {
+      "id": "4178326",
+      "loja": "Lauri Esporte",
+      "tipo": "promocao",
+      "titulo": "On Cloudmonster 3 a partir de R$ 1.011,60 no Pix (de R$ 1.499)",
+      "descricao": "Tênis On Running Cloudmonster 3 com até 25% OFF na Lauri Esporte, revenda oficial On: a partir de R$ 1.124 no cartão em até 12x sem juros ou R$ 1.011,60 no Pix. Masculino e feminino, várias cores. Acumula com cupom de 10%. Frete grátis e 15% de cashback.",
+      "termos": "Preços a partir de R$ 1.124 no cartão (12x sem juros) ou R$ 1.011,60 no Pix, conforme cor e tamanho. Válido enquanto durar o estoque; preços podem mudar sem aviso. Acumula com cupons de 10% do programa. Frete grátis para todo o Brasil.",
+      "cupom": "",
+      "validade": "2027-01-01T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2Fbusca%3Fq%3Dcloudmonster%2B3"
     },
     {
       "id": "4164657",
