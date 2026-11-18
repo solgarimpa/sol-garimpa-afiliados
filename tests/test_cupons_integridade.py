@@ -13,7 +13,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 from sync_rakuten import coupon_from_xml
 from build_cupons_central import normalizar
-from sync_cupons_marketplaces import actual_code, record, process, MARKETS
+from sync_cupons_marketplaces import actual_code, record, process, MARKETS, NOW, amazon_official_url, parse_amazon_manual
 
 
 class CupomIntegridade(unittest.TestCase):
@@ -69,6 +69,47 @@ class CupomIntegridade(unittest.TestCase):
             dados = json.loads((Path(pasta) / "ifood-cupons.json").read_text(encoding="utf-8"))
             self.assertEqual(dados["coupons"][0]["sourceUrl"], origem)
             self.assertEqual(dados["coupons"][0]["sources"], [])
+
+    def test_textos_de_botao_nao_viram_codigos_amazon(self):
+        for placeholder in ("CUPOMAUTOMATICO", "PROMONOLINK", "PEGUEAQUI",
+                            "CONFIRANOLINK", "GANHEAQUI", "ATIVEAPROMO",
+                            "APROVEITEAQUI", "DESCONTOJAATIVO", "CLIQUEEGANHE"):
+            with self.subTest(placeholder=placeholder):
+                item = record("Desconto Amazon de 10% para produtos", placeholder,
+                              "Confira as condições", "Meliuz", "https://exemplo.com")
+                self.assertEqual(item["couponCode"], "")
+
+    def test_amazon_sem_codigo_quando_desconto_resgatado_no_produto(self):
+        item = record("Cupom Amazon R$ 50 OFF", "CUPOMPS5",
+                      "Não é necessário inserir código, basta ativar no produto.",
+                      "Meliuz", "https://exemplo.com")
+        self.assertEqual(item["couponCode"], "")
+
+    def test_link_especifico_so_aceita_amazon_brasil(self):
+        self.assertTrue(amazon_official_url("https://www.amazon.com.br/dp/B012345678"))
+        for url in ("https://www.amazon.com.br.evil.example/dp/B01",
+                    "https://www.meliuz.com.br/desconto/amazon",
+                    "http://www.amazon.com.br/dp/B01",
+                    "https://www.amazon.com.br/"):
+            self.assertEqual(amazon_official_url(url), "")
+
+    def test_cadastro_manual_exibe_link_amazon_sem_alegar_validacao(self):
+        with TemporaryDirectory() as pasta:
+            destino = Path(pasta) / "docs" / "central"
+            destino.mkdir(parents=True)
+            (destino / "amazon-ofertas-oficiais.json").write_text(
+                json.dumps({"offers": [{
+                    "title": "Oferta Amazon R$ 20 OFF em produtos selecionados",
+                    "couponCode": "TESTE20",
+                    "description": "Oferta localizada no site oficial",
+                    "checkedAt": NOW.isoformat(),
+                    "offerUrl": "https://www.amazon.com.br/dp/B012345678"
+                }]}), encoding="utf-8")
+            with patch("sync_cupons_marketplaces.ROOT", Path(pasta)):
+                items = parse_amazon_manual()
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0]["status"], "unverified")
+        self.assertEqual(items[0]["offerUrl"], "https://www.amazon.com.br/dp/B012345678")
 
 
 if __name__ == "__main__":
