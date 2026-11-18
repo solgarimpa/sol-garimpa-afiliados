@@ -35,8 +35,28 @@ class TestSegundaCamada(unittest.TestCase):
         self.assertEqual(items[0]["tipo"], "promocao")
         self.assertIsNone(items[0]["preco"])
         self.assertEqual(items[0]["origem"], "rakuten_link_locator")
-        self.assertIn("getTextLinks/88/-1///-1/1", calls[0])
+        self.assertEqual(calls[0], "/linklocator/1.0/getTextLinks/88/-1/01012020/02012030/-1/1")
+        self.assertIn("/linklocator/1.0/getBannerLinks/88/-1/01012020/02012030/-1/-1/1", calls)
         self.assertFalse(warnings)
+
+    def test_rakuten_fallback_legacy_no_http_404(self):
+        chamada = []
+        xml = b"<getTextLinksResponse/>"
+
+        def request(path, token):
+            chamada.append(path)
+            if path.startswith("/linklocator/1.0/"):
+                raise RuntimeError("Erro HTTP 404")
+            return xml
+
+        cards, warnings = rakuten_creatives(
+            "token", {"mid": "88", "loja": "Loja Teste"}, request,
+            lambda *p: "-".join(p),
+            now=datetime(2026, 11, 18, tzinfo=timezone.utc)
+        )
+        self.assertEqual(cards, [])
+        self.assertFalse(warnings)
+        self.assertTrue(any(p.startswith("/linklocator/1.0?getTextLinks/") for p in chamada))
 
     def test_rakuten_recusa_expirado_sem_link(self):
         xml = b"""<getTextLinksResponse>
