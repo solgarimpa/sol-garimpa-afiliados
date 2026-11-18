@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-18T20:14:02+00:00",
+  "atualizado_em": "2026-11-18T21:09:38+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -719,6 +719,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-379637310dcc31afa220",
+      "loja": "Clovis Calçados",
+      "tipo": "promocao",
+      "titulo": "A Melissa Black chegou com tudo! É a oportunidade perfeita para garantir seus modelos favoritos com descontos de até 60% OFF e parcelamento em até 10x sem juros!",
+      "imagem": "https://cdn.lomadee.com.br/offer/d30598be-01f8-44f7-a074-add23a0c67a7/banners/Image%20%2838%29.jpg",
+      "link": "https://lmdee.link/jOMl4ZhwHedf",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-23T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-33379d20b3d550b67aed",
       "loja": "Coza",
       "tipo": "cupom",
@@ -929,16 +943,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-30367564420b5db0ddcf",
+      "id": "lc-ad376cadec3c239925b7",
       "loja": "Lojas REDE",
       "tipo": "promocao",
-      "titulo": "Começou a Black Week na Lojas Rede",
+      "titulo": "Ofertas Lojas Rede 18-11",
       "imagem": "",
-      "link": "https://lmdee.link/20P31VnJROQZ",
+      "link": "https://lmdee.link/eenPm1L9ziP0",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-23T02:30:00.000Z",
+      "validade": "2026-11-20T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1321,20 +1335,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-ab8c31921b04f6dffa6b",
-      "loja": "Autoamerica Store",
-      "tipo": "promocao",
-      "titulo": "Lançamento Autoamerica Store",
-      "imagem": "https://cdn.lomadee.com.br/offer/263beb4d-1c28-45be-85b8-d48ff27637c7/banners/PROMO%20Luva%20de%20lavagem%20-%20Mobile.jpg",
-      "link": "https://lmdee.link/yt4UkIouqEWb",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2027-01-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-5cc40d288c339324324c",
       "loja": "Bauducco",
       "tipo": "promocao",
@@ -1405,6 +1405,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-1fdd491457483b777658",
+      "loja": "Clovis Calçados",
+      "tipo": "promocao",
+      "titulo": "É hora de garantir seus favoritos com descontos progressivos! Comprou 1: 10% OFF Comprou 2: 15% OFF Comprou 3: 20% OFF !!  E ainda tem frete grátis a partir de determinado valor!",
+      "imagem": "https://cdn.lomadee.com.br/offer/ad32e5be-8a08-4412-b27a-87f721b7260f/banners/Image%20%2837%29.jpg",
+      "link": "https://lmdee.link/eV63gERgDchl",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-23T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-cd826e2da5b5edf27037",
       "loja": "Ferramentas Kennedy",
       "tipo": "promocao",
@@ -1461,20 +1475,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-3cdb9454b7efe1e37898",
-      "loja": "Kidy Calçados",
-      "tipo": "promocao",
-      "titulo": "Kidy Veloz - Melhor Tênis de Rodinha do Brasil",
-      "imagem": "https://cdn.lomadee.com.br/offer/02d2a1d5-0129-4b9d-819a-427293614e7a/banners/BANNET-SITE-DESKTOP.jpg",
-      "link": "https://lmdee.link/DQ4zxgtYfOlR",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-c3c58b73fc5560664c80",
       "loja": "Lauri Esporte",
       "tipo": "cupom",
@@ -1499,6 +1499,20 @@
       "preco_anterior": null,
       "cupom": "BLACKFRIDAY",
       "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-30367564420b5db0ddcf",
+      "loja": "Lojas REDE",
+      "tipo": "promocao",
+      "titulo": "Começou a Black Week na Lojas Rede",
+      "imagem": "",
+      "link": "https://lmdee.link/20P31VnJROQZ",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-23T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1765,20 +1779,6 @@
       "preco_anterior": null,
       "cupom": "BLACK120",
       "validade": "2026-12-01T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-3c55ff6613db21589bfc",
-      "loja": "Kidy Calçados",
-      "tipo": "promocao",
-      "titulo": "Lançamento Rebecca Bonbon",
-      "imagem": "https://cdn.lomadee.com.br/offer/20551a3f-6d67-4c0a-911d-0760296c8cab/banners/ChatGPT%20Image%202%20de%20out.%20de%202026%2C%2014_15_15.png",
-      "link": "https://lmdee.link/c7Jp0CtiBhb7",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2111,7 +2111,7 @@
       "titulo": "Ar Condicionado Split Hi Wall R32 LG Dual Inverter Voice +AI 18000 BTU/h Frio S3-Q18KL31B – 220 Volts",
       "imagem": "https://friopecas.vteximg.com.br/arquivos/ids/232017/kit.jpg?v=638911469777800000",
       "link": "https://lmdee.link/XOloBgQJxF8J",
-      "preco": 38.48,
+      "preco": 38.38,
       "preco_anterior": 58.94,
       "cupom": null,
       "validade": null,
@@ -2405,7 +2405,7 @@
       "titulo": "Ar Condicionado Split Philco 12000 BTUs Frio Branco 220V PAC12FI",
       "imagem": "https://friopecas.vteximg.com.br/arquivos/ids/235094/761322.jpg?v=639096333533330000",
       "link": "https://lmdee.link/Bxb1BSHhGAyi",
-      "preco": 20.51,
+      "preco": 20.48,
       "preco_anterior": 27.48,
       "cupom": null,
       "validade": null,
@@ -2433,25 +2433,11 @@
       "titulo": "Ar Condicionado Split Inverter TCL 24000 BTUs Frio Branco 220V TAC24CTG2INV",
       "imagem": "https://friopecas.vteximg.com.br/arquivos/ids/251428/1.jpg?v=639087360827370000",
       "link": "https://lmdee.link/lUhF1yxx069J",
-      "preco": 42.18,
+      "preco": 43.88,
       "preco_anterior": 58.94,
       "cupom": null,
       "validade": null,
       "descricao": "Ar Condicionado Split Hi Wall Inverter TCL 24000 BTU/H Frio TAC24CTG2INV – 220 Volts    Descubra a excelência em climatização com o   Ar Condicionado Split Hi Wall Inverter TCL 24000 BTU/H Frio TAC24CTG2INV  .Desenvolvid",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lp-db79df5d403303636b84",
-      "loja": "Friopeças",
-      "tipo": "produto",
-      "titulo": "Ar Condicionado Split Hi Wall Inverter Springer Midea Xtreme Save Connect 12000 BTU/h Quente e Frio 42MGVQI12M5 – 220V",
-      "imagem": "https://friopecas.vteximg.com.br/arquivos/ids/232065/Kit.jpg?v=638642541620870000",
-      "link": "https://lmdee.link/zq5jTZdIeHA9",
-      "preco": 39.38,
-      "preco_anterior": 50.79,
-      "cupom": null,
-      "validade": null,
-      "descricao": "Ar Condicionado Split Hi Wall Inverter Springer Midea Xtreme Save Connect 12000 BTUh Quente e Frio 42MGVQI12M5 – 220 Volts    Ar Condicionado Split Hi Wall Inverter Springer Midea Xtreme Save Connect 12000 BTUh Quente e ",
       "origem": "Lomadee"
     },
     {
@@ -2525,6 +2511,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lp-9f7c22bc6a1ea854700a",
+      "loja": "Friopeças",
+      "tipo": "produto",
+      "titulo": "Ar Condicionado Split Hi Wall Springer Midea AirVolution 18000 BTU/h Frio 42AFFCI18S5 - 220 Volts",
+      "imagem": "https://friopecas.vteximg.com.br/arquivos/ids/233527/Packshot-A.jpg?v=638803248352630000",
+      "link": "https://lmdee.link/uwZlZNR18hMO",
+      "preco": 34.98,
+      "preco_anterior": 47.28,
+      "cupom": null,
+      "validade": null,
+      "descricao": "Ar Condicionado Split Springer Midea AirVolution 18.000 BTUs Frio 42AFFCI18S5 – 220 Volts     Conforto e eficiência para o seu ambiente:      O  Ar Condicionado Split  Springer Midea AirVolution 18.000 BTUs foi desenvolv",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lp-94fee3dbaaf24e7f1fed",
       "loja": "Friopeças",
       "tipo": "produto",
@@ -2567,27 +2567,13 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lp-df61031ca4e5e8911992",
-      "loja": "Friopeças",
-      "tipo": "produto",
-      "titulo": "Ar Condicionado Split Hi Wall Inverter Midea AI Ecomaster 9000 BTU/h Frio 42EZVCA09M5 – 220 Volts",
-      "imagem": "https://friopecas.vteximg.com.br/arquivos/ids/247517/Packshot--1-.jpg.jpg?v=638941490998570000",
-      "link": "https://lmdee.link/0ZlCvMrW8P6x",
-      "preco": 37.38,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "Ar Condicionado Split Hi Wall Inverter Midea AI Ecomaster 9000 BTU/h Frio 42EZVCA09M5 – 220 Volts     Conforto e economia como você sempre quis  O ar-condicionado Split nverter Midea AI Ecomaster 9000 BTU/h Frio 42EZVCA0",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lp-710dee652e29f87cbb6c",
       "loja": "Friopeças",
       "tipo": "produto",
       "titulo": "Ar Condicionado Split Hi Wall Inverter Agratto 30000 BTU/h Frio Fit Top FICST30F – 220 Volts",
       "imagem": "https://friopecas.vteximg.com.br/arquivos/ids/248320/1.jpg?v=638842073224000000",
       "link": "https://lmdee.link/Hx2VTGCzDkhc",
-      "preco": 52.98,
+      "preco": 53.48,
       "preco_anterior": 66.53,
       "cupom": null,
       "validade": null,
@@ -2601,7 +2587,7 @@
       "titulo": "Ar Condicionado Split Hi Wall Inverter Gree G-Top Auto 9000 BTU/h Quente e Frio CB574N19600 – 220 Volts",
       "imagem": "https://friopecas.vteximg.com.br/arquivos/ids/242487/231934-600-auto-jpg.jpg?v=638715276005130000",
       "link": "https://lmdee.link/yRnakcbVcZXP",
-      "preco": 28.98,
+      "preco": 24.98,
       "preco_anterior": 39.58,
       "cupom": null,
       "validade": null,
@@ -2643,7 +2629,7 @@
       "titulo": "Ar Condicionado Split Philco 30.000 BTUs Frio PAC30FI – 220 Volts",
       "imagem": "https://friopecas.vteximg.com.br/arquivos/ids/236034/KIT.jpg?v=638804089074730000",
       "link": "https://lmdee.link/Wc3hZ8b2Rx0e",
-      "preco": 56.21,
+      "preco": 61.08,
       "preco_anterior": 81.38,
       "cupom": null,
       "validade": null,
@@ -2695,7 +2681,7 @@
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 154,
+    "com_ofertas": 153,
     "marcas": 133,
     "campanhas": 120,
     "produtos": 60,
