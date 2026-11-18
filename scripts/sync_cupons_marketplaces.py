@@ -438,6 +438,9 @@ def combine(items):
             old["description"] = c["description"]
         if c.get("publishedAt") and not old.get("publishedAt"):
             old["publishedAt"] = c["publishedAt"]
+        # Complemento manual so fornece URL da propria Amazon, nao redirecionamento de agregador.
+        if c.get("offerUrl") and not old.get("offerUrl"):
+            old["offerUrl"] = c["offerUrl"]
     values = list(merged.values())
     values.sort(key=lambda c: (
         -int(c["status"] == "listed"),
