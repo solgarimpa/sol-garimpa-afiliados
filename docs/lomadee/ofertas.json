@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-18T10:25:57+00:00",
+  "atualizado_em": "2026-11-18T12:12:43+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -115,6 +115,10 @@
       "loja": "Walita"
     },
     {
+      "id": "1eb0fb06-b892-473b-89bd-dd4d68fc11f6",
+      "loja": "Autoamerica Store"
+    },
+    {
       "id": "304e46ab-9e6f-462d-87e7-9afad02997aa",
       "loja": "BioVittare Farmácia de Manipulação"
     },
@@ -137,10 +141,6 @@
     {
       "id": "24e709ab-e640-445b-864a-41223d9eab2e",
       "loja": "Brinox"
-    },
-    {
-      "id": "1eb0fb06-b892-473b-89bd-dd4d68fc11f6",
-      "loja": "Autoamerica Store"
     },
     {
       "id": "20b5cefc-3f15-4d49-a046-ef56904ed270",
@@ -335,16 +335,20 @@
       "loja": "Gazin"
     },
     {
+      "id": "ae6c268a-3b83-4d4a-9e51-6dc4bf6408e5",
+      "loja": "Itatiaia"
+    },
+    {
+      "id": "ac21d19c-3590-4a86-a9df-16bf6151e570",
+      "loja": "Noble Nature"
+    },
+    {
       "id": "b08af64e-f7bd-434c-b0ac-6baec265f9fc",
       "loja": "BabyStock"
     },
     {
       "id": "c0293dde-7d4a-413a-a689-50e4f2283ec0",
       "loja": "CREDITAS"
-    },
-    {
-      "id": "ac21d19c-3590-4a86-a9df-16bf6151e570",
-      "loja": "Noble Nature"
     },
     {
       "id": "c0520326-00a8-4064-b4fe-ba1b8cd3bfe7",
@@ -397,10 +401,6 @@
     {
       "id": "a563f102-2bf3-4101-8f9c-ff54bef37932",
       "loja": "Beep Saúde"
-    },
-    {
-      "id": "ae6c268a-3b83-4d4a-9e51-6dc4bf6408e5",
-      "loja": "Itatiaia"
     },
     {
       "id": "cea83ab5-dadb-43d0-ae6a-23843a813fda",
