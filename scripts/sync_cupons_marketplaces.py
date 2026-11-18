@@ -417,12 +417,12 @@ def process(market, conf):
             except Exception as e:
                 statuses[name] = {"ok": False, "quantidade": 0, "erro": str(e)[:140]}
     records = combine(all_items)
-    # Todas as paginas de cupons publicam ofertas sem divulgar agregadores externos.
+    # A interface nao divulga agregadores. Conservar sourceUrl no JSON como
+    # metadado de auditoria; os HTMLs publicos nao exibem esse campo.
     nome_loja = conf["name"]
     if records:
         for item in records:
             item["sources"] = []
-            item["sourceUrl"] = ""
             if "pelando" in norm(item.get("description", "")):
                 item["description"] = "Consulte as regras e a validade do cupom diretamente na loja."
             if "pelando" in norm(item.get("title", "")):
