@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-18T12:12:43+00:00",
+  "atualizado_em": "2026-11-18T13:33:10+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -953,6 +953,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-2125de8a401d728b1d1a",
+      "loja": "Mais Mu",
+      "tipo": "cupom",
+      "titulo": "15% EM TODO SITE CUMULATIVO COM OUTRAS OFERTAS",
+      "imagem": "",
+      "link": "https://lmdee.link/haKYLZYmzPPR",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "LOMADEE15",
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-6a86aab5a632e80cac94",
       "loja": "Malwee",
       "tipo": "promocao",
@@ -1205,6 +1219,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-31310634924eeeae43f1",
+      "loja": "Vinícola Jolimont",
+      "tipo": "promocao",
+      "titulo": "O MAIOR SORTEIO DO ANO 18.11",
+      "imagem": "https://cdn.lomadee.com.br/offer/326f1c82-7f68-484e-822d-ca8d26c0c363/banners/Jolimont_Lomadee%203.png",
+      "link": "https://lmdee.link/x1w8v5Cl5uNR",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-19T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-889c196d94f7e5fe8b75",
       "loja": "Walita",
       "tipo": "cupom",
@@ -1355,20 +1383,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-15de72c6afc4694268e6",
-      "loja": "Coza",
-      "tipo": "cupom",
-      "titulo": "R$35 off em compras acima de R$200",
-      "imagem": "",
-      "link": "https://lmdee.link/X6FCsHGOS2bW",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "BLACK35",
-      "validade": "2026-12-11T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1677,20 +1691,6 @@
       "preco_anterior": null,
       "cupom": "BF50EXTRA",
       "validade": "2026-12-21T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-bcd8e91671704ecefb1c",
-      "loja": "Coza",
-      "tipo": "cupom",
-      "titulo": "R$20 off em compras acima de R$150",
-      "imagem": "",
-      "link": "https://lmdee.link/SVnu99vLQb3k",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "BLACK20",
-      "validade": "2026-12-11T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
