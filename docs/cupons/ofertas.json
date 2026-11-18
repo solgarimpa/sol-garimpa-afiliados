@@ -1,8 +1,8 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-18T22:37:50.737748Z",
-  "total": 385,
+  "atualizado_em": "2026-11-18T23:35:41.005563Z",
+  "total": 386,
   "ofertas": [
     {
       "id": "4180264",
@@ -2852,6 +2852,17 @@
       "cupom": "CEMCHORO",
       "validade": "2026-11-19T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCEMCHORO"
+    },
+    {
+      "id": "4180421",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF em itens selecionados na campanha Korujão Especial Esquenta Black Friday",
+      "descricao": "10% OFF em itens selecionados na campanha Korujão Especial Esquenta Black Friday",
+      "termos": ".",
+      "cupom": "KORUJAO",
+      "validade": "2026-11-19T12:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FKORUJAO"
     },
     {
       "id": "4178350",
