@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-18T19:15:58+00:00",
+  "atualizado_em": "2026-11-18T20:14:02+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -295,10 +295,6 @@
       "loja": "Kidy Calçados"
     },
     {
-      "id": "a463682f-09a7-420a-9858-1e9681591513",
-      "loja": "Dyson"
-    },
-    {
       "id": "9ad41f3f-431f-44e9-bf4c-ead611331557",
       "loja": "Up4you"
     },
@@ -309,6 +305,10 @@
     {
       "id": "a13dab7d-c16d-4de9-a70a-8181cd7c6e49",
       "loja": "Colorstone"
+    },
+    {
+      "id": "9f517538-341c-4561-8d23-d5d8f1ab9f93",
+      "loja": "Chiaverini Firenze Brasil"
     },
     {
       "id": "9ece9607-ed88-4c25-80e5-1d079f2b444c",
@@ -355,6 +355,10 @@
       "loja": "Homedock"
     },
     {
+      "id": "a463682f-09a7-420a-9858-1e9681591513",
+      "loja": "Dyson"
+    },
+    {
       "id": "b89e4834-6f7c-4ac8-9972-5d579488432c",
       "loja": "DeÔnibus"
     },
@@ -385,10 +389,6 @@
     {
       "id": "a6bb78df-7055-4184-bd84-51a4cb831bf6",
       "loja": "Maria Valentina"
-    },
-    {
-      "id": "c0e3dfb9-f402-4267-940d-ae2c4f06b421",
-      "loja": "Zinco"
     },
     {
       "id": "bbecdd07-33c6-4390-996b-e93e7455d731",
@@ -443,10 +443,6 @@
       "loja": "Honor"
     },
     {
-      "id": "e198615b-4c17-4180-b06f-43376f162714",
-      "loja": "Amoedo"
-    },
-    {
       "id": "d676d9b8-e52f-4ea1-bf2f-d98cd563418e",
       "loja": "Editora Foco"
     },
@@ -483,6 +479,10 @@
       "loja": "Candide"
     },
     {
+      "id": "c0e3dfb9-f402-4267-940d-ae2c4f06b421",
+      "loja": "Zinco"
+    },
+    {
       "id": "e5f81b99-b74b-488f-9fd8-ef44e2c7aa87",
       "loja": "Webfones"
     },
@@ -513,6 +513,10 @@
     {
       "id": "efd916a7-faa3-417b-8581-d3afe03e849c",
       "loja": "Líquido"
+    },
+    {
+      "id": "e198615b-4c17-4180-b06f-43376f162714",
+      "loja": "Amoedo"
     },
     {
       "id": "e556ed73-0e02-421e-9393-860b040bfbb7",
@@ -851,6 +855,20 @@
       "preco_anterior": null,
       "cupom": "GANHE10",
       "validade": "2026-11-21T02:59:59.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-9c1e9c468aa51f6f1192",
+      "loja": "Itatiaia",
+      "tipo": "promocao",
+      "titulo": "Comissão especial em Aço",
+      "imagem": "",
+      "link": "https://lmdee.link/u9EuWfjfLgfU",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-20T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2171,20 +2189,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-601a28b540080890d985",
-      "loja": "Brinox",
-      "tipo": "promocao",
-      "titulo": "Esquenta Black Friday",
-      "imagem": "https://cdn.lomadee.com.br/offer/d68c7a5e-c32d-468e-a073-803e7712ee68/banners/Visualiza%C3%A7%C3%A3o%20da%20imagem%20%2849%29.png",
-      "link": "https://lmdee.link/xxOsgPgpJNQG",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-12-11T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lp-df7631b6dc476c328ad4",
       "loja": "Friopeças",
       "tipo": "produto",
@@ -2673,12 +2677,26 @@
       "validade": null,
       "descricao": "Ar Condicionado Split Cassete Inverter Midea 24000 BTU/h Frio Monofásico 38TVCD24515MM – 220 Volts    O  Ar Condicionado Split Cassete Inverter Midea 24000 BTU/h Frio Monofásico 38TVCD24515MM   é o equipamento ideal para",
       "origem": "Lomadee"
+    },
+    {
+      "id": "lp-6fa7e99eb7e0ee34655f",
+      "loja": "Friopeças",
+      "tipo": "produto",
+      "titulo": "Ar Condicionado Split Inverter 12.000 BTUs TCL Frio TAC12CTG2INV – 220 Volts",
+      "imagem": "https://friopecas.vteximg.com.br/arquivos/ids/233754/T-Pro-2.0-conjunto.jpg?v=638863930343000000",
+      "link": "https://lmdee.link/bDTL6BJIpFA8",
+      "preco": 24.48,
+      "preco_anterior": 35.18,
+      "cupom": null,
+      "validade": null,
+      "descricao": "Ar Condicionado Split Inverter 12.000 BTUs TCL Frio 220V TAC12CTG2INV – Conforto e tecnologia na medida certa   Se você busca performance, economia e sofisticação, o  Ar Condicionado Split Inverter 12.000 BTUs TCL Frio 2",
+      "origem": "Lomadee"
     }
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 153,
-    "marcas": 132,
+    "com_ofertas": 154,
+    "marcas": 133,
     "campanhas": 120,
     "produtos": 60,
     "links_solicitados": 45,
