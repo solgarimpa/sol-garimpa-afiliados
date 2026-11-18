@@ -67,7 +67,7 @@ const CONFIG={
   "magalu":{nome:"Magalu",link:"https://www.magazineluiza.com.br/",vitrine:"https://www.magazinevoce.com.br/magazinesolgarimpa/"},
   "aliexpress":{nome:"AliExpress",link:"https://pt.aliexpress.com/",vitrine:"https://www.ofertaspravc.com.br/aliexpress"},
   "shein":{nome:"SHEIN",link:"https://onelink.shein.com/58/66nnzcmvg0zu",vitrine:"https://onelink.shein.com/58/66nnzcmvg0zu"},
-  "amazon":{nome:"Amazon",link:"https://www.amazon.com.br/gp/coupons",vitrine:"https://www.amazon.com.br/hz/wishlist/ls/XBEEZXOQSI3R"},
+  "amazon":{nome:"Amazon",link:"https://www.amazon.com.br/",vitrine:"https://www.amazon.com.br/hz/wishlist/ls/XBEEZXOQSI3R"},
   "ifood":{nome:"iFood",link:"https://www.ifood.com.br/cupons/",vitrine:""}
 };
 const slug=new URLSearchParams(location.search).get("loja")||"shopee";
@@ -92,6 +92,7 @@ function aindaValido(c){
 }
 function txt(v){return String(v==null?"":v).trim()}
 function norm(v){return txt(v).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()}
+function linkAmazonOficial(v){try{const u=new URL(txt(v));return u.protocol==="https:"&&["amazon.com.br","www.amazon.com.br"].includes(u.hostname)&&u.pathname!=="/"?u.href:""}catch(e){return ""}}
 function node(tag,classe,texto){const n=document.createElement(tag);if(classe)n.className=classe;if(texto!==undefined)n.textContent=texto;return n}
 function cartao(c){
   const art=node("article","card");
@@ -100,7 +101,8 @@ function cartao(c){
   art.appendChild(node("div","desconto",txt(c.discountText)||"OFERTA"));
   const descricao=txt(c.description);
   art.appendChild(node("p","descricao",/pelando/i.test(descricao)?"Consulte as regras e a validade do cupom diretamente na loja.":(descricao||"Consulte as regras na loja.")));
-  if(c.status==="unverified")art.appendChild(node("div","metadados","Código NÃO VERIFICADO · Confira as condições na loja"));
+  if(escolhido==="amazon")art.appendChild(node("div","metadados","Cupom divulgado · Não validado no carrinho · Aplicação depende do produto e do cliente"));
+  else if(c.status==="unverified")art.appendChild(node("div","metadados","Código NÃO VERIFICADO · Confira as condições na loja"));
   if(c.couponCode){
     const a=node("div","codigoarea"),cod=node("strong","",c.couponCode),btn=node("button","","COPIAR");
     btn.type="button";btn.onclick=async()=>{let ok=false;try{await navigator.clipboard.writeText(c.couponCode);ok=true}catch(e){const t=document.createElement("textarea");t.value=c.couponCode;t.style.position="fixed";t.style.opacity="0";document.body.appendChild(t);t.select();try{ok=document.execCommand("copy")}catch(e){}t.remove()}btn.textContent=ok?"COPIADO ✓":"SELECIONE O CÓDIGO";if(ok)setTimeout(()=>btn.textContent="COPIAR",2500)};
@@ -111,7 +113,17 @@ function cartao(c){
   vitrine.target="_blank";
   vitrine.rel=atual.vitrine?"noopener noreferrer nofollow sponsored":"noopener noreferrer nofollow";
   art.appendChild(vitrine);
-  if(atual.vitrine&&atual.vitrine!==LINK_LOJA){
+  if(escolhido==="amazon"){
+    // Nunca associar um cupom a pagina generica, nem a links de agregadores.
+    const direto=linkAmazonOficial(c.offerUrl);
+    if(direto){
+      const oficial=node("a","acao-secundaria","ABRIR OFERTA ESPECÍFICA NA AMAZON");
+      oficial.href=direto;oficial.target="_blank";oficial.rel="noopener noreferrer nofollow";
+      art.appendChild(oficial);
+    }else{
+      art.appendChild(node("div","metadados","Sem link direto desta promoção. A seleção Sol Garimpa pode conter outros produtos."));
+    }
+  }else if(atual.vitrine&&atual.vitrine!==LINK_LOJA){
     const oficial=node("a","acao-secundaria","CONFERIR NA LOJA (LINK DIRETO)");
     oficial.href=LINK_LOJA;
     oficial.target="_blank";
