@@ -3,6 +3,9 @@ import sys
 import unittest
 from datetime import datetime, timezone
 from pathlib import Path
+from tempfile import TemporaryDirectory
+from unittest.mock import patch
+import json
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -10,7 +13,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 from sync_rakuten import coupon_from_xml
 from build_cupons_central import normalizar
-from sync_cupons_marketplaces import actual_code, record
+from sync_cupons_marketplaces import actual_code, record, process, MARKETS
 
 
 class CupomIntegridade(unittest.TestCase):
@@ -52,6 +55,20 @@ class CupomIntegridade(unittest.TestCase):
         item = record("Cupom Shopee R$ 20 OFF", "TESTE20", "",
                       "Meliuz", "https://exemplo.com")
         self.assertEqual(item["couponCode"], "TESTE20")
+
+    def test_origem_do_cupom_preservada_no_json_sem_exibir_fonte(self):
+        origem = "https://www.meliuz.com.br/desconto/cupom-ifood"
+        item = record("Cupom iFood 10% de desconto", "TESTE1234", "", "Meliuz", origem)
+        self.assertIsNotNone(item)
+        with TemporaryDirectory() as pasta:
+            with patch("sync_cupons_marketplaces.OUTPUT", Path(pasta)), \
+                 patch("sync_cupons_marketplaces.parse_site", return_value=[item]), \
+                 patch("sync_cupons_marketplaces.parse_worker", return_value=[]), \
+                 patch("sync_cupons_marketplaces.parse_seletronic_ifood", return_value=[]):
+                self.assertTrue(process("ifood", MARKETS["ifood"]))
+            dados = json.loads((Path(pasta) / "ifood-cupons.json").read_text(encoding="utf-8"))
+            self.assertEqual(dados["coupons"][0]["sourceUrl"], origem)
+            self.assertEqual(dados["coupons"][0]["sources"], [])
 
 
 if __name__ == "__main__":
