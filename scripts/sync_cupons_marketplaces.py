@@ -12,6 +12,7 @@ import re
 import sys
 import unicodedata
 from pathlib import Path
+from urllib.parse import urlsplit
 
 import requests
 from bs4 import BeautifulSoup
@@ -70,6 +71,10 @@ INVALID_CODES = frozenset({
     "GARANTADESCONTO", "GANHEDESCONTO", "RESGATECUPONS",
     "DESCONTONOLINK", "DESCONTOAQUI", "OFERTANOLINK", "COPIAR",
     "SHOPEE", "VERCUPOM", "PEGARCUPOM",
+    # Rotulos de acionamento extraidos de agregadores nao sao vouchers.
+    "CUPOMAUTOMATICO", "PROMONOLINK", "PEGUEAQUI", "CONFIRANOLINK",
+    "GANHEAQUI", "ATIVEAPROMO", "APROVEITEAQUI", "DESCONTOJAATIVO",
+    "CLIQUEEGANHE",
 })
 
 EXCLUDE = re.compile(
@@ -171,6 +176,9 @@ def record(title, code, desc, source, url, published=None, expiry=None):
         return None
     code = plain(code).replace(" ", "").upper()[:50]
     if code in INVALID_CODES or (code and not re.fullmatch(r"[A-Z0-9_-]{4,50}", code)):
+        code = ""
+    # Descontos resgatados no produto, sem digitacao, nunca sao codigos copiaveis.
+    if re.search(r"n[aã]o [eé] necess[aá]rio (?:inserir|digitar) (?:o )?c[oó]digo|desconto j[aá] aplicado", norm(title + " " + desc)):
         code = ""
     return {
         "title": title,
@@ -371,6 +379,47 @@ def parse_worker(market, conf):
     return out
 
 
+
+def amazon_official_url(value):
+    """Aceita somente HTTPS no dominio brasileiro oficial da Amazon."""
+    value = plain(value)
+    try:
+        part = urlsplit(value)
+        if part.scheme != "https" or part.hostname not in ("amazon.com.br", "www.amazon.com.br"):
+            return ""
+        if part.username or part.password or not part.path or part.path == "/":
+            return ""
+        return value
+    except ValueError:
+        return ""
+
+
+def parse_amazon_manual():
+    """Ofertas identificadas manualmente no app/site Amazon; nao equivale a API nem checkout."""
+    arquivo = ROOT / "docs" / "central" / "amazon-ofertas-oficiais.json"
+    if not arquivo.exists():
+        return []
+    dados = json.loads(arquivo.read_text(encoding="utf-8"))
+    saida = []
+    for bruto in dados.get("offers", []):
+        if not isinstance(bruto, dict):
+            continue
+        url = amazon_official_url(bruto.get("offerUrl"))
+        conferido = as_time(bruto.get("checkedAt"))
+        if not url or not conferido or not (dt.timedelta(0) <= NOW - conferido <= dt.timedelta(hours=48)):
+            continue
+        oferta = record(
+            bruto.get("title"), bruto.get("couponCode"),
+            bruto.get("description"), "Amazon oficial (cadastro manual)",
+            url, bruto.get("checkedAt"), bruto.get("expiresAt"),
+        )
+        if oferta:
+            oferta["offerUrl"] = url
+            oferta["status"] = "unverified"
+            saida.append(oferta)
+    return saida
+
+
 def combine(items):
     merged = {}
     for c in items:
@@ -416,6 +465,13 @@ def process(market, conf):
                 statuses[name] = {"ok": True, "quantidade": len(items)}
             except Exception as e:
                 statuses[name] = {"ok": False, "quantidade": 0, "erro": str(e)[:140]}
+    if market == "amazon":
+        try:
+            oficiais = parse_amazon_manual()
+            all_items.extend(oficiais)
+            statuses["AmazonManual"] = {"ok": True, "quantidade": len(oficiais)}
+        except (OSError, ValueError, TypeError, KeyError) as e:
+            statuses["AmazonManual"] = {"ok": False, "quantidade": 0, "erro": str(e)[:140]}
     records = combine(all_items)
     # A interface nao divulga agregadores. Conservar sourceUrl no JSON como
     # metadado de auditoria; os HTMLs publicos nao exibem esse campo.
@@ -442,7 +498,7 @@ def process(market, conf):
         "refreshMinutes": 30,
         "count": len(records),
         "sources": current_source_health,
-        "note": "Cupons listados nas fontes, nao testados no checkout. Cashback exclusivo de outros sites nao e oferecido pela Sol Garimpa.",
+        "note": "Cupons divulgados, nao validados no carrinho. Ofertas da Amazon com link especifico sao cadastradas manualmente ate autorizacao da API oficial.",
         "coupons": records,
     }
     output.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
