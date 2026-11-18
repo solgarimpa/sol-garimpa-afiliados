@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-18T12:44:30.580325Z",
-  "total": 212,
-  "total_cupons": 141,
+  "atualizado_em": "2026-11-18T13:59:29.457686Z",
+  "total": 211,
+  "total_cupons": 140,
   "total_promocoes": 71,
   "fontes": {
     "Awin": 127,
     "Rakuten": 48,
-    "Lomadee": 37
+    "Lomadee": 36
   },
   "ofertas": [
     {
@@ -188,30 +188,6 @@
       "cupom": "Lomadee20",
       "validade": null,
       "link": "https://lmdee.link/EXXfFSuBtslm",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "2feaffcb1c78c66fcb",
-      "loja": "Coza",
-      "tipo": "cupom",
-      "titulo": "R$20 off em compras acima de R$150",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BLACK20",
-      "validade": "2026-12-11T02:30:00Z",
-      "link": "https://lmdee.link/SVnu99vLQb3k",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "f5ad1b14e407c2f192",
-      "loja": "Coza",
-      "tipo": "cupom",
-      "titulo": "R$35 off em compras acima de R$200",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BLACK35",
-      "validade": "2026-12-11T02:30:00Z",
-      "link": "https://lmdee.link/X6FCsHGOS2bW",
       "rede": "Lomadee"
     },
     {
@@ -1412,6 +1388,18 @@
       "cupom": "LOMADEE10",
       "validade": "2027-01-01T02:30:00Z",
       "link": "https://lmdee.link/lJLkInykeDxg",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "29d901cb62552bddec",
+      "loja": "Mais Mu",
+      "tipo": "cupom",
+      "titulo": "15% EM TODO SITE CUMULATIVO COM OUTRAS OFERTAS",
+      "descricao": "",
+      "termos": "",
+      "cupom": "LOMADEE15",
+      "validade": null,
+      "link": "https://lmdee.link/haKYLZYmzPPR",
       "rede": "Lomadee"
     },
     {
