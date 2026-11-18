@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-18T01:37:51+00:00",
+  "atualizado_em": "2026-11-18T03:07:20+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -1457,20 +1457,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-f3ac6d6c3eda5b3c2f82",
-      "loja": "Lojas REDE",
-      "tipo": "promocao",
-      "titulo": "Começou a Black Week da Rede",
-      "imagem": "",
-      "link": "https://lmdee.link/FS95F58hzrRs",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-18T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-e86372a81cc5675b5c61",
       "loja": "Malwee",
       "tipo": "promocao",
@@ -1691,6 +1677,20 @@
       "preco_anterior": null,
       "cupom": "BF50EXTRA",
       "validade": "2026-12-21T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-bcd8e91671704ecefb1c",
+      "loja": "Coza",
+      "tipo": "cupom",
+      "titulo": "R$20 off em compras acima de R$150",
+      "imagem": "",
+      "link": "https://lmdee.link/SVnu99vLQb3k",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "BLACK20",
+      "validade": "2026-12-11T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2219,7 +2219,7 @@
     "marcas": 132,
     "campanhas": 120,
     "produtos": 60,
-    "links_solicitados": 13,
+    "links_solicitados": 12,
     "consulta_campanhas": "ok",
     "consulta_produtos": "ok"
   }
