@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-18T13:33:10+00:00",
+  "atualizado_em": "2026-11-18T15:14:29+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -1191,6 +1191,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-ff5104fc66915c41d955",
+      "loja": "UP Kids",
+      "tipo": "promocao",
+      "titulo": "Achados incríveis para renovar o guarda-roupa infantil, com peças de até R$ 49,90!",
+      "imagem": "https://cdn.lomadee.com.br/offer/7cf7af2c-d98d-4b43-b120-d86fcf84eded/banners/imagem%20-%202026-11-18T105005.953.png",
+      "link": "https://lmdee.link/0Cv3ggZEBtKJ",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-23T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-09a9f86d7b14546a1dbf",
       "loja": "Up4you",
       "tipo": "promocao",
@@ -1607,6 +1621,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-19T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-e874ee232edada3cda19",
+      "loja": "UP Kids",
+      "tipo": "promocao",
+      "titulo": "Guloseima: Conjuntos infantis a partir de R$ 29,90 para deixar os pequenos ainda mais estilosos e confortáveis! ✨",
+      "imagem": "https://cdn.lomadee.com.br/offer/41ac1e30-904a-459d-b934-4f486261d36e/banners/imagem%20-%202026-11-18T104856.371.png",
+      "link": "https://lmdee.link/4792Vb8o2N5q",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-23T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2129,20 +2157,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-fcf2c7975359e50280cc",
-      "loja": "Brinox",
-      "tipo": "cupom",
-      "titulo": "R$ 100 em compras acima de R$699",
-      "imagem": "",
-      "link": "https://lmdee.link/mGEeBYw6ZwcY",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "BF100",
-      "validade": "2026-12-21T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-a604c9576b62ca3375a0",
       "loja": "Homedock",
       "tipo": "promocao",
@@ -2167,20 +2181,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-5dfd6c15ad056df41f16",
-      "loja": "Brinox",
-      "tipo": "cupom",
-      "titulo": "R$ 50 em compras acima de R$399",
-      "imagem": "",
-      "link": "https://lmdee.link/nRs51ZGLWI6v",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "BF50",
-      "validade": "2026-12-21T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
