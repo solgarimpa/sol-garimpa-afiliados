@@ -1,0 +1,4 @@
+{
+  "_instrucoes": "Cadastro MANUAL de links especificos da Amazon, encontrados no aplicativo ou site oficial. Somente HTTPS amazon.com.br. checkedAt em ISO-8601 (ex: 2026-11-18T20:30:00Z), com no maximo 48 horas de idade. Nunca marcar como validado no checkout sem teste real. A Creators API sera integrada apos habilitacao.",
+  "offers": []
+}
