@@ -72,21 +72,20 @@ def rakuten_creatives(token, partner, request_fn, safe_id_fn, *, now=None):
     warnings = []
     for kind, operation in (("texto", "getTextLinks"), ("banner", "getBannerLinks")):
         for page in range(1, max_pages + 1):
-            suffix = (f"{mid}/-1///-1/{page}" if kind == "texto"
-                      else f"{mid}/-1///-1/-1/{page}")
-            # Rakuten documents both query-form and path-form routes.
-            # If the legacy query route returns HTTP 500, try the REST path
-            # once before treating this advertiser's creatives as unavailable.
+            # Datas e rota REST confirmadas por resposta XML autenticada
+            # da Link Locator em 18/11/2026. A API rejeitava as datas vazias.
+            suffix = (f"{mid}/-1/01012020/02012030/-1/{page}" if kind == "texto"
+                      else f"{mid}/-1/01012020/02012030/-1/-1/{page}")
             paths = (
-                f"/linklocator/1.0?{operation}/{suffix}",
                 f"/linklocator/1.0/{operation}/{suffix}",
+                f"/linklocator/1.0?{operation}/{suffix}",
             )
             try:
                 try:
                     raw = request_fn(paths[0], token)
                 except RuntimeError as first_error:
-                    # Tentar rota REST alternativa apenas se a rota documentada
-                    # devolveu erro de endpoint. Nunca insistir em 401/403.
+                    # Fallback legado somente quando a rota REST falhar;
+                    # nunca repetir requisicoes recusadas por 401/403.
                     if not any(code in str(first_error) for code in
                                ("HTTP 404", "HTTP 405", "HTTP 500")):
                         raise
