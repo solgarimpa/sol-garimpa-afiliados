@@ -248,12 +248,11 @@
     "20816": "2026-11-18T15:14:49.431153+00:00",
     "20817": "2026-11-18T15:14:49.431153+00:00"
   },
-  "ultima_consulta": "2026-11-18T15:14:49.431153+00:00",
+  "ultima_consulta": "2026-11-18T17:41:09.213480+00:00",
   "ultimo_diagnostico": {
     "mensagens_visiveis": 20,
-    "novas": 2,
-    "recentes": 2,
-    "publicadas": 1,
-    "situacao": "verificacao concluida"
+    "novas": 0,
+    "publicadas": 0,
+    "situacao": "canal consultado; sem novidades"
   }
 }
