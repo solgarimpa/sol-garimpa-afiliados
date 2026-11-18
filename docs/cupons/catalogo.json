@@ -1,11 +1,11 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-18T18:33:42.407935Z",
+  "atualizado_em": "2026-11-18T19:44:45.262282Z",
   "total": 388,
   "total_cupons": 138,
   "total_promocoes": 250,
   "fontes": {
-    "Awin": 384,
+    "Awin": 385,
     "Rakuten": 79,
     "Lomadee": 34
   },
@@ -1723,7 +1723,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2031-12-03T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1940053.7&type=3",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1940053.3&type=4",
       "rede": "Rakuten"
     },
     {
@@ -1965,6 +1965,18 @@
       "validade": "2029-03-28T03:00:00Z",
       "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2109896.58&type=3&subid=0",
       "rede": "Rakuten"
+    },
+    {
+      "id": "aae640bd24c7d87578",
+      "loja": "Intimissimi BR",
+      "tipo": "promocao",
+      "titulo": "Até 50% OFF em todas as categorias",
+      "descricao": "Até 50% OFF em todas as categorias",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-21T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=70965&awinaffid=3110826&ued=https%3A%2F%2Fwww.intimissimi.com.br%2Fblack-friday",
+      "rede": "Awin"
     },
     {
       "id": "2f7e93af03a51b638e",
@@ -4652,18 +4664,6 @@
       "cupom": "",
       "validade": "2026-11-19T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F902659",
-      "rede": "Awin"
-    },
-    {
-      "id": "67aebf3427467a1be1",
-      "loja": "Kabum BR",
-      "tipo": "promocao",
-      "titulo": "Suporte Articulado Fortrek Fk485s, Para Monitor E Notebook",
-      "descricao": "Suporte Articulado Fortrek Fk485s, Para Monitor E Notebook",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-19T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F531659",
       "rede": "Awin"
     }
   ]

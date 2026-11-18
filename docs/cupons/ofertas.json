@@ -1,8 +1,8 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-18T18:33:39.892140Z",
-  "total": 384,
+  "atualizado_em": "2026-11-18T19:44:43.469450Z",
+  "total": 385,
   "ofertas": [
     {
       "id": "4180264",
@@ -2896,6 +2896,17 @@
       "cupom": "CASADINHO",
       "validade": "2026-11-20T12:30:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1CASADINHO"
+    },
+    {
+      "id": "4180429",
+      "loja": "Intimissimi BR",
+      "tipo": "promocao",
+      "titulo": "Até 50% OFF em todas as categorias",
+      "descricao": "Até 50% OFF em todas as categorias",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-21T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=70965&awinaffid=3110826&ued=https%3A%2F%2Fwww.intimissimi.com.br%2Fblack-friday"
     },
     {
       "id": "4177738",
