@@ -10,6 +10,7 @@ on:
       - 'scripts/build_cupons_central.py'
       - 'tests/test_cupons_integridade.py'
       - 'docs/central/cupons-marketplace.html'
+      - 'docs/central/amazon-ofertas-oficiais.json'
       - 'docs/ifood/index.html'
       - 'docs/ifood/cupons.html'
       - '.github/workflows/atualizar_cupons_shopee.yml'
