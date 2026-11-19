@@ -1,8 +1,8 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-19T16:47:36.867252Z",
-  "total": 398,
+  "atualizado_em": "2026-11-19T18:08:31.477713Z",
+  "total": 400,
   "ofertas": [
     {
       "id": "4182052",
@@ -4042,6 +4042,17 @@
       "link": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=3110826&campaign=sirui+exclusive+deals+event&ued=https%3A%2F%2Fstore.sirui.com%2Fpages%2Fsales-1"
     },
     {
+      "id": "4182082",
+      "loja": "Farmácias Indiana BR",
+      "tipo": "promocao",
+      "titulo": "Entrega Super Expressa",
+      "descricao": "Entrega Super Expressa",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2027-01-02T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=122836&awinaffid=3110826&ued=https%3A%2F%2Fwww.farmaciaindiana.com.br"
+    },
+    {
       "id": "3692020",
       "loja": "Kaspersky BR",
       "tipo": "cupom",
@@ -4183,6 +4194,17 @@
       "cupom": "AFF-FREESHIPPING",
       "validade": "2027-06-01T03:41:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=3110826&ued=https%3A%2F%2Fstore.sirui.com%2F"
+    },
+    {
+      "id": "4014489",
+      "loja": "Oceane BR",
+      "tipo": "cupom",
+      "titulo": "Cupom 15% off",
+      "descricao": "15 OFF",
+      "termos": "Welcome 15",
+      "cupom": "WELCOME15",
+      "validade": "2027-07-20T13:32:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=127159&awinaffid=3110826&ued=https%3A%2F%2Fwww.oceane.com.br"
     },
     {
       "id": "3443027",
