@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-19T20:18:40+00:00",
+  "atualizado_em": "2026-11-19T21:08:06+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -985,12 +985,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-6a86aab5a632e80cac94",
+      "id": "lc-14744738149ef0ac5f2b",
       "loja": "Malwee",
       "tipo": "promocao",
-      "titulo": "Malwee Kids - DESCONTO EXTRA 🔥   Black November - Desconto de até 60% OFF + 10% OFF Extra 🎟️ Usando o cupom EXTRA10",
-      "imagem": "https://cdn.lomadee.com.br/offer/10696711-9ba0-4793-96c9-358ef8fa6e74/banners/imagem%20-%202026-11-16T134732.403.png",
-      "link": "https://lmdee.link/fvZ99Uz0b170",
+      "titulo": "Black November - Ganhe *R$100 OFF* em compras acima de R$ 500 e *R$250 OFF* em compras acima de R$ 1.000 🎟️ Usando o cupom GANHE100 e GANHE250",
+      "imagem": "https://cdn.lomadee.com.br/offer/d0007744-63f4-4d95-b286-185d3558e6c8/banners/Image%20%2815%29.png",
+      "link": "https://lmdee.link/azjbHtJ853r9",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1181,16 +1181,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-8044644cf4d8102344c3",
+      "id": "lc-eb556b3ed48f0041131b",
       "loja": "Soulier",
       "tipo": "promocao",
-      "titulo": "Semana Black Friday com até 60% OFF",
-      "imagem": "https://cdn.lomadee.com.br/offer/b7e886dc-e407-49c8-bb47-d615557d0305/banners/Reproduzir%20GIF%20Banner.jpg",
-      "link": "https://lmdee.link/sJvMvJHhk2jS",
+      "titulo": "Black progressiva",
+      "imagem": "https://cdn.lomadee.com.br/offer/9b0c4508-17f1-4f3a-9dc2-df365ce9ecf7/banners/lomadee_120x600.jpg",
+      "link": "https://lmdee.link/mDcp4IW9kkaj",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-27T02:30:00.000Z",
+      "validade": "2026-11-23T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1517,20 +1517,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-319d2f8c9df2083b0f76",
-      "loja": "Líquido",
-      "tipo": "cupom",
-      "titulo": "Cupom de 10% de desconto (Regra: não válido para peças promocionais/outlet)",
-      "imagem": "",
-      "link": "https://lmdee.link/lJLkInykeDxg",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "LOMADEE10",
-      "validade": "2027-01-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-2125de8a401d728b1d1a",
       "loja": "Mais Mu",
       "tipo": "cupom",
@@ -1545,12 +1531,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-e86372a81cc5675b5c61",
+      "id": "lc-6a86aab5a632e80cac94",
       "loja": "Malwee",
       "tipo": "promocao",
-      "titulo": "Malwee Kids - FLASH SALE !! Promos Imperdíveis por 48H , Garante mais 5% OFF Extra com cupom EXTRA5",
-      "imagem": "https://cdn.lomadee.com.br/offer/ca26ae9c-96b6-4266-88ad-39134768a1b6/banners/imagem%20-%202026-11-04T134309.257.png",
-      "link": "https://lmdee.link/fydE55GKEtDE",
+      "titulo": "Malwee Kids - DESCONTO EXTRA 🔥   Black November - Desconto de até 60% OFF + 10% OFF Extra 🎟️ Usando o cupom EXTRA10",
+      "imagem": "https://cdn.lomadee.com.br/offer/10696711-9ba0-4793-96c9-358ef8fa6e74/banners/imagem%20-%202026-11-16T134732.403.png",
+      "link": "https://lmdee.link/fvZ99Uz0b170",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1671,16 +1657,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-3361b423fdb9d7961d2c",
+      "id": "lc-8044644cf4d8102344c3",
       "loja": "Soulier",
       "tipo": "promocao",
-      "titulo": "https://www.soulier.com.br/bazar",
-      "imagem": "https://cdn.lomadee.com.br/offer/2f5be43e-bae5-4348-b96f-509294f6ecd2/banners/120x600_lomade_blue.jpg",
-      "link": "https://lmdee.link/BPAFjehyAENv",
+      "titulo": "Semana Black Friday com até 60% OFF",
+      "imagem": "https://cdn.lomadee.com.br/offer/b7e886dc-e407-49c8-bb47-d615557d0305/banners/Reproduzir%20GIF%20Banner.jpg",
+      "link": "https://lmdee.link/sJvMvJHhk2jS",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2027-01-01T02:59:59.000Z",
+      "validade": "2026-11-27T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1867,12 +1853,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-68555904da74986452ad",
+      "id": "lc-e86372a81cc5675b5c61",
       "loja": "Malwee",
       "tipo": "promocao",
-      "titulo": "Malwee - FLASH SALE:  Promos Imperdíveis por 48H , Garante mais 5% OFF Extra com cupom EXTRA5",
-      "imagem": "https://cdn.lomadee.com.br/offer/a1b22092-0169-448a-b544-e1c409d527b0/banners/imagem%20-%202026-11-04T134209.221.png",
-      "link": "https://lmdee.link/pvMuH6esRn0i",
+      "titulo": "Malwee Kids - FLASH SALE !! Promos Imperdíveis por 48H , Garante mais 5% OFF Extra com cupom EXTRA5",
+      "imagem": "https://cdn.lomadee.com.br/offer/ca26ae9c-96b6-4266-88ad-39134768a1b6/banners/imagem%20-%202026-11-04T134309.257.png",
+      "link": "https://lmdee.link/fydE55GKEtDE",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1895,30 +1881,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-f7de0ae70b64cfab6f59",
-      "loja": "Sawary",
-      "tipo": "promocao",
-      "titulo": "Temporada de Bermudas, Shorts e Saias",
-      "imagem": "",
-      "link": "https://lmdee.link/GkWJOtX32N7Q",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-842860296c8af419ff90",
+      "id": "lc-3361b423fdb9d7961d2c",
       "loja": "Soulier",
       "tipo": "promocao",
-      "titulo": "Esquenta Black Friday !! 15% em 1 peça e 20% em 2 ou mais peças",
-      "imagem": "https://cdn.lomadee.com.br/offer/68f6231f-d613-4cbc-aae2-f846488fdd34/banners/Banner%20%2824%29.png",
-      "link": "https://lmdee.link/X4RokVxxkdrB",
+      "titulo": "https://www.soulier.com.br/bazar",
+      "imagem": "https://cdn.lomadee.com.br/offer/2f5be43e-bae5-4348-b96f-509294f6ecd2/banners/120x600_lomade_blue.jpg",
+      "link": "https://lmdee.link/BPAFjehyAENv",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-23T02:30:00.000Z",
+      "validade": "2027-01-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2007,6 +1979,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-68555904da74986452ad",
+      "loja": "Malwee",
+      "tipo": "promocao",
+      "titulo": "Malwee - FLASH SALE:  Promos Imperdíveis por 48H , Garante mais 5% OFF Extra com cupom EXTRA5",
+      "imagem": "https://cdn.lomadee.com.br/offer/a1b22092-0169-448a-b544-e1c409d527b0/banners/imagem%20-%202026-11-04T134209.221.png",
+      "link": "https://lmdee.link/pvMuH6esRn0i",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-23T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-55e695d5f02bc4022f8c",
       "loja": "Morena Rosa",
       "tipo": "cupom",
@@ -2021,16 +2007,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-7b713b423c8b0c17d5d0",
+      "id": "lc-842860296c8af419ff90",
       "loja": "Soulier",
       "tipo": "promocao",
-      "titulo": "Ofertas Soulier",
-      "imagem": "https://cdn.lomadee.com.br/offer/5e63481d-a8f4-44c7-bce0-d3b703a388bc/banners/160x600.jpg",
-      "link": "https://lmdee.link/YRGi3c5LCC8Y",
+      "titulo": "Esquenta Black Friday !! 15% em 1 peça e 20% em 2 ou mais peças",
+      "imagem": "https://cdn.lomadee.com.br/offer/68f6231f-d613-4cbc-aae2-f846488fdd34/banners/Banner%20%2824%29.png",
+      "link": "https://lmdee.link/X4RokVxxkdrB",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-30T03:30:00.000Z",
+      "validade": "2026-11-23T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2119,16 +2105,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-f898c9f359ac68ccf121",
+      "id": "lc-7b713b423c8b0c17d5d0",
       "loja": "Soulier",
-      "tipo": "cupom",
-      "titulo": "12% de desconto não cumulativo com outras promoções",
-      "imagem": "",
-      "link": "https://lmdee.link/Sw3sUzNLNSN9",
+      "tipo": "promocao",
+      "titulo": "Ofertas Soulier",
+      "imagem": "https://cdn.lomadee.com.br/offer/5e63481d-a8f4-44c7-bce0-d3b703a388bc/banners/160x600.jpg",
+      "link": "https://lmdee.link/YRGi3c5LCC8Y",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "LOMADEE12",
-      "validade": "2027-01-01T02:30:00.000Z",
+      "cupom": null,
+      "validade": "2026-11-30T03:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2213,6 +2199,20 @@
       "preco_anterior": null,
       "cupom": "SHOES10",
       "validade": "2026-12-01T02:59:59.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-f898c9f359ac68ccf121",
+      "loja": "Soulier",
+      "tipo": "cupom",
+      "titulo": "12% de desconto não cumulativo com outras promoções",
+      "imagem": "",
+      "link": "https://lmdee.link/Sw3sUzNLNSN9",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "LOMADEE12",
+      "validade": "2027-01-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2635,25 +2635,11 @@
       "validade": null,
       "descricao": "Ar Condicionado Split Philco 30.000 BTUs Frio PAC30FI – 220 Volts    O Ar Condicionado ideal para grandes ambientes  O    Ar Condicionado Split    Philco 30.000 BTUs Frio (PAC30FI) – 220 Volts é a solução ideal para clim",
       "origem": "Lomadee"
-    },
-    {
-      "id": "lp-84ae8c38300c4e09f98a",
-      "loja": "Friopeças",
-      "tipo": "produto",
-      "titulo": "Ar Condicionado Split Inverter 9.000 Btus Gree G-Top Auto 220V GWC09ATB-D6DNA1A/I",
-      "imagem": "https://friopecas.vteximg.com.br/arquivos/ids/235445/KIT.jpg?v=638941467542870000",
-      "link": "https://lmdee.link/fTeLJmtGeZeW",
-      "preco": 25.98,
-      "preco_anterior": 36.28,
-      "cupom": null,
-      "validade": null,
-      "descricao": "Ar Condicionado Split Inverter 9.000 Btus Gree G-Top Auto 220V GWC09ATB-D6DNA1A/I     Ar condicionado com Tecnologia, praticidade e economia   O ar condicionado Split Gree G-Top Auto Inverter 9.000 BTUs Frio 220V é sinôn",
-      "origem": "Lomadee"
     }
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 151,
+    "com_ofertas": 150,
     "marcas": 133,
     "campanhas": 120,
     "produtos": 60,
