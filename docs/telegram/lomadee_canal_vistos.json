@@ -275,12 +275,11 @@
     "20843": "2026-11-19T19:19:58.899982+00:00",
     "20844": "2026-11-19T20:37:45.971196+00:00"
   },
-  "ultima_consulta": "2026-11-19T20:37:45.971196+00:00",
+  "ultima_consulta": "2026-11-19T23:28:27.649941+00:00",
   "ultimo_diagnostico": {
     "mensagens_visiveis": 20,
-    "novas": 1,
-    "recentes": 1,
+    "novas": 0,
     "publicadas": 0,
-    "situacao": "verificacao concluida"
+    "situacao": "canal consultado; sem novidades"
   }
 }
