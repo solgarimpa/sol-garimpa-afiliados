@@ -1,20 +1,9 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-19T11:41:10.948195Z",
-  "total": 127,
+  "atualizado_em": "2026-11-19T12:47:48.195363Z",
+  "total": 130,
   "ofertas": [
-    {
-      "id": "4180421",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "10% OFF em itens selecionados na campanha Korujão Especial Esquenta Black Friday",
-      "descricao": "10% OFF em itens selecionados na campanha Korujão Especial Esquenta Black Friday",
-      "termos": ".",
-      "cupom": "KORUJAO",
-      "validade": "2026-11-19T12:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FKORUJAO"
-    },
     {
       "id": "4178350",
       "loja": "Kabum BR",
@@ -234,6 +223,50 @@
       "cupom": "MULTI5OFF",
       "validade": "2026-11-30T13:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F996897%2Fmultifuncional-epson-ecotank-l4360-c11cl41302"
+    },
+    {
+      "id": "4181490",
+      "loja": "Earfun, Inc",
+      "tipo": "cupom",
+      "titulo": "[Black Friday] 17% OFF - EarFun Air Pro 4i",
+      "descricao": "From November 19th to 30th, EarFun Air Pro 4i offers a 17% off on Global site; 42% off on DE/EU site; 34% off on UK site.",
+      "termos": "color: black",
+      "cupom": "BFAP4I",
+      "validade": "2026-11-30T15:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=61233&awinaffid=3110826&ued=https%3A%2F%2Fwww.myearfun.com%2Fheadphones%2Fearfun-air-pro-4i-anc-true-wireless-earbuds-black"
+    },
+    {
+      "id": "4181488",
+      "loja": "Earfun, Inc",
+      "tipo": "cupom",
+      "titulo": "[Black Friday] 34% OFF - EarFun Wave Pro",
+      "descricao": "From November 19th to 30th, EarFun Wave Pro offers a 34% off on Global site; 37% off on DE/EU site; 24% off on UK site.",
+      "termos": "color: black",
+      "cupom": "BFWP",
+      "validade": "2026-11-30T15:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=61233&awinaffid=3110826&ued=http%3A%2F%2Fwww.myearfun.com%2Fheadphones%2Fearfun-wave-pro-hi-res-wireless-headphone-black"
+    },
+    {
+      "id": "4181484",
+      "loja": "Earfun, Inc",
+      "tipo": "cupom",
+      "titulo": "[Black Friday] 34% OFF - EarFun Tune Pro",
+      "descricao": "From November 19th to 30th, EarFun Tune Pro offers a 34% off on Global site; 30% off on DE/EU site; 60% off on UK site.",
+      "termos": "color: black",
+      "cupom": "BFTP",
+      "validade": "2026-11-30T15:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=61233&awinaffid=3110826&ued=http%3A%2F%2Fwww.myearfun.com%2Fheadphones%2Fearfun-tune-pro-hi-res-wireless-headphone-black"
+    },
+    {
+      "id": "4181480",
+      "loja": "Earfun, Inc",
+      "tipo": "cupom",
+      "titulo": "[Black Friday] 65% OFF - EarFun Air Pro 3",
+      "descricao": "From November 19th to 30th, EarFun Air Pro 3 offers a 65% off on UK site.",
+      "termos": "color: black",
+      "cupom": "BFAP3",
+      "validade": "2026-11-30T15:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=61233&awinaffid=3110826&ued=https%3A%2F%2Fwww.myearfun.com%2Fuk%2Fheadphones%2Fearfun-air-pro-3-le-audio-anc-true-wireless-earbuds-black"
     },
     {
       "id": "4143581",
