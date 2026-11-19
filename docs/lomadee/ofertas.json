@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-19T22:06:51+00:00",
+  "atualizado_em": "2026-11-19T23:02:59+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -645,6 +645,20 @@
       "preco_anterior": null,
       "cupom": "BEEPFRIDAYLOMADEE",
       "validade": "2026-12-05T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-771ef91632f2af74226a",
+      "loja": "BioVittare Farmácia de Manipulação",
+      "tipo": "cupom",
+      "titulo": "Black November",
+      "imagem": "",
+      "link": "https://lmdee.link/JshmvovPZi0i",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "BLACK10",
+      "validade": "2026-11-27T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1764,20 +1778,6 @@
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-80b667df035303e15643",
-      "loja": "Bauducco",
-      "tipo": "cupom",
-      "titulo": "Cupom de 10% de desconto na primeira compra",
-      "imagem": "",
-      "link": "https://lmdee.link/MmnMtSRGuiYC",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "REDELOMADEE",
       "validade": null,
       "descricao": "",
       "origem": "Lomadee"
