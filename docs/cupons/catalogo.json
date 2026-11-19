@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-19T20:37:57.681872Z",
-  "total": 408,
-  "total_cupons": 158,
+  "atualizado_em": "2026-11-19T21:36:07.384974Z",
+  "total": 407,
+  "total_cupons": 157,
   "total_promocoes": 250,
   "fontes": {
     "Awin": 412,
     "Rakuten": 84,
-    "Lomadee": 34
+    "Lomadee": 33
   },
   "ofertas": [
     {
@@ -1571,18 +1571,6 @@
       "rede": "Lomadee"
     },
     {
-      "id": "3b10743ee4404d2ee9",
-      "loja": "Líquido",
-      "tipo": "cupom",
-      "titulo": "Cupom de 10% de desconto (Regra: não válido para peças promocionais/outlet)",
-      "descricao": "",
-      "termos": "",
-      "cupom": "LOMADEE10",
-      "validade": "2027-01-01T02:30:00Z",
-      "link": "https://lmdee.link/lJLkInykeDxg",
-      "rede": "Lomadee"
-    },
-    {
       "id": "29d901cb62552bddec",
       "loja": "Mais Mu",
       "tipo": "cupom",
@@ -1958,12 +1946,12 @@
       "id": "6d0d36bdf904a0f998",
       "loja": "ASUS BR",
       "tipo": "promocao",
-      "titulo": "Aproveite até 60% de desconto nos melhores notebooks e notebooks gamers!",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
+      "titulo": "Aproveite Até 60% De Desconto Nos Melhores Notebooks E Notebooks Gamers!",
+      "descricao": "",
       "termos": "",
       "cupom": "",
-      "validade": "2031-12-03T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1940053.3&type=4",
+      "validade": "2031-12-03T02:00:00Z",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1940053.7&type=3&subid=0",
       "rede": "Rakuten"
     },
     {
