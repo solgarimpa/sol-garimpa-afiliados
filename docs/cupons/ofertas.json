@@ -1,8 +1,8 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-19T12:47:48.195363Z",
-  "total": 130,
+  "atualizado_em": "2026-11-19T14:28:12.875886Z",
+  "total": 136,
   "ofertas": [
     {
       "id": "4178350",
@@ -223,6 +223,72 @@
       "cupom": "MULTI5OFF",
       "validade": "2026-11-30T13:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F996897%2Fmultifuncional-epson-ecotank-l4360-c11cl41302"
+    },
+    {
+      "id": "4181515",
+      "loja": "Earfun, Inc",
+      "tipo": "cupom",
+      "titulo": "[Black Friday] 52% OFF - EarFun Clip",
+      "descricao": "From November 19th to 30th, EarFun Clip offers a 52% off on Global site; 62% off on DE/EU site; 60% off on UK site.",
+      "termos": "color: black, white, grey",
+      "cupom": "BFEC",
+      "validade": "2026-11-30T15:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=61233&awinaffid=3110826&ued=https%3A%2F%2Fwww.myearfun.com%2Fheadphones%2Fearfun-clip-hi-res-open-ear-wireless-earbuds-silver-grey"
+    },
+    {
+      "id": "4181513",
+      "loja": "Earfun, Inc",
+      "tipo": "cupom",
+      "titulo": "[Black Friday] 30% OFF - EarFun Air Pro 4+",
+      "descricao": "From November 19th to 30th, EarFun Air Pro 4+ offers a 30% off on Global site; 30% off on DE/EU site; 33% off on UK site.",
+      "termos": "color: black, white",
+      "cupom": "BFAP4P",
+      "validade": "2026-11-30T15:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=61233&awinaffid=3110826&ued=https%3A%2F%2Fwww.myearfun.com%2Fheadphones%2Fearfun-air-pro-4-plus-hi-res-adaptive-anc-true-wireless-earbuds-black"
+    },
+    {
+      "id": "4181507",
+      "loja": "Earfun, Inc",
+      "tipo": "cupom",
+      "titulo": "[Black Friday] 15% OFF - EarFun Wave Pro X",
+      "descricao": "From November 19th to 30th, EarFun Wave Pro X offers a 15% off on Global site; 19% off on DE/EU site; 19% off on UK site.",
+      "termos": "color: black",
+      "cupom": "BFWPX",
+      "validade": "2026-11-30T15:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=61233&awinaffid=3110826&ued=https%3A%2F%2Fwww.myearfun.com%2Fheadphones%2Fearfun-wave-pro-x-hi-res-hybrid-anc-true-wireless-headphones-black"
+    },
+    {
+      "id": "4181502",
+      "loja": "Earfun, Inc",
+      "tipo": "cupom",
+      "titulo": "[Black Friday] 43% OFF - EarFun Air Pro 4",
+      "descricao": "From November 19th to 30th, EarFun Air Pro 4 offers a 43% off on Global site; 30% off on DE/EU site; 40% off on UK site.",
+      "termos": "color: black, white",
+      "cupom": "BFAP4",
+      "validade": "2026-11-30T15:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=61233&awinaffid=3110826&ued=https%3A%2F%2Fwww.myearfun.com%2Fheadphones%2Fearfun-air-pro-4-adaptive-anc-true-wireless-earbuds-black"
+    },
+    {
+      "id": "4181497",
+      "loja": "Earfun, Inc",
+      "tipo": "cupom",
+      "titulo": "[Black Friday] 28% OFF - EarFun Clip 2",
+      "descricao": "From November 19th to 30th, EarFun Clip 2 offers a 28% off on Global site; 32% off on DE/EU site; 27% off on UK site.",
+      "termos": "color: black, white",
+      "cupom": "BFEC2",
+      "validade": "2026-11-30T15:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=61233&awinaffid=3110826&ued=https%3A%2F%2Fwww.myearfun.com%2Fheadphones%2Fearfun-clip-2-hi-res-open-ear-wireless-earbuds-black"
+    },
+    {
+      "id": "4181496",
+      "loja": "Earfun, Inc",
+      "tipo": "cupom",
+      "titulo": "[Black Friday] 33% OFF - EarFun Open Jump",
+      "descricao": "From November 19th to 30th, EarFun Open Jump offers a 33% off on Global site; 32% off on DE/EU site; 41% off on UK site.",
+      "termos": "color: black",
+      "cupom": "BFOJ",
+      "validade": "2026-11-30T15:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=61233&awinaffid=3110826&ued=https%3A%2F%2Fwww.myearfun.com%2Fheadphones%2Fearfun-openjump-open-ear-wireless-earbuds-black"
     },
     {
       "id": "4181490",
