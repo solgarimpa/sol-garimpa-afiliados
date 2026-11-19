@@ -1,6 +1,6 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-19T22:34:49.471744Z",
+  "atualizado_em": "2026-11-19T23:28:49.102225Z",
   "total": 409,
   "total_cupons": 159,
   "total_promocoes": 250,
@@ -47,18 +47,6 @@
       "rede": "Lomadee"
     },
     {
-      "id": "88683318a81dec70f0",
-      "loja": "Bauducco",
-      "tipo": "cupom",
-      "titulo": "Cupom de 10% de desconto na primeira compra",
-      "descricao": "",
-      "termos": "",
-      "cupom": "REDELOMADEE",
-      "validade": null,
-      "link": "https://lmdee.link/MmnMtSRGuiYC",
-      "rede": "Lomadee"
-    },
-    {
       "id": "f12f7e9cd0615a190f",
       "loja": "Beep Saúde",
       "tipo": "cupom",
@@ -68,6 +56,18 @@
       "cupom": "BEEPFRIDAYLOMADEE",
       "validade": "2026-12-05T02:30:00Z",
       "link": "https://lmdee.link/HHh80AmDI8gj",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "fdc9b86ab7fb623d39",
+      "loja": "BioVittare Farmácia de Manipulação",
+      "tipo": "cupom",
+      "titulo": "Black November",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK10",
+      "validade": "2026-11-27T02:30:00Z",
+      "link": "https://lmdee.link/JshmvovPZi0i",
       "rede": "Lomadee"
     },
     {
@@ -1970,12 +1970,12 @@
       "id": "6d0d36bdf904a0f998",
       "loja": "ASUS BR",
       "tipo": "promocao",
-      "titulo": "Aproveite Até 60% De Desconto Nos Melhores Notebooks E Notebooks Gamers!",
-      "descricao": "",
+      "titulo": "Aproveite até 60% de desconto nos melhores notebooks e notebooks gamers!",
+      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
       "termos": "",
       "cupom": "",
-      "validade": "2031-12-03T02:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1940053.7&type=3&subid=0",
+      "validade": "2031-12-03T00:00:00Z",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1940053.3&type=4",
       "rede": "Rakuten"
     },
     {
