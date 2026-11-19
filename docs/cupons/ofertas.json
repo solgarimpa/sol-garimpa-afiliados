@@ -1,8 +1,8 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-19T21:36:04.688845Z",
-  "total": 412,
+  "atualizado_em": "2026-11-19T22:34:46.713428Z",
+  "total": 433,
   "ofertas": [
     {
       "id": "4182224",
@@ -3085,6 +3085,105 @@
       "link": "https://www.awin1.com/cread.php?awinmid=28167&awinaffid=3110826&ued=https%3A%2F%2Fwww.eurorelogios.com.br%2Fblack-friday"
     },
     {
+      "id": "4180502",
+      "loja": "Evas BR",
+      "tipo": "promocao",
+      "titulo": "Kit Creamy Skincare Vitamina C Glocólico Hidratante Calming Cream 3 produtos",
+      "descricao": "Kit Creamy Skincare Vitamina C Glocólico Hidratante Calming Cream 3 produtos",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-23T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fkit-creamy-skincare-vitamina-c-glocolico-hidratante-calming-cream-3-produtos"
+    },
+    {
+      "id": "4180501",
+      "loja": "Evas BR",
+      "tipo": "promocao",
+      "titulo": "Blush Stick Cremoso Cor 02 Vizzela Stick Blush 7g",
+      "descricao": "Blush Stick Cremoso Cor 02 Vizzela Stick Blush 7g",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-23T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fvizzela-stick-blush-cor-02-blush-em-bastao-7g"
+    },
+    {
+      "id": "4180500",
+      "loja": "Evas BR",
+      "tipo": "promocao",
+      "titulo": "Blush em Bastão Stick Blush Cor 01 Vizzela 7g",
+      "descricao": "Blush em Bastão Stick Blush Cor 01 Vizzela 7g",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-23T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fvizzela-stick-blush-cor-01-blush-em-bastao-7g"
+    },
+    {
+      "id": "4180499",
+      "loja": "Evas BR",
+      "tipo": "promocao",
+      "titulo": "Óleo Capilar Cristalli Liquidi Alfaparf Milano Professional Semi Di Lino Sublime 50ml",
+      "descricao": "Óleo Capilar Cristalli Liquidi Alfaparf Milano Professional Semi Di Lino Sublime 50ml",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-23T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Falfaparf-semi-di-lino-sublime-cristalli-liquidi-oleo-capilar-50ml"
+    },
+    {
+      "id": "4180497",
+      "loja": "Evas BR",
+      "tipo": "promocao",
+      "titulo": "Perfume Feminino 212 Vip Rosé Ny Rodeo Eau De Parfum Carolina Herrera 80ml",
+      "descricao": "Perfume Feminino 212 Vip Rosé Ny Rodeo Eau De Parfum Carolina Herrera 80ml",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-23T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fcarolina-herrera-212-vip-rose-ny-rodeo-eau-de-parfum-perfume-feminino-80ml"
+    },
+    {
+      "id": "4180496",
+      "loja": "Evas BR",
+      "tipo": "promocao",
+      "titulo": "Kit Cadiveu Professional Hydra Pro Shampoo e Condicionador 980ml 2 produtos",
+      "descricao": "Kit Cadiveu Professional Hydra Pro Shampoo e Condicionador 980ml 2 produtos",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-23T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fkit-cadiveu-professional-hydra-pro-shampoo-e-condicionador-980-2-produtos"
+    },
+    {
+      "id": "4180495",
+      "loja": "Evas BR",
+      "tipo": "promocao",
+      "titulo": "Máscara Capilar Ultimate Luxe Oil Wella Professionals 150ml",
+      "descricao": "Máscara Capilar Ultimate Luxe Oil Wella Professionals 150ml",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-23T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fwella-professionals-ultimate-luxe-oil-mascara-capilar-150ml"
+    },
+    {
+      "id": "4180493",
+      "loja": "Evas BR",
+      "tipo": "promocao",
+      "titulo": "Leave-in Restaurador Protein Cream N.P.P.E. Sh-Rd 10ml",
+      "descricao": "Leave-in Restaurador Protein Cream N.P.P.E. Sh-Rd 10ml",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-23T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fn-p-p-e-sh-rd-protein-cream-leave-in-restaurador-10ml"
+    },
+    {
+      "id": "4180492",
+      "loja": "Evas BR",
+      "tipo": "promocao",
+      "titulo": "Máscara de Tratamento Keune Care Keratin Smooth 500ml",
+      "descricao": "Máscara de Tratamento Keune Care Keratin Smooth 500ml",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-23T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fkeune-keratin-smooth-mascara-500ml"
+    },
+    {
       "id": "4182230",
       "loja": "Kabum BR",
       "tipo": "cupom",
@@ -3358,6 +3457,127 @@
       "cupom": "",
       "validade": "2026-11-30T15:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=114180&awinaffid=3110826&campaign=safe+accu+kit+50+off+oct26&ued=https%3A%2F%2Fen.sinocare.com%2Fproducts%2Fsinocare-blood-glucose-monitor-safe-accu%3Fvariant%3D43072245825768"
+    },
+    {
+      "id": "4165030",
+      "loja": "Evas BR",
+      "tipo": "promocao",
+      "titulo": "58% OFF em Sebastian Professional Dark Oil Hair Mist - Perfume para Cabelo 200ml",
+      "descricao": "58% OFF em Sebastian Professional Dark Oil Hair Mist - Perfume para Cabelo 200ml",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fsebastian-professional-dark-oil-hair-mist-perfume-para-cabelo-200ml"
+    },
+    {
+      "id": "4165027",
+      "loja": "Evas BR",
+      "tipo": "promocao",
+      "titulo": "57% OFF em Sebastian Professional Dark Oil - Máscara Capilar 500ml",
+      "descricao": "57% OFF em Sebastian Professional Dark Oil - Máscara Capilar 500ml",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fsebastian-professional-dark-oil-mascara-capilar-500ml-1"
+    },
+    {
+      "id": "4165023",
+      "loja": "Evas BR",
+      "tipo": "promocao",
+      "titulo": "35% OFF em Kit Wella Professionals Ultimate Luxe Oil Salon Duo (2 produtos)",
+      "descricao": "35% OFF em Kit Wella Professionals Ultimate Luxe Oil Salon Duo (2 produtos)",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fkit-wella-professionals-ultimate-luxe-oil-salon-duo-2-produtos"
+    },
+    {
+      "id": "4165021",
+      "loja": "Evas BR",
+      "tipo": "promocao",
+      "titulo": "67% OFF em Máscara de Tratamento Keune Care Keratin Smooth 500ml",
+      "descricao": "67% OFF em Máscara de Tratamento Keune Care Keratin Smooth 500ml",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fkeune-keratin-smooth-mascara-500ml"
+    },
+    {
+      "id": "4165017",
+      "loja": "Evas BR",
+      "tipo": "promocao",
+      "titulo": "63% OFF em Óleo Capilar Dark Oil Sebastian Professional 100ml",
+      "descricao": "63% OFF em Óleo Capilar Dark Oil Sebastian Professional 100ml",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fsebastian-professional-dark-oil-oleo-capilar-95ml"
+    },
+    {
+      "id": "4165014",
+      "loja": "Evas BR",
+      "tipo": "promocao",
+      "titulo": "60% OFF em Máscara de Hidratação Inner Restore Deep Moisturizing Senscience 200ml",
+      "descricao": "60% OFF em Máscara de Hidratação Inner Restore Deep Moisturizing Senscience 200ml",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fsenscience-inner-restore-deep-moisturizing-mascara-de-hidratacao-200ml"
+    },
+    {
+      "id": "4165009",
+      "loja": "Evas BR",
+      "tipo": "promocao",
+      "titulo": "67% OFF em Máscara Capilar Senscience Inner Restore Intensif 500ml",
+      "descricao": "67% OFF em Máscara Capilar Senscience Inner Restore Intensif 500ml",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fsenscience-inner-restore-intensif-mascara-capilar-500ml"
+    },
+    {
+      "id": "4165005",
+      "loja": "Evas BR",
+      "tipo": "promocao",
+      "titulo": "58% OFF em Wella Professionals Oil Reflections Luminous Reboost Máscara Capilar 500ml",
+      "descricao": "58% OFF em Wella Professionals Oil Reflections Luminous Reboost Máscara Capilar 500ml",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fwella-professionals-oil-reflections-luminous-reboost-mascara-500ml"
+    },
+    {
+      "id": "4165001",
+      "loja": "Evas BR",
+      "tipo": "promocao",
+      "titulo": "64% OFF em Kit Hydra Pro",
+      "descricao": "64% OFF em Kit Hydra Pro",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fkit-cadiveu-professional-hydra-pro-shampoo-e-condicionador-980-2-produtos"
+    },
+    {
+      "id": "4164999",
+      "loja": "Evas BR",
+      "tipo": "promocao",
+      "titulo": "60% OFF Óleo de Tratamento Açaí Oil Cadiveu Professional 110ml",
+      "descricao": "60% OFF Óleo de Tratamento Açaí Oil Cadiveu Professional 110ml",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fcadiveu-professional-acai-oil-oleo-de-tratamento-110ml"
+    },
+    {
+      "id": "4164995",
+      "loja": "Evas BR",
+      "tipo": "promocao",
+      "titulo": "60% OFF em Sérum Reparador Capilar Divine Plume Sensation Braé 60ml",
+      "descricao": "60% OFF em Sérum Reparador Capilar Divine Plume Sensation Braé 60ml",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fbrae-divine-plume-sensation-serum-reparador-capilar-60ml"
     },
     {
       "id": "4175532",
@@ -4414,6 +4634,17 @@
       "cupom": "PLAYNINJA10",
       "validade": "2027-09-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1CAPCOM10"
+    },
+    {
+      "id": "4180405",
+      "loja": "Evas BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF no site, cumulativo com desconto",
+      "descricao": "10% OFF no site, cumulativo com desconto",
+      "termos": ".",
+      "cupom": "AWIN10",
+      "validade": "2027-11-18T18:12:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2F"
     },
     {
       "id": "4154460",
