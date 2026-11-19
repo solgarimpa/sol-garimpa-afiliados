@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-19T01:33:50+00:00",
+  "atualizado_em": "2026-11-19T03:08:21+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -789,20 +789,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-a86078a74cd1df18a8dc",
-      "loja": "Ferramentas Kennedy",
-      "tipo": "promocao",
-      "titulo": "Bosch Friday: Ofertas imperdívei",
-      "imagem": "https://cdn.lomadee.com.br/offer/ea28ce77-474a-4b95-acd4-a11a4317eed7/banners/Bosch%20Friday%20%281%29.png",
-      "link": "https://lmdee.link/pwa1Eb2xD6uh",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-19T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-e7424f2567fbe95b24e9",
       "loja": "FOM",
       "tipo": "promocao",
@@ -1195,20 +1181,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-eaaed9cf51b3d967e9f6",
-      "loja": "Super Pro Atacado",
-      "tipo": "promocao",
-      "titulo": "Bosch Friday: Ofertas imperdíveis",
-      "imagem": "https://cdn.lomadee.com.br/offer/a4d97d9f-6ac2-4e88-bf1f-f8911b895dc8/banners/Bosch%20Friday.png",
-      "link": "https://lmdee.link/FoL9i965hNWu",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-19T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-ff5104fc66915c41d955",
       "loja": "UP Kids",
       "tipo": "promocao",
@@ -1247,20 +1219,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-23T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-31310634924eeeae43f1",
-      "loja": "Vinícola Jolimont",
-      "tipo": "promocao",
-      "titulo": "O MAIOR SORTEIO DO ANO 18.11",
-      "imagem": "https://cdn.lomadee.com.br/offer/326f1c82-7f68-484e-822d-ca8d26c0c363/banners/Jolimont_Lomadee%203.png",
-      "link": "https://lmdee.link/x1w8v5Cl5uNR",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-19T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1331,6 +1289,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-ab8c31921b04f6dffa6b",
+      "loja": "Autoamerica Store",
+      "tipo": "promocao",
+      "titulo": "Lançamento Autoamerica Store",
+      "imagem": "https://cdn.lomadee.com.br/offer/263beb4d-1c28-45be-85b8-d48ff27637c7/banners/PROMO%20Luva%20de%20lavagem%20-%20Mobile.jpg",
+      "link": "https://lmdee.link/yt4UkIouqEWb",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2027-01-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1419,20 +1391,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-cd826e2da5b5edf27037",
-      "loja": "Ferramentas Kennedy",
-      "tipo": "promocao",
-      "titulo": "Esquenta Black Friday : Até 60% off em produtos selecionados  + 10% off à vista | 5% off no cartão em até 5x | Até 10x sem juros no cartão",
-      "imagem": "https://cdn.lomadee.com.br/offer/03c10310-c8ed-4156-bdfe-2f0754137e0e/banners/Esquenta%20Black%20Friday%20%281%29.png",
-      "link": "https://lmdee.link/Qw6sMRxUsvgq",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-19T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lp-86a6852f49763f3686c0",
       "loja": "Friopeças",
       "tipo": "produto",
@@ -1471,6 +1429,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-24T02:59:59.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-3cdb9454b7efe1e37898",
+      "loja": "Kidy Calçados",
+      "tipo": "promocao",
+      "titulo": "Kidy Veloz - Melhor Tênis de Rodinha do Brasil",
+      "imagem": "https://cdn.lomadee.com.br/offer/02d2a1d5-0129-4b9d-819a-427293614e7a/banners/BANNET-SITE-DESKTOP.jpg",
+      "link": "https://lmdee.link/DQ4zxgtYfOlR",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1643,20 +1615,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-e21dcb4311888ca21b47",
-      "loja": "Super Pro Atacado",
-      "tipo": "promocao",
-      "titulo": "Super Esquenta Black Friday!! Ferramentas Elétricas com até 60% off em produtos selecionados!",
-      "imagem": "https://cdn.lomadee.com.br/offer/b33394d6-6815-4578-affa-9948164b3039/banners/Ferramentas%20El%C3%A9tricas.png",
-      "link": "https://lmdee.link/IOziY3h921Uk",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-19T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-e874ee232edada3cda19",
       "loja": "UP Kids",
       "tipo": "promocao",
@@ -1783,6 +1741,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-3c55ff6613db21589bfc",
+      "loja": "Kidy Calçados",
+      "tipo": "promocao",
+      "titulo": "Lançamento Rebecca Bonbon",
+      "imagem": "https://cdn.lomadee.com.br/offer/20551a3f-6d67-4c0a-911d-0760296c8cab/banners/ChatGPT%20Image%202%20de%20out.%20de%202026%2C%2014_15_15.png",
+      "link": "https://lmdee.link/c7Jp0CtiBhb7",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-9541c965b41fe29c5bf8",
       "loja": "Lauri Esporte",
       "tipo": "promocao",
@@ -1849,20 +1821,6 @@
       "preco_anterior": null,
       "cupom": "LOMADEE12",
       "validade": "2027-01-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-49e2e0fcaf42e1f48500",
-      "loja": "Super Pro Atacado",
-      "tipo": "promocao",
-      "titulo": "Super Esquenta Black Friday! Mais de 5 mil produtos com até 60% off e as melhores condições de pagamento",
-      "imagem": "https://cdn.lomadee.com.br/offer/153f215f-8651-4da8-a16f-5daff65c25bd/banners/Esquenta%20Black%20Friday.png",
-      "link": "https://lmdee.link/UtKxSZm8Mj6I",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-19T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2189,6 +2147,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-601a28b540080890d985",
+      "loja": "Brinox",
+      "tipo": "promocao",
+      "titulo": "Esquenta Black Friday",
+      "imagem": "https://cdn.lomadee.com.br/offer/d68c7a5e-c32d-468e-a073-803e7712ee68/banners/Visualiza%C3%A7%C3%A3o%20da%20imagem%20%2849%29.png",
+      "link": "https://lmdee.link/xxOsgPgpJNQG",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-12-11T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lp-df7631b6dc476c328ad4",
       "loja": "Friopeças",
       "tipo": "produto",
@@ -2231,6 +2203,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-fcf2c7975359e50280cc",
+      "loja": "Brinox",
+      "tipo": "cupom",
+      "titulo": "R$ 100 em compras acima de R$699",
+      "imagem": "",
+      "link": "https://lmdee.link/mGEeBYw6ZwcY",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "BF100",
+      "validade": "2026-12-21T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lp-b15ad2874341c1ab2fb2",
       "loja": "Friopeças",
       "tipo": "produto",
@@ -2269,6 +2255,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-5dfd6c15ad056df41f16",
+      "loja": "Brinox",
+      "tipo": "cupom",
+      "titulo": "R$ 50 em compras acima de R$399",
+      "imagem": "",
+      "link": "https://lmdee.link/nRs51ZGLWI6v",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "BF50",
+      "validade": "2026-12-21T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2663,25 +2663,11 @@
       "validade": null,
       "descricao": "Ar Condicionado Split Cassete Inverter Midea 24000 BTU/h Frio Monofásico 38TVCD24515MM – 220 Volts    O  Ar Condicionado Split Cassete Inverter Midea 24000 BTU/h Frio Monofásico 38TVCD24515MM   é o equipamento ideal para",
       "origem": "Lomadee"
-    },
-    {
-      "id": "lp-6fa7e99eb7e0ee34655f",
-      "loja": "Friopeças",
-      "tipo": "produto",
-      "titulo": "Ar Condicionado Split Inverter 12.000 BTUs TCL Frio TAC12CTG2INV – 220 Volts",
-      "imagem": "https://friopecas.vteximg.com.br/arquivos/ids/233754/T-Pro-2.0-conjunto.jpg?v=638863930343000000",
-      "link": "https://lmdee.link/bDTL6BJIpFA8",
-      "preco": 24.48,
-      "preco_anterior": 35.18,
-      "cupom": null,
-      "validade": null,
-      "descricao": "Ar Condicionado Split Inverter 12.000 BTUs TCL Frio 220V TAC12CTG2INV – Conforto e tecnologia na medida certa   Se você busca performance, economia e sofisticação, o  Ar Condicionado Split Inverter 12.000 BTUs TCL Frio 2",
-      "origem": "Lomadee"
     }
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 153,
+    "com_ofertas": 152,
     "marcas": 133,
     "campanhas": 120,
     "produtos": 60,
