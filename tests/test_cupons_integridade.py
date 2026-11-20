@@ -13,7 +13,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 from sync_rakuten import coupon_from_xml
 from build_cupons_central import normalizar
-from sync_cupons_marketplaces import actual_code, record, process, MARKETS, NOW, amazon_official_url, parse_amazon_manual
+from sync_cupons_marketplaces import actual_code, record, process, MARKETS, NOW, amazon_official_url, amazon_affiliate_url, parse_amazon_manual
 
 
 class CupomIntegridade(unittest.TestCase):
@@ -93,6 +93,32 @@ class CupomIntegridade(unittest.TestCase):
                     "https://www.amazon.com.br/"):
             self.assertEqual(amazon_official_url(url), "")
 
+    def test_link_de_afiliado_so_aceita_id_da_sol_garimpa(self):
+        valido = "https://www.amazon.com.br/blackfriday/2?tag=solgarimpaofe-20"
+        self.assertEqual(amazon_affiliate_url(valido), valido)
+        for invalido in (
+            "https://www.amazon.com.br/blackfriday/2",
+            "https://www.amazon.com.br/blackfriday/2?tag=afiliadoalheio-20",
+            "https://www.amazon.com.br.evil.example/dp/B012345678?tag=solgarimpaofe-20",
+            "https://www.meliuz.com.br/amazon?tag=solgarimpaofe-20",
+        ):
+            self.assertEqual(amazon_affiliate_url(invalido), "")
+
+    def test_cadastro_manual_sem_tag_nao_e_publicado(self):
+        with TemporaryDirectory() as pasta:
+            destino = Path(pasta) / "docs" / "central"
+            destino.mkdir(parents=True)
+            (destino / "amazon-ofertas-oficiais.json").write_text(
+                json.dumps({"offers": [{
+                    "title": "Oferta Amazon R$ 20 OFF em produtos selecionados",
+                    "couponCode": "TESTE20",
+                    "description": "Oferta sem link rastreado",
+                    "checkedAt": NOW.isoformat(),
+                    "affiliateUrl": "https://www.amazon.com.br/dp/B012345678"
+                }]}), encoding="utf-8")
+            with patch("sync_cupons_marketplaces.ROOT", Path(pasta)):
+                self.assertEqual(parse_amazon_manual(), [])
+
     def test_cadastro_manual_exibe_link_amazon_sem_alegar_validacao(self):
         with TemporaryDirectory() as pasta:
             destino = Path(pasta) / "docs" / "central"
@@ -103,13 +129,13 @@ class CupomIntegridade(unittest.TestCase):
                     "couponCode": "TESTE20",
                     "description": "Oferta localizada no site oficial",
                     "checkedAt": NOW.isoformat(),
-                    "offerUrl": "https://www.amazon.com.br/dp/B012345678"
+                    "affiliateUrl": "https://www.amazon.com.br/dp/B012345678?tag=solgarimpaofe-20"
                 }]}), encoding="utf-8")
             with patch("sync_cupons_marketplaces.ROOT", Path(pasta)):
                 items = parse_amazon_manual()
         self.assertEqual(len(items), 1)
         self.assertEqual(items[0]["status"], "unverified")
-        self.assertEqual(items[0]["offerUrl"], "https://www.amazon.com.br/dp/B012345678")
+        self.assertEqual(items[0]["affiliateUrl"], "https://www.amazon.com.br/dp/B012345678?tag=solgarimpaofe-20")
 
 
 if __name__ == "__main__":
