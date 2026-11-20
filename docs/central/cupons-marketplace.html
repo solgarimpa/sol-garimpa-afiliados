@@ -11,6 +11,12 @@
 :root[data-loja="shein"]{--destaque:#000000;--cor-destaque:#000000;--texto-acao:#fff;--fundo-codigo:#F5F5F5;--fundo-aviso:#F2F2F2;--texto-aviso:#111111}
 :root[data-loja="amazon"]{--destaque:#17263E;--cor-destaque:#17263E;--texto-acao:#fff;--fundo-codigo:#F2F5F9;--fundo-aviso:#EDF1F6;--texto-aviso:#17263E}
 :root[data-loja="ifood"]{--destaque:#ea1d2c;--cor-destaque:#c91e2c;--texto-acao:#fff;--fundo-codigo:#fff4f5;--fundo-aviso:#fff0f1;--texto-aviso:#a71e2a}
+.amazon-blackfriday{display:none;background:#17263e;color:#fff;border-radius:13px;padding:18px;margin-bottom:13px;border:1px solid #293e61}
+:root[data-loja="amazon"] .amazon-blackfriday{display:block}
+.amazon-blackfriday strong{display:block;font-size:18px;margin-bottom:5px;line-height:1.3}
+.amazon-blackfriday p{font-size:12px;line-height:1.5;color:#e6e9ee;margin:0 0 12px}
+.amazon-blackfriday a{display:block;text-align:center;padding:13px;background:#ffb92f;color:#17263e;text-decoration:none;font-weight:900;border-radius:9px;font-size:13px}
+.amazon-blackfriday small{display:block;color:#cbd3de;font-size:10px;line-height:1.5;margin-top:9px}
 .grupo-ifood{display:none;margin-bottom:12px;border:1px solid #f3c3c6;border-radius:12px;background:#fff;padding:13px 15px;gap:9px;align-items:center;justify-content:space-between;flex-wrap:wrap}
 .grupo-ifood strong{font-size:15px}
 .grupo-ifood a{border-radius:8px;text-decoration:none;background:#148f62;color:white;padding:10px 13px;font-size:12px;font-weight:800}
@@ -49,6 +55,12 @@ footer{color:#777;font-size:11px;line-height:1.6;text-align:center;padding-top:2
 </head>
 <body>
 <main>
+<section class="amazon-blackfriday" aria-label="Amazon Black Friday — link de associado">
+<strong>🛍️ Black Friday Amazon 2026: cupons e ofertas oficiais</strong>
+<p>Acesse a campanha oficial da Amazon para consultar cupons e escolher produtos participantes. As condições e a disponibilidade são definidas pela Amazon.</p>
+<a href="https://link.amazon/B0hJWKGpb" target="_blank" rel="noopener noreferrer nofollow sponsored">VER CUPONS E OFERTAS NA AMAZON</a>
+<small>Link de associado Sol Garimpa (solgarimpaofe-20). Podemos receber comissão por compras qualificadas. Promoção anunciada pela Amazon para 19 a 30/11/2026.</small>
+</section>
 <div class="grupo-ifood"><strong>🍔 Cupons iFood | Sol Garimpa</strong><a href="https://www.ofertaspravc.com.br/whatsapp" target="_blank" rel="noopener noreferrer">ENTRE NO GRUPO DO WHATSAPP</a></div>
 <input type="search" id="busca" placeholder="🔎 Pesquisar cupom ou desconto..." aria-label="Pesquisar cupons">
 <nav class="filtros"><button data-filtro="todos" class="ativo">Todos os cupons</button><button data-filtro="codigo">Com código</button><button data-filtro="resgate">Resgatar no app</button></nav>
