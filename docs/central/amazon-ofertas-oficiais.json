@@ -1,4 +1,12 @@
 {
-  "_instrucoes": "Cadastro MANUAL de links especificos da Amazon, encontrados no aplicativo ou site oficial. Somente HTTPS amazon.com.br. checkedAt em ISO-8601 (ex: 2026-11-18T20:30:00Z), com no maximo 48 horas de idade. Nunca marcar como validado no checkout sem teste real. A Creators API sera integrada apos habilitacao.",
-  "offers": []
+  "_instrucoes": "Cadastro manual de promocoes Amazon. Campo affiliateUrl: LINK LONGO GERADO PELO SITESTRIPE na pagina especifica do produto/promocao, dominio https://www.amazon.com.br, com tag=solgarimpaofe-20. Nao usar URL simples, link de outro afiliado ou link geral para afirmar que o cupom foi aplicado. checkedAt: data ISO-8601 do momento de conferencia (publicacao limitada a 48h apos esse horario). A simples presenca do codigo nao confirma desconto no carrinho. Exemplo dos campos em _exemplo_nao_publicado; ofertas reais entram em offers.",
+  "offers": [],
+  "_exemplo_nao_publicado": {
+    "title": "Cupom para produtos selecionados - EXEMPLO",
+    "couponCode": "",
+    "description": "Conferir regras na Amazon",
+    "affiliateUrl": "https://www.amazon.com.br/blackfriday/2?tag=solgarimpaofe-20",
+    "checkedAt": "2026-11-20T12:00:00Z",
+    "expiresAt": null
+  }
 }
