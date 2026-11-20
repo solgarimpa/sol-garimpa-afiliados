@@ -128,6 +128,14 @@ function cartao(c){
     promo.href=rastreado;promo.target="_blank";promo.rel="noopener noreferrer nofollow sponsored";
     art.appendChild(promo);
     art.appendChild(node("div","metadados","Link de associado Sol Garimpa · Confira se o desconto está disponível na Amazon"));
+  }else if(escolhido==="amazon"&&Date.now()<Date.parse("2026-12-01T03:00:00Z")){
+    // Destino geral com link real do SiteStripe, SOMENTE durante a campanha.
+    // Nao afirmar que corresponde ao cupom especifico do cartao.
+    const campanha=node("a","acao","VER OFERTAS AMAZON COM LINK SOL GARIMPA");
+    campanha.href="https://link.amazon/B0hJWKGpb";
+    campanha.target="_blank";campanha.rel="noopener noreferrer nofollow sponsored";
+    art.appendChild(campanha);
+    art.appendChild(node("div","metadados","Link afiliado para a Black Friday geral. Não ativa este cupom nem garante que os produtos desta oferta estejam disponíveis na campanha."));
   }else{
     const vitrine=node("a","acao",atual.vitrine?"VER SELEÇÃO SOL GARIMPA":"ABRIR "+atual.nome.toUpperCase());
     vitrine.href=atual.vitrine||LINK_LOJA;
