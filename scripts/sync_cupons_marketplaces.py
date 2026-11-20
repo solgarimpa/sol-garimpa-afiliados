@@ -12,7 +12,7 @@ import re
 import sys
 import unicodedata
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import urlsplit, parse_qs
 
 import requests
 from bs4 import BeautifulSoup
@@ -394,8 +394,17 @@ def amazon_official_url(value):
         return ""
 
 
+def amazon_affiliate_url(value):
+    """Aceita link HTTPS longo para pagina Amazon com a ID oficial Sol Garimpa."""
+    url = amazon_official_url(value)
+    if not url:
+        return ""
+    params = parse_qs(urlsplit(url).query)
+    return url if params.get("tag") == ["solgarimpaofe-20"] else ""
+
+
 def parse_amazon_manual():
-    """Ofertas identificadas manualmente no app/site Amazon; nao equivale a API nem checkout."""
+    """Ofertas com links de associado, registradas manualmente; sem teste no carrinho."""
     arquivo = ROOT / "docs" / "central" / "amazon-ofertas-oficiais.json"
     if not arquivo.exists():
         return []
@@ -404,7 +413,7 @@ def parse_amazon_manual():
     for bruto in dados.get("offers", []):
         if not isinstance(bruto, dict):
             continue
-        url = amazon_official_url(bruto.get("offerUrl"))
+        url = amazon_affiliate_url(bruto.get("affiliateUrl"))
         conferido = as_time(bruto.get("checkedAt"))
         if not url or not conferido or not (dt.timedelta(0) <= NOW - conferido <= dt.timedelta(hours=48)):
             continue
@@ -414,7 +423,7 @@ def parse_amazon_manual():
             url, bruto.get("checkedAt"), bruto.get("expiresAt"),
         )
         if oferta:
-            oferta["offerUrl"] = url
+            oferta["affiliateUrl"] = url
             oferta["status"] = "unverified"
             saida.append(oferta)
     return saida
@@ -439,8 +448,8 @@ def combine(items):
         if c.get("publishedAt") and not old.get("publishedAt"):
             old["publishedAt"] = c["publishedAt"]
         # Complemento manual so fornece URL da propria Amazon, nao redirecionamento de agregador.
-        if c.get("offerUrl") and not old.get("offerUrl"):
-            old["offerUrl"] = c["offerUrl"]
+        if c.get("affiliateUrl") and not old.get("affiliateUrl"):
+            old["affiliateUrl"] = c["affiliateUrl"]
     values = list(merged.values())
     values.sort(key=lambda c: (
         -int(c["status"] == "listed"),
