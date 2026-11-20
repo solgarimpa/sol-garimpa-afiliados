@@ -1,20 +1,9 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-20T11:42:59.317828Z",
-  "total": 165,
+  "atualizado_em": "2026-11-20T12:45:06.742815Z",
+  "total": 164,
   "ofertas": [
-    {
-      "id": "4174145",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "5% OFF com o cupom CASADINHO em produtos participantes da campanha",
-      "descricao": "5% OFF com o cupom CASADINHO em produtos participantes da campanha",
-      "termos": ".",
-      "cupom": "CASADINHO",
-      "validade": "2026-11-20T12:30:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1CASADINHO"
-    },
     {
       "id": "4182232",
       "loja": "Kabum BR",
