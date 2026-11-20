@@ -86,6 +86,8 @@ const slug=new URLSearchParams(location.search).get("loja")||"shopee";
 const escolhido=CONFIG[slug]?slug:"shopee";
 const atual=CONFIG[escolhido];
 document.documentElement.setAttribute("data-loja",escolhido);
+// Esconder destaque da Black Friday apos 30/11/2026 no horario de Brasilia.
+if(Date.now()>=Date.parse("2026-12-01T03:00:00Z"))document.querySelector(".amazon-blackfriday")?.remove();
 document.title="Cupons "+atual.nome+" | Sol Garimpa";
 const JSON_URL="https://solgarimpa.github.io/sol-garimpa-afiliados/central/"+escolhido+"-cupons.json";
 const LINK_LOJA=atual.link;
