@@ -92,7 +92,7 @@ function aindaValido(c){
 }
 function txt(v){return String(v==null?"":v).trim()}
 function norm(v){return txt(v).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()}
-function linkAmazonOficial(v){try{const u=new URL(txt(v));return u.protocol==="https:"&&["amazon.com.br","www.amazon.com.br"].includes(u.hostname)&&u.pathname!=="/"?u.href:""}catch(e){return ""}}
+function linkAmazonAfiliado(v){try{const u=new URL(txt(v));return u.protocol==="https:"&&["amazon.com.br","www.amazon.com.br"].includes(u.hostname)&&u.pathname!=="/"&&u.searchParams.get("tag")==="solgarimpaofe-20"?u.href:""}catch(e){return ""}}
 function node(tag,classe,texto){const n=document.createElement(tag);if(classe)n.className=classe;if(texto!==undefined)n.textContent=texto;return n}
 function cartao(c){
   const art=node("article","card");
@@ -108,27 +108,25 @@ function cartao(c){
     btn.type="button";btn.onclick=async()=>{let ok=false;try{await navigator.clipboard.writeText(c.couponCode);ok=true}catch(e){const t=document.createElement("textarea");t.value=c.couponCode;t.style.position="fixed";t.style.opacity="0";document.body.appendChild(t);t.select();try{ok=document.execCommand("copy")}catch(e){}t.remove()}btn.textContent=ok?"COPIADO ✓":"SELECIONE O CÓDIGO";if(ok)setTimeout(()=>btn.textContent="COPIAR",2500)};
     a.append(cod,btn);art.appendChild(a);
   }else art.appendChild(node("div","aviso","🎟️ Consulte as condições de resgate na loja"));
-  const vitrine=node("a","acao",atual.vitrine?"VER SELEÇÃO SOL GARIMPA":"ABRIR "+atual.nome.toUpperCase());
-  vitrine.href=atual.vitrine||LINK_LOJA;
-  vitrine.target="_blank";
-  vitrine.rel=atual.vitrine?"noopener noreferrer nofollow sponsored":"noopener noreferrer nofollow";
-  art.appendChild(vitrine);
-  if(escolhido==="amazon"){
-    // Nunca associar um cupom a pagina generica, nem a links de agregadores.
-    const direto=linkAmazonOficial(c.offerUrl);
-    if(direto){
-      const oficial=node("a","acao-secundaria","ABRIR OFERTA ESPECÍFICA NA AMAZON");
-      oficial.href=direto;oficial.target="_blank";oficial.rel="noopener noreferrer nofollow";
+  const rastreado=escolhido==="amazon"?linkAmazonAfiliado(c.affiliateUrl):"";
+  if(rastreado){
+    const promo=node("a","acao","ABRIR PROMOÇÃO NA AMAZON");
+    promo.href=rastreado;promo.target="_blank";promo.rel="noopener noreferrer nofollow sponsored";
+    art.appendChild(promo);
+    art.appendChild(node("div","metadados","Link de associado Sol Garimpa · Confira se o desconto está disponível na Amazon"));
+  }else{
+    const vitrine=node("a","acao",atual.vitrine?"VER SELEÇÃO SOL GARIMPA":"ABRIR "+atual.nome.toUpperCase());
+    vitrine.href=atual.vitrine||LINK_LOJA;
+    vitrine.target="_blank";
+    vitrine.rel=atual.vitrine?"noopener noreferrer nofollow sponsored":"noopener noreferrer nofollow";
+    art.appendChild(vitrine);
+    if(escolhido==="amazon"){
+      art.appendChild(node("div","metadados","Não há link de associado específico para este cupom. A seleção Sol Garimpa pode ter outros produtos e não garante o rastreamento deste desconto."));
+    }else if(atual.vitrine&&atual.vitrine!==LINK_LOJA){
+      const oficial=node("a","acao-secundaria","CONFERIR NA LOJA (LINK DIRETO)");
+      oficial.href=LINK_LOJA;oficial.target="_blank";oficial.rel="noopener noreferrer nofollow";
       art.appendChild(oficial);
-    }else{
-      art.appendChild(node("div","metadados","Sem link direto desta promoção. A seleção Sol Garimpa pode conter outros produtos."));
     }
-  }else if(atual.vitrine&&atual.vitrine!==LINK_LOJA){
-    const oficial=node("a","acao-secundaria","CONFERIR NA LOJA (LINK DIRETO)");
-    oficial.href=LINK_LOJA;
-    oficial.target="_blank";
-    oficial.rel="noopener noreferrer nofollow";
-    art.appendChild(oficial);
   }
   return art;
 }
