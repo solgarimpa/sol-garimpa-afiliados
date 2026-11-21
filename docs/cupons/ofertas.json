@@ -1,20 +1,9 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-21T00:32:32.872359Z",
-  "total": 163,
+  "atualizado_em": "2026-11-21T01:56:43.204997Z",
+  "total": 162,
   "ofertas": [
-    {
-      "id": "4182218",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "5% OFF em produtos selecionados com o cupom MAGAMOU5E",
-      "descricao": "5% OFF em produtos selecionados com o cupom MAGAMOU5E",
-      "termos": ".",
-      "cupom": "MAGAMOU5E",
-      "validade": "2026-11-21T01:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP3MAGAMOU5E"
-    },
     {
       "id": "4180429",
       "loja": "Intimissimi BR",

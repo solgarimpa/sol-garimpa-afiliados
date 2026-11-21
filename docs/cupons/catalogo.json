@@ -1,11 +1,11 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-21T00:32:34.059261Z",
-  "total": 295,
-  "total_cupons": 155,
+  "atualizado_em": "2026-11-21T01:56:44.248003Z",
+  "total": 294,
+  "total_cupons": 154,
   "total_promocoes": 140,
   "fontes": {
-    "Awin": 163,
+    "Awin": 162,
     "Rakuten": 96,
     "Lomadee": 36
   },
@@ -1004,18 +1004,6 @@
       "cupom": "JBL30OFF",
       "validade": "2026-12-01T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP3JBL30OFF",
-      "rede": "Awin"
-    },
-    {
-      "id": "d2989dfa0f8faa4f29",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "5% OFF em produtos selecionados com o cupom MAGAMOU5E",
-      "descricao": "5% OFF em produtos selecionados com o cupom MAGAMOU5E",
-      "termos": ".",
-      "cupom": "MAGAMOU5E",
-      "validade": "2026-11-21T01:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP3MAGAMOU5E",
       "rede": "Awin"
     },
     {
@@ -2911,7 +2899,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-06-23T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2065106.3&type=4",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2065106.4&type=4",
       "rede": "Rakuten"
     },
     {
@@ -2995,7 +2983,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-10-09T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.4&type=4",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.3&type=4",
       "rede": "Rakuten"
     },
     {
@@ -3307,7 +3295,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-04-08T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.363&type=4",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.365&type=4",
       "rede": "Rakuten"
     },
     {
