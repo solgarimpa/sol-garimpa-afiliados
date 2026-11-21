@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-20T23:42:56.898632+00:00",
+  "atualizado_em": "2026-11-21T12:48:06.605451+00:00",
   "itens": [
     {
       "id": "1f923013cbe1530352f13062",
@@ -534,6 +534,12 @@
       "slug": "lomadee-8cd1364adb96024c971d",
       "rede": "Lomadee",
       "publicado_em": "2026-11-20T23:42:56.898632+00:00"
+    },
+    {
+      "id": "8282e7ab4b2e7acc000d9849",
+      "slug": "rakuten-6d637c1d13d5c386d530",
+      "rede": "Rakuten",
+      "publicado_em": "2026-11-21T12:48:06.605451+00:00"
     }
   ]
 }
