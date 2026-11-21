@@ -1,86 +1,9 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-21T01:56:43.204997Z",
-  "total": 162,
+  "atualizado_em": "2026-11-21T03:04:57.488791Z",
+  "total": 155,
   "ofertas": [
-    {
-      "id": "4180429",
-      "loja": "Intimissimi BR",
-      "tipo": "promocao",
-      "titulo": "Até 50% OFF em todas as categorias",
-      "descricao": "Até 50% OFF em todas as categorias",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-21T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=70965&awinaffid=3110826&ued=https%3A%2F%2Fwww.intimissimi.com.br%2Fblack-friday"
-    },
-    {
-      "id": "4182222",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "12% OFF em produtos selecionados com o cupom WASTEDNO12",
-      "descricao": "12% OFF em produtos selecionados com o cupom WASTEDNO12",
-      "termos": ".",
-      "cupom": "WASTEDNO12",
-      "validade": "2026-11-21T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1WASTEDNO12"
-    },
-    {
-      "id": "4177738",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "11% OFF em produtos participantes da campanha Dalhe11",
-      "descricao": "11% OFF em produtos participantes da campanha Dalhe11",
-      "termos": ".",
-      "cupom": "DALHE11",
-      "validade": "2026-11-21T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1DALHE11"
-    },
-    {
-      "id": "4175541",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "R$ 400 OFF em notebooks Acer selecionados",
-      "descricao": "R$ 400 OFF em notebooks Acer selecionados",
-      "termos": ".",
-      "cupom": "ACERNOKABUM",
-      "validade": "2026-11-21T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP3ACERNOKABUM"
-    },
-    {
-      "id": "4175537",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "R$ 300 OFF em notebooks e produtos Intel selecionados",
-      "descricao": "R$ 300 OFF em notebooks e produtos Intel selecionados",
-      "termos": ".",
-      "cupom": "INTELNOKABUM",
-      "validade": "2026-11-21T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP3INTELNOKABUM"
-    },
-    {
-      "id": "4175536",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "R$ 400 OFF em notebooks Dell selecionados",
-      "descricao": "R$ 400 OFF em notebooks Dell selecionados",
-      "termos": ".",
-      "cupom": "DELLNOKABUM",
-      "validade": "2026-11-21T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP3DELLNOKABUM"
-    },
-    {
-      "id": "4172383",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "R$ 400 OFF no produto participante da promoção",
-      "descricao": "R$ 400 OFF no produto participante da promoção",
-      "termos": ".",
-      "cupom": "TOMA400",
-      "validade": "2026-11-21T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F938060"
-    },
     {
       "id": "4175581",
       "loja": "Eurorelogios BR",

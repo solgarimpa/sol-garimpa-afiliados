@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-21T01:56:44.248003Z",
-  "total": 294,
-  "total_cupons": 154,
-  "total_promocoes": 140,
+  "atualizado_em": "2026-11-21T03:04:58.745402Z",
+  "total": 284,
+  "total_cupons": 145,
+  "total_promocoes": 139,
   "fontes": {
-    "Awin": 162,
+    "Awin": 155,
     "Rakuten": 96,
-    "Lomadee": 36
+    "Lomadee": 33
   },
   "ofertas": [
     {
@@ -875,18 +875,6 @@
       "rede": "Rakuten"
     },
     {
-      "id": "bd91dcef556e4fcfee",
-      "loja": "Iodice",
-      "tipo": "cupom",
-      "titulo": "NOVIDADES com 10%OFF",
-      "descricao": "",
-      "termos": "",
-      "cupom": "GANHE10",
-      "validade": "2026-11-21T02:59:59Z",
-      "link": "https://lmdee.link/JA4DCvtVC7kt",
-      "rede": "Lomadee"
-    },
-    {
       "id": "62ef94595b8213c9ad",
       "loja": "Kabum BR",
       "tipo": "cupom",
@@ -920,30 +908,6 @@
       "cupom": "MACNEO10OFF",
       "validade": "2026-11-23T13:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1015057%2Fmacbook-neo-apple-13-chip-a18-pro-cpu-de-6-nucleos-gpu-de-5-nucleos-256gb-prateado-mhfa4bz-a",
-      "rede": "Awin"
-    },
-    {
-      "id": "6f959f5219266f24cf",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "11% OFF em produtos participantes da campanha Dalhe11",
-      "descricao": "11% OFF em produtos participantes da campanha Dalhe11",
-      "termos": ".",
-      "cupom": "DALHE11",
-      "validade": "2026-11-21T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1DALHE11",
-      "rede": "Awin"
-    },
-    {
-      "id": "feff45fb1a84d3d551",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "12% OFF em produtos selecionados com o cupom WASTEDNO12",
-      "descricao": "12% OFF em produtos selecionados com o cupom WASTEDNO12",
-      "termos": ".",
-      "cupom": "WASTEDNO12",
-      "validade": "2026-11-21T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1WASTEDNO12",
       "rede": "Awin"
     },
     {
@@ -1196,54 +1160,6 @@
       "cupom": "HORADOCAFE",
       "validade": "2026-11-24T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F367383%2Fcafeteira-nespresso-citiz-para-cafe-espresso-110v-vermelho-cereja-c113-br",
-      "rede": "Awin"
-    },
-    {
-      "id": "294c0f4b61982f7533",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "R$ 300 OFF em notebooks e produtos Intel selecionados",
-      "descricao": "R$ 300 OFF em notebooks e produtos Intel selecionados",
-      "termos": ".",
-      "cupom": "INTELNOKABUM",
-      "validade": "2026-11-21T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP3INTELNOKABUM",
-      "rede": "Awin"
-    },
-    {
-      "id": "59dff358e1e8a25461",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "R$ 400 OFF em notebooks Acer selecionados",
-      "descricao": "R$ 400 OFF em notebooks Acer selecionados",
-      "termos": ".",
-      "cupom": "ACERNOKABUM",
-      "validade": "2026-11-21T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP3ACERNOKABUM",
-      "rede": "Awin"
-    },
-    {
-      "id": "ee7aa8142f439fd20e",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "R$ 400 OFF em notebooks Dell selecionados",
-      "descricao": "R$ 400 OFF em notebooks Dell selecionados",
-      "termos": ".",
-      "cupom": "DELLNOKABUM",
-      "validade": "2026-11-21T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP3DELLNOKABUM",
-      "rede": "Awin"
-    },
-    {
-      "id": "8ba12df367f950c007",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "R$ 400 OFF no produto participante da promoção",
-      "descricao": "R$ 400 OFF no produto participante da promoção",
-      "termos": ".",
-      "cupom": "TOMA400",
-      "validade": "2026-11-21T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F938060",
       "rede": "Awin"
     },
     {
@@ -1559,18 +1475,6 @@
       "rede": "Lomadee"
     },
     {
-      "id": "9e07ef1e6f5f1c98e4",
-      "loja": "Morena Rosa",
-      "tipo": "cupom",
-      "titulo": "10%OFF em NOVIDADES! Garanta seu look novo",
-      "descricao": "",
-      "termos": "",
-      "cupom": "GANHE10",
-      "validade": "2026-11-21T02:59:59Z",
-      "link": "https://lmdee.link/jQTKSCZ6JxE2",
-      "rede": "Lomadee"
-    },
-    {
       "id": "06cd3907b05922f8c6",
       "loja": "Morena Rosa",
       "tipo": "cupom",
@@ -1835,18 +1739,6 @@
       "rede": "Lomadee"
     },
     {
-      "id": "4f993d92332185b3a3",
-      "loja": "Zinco",
-      "tipo": "cupom",
-      "titulo": "NOVIDADES com 10%OFF",
-      "descricao": "",
-      "termos": "",
-      "cupom": "GANHE10",
-      "validade": "2026-11-21T02:59:59Z",
-      "link": "https://lmdee.link/56W2JjT7luml",
-      "rede": "Lomadee"
-    },
-    {
       "id": "2eadc70b9c1b1cfed3",
       "loja": "Óticas Foto Paulo",
       "tipo": "cupom",
@@ -1915,7 +1807,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2031-12-03T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1940053.7&type=3",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1940053.3&type=4",
       "rede": "Rakuten"
     },
     {
@@ -2411,18 +2303,6 @@
       "rede": "Rakuten"
     },
     {
-      "id": "aae640bd24c7d87578",
-      "loja": "Intimissimi BR",
-      "tipo": "promocao",
-      "titulo": "Até 50% OFF em todas as categorias",
-      "descricao": "Até 50% OFF em todas as categorias",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-21T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=70965&awinaffid=3110826&ued=https%3A%2F%2Fwww.intimissimi.com.br%2Fblack-friday",
-      "rede": "Awin"
-    },
-    {
       "id": "7771bf420ad72a1961",
       "loja": "Keeta BR",
       "tipo": "promocao",
@@ -2899,7 +2779,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-06-23T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2065106.4&type=4",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2065106.3&type=4",
       "rede": "Rakuten"
     },
     {
@@ -3295,7 +3175,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-04-08T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.365&type=4",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.368&type=4",
       "rede": "Rakuten"
     },
     {
