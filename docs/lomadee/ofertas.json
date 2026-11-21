@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-21T01:32:43+00:00",
+  "atualizado_em": "2026-11-21T03:02:41+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -849,16 +849,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-1453849b3657301b422f",
+      "id": "lc-59efe594c9c9edfe58b1",
       "loja": "Iodice",
-      "tipo": "cupom",
-      "titulo": "NOVIDADES com 10%OFF",
+      "tipo": "promocao",
+      "titulo": "BLACK WEEK com 65%Off!",
       "imagem": "",
-      "link": "https://lmdee.link/JA4DCvtVC7kt",
+      "link": "https://lmdee.link/qphcCcKa4lOn",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "GANHE10",
-      "validade": "2026-11-21T02:59:59.000Z",
+      "cupom": null,
+      "validade": "2026-11-24T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -933,16 +933,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-1d0e9881566a7c69f375",
+      "id": "lc-30367564420b5db0ddcf",
       "loja": "Lojas REDE",
       "tipo": "promocao",
-      "titulo": "Ofertas Lojas Rede 19-11",
+      "titulo": "Começou a Black Week na Lojas Rede",
       "imagem": "",
-      "link": "https://lmdee.link/GozDQ6X7HABf",
+      "link": "https://lmdee.link/20P31VnJROQZ",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-21T02:30:00.000Z",
+      "validade": "2026-11-23T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1437,20 +1437,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-59efe594c9c9edfe58b1",
-      "loja": "Iodice",
-      "tipo": "promocao",
-      "titulo": "BLACK WEEK com 65%Off!",
-      "imagem": "",
-      "link": "https://lmdee.link/qphcCcKa4lOn",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-24T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-c3c58b73fc5560664c80",
       "loja": "Lauri Esporte",
       "tipo": "cupom",
@@ -1475,20 +1461,6 @@
       "preco_anterior": null,
       "cupom": "BLACKFRIDAY",
       "validade": "2026-12-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-30367564420b5db0ddcf",
-      "loja": "Lojas REDE",
-      "tipo": "promocao",
-      "titulo": "Começou a Black Week na Lojas Rede",
-      "imagem": "",
-      "link": "https://lmdee.link/20P31VnJROQZ",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-23T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1713,20 +1685,6 @@
       "preco_anterior": null,
       "cupom": "LOMADEE",
       "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-59af8f825f233b950f9d",
-      "loja": "Zinco",
-      "tipo": "cupom",
-      "titulo": "NOVIDADES com 10%OFF",
-      "imagem": "",
-      "link": "https://lmdee.link/56W2JjT7luml",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "GANHE10",
-      "validade": "2026-11-21T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1983,16 +1941,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-55e695d5f02bc4022f8c",
+      "id": "lc-4225c62925b4b3b33340",
       "loja": "Morena Rosa",
-      "tipo": "cupom",
-      "titulo": "10%OFF em NOVIDADES! Garanta seu look novo",
+      "tipo": "promocao",
+      "titulo": "STUDIO com 15%Off nos Favoritos da Linha Festas",
       "imagem": "",
-      "link": "https://lmdee.link/jQTKSCZ6JxE2",
+      "link": "https://lmdee.link/uiMxMqrxc5B6",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "GANHE10",
-      "validade": "2026-11-21T02:59:59.000Z",
+      "cupom": null,
+      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2081,16 +2039,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-4225c62925b4b3b33340",
+      "id": "lc-a2d92c7756430d0e2dd4",
       "loja": "Morena Rosa",
-      "tipo": "promocao",
-      "titulo": "STUDIO com 15%Off nos Favoritos da Linha Festas",
+      "tipo": "cupom",
+      "titulo": "SHOES com 10% Off",
       "imagem": "",
-      "link": "https://lmdee.link/uiMxMqrxc5B6",
+      "link": "https://lmdee.link/m0zR9Eohrlwb",
       "preco": null,
       "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
+      "cupom": "SHOES10",
+      "validade": "2026-12-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2175,20 +2133,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-a2d92c7756430d0e2dd4",
-      "loja": "Morena Rosa",
-      "tipo": "cupom",
-      "titulo": "SHOES com 10% Off",
-      "imagem": "",
-      "link": "https://lmdee.link/m0zR9Eohrlwb",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "SHOES10",
-      "validade": "2026-12-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2305,6 +2249,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-e29a4122b2c485e0aa07",
+      "loja": "Soulier",
+      "tipo": "promocao",
+      "titulo": "Tênis a partir de 119,90",
+      "imagem": "https://cdn.lomadee.com.br/offer/c329356b-aad6-4668-b2c7-8131dc0c8ff4/banners/120x600.jpg",
+      "link": "https://lmdee.link/9A2oBjQWU38U",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lp-de0ead3d873de338cb3c",
       "loja": "Friopeças",
       "tipo": "produto",
@@ -2316,6 +2274,20 @@
       "cupom": null,
       "validade": null,
       "descricao": "Ar Condicionado Split Inverter 12.000 Btus LG Dual Compact +IA Frio S3-Q12JAQAL - 220 Volts     O match perfeito para sua casa e sua rotina  O    Ar Condicionado Split LG Dual Inverter    Compact 12.000 BTUs Frio combina",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-f5cc0a3186ba5aea97e8",
+      "loja": "Soulier",
+      "tipo": "promocao",
+      "titulo": "Sapatilha a partir de 139,90",
+      "imagem": "https://cdn.lomadee.com.br/offer/58d99912-de53-49dd-bc65-8835aa1dbbb7/banners/120x600.jpg",
+      "link": "https://lmdee.link/5c5sadrVWbLg",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
       "origem": "Lomadee"
     },
     {
@@ -2333,6 +2305,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-2fbebfaa5d37fe66de12",
+      "loja": "Soulier",
+      "tipo": "promocao",
+      "titulo": "Saltos a partir de 99,90",
+      "imagem": "https://cdn.lomadee.com.br/offer/3ac58795-d412-4c9c-a630-e8c58954c5cd/banners/120x600.jpg",
+      "link": "https://lmdee.link/KCmG9fWZUn33",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lp-3276d8637ab0e2f40fb6",
       "loja": "Friopeças",
       "tipo": "produto",
@@ -2344,6 +2330,20 @@
       "cupom": null,
       "validade": null,
       "descricao": "Cervejeira Imbera 453 Litros Porta Sólida Padrão Preta CCV315 - 127 Volts   A Cervejeira Imbera foi projetada para manter a cerveja gelada na temperatura ideal para consumo. Com controle multitemperatura, design intelige",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-eea52423735c4368f992",
+      "loja": "Soulier",
+      "tipo": "promocao",
+      "titulo": "rasteiras a partir de 99,90",
+      "imagem": "https://cdn.lomadee.com.br/offer/11566f63-f771-41bc-9e2e-6baea94aac10/banners/120x600.jpg",
+      "link": "https://lmdee.link/AoaSV1wrR3AD",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
       "origem": "Lomadee"
     },
     {
@@ -2667,11 +2667,25 @@
       "validade": null,
       "descricao": "Ar Condicionado Split Philco 30.000 BTUs Frio PAC30FI – 220 Volts    O Ar Condicionado ideal para grandes ambientes  O    Ar Condicionado Split    Philco 30.000 BTUs Frio (PAC30FI) – 220 Volts é a solução ideal para clim",
       "origem": "Lomadee"
+    },
+    {
+      "id": "lp-84ae8c38300c4e09f98a",
+      "loja": "Friopeças",
+      "tipo": "produto",
+      "titulo": "Ar Condicionado Split Inverter 9.000 Btus Gree G-Top Auto 220V GWC09ATB-D6DNA1A/I",
+      "imagem": "https://friopecas.vteximg.com.br/arquivos/ids/235445/KIT.jpg?v=638941467542870000",
+      "link": "https://lmdee.link/fTeLJmtGeZeW",
+      "preco": 25.98,
+      "preco_anterior": 36.28,
+      "cupom": null,
+      "validade": null,
+      "descricao": "Ar Condicionado Split Inverter 9.000 Btus Gree G-Top Auto 220V GWC09ATB-D6DNA1A/I     Ar condicionado com Tecnologia, praticidade e economia   O ar condicionado Split Gree G-Top Auto Inverter 9.000 BTUs Frio 220V é sinôn",
+      "origem": "Lomadee"
     }
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 152,
+    "com_ofertas": 153,
     "marcas": 134,
     "campanhas": 120,
     "produtos": 60,
