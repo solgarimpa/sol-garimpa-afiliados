@@ -1,20 +1,9 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-22T15:29:33.121630Z",
-  "total": 156,
+  "atualizado_em": "2026-11-22T16:29:06.218539Z",
+  "total": 155,
   "ofertas": [
-    {
-      "id": "4175581",
-      "loja": "Eurorelogios BR",
-      "tipo": "promocao",
-      "titulo": "ATÉ 40% OFF",
-      "descricao": "Até 40% OFF no site Euro. 15% OFF EXTRA na compra de 2 ou mais produtos.",
-      "termos": "Ofertas válidas somente no site oficial da EURO, por tempo LIMITADO",
-      "cupom": "",
-      "validade": "2026-11-22T15:47:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=28167&awinaffid=3110826&ued=https%3A%2F%2Fwww.eurorelogios.com.br%2Fblack-friday"
-    },
     {
       "id": "4180502",
       "loja": "Evas BR",

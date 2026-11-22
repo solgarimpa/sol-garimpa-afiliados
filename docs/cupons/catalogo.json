@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-22T15:29:34.059486Z",
-  "total": 287,
-  "total_cupons": 148,
-  "total_promocoes": 139,
+  "atualizado_em": "2026-11-22T16:29:07.478473Z",
+  "total": 299,
+  "total_cupons": 161,
+  "total_promocoes": 138,
   "fontes": {
-    "Awin": 156,
+    "Awin": 155,
     "Rakuten": 96,
-    "Lomadee": 35
+    "Lomadee": 48
   },
   "ofertas": [
     {
@@ -56,6 +56,18 @@
       "cupom": "LOMADEE",
       "validade": "2027-02-11T02:30:00Z",
       "link": "https://lmdee.link/vuU8UnjsKTuM",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "296a5945fd84c53ef9",
+      "loja": "BALAROTI",
+      "tipo": "cupom",
+      "titulo": "CLIENTEVIP10",
+      "descricao": "",
+      "termos": "",
+      "cupom": "CLIENTEVIP10",
+      "validade": "2026-12-01T02:30:00Z",
+      "link": "https://lmdee.link/daUtg6lAeKHR",
       "rede": "Lomadee"
     },
     {
@@ -167,6 +179,42 @@
       "rede": "Lomadee"
     },
     {
+      "id": "1e4b116008a1874259",
+      "loja": "Brinox",
+      "tipo": "cupom",
+      "titulo": "Cupom perfeito para você divulgar!",
+      "descricao": "",
+      "termos": "",
+      "cupom": "RENOVACASA",
+      "validade": "2026-12-21T02:30:00Z",
+      "link": "https://lmdee.link/DZo5pwUvAGaK",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "af19a5a02d0026f911",
+      "loja": "Brinox",
+      "tipo": "cupom",
+      "titulo": "R$ 100 em compras acima de R$699",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BF100",
+      "validade": "2026-12-21T02:30:00Z",
+      "link": "https://lmdee.link/mGEeBYw6ZwcY",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "f13eaa0f3f9143359b",
+      "loja": "Brinox",
+      "tipo": "cupom",
+      "titulo": "R$ 50 em compras acima de R$399",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BF50",
+      "validade": "2026-12-21T02:30:00Z",
+      "link": "https://lmdee.link/nRs51ZGLWI6v",
+      "rede": "Lomadee"
+    },
+    {
       "id": "f0027ee22d2a709de4",
       "loja": "China in Box",
       "tipo": "cupom",
@@ -179,6 +227,18 @@
       "rede": "Lomadee"
     },
     {
+      "id": "52cb23a7d3e8a575f6",
+      "loja": "China in Box",
+      "tipo": "cupom",
+      "titulo": "Cupom Frete Gratis",
+      "descricao": "",
+      "termos": "",
+      "cupom": "FRETELOMADEE",
+      "validade": "2027-01-01T02:59:59Z",
+      "link": "https://lmdee.link/69aTXVdd4fbx",
+      "rede": "Lomadee"
+    },
+    {
       "id": "588eaee50ddad11f81",
       "loja": "Coza",
       "tipo": "cupom",
@@ -188,6 +248,42 @@
       "cupom": "Lomadee20",
       "validade": null,
       "link": "https://lmdee.link/EXXfFSuBtslm",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "ef70631976c24b3c0b",
+      "loja": "Coza",
+      "tipo": "cupom",
+      "titulo": "R$15 off em compras acima de R$100",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK15",
+      "validade": "2026-12-11T02:30:00Z",
+      "link": "https://lmdee.link/1QFD5FFnXqZr",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "2feaffcb1c78c66fcb",
+      "loja": "Coza",
+      "tipo": "cupom",
+      "titulo": "R$20 off em compras acima de R$150",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK20",
+      "validade": "2026-12-11T02:30:00Z",
+      "link": "https://lmdee.link/SVnu99vLQb3k",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "f5ad1b14e407c2f192",
+      "loja": "Coza",
+      "tipo": "cupom",
+      "titulo": "R$35 off em compras acima de R$200",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK35",
+      "validade": "2026-12-11T02:30:00Z",
+      "link": "https://lmdee.link/X6FCsHGOS2bW",
       "rede": "Lomadee"
     },
     {
@@ -621,6 +717,30 @@
       "validade": "2026-12-31T02:33:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=61233&awinaffid=3110826&ued=https%3A%2F%2Fwww.myearfun.com%2Fheadphones%2Fearfun-wave-pro-hi-res-wireless-headphone-black",
       "rede": "Awin"
+    },
+    {
+      "id": "dcbdc6ebff60c6e1f7",
+      "loja": "eles.®",
+      "tipo": "cupom",
+      "titulo": "Oferta Outubro Rosa elas. para emagrecimento 15% off",
+      "descricao": "",
+      "termos": "",
+      "cupom": "outubrorosa",
+      "validade": null,
+      "link": "https://lmdee.link/4w25yU4r7V5b",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "2064a07eb6fac20ab4",
+      "loja": "eles.®",
+      "tipo": "cupom",
+      "titulo": "Preblack",
+      "descricao": "",
+      "termos": "",
+      "cupom": "Preblack",
+      "validade": null,
+      "link": "https://lmdee.link/iIBsvCOgPe2m",
+      "rede": "Lomadee"
     },
     {
       "id": "cdeff649f429655f3f",
@@ -1523,6 +1643,18 @@
       "rede": "Rakuten"
     },
     {
+      "id": "1d28b29f5f8f78153f",
+      "loja": "Móveis Carraro",
+      "tipo": "cupom",
+      "titulo": "LANCAMENTOS10 - 10% OFF em Lançamentos",
+      "descricao": "",
+      "termos": "",
+      "cupom": "LANCAMENTOS10",
+      "validade": null,
+      "link": "https://lmdee.link/Zgad1XW8M6fK",
+      "rede": "Lomadee"
+    },
+    {
       "id": "f38fc7bc17be743598",
       "loja": "Netshoes WL",
       "tipo": "cupom",
@@ -1775,6 +1907,30 @@
       "rede": "Lomadee"
     },
     {
+      "id": "43e498746ad3f5fe71",
+      "loja": "Zupper",
+      "tipo": "cupom",
+      "titulo": "Cupom de R$ 25,00 de desconto (apenas para primeira compra 1 por CPF)",
+      "descricao": "",
+      "termos": "",
+      "cupom": "ZUPPLOM40",
+      "validade": "2027-01-01T02:30:00Z",
+      "link": "https://lmdee.link/goTvpMKdOivt",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "0f301a486e8c36849c",
+      "loja": "Zupper",
+      "tipo": "cupom",
+      "titulo": "Cupom de R$ 25,00 de desconto (uso ilimitado)",
+      "descricao": "",
+      "termos": "",
+      "cupom": "ZUPPLOM25",
+      "validade": "2027-01-01T02:30:00Z",
+      "link": "https://lmdee.link/geL8GLQ5Mgns",
+      "rede": "Lomadee"
+    },
+    {
       "id": "2eadc70b9c1b1cfed3",
       "loja": "Óticas Foto Paulo",
       "tipo": "cupom",
@@ -1843,7 +1999,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2031-12-03T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1940053.3&type=4",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1940053.7&type=3",
       "rede": "Rakuten"
     },
     {
@@ -1893,18 +2049,6 @@
       "validade": "2030-02-09T00:00:00Z",
       "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1516341.5&type=3&subid=0",
       "rede": "Rakuten"
-    },
-    {
-      "id": "de7ff922035d6ab8c0",
-      "loja": "Eurorelogios BR",
-      "tipo": "promocao",
-      "titulo": "ATÉ 40% OFF",
-      "descricao": "Até 40% OFF no site Euro. 15% OFF EXTRA na compra de 2 ou mais produtos.",
-      "termos": "Ofertas válidas somente no site oficial da EURO, por tempo LIMITADO",
-      "cupom": "",
-      "validade": "2026-11-22T15:47:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=28167&awinaffid=3110826&ued=https%3A%2F%2Fwww.eurorelogios.com.br%2Fblack-friday",
-      "rede": "Awin"
     },
     {
       "id": "59def35f8080295005",
@@ -2899,7 +3043,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-10-09T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.3&type=4",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.4&type=4",
       "rede": "Rakuten"
     },
     {
@@ -3151,7 +3295,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-06-09T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1752486.819&type=3&subid=0",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1752486.818&type=3&subid=0",
       "rede": "Rakuten"
     },
     {
@@ -3211,7 +3355,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-04-08T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.367&type=4",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.369&type=4",
       "rede": "Rakuten"
     },
     {
