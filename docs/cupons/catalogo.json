@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-22T09:33:41.181055Z",
-  "total": 287,
-  "total_cupons": 148,
+  "atualizado_em": "2026-11-22T10:32:24.881265Z",
+  "total": 252,
+  "total_cupons": 113,
   "total_promocoes": 139,
   "fontes": {
     "Awin": 156,
     "Rakuten": 96,
-    "Lomadee": 35
+    "Lomadee": 0
   },
   "ofertas": [
     {
@@ -21,174 +21,6 @@
       "validade": "2028-01-05T13:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=123238&awinaffid=3110826&ued=https%3A%2F%2Fgestao.galiciaeducacao.com.br",
       "rede": "Awin"
-    },
-    {
-      "id": "494904bf12b621e011",
-      "loja": "Autoamerica Store",
-      "tipo": "cupom",
-      "titulo": "Cupom de 10% de desconto",
-      "descricao": "",
-      "termos": "",
-      "cupom": "AAStore",
-      "validade": "2026-12-01T02:30:00Z",
-      "link": "https://lmdee.link/rar16NbFmsr8",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "1390dae5bf2e078b5a",
-      "loja": "Autoamerica Store",
-      "tipo": "cupom",
-      "titulo": "GARAGE FRIDAY AUTOAMERICA 25 OFF",
-      "descricao": "",
-      "termos": "",
-      "cupom": "GARAGEFRIDAY25",
-      "validade": "2026-11-30T02:30:00Z",
-      "link": "https://lmdee.link/ERkwwGkuyxbc",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "99b76a5df4db8baf29",
-      "loja": "BALAROTI",
-      "tipo": "cupom",
-      "titulo": "10% OFF nas seguintes categorias: Jardinagem, Casa e decoração, Ferramentas, Iluminação, Louças, Pisos e porcelanatos, Elétrica, Metais, Portas e janelas",
-      "descricao": "",
-      "termos": "",
-      "cupom": "LOMADEE",
-      "validade": "2027-02-11T02:30:00Z",
-      "link": "https://lmdee.link/vuU8UnjsKTuM",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "88683318a81dec70f0",
-      "loja": "Bauducco",
-      "tipo": "cupom",
-      "titulo": "Cupom de 10% de desconto na primeira compra",
-      "descricao": "",
-      "termos": "",
-      "cupom": "REDELOMADEE",
-      "validade": null,
-      "link": "https://lmdee.link/MmnMtSRGuiYC",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "f12f7e9cd0615a190f",
-      "loja": "Beep Saúde",
-      "tipo": "cupom",
-      "titulo": "12% em vacinas, pacotes e combos a partir de R$ 900,00 (exceto Combo Meningo B)Regiões: RJ, SP e DF.",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BEEPFRIDAYLOMADEE",
-      "validade": "2026-12-05T02:30:00Z",
-      "link": "https://lmdee.link/HHh80AmDI8gj",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "b5b82e9b373bb9a008",
-      "loja": "Beep Saúde",
-      "tipo": "cupom",
-      "titulo": "Cupom de 15% em exames e 5% em vacinas, exceto gripe (avulsa) Atuação apenas no RJ, SP e DF",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BEEPLOMADEE",
-      "validade": "2027-01-01T02:30:00Z",
-      "link": "https://lmdee.link/SMMDzag5yqcf",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "fdc9b86ab7fb623d39",
-      "loja": "BioVittare Farmácia de Manipulação",
-      "tipo": "cupom",
-      "titulo": "Black November",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BLACK10",
-      "validade": "2026-11-27T02:30:00Z",
-      "link": "https://lmdee.link/JshmvovPZi0i",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "326be716b1fd788d52",
-      "loja": "Brinox",
-      "tipo": "cupom",
-      "titulo": "Cupom de 10% off em todo o site",
-      "descricao": "",
-      "termos": "",
-      "cupom": "Lomadee10",
-      "validade": null,
-      "link": "https://lmdee.link/B3ZrjMqddZCX",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "69dc36be630e66db4f",
-      "loja": "Brinox",
-      "tipo": "cupom",
-      "titulo": "Cupom de R$ 15,00 de desconto",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BF15",
-      "validade": "2026-12-21T02:59:59Z",
-      "link": "https://lmdee.link/dmjDKSrBDuLU",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "ff5c81c47be235220b",
-      "loja": "Brinox",
-      "tipo": "cupom",
-      "titulo": "Cupom de R$ 25,00 de desconto",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BF25",
-      "validade": "2026-12-21T02:30:00Z",
-      "link": "https://lmdee.link/GqRkhjRYPgqQ",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "ef7d6e831df5c9e16d",
-      "loja": "Brinox",
-      "tipo": "cupom",
-      "titulo": "Cupom de R$ 30,00 de desconto",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BF30",
-      "validade": "2026-12-21T02:30:00Z",
-      "link": "https://lmdee.link/ZRRmk8yWNuhM",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "6fb8b62ade35b1c2c6",
-      "loja": "Brinox",
-      "tipo": "cupom",
-      "titulo": "Cupom de R$ 50,00 de desconto na Panela de Pressão Indução Brinox Antiaderente Ceramic Life Pressure 6,8 Litros Ø24cm Vanilla",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BF50EXTRA",
-      "validade": "2026-12-21T02:30:00Z",
-      "link": "https://lmdee.link/jqpvsnRfWwhm",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "f0027ee22d2a709de4",
-      "loja": "China in Box",
-      "tipo": "cupom",
-      "titulo": "25% de desconto em pedidos acima de R$ 60,00",
-      "descricao": "",
-      "termos": "",
-      "cupom": "CHINALOMADEE25",
-      "validade": null,
-      "link": "https://lmdee.link/8VMMfdnFV58B",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "588eaee50ddad11f81",
-      "loja": "Coza",
-      "tipo": "cupom",
-      "titulo": "Cupom de 20% off em todo o site!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "Lomadee20",
-      "validade": null,
-      "link": "https://lmdee.link/EXXfFSuBtslm",
-      "rede": "Lomadee"
     },
     {
       "id": "7d4a5dbb2653d78cc5",
@@ -767,90 +599,6 @@
       "rede": "Awin"
     },
     {
-      "id": "28c053d80b99e6012f",
-      "loja": "Homedock",
-      "tipo": "cupom",
-      "titulo": "1ª Compra: R$ 50 OFF para pedidos acima de R$ 1.299,99",
-      "descricao": "",
-      "termos": "",
-      "cupom": "NOVO50",
-      "validade": "2026-12-01T02:59:59Z",
-      "link": "https://lmdee.link/sU7RFKphMZ7z",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "d8ad59509505dfa777",
-      "loja": "Homedock",
-      "tipo": "cupom",
-      "titulo": "R$ 120 OFF para pedidos acima de R$ 3.199,99",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BLACK120",
-      "validade": "2026-12-01T02:59:59Z",
-      "link": "https://lmdee.link/zSc7OJRw57mE",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "4e1af405f9c1195ba0",
-      "loja": "Homedock",
-      "tipo": "cupom",
-      "titulo": "R$ 15 OFF para pedidos acima de R$ 599,99",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BLACK15",
-      "validade": "2026-12-01T02:30:00Z",
-      "link": "https://lmdee.link/AAwrxEkdk0th",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "63e045af7610303002",
-      "loja": "Homedock",
-      "tipo": "cupom",
-      "titulo": "R$ 25 OFF para pedidos acima de R$ 999,99",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BLACK25",
-      "validade": "2026-12-01T02:59:59Z",
-      "link": "https://lmdee.link/NvjqQ31Qtkby",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "5e55729ef66e8a8e86",
-      "loja": "Homedock",
-      "tipo": "cupom",
-      "titulo": "R$ 350 OFF para pedidos acima de R$ 4.999,99",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BLACK350",
-      "validade": "2026-12-01T02:59:59Z",
-      "link": "https://lmdee.link/mrQjiM9fxMp5",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "8dbca78cd343d34ad7",
-      "loja": "Homedock",
-      "tipo": "cupom",
-      "titulo": "R$ 500 OFF para pedidos acima de R$ 6.799,99",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BLACK500",
-      "validade": "2026-12-01T02:59:59Z",
-      "link": "https://lmdee.link/VN3NxmhpaGwI",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "6840e52d4f56a8a3f8",
-      "loja": "Homedock",
-      "tipo": "cupom",
-      "titulo": "R$ 80 OFF para pedidos acima de R$ 2.399,99",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BLACK80",
-      "validade": "2026-12-01T02:59:59Z",
-      "link": "https://lmdee.link/rNYr5SuM8uNL",
-      "rede": "Lomadee"
-    },
-    {
       "id": "b63e666f0a4a9598a6",
       "loja": "Insider Store BR",
       "tipo": "cupom",
@@ -1367,30 +1115,6 @@
       "rede": "Awin"
     },
     {
-      "id": "da1ecd4f334267c0c0",
-      "loja": "Lauri Esporte",
-      "tipo": "cupom",
-      "titulo": "Black Friday: 10% OFF em todo o site + 10% no Pix (até 20% OFF)",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BLACKLOMADEE10",
-      "validade": "2026-12-02T02:30:00Z",
-      "link": "https://lmdee.link/3KPx6QfOUJ2k",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "729f25ce3c5069a628",
-      "loja": "Lauri Esporte",
-      "tipo": "cupom",
-      "titulo": "Cupom 10% OFF em todo o site + 10% no Pix (até 20% OFF)",
-      "descricao": "",
-      "termos": "",
-      "cupom": "LOMADEE10",
-      "validade": null,
-      "link": "https://lmdee.link/8xM2KXahA1NR",
-      "rede": "Lomadee"
-    },
-    {
       "id": "c33f0f496fff3a0a9c",
       "loja": "Lauri Esporte",
       "tipo": "cupom",
@@ -1451,66 +1175,6 @@
       "rede": "Rakuten"
     },
     {
-      "id": "75f929ca507e63a1a9",
-      "loja": "Livrarias Curitiba",
-      "tipo": "cupom",
-      "titulo": "15% OFF em compras acima de R$ 149,90 nas categorias de Livros de Literatura.",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BLACKFRIDAY",
-      "validade": "2026-12-01T02:30:00Z",
-      "link": "https://lmdee.link/3WDEzA0FFbxg",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "3b10743ee4404d2ee9",
-      "loja": "Líquido",
-      "tipo": "cupom",
-      "titulo": "Cupom de 10% de desconto (Regra: não válido para peças promocionais/outlet)",
-      "descricao": "",
-      "termos": "",
-      "cupom": "LOMADEE10",
-      "validade": "2027-01-01T02:30:00Z",
-      "link": "https://lmdee.link/lJLkInykeDxg",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "29d901cb62552bddec",
-      "loja": "Mais Mu",
-      "tipo": "cupom",
-      "titulo": "15% EM TODO SITE CUMULATIVO COM OUTRAS OFERTAS",
-      "descricao": "",
-      "termos": "",
-      "cupom": "LOMADEE15",
-      "validade": null,
-      "link": "https://lmdee.link/haKYLZYmzPPR",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "a1f0d2c6c32dc99711",
-      "loja": "Maria Valentina",
-      "tipo": "cupom",
-      "titulo": "NOVIDADES com 10%OFF",
-      "descricao": "",
-      "termos": "",
-      "cupom": "GANHE10",
-      "validade": null,
-      "link": "https://lmdee.link/I461kKPTnfb0",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "06cd3907b05922f8c6",
-      "loja": "Morena Rosa",
-      "tipo": "cupom",
-      "titulo": "SHOES com 10% Off",
-      "descricao": "",
-      "termos": "",
-      "cupom": "SHOES10",
-      "validade": "2026-12-01T02:59:59Z",
-      "link": "https://lmdee.link/m0zR9Eohrlwb",
-      "rede": "Lomadee"
-    },
-    {
       "id": "260aa271b25df2006d",
       "loja": "Multi",
       "tipo": "cupom",
@@ -1545,42 +1209,6 @@
       "validade": "2027-07-20T13:32:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=127159&awinaffid=3110826&ued=https%3A%2F%2Fwww.oceane.com.br",
       "rede": "Awin"
-    },
-    {
-      "id": "ac681230be5861174b",
-      "loja": "PCYES",
-      "tipo": "cupom",
-      "titulo": "10% off na sua primeira compra",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BEMVINDO10",
-      "validade": null,
-      "link": "https://lmdee.link/jk2E9pzFLxY1",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "5a3ddebe38751c9009",
-      "loja": "Pneunet",
-      "tipo": "cupom",
-      "titulo": "Orange Friday",
-      "descricao": "",
-      "termos": "",
-      "cupom": "PNEUNETFRIDAY10",
-      "validade": "2026-11-30T02:30:00Z",
-      "link": "https://lmdee.link/HftCdXR48BHw",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "38222493f60816530b",
-      "loja": "POMANDER",
-      "tipo": "cupom",
-      "titulo": "Cupom de 10% de desconto nos produtos selecionados",
-      "descricao": "",
-      "termos": "",
-      "cupom": "LOMA10",
-      "validade": "2027-01-01T02:30:00Z",
-      "link": "https://lmdee.link/dguRKAuTzpSV",
-      "rede": "Lomadee"
     },
     {
       "id": "a3ac18320162620c8b",
@@ -1691,18 +1319,6 @@
       "rede": "Awin"
     },
     {
-      "id": "353f7ed905d3156e7d",
-      "loja": "Soulier",
-      "tipo": "cupom",
-      "titulo": "12% de desconto não cumulativo com outras promoções",
-      "descricao": "",
-      "termos": "",
-      "cupom": "LOMADEE12",
-      "validade": "2027-01-01T02:30:00Z",
-      "link": "https://lmdee.link/Sw3sUzNLNSN9",
-      "rede": "Lomadee"
-    },
-    {
       "id": "db59f7af84daf85888",
       "loja": "Spicy BR",
       "tipo": "cupom",
@@ -1749,42 +1365,6 @@
       "validade": "2027-01-01T02:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=117795&awinaffid=3110826&campaign=Primeira+Compra+com+10+OFF&ued=https%3A%2F%2Fwww.vxcase.com.br%2Fdiscount%2FPRIMEIRACOMPRA",
       "rede": "Awin"
-    },
-    {
-      "id": "2352ff048a0a69653a",
-      "loja": "Walita",
-      "tipo": "cupom",
-      "titulo": "10% em todo site com limitação de R$ 200 para cafeteiras. Não cumulativo com outras ofertas",
-      "descricao": "",
-      "termos": "",
-      "cupom": "LOMADEE",
-      "validade": null,
-      "link": "https://lmdee.link/1ZOrSK4goA4S",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "0fd825eed0513871a7",
-      "loja": "Walita",
-      "tipo": "cupom",
-      "titulo": "Ganhe até R$200 com cupom PREBLACK",
-      "descricao": "",
-      "termos": "",
-      "cupom": "PREBLACK",
-      "validade": "2026-11-23T02:30:00Z",
-      "link": "https://lmdee.link/hg9vJ2lIoToS",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "2eadc70b9c1b1cfed3",
-      "loja": "Óticas Foto Paulo",
-      "tipo": "cupom",
-      "titulo": "5% OFF em todo site cumulativo com outras ofertas",
-      "descricao": "",
-      "termos": "",
-      "cupom": "LOMADEE5",
-      "validade": null,
-      "link": "https://lmdee.link/Im8Dkr3oDJbO",
-      "rede": "Lomadee"
     },
     {
       "id": "707052ca3d7e6b2a24",
@@ -2899,7 +2479,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-10-09T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.3&type=4",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.4&type=4",
       "rede": "Rakuten"
     },
     {
@@ -3211,7 +2791,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-04-08T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.370&type=4",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.367&type=4",
       "rede": "Rakuten"
     },
     {
