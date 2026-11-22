@@ -1,8 +1,8 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-22T01:54:33.549542Z",
-  "total": 155,
+  "atualizado_em": "2026-11-22T03:08:23.215073Z",
+  "total": 156,
   "ofertas": [
     {
       "id": "4175581",
@@ -113,6 +113,17 @@
       "cupom": "",
       "validade": "2026-11-23T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fkeune-keratin-smooth-mascara-500ml"
+    },
+    {
+      "id": "4181734",
+      "loja": "Farmácias Indiana BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF utilizando o cupom DOMINGO10",
+      "descricao": "10% OFF utilizando o cupom DOMINGO10",
+      "termos": ".",
+      "cupom": "DOMINGO10",
+      "validade": "2026-11-23T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=122836&awinaffid=3110826&ued=https%3A%2F%2Fwww.farmaciaindiana.com.br"
     },
     {
       "id": "4182230",

@@ -1,11 +1,11 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-22T01:54:34.687901Z",
-  "total": 284,
-  "total_cupons": 145,
+  "atualizado_em": "2026-11-22T03:08:24.484526Z",
+  "total": 285,
+  "total_cupons": 146,
   "total_promocoes": 139,
   "fontes": {
-    "Awin": 155,
+    "Awin": 156,
     "Rakuten": 96,
     "Lomadee": 33
   },
@@ -656,6 +656,18 @@
       "cupom": "ESTADAO",
       "validade": "2027-01-01T02:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=122836&awinaffid=3110826&ued=https%3A%2F%2Fwww.farmaciaindiana.com.br%2F",
+      "rede": "Awin"
+    },
+    {
+      "id": "812071962d86efd827",
+      "loja": "Farmácias Indiana BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF utilizando o cupom DOMINGO10",
+      "descricao": "10% OFF utilizando o cupom DOMINGO10",
+      "termos": ".",
+      "cupom": "DOMINGO10",
+      "validade": "2026-11-23T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=122836&awinaffid=3110826&ued=https%3A%2F%2Fwww.farmaciaindiana.com.br",
       "rede": "Awin"
     },
     {
@@ -3175,7 +3187,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-04-08T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.362&type=4",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.366&type=4",
       "rede": "Rakuten"
     },
     {
