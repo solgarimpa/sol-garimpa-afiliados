@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-22T01:29:16+00:00",
+  "atualizado_em": "2026-11-22T03:05:48+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -695,16 +695,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-4c57785710cc8f35105f",
+      "id": "lc-b28d58a6e7953fe29c27",
       "loja": "Camisaria Colombo",
       "tipo": "promocao",
-      "titulo": "BLACK NOVEMBER COLOMBO!",
-      "imagem": "https://cdn.lomadee.com.br/offer/a56e1bf5-d261-41a8-9794-5894faf7f560/banners/imagem%20-%202026-11-16T161910.097.png",
-      "link": "https://lmdee.link/v5rc2ywShDVe",
+      "titulo": "Black November Colombo!",
+      "imagem": "https://cdn.lomadee.com.br/offer/b96c3904-2ec5-4a77-a326-e8718a66082a/banners/Colombo_Black_November_Google_960x1200_com_CTA.jpg",
+      "link": "https://lmdee.link/t4kA4sc6UUOv",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-22T02:30:00.000Z",
+      "validade": "2026-12-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1377,20 +1377,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-b28d58a6e7953fe29c27",
-      "loja": "Camisaria Colombo",
-      "tipo": "promocao",
-      "titulo": "Black November Colombo!",
-      "imagem": "https://cdn.lomadee.com.br/offer/b96c3904-2ec5-4a77-a326-e8718a66082a/banners/Colombo_Black_November_Google_960x1200_com_CTA.jpg",
-      "link": "https://lmdee.link/t4kA4sc6UUOv",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-12-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2361,6 +2347,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-0558efff842b122b0e7f",
+      "loja": "Soulier",
+      "tipo": "promocao",
+      "titulo": "Botas com até 50% off",
+      "imagem": "https://cdn.lomadee.com.br/offer/a49980b8-df80-481c-9ea7-86f83398ac6b/banners/120x600.jpg",
+      "link": "https://lmdee.link/kkXFkBPacpTh",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lp-7042b779cdf422ff8f22",
       "loja": "Friopeças",
       "tipo": "produto",
@@ -2681,11 +2681,25 @@
       "validade": null,
       "descricao": "Ar Condicionado Split Inverter 9.000 Btus Gree G-Top Auto 220V GWC09ATB-D6DNA1A/I     Ar condicionado com Tecnologia, praticidade e economia   O ar condicionado Split Gree G-Top Auto Inverter 9.000 BTUs Frio 220V é sinôn",
       "origem": "Lomadee"
+    },
+    {
+      "id": "lp-6b73592aaab0e7b7fcba",
+      "loja": "Friopeças",
+      "tipo": "produto",
+      "titulo": "Ar Condicionado Split Cassete Inverter Midea 24000 BTU/h Frio Monofásico 38TVCD24515MM – 220 Volts",
+      "imagem": "https://friopecas.vteximg.com.br/arquivos/ids/234018/1.-Capa---sem-Selo.jpg?v=638602813754430000",
+      "link": "https://lmdee.link/W5E0i7dw1yCz",
+      "preco": 79.98,
+      "preco_anterior": 93.98,
+      "cupom": null,
+      "validade": null,
+      "descricao": "Ar Condicionado Split Cassete Inverter Midea 24000 BTU/h Frio Monofásico 38TVCD24515MM – 220 Volts    O  Ar Condicionado Split Cassete Inverter Midea 24000 BTU/h Frio Monofásico 38TVCD24515MM   é o equipamento ideal para",
+      "origem": "Lomadee"
     }
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 153,
+    "com_ofertas": 154,
     "marcas": 134,
     "campanhas": 120,
     "produtos": 60,
