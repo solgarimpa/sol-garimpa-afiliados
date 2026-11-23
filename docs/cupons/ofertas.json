@@ -1,8 +1,8 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-23T03:16:33.072827Z",
-  "total": 143,
+  "atualizado_em": "2026-11-23T04:34:24.392699Z",
+  "total": 148,
   "ofertas": [
     {
       "id": "4182234",
@@ -80,6 +80,50 @@
       "cupom": "",
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=51271&awinaffid=3110826&ued=https%3A%2F%2Fwww.mizuno.com.br%2Fblack-friday"
+    },
+    {
+      "id": "4175932",
+      "loja": "Olympikus BR",
+      "tipo": "promocao",
+      "titulo": "Black Friday Olympikus com até 60% OFF + Frete Grátis + Benefícios no PIX",
+      "descricao": "Black Friday Olympikus com até 60% OFF + Frete Grátis + Benefícios no PIX",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17698&awinaffid=3110826&ued=https%3A%2F%2Fwww.olympikus.com.br%2Fblackfriday%3Futm_source%3Dawin%26utm_medium%3Dafiliados-email%26utm_campaign%3Dblackfriday"
+    },
+    {
+      "id": "4167660",
+      "loja": "Olympikus BR",
+      "tipo": "promocao",
+      "titulo": "Black Friday Acessórios Leve 3 Pague 2 + Frete Grátis e Desconto no Pix à Vista. Válido para lista selecionada e enquanto durarem os estoques.",
+      "descricao": "Black Friday Acessórios Leve 3 Pague 2 + Frete Grátis e Desconto no Pix à Vista. Válido para lista selecionada e enquanto durarem os estoques.",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17698&awinaffid=3110826&ued=https%3A%2F%2Fwww.olympikus.com.br%2Fblack-friday-acessorios"
+    },
+    {
+      "id": "4164992",
+      "loja": "Olympikus BR",
+      "tipo": "promocao",
+      "titulo": "Black Friday Desconto Progressivo em Vestuários 25% OFF em 2 itens e 30% OFF em 3 ou mais itens",
+      "descricao": "Black Friday Desconto Progressivo em Vestuários 25% OFF em 2 itens e 30% OFF em 3 ou mais itens",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17698&awinaffid=3110826&ued=https%3A%2F%2Fwww.olympikus.com.br%2Fdesconto-progressivo"
+    },
+    {
+      "id": "4154540",
+      "loja": "Olympikus BR",
+      "tipo": "promocao",
+      "titulo": "Black Friday Imperdível - Preços exclusivos com até 60% OFF + desconto extra no Pix e frete grátis. Até 10x sem juros. Válido para lista selecionada enquanto durarem os estoques",
+      "descricao": "Black Friday Imperdível - Preços exclusivos com até 60% OFF + desconto extra no Pix e frete grátis. Até 10x sem juros. Válido para lista selecionada enquanto durarem os estoques",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17698&awinaffid=3110826&ued=https%3A%2F%2Fwww.olympikus.com.br%2Fblackfriday"
     },
     {
       "id": "4175933",
@@ -520,6 +564,17 @@
       "cupom": "",
       "validade": "2026-12-01T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=51271&awinaffid=3110826&ued=https%3A%2F%2Fwww.mizuno.com.br%2Fkits-mizuno"
+    },
+    {
+      "id": "4175935",
+      "loja": "Olympikus BR",
+      "tipo": "promocao",
+      "titulo": "Black Friday Kits Olympikus - O Kit Ideal Para Seu Corre. Válido para lista selecionada",
+      "descricao": "Black Friday Kits Olympikus - O Kit Ideal Para Seu Corre. Válido para lista selecionada",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17698&awinaffid=3110826&ued=https%3A%2F%2Fwww.olympikus.com.br%2Fkits-olympikus"
     },
     {
       "id": "4175936",
