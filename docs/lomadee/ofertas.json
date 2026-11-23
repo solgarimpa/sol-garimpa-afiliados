@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-23T12:14:17+00:00",
+  "atualizado_em": "2026-11-23T13:41:35+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -597,15 +597,15 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-943306e19e1b3b848d28",
+      "id": "lc-dc5ae5874510f45a0b5b",
       "loja": "Autoamerica Store",
-      "tipo": "cupom",
-      "titulo": "CYBER MONDAY 25% OFF",
+      "tipo": "promocao",
+      "titulo": "GARAGE MONDAY",
       "imagem": "",
-      "link": "https://lmdee.link/pzCcvm57yIFn",
+      "link": "https://lmdee.link/ep8IJeXF6oTd",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "CYBERMONDAY",
+      "cupom": null,
       "validade": "2026-11-24T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
@@ -1269,16 +1269,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-dc5ae5874510f45a0b5b",
+      "id": "lc-c3ad647bbb5cf30639a7",
       "loja": "Autoamerica Store",
-      "tipo": "promocao",
-      "titulo": "GARAGE MONDAY",
+      "tipo": "cupom",
+      "titulo": "GARAGE FRIDAY AUTOAMERICA 25 OFF",
       "imagem": "",
-      "link": "https://lmdee.link/ep8IJeXF6oTd",
+      "link": "https://lmdee.link/ERkwwGkuyxbc",
       "preco": null,
       "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-24T02:30:00.000Z",
+      "cupom": "GARAGEFRIDAY25",
+      "validade": "2026-11-30T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1619,15 +1619,15 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-c3ad647bbb5cf30639a7",
+      "id": "lc-819ed01ae81a2f692320",
       "loja": "Autoamerica Store",
-      "tipo": "cupom",
-      "titulo": "GARAGE FRIDAY AUTOAMERICA 25 OFF",
-      "imagem": "",
-      "link": "https://lmdee.link/ERkwwGkuyxbc",
+      "tipo": "promocao",
+      "titulo": "GARAGE FRIDAY AUTOAMERICA",
+      "imagem": "https://cdn.lomadee.com.br/offer/8ac502f0-aa46-4185-81d4-6399fdea21fe/banners/AA-friday_garage-friday-banner-responsivo-390x387px.png",
+      "link": "https://lmdee.link/xnNXpbpzIhcM",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "GARAGEFRIDAY25",
+      "cupom": null,
       "validade": "2026-11-30T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
@@ -1671,6 +1671,20 @@
       "preco_anterior": null,
       "cupom": "BLACK20",
       "validade": "2026-12-11T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-3bd2c1db834cf21116a8",
+      "loja": "eles.®",
+      "tipo": "cupom",
+      "titulo": "Preblack",
+      "imagem": "",
+      "link": "https://lmdee.link/iIBsvCOgPe2m",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "Preblack",
+      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1801,16 +1815,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-819ed01ae81a2f692320",
+      "id": "lc-c30efa0726c01faa8459",
       "loja": "Autoamerica Store",
-      "tipo": "promocao",
-      "titulo": "GARAGE FRIDAY AUTOAMERICA",
-      "imagem": "https://cdn.lomadee.com.br/offer/8ac502f0-aa46-4185-81d4-6399fdea21fe/banners/AA-friday_garage-friday-banner-responsivo-390x387px.png",
-      "link": "https://lmdee.link/xnNXpbpzIhcM",
+      "tipo": "cupom",
+      "titulo": "Cupom de 10% de desconto",
+      "imagem": "",
+      "link": "https://lmdee.link/rar16NbFmsr8",
       "preco": null,
       "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-30T02:30:00.000Z",
+      "cupom": "AAStore",
+      "validade": "2026-12-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1927,16 +1941,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-c30efa0726c01faa8459",
+      "id": "lc-ab8c31921b04f6dffa6b",
       "loja": "Autoamerica Store",
-      "tipo": "cupom",
-      "titulo": "Cupom de 10% de desconto",
-      "imagem": "",
-      "link": "https://lmdee.link/rar16NbFmsr8",
+      "tipo": "promocao",
+      "titulo": "Lançamento Autoamerica Store",
+      "imagem": "https://cdn.lomadee.com.br/offer/263beb4d-1c28-45be-85b8-d48ff27637c7/banners/PROMO%20Luva%20de%20lavagem%20-%20Mobile.jpg",
+      "link": "https://lmdee.link/yt4UkIouqEWb",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "AAStore",
-      "validade": "2026-12-01T02:30:00.000Z",
+      "cupom": null,
+      "validade": "2027-01-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2035,20 +2049,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-ab8c31921b04f6dffa6b",
-      "loja": "Autoamerica Store",
-      "tipo": "promocao",
-      "titulo": "Lançamento Autoamerica Store",
-      "imagem": "https://cdn.lomadee.com.br/offer/263beb4d-1c28-45be-85b8-d48ff27637c7/banners/PROMO%20Luva%20de%20lavagem%20-%20Mobile.jpg",
-      "link": "https://lmdee.link/yt4UkIouqEWb",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2027-01-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
