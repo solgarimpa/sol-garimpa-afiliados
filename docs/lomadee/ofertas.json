@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-23T15:25:35+00:00",
+  "atualizado_em": "2026-11-23T17:20:42+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -751,6 +751,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-2eed7d34b1a6b794938f",
+      "loja": "Dl Comercio E Industria De Produtos Eletronicos Lt",
+      "tipo": "promocao",
+      "titulo": "Aproveite ofertas especiais em smartphones, acessórios e diversos produtos Xiaomi, com descontos de até 72% OFF!",
+      "imagem": "https://cdn.lomadee.com.br/offer/5fa404eb-b02d-4db1-9d42-d3182e780df0/banners/imagem%20-%202026-11-23T134749.526.png",
+      "link": "https://lmdee.link/biTcMLeq4qWY",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-b28a0aff99ef48e6c71b",
       "loja": "ECO FLAME GARDEN",
       "tipo": "promocao",
@@ -761,20 +775,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-26T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-d0629263e1d88c8e77e0",
-      "loja": "eles.®",
-      "tipo": "cupom",
-      "titulo": "Oferta Outubro Rosa elas. para emagrecimento 15% off",
-      "imagem": "",
-      "link": "https://lmdee.link/4w25yU4r7V5b",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "outubrorosa",
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -887,6 +887,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-e4a7038997894988c347",
+      "loja": "Lojas REDE",
+      "tipo": "promocao",
+      "titulo": "Black Friday Lojas Rede 23-11",
+      "imagem": "https://cdn.lomadee.com.br/offer/e3f63e68-002a-479a-acb8-cc0038e1d4ef/banners/imagem%20-%202026-11-23T134255.045.png",
+      "link": "https://lmdee.link/8NZ2EkSACXfm",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-25T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1059,12 +1073,12 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-2a93856d3be0cdd53b8a",
+      "id": "lc-4fa0607f20975bfadddf",
       "loja": "Rovitex",
       "tipo": "promocao",
-      "titulo": "RoviFriday!! Mês Inteiro de Ofertas",
-      "imagem": "https://cdn.lomadee.com.br/offer/0fc12bd2-998a-4a31-b2ce-a01d96ffa7fc/banners/Achadinhos%20por%20at%C3%A9%2049%2C99%20%281%29.png",
-      "link": "https://lmdee.link/9h3FCsS6VEqJ",
+      "titulo": "Mês Inteiro de Ofertas  até 80%OFF (23-11)",
+      "imagem": "https://cdn.lomadee.com.br/offer/ee10f3a4-4a87-460f-b74a-00865ed21275/banners/Combos%20para%20toda%20fam%C3%ADlia.png",
+      "link": "https://lmdee.link/OiwFm6kE9OZW",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
@@ -1353,20 +1367,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-9c1c5c847b6d9a5aeb08",
-      "loja": "eles.®",
-      "tipo": "promocao",
-      "titulo": "Outubro Rosa elas.",
-      "imagem": "https://cdn.lomadee.com.br/offer/27cc1c2b-f455-4961-a476-13072d01e502/banners/Imagem%20do%20ChatGPT%209%20de%20out.%20de%202026%2C%2017_22_23.png",
-      "link": "https://lmdee.link/IQDiC3iOZkT3",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lp-dadb586512efad4bc95d",
       "loja": "Friopeças",
       "tipo": "produto",
@@ -1521,6 +1521,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-2a93856d3be0cdd53b8a",
+      "loja": "Rovitex",
+      "tipo": "promocao",
+      "titulo": "RoviFriday!! Mês Inteiro de Ofertas",
+      "imagem": "https://cdn.lomadee.com.br/offer/0fc12bd2-998a-4a31-b2ce-a01d96ffa7fc/banners/Achadinhos%20por%20at%C3%A9%2049%2C99%20%281%29.png",
+      "link": "https://lmdee.link/9h3FCsS6VEqJ",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-a06793aa7f1366e1047d",
       "loja": "Sawary",
       "tipo": "promocao",
@@ -1671,20 +1685,6 @@
       "preco_anterior": null,
       "cupom": "BLACK20",
       "validade": "2026-12-11T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-3bd2c1db834cf21116a8",
-      "loja": "eles.®",
-      "tipo": "cupom",
-      "titulo": "Preblack",
-      "imagem": "",
-      "link": "https://lmdee.link/iIBsvCOgPe2m",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "Preblack",
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2709,39 +2709,11 @@
       "validade": null,
       "descricao": "Ar Condicionado Split Inverter 12.000 BTUs TCL Frio 220V TAC12CTG2INV – Conforto e tecnologia na medida certa   Se você busca performance, economia e sofisticação, o  Ar Condicionado Split Inverter 12.000 BTUs TCL Frio 2",
       "origem": "Lomadee"
-    },
-    {
-      "id": "lp-ed94c4372ef71ccbae60",
-      "loja": "Friopeças",
-      "tipo": "produto",
-      "titulo": "Ar Condicionado Split Hi Wall Inverter TCL 9000 BTU/h Frio TAC09CTG2INV – 220 Volts",
-      "imagem": "https://friopecas.vteximg.com.br/arquivos/ids/233746/T-Pro-2.0-conjunto.jpg?v=638578742334630000",
-      "link": "https://lmdee.link/m5At6cMykLMn",
-      "preco": 24.48,
-      "preco_anterior": 29.68,
-      "cupom": null,
-      "validade": null,
-      "descricao": "Ar Condicionado Split Hi Wall Inverter TCL 9000 BTU/h Frio TAC09CTG2INV – 220 Volts    Descubra a excelência em climatização com o   Ar Condicionado Split Hi Wall Inverter TCL 9000 BTU/H Frio TAC09CTG2INV . Desenvolvido ",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lp-92a2013bf05530b2b443",
-      "loja": "Friopeças",
-      "tipo": "produto",
-      "titulo": "Ar Condicionado Split Vix 22000 BTU/h Quente e Frio AS-22HR5SBTCA00 – 220 Volts",
-      "imagem": "https://friopecas.vteximg.com.br/arquivos/ids/247286/foto2--1-.jpg.jpg?v=638804091177200000",
-      "link": "https://lmdee.link/Ozw6D1EhJ4d5",
-      "preco": 30.38,
-      "preco_anterior": 53.88,
-      "cupom": null,
-      "validade": null,
-      "descricao": "Ar Condicionado Split Vix 22000 BTU/h Quente e Frio AS-22HR5SBTCA00 – 220 Volts    Com o Ar Condicionado Split Vix 22000 BTU/h Quente e Frio AS-22HR5SBTCA00     desfrute de um conforto excepcional em seu espaço, com a ef",
-      "origem": "Lomadee"
     }
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 157,
+    "com_ofertas": 155,
     "marcas": 134,
     "campanhas": 120,
     "produtos": 60,
