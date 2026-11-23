@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-23T17:23:19.031900Z",
-  "total": 306,
-  "total_cupons": 161,
+  "atualizado_em": "2026-11-23T23:13:09.472979Z",
+  "total": 303,
+  "total_cupons": 158,
   "total_promocoes": 145,
   "fontes": {
     "Awin": 169,
     "Rakuten": 96,
-    "Lomadee": 41
+    "Lomadee": 38
   },
   "ofertas": [
     {
@@ -56,18 +56,6 @@
       "cupom": "LOMADEE",
       "validade": "2027-02-11T02:30:00Z",
       "link": "https://lmdee.link/vuU8UnjsKTuM",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "88683318a81dec70f0",
-      "loja": "Bauducco",
-      "tipo": "cupom",
-      "titulo": "Cupom de 10% de desconto na primeira compra",
-      "descricao": "",
-      "termos": "",
-      "cupom": "REDELOMADEE",
-      "validade": null,
-      "link": "https://lmdee.link/MmnMtSRGuiYC",
       "rede": "Lomadee"
     },
     {
@@ -344,6 +332,18 @@
       "cupom": "CHINALOMADEE25",
       "validade": null,
       "link": "https://lmdee.link/8VMMfdnFV58B",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "22a80103f617a12385",
+      "loja": "Concórdia Informática",
+      "tipo": "cupom",
+      "titulo": "10% OFF em todos os computadores",
+      "descricao": "",
+      "termos": "",
+      "cupom": "COMPUTADOR10",
+      "validade": "2026-12-01T02:30:00Z",
+      "link": "https://lmdee.link/xsIeqqDRFpse",
       "rede": "Lomadee"
     },
     {
@@ -1631,18 +1631,6 @@
       "rede": "Lomadee"
     },
     {
-      "id": "a1f0d2c6c32dc99711",
-      "loja": "Maria Valentina",
-      "tipo": "cupom",
-      "titulo": "NOVIDADES com 10%OFF",
-      "descricao": "",
-      "termos": "",
-      "cupom": "GANHE10",
-      "validade": null,
-      "link": "https://lmdee.link/I461kKPTnfb0",
-      "rede": "Lomadee"
-    },
-    {
       "id": "06cd3907b05922f8c6",
       "loja": "Morena Rosa",
       "tipo": "cupom",
@@ -1904,30 +1892,6 @@
       "cupom": "LOMADEE",
       "validade": null,
       "link": "https://lmdee.link/1ZOrSK4goA4S",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "43e498746ad3f5fe71",
-      "loja": "Zupper",
-      "tipo": "cupom",
-      "titulo": "Cupom de R$ 25,00 de desconto (apenas para primeira compra 1 por CPF)",
-      "descricao": "",
-      "termos": "",
-      "cupom": "ZUPPLOM40",
-      "validade": "2027-01-01T02:30:00Z",
-      "link": "https://lmdee.link/goTvpMKdOivt",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "0f301a486e8c36849c",
-      "loja": "Zupper",
-      "tipo": "cupom",
-      "titulo": "Cupom de R$ 25,00 de desconto (uso ilimitado)",
-      "descricao": "",
-      "termos": "",
-      "cupom": "ZUPPLOM25",
-      "validade": "2027-01-01T02:30:00Z",
-      "link": "https://lmdee.link/geL8GLQ5Mgns",
       "rede": "Lomadee"
     },
     {
@@ -2983,7 +2947,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-06-23T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2065106.4&type=4",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2065106.3&type=4",
       "rede": "Rakuten"
     },
     {
@@ -3067,7 +3031,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-10-09T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.3&type=4",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.4&type=4",
       "rede": "Rakuten"
     },
     {
@@ -3379,7 +3343,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-06-09T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1752486.818&type=3&subid=0",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1752486.819&type=3&subid=0",
       "rede": "Rakuten"
     },
     {
@@ -3439,7 +3403,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-04-08T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.371&type=4",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.372&type=4",
       "rede": "Rakuten"
     },
     {
