@@ -1,8 +1,8 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-23T15:49:58.654657Z",
-  "total": 149,
+  "atualizado_em": "2026-11-23T17:23:13.961472Z",
+  "total": 169,
   "ofertas": [
     {
       "id": "4182226",
@@ -25,6 +25,94 @@
       "cupom": "HORADOCAFE",
       "validade": "2026-11-24T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F367383%2Fcafeteira-nespresso-citiz-para-cafe-espresso-110v-vermelho-cereja-c113-br"
+    },
+    {
+      "id": "4180291",
+      "loja": "C&A BR",
+      "tipo": "promocao",
+      "titulo": "Looks para fim de ano",
+      "descricao": "Looks para fim de ano",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-25T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fblack-friday%2Fmoda-feminina%2Ffestas"
+    },
+    {
+      "id": "4180290",
+      "loja": "C&A BR",
+      "tipo": "promocao",
+      "titulo": "Cuidados com Cabelo até 50% Off",
+      "descricao": "Cuidados com Cabelo até 50% Off",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-25T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fofertas%2Fbeleza%2Fcabelos%2Ftratamento"
+    },
+    {
+      "id": "4180289",
+      "loja": "C&A BR",
+      "tipo": "promocao",
+      "titulo": "Liquida Esportivo - Até 70% Off",
+      "descricao": "Liquida Esportivo - Até 70% Off",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-25T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fofertas%2Fliquida%2Fesportivo"
+    },
+    {
+      "id": "4180288",
+      "loja": "C&A BR",
+      "tipo": "promocao",
+      "titulo": "Skincare até 50%",
+      "descricao": "Skincare até 50%",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-25T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fbeleza%2Fcuidados-pessoais"
+    },
+    {
+      "id": "4180287",
+      "loja": "C&A BR",
+      "tipo": "promocao",
+      "titulo": "Calças a partir de R$79,99",
+      "descricao": "Calças a partir de R$79,99",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-25T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fblack-friday%2Fcalcas"
+    },
+    {
+      "id": "4180285",
+      "loja": "C&A BR",
+      "tipo": "promocao",
+      "titulo": "Shorts e Bermudas a partir de R$79,99",
+      "descricao": "Shorts e Bermudas a partir de R$79,99",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-25T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fblack-friday%2Fshorts-e-bermudas"
+    },
+    {
+      "id": "4180284",
+      "loja": "C&A BR",
+      "tipo": "promocao",
+      "titulo": "Black Friday: algodão peruano a patir R$29,99",
+      "descricao": "Black Friday: algodão peruano a patir R$29,99",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-25T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fblack-friday%2Falgodao-peruano"
+    },
+    {
+      "id": "4177745",
+      "loja": "C&A BR",
+      "tipo": "cupom",
+      "titulo": "40% OFF em itens selecionados na campanha Antecipa Black. Aproveite ofertas especiais em produtos participantes da seleção exclusiva",
+      "descricao": "40% OFF em itens selecionados na campanha Antecipa Black. Aproveite ofertas especiais em produtos participantes da seleção exclusiva",
+      "termos": ".",
+      "cupom": "VEMBLACK",
+      "validade": "2026-11-25T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fvitrine%2Fcea%2F20011"
     },
     {
       "id": "4175931",
@@ -597,6 +685,127 @@
       "cupom": "BLACKAWIN10",
       "validade": "2026-12-02T02:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2F"
+    },
+    {
+      "id": "4180293",
+      "loja": "C&A BR",
+      "tipo": "promocao",
+      "titulo": "Combo 2 por R$189",
+      "descricao": "Combo 2 por R$189",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-02T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fvitrine%2Fcea%2F19106"
+    },
+    {
+      "id": "4179885",
+      "loja": "C&A BR",
+      "tipo": "cupom",
+      "titulo": "Combo Calçados - 70% na segunda peça",
+      "descricao": "Combo Calçados - 70% na segunda peça",
+      "termos": ".",
+      "cupom": "MAIS70",
+      "validade": "2026-12-02T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fvitrine%2Fcea%2F17819"
+    },
+    {
+      "id": "4179883",
+      "loja": "C&A BR",
+      "tipo": "cupom",
+      "titulo": "Combo Pijamas e Lingeries - 70% na segunda peça",
+      "descricao": "Combo Pijamas e Lingeries - 70% na segunda peça",
+      "termos": ".",
+      "cupom": "TEM70",
+      "validade": "2026-12-02T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fvitrine%2Fcea%2F20362"
+    },
+    {
+      "id": "4179879",
+      "loja": "C&A BR",
+      "tipo": "cupom",
+      "titulo": "Jeans 30% Off",
+      "descricao": "Jeans 30% Off",
+      "termos": ".",
+      "cupom": "JEANS30",
+      "validade": "2026-12-02T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fvitrine%2Fcea%2F19283"
+    },
+    {
+      "id": "4179876",
+      "loja": "C&A BR",
+      "tipo": "cupom",
+      "titulo": "Combo Esportivo - 3 por R$109",
+      "descricao": "Combo Esportivo - 3 por R$109",
+      "termos": ".",
+      "cupom": "ESPORTIVO",
+      "validade": "2026-12-02T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fvitrine%2Fcea%2F19375"
+    },
+    {
+      "id": "4179874",
+      "loja": "C&A BR",
+      "tipo": "cupom",
+      "titulo": "Combo Relógios - 50% na segunda peça",
+      "descricao": "Combo Relógios - 50% na segunda peça",
+      "termos": ".",
+      "cupom": "RELOGIO50",
+      "validade": "2026-12-02T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fvitrine%2Fcea%2F20224"
+    },
+    {
+      "id": "4179871",
+      "loja": "C&A BR",
+      "tipo": "cupom",
+      "titulo": "Combo Infantil - Até 40% Off",
+      "descricao": "Combo Infantil - Até 40% Off",
+      "termos": ".",
+      "cupom": "MAISKIDS",
+      "validade": "2026-12-02T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fvitrine%2Fcea%2F19561"
+    },
+    {
+      "id": "4179865",
+      "loja": "C&A BR",
+      "tipo": "cupom",
+      "titulo": "Combo Mindset - 2 Peças por R$299",
+      "descricao": "Combo Mindset - 2 Peças por R$299",
+      "termos": ".",
+      "cupom": "MAISMIND",
+      "validade": "2026-12-02T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fvitrine%2Fcea%2F17860"
+    },
+    {
+      "id": "4163652",
+      "loja": "C&A BR",
+      "tipo": "cupom",
+      "titulo": "Até 35% em Beleza",
+      "descricao": "Até 35% em Beleza",
+      "termos": ".",
+      "cupom": "MAISBELEZA",
+      "validade": "2026-12-02T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fbeleza%2Fdesconto-progressivo"
+    },
+    {
+      "id": "4163649",
+      "loja": "C&A BR",
+      "tipo": "cupom",
+      "titulo": "Combo Mindset - 2 Peças por R$349",
+      "descricao": "Combo Mindset - 2 Peças por R$349",
+      "termos": ".",
+      "cupom": "MINDSE7",
+      "validade": "2026-12-02T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fofertas%2Fmindset%2Fcombo"
+    },
+    {
+      "id": "4163646",
+      "loja": "C&A BR",
+      "tipo": "cupom",
+      "titulo": "Esportivo 50% Off Na Segunda Peça",
+      "descricao": "Esportivo 50% Off Na Segunda Peça",
+      "termos": ".",
+      "cupom": "ESPORTIVO50",
+      "validade": "2026-12-02T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fofertas%2Fachadinhos-da-semana"
     },
     {
       "id": "4175939",
@@ -1598,6 +1807,17 @@
       "cupom": "AFF8",
       "validade": "2029-09-28T10:58:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=3110826&ued=https%3A%2F%2Fstore.sirui.com%2Fpages%2Fsales-1"
+    },
+    {
+      "id": "2348543",
+      "loja": "C&A BR",
+      "tipo": "cupom",
+      "titulo": "8% OFF em Apparel, beleza, óculos e relógios no site em compras a partir de R$ 199 | 10% OFF em Apparel, beleza, óculos e relógios no APP em compras a partir de R$ 199",
+      "descricao": "8% OFF em Apparel, beleza, óculos e relógios no site em compras a partir de R$ 199 | 10% OFF em Apparel, beleza, óculos e relógios no APP em compras a partir de R$ 199",
+      "termos": ".",
+      "cupom": "AFILIADOS10",
+      "validade": "2030-01-02T02:59:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2F"
     },
     {
       "id": "4165812",
