@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-23T13:41:35+00:00",
+  "atualizado_em": "2026-11-23T15:25:35+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -507,10 +507,6 @@
       "loja": "Amoedo"
     },
     {
-      "id": "e1d43df5-8c98-4f7a-9f75-e507ecbd649c",
-      "loja": "Xiaomi Brasil"
-    },
-    {
       "id": "e5f81b99-b74b-488f-9fd8-ef44e2c7aa87",
       "loja": "Webfones"
     },
@@ -537,6 +533,10 @@
     {
       "id": "e783798e-b219-48d6-9855-a7ad62d1d2c6",
       "loja": "Simple Organic"
+    },
+    {
+      "id": "e1d43df5-8c98-4f7a-9f75-e507ecbd649c",
+      "loja": "Dl Comercio E Industria De Produtos Eletronicos Lt"
     }
   ],
   "cards": [
