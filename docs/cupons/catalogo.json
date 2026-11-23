@@ -1,11 +1,11 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-23T12:17:07.356859Z",
-  "total": 290,
-  "total_cupons": 153,
+  "atualizado_em": "2026-11-23T13:45:28.444969Z",
+  "total": 288,
+  "total_cupons": 151,
   "total_promocoes": 137,
   "fontes": {
-    "Awin": 151,
+    "Awin": 149,
     "Rakuten": 96,
     "Lomadee": 43
   },
@@ -32,18 +32,6 @@
       "cupom": "AAStore",
       "validade": "2026-12-01T02:30:00Z",
       "link": "https://lmdee.link/rar16NbFmsr8",
-      "rede": "Lomadee"
-    },
-    {
-      "id": "49da55af8e9d7fe11d",
-      "loja": "Autoamerica Store",
-      "tipo": "cupom",
-      "titulo": "CYBER MONDAY 25% OFF",
-      "descricao": "",
-      "termos": "",
-      "cupom": "CYBERMONDAY",
-      "validade": "2026-11-24T02:30:00Z",
-      "link": "https://lmdee.link/pzCcvm57yIFn",
       "rede": "Lomadee"
     },
     {
@@ -707,6 +695,18 @@
       "rede": "Lomadee"
     },
     {
+      "id": "2064a07eb6fac20ab4",
+      "loja": "eles.®",
+      "tipo": "cupom",
+      "titulo": "Preblack",
+      "descricao": "",
+      "termos": "",
+      "cupom": "Preblack",
+      "validade": null,
+      "link": "https://lmdee.link/iIBsvCOgPe2m",
+      "rede": "Lomadee"
+    },
+    {
       "id": "cdeff649f429655f3f",
       "loja": "Eurorelogios BR",
       "tipo": "cupom",
@@ -995,18 +995,6 @@
       "rede": "Awin"
     },
     {
-      "id": "0459fdf52507d9bf14",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "10% OFF no MacBook Neo Apple 13 com o cupom MACNEO10OFF",
-      "descricao": "10% OFF no MacBook Neo Apple 13 com o cupom MACNEO10OFF",
-      "termos": ".",
-      "cupom": "MACNEO10OFF",
-      "validade": "2026-11-23T13:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1015057%2Fmacbook-neo-apple-13-chip-a18-pro-cpu-de-6-nucleos-gpu-de-5-nucleos-256gb-prateado-mhfa4bz-a",
-      "rede": "Awin"
-    },
-    {
       "id": "4b89f91eed4879779b",
       "loja": "Kabum BR",
       "tipo": "cupom",
@@ -1100,18 +1088,6 @@
       "cupom": "MAGA6OFF",
       "validade": "2026-11-30T13:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP3MAGA6OFF",
-      "rede": "Awin"
-    },
-    {
-      "id": "562f9a88fe5be9f055",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "7% OFF em produtos selecionados com o cupom NINJAX3D",
-      "descricao": "7% OFF em produtos selecionados com o cupom NINJAX3D",
-      "termos": ".",
-      "cupom": "NINJAX3D",
-      "validade": "2026-11-23T13:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1NINJAX3D",
       "rede": "Awin"
     },
     {
@@ -2791,7 +2767,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-06-23T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2065106.3&type=4",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2065106.4&type=4",
       "rede": "Rakuten"
     },
     {
@@ -3187,7 +3163,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-06-09T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1752486.818&type=3&subid=0",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1752486.819&type=3&subid=0",
       "rede": "Rakuten"
     },
     {
@@ -3247,7 +3223,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-04-08T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.373&type=4",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.372&type=4",
       "rede": "Rakuten"
     },
     {
