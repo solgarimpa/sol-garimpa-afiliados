@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-23T02:01:57.953805Z",
-  "total": 286,
-  "total_cupons": 148,
-  "total_promocoes": 138,
+  "atualizado_em": "2026-11-23T03:16:34.313574Z",
+  "total": 282,
+  "total_cupons": 153,
+  "total_promocoes": 129,
   "fontes": {
-    "Awin": 155,
+    "Awin": 143,
     "Rakuten": 96,
-    "Lomadee": 35
+    "Lomadee": 43
   },
   "ofertas": [
     {
@@ -167,6 +167,30 @@
       "rede": "Lomadee"
     },
     {
+      "id": "af19a5a02d0026f911",
+      "loja": "Brinox",
+      "tipo": "cupom",
+      "titulo": "R$ 100 em compras acima de R$699",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BF100",
+      "validade": "2026-12-21T02:30:00Z",
+      "link": "https://lmdee.link/mGEeBYw6ZwcY",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "f13eaa0f3f9143359b",
+      "loja": "Brinox",
+      "tipo": "cupom",
+      "titulo": "R$ 50 em compras acima de R$399",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BF50",
+      "validade": "2026-12-21T02:30:00Z",
+      "link": "https://lmdee.link/nRs51ZGLWI6v",
+      "rede": "Lomadee"
+    },
+    {
       "id": "f0027ee22d2a709de4",
       "loja": "China in Box",
       "tipo": "cupom",
@@ -188,6 +212,42 @@
       "cupom": "Lomadee20",
       "validade": null,
       "link": "https://lmdee.link/EXXfFSuBtslm",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "ef70631976c24b3c0b",
+      "loja": "Coza",
+      "tipo": "cupom",
+      "titulo": "R$15 off em compras acima de R$100",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK15",
+      "validade": "2026-12-11T02:30:00Z",
+      "link": "https://lmdee.link/1QFD5FFnXqZr",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "2feaffcb1c78c66fcb",
+      "loja": "Coza",
+      "tipo": "cupom",
+      "titulo": "R$20 off em compras acima de R$150",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK20",
+      "validade": "2026-12-11T02:30:00Z",
+      "link": "https://lmdee.link/SVnu99vLQb3k",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "f5ad1b14e407c2f192",
+      "loja": "Coza",
+      "tipo": "cupom",
+      "titulo": "R$35 off em compras acima de R$200",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK35",
+      "validade": "2026-12-11T02:30:00Z",
+      "link": "https://lmdee.link/X6FCsHGOS2bW",
       "rede": "Lomadee"
     },
     {
@@ -623,6 +683,30 @@
       "rede": "Awin"
     },
     {
+      "id": "dcbdc6ebff60c6e1f7",
+      "loja": "eles.®",
+      "tipo": "cupom",
+      "titulo": "Oferta Outubro Rosa elas. para emagrecimento 15% off",
+      "descricao": "",
+      "termos": "",
+      "cupom": "outubrorosa",
+      "validade": null,
+      "link": "https://lmdee.link/4w25yU4r7V5b",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "2064a07eb6fac20ab4",
+      "loja": "eles.®",
+      "tipo": "cupom",
+      "titulo": "Preblack",
+      "descricao": "",
+      "termos": "",
+      "cupom": "Preblack",
+      "validade": null,
+      "link": "https://lmdee.link/iIBsvCOgPe2m",
+      "rede": "Lomadee"
+    },
+    {
       "id": "cdeff649f429655f3f",
       "loja": "Eurorelogios BR",
       "tipo": "cupom",
@@ -668,18 +752,6 @@
       "cupom": "ESTADAO",
       "validade": "2027-01-01T02:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=122836&awinaffid=3110826&ued=https%3A%2F%2Fwww.farmaciaindiana.com.br%2F",
-      "rede": "Awin"
-    },
-    {
-      "id": "812071962d86efd827",
-      "loja": "Farmácias Indiana BR",
-      "tipo": "cupom",
-      "titulo": "10% OFF utilizando o cupom DOMINGO10",
-      "descricao": "10% OFF utilizando o cupom DOMINGO10",
-      "termos": ".",
-      "cupom": "DOMINGO10",
-      "validade": "2026-11-23T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=122836&awinaffid=3110826&ued=https%3A%2F%2Fwww.farmaciaindiana.com.br",
       "rede": "Awin"
     },
     {
@@ -1079,18 +1151,6 @@
       "rede": "Awin"
     },
     {
-      "id": "64fe7712b4e761fd7c",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "R$ 100 OFF em produtos selecionados com o cupom LU100",
-      "descricao": "R$ 100 OFF em produtos selecionados com o cupom LU100",
-      "termos": ".",
-      "cupom": "LU100",
-      "validade": "2026-11-23T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FLU100",
-      "rede": "Awin"
-    },
-    {
       "id": "2c6ae8a24714861075",
       "loja": "Kabum BR",
       "tipo": "cupom",
@@ -1136,18 +1196,6 @@
       "cupom": "200OFFSCANNER",
       "validade": "2026-12-01T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP3100IMPRESSORA",
-      "rede": "Awin"
-    },
-    {
-      "id": "6e76999f5c6817e4df",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "R$ 200 OFF em TV selecionada com o cupom TV400",
-      "descricao": "R$ 200 OFF em TV selecionada com o cupom TV400",
-      "termos": ".",
-      "cupom": "TV400",
-      "validade": "2026-11-23T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1054521%2F",
       "rede": "Awin"
     },
     {
@@ -1763,15 +1811,27 @@
       "rede": "Lomadee"
     },
     {
-      "id": "0fd825eed0513871a7",
-      "loja": "Walita",
+      "id": "43e498746ad3f5fe71",
+      "loja": "Zupper",
       "tipo": "cupom",
-      "titulo": "Ganhe até R$200 com cupom PREBLACK",
+      "titulo": "Cupom de R$ 25,00 de desconto (apenas para primeira compra 1 por CPF)",
       "descricao": "",
       "termos": "",
-      "cupom": "PREBLACK",
-      "validade": "2026-11-23T02:30:00Z",
-      "link": "https://lmdee.link/hg9vJ2lIoToS",
+      "cupom": "ZUPPLOM40",
+      "validade": "2027-01-01T02:30:00Z",
+      "link": "https://lmdee.link/goTvpMKdOivt",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "0f301a486e8c36849c",
+      "loja": "Zupper",
+      "tipo": "cupom",
+      "titulo": "Cupom de R$ 25,00 de desconto (uso ilimitado)",
+      "descricao": "",
+      "termos": "",
+      "cupom": "ZUPPLOM25",
+      "validade": "2027-01-01T02:30:00Z",
+      "link": "https://lmdee.link/geL8GLQ5Mgns",
       "rede": "Lomadee"
     },
     {
@@ -1838,12 +1898,12 @@
       "id": "6d0d36bdf904a0f998",
       "loja": "ASUS BR",
       "tipo": "promocao",
-      "titulo": "Aproveite Até 60% De Desconto Nos Melhores Notebooks E Notebooks Gamers!",
-      "descricao": "",
+      "titulo": "Aproveite até 60% de desconto nos melhores notebooks e notebooks gamers!",
+      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
       "termos": "",
       "cupom": "",
-      "validade": "2031-12-03T02:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1940053.7&type=3&subid=0",
+      "validade": "2031-12-03T00:00:00Z",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1940053.7&type=3",
       "rede": "Rakuten"
     },
     {
@@ -2024,114 +2084,6 @@
       "cupom": "",
       "validade": "2026-12-01T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fkeune-keratin-smooth-mascara-500ml",
-      "rede": "Awin"
-    },
-    {
-      "id": "9e6385510cae29dffd",
-      "loja": "Evas BR",
-      "tipo": "promocao",
-      "titulo": "Blush em Bastão Stick Blush Cor 01 Vizzela 7g",
-      "descricao": "Blush em Bastão Stick Blush Cor 01 Vizzela 7g",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-23T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fvizzela-stick-blush-cor-01-blush-em-bastao-7g",
-      "rede": "Awin"
-    },
-    {
-      "id": "30d67bb919f8f74d28",
-      "loja": "Evas BR",
-      "tipo": "promocao",
-      "titulo": "Blush Stick Cremoso Cor 02 Vizzela Stick Blush 7g",
-      "descricao": "Blush Stick Cremoso Cor 02 Vizzela Stick Blush 7g",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-23T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fvizzela-stick-blush-cor-02-blush-em-bastao-7g",
-      "rede": "Awin"
-    },
-    {
-      "id": "618d282ef786d865d5",
-      "loja": "Evas BR",
-      "tipo": "promocao",
-      "titulo": "Kit Cadiveu Professional Hydra Pro Shampoo e Condicionador 980ml 2 produtos",
-      "descricao": "Kit Cadiveu Professional Hydra Pro Shampoo e Condicionador 980ml 2 produtos",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-23T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fkit-cadiveu-professional-hydra-pro-shampoo-e-condicionador-980-2-produtos",
-      "rede": "Awin"
-    },
-    {
-      "id": "5cf4424b5d18c7f09a",
-      "loja": "Evas BR",
-      "tipo": "promocao",
-      "titulo": "Kit Creamy Skincare Vitamina C Glocólico Hidratante Calming Cream 3 produtos",
-      "descricao": "Kit Creamy Skincare Vitamina C Glocólico Hidratante Calming Cream 3 produtos",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-23T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fkit-creamy-skincare-vitamina-c-glocolico-hidratante-calming-cream-3-produtos",
-      "rede": "Awin"
-    },
-    {
-      "id": "bb089321f8c75e5320",
-      "loja": "Evas BR",
-      "tipo": "promocao",
-      "titulo": "Leave-in Restaurador Protein Cream N.P.P.E. Sh-Rd 10ml",
-      "descricao": "Leave-in Restaurador Protein Cream N.P.P.E. Sh-Rd 10ml",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-23T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fn-p-p-e-sh-rd-protein-cream-leave-in-restaurador-10ml",
-      "rede": "Awin"
-    },
-    {
-      "id": "ca215697265b1cb410",
-      "loja": "Evas BR",
-      "tipo": "promocao",
-      "titulo": "Máscara Capilar Ultimate Luxe Oil Wella Professionals 150ml",
-      "descricao": "Máscara Capilar Ultimate Luxe Oil Wella Professionals 150ml",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-23T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fwella-professionals-ultimate-luxe-oil-mascara-capilar-150ml",
-      "rede": "Awin"
-    },
-    {
-      "id": "1e3de1864d07fb18a9",
-      "loja": "Evas BR",
-      "tipo": "promocao",
-      "titulo": "Máscara de Tratamento Keune Care Keratin Smooth 500ml",
-      "descricao": "Máscara de Tratamento Keune Care Keratin Smooth 500ml",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-23T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fkeune-keratin-smooth-mascara-500ml",
-      "rede": "Awin"
-    },
-    {
-      "id": "acfb3b8f9fe6f24d9b",
-      "loja": "Evas BR",
-      "tipo": "promocao",
-      "titulo": "Perfume Feminino 212 Vip Rosé Ny Rodeo Eau De Parfum Carolina Herrera 80ml",
-      "descricao": "Perfume Feminino 212 Vip Rosé Ny Rodeo Eau De Parfum Carolina Herrera 80ml",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-23T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fcarolina-herrera-212-vip-rose-ny-rodeo-eau-de-parfum-perfume-feminino-80ml",
-      "rede": "Awin"
-    },
-    {
-      "id": "763291083434deaedc",
-      "loja": "Evas BR",
-      "tipo": "promocao",
-      "titulo": "Óleo Capilar Cristalli Liquidi Alfaparf Milano Professional Semi Di Lino Sublime 50ml",
-      "descricao": "Óleo Capilar Cristalli Liquidi Alfaparf Milano Professional Semi Di Lino Sublime 50ml",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-23T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Falfaparf-semi-di-lino-sublime-cristalli-liquidi-oleo-capilar-50ml",
       "rede": "Awin"
     },
     {
@@ -2887,7 +2839,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-10-09T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.4&type=4",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.3&type=4",
       "rede": "Rakuten"
     },
     {
@@ -3199,7 +3151,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-04-08T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.368&type=4",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.364&type=4",
       "rede": "Rakuten"
     },
     {
