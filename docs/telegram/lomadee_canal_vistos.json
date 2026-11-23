@@ -289,12 +289,11 @@
     "20857": "2026-11-23T17:42:17.875858+00:00",
     "20858": "2026-11-23T17:42:17.875858+00:00"
   },
-  "ultima_consulta": "2026-11-23T17:42:17.875858+00:00",
+  "ultima_consulta": "2026-11-23T19:49:07.426115+00:00",
   "ultimo_diagnostico": {
     "mensagens_visiveis": 20,
-    "novas": 13,
-    "recentes": 13,
-    "publicadas": 1,
-    "situacao": "verificacao concluida"
+    "novas": 0,
+    "publicadas": 0,
+    "situacao": "canal consultado; sem novidades"
   }
 }
