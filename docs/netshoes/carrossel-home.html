@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Carrossel Netshoes | Sol Garimpa</title>
+<meta name="description" content="Carrossel de produtos da Netshoes com links de afiliados Rakuten e cupom Sol Garimpa. Preços e condições sujeitos à confirmação na loja.">
+<style>
+:root{--roxo:#6500b8;--texto:#252027;--borda:#e7e4eb;--amarelo:#ffd12a}
+*{box-sizing:border-box;scrollbar-width:none}
+html,body{margin:0;padding:0;background:#fff;color:var(--texto);font:14px/1.4 Arial,Helvetica,sans-serif;overflow-x:hidden}
+html::-webkit-scrollbar,body::-webkit-scrollbar,.janela::-webkit-scrollbar{width:0;height:0;display:none}
+main{max-width:1450px;margin:auto;padding:10px 12px}
+header{text-align:left;margin-bottom:9px}
+.marca{font-size:clamp(19px,2.5vw,24px);font-weight:950;color:var(--roxo);font-style:italic;margin:0;letter-spacing:-1px}
+h2{font-size:clamp(18px,2.4vw,21px);line-height:1.25;margin:4px 0}
+mark{background:var(--amarelo);padding:1px 7px;border-radius:5px;color:#23162d}
+.sub{font-size:11px;color:#736d7d;margin:3px 0}
+.cupom{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:8px 0;font-size:11px}
+.cupom strong{border:1px dashed #b68bd4;background:#f6edff;color:var(--roxo);padding:5px 8px;border-radius:7px;letter-spacing:.2px}
+.cupom button{border:0;background:var(--roxo);color:#fff;border-radius:7px;font-size:10px;font-weight:850;padding:7px 10px}
+.cupom span{font-size:10px;color:#696271}
+.busca{display:flex;gap:7px;margin:10px 0}
+.busca input{flex:1;min-width:0;padding:10px;border:1px solid #dad7df;border-radius:9px;font-size:12px}
+button{cursor:pointer;font:inherit}
+button:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid #b895d6;outline-offset:2px}
+.busca button{border:0;border-radius:9px;background:var(--amarelo);padding:0 14px;font-size:11px;font-weight:850}
+.busca .limpar{background:#f1f0f3}
+.status{font-size:10px;color:#736b78;min-height:18px;margin:4px 0}
+.janela{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;padding:4px 2px 10px}
+.card{flex:0 0 calc((100% - 48px)/5);min-width:0;scroll-snap-align:start;background:#fff;border:1px solid var(--borda);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.capa{height:125px;border-bottom:1px solid #eee;display:flex;align-items:center;justify-content:center;position:relative}
+.capa img{max-width:94%;max-height:94%;width:auto;height:auto;object-fit:contain}
+.sem-foto{text-align:center;color:#795394;font-size:17px;font-weight:950;padding:8px}
+.selo{position:absolute;top:7px;right:7px;background:var(--roxo);color:#fff;padding:5px 7px;font-size:10px;font-weight:900;border-radius:6px}
+.corpo{display:flex;flex:1;flex-direction:column;gap:5px;padding:9px;min-height:165px}
+.grupo{font-size:10px;color:#796980;text-transform:uppercase;font-weight:850}
+.nome{font-size:12px;font-weight:850;line-height:1.3;min-height:33px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.preco{font-size:17px;font-weight:900}
+.preco s{font-size:10px;color:#8b8590;font-weight:400;margin-left:6px}
+.acoes{margin-top:auto;display:flex;gap:6px;padding-top:8px}
+.acoes a{flex:1;min-height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;text-decoration:none;text-align:center;font-size:11px;font-weight:850;padding:6px 4px}
+.comprar{background:var(--roxo);color:#fff}
+.whatsapp{background:#eaf7ef;border:1px solid #cae4cf;color:#146b38}
+footer{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;border-top:1px solid #eee;padding-top:8px;font-size:10px;color:#75717e}
+.controles{display:flex;gap:6px}
+.controles button{border:1px solid #ddd;background:#fff;border-radius:8px;padding:8px 12px;font-size:11px;font-weight:800}
+.vazio{border:1px dashed #ccc;border-radius:12px;padding:25px;width:100%;text-align:center;color:#6f6974}
+@media(max-width:800px){.card{flex-basis:calc((100% - 36px)/4)}}
+@media(max-width:640px){.card{flex-basis:calc((100% - 24px)/3)}}
+@media(max-width:580px){main{padding:8px 6px}.card{flex-basis:calc((100% - 12px)/2)}.capa{height:115px}.busca button{padding:0 8px;font-size:10px}.cupom{gap:5px}.cupom span{width:100%}}
+@media(prefers-reduced-motion:reduce){.janela{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<main>
+<header>
+<div class="marca">netshoes 💜</div>
+<h2>Achadinhos <mark>NETSHOES</mark> na SOL GARIMPA</h2>
+<p class="sub">Tênis, moda esportiva, futebol e muito mais. Preços confirmados na Netshoes.</p>
+<div class="cupom"><b>10% OFF até R$ 50:</b><strong>SOLGARIMPAOFERTAS</strong><button type="button" id="copiar">Copiar cupom</button><span>Conforme elegibilidade: não aplica a produtos com selo Seleção.</span></div>
+</header>
+<form id="form" class="busca" role="search">
+<input id="q" type="search" placeholder="Pesquisar tênis, marcas ou produtos..." aria-label="Pesquisar ofertas da Netshoes" autocomplete="off">
+<button type="submit">PESQUISAR</button><button type="button" id="limpar" class="limpar">Limpar</button>
+</form>
+<div id="status" class="status" role="status" aria-live="polite">Consultando ofertas Netshoes...</div>
+<section id="janela" class="janela" aria-label="Carrossel de ofertas Netshoes"></section>
+<footer>
+<span>Produtos divulgados pela Netshoes • Preços e condições na loja • Links de afiliados.</span>
+<div class="controles">
+<button id="antes" type="button" aria-label="Produto anterior">‹</button>
+<button id="pausar" type="button">Pausar</button>
+<button id="depois" type="button" aria-label="Próximo produto">›</button>
+</div>
+</footer>
+</main>
+<script>
+(function(){
+'use strict';
+var FONTE='https://solgarimpa.github.io/sol-garimpa-afiliados/rakuten/ofertas.json';
+var SITE_ID='ANi/csO07bU',MID='43984',CUPOM='SOLGARIMPAOFERTAS';
+var $=function(s){return document.getElementById(s)};
+var area=$('janela'),status=$('status'),q=$('q');
+var dados=[],visiveis=[],indice=0,pausado=window.matchMedia('(prefers-reduced-motion:reduce)').matches,assinatura='',inicioAnterior='';
+function texto(tag,classe,valor){var e=document.createElement(tag);if(classe)e.className=classe;if(valor!==undefined)e.textContent=String(valor);return e}
+function moeda(n){return new Intl.NumberFormat('pt-BR',{style:'currency',currency:'BRL'}).format(n)}
+function normal(s){return String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase()}
+function validaLink(link){try{var u=new URL(link);return u.protocol==='https:'&&u.hostname==='click.linksynergy.com'&&u.searchParams.get('id')===SITE_ID&&u.searchParams.get('offerid')}catch(e){return false}}
+function validaImg(u){try{var x=new URL(u);return x.protocol==='https:'&&!x.username&&!x.password?x.href:''}catch(e){return ''}}
+function shuffle(xs){var a=xs.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t}return a}
+function sortear(lista){var a=shuffle(lista);var id='';try{id=sessionStorage.getItem('sol_netshoes_primeiro')||''}catch(e){}if(a.length>1&&String(a[0].id||'')===id){var t=a[0];a[0]=a[1];a[1]=t}try{if(a.length)sessionStorage.setItem('sol_netshoes_primeiro',String(a[0].id||''))}catch(e){}return a}
+function desconto(c){return Number(c.preco_anterior)>Number(c.preco)&&Number(c.preco)>0?Math.round(100*(1-Number(c.preco)/Number(c.preco_anterior))):0}
+function criar(c){
+var box=texto('article','card'),capa=texto('div','capa');
+var imgURL=validaImg(c.imagem);
+if(imgURL){var img=texto('img');img.src=imgURL;img.alt=c.titulo||'Produto Netshoes';img.loading='lazy';img.onerror=function(){img.remove();capa.appendChild(texto('div','sem-foto','netshoes'))};capa.appendChild(img)}
+else capa.appendChild(texto('div','sem-foto','netshoes'));
+var d=desconto(c);if(d>0)capa.appendChild(texto('span','selo','-'+d+'%'));
+box.appendChild(capa);
+var corpo=texto('div','corpo');
+corpo.appendChild(texto('div','grupo',c.categoria||'NETSHOES'));
+corpo.appendChild(texto('div','nome',c.titulo||'Produto Netshoes'));
+var preco=texto('div','preco',Number(c.preco)>0?moeda(c.preco):'Ver preço na loja');
+if(Number(c.preco_anterior)>Number(c.preco)&&Number(c.preco)>0)preco.appendChild(texto('s','',moeda(c.preco_anterior)));
+corpo.appendChild(preco);
+var actions=texto('div','acoes'),comprar=texto('a','comprar','VER OFERTA'),whats=texto('a','whatsapp','WhatsApp');
+comprar.href=c.link;comprar.target='_blank';comprar.rel='noopener noreferrer nofollow sponsored';
+whats.href='https://wa.me/?text='+encodeURIComponent('Achadinho Netshoes na Sol Garimpa! '+c.titulo+' '+c.link);
+whats.target='_blank';whats.rel='noopener noreferrer nofollow';
+actions.appendChild(comprar);actions.appendChild(whats);corpo.appendChild(actions);box.appendChild(corpo);return box;
+}
+function render(){
+area.replaceChildren();if(!visiveis.length){area.appendChild(texto('div','vazio',dados.length?'Nenhum resultado encontrado.':'Catálogo temporariamente indisponível.'));return}
+visiveis.forEach(function(c){area.appendChild(criar(c))});indice=0;area.scrollLeft=0;
+}
+function filtrar(){var valor=normal(q.value.trim());visiveis=dados.filter(function(c){return !valor||normal((c.titulo||'')+' '+(c.categoria||'')).includes(valor)});render();status.textContent=visiveis.length+' produtos disponíveis para explorar'}
+function mover(d){
+if(visiveis.length<2)return;
+var primeiro=area.querySelector('.card');if(!primeiro)return;
+var passo=primeiro.getBoundingClientRect().width+12;
+indice=(indice+d+visiveis.length)%visiveis.length;
+area.scrollTo({left:indice*passo,behavior:pausado?'auto':'smooth'});
+}
+function carregar(){
+fetch(FONTE+'?t='+Math.floor(Date.now()/900000),{cache:'no-store'}).then(function(resp){if(!resp.ok)throw Error('HTTP '+resp.status);return resp.json()})
+.then(function(data){
+if(!Array.isArray(data.cards))throw Error('Catálogo inválido');
+var cards=data.cards.filter(function(c){return c&&c.tipo==='produto'&&String(c.mid)===MID&&c.titulo&&validaLink(c.link)});
+var visto=new Set();cards=cards.filter(function(c){var chave=c.id||c.link;if(visto.has(chave))return false;visto.add(chave);return true});
+if(!cards.length)throw Error('Sem produtos Netshoes rastreáveis');
+var sig=JSON.stringify(cards.map(function(c){return [c.id,c.link,c.preco,c.preco_anterior]}));
+if(sig!==assinatura){assinatura=sig;dados=sortear(cards);filtrar()}else status.textContent=dados.length+' produtos Netshoes com links de afiliados';
+}).catch(function(){if(!dados.length){dados=[];filtrar();status.textContent='Não foi possível carregar o catálogo no momento.'}else status.textContent='Exibindo últimos produtos disponíveis nesta página.'});
+}
+$('form').addEventListener('submit',function(e){e.preventDefault();filtrar()});
+$('limpar').addEventListener('click',function(){q.value='';filtrar()});
+$('antes').addEventListener('click',function(){mover(-1)});
+$('depois').addEventListener('click',function(){mover(1)});
+$('pausar').addEventListener('click',function(){pausado=!pausado;this.textContent=pausado?'Retomar':'Pausar'});
+$('copiar').addEventListener('click',function(){
+var b=this;function sucesso(){b.textContent='Copiado!';setTimeout(function(){b.textContent='Copiar cupom'},1700)}
+if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(CUPOM).then(sucesso).catch(function(){b.textContent=CUPOM})}
+else{var x=texto('textarea');x.value=CUPOM;document.body.appendChild(x);x.select();try{document.execCommand('copy');sucesso()}catch(e){b.textContent=CUPOM}x.remove()}
+});
+area.addEventListener('scroll',function(){var a=area.querySelector('.card');if(a)indice=Math.round(area.scrollLeft/(a.getBoundingClientRect().width+12))},{passive:true});
+if(pausado)$('pausar').textContent='Retomar';
+carregar();setInterval(function(){if(!pausado&&!document.hidden)mover(1)},4500);setInterval(carregar,15*60*1000);
+})();
+</script>
+</body>
+</html>
