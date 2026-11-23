@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-23T20:15:42+00:00",
+  "atualizado_em": "2026-11-23T21:07:50+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -719,6 +719,20 @@
       "preco_anterior": null,
       "cupom": "CHINALOMADEE25",
       "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-767f3e655572fde68058",
+      "loja": "Concórdia Informática ",
+      "tipo": "cupom",
+      "titulo": "10% OFF em todos os computadores",
+      "imagem": "",
+      "link": "https://lmdee.link/xsIeqqDRFpse",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "COMPUTADOR10",
+      "validade": "2026-12-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1573,20 +1587,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-28T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-3fdea243af09ef5e78f1",
-      "loja": "Zupper",
-      "tipo": "cupom",
-      "titulo": "Cupom de R$ 25,00 de desconto (uso ilimitado)",
-      "imagem": "",
-      "link": "https://lmdee.link/geL8GLQ5Mgns",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "ZUPPLOM25",
-      "validade": "2027-01-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
