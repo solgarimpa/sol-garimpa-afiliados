@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-24T20:17:23+00:00",
+  "atualizado_em": "2026-11-24T21:11:38+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -207,10 +207,6 @@
       "loja": "Angeloni"
     },
     {
-      "id": "6a89cac9-7d0a-430c-81ca-955946778ce9",
-      "loja": "Qconcursos"
-    },
-    {
       "id": "6b5363cb-94b8-42ee-8938-b71a1234eb08",
       "loja": "Camisaria Colombo"
     },
@@ -221,6 +217,10 @@
     {
       "id": "4a2f41d4-099d-4c8d-a003-5a37bef52ac8",
       "loja": "Hipervarejo"
+    },
+    {
+      "id": "6a89cac9-7d0a-430c-81ca-955946778ce9",
+      "loja": "Qconcursos"
     },
     {
       "id": "50576b61-e281-4518-b03f-ddbe75c5bc68",
@@ -989,16 +989,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-bc1371e697df5d87ed13",
+      "id": "lc-ecdfbc9599bf3846d9e3",
       "loja": "Malwee",
       "tipo": "promocao",
-      "titulo": "Malwee Kids - ATÉ 70% OFF 🔥   Black November - Todo site até 70% OFF 🎟️ Usando o cupom EXTRA5 ganhe mais 5% OFF Extra",
-      "imagem": "https://cdn.lomadee.com.br/offer/17a0d4ee-e7b1-4954-a91d-8a6f145b5f44/banners/imagem%20-%202026-11-23T141700.721.png",
-      "link": "https://lmdee.link/6AisYsGH6JRL",
+      "titulo": "Malwee Kids - DESCONTO EXTRA 🔥 Black November - Desconto de até 60% OFF + 10% OFF Extra 🎟️ Usando o cupom EXTRA10",
+      "imagem": "https://cdn.lomadee.com.br/offer/ec5e31c4-a106-412c-9a83-053c593d366d/banners/imagem%20-%202026-11-24T170602.510.png",
+      "link": "https://lmdee.link/EL7KMFAtNO9L",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-12-01T02:30:00.000Z",
+      "validade": "2026-11-26T13:00:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1153,6 +1153,34 @@
       "preco_anterior": null,
       "cupom": "LOMA10",
       "validade": "2027-01-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-5fb656660776fe74ab1e",
+      "loja": "PromoFarma",
+      "tipo": "promocao",
+      "titulo": "Esquenta promofarma com até 60% Off",
+      "imagem": "https://cdn.lomadee.com.br/offer/42ce307f-d3ef-40b2-98e5-546c5c9242fd/banners/imagem%20-%202026-11-24T173013.482.png",
+      "link": "https://lmdee.link/NkGhOZtf6PpS",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-28T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-9ccaf0c72e3f4d9519dd",
+      "loja": "Qconcursos",
+      "tipo": "promocao",
+      "titulo": "O melhor preço da historia: últimos dias para aproveitar o plano semestral por R$ 17,90",
+      "imagem": "",
+      "link": "https://lmdee.link/Wx1KLZryi7NA",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-28T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1530,6 +1558,20 @@
       "preco": null,
       "preco_anterior": null,
       "cupom": "BLACKFRIDAY",
+      "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-bc1371e697df5d87ed13",
+      "loja": "Malwee",
+      "tipo": "promocao",
+      "titulo": "Malwee Kids - ATÉ 70% OFF 🔥   Black November - Todo site até 70% OFF 🎟️ Usando o cupom EXTRA5 ganhe mais 5% OFF Extra",
+      "imagem": "https://cdn.lomadee.com.br/offer/17a0d4ee-e7b1-4954-a91d-8a6f145b5f44/banners/imagem%20-%202026-11-23T141700.721.png",
+      "link": "https://lmdee.link/6AisYsGH6JRL",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
@@ -2277,20 +2319,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-eea52423735c4368f992",
-      "loja": "Soulier",
-      "tipo": "promocao",
-      "titulo": "rasteiras a partir de 99,90",
-      "imagem": "https://cdn.lomadee.com.br/offer/11566f63-f771-41bc-9e2e-6baea94aac10/banners/120x600.jpg",
-      "link": "https://lmdee.link/AoaSV1wrR3AD",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lp-3276d8637ab0e2f40fb6",
       "loja": "Friopeças",
       "tipo": "produto",
@@ -2319,20 +2347,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-0558efff842b122b0e7f",
-      "loja": "Soulier",
-      "tipo": "promocao",
-      "titulo": "Botas com até 50% off",
-      "imagem": "https://cdn.lomadee.com.br/offer/a49980b8-df80-481c-9ea7-86f83398ac6b/banners/120x600.jpg",
-      "link": "https://lmdee.link/kkXFkBPacpTh",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lp-e4bd28a28e94339ba997",
       "loja": "Friopeças",
       "tipo": "produto",
@@ -2344,20 +2358,6 @@
       "cupom": null,
       "validade": null,
       "descricao": "Cervejeira Imbera 453 Litros Porta de Vidro CCV315 127V     Máxima performance para o seu estabelecimento  A Cervejeira Imbera 453 Litros Porta de Vidro CCV315 foi desenvolvida para quem precisa de máxima performance na ",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-aeb70be9f1bbb2ac1ac4",
-      "loja": "Soulier",
-      "tipo": "promocao",
-      "titulo": "Bolsas a partir de 119,90",
-      "imagem": "https://cdn.lomadee.com.br/offer/4f696a1a-97ae-4a03-82a9-53483e17cc1d/banners/120x600.jpg",
-      "link": "https://lmdee.link/Vp5aV4tLXpKi",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
       "origem": "Lomadee"
     },
     {
@@ -2681,25 +2681,11 @@
       "validade": null,
       "descricao": "Ar Condicionado Split Cassete Inverter Midea 24000 BTU/h Frio Monofásico 38TVCD24515MM – 220 Volts    O  Ar Condicionado Split Cassete Inverter Midea 24000 BTU/h Frio Monofásico 38TVCD24515MM   é o equipamento ideal para",
       "origem": "Lomadee"
-    },
-    {
-      "id": "lp-6fa7e99eb7e0ee34655f",
-      "loja": "Friopeças",
-      "tipo": "produto",
-      "titulo": "Ar Condicionado Split Inverter 12.000 BTUs TCL Frio TAC12CTG2INV – 220 Volts",
-      "imagem": "https://friopecas.vteximg.com.br/arquivos/ids/233754/T-Pro-2.0-conjunto.jpg?v=638863930343000000",
-      "link": "https://lmdee.link/bDTL6BJIpFA8",
-      "preco": 24.98,
-      "preco_anterior": 35.18,
-      "cupom": null,
-      "validade": null,
-      "descricao": "Ar Condicionado Split Inverter 12.000 BTUs TCL Frio 220V TAC12CTG2INV – Conforto e tecnologia na medida certa   Se você busca performance, economia e sofisticação, o  Ar Condicionado Split Inverter 12.000 BTUs TCL Frio 2",
-      "origem": "Lomadee"
     }
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 154,
+    "com_ofertas": 153,
     "marcas": 134,
     "campanhas": 120,
     "produtos": 60,
