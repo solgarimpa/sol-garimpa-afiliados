@@ -1,12 +1,12 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-24T01:36:25.924914Z",
-  "total": 303,
-  "total_cupons": 158,
-  "total_promocoes": 145,
+  "atualizado_em": "2026-11-24T02:41:48.298594Z",
+  "total": 305,
+  "total_cupons": 159,
+  "total_promocoes": 146,
   "fontes": {
     "Awin": 169,
-    "Rakuten": 96,
+    "Rakuten": 98,
     "Lomadee": 38
   },
   "ofertas": [
@@ -81,6 +81,18 @@
       "validade": "2027-01-01T02:30:00Z",
       "link": "https://lmdee.link/SMMDzag5yqcf",
       "rede": "Lomadee"
+    },
+    {
+      "id": "25c8608776b2a8194f",
+      "loja": "Beleza Na Web",
+      "tipo": "cupom",
+      "titulo": "Exclusiva no App | Ganhe 10% OFF Extra em sua primeira compra na BLZ (cupom)!",
+      "descricao": "",
+      "termos": "",
+      "cupom": "APP10",
+      "validade": "2030-01-18T01:00:00Z",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1345283.2786&type=3&subid=0",
+      "rede": "Rakuten"
     },
     {
       "id": "fdc9b86ab7fb623d39",
@@ -1976,6 +1988,18 @@
       "cupom": "",
       "validade": "2031-12-04T00:00:00Z",
       "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1940053.8&type=3",
+      "rede": "Rakuten"
+    },
+    {
+      "id": "419cc5ee9eec76d939",
+      "loja": "Beleza Na Web",
+      "tipo": "promocao",
+      "titulo": "Cupons Gerais De Beleza Na Web!",
+      "descricao": "",
+      "termos": "",
+      "cupom": "",
+      "validade": "2031-05-20T03:00:00Z",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1345283.5284&type=3&subid=0",
       "rede": "Rakuten"
     },
     {
