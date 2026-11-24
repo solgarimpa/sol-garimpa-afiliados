@@ -1,7 +1,7 @@
 {
   "market": "mercado-livre",
   "name": "Mercado Livre",
-  "generatedAt": "2026-11-24T16:59:42+00:00",
+  "generatedAt": "2026-11-24T17:50:09+00:00",
   "refreshMinutes": 30,
   "count": 39,
   "sources": {
@@ -30,7 +30,7 @@
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Mercado%20Livre",
       "publishedAt": "2026-11-24T16:01:34.575Z",
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -42,31 +42,7 @@
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Mercado%20Livre",
       "publishedAt": "2026-11-24T14:45:10.700Z",
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Mercado Livre 15% OFF (limitado a R$ 500 OFF)",
-      "couponCode": "MELIVIP15",
-      "discountText": "15% OFF",
-      "description": "Produtos selecionados da lista com 15% OFF em compras a partir de R$1, com desconto máximo de R$500",
-      "sources": [],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Mercado%20Livre",
-      "publishedAt": "2026-11-24T13:00:00.000Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Mercado Livre 30% OFF (limitado a R$ 500 OFF)",
-      "couponCode": "VEMPROMELI30",
-      "discountText": "30% OFF",
-      "description": "Produtos selecionados da lista com 30% OFF em compras a partir de R$1, com desconto máximo de R$500",
-      "sources": [],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Mercado%20Livre",
-      "publishedAt": "2026-11-24T13:00:00.000Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -78,7 +54,19 @@
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Mercado%20Livre",
       "publishedAt": "2026-11-24T13:00:00.000Z",
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom Mercado Livre 30% OFF (limitado a R$ 500 OFF)",
+      "couponCode": "PROMOSCERTAS30",
+      "discountText": "30% OFF",
+      "description": "Produtos selecionados da lista com 30% OFF em compras a partir de R$1, com desconto máximo de R$500",
+      "sources": [],
+      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Mercado%20Livre",
+      "publishedAt": "2026-11-24T13:00:00.000Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -90,7 +78,19 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "75% OFF ADOÇANTES",
+      "couponCode": "",
+      "discountText": "75% OFF",
+      "description": "Todos os produtos do link, sem minimo",
+      "sources": [],
+      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Mercado%20Livre",
+      "publishedAt": "2026-11-24T17:00:07.400Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -102,7 +102,7 @@
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Mercado%20Livre",
       "publishedAt": "2026-11-24T13:30:37.906Z",
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -114,7 +114,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -126,7 +126,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -138,7 +138,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -150,7 +150,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -162,7 +162,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -174,7 +174,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -186,7 +186,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -198,7 +198,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -210,7 +210,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -222,7 +222,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -234,7 +234,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -246,7 +246,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -258,7 +258,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -270,7 +270,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -282,7 +282,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -294,7 +294,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -306,7 +306,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -318,7 +318,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -330,7 +330,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -342,7 +342,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -354,7 +354,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -366,7 +366,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -378,7 +378,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -390,7 +390,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -402,7 +402,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -414,7 +414,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -426,7 +426,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -438,7 +438,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -450,7 +450,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -462,7 +462,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -474,7 +474,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     },
     {
@@ -486,7 +486,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-mercado-livre",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-24T16:59:42+00:00",
+      "observedAt": "2026-11-24T17:50:09+00:00",
       "status": "listed"
     }
   ]
