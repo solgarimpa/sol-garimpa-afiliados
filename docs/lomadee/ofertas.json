@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-24T19:20:09+00:00",
+  "atualizado_em": "2026-11-24T20:17:23+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -667,16 +667,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-7b31eb63f17207e42c03",
+      "id": "lc-bce54bb6cc09e3d7941a",
       "loja": "Buddha SPA",
       "tipo": "promocao",
-      "titulo": "Black Friday 12% OFF – Desconto no combo! Escolha uma das terapias selecionadas (60 min) + Indian Head e garanta seu desconto. – Conhecer a promoção",
-      "imagem": "https://cdn.lomadee.com.br/offer/1be2459e-ad96-469b-a080-3c6fb4a733d6/banners/imagem%20-%202026-11-11T134731.957.png",
-      "link": "https://lmdee.link/krIztWCg3q92",
+      "titulo": "Nesta Black Zen, o Vale Bem-Estar Premium de R$ 1.500 está com 15% OFF. Ele é válido para terapias ou produtos, para você usar como preferir ou presentear quem merece esse cuidado.",
+      "imagem": "https://cdn.lomadee.com.br/offer/1b8da8f7-3e5d-4046-aaab-45cf2d0b7253/banners/imagem%20-%202026-11-24T162708.212.png",
+      "link": "https://lmdee.link/nvsFfkKgYc6d",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-12-01T02:30:00.000Z",
+      "validade": "2026-11-28T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -807,6 +807,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-11674a26be946119674d",
+      "loja": "FATOR 5",
+      "tipo": "promocao",
+      "titulo": "Esquenta Black Friday!! Kits de bodysplash",
+      "imagem": "",
+      "link": "https://lmdee.link/6V3YsZKRfMaj",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-28T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-e7424f2567fbe95b24e9",
       "loja": "FOM",
       "tipo": "promocao",
@@ -887,20 +901,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-28T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-6ad4e0b34b00deda15b0",
-      "loja": "Kidy Calçados",
-      "tipo": "promocao",
-      "titulo": "Brinca Flex o Melhor Tênis do Brasil",
-      "imagem": "https://cdn.lomadee.com.br/offer/fb70c21c-d1d9-4313-a1ca-077d44a588f4/banners/tiktok.jpg",
-      "link": "https://lmdee.link/0dFVcqxoBKaU",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1111,6 +1111,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-a5b5cb9be4ad6aee388e",
+      "loja": "PneuBest",
+      "tipo": "promocao",
+      "titulo": "Para acelerar na troca e rodar com pneu novo: 10% off no pix Ou em até 6x sem juros",
+      "imagem": "https://cdn.lomadee.com.br/offer/d928545f-2b36-4212-ad46-d7a79cf5c847/banners/Campanha%20Novembro.png",
+      "link": "https://lmdee.link/DKoJw3NuN6V5",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-28T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1423,16 +1437,30 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-ee606a3fe59a6e0e25b0",
+      "id": "lc-7b31eb63f17207e42c03",
       "loja": "Buddha SPA",
       "tipo": "promocao",
-      "titulo": "Durante todo o mês de novembro, aproveite 12% OFF em combos de terapias no Buddha Spa e permita-se viver uma experiência de relaxamento e renovação.",
-      "imagem": "https://cdn.lomadee.com.br/offer/6b1606c6-5b78-451c-9c64-b4c53ced078f/banners/imagem%20-%202026-11-09T172621.309.png",
-      "link": "https://lmdee.link/pbYNMLgtwuXn",
+      "titulo": "Black Friday 12% OFF – Desconto no combo! Escolha uma das terapias selecionadas (60 min) + Indian Head e garanta seu desconto. – Conhecer a promoção",
+      "imagem": "https://cdn.lomadee.com.br/offer/1be2459e-ad96-469b-a080-3c6fb4a733d6/banners/imagem%20-%202026-11-11T134731.957.png",
+      "link": "https://lmdee.link/krIztWCg3q92",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-d6ad62c8806a5a04d9a3",
+      "loja": "FATOR 5",
+      "tipo": "promocao",
+      "titulo": "Esquenta Black Friday Encha seu carrinho de perfumes e aproveite",
+      "imagem": "https://cdn.lomadee.com.br/offer/1abcaf38-1e26-4fcf-a32d-ffac86eb5de9/banners/Black%20Friday%20Antecipada%20%281%29.png",
+      "link": "https://lmdee.link/kwLtF6YOTqic",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-28T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1475,20 +1503,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-28T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-3cdb9454b7efe1e37898",
-      "loja": "Kidy Calçados",
-      "tipo": "promocao",
-      "titulo": "Kidy Veloz - Melhor Tênis de Rodinha do Brasil",
-      "imagem": "https://cdn.lomadee.com.br/offer/02d2a1d5-0129-4b9d-819a-427293614e7a/banners/BANNET-SITE-DESKTOP.jpg",
-      "link": "https://lmdee.link/DQ4zxgtYfOlR",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1745,6 +1759,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-ee606a3fe59a6e0e25b0",
+      "loja": "Buddha SPA",
+      "tipo": "promocao",
+      "titulo": "Durante todo o mês de novembro, aproveite 12% OFF em combos de terapias no Buddha Spa e permita-se viver uma experiência de relaxamento e renovação.",
+      "imagem": "https://cdn.lomadee.com.br/offer/6b1606c6-5b78-451c-9c64-b4c53ced078f/banners/imagem%20-%202026-11-09T172621.309.png",
+      "link": "https://lmdee.link/pbYNMLgtwuXn",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lp-ba0ef6e5adc41c889889",
       "loja": "Friopeças",
       "tipo": "produto",
@@ -1769,20 +1797,6 @@
       "preco_anterior": null,
       "cupom": "BLACK500",
       "validade": "2026-12-01T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-3c55ff6613db21589bfc",
-      "loja": "Kidy Calçados",
-      "tipo": "promocao",
-      "titulo": "Lançamento Rebecca Bonbon",
-      "imagem": "https://cdn.lomadee.com.br/offer/20551a3f-6d67-4c0a-911d-0760296c8cab/banners/ChatGPT%20Image%202%20de%20out.%20de%202026%2C%2014_15_15.png",
-      "link": "https://lmdee.link/c7Jp0CtiBhb7",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1867,20 +1881,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-ab8c31921b04f6dffa6b",
-      "loja": "Autoamerica Store",
-      "tipo": "promocao",
-      "titulo": "Lançamento Autoamerica Store",
-      "imagem": "https://cdn.lomadee.com.br/offer/263beb4d-1c28-45be-85b8-d48ff27637c7/banners/PROMO%20Luva%20de%20lavagem%20-%20Mobile.jpg",
-      "link": "https://lmdee.link/yt4UkIouqEWb",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2027-01-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
