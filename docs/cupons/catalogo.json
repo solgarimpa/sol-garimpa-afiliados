@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-24T12:49:29.961179Z",
-  "total": 303,
-  "total_cupons": 157,
-  "total_promocoes": 146,
+  "atualizado_em": "2026-11-24T14:30:04.486808Z",
+  "total": 309,
+  "total_cupons": 158,
+  "total_promocoes": 151,
   "fontes": {
     "Awin": 167,
-    "Rakuten": 98,
-    "Lomadee": 38
+    "Rakuten": 103,
+    "Lomadee": 39
   },
   "ofertas": [
     {
@@ -1859,6 +1859,18 @@
       "rede": "Rakuten"
     },
     {
+      "id": "3d44bd7be37f1e36d2",
+      "loja": "Vapza Alimentos",
+      "tipo": "cupom",
+      "titulo": "Cupom 2% OFF Black Friday",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK2",
+      "validade": "2026-12-01T02:30:00Z",
+      "link": "https://lmdee.link/kLjUgwtOicFu",
+      "rede": "Lomadee"
+    },
+    {
       "id": "451715af7e7d96a240",
       "loja": "VX Case BR",
       "tipo": "cupom",
@@ -1946,12 +1958,12 @@
       "id": "6d0d36bdf904a0f998",
       "loja": "ASUS BR",
       "tipo": "promocao",
-      "titulo": "Aproveite até 60% de desconto nos melhores notebooks e notebooks gamers!",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
+      "titulo": "Aproveite Até 60% De Desconto Nos Melhores Notebooks E Notebooks Gamers!",
+      "descricao": "",
       "termos": "",
       "cupom": "",
-      "validade": "2031-12-03T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1940053.7&type=3",
+      "validade": "2031-12-03T02:00:00Z",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1940053.7&type=3&subid=0",
       "rede": "Rakuten"
     },
     {
@@ -2947,7 +2959,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-06-23T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2065106.4&type=4",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2065106.3&type=4",
       "rede": "Rakuten"
     },
     {
@@ -3403,7 +3415,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-04-08T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.369&type=4",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.364&type=4",
       "rede": "Rakuten"
     },
     {
@@ -3645,6 +3657,66 @@
       "validade": "2027-01-01T02:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=117795&awinaffid=3110826&campaign=Frete+Gratis+a+partir+de+249&ued=https%3A%2F%2Fwww.vxcase.com.br%2F",
       "rede": "Awin"
+    },
+    {
+      "id": "67ac6f4cec96d7e040",
+      "loja": "Web Continental - n - BRL",
+      "tipo": "promocao",
+      "titulo": "Ar Condicionado Split Inverter Philco Espelhado 12000 BTUS Quente e Frio PAC12000IQFM15E 220V - SOMENTE NO APP com 18%OFF à vista. de R$ 2.589,77 por R$2.119,47 - Melhor Preço disparado!",
+      "descricao": "",
+      "termos": "",
+      "cupom": "",
+      "validade": "2031-05-13T00:00:00Z",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1520654.122&type=3&subid=0",
+      "rede": "Rakuten"
+    },
+    {
+      "id": "0d441d0b3e9fe239cc",
+      "loja": "Web Continental - n - BRL",
+      "tipo": "promocao",
+      "titulo": "Ar Condicionado Split Inverter Philco Espelhado 12000 BTUS Quente e Frio PAC12000IQFM15E 220V - SOMENTE NO APP com 18%OFF à vista. de R$ 2.589,77 por R$2.119,47 - Melhor Preço disparado!!!",
+      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
+      "termos": "",
+      "cupom": "",
+      "validade": "2031-05-13T00:00:00Z",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1520654.122&type=3",
+      "rede": "Rakuten"
+    },
+    {
+      "id": "5c4657e8260c838c69",
+      "loja": "Web Continental - n - BRL",
+      "tipo": "promocao",
+      "titulo": "Esteira Ergométrica Elétrica Gallant Elite Pro 4,5hp 20km/h 160kg 15 Níveis de Inclinação GEE15E45A NO SITE E APP com 10%OFF à vista. de R$ 6.899,00 por R$6.209,10 - Melhor Preço disparado!",
+      "descricao": "",
+      "termos": "",
+      "cupom": "",
+      "validade": "2031-05-13T00:00:00Z",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1520654.123&type=3&subid=0",
+      "rede": "Rakuten"
+    },
+    {
+      "id": "b9734e3cf6c4d3d775",
+      "loja": "Web Continental - n - BRL",
+      "tipo": "promocao",
+      "titulo": "Esteira Ergométrica Elétrica Gallant Elite Pro 4,5hp 20km/h 160kg 15 Níveis de Inclinação GEE15E45A NO SITE E APP com 10%OFF à vista. de R$ 6.899,00 por R$6.209,10 - Melhor Preço disparado!!!",
+      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
+      "termos": "",
+      "cupom": "",
+      "validade": "2031-05-13T00:00:00Z",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1520654.123&type=3",
+      "rede": "Rakuten"
+    },
+    {
+      "id": "31b9abcd5abe58bf66",
+      "loja": "Web Continental - n - BRL",
+      "tipo": "promocao",
+      "titulo": "onelink",
+      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
+      "termos": "",
+      "cupom": "",
+      "validade": "2030-05-24T00:00:00Z",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1520654.21&type=3",
+      "rede": "Rakuten"
     }
   ]
 }
