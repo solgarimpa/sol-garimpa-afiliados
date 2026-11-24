@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-24T11:10:40+00:00",
+  "atualizado_em": "2026-11-24T12:15:59+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -1017,20 +1017,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-065dfa512d13ef003ea0",
-      "loja": "Mundo Vem",
-      "tipo": "promocao",
-      "titulo": "[CATEGORIA] Copos",
-      "imagem": "",
-      "link": "https://lmdee.link/aeis6lFbJiH9",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": null,
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-dd0fa69be057f1c50946",
       "loja": "Móveis Carraro",
       "tipo": "promocao",
@@ -1223,6 +1209,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-28T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-abb4f4cf880689bc5b58",
+      "loja": "Vapza Alimentos",
+      "tipo": "promocao",
+      "titulo": "Black Friday Vapza - até 60% OFF",
+      "imagem": "https://cdn.lomadee.com.br/offer/acaec7fe-c0ad-4f8b-9af5-522918666e70/banners/00047_16298_KV%20BLACK%20FRIDAY_00047_16298_KV%20BLACK%20FRIDAY_A_1920x600px.png",
+      "link": "https://lmdee.link/nkYOy0gglzXN",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-30T12:00:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
