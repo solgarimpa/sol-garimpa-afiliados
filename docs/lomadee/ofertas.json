@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-24T15:22:15+00:00",
+  "atualizado_em": "2026-11-24T16:32:13+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -863,6 +863,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-3ed3cb91a84fce716480",
+      "loja": "Itatiaia",
+      "tipo": "promocao",
+      "titulo": "Produtos com desconto e frete grátis para SP",
+      "imagem": "",
+      "link": "https://lmdee.link/ms1EaZqq9ALB",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-28T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-6ad4e0b34b00deda15b0",
       "loja": "Kidy Calçados",
       "tipo": "promocao",
@@ -1157,6 +1171,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-dceb8cbc282b1401735a",
+      "loja": "Shopee",
+      "tipo": "promocao",
+      "titulo": "As Super Ofertas estão passando pela sua tela",
+      "imagem": "https://cdn.lomadee.com.br/offer/87854143-23a8-428f-9f45-8aed4559266a/banners/imagem%20-%202026-11-24T121733.699.png",
+      "link": "https://lmdee.link/DhjYyKEL0NoI",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-25T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-d24c162a3ff712dfcddc",
       "loja": "Simple Organic",
       "tipo": "promocao",
@@ -1395,20 +1423,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-15de72c6afc4694268e6",
-      "loja": "Coza",
-      "tipo": "cupom",
-      "titulo": "R$35 off em compras acima de R$200",
-      "imagem": "",
-      "link": "https://lmdee.link/X6FCsHGOS2bW",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "BLACK35",
-      "validade": "2026-12-11T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lp-dadb586512efad4bc95d",
       "loja": "Friopeças",
       "tipo": "produto",
@@ -1433,6 +1447,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-29T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-84902bc0dd9ef8a724a3",
+      "loja": "Itatiaia",
+      "tipo": "promocao",
+      "titulo": "Linha canela em até 12x sem juros ou 20% OFF de desconto no pix",
+      "imagem": "https://cdn.lomadee.com.br/offer/572bbcc4-1b01-4e71-8e07-58fdeb9f1ffc/banners/imagem%20-%202026-11-24T130004.120.png",
+      "link": "https://lmdee.link/ckeGLZS2irOn",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-28T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1685,20 +1713,6 @@
       "preco_anterior": null,
       "cupom": "BF50EXTRA",
       "validade": "2026-12-21T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-bcd8e91671704ecefb1c",
-      "loja": "Coza",
-      "tipo": "cupom",
-      "titulo": "R$20 off em compras acima de R$150",
-      "imagem": "",
-      "link": "https://lmdee.link/SVnu99vLQb3k",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "BLACK20",
-      "validade": "2026-12-11T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2235,20 +2249,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-5dfd6c15ad056df41f16",
-      "loja": "Brinox",
-      "tipo": "cupom",
-      "titulo": "R$ 50 em compras acima de R$399",
-      "imagem": "",
-      "link": "https://lmdee.link/nRs51ZGLWI6v",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "BF50",
-      "validade": "2026-12-21T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lp-bb8aa71641621b95cf43",
       "loja": "Friopeças",
       "tipo": "produto",
@@ -2695,25 +2695,11 @@
       "validade": null,
       "descricao": "Ar Condicionado Split Hi Wall Inverter TCL 9000 BTU/h Frio TAC09CTG2INV – 220 Volts    Descubra a excelência em climatização com o   Ar Condicionado Split Hi Wall Inverter TCL 9000 BTU/H Frio TAC09CTG2INV . Desenvolvido ",
       "origem": "Lomadee"
-    },
-    {
-      "id": "lp-92a2013bf05530b2b443",
-      "loja": "Friopeças",
-      "tipo": "produto",
-      "titulo": "Ar Condicionado Split Vix 22000 BTU/h Quente e Frio AS-22HR5SBTCA00 – 220 Volts",
-      "imagem": "https://friopecas.vteximg.com.br/arquivos/ids/247286/foto2--1-.jpg.jpg?v=638804091177200000",
-      "link": "https://lmdee.link/Ozw6D1EhJ4d5",
-      "preco": 30.38,
-      "preco_anterior": 53.88,
-      "cupom": null,
-      "validade": null,
-      "descricao": "Ar Condicionado Split Vix 22000 BTU/h Quente e Frio AS-22HR5SBTCA00 – 220 Volts    Com o Ar Condicionado Split Vix 22000 BTU/h Quente e Frio AS-22HR5SBTCA00     desfrute de um conforto excepcional em seu espaço, com a ef",
-      "origem": "Lomadee"
     }
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 155,
+    "com_ofertas": 154,
     "marcas": 134,
     "campanhas": 120,
     "produtos": 60,
