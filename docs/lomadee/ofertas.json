@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-24T13:36:26+00:00",
+  "atualizado_em": "2026-11-24T15:22:15+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -719,6 +719,20 @@
       "preco_anterior": null,
       "cupom": "CHINALOMADEE25",
       "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-114306a8ae78f2fffc5f",
+      "loja": "Clovis Calçados",
+      "tipo": "promocao",
+      "titulo": "Esquenta Black Friday Clovis: até 20% OFF no desconto progressivo, frete grátis a partir de R$ 139 e entrega em até 24h para SP e Grande SP. Confira no link da bio. *Válido para pr",
+      "imagem": "https://cdn.lomadee.com.br/offer/1cca4c3d-2d36-4011-ba60-31a8332bbd7f/banners/imagem%20-%202026-11-24T112312.285.png",
+      "link": "https://lmdee.link/fYIlDhsQvOag",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-28T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1839,20 +1853,6 @@
       "preco_anterior": null,
       "cupom": "BF30",
       "validade": "2026-12-21T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-bdc0bf70fde614d282ce",
-      "loja": "Coza",
-      "tipo": "cupom",
-      "titulo": "R$15 off em compras acima de R$100",
-      "imagem": "",
-      "link": "https://lmdee.link/1QFD5FFnXqZr",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "BLACK15",
-      "validade": "2026-12-11T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
