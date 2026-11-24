@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-24T12:15:59+00:00",
+  "atualizado_em": "2026-11-24T13:36:26+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -1213,16 +1213,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-abb4f4cf880689bc5b58",
+      "id": "lc-03b2bc5567cba322bcbd",
       "loja": "Vapza Alimentos",
-      "tipo": "promocao",
-      "titulo": "Black Friday Vapza - até 60% OFF",
-      "imagem": "https://cdn.lomadee.com.br/offer/acaec7fe-c0ad-4f8b-9af5-522918666e70/banners/00047_16298_KV%20BLACK%20FRIDAY_00047_16298_KV%20BLACK%20FRIDAY_A_1920x600px.png",
-      "link": "https://lmdee.link/nkYOy0gglzXN",
+      "tipo": "cupom",
+      "titulo": "Cupom 2% OFF Black Friday",
+      "imagem": "",
+      "link": "https://lmdee.link/kLjUgwtOicFu",
       "preco": null,
       "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-30T12:00:00.000Z",
+      "cupom": "BLACK2",
+      "validade": "2026-12-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1601,6 +1601,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-11-28T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-abb4f4cf880689bc5b58",
+      "loja": "Vapza Alimentos",
+      "tipo": "promocao",
+      "titulo": "Black Friday Vapza - até 60% OFF",
+      "imagem": "https://cdn.lomadee.com.br/offer/acaec7fe-c0ad-4f8b-9af5-522918666e70/banners/00047_16298_KV%20BLACK%20FRIDAY_00047_16298_KV%20BLACK%20FRIDAY_A_1920x600px.png",
+      "link": "https://lmdee.link/nkYOy0gglzXN",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-30T12:00:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2358,20 +2372,6 @@
       "cupom": null,
       "validade": null,
       "descricao": "Ar Condicionado Split 12000 BTUs Fontaine Frio 127V FCST12F     O ar condicionado que você precisa ter em casa:  O ar-condicionado Split Fontaine 12000 BTUh Frio FCST12F – 127 Volts oferece conforto e eficiência energéti",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-cb39d936dec613105b71",
-      "loja": "Soulier",
-      "tipo": "promocao",
-      "titulo": "Até 25% na coleção de primavera verão",
-      "imagem": "https://cdn.lomadee.com.br/offer/b0ddcd45-be1d-44d3-998d-5111c589bddd/banners/120x600%20%281%29.jpg",
-      "link": "https://lmdee.link/vIXrh5IyxHHQ",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-12-01T02:59:59.000Z",
-      "descricao": "",
       "origem": "Lomadee"
     },
     {
