@@ -1,31 +1,9 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-24T02:41:47.470039Z",
-  "total": 169,
+  "atualizado_em": "2026-11-24T03:41:50.394854Z",
+  "total": 167,
   "ofertas": [
-    {
-      "id": "4182226",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "R$ 200 OFF em TVs selecionadas com o cupom TV200",
-      "descricao": "R$ 200 OFF em TVs selecionadas com o cupom TV200",
-      "termos": ".",
-      "cupom": "TV200",
-      "validade": "2026-11-24T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FTV200"
-    },
-    {
-      "id": "4173752",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "R$ 30 OFF na Cafeteira Nespresso CitiZ para Café Espresso 110V Vermelho Cereja",
-      "descricao": "R$ 30 OFF na Cafeteira Nespresso CitiZ para Café Espresso 110V Vermelho Cereja",
-      "termos": ".",
-      "cupom": "HORADOCAFE",
-      "validade": "2026-11-24T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F367383%2Fcafeteira-nespresso-citiz-para-cafe-espresso-110v-vermelho-cereja-c113-br"
-    },
     {
       "id": "4180291",
       "loja": "C&A BR",
