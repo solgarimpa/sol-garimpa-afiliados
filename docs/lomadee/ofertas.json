@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-24T21:11:38+00:00",
+  "atualizado_em": "2026-11-24T22:15:57+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -411,12 +411,12 @@
       "loja": "Remessa Online"
     },
     {
-      "id": "ca85cb50-d5f9-4b8b-8c08-70e2dbc9ca75",
-      "loja": "China in Box"
-    },
-    {
       "id": "d4f00f2f-a064-4a3e-87a0-83c7589ee65d",
       "loja": "Moto BR"
+    },
+    {
+      "id": "e03cdaaf-233d-4019-9171-0e12be587de0",
+      "loja": "Vapza Alimentos"
     },
     {
       "id": "cb4ebfb0-1586-446d-a86b-b894d92d4dea",
@@ -489,10 +489,6 @@
     {
       "id": "f31e32be-c116-4739-85a3-43f85681b237",
       "loja": "Móveis Carraro"
-    },
-    {
-      "id": "e03cdaaf-233d-4019-9171-0e12be587de0",
-      "loja": "Vapza Alimentos"
     },
     {
       "id": "e556ed73-0e02-421e-9393-860b040bfbb7",
@@ -705,20 +701,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-10e75c1702891b77d839",
-      "loja": "China in Box",
-      "tipo": "cupom",
-      "titulo": "25% de desconto em pedidos acima de R$ 60,00",
-      "imagem": "",
-      "link": "https://lmdee.link/8VMMfdnFV58B",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": "CHINALOMADEE25",
-      "validade": null,
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2319,6 +2301,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-eea52423735c4368f992",
+      "loja": "Soulier",
+      "tipo": "promocao",
+      "titulo": "rasteiras a partir de 99,90",
+      "imagem": "https://cdn.lomadee.com.br/offer/11566f63-f771-41bc-9e2e-6baea94aac10/banners/120x600.jpg",
+      "link": "https://lmdee.link/AoaSV1wrR3AD",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lp-3276d8637ab0e2f40fb6",
       "loja": "Friopeças",
       "tipo": "produto",
@@ -2686,7 +2682,7 @@
   "status": {
     "integracao": "api_oficial",
     "com_ofertas": 153,
-    "marcas": 134,
+    "marcas": 133,
     "campanhas": 120,
     "produtos": 60,
     "links_solicitados": 45,
