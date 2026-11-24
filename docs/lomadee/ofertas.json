@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-24T01:34:06+00:00",
+  "atualizado_em": "2026-11-24T03:09:36+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -597,16 +597,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-dc5ae5874510f45a0b5b",
+      "id": "lc-c3ad647bbb5cf30639a7",
       "loja": "Autoamerica Store",
-      "tipo": "promocao",
-      "titulo": "GARAGE MONDAY",
+      "tipo": "cupom",
+      "titulo": "GARAGE FRIDAY AUTOAMERICA 25 OFF",
       "imagem": "",
-      "link": "https://lmdee.link/ep8IJeXF6oTd",
+      "link": "https://lmdee.link/ERkwwGkuyxbc",
       "preco": null,
       "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-24T02:30:00.000Z",
+      "cupom": "GARAGEFRIDAY25",
+      "validade": "2026-11-30T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -779,6 +779,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-370a3ec95fdd57a421e0",
+      "loja": "eles.®",
+      "tipo": "promocao",
+      "titulo": "Black Friday - Emagrecimento",
+      "imagem": "https://cdn.lomadee.com.br/offer/e1f125be-77de-4de9-b485-510f36e2152e/banners/eles_lomadee_bf_criativos_parte1de3.zip",
+      "link": "https://lmdee.link/EZVY9pWTzbSN",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-e7424f2567fbe95b24e9",
       "loja": "FOM",
       "tipo": "promocao",
@@ -821,16 +835,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-59efe594c9c9edfe58b1",
+      "id": "lc-3fbf48f302b71b91bf73",
       "loja": "Iodice",
       "tipo": "promocao",
-      "titulo": "BLACK WEEK com 65%Off!",
+      "titulo": "BLACK WEEK com 70%Off!  cópia",
       "imagem": "",
-      "link": "https://lmdee.link/qphcCcKa4lOn",
+      "link": "https://lmdee.link/Dr1T5VL0smz2",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-24T02:59:59.000Z",
+      "validade": "2026-12-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -947,16 +961,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-3dc4756bfcb6bb9ecbab",
+      "id": "lc-b7791edb86d4ce4a462c",
       "loja": "Maria Valentina",
       "tipo": "promocao",
-      "titulo": "BLACK WEEK! TUDO com 65%Off!",
+      "titulo": "BLACKFRIDAY! TUDO com 70%Off!",
       "imagem": "",
-      "link": "https://lmdee.link/JNIXxcFjsyd2",
+      "link": "https://lmdee.link/EdNG8RaCkIe0",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-24T02:59:59.000Z",
+      "validade": "2026-12-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -975,16 +989,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-fdc512bea0c2142b05af",
+      "id": "lc-7915bdd47af5a97cdde3",
       "loja": "Morena Rosa",
       "tipo": "promocao",
-      "titulo": "BLACK WEEK!  65%Off",
+      "titulo": "BLACK FRIDAY!  70%Off",
       "imagem": "",
-      "link": "https://lmdee.link/KgXnUSHknHeI",
+      "link": "https://lmdee.link/XkunPvEMII1C",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-24T02:59:59.000Z",
+      "validade": "2026-12-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1241,16 +1255,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-cec4047be3b2ace2e70b",
+      "id": "lc-532fd13ae9f902867405",
       "loja": "Zinco",
       "tipo": "promocao",
-      "titulo": "BLACK WEEK TUDO com 65%Off, Aproveite!",
+      "titulo": "BLACK FRIDAY TUDO com 65%Off, Aproveite!",
       "imagem": "",
-      "link": "https://lmdee.link/5MmC1YDdxTop",
+      "link": "https://lmdee.link/r34gDB680Sbn",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-24T02:59:59.000Z",
+      "validade": "2026-12-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1311,15 +1325,15 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-c3ad647bbb5cf30639a7",
+      "id": "lc-819ed01ae81a2f692320",
       "loja": "Autoamerica Store",
-      "tipo": "cupom",
-      "titulo": "GARAGE FRIDAY AUTOAMERICA 25 OFF",
-      "imagem": "",
-      "link": "https://lmdee.link/ERkwwGkuyxbc",
+      "tipo": "promocao",
+      "titulo": "GARAGE FRIDAY AUTOAMERICA",
+      "imagem": "https://cdn.lomadee.com.br/offer/8ac502f0-aa46-4185-81d4-6399fdea21fe/banners/AA-friday_garage-friday-banner-responsivo-390x387px.png",
+      "link": "https://lmdee.link/xnNXpbpzIhcM",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "GARAGEFRIDAY25",
+      "cupom": null,
       "validade": "2026-11-30T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
@@ -1451,16 +1465,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-aab14347b0dc687ee7a2",
+      "id": "lc-0f79104da5ec56865953",
       "loja": "Morena Rosa",
       "tipo": "promocao",
-      "titulo": "BLACK WEEK! BEACH com 65%Off, nos favoritos da moda praia!",
+      "titulo": "BLACKFRIDAY! BEACH com 70%Off, nos favoritos da moda praia!",
       "imagem": "",
-      "link": "https://lmdee.link/hlBKxpQfnhfl",
+      "link": "https://lmdee.link/5yu5OnXtoXbj",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-24T02:59:59.000Z",
+      "validade": "2026-12-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1619,16 +1633,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-819ed01ae81a2f692320",
+      "id": "lc-c30efa0726c01faa8459",
       "loja": "Autoamerica Store",
-      "tipo": "promocao",
-      "titulo": "GARAGE FRIDAY AUTOAMERICA",
-      "imagem": "https://cdn.lomadee.com.br/offer/8ac502f0-aa46-4185-81d4-6399fdea21fe/banners/AA-friday_garage-friday-banner-responsivo-390x387px.png",
-      "link": "https://lmdee.link/xnNXpbpzIhcM",
+      "tipo": "cupom",
+      "titulo": "Cupom de 10% de desconto",
+      "imagem": "",
+      "link": "https://lmdee.link/rar16NbFmsr8",
       "preco": null,
       "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-30T02:30:00.000Z",
+      "cupom": "AAStore",
+      "validade": "2026-12-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1787,16 +1801,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-c30efa0726c01faa8459",
+      "id": "lc-ab8c31921b04f6dffa6b",
       "loja": "Autoamerica Store",
-      "tipo": "cupom",
-      "titulo": "Cupom de 10% de desconto",
-      "imagem": "",
-      "link": "https://lmdee.link/rar16NbFmsr8",
+      "tipo": "promocao",
+      "titulo": "Lançamento Autoamerica Store",
+      "imagem": "https://cdn.lomadee.com.br/offer/263beb4d-1c28-45be-85b8-d48ff27637c7/banners/PROMO%20Luva%20de%20lavagem%20-%20Mobile.jpg",
+      "link": "https://lmdee.link/yt4UkIouqEWb",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "AAStore",
-      "validade": "2026-12-01T02:30:00.000Z",
+      "cupom": null,
+      "validade": "2027-01-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1909,20 +1923,6 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-ab8c31921b04f6dffa6b",
-      "loja": "Autoamerica Store",
-      "tipo": "promocao",
-      "titulo": "Lançamento Autoamerica Store",
-      "imagem": "https://cdn.lomadee.com.br/offer/263beb4d-1c28-45be-85b8-d48ff27637c7/banners/PROMO%20Luva%20de%20lavagem%20-%20Mobile.jpg",
-      "link": "https://lmdee.link/yt4UkIouqEWb",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2027-01-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
