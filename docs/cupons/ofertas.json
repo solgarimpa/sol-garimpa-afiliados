@@ -1,8 +1,8 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-24T19:48:25.139213Z",
-  "total": 168,
+  "atualizado_em": "2026-11-24T21:14:01.556665Z",
+  "total": 171,
   "ofertas": [
     {
       "id": "4180291",
@@ -355,6 +355,39 @@
       "cupom": "",
       "validade": "2026-11-30T15:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=114180&awinaffid=3110826&campaign=safe+accu+kit+50+off+oct26&ued=https%3A%2F%2Fen.sinocare.com%2Fproducts%2Fsinocare-blood-glucose-monitor-safe-accu%3Fvariant%3D43072245825768"
+    },
+    {
+      "id": "4186932",
+      "loja": "Decor Colors BR",
+      "tipo": "cupom",
+      "titulo": "7% off em todo o site",
+      "descricao": "7% off em todo o site",
+      "termos": ".",
+      "cupom": "CUPONATION7",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=102893&awinaffid=3110826&ued=https%3A%2F%2Floja.decorcolors.com.br%2F"
+    },
+    {
+      "id": "4186618",
+      "loja": "Decor Colors BR",
+      "tipo": "cupom",
+      "titulo": "7% off em todo o site",
+      "descricao": "7% off em todo o site",
+      "termos": ".",
+      "cupom": "TECCTERA7",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=102893&awinaffid=3110826&ued=https%3A%2F%2Floja.decorcolors.com.br%2F"
+    },
+    {
+      "id": "4186616",
+      "loja": "Decor Colors BR",
+      "tipo": "cupom",
+      "titulo": "7% off em todo o site",
+      "descricao": "7% off em todo o site",
+      "termos": ".",
+      "cupom": "CUPOMVALIDO7",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=102893&awinaffid=3110826&ued=https%3A%2F%2Floja.decorcolors.com.br%2F"
     },
     {
       "id": "4165030",
