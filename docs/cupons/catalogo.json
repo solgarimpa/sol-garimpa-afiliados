@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-24T22:15:03.494095Z",
-  "total": 308,
-  "total_cupons": 157,
+  "atualizado_em": "2026-11-24T23:14:45.524974Z",
+  "total": 307,
+  "total_cupons": 156,
   "total_promocoes": 151,
   "fontes": {
     "Awin": 171,
     "Rakuten": 103,
-    "Lomadee": 34
+    "Lomadee": 33
   },
   "ofertas": [
     {
@@ -309,18 +309,6 @@
       "validade": "2026-12-02T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fvitrine%2Fcea%2F19283",
       "rede": "Awin"
-    },
-    {
-      "id": "f0027ee22d2a709de4",
-      "loja": "China in Box",
-      "tipo": "cupom",
-      "titulo": "25% de desconto em pedidos acima de R$ 60,00",
-      "descricao": "",
-      "termos": "",
-      "cupom": "CHINALOMADEE25",
-      "validade": null,
-      "link": "https://lmdee.link/8VMMfdnFV58B",
-      "rede": "Lomadee"
     },
     {
       "id": "22a80103f617a12385",
@@ -1951,7 +1939,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2031-12-03T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1940053.7&type=3",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1940053.3&type=4",
       "rede": "Rakuten"
     },
     {
@@ -3031,7 +3019,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-10-09T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.4&type=4",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.3&type=4",
       "rede": "Rakuten"
     },
     {
@@ -3403,7 +3391,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-04-08T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.370&type=4",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.373&type=4",
       "rede": "Rakuten"
     },
     {
