@@ -1,7 +1,7 @@
 {
   "market": "amazon",
   "name": "Amazon",
-  "generatedAt": "2026-11-25T09:40:29+00:00",
+  "generatedAt": "2026-11-25T18:21:46+00:00",
   "refreshMinutes": 30,
   "count": 43,
   "sources": {
@@ -20,33 +20,21 @@
     },
     "WorkerExistente": {
       "ok": true,
-      "quantidade": 5
+      "quantidade": 4
     }
   },
   "note": "Cupons divulgados, nao validados no carrinho. Ofertas da Amazon com link especifico sao cadastradas manualmente ate autorizacao da API oficial.",
   "coupons": [
     {
-      "title": "10% OFF em Itens selecionados na Amazon",
-      "couponCode": "CUPOMAMAZON",
-      "discountText": "10% OFF",
-      "description": "https://www.amazon.com.br/promotion/psp/A1C2MGF2BE71CX?ref=psp_pc_cart_collapse&redirectAsin=B0CVCLGV1W&redirectMerchantId=A3POF6EIWE8R8",
+      "title": "Cupom Prime R$ 75 OFF acima de R$ 499",
+      "couponCode": "BLACK75OFF",
+      "discountText": "R$ 75 OFF",
+      "description": "Itens selecionadoss",
       "sources": [],
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Amazon",
-      "publishedAt": "2026-11-24T18:03:27.766Z",
+      "publishedAt": "2026-11-25T14:02:20.225Z",
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Monitores de diversas marcas com 12% OFF no KaBuM!",
-      "couponCode": "TELANINJA12",
-      "discountText": "12% OFF",
-      "description": "12% OFF com o cupom apenas em itens da lista",
-      "sources": [],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Amazon",
-      "publishedAt": "2026-11-24T14:22:30.241Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -58,7 +46,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -70,7 +58,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -82,7 +70,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -94,7 +82,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -106,7 +94,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -118,7 +106,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -130,7 +118,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -142,7 +130,19 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Itens Neutrogena com 20% OFF no APP Amazon",
+      "couponCode": "",
+      "discountText": "20% OFF",
+      "description": "Valor no app apenas",
+      "sources": [],
+      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Amazon",
+      "publishedAt": "2026-11-25T11:07:26.186Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -154,7 +154,7 @@
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Amazon",
       "publishedAt": "2026-11-24T22:06:54.065Z",
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -166,31 +166,7 @@
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Amazon",
       "publishedAt": "2026-11-24T18:25:11.205Z",
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Exclusivo Prime: Ganhe 25% off em itens de Informática, limitado a R$ 500",
-      "couponCode": "",
-      "discountText": "25% OFF",
-      "description": "Cupom de 500 reais em computadores e informática",
-      "sources": [],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Amazon",
-      "publishedAt": "2026-11-24T11:42:36.941Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "5% OFF em cozinha aplicando cupom Amazon",
-      "couponCode": "",
-      "discountText": "5% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -202,7 +178,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -214,19 +190,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "6% OFF em capinhas para iPhone 17 com cupom Amazon",
-      "couponCode": "",
-      "discountText": "6% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -238,7 +202,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -250,19 +214,67 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
-      "title": "Código promocional Amazon com 8% OFF em eletrodomésticos",
+      "title": "Aproveite 20% OFF em beleza premium com cupom Amazon",
       "couponCode": "",
-      "discountText": "8% OFF",
+      "discountText": "20% OFF",
       "description": "Confira os produtos participantes e as condições na loja.",
       "sources": [],
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Aproveite 5% OFF em computadores e informática com cupom Amazon",
+      "couponCode": "",
+      "discountText": "5% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-25T18:21:46+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Aproveite 5% OFF em eletrônicos e tecnologia com cupom Amazon",
+      "couponCode": "",
+      "discountText": "5% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-25T18:21:46+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cuidado de salão com 10% OFF no app usando cupom Amazon",
+      "couponCode": "",
+      "discountText": "10% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-25T18:21:46+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom Amazon com 15% OFF em suplementos e vitaminas Vitafor",
+      "couponCode": "",
+      "discountText": "15% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -274,7 +286,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -286,7 +298,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -298,7 +310,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -310,7 +322,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -322,7 +334,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -334,19 +346,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Economize 10% em eletrônicos e tecnologia com cupom de desconto Amazon",
-      "couponCode": "",
-      "discountText": "10% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -358,7 +358,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -370,7 +370,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -382,7 +382,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -394,7 +394,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -406,7 +406,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -418,7 +418,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -430,7 +430,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -442,7 +442,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -454,7 +454,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -466,7 +466,19 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Use cupom Amazon e ganhe 5% OFF em eletrodomésticos",
+      "couponCode": "",
+      "discountText": "5% OFF",
+      "description": "Confira os produtos participantes e as condições na loja.",
+      "sources": [],
+      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -478,7 +490,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -490,7 +502,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -502,19 +514,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Voucher Amazon libera 15% de desconto em eletrônicos e tecnologia",
-      "couponCode": "",
-      "discountText": "15% OFF",
-      "description": "Confira os produtos participantes e as condições na loja.",
-      "sources": [],
-      "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
-      "publishedAt": null,
-      "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -526,7 +526,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     },
     {
@@ -538,7 +538,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-desconto-amazon",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-25T09:40:29+00:00",
+      "observedAt": "2026-11-25T18:21:46+00:00",
       "status": "listed"
     }
   ]
