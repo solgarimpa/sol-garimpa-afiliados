@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-25T01:40:24+00:00",
+  "atualizado_em": "2026-11-25T11:25:12+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -929,20 +929,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-e4a7038997894988c347",
-      "loja": "Lojas REDE",
-      "tipo": "promocao",
-      "titulo": "Black Friday Lojas Rede 23-11",
-      "imagem": "https://cdn.lomadee.com.br/offer/e3f63e68-002a-479a-acb8-cc0038e1d4ef/banners/imagem%20-%202026-11-23T134255.045.png",
-      "link": "https://lmdee.link/8NZ2EkSACXfm",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-25T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-319d2f8c9df2083b0f76",
       "loja": "Líquido",
       "tipo": "cupom",
@@ -1205,20 +1191,6 @@
       "preco_anterior": null,
       "cupom": "SEMPARAR96OFF",
       "validade": "2026-12-01T02:59:59.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-dceb8cbc282b1401735a",
-      "loja": "Shopee",
-      "tipo": "promocao",
-      "titulo": "As Super Ofertas estão passando pela sua tela",
-      "imagem": "https://cdn.lomadee.com.br/offer/87854143-23a8-428f-9f45-8aed4559266a/banners/imagem%20-%202026-11-24T121733.699.png",
-      "link": "https://lmdee.link/DhjYyKEL0NoI",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-25T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -2343,6 +2315,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-0558efff842b122b0e7f",
+      "loja": "Soulier",
+      "tipo": "promocao",
+      "titulo": "Botas com até 50% off",
+      "imagem": "https://cdn.lomadee.com.br/offer/a49980b8-df80-481c-9ea7-86f83398ac6b/banners/120x600.jpg",
+      "link": "https://lmdee.link/kkXFkBPacpTh",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lp-e4bd28a28e94339ba997",
       "loja": "Friopeças",
       "tipo": "produto",
@@ -2354,6 +2340,20 @@
       "cupom": null,
       "validade": null,
       "descricao": "Cervejeira Imbera 453 Litros Porta de Vidro CCV315 127V     Máxima performance para o seu estabelecimento  A Cervejeira Imbera 453 Litros Porta de Vidro CCV315 foi desenvolvida para quem precisa de máxima performance na ",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-aeb70be9f1bbb2ac1ac4",
+      "loja": "Soulier",
+      "tipo": "promocao",
+      "titulo": "Bolsas a partir de 119,90",
+      "imagem": "https://cdn.lomadee.com.br/offer/4f696a1a-97ae-4a03-82a9-53483e17cc1d/banners/120x600.jpg",
+      "link": "https://lmdee.link/Vp5aV4tLXpKi",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
       "origem": "Lomadee"
     },
     {
@@ -2677,11 +2677,39 @@
       "validade": null,
       "descricao": "Ar Condicionado Split Cassete Inverter Midea 24000 BTU/h Frio Monofásico 38TVCD24515MM – 220 Volts    O  Ar Condicionado Split Cassete Inverter Midea 24000 BTU/h Frio Monofásico 38TVCD24515MM   é o equipamento ideal para",
       "origem": "Lomadee"
+    },
+    {
+      "id": "lp-6fa7e99eb7e0ee34655f",
+      "loja": "Friopeças",
+      "tipo": "produto",
+      "titulo": "Ar Condicionado Split Inverter 12.000 BTUs TCL Frio TAC12CTG2INV – 220 Volts",
+      "imagem": "https://friopecas.vteximg.com.br/arquivos/ids/233754/T-Pro-2.0-conjunto.jpg?v=638863930343000000",
+      "link": "https://lmdee.link/bDTL6BJIpFA8",
+      "preco": 24.98,
+      "preco_anterior": 35.18,
+      "cupom": null,
+      "validade": null,
+      "descricao": "Ar Condicionado Split Inverter 12.000 BTUs TCL Frio 220V TAC12CTG2INV – Conforto e tecnologia na medida certa   Se você busca performance, economia e sofisticação, o  Ar Condicionado Split Inverter 12.000 BTUs TCL Frio 2",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lp-ed94c4372ef71ccbae60",
+      "loja": "Friopeças",
+      "tipo": "produto",
+      "titulo": "Ar Condicionado Split Hi Wall Inverter TCL 9000 BTU/h Frio TAC09CTG2INV – 220 Volts",
+      "imagem": "https://friopecas.vteximg.com.br/arquivos/ids/233746/T-Pro-2.0-conjunto.jpg?v=638578742334630000",
+      "link": "https://lmdee.link/m5At6cMykLMn",
+      "preco": 24.48,
+      "preco_anterior": 29.68,
+      "cupom": null,
+      "validade": null,
+      "descricao": "Ar Condicionado Split Hi Wall Inverter TCL 9000 BTU/h Frio TAC09CTG2INV – 220 Volts    Descubra a excelência em climatização com o   Ar Condicionado Split Hi Wall Inverter TCL 9000 BTU/H Frio TAC09CTG2INV . Desenvolvido ",
+      "origem": "Lomadee"
     }
   ],
   "status": {
     "integracao": "api_oficial",
-    "com_ofertas": 153,
+    "com_ofertas": 155,
     "marcas": 133,
     "campanhas": 120,
     "produtos": 60,
