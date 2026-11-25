@@ -1,15 +1,27 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-25T18:21:07.654844Z",
-  "total": 372,
-  "total_cupons": 122,
+  "atualizado_em": "2026-11-25T20:14:45.835855Z",
+  "total": 368,
+  "total_cupons": 118,
   "total_promocoes": 250,
   "fontes": {
-    "Awin": 285,
-    "Rakuten": 110,
+    "Awin": 391,
+    "Rakuten": "desatualizada",
     "Lomadee": "desatualizada"
   },
   "ofertas": [
+    {
+      "id": "b4fc8cac619d142f79",
+      "loja": "Adcos BR",
+      "tipo": "cupom",
+      "titulo": "5% OFF no Pix + Frete Grátis sem mínimo de compras",
+      "descricao": "5% OFF no Pix + Frete Grátis sem mínimo de compras",
+      "termos": ".",
+      "cupom": "PIX5",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=85419&awinaffid=3110826&ued=https%3A%2F%2Fwww.lojaadcos.com.br%2Fbeauty-secrets%2Fofertas",
+      "rede": "Awin"
+    },
     {
       "id": "67dfc594dd64d75094",
       "loja": "Afiliados Galícia Educação",
@@ -23,18 +35,6 @@
       "rede": "Awin"
     },
     {
-      "id": "25c8608776b2a8194f",
-      "loja": "Beleza Na Web",
-      "tipo": "cupom",
-      "titulo": "Exclusiva no App | Ganhe 10% OFF Extra em sua primeira compra na BLZ (cupom)!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "APP10",
-      "validade": "2030-01-18T01:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1345283.2786&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
       "id": "46414c611ad3e8fa67",
       "loja": "C&A BR",
       "tipo": "cupom",
@@ -44,6 +44,18 @@
       "cupom": "AFILIADOS10",
       "validade": "2030-01-02T02:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2F",
+      "rede": "Awin"
+    },
+    {
+      "id": "e7e07f8a938bc1bbec",
+      "loja": "C&A BR",
+      "tipo": "cupom",
+      "titulo": "Algodão Peruano 2 por R$198 com o cupom MAISCOMBO",
+      "descricao": "Algodão Peruano 2 por R$198 com o cupom MAISCOMBO",
+      "termos": ".",
+      "cupom": "MAISCOMBO",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fblack-friday%2Falgodao-peruano",
       "rede": "Awin"
     },
     {
@@ -188,6 +200,54 @@
       "cupom": "DFC30",
       "validade": "2028-01-01T02:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=129043&awinaffid=3110826&ued=https%3A%2F%2Fwww.dafiti.com.br%2F",
+      "rede": "Awin"
+    },
+    {
+      "id": "b07dcb0a8dab2f4b7c",
+      "loja": "Decathlon BR",
+      "tipo": "cupom",
+      "titulo": "10OFFNOPIX: Ganhe 10% OFF no Pix",
+      "descricao": "10OFFNOPIX: Ganhe 10% OFF no Pix",
+      "termos": ".",
+      "cupom": "10OFFNOPIX",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=19296&awinaffid=3110826&ued=https%3A%2F%2Fwww.decathlon.com.br%2Fcampanha%2Fofertas-decathlon-com-cupom%2Fcupom-10offnopix",
+      "rede": "Awin"
+    },
+    {
+      "id": "55af025b23276e8f2c",
+      "loja": "Decathlon BR",
+      "tipo": "cupom",
+      "titulo": "CORRE15: Cupom 15% Off em Olympikus",
+      "descricao": "CORRE15: Cupom 15% Off em Olympikus",
+      "termos": ".",
+      "cupom": "CORRE15",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=19296&awinaffid=3110826&ued=https%3A%2F%2Fwww.decathlon.com.br%2Fcampanha%2Fdecathlon-partners%2Fcupom-corre15",
+      "rede": "Awin"
+    },
+    {
+      "id": "d701fae1c79ff4cc02",
+      "loja": "Decathlon BR",
+      "tipo": "cupom",
+      "titulo": "Ganhe 10% Off em Produtos de Ciclismo",
+      "descricao": "Ganhe 10% Off em Produtos de Ciclismo",
+      "termos": ".",
+      "cupom": "PEDALA10",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=19296&awinaffid=3110826&ued=https%3A%2F%2Fwww.decathlon.com.br%2Fcampanha%2Fofertas-decathlon-com-cupom%2Fcupom-pedala10",
+      "rede": "Awin"
+    },
+    {
+      "id": "ab0ba2cf6c4d0a8d89",
+      "loja": "Decathlon BR",
+      "tipo": "cupom",
+      "titulo": "Supercupom com descontos de 5% até 45%",
+      "descricao": "Supercupom com descontos de 5% até 45%",
+      "termos": ".",
+      "cupom": "PARTNER",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=19296&awinaffid=3110826&ued=https%3A%2F%2Fwww.decathlon.com.br%2Fcampanha%2Fofertas-decathlon-com-cupom",
       "rede": "Awin"
     },
     {
@@ -635,6 +695,30 @@
       "rede": "Awin"
     },
     {
+      "id": "9ff6808ac1e5c374ee",
+      "loja": "eLens BR",
+      "tipo": "cupom",
+      "titulo": "Por R$ 255.79 Biofinity Toric 6 com cupom OFERTADODIA",
+      "descricao": "Por R$ 255.79 Biofinity Toric 6 com cupom OFERTADODIA",
+      "termos": ".",
+      "cupom": "OFERTADODIA",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17612&awinaffid=3110826&ued=https%3A%2F%2Fwww.elens.com.br%2Fbiofinity-biofinity-toric-6-cvcvbft06%2Fp",
+      "rede": "Awin"
+    },
+    {
+      "id": "9cf580a21bb114d5ad",
+      "loja": "Eotica BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF em lentes Kodak",
+      "descricao": "10% OFF em lentes Kodak",
+      "termos": ".",
+      "cupom": "KODAK10",
+      "validade": "2026-11-27T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17854&awinaffid=3110826&ued=https%3A%2F%2Fwww.eotica.com.br%2Foculos%2Foculos-de-grau%3Forder%3D",
+      "rede": "Awin"
+    },
+    {
       "id": "cdeff649f429655f3f",
       "loja": "Eurorelogios BR",
       "tipo": "cupom",
@@ -731,18 +815,6 @@
       "rede": "Awin"
     },
     {
-      "id": "933bbd05ca98390625",
-      "loja": "Fila BR",
-      "tipo": "cupom",
-      "titulo": "10 OFF (Cupom) Regras: válido para todo site para novos usuários. Uso único.",
-      "descricao": "",
-      "termos": "",
-      "cupom": "PRIMEIRACOMPRA",
-      "validade": "2029-03-28T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2109896.56&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
       "id": "b1a007452876fd4622",
       "loja": "Fotoregistro BR",
       "tipo": "cupom",
@@ -765,54 +837,6 @@
       "validade": "2027-01-01T02:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=46269&awinaffid=3110826&ued=https%3A%2F%2Fhipervarejo.com.br%2F",
       "rede": "Awin"
-    },
-    {
-      "id": "b63e666f0a4a9598a6",
-      "loja": "Insider Store BR",
-      "tipo": "cupom",
-      "titulo": "12% OFF em kit com CUPOM = BESTRKN",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BESTRKN",
-      "validade": "2032-03-13T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2072550.260&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "1355c593bc668691f8",
-      "loja": "Insider Store BR",
-      "tipo": "cupom",
-      "titulo": "12% OFF em kit com CUPOM = KITRKN",
-      "descricao": "",
-      "termos": "",
-      "cupom": "KITRKN",
-      "validade": "2032-03-13T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2072550.259&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "f6a6b53b058ba7f54a",
-      "loja": "Insider Store BR",
-      "tipo": "cupom",
-      "titulo": "15% OFF Recorrente cupom genérico = DESCONTORKN",
-      "descricao": "",
-      "termos": "",
-      "cupom": "DESCONTORKN",
-      "validade": "2032-03-13T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2072550.258&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "1e5b5f32f80b61b786",
-      "loja": "Insider Store BR",
-      "tipo": "cupom",
-      "titulo": "20% OFF para Primeira Compra = PRIMEIRARKN",
-      "descricao": "",
-      "termos": "",
-      "cupom": "PRIMEIRARKN",
-      "validade": "2032-03-13T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2072550.261&type=3&subid=0",
-      "rede": "Rakuten"
     },
     {
       "id": "62ef94595b8213c9ad",
@@ -1259,42 +1283,6 @@
       "rede": "Awin"
     },
     {
-      "id": "6b141cda6dcb946d73",
-      "loja": "Lenovo",
-      "tipo": "cupom",
-      "titulo": "R$400 off no loq com cupom LENOVO400",
-      "descricao": "",
-      "termos": "",
-      "cupom": "LENOVO400",
-      "validade": "2031-11-28T02:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1943417.1135&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "260aa271b25df2006d",
-      "loja": "Multi",
-      "tipo": "cupom",
-      "titulo": "5% de desconto na primeira compra em todo o site cupom: PRIMEIRACOMPRA",
-      "descricao": "",
-      "termos": "",
-      "cupom": "PRIMEIRACOMPRA",
-      "validade": "2032-11-05T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1729255.496&type=3&subid=0&LSNSUBSITE=LSNSUBSITE",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "f38fc7bc17be743598",
-      "loja": "Netshoes WL",
-      "tipo": "cupom",
-      "titulo": "Cupom de 10% OFF na primeira compra (Cupom) - Validade: Indeterminada!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BEMVINDO10",
-      "validade": "2029-06-21T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=951620.1097&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
       "id": "04f8ddd938e3228d54",
       "loja": "Nike BR",
       "tipo": "cupom",
@@ -1329,18 +1317,6 @@
       "validade": "2027-01-01T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17634&awinaffid=3110826&ued=https%3A%2F%2Fwww.posthaus.com.br%2Fcp%2Fnovos-clientes",
       "rede": "Awin"
-    },
-    {
-      "id": "5d1655a8bd28adeedd",
-      "loja": "Sem Parar",
-      "tipo": "cupom",
-      "titulo": "Cupom - PLANO ULTRA - 6 MENSALIDADES COM 96% DE DESCONTO - CUPOM: SEMPARAR96OFF",
-      "descricao": "",
-      "termos": "",
-      "cupom": "SEMPARAR96OFF",
-      "validade": "2026-11-30T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.102&type=3&subid=0",
-      "rede": "Rakuten"
     },
     {
       "id": "8f29578c019b20c2d7",
@@ -1439,30 +1415,6 @@
       "rede": "Awin"
     },
     {
-      "id": "d4b567cfb19a413618",
-      "loja": "Trocafone",
-      "tipo": "cupom",
-      "titulo": "5% De Desconto Válido Para a Primeira Compra. (Cupom: PRIMEIROPEDIDO)",
-      "descricao": "",
-      "termos": "",
-      "cupom": "PRIMEIROPEDIDO",
-      "validade": "2031-07-25T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1599568.190&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "45daf9512e4fa3c36d",
-      "loja": "Trocafone",
-      "tipo": "cupom",
-      "titulo": "Começou a Black da Troca Cupom: BLACK5 5% OFF aplicando o cupom de desconto *limite de desconto: R$150!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "BLACK5",
-      "validade": "2026-12-02T01:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1599568.298&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
       "id": "451715af7e7d96a240",
       "loja": "VX Case BR",
       "tipo": "cupom",
@@ -1473,90 +1425,6 @@
       "validade": "2027-01-01T02:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=117795&awinaffid=3110826&campaign=Primeira+Compra+com+10+OFF&ued=https%3A%2F%2Fwww.vxcase.com.br%2Fdiscount%2FPRIMEIRACOMPRA",
       "rede": "Awin"
-    },
-    {
-      "id": "707052ca3d7e6b2a24",
-      "loja": "Alugue Foco",
-      "tipo": "promocao",
-      "titulo": "Aproveite 20% OFF no aluguel de carros na Foco pagando antecipado via PIX. Frota nova, reservas rápidas e atendimento de qualidade!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-04-08T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2022506.3&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "c27830747601d5e2e3",
-      "loja": "Alugue Foco",
-      "tipo": "promocao",
-      "titulo": "Aproveite 20% OFF no aluguel de carros na Foco pagando antecipado via PIX. Frota nova, reservas rápidas e atendimento de qualidade.",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-04-08T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2022506.3&type=3",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "287045546b89aaa81b",
-      "loja": "Alugue Foco",
-      "tipo": "promocao",
-      "titulo": "Home",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-04-20T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2022506.13&type=3",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "87e1cf936a02cd6e43",
-      "loja": "Alugue Foco",
-      "tipo": "promocao",
-      "titulo": "Logo",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-04-08T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2022506.3&type=4",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "6d0d36bdf904a0f998",
-      "loja": "ASUS BR",
-      "tipo": "promocao",
-      "titulo": "Aproveite Até 60% De Desconto Nos Melhores Notebooks E Notebooks Gamers!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2031-12-03T02:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1940053.7&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "c032c4edafe136a431",
-      "loja": "ASUS BR",
-      "tipo": "promocao",
-      "titulo": "Home",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2031-12-04T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1940053.8&type=3",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "419cc5ee9eec76d939",
-      "loja": "Beleza Na Web",
-      "tipo": "promocao",
-      "titulo": "Cupons Gerais De Beleza Na Web!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2031-05-20T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1345283.5284&type=3&subid=0",
-      "rede": "Rakuten"
     },
     {
       "id": "e19e9aa1e580b30379",
@@ -1571,18 +1439,6 @@
       "rede": "Awin"
     },
     {
-      "id": "d89467c092600aa711",
-      "loja": "Casa Inteligente",
-      "tipo": "promocao",
-      "titulo": "Frete Grátis Para Compras Acima De R$100!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2031-07-01T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1696116.195&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
       "id": "5b4775f044506057fd",
       "loja": "Clovis Calçados BR",
       "tipo": "promocao",
@@ -1595,16 +1451,28 @@
       "rede": "Awin"
     },
     {
-      "id": "9cf8e833e5db84716c",
-      "loja": "Clube da Borracha",
+      "id": "b97832b0b365656d79",
+      "loja": "Eotica BR",
       "tipo": "promocao",
-      "titulo": "Pagamento Facilitado!",
-      "descricao": "",
-      "termos": "",
+      "titulo": "50% OFF em itens selecionados + Site Todo com 20% OFF + 5% OFF no Pix",
+      "descricao": "50% OFF em itens selecionados + Site Todo com 20% OFF + 5% OFF no Pix",
+      "termos": ".",
       "cupom": "",
-      "validade": "2030-02-09T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1516341.5&type=3&subid=0",
-      "rede": "Rakuten"
+      "validade": "2026-11-27T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17854&awinaffid=3110826&ued=https%3A%2F%2Fwww.eotica.com.br%2Foculos%3F_q%3Doculos%26map%3Dft%26order%3DOrderByBestDiscountDESC",
+      "rede": "Awin"
+    },
+    {
+      "id": "ba5873b605c417d88f",
+      "loja": "Eotica BR",
+      "tipo": "promocao",
+      "titulo": "Armação + Lente com 40% OFF + 5% OFF no Pix",
+      "descricao": "Armação + Lente com 40% OFF + 5% OFF no Pix",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-27T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17854&awinaffid=3110826&ued=https%3A%2F%2Fwww.eotica.com.br%2Foculos%2Foculos-de-grau%3Forder%3D",
+      "rede": "Awin"
     },
     {
       "id": "59def35f8080295005",
@@ -1799,138 +1667,6 @@
       "rede": "Awin"
     },
     {
-      "id": "256b0a419003580674",
-      "loja": "Fila BR",
-      "tipo": "promocao",
-      "titulo": "Ação: 10% OFF em FILA! Cupom: FILA10 || Regras: 10% de desconto no site, exceto em: Produtos com tag de lançamento Float Maxxi 2 Float Maxxi 2 PRO Racer Carbon KR6 Mondo",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2030-08-16T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2109896.86&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "f5d8f9953ea7632ab3",
-      "loja": "Fila BR",
-      "tipo": "promocao",
-      "titulo": "BLACK FRIDAY: Até 70% OFF em itens selecionados + frete grátis a partir de R$399,99 + 5% OFF no pix!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-11-30T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2109896.207&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "3d8b77cd00a2a846f7",
-      "loja": "Fila BR",
-      "tipo": "promocao",
-      "titulo": "Descrição: Tênis Fila Agile Masculino Preço: De R$ 399,99 por R$ 349,99!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-11-30T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2109896.205&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "0060ab8e7955ee39e2",
-      "loja": "Fila BR",
-      "tipo": "promocao",
-      "titulo": "Descrição: Tênis Fila Destroyer Feminino Preço: De R$ 399,99 por R$ 299,99!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-11-30T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2109896.210&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "8be3089d9937efbb99",
-      "loja": "Fila BR",
-      "tipo": "promocao",
-      "titulo": "Descrição: Tênis Fila Destroyer Masculino Preço: De R$ 399,99 por R$ 299,99!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-11-30T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2109896.208&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "946f40f75cad06f678",
-      "loja": "Fila BR",
-      "tipo": "promocao",
-      "titulo": "Descrição: Tênis Fila Racer Carbon 3 Feminino Preço: De R$ 1.199,99 por R$ 799,99!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-11-30T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2109896.204&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "ce738e4bbda0929a2e",
-      "loja": "Fila BR",
-      "tipo": "promocao",
-      "titulo": "Descrição: Tênis Fila Racer Fastpace Masculino Preço: De R$ 499,99 por R$ 349,99!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-11-30T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2109896.206&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "cad66974d918e53229",
-      "loja": "Fila BR",
-      "tipo": "promocao",
-      "titulo": "Descrição: Tênis Fila Rise Up Masculino Preço: De R$ 299,99 por R$ 199,99!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-11-30T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2109896.211&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "bac678c8dfa6dc899f",
-      "loja": "Fila BR",
-      "tipo": "promocao",
-      "titulo": "Descrição: Tênis Fila Street Fit 3 Feminino Preço: De R$ 379,99 por R$ 299,99!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-11-30T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2109896.209&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "faa7d5bbedbe2bedb0",
-      "loja": "Fila BR",
-      "tipo": "promocao",
-      "titulo": "Frete Grátis - Brasil!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2028-08-07T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2109896.40&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "62ca7313229a3addb9",
-      "loja": "Fila BR",
-      "tipo": "promocao",
-      "titulo": "Outlet Fila - Remarcados em até 50%. Regras: Todos os produtos da página. Desconto no carrinho!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2029-03-28T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2109896.58&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
       "id": "0536c306adeb542e7d",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -1979,6 +1715,90 @@
       "rede": "Awin"
     },
     {
+      "id": "45d9a7b298c2fcc43b",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Adaptador Tp-Link Ub5a - Bluetooth 5.0 / Nano Usb - Preto",
+      "descricao": "Adaptador Tp-Link Ub5a - Bluetooth 5.0 / Nano Usb - Preto",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F409464",
+      "rede": "Awin"
+    },
+    {
+      "id": "2f7e93af03a51b638e",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Adaptador Tp-Link Ue300c Gigabit Usb, 3.0, Tipo C - Tpn0242",
+      "descricao": "Adaptador Tp-Link Ue300c Gigabit Usb, 3.0, Tipo C - Tpn0242",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F188027",
+      "rede": "Awin"
+    },
+    {
+      "id": "9a9a8c911ac13c9398",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Adaptador Tp-Link, Usb Nano, Archer T2u Nano - Ac600",
+      "descricao": "Adaptador Tp-Link, Usb Nano, Archer T2u Nano - Ac600",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F186560",
+      "rede": "Awin"
+    },
+    {
+      "id": "fa56bdc6f04c26dc36",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Adaptador Tp-Link,Wifi,Usb Archer T3u Plus - Ac1300",
+      "descricao": "Adaptador Tp-Link,Wifi,Usb Archer T3u Plus - Ac1300",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F503880",
+      "rede": "Awin"
+    },
+    {
+      "id": "8d57d6dac76c2c895e",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Adaptador Usb Tipo C, Com 8 Saídas, Hdmi Usb-C, Usb 3.0, Usb 2.0, Micro Sd, Sd E Rj45, F3 - Jc-Tyc-860",
+      "descricao": "Adaptador Usb Tipo C, Com 8 Saídas, Hdmi Usb-C, Usb 3.0, Usb 2.0, Micro Sd, Sd E Rj45, F3 - Jc-Tyc-860",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F521228",
+      "rede": "Awin"
+    },
+    {
+      "id": "82405235b2b23d2342",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Adaptador Wireless, Tp-Link Archer T2u Plus, Ac600, Usb, Dual Band",
+      "descricao": "Adaptador Wireless, Tp-Link Archer T2u Plus, Ac600, Usb, Dual Band",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F173198",
+      "rede": "Awin"
+    },
+    {
+      "id": "e3d7712d1f699c0bef",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Air Cooler Gamer Rise Mode Storm 8 Black Argb - Rm-Acst-Argb-B.",
+      "descricao": "Air Cooler Gamer Rise Mode Storm 8 Black Argb - Rm-Acst-Argb-B.",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F899171",
+      "rede": "Awin"
+    },
+    {
       "id": "95ccb3557b1d441c21",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -1988,6 +1808,54 @@
       "cupom": "",
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F24339",
+      "rede": "Awin"
+    },
+    {
+      "id": "19ff0c46991f2bde56",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Ar Condicionado Split Hitachi Hi Wall Airhome 600 Inverter 12.000 Btu/H Quente Frio Monofásico Branco Spk12c3ivq - 220v",
+      "descricao": "Ar Condicionado Split Hitachi Hi Wall Airhome 600 Inverter 12.000 Btu/H Quente Frio Monofásico Branco Spk12c3ivq - 220v",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F509734",
+      "rede": "Awin"
+    },
+    {
+      "id": "56c1d6dfd0682545d7",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Bateria Para Dell Inspiron 15-5568 13-5368 7378 Wdx0r 11.4v 3680mah 42wh",
+      "descricao": "Bateria Para Dell Inspiron 15-5568 13-5368 7378 Wdx0r 11.4v 3680mah 42wh",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F617026",
+      "rede": "Awin"
+    },
+    {
+      "id": "49463f90e5c11c9b7d",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Bateria Unipower Para Nobreak, Up1250-06c013, F187, 12v, 5.0ah.",
+      "descricao": "Bateria Unipower Para Nobreak, Up1250-06c013, F187, 12v, 5.0ah.",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F203327",
+      "rede": "Awin"
+    },
+    {
+      "id": "2bef889fbedf9bf72f",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cabo Adaptador F3, Displayport E Hdmi, 1.8m, Preto - Jc- Cb-Dmi18",
+      "descricao": "Cabo Adaptador F3, Displayport E Hdmi, 1.8m, Preto - Jc- Cb-Dmi18",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F153489",
       "rede": "Awin"
     },
     {
@@ -2039,6 +1907,42 @@
       "rede": "Awin"
     },
     {
+      "id": "11b1a177703a20d14c",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cabo Displayport Para Hdmi, Fy Monitor, 1.80m",
+      "descricao": "Cabo Displayport Para Hdmi, Fy Monitor, 1.80m",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F233445",
+      "rede": "Awin"
+    },
+    {
+      "id": "654f76fd722cee5730",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cabo Displayport Storm, 1.4v, 8k, 60hz, 2 Metros",
+      "descricao": "Cabo Displayport Storm, 1.4v, 8k, 60hz, 2 Metros",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F581828",
+      "rede": "Awin"
+    },
+    {
+      "id": "e9b15c08ef5e4f489e",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cabo F3 Adaptador Conversor, Displayport X Vga F - Cb-Dvga",
+      "descricao": "Cabo F3 Adaptador Conversor, Displayport X Vga F - Cb-Dvga",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F151253",
+      "rede": "Awin"
+    },
+    {
       "id": "cb95e25945a3734049",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2048,6 +1952,42 @@
       "cupom": "",
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F104032",
+      "rede": "Awin"
+    },
+    {
+      "id": "2dfcbc6fd761c377b7",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cadeira Escritório Maxoffice Diretor Ergonomica, Peso Máximo Suportado: 120 Kg, Preto",
+      "descricao": "Cadeira Escritório Maxoffice Diretor Ergonomica, Peso Máximo Suportado: 120 Kg, Preto",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F374618",
+      "rede": "Awin"
+    },
+    {
+      "id": "0bdc3289702fd75a65",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cadeira Gamer Cougar Armor Elite Royal, Até 120kg - 3meliglb.0001",
+      "descricao": "Cadeira Gamer Cougar Armor Elite Royal, Até 120kg - 3meliglb.0001",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F477028",
+      "rede": "Awin"
+    },
+    {
+      "id": "6c79344f86f453f529",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cadeira Gamer Draxen Dn2, 150 Kg, Altura Ajustáveis, Reclinação, Com Almofadas, Preto",
+      "descricao": "Cadeira Gamer Draxen Dn2, 150 Kg, Altura Ajustáveis, Reclinação, Com Almofadas, Preto",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F175912",
       "rede": "Awin"
     },
     {
@@ -2087,6 +2027,54 @@
       "rede": "Awin"
     },
     {
+      "id": "4edfbc6c0dab72bd5a",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cadeira Gamer Mymax Mx0, Peso Suportado Até 120kg, Giratória, Preto - Mgch-Mx0/Bk",
+      "descricao": "Cadeira Gamer Mymax Mx0, Peso Suportado Até 120kg, Giratória, Preto - Mgch-Mx0/Bk",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F265790",
+      "rede": "Awin"
+    },
+    {
+      "id": "07665d2944f6912a8b",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cadeira Gamer Mymax Mx12, Até 150 Kg, Giratória, Preto E Azul",
+      "descricao": "Cadeira Gamer Mymax Mx12, Até 150 Kg, Giratória, Preto E Azul",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F154466",
+      "rede": "Awin"
+    },
+    {
+      "id": "2d279b6540626a5428",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cadeira Gamer Mymax Mx12, Peso Máximo Suportado: 150kg, Giratória, Preto/Branco",
+      "descricao": "Cadeira Gamer Mymax Mx12, Peso Máximo Suportado: 150kg, Giratória, Preto/Branco",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F164794",
+      "rede": "Awin"
+    },
+    {
+      "id": "6cef41a01dcb8786f4",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cadeira Gamer Mymax Mx5, Até 150 Kg, Giratória, Preta E Vermelha",
+      "descricao": "Cadeira Gamer Mymax Mx5, Até 150 Kg, Giratória, Preta E Vermelha",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F354731",
+      "rede": "Awin"
+    },
+    {
       "id": "cb682c7d4fd3d8139f",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2108,6 +2096,18 @@
       "cupom": "",
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F265787",
+      "rede": "Awin"
+    },
+    {
+      "id": "384013fd8df9011c1c",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cadeira Gamer Mymax, Mx5, Até 150kg, Giratória Branco E Verde",
+      "descricao": "Cadeira Gamer Mymax, Mx5, Até 150kg, Giratória Branco E Verde",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F446651",
       "rede": "Awin"
     },
     {
@@ -2135,6 +2135,18 @@
       "rede": "Awin"
     },
     {
+      "id": "00bb5540abaad5c5db",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cadeira Office Mymax Presidente Confort, Até 120kg, Em Couro Pu, Giratória, Preto",
+      "descricao": "Cadeira Office Mymax Presidente Confort, Até 120kg, Em Couro Pu, Giratória, Preto",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F216964",
+      "rede": "Awin"
+    },
+    {
       "id": "e2e4e9b2f912c5b116",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2156,6 +2168,42 @@
       "cupom": "",
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F948648",
+      "rede": "Awin"
+    },
+    {
+      "id": "baecb8a37368ad023d",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Caixa De Som Gamer Redragon, Rgb, Soundbar, Darknets - Gs570",
+      "descricao": "Caixa De Som Gamer Redragon, Rgb, Soundbar, Darknets - Gs570",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F509046",
+      "rede": "Awin"
+    },
+    {
+      "id": "3407c1621f0b23f710",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Caixa De Som Redragon Stentor Gs500 2x3w 3.5mm Preto E Led Vermelho",
+      "descricao": "Caixa De Som Redragon Stentor Gs500 2x3w 3.5mm Preto E Led Vermelho",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F120538",
+      "rede": "Awin"
+    },
+    {
+      "id": "b6f064030bf2d21091",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Caixa De Som Vibesound V12 800w Rms C/ Microfone - Vs001",
+      "descricao": "Caixa De Som Vibesound V12 800w Rms C/ Microfone - Vs001",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F694759",
       "rede": "Awin"
     },
     {
@@ -2183,6 +2231,42 @@
       "rede": "Awin"
     },
     {
+      "id": "0c77446d4233b9d0e1",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Carregador Samsung 25w De Parede, Com Cabo - Ep-T2510xb",
+      "descricao": "Carregador Samsung 25w De Parede, Com Cabo - Ep-T2510xb",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F537018",
+      "rede": "Awin"
+    },
+    {
+      "id": "957f04e76d93232e47",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cartão De Memória Kingston Canvas Select Plus Gen3, Microsd 128gb, Classe 10, Com Adaptador, Sdcs3/128gb",
+      "descricao": "Cartão De Memória Kingston Canvas Select Plus Gen3, Microsd 128gb, Classe 10, Com Adaptador, Sdcs3/128gb",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F941887",
+      "rede": "Awin"
+    },
+    {
+      "id": "cd890f1a6210e46777",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cartão De Memória Micro Sd 32gb + Adap Clas 10 Uhs-I Hiksemi",
+      "descricao": "Cartão De Memória Micro Sd 32gb + Adap Clas 10 Uhs-I Hiksemi",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F583494",
+      "rede": "Awin"
+    },
+    {
       "id": "6c2f5f3ce7ea2441b7",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2192,6 +2276,18 @@
       "cupom": "",
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F222340",
+      "rede": "Awin"
+    },
+    {
+      "id": "db40c14d444dd567c5",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Case/Gaveta Ugreen Para Ssd Mvme Sata Com Usb-C 10gbps Prata - Cm767",
+      "descricao": "Case/Gaveta Ugreen Para Ssd Mvme Sata Com Usb-C 10gbps Prata - Cm767",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F696017",
       "rede": "Awin"
     },
     {
@@ -2231,6 +2327,30 @@
       "rede": "Awin"
     },
     {
+      "id": "6f2e6d8a2874f3c4e2",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Computador Cev, Upd I5-7400 7a Geração, H110, 16gb Ddr4, Ssd 240gb, Preto",
+      "descricao": "Computador Cev, Upd I5-7400 7a Geração, H110, 16gb Ddr4, Ssd 240gb, Preto",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F469697",
+      "rede": "Awin"
+    },
+    {
+      "id": "a6cdd1e0cf7119eafe",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Computador Gamer 2eletro Chroma, Intel Core I5, 16gb Ram, Ssd 256gb, Fonte 500w - Pg2e-1002ch",
+      "descricao": "Computador Gamer 2eletro Chroma, Intel Core I5, 16gb Ram, Ssd 256gb, Fonte 500w - Pg2e-1002ch",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F644324",
+      "rede": "Awin"
+    },
+    {
       "id": "24eee3442241f4b119",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2243,6 +2363,18 @@
       "rede": "Awin"
     },
     {
+      "id": "04bdadac240faf36ff",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Computador Intel I3 Setima Geracao 8gb Ddr4 M.2 256gb Windows 10 Pro",
+      "descricao": "Computador Intel I3 Setima Geracao 8gb Ddr4 M.2 256gb Windows 10 Pro",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F631368",
+      "rede": "Awin"
+    },
+    {
       "id": "e13e9f00f6e0beafc4",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2252,6 +2384,18 @@
       "cupom": "",
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F656985",
+      "rede": "Awin"
+    },
+    {
+      "id": "de343263d56f21ef17",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Controlador De Fan E Hub Deepcool Fh-10, Com 10 Saídas, 3 E 4 Pinos, Função Pwm - Dp-F10pwm-Hub",
+      "descricao": "Controlador De Fan E Hub Deepcool Fh-10, Com 10 Saídas, 3 E 4 Pinos, Função Pwm - Dp-F10pwm-Hub",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F188305",
       "rede": "Awin"
     },
     {
@@ -2291,6 +2435,18 @@
       "rede": "Awin"
     },
     {
+      "id": "16d3932329d06c515c",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Cooler Para Gabinete Rise Mode Galaxy, Rgb, 120mm, Preto, Rm-Mb-01-5v",
+      "descricao": "Cooler Para Gabinete Rise Mode Galaxy, Rgb, 120mm, Preto, Rm-Mb-01-5v",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F194912",
+      "rede": "Awin"
+    },
+    {
       "id": "e2b0c6dc8a9a91e5c0",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2300,6 +2456,18 @@
       "cupom": "",
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F941666",
+      "rede": "Awin"
+    },
+    {
+      "id": "154a521114cdc31e32",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Dock Station Usb 3.0 - Hd Sata 2.5 E 3.5 - Preto - Mymax",
+      "descricao": "Dock Station Usb 3.0 - Hd Sata 2.5 E 3.5 - Preto - Mymax",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F352491",
       "rede": "Awin"
     },
     {
@@ -2327,6 +2495,18 @@
       "rede": "Awin"
     },
     {
+      "id": "c98e4edfd7d6cd3d75",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Fone De Ouvido C/Microfone Taue101bk/00 Preto Philips",
+      "descricao": "Fone De Ouvido C/Microfone Taue101bk/00 Preto Philips",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F120543",
+      "rede": "Awin"
+    },
+    {
       "id": "d88c547c24040fd744",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2348,6 +2528,18 @@
       "cupom": "",
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F884406",
+      "rede": "Awin"
+    },
+    {
+      "id": "34571b2664a2f413ca",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Fonte De Alimentação Aerocool Stealth 350w S/Cabo - Vx-350",
+      "descricao": "Fonte De Alimentação Aerocool Stealth 350w S/Cabo - Vx-350",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F879827",
       "rede": "Awin"
     },
     {
@@ -2387,6 +2579,54 @@
       "rede": "Awin"
     },
     {
+      "id": "eb17842851bb86e30f",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Fonte Mymax Atx, 1000w, 80 Plus Silver, Pfc Ativo - Mpsu/Fp1000",
+      "descricao": "Fonte Mymax Atx, 1000w, 80 Plus Silver, Pfc Ativo - Mpsu/Fp1000",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F259694",
+      "rede": "Awin"
+    },
+    {
+      "id": "7619dd58367b62aebe",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Fragmentadora De Papel 18 Folhas, 30 Litros, 220v, Silenciosa",
+      "descricao": "Fragmentadora De Papel 18 Folhas, 30 Litros, 220v, Silenciosa",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F462272",
+      "rede": "Awin"
+    },
+    {
+      "id": "f591d7c4e5a66750b7",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Fujifilm Filme Instax Mini Com 20 Fotos",
+      "descricao": "Fujifilm Filme Instax Mini Com 20 Fotos",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F164680",
+      "rede": "Awin"
+    },
+    {
+      "id": "47f5c288b7a0900c3c",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Gabinete Fortrek Sc501bk, Sem Fonte, Usb, Preto - 67244",
+      "descricao": "Gabinete Fortrek Sc501bk, Sem Fonte, Usb, Preto - 67244",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F119916",
+      "rede": "Awin"
+    },
+    {
       "id": "30e34f77744d857c8a",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2396,6 +2636,18 @@
       "cupom": "",
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F657435",
+      "rede": "Awin"
+    },
+    {
+      "id": "0edf2b233395af8c76",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Gabinete Gamer Deepcool Ch160 Plus Micro Atx Sem Fan Preto",
+      "descricao": "Gabinete Gamer Deepcool Ch160 Plus Micro Atx Sem Fan Preto",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F985935",
       "rede": "Awin"
     },
     {
@@ -2435,6 +2687,18 @@
       "rede": "Awin"
     },
     {
+      "id": "9a3efb20bc69fd2323",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Gabinete K-Mex Gm-02ck Slim, Micro Atx, Usb, Com Fonte E Cabo",
+      "descricao": "Gabinete K-Mex Gm-02ck Slim, Micro Atx, Usb, Com Fonte E Cabo",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F482297",
+      "rede": "Awin"
+    },
+    {
       "id": "5b0ec32493dd3411ea",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2447,6 +2711,30 @@
       "rede": "Awin"
     },
     {
+      "id": "b00fe09341dea3353d",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Hd Externo Seagate Expansion, Ps4, Xbox, 1tb - Stgx1000400",
+      "descricao": "Hd Externo Seagate Expansion, Ps4, Xbox, 1tb - Stgx1000400",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F586382",
+      "rede": "Awin"
+    },
+    {
+      "id": "88f65b087d91058000",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Hd Seagate Skyhawk 1tb, P/ Seguranca Vigilancia, Dvr - St1000vx013",
+      "descricao": "Hd Seagate Skyhawk 1tb, P/ Seguranca Vigilancia, Dvr - St1000vx013",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F528602",
+      "rede": "Awin"
+    },
+    {
       "id": "931a44ee4b71fb92a5",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2456,6 +2744,18 @@
       "cupom": "",
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F690576",
+      "rede": "Awin"
+    },
+    {
+      "id": "d4e4b5184cf12016b5",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Headset Gamer Redragon Luce Branco H888w 40mm Sem Fio Bt",
+      "descricao": "Headset Gamer Redragon Luce Branco H888w 40mm Sem Fio Bt",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F909719",
       "rede": "Awin"
     },
     {
@@ -2483,6 +2783,30 @@
       "rede": "Awin"
     },
     {
+      "id": "6f17294c8ca9425871",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Headset Qcy H3 Pro Anc 50db Bluetooth 5.4 Multiponto 55h",
+      "descricao": "Headset Qcy H3 Pro Anc 50db Bluetooth 5.4 Multiponto 55h",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F676974",
+      "rede": "Awin"
+    },
+    {
+      "id": "cbd6292f2d0ef6c0cc",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Hub Adaptador Ugreen Revodok 6 In 1 P/Usb C Cinza",
+      "descricao": "Hub Adaptador Ugreen Revodok 6 In 1 P/Usb C Cinza",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F819568",
+      "rede": "Awin"
+    },
+    {
       "id": "579c395366b70f7b50",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2492,6 +2816,18 @@
       "cupom": "",
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F442699",
+      "rede": "Awin"
+    },
+    {
+      "id": "2615f75476e46d39d7",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Hub Usb-C Uno Ugreen 6 Em 1 Pd100w Hdmi 4k/60hz Preto",
+      "descricao": "Hub Usb-C Uno Ugreen 6 Em 1 Pd100w Hdmi 4k/60hz Preto",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F887430",
       "rede": "Awin"
     },
     {
@@ -2531,6 +2867,42 @@
       "rede": "Awin"
     },
     {
+      "id": "f6cd2d239a61c11aa6",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Kit 3 Cooler Lian Li Gamer Uni Fan Tl Wireless Lcd 120 Argb",
+      "descricao": "Kit 3 Cooler Lian Li Gamer Uni Fan Tl Wireless Lcd 120 Argb",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F833857",
+      "rede": "Awin"
+    },
+    {
+      "id": "bde51a6590db08d3eb",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Kit 3 Fans Gamer Rise Mode Magneto Uni Fan Argb 5v White 120mm - Rm-Ma-02-Argb.",
+      "descricao": "Kit 3 Fans Gamer Rise Mode Magneto Uni Fan Argb 5v White 120mm - Rm-Ma-02-Argb.",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F899201",
+      "rede": "Awin"
+    },
+    {
+      "id": "09ff7a61699d18e4a5",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Kit Com 3 Ventoinhas Rise Mode Aura 120mm Rgb Preto - Rm-Au-02-Rgb",
+      "descricao": "Kit Com 3 Ventoinhas Rise Mode Aura 120mm Rgb Preto - Rm-Au-02-Rgb",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F173047",
+      "rede": "Awin"
+    },
+    {
       "id": "b7b24b2c382f5aa158",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2540,6 +2912,18 @@
       "cupom": "",
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F622099",
+      "rede": "Awin"
+    },
+    {
+      "id": "261efa38cb850a4291",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Kit Fan Com 3 Unidades Pcyes Sangue Frio 3 Argb Black Vulcan, Reverse, 120mm, Preto, K3argbsf3rvbr",
+      "descricao": "Kit Fan Com 3 Unidades Pcyes Sangue Frio 3 Argb Black Vulcan, Reverse, 120mm, Preto, K3argbsf3rvbr",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F728551",
       "rede": "Awin"
     },
     {
@@ -2567,6 +2951,30 @@
       "rede": "Awin"
     },
     {
+      "id": "4c6792d7985d964705",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Kit Roteador Tp-Link Deco M4, Com 2 Mesh Archer Ac1200, Gigabit Dual Band",
+      "descricao": "Kit Roteador Tp-Link Deco M4, Com 2 Mesh Archer Ac1200, Gigabit Dual Band",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F481276",
+      "rede": "Awin"
+    },
+    {
+      "id": "13f1c830cb4f720e5c",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Kit Teclado E Mouse Sem Fio Recarregável 2.4ghz Usb Preto Tc250",
+      "descricao": "Kit Teclado E Mouse Sem Fio Recarregável 2.4ghz Usb Preto Tc250",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F195791",
+      "rede": "Awin"
+    },
+    {
       "id": "fb23f0475d06481d24",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2591,6 +2999,18 @@
       "rede": "Awin"
     },
     {
+      "id": "16839bc0854f413da3",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Marvel’s Spider Man 2, Ps5",
+      "descricao": "Marvel’s Spider Man 2, Ps5",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F505322",
+      "rede": "Awin"
+    },
+    {
       "id": "41efea4812c2c34788",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2600,6 +3020,30 @@
       "cupom": "",
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F564690",
+      "rede": "Awin"
+    },
+    {
+      "id": "38af5c0ae487474bda",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Memoria Kingston, 8gb, 1333mhz, Ddr3, Para Notebook - Kvr1333d3s9/8g",
+      "descricao": "Memoria Kingston, 8gb, 1333mhz, Ddr3, Para Notebook - Kvr1333d3s9/8g",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F548922",
+      "rede": "Awin"
+    },
+    {
+      "id": "afee8353828a292bb5",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Memória Adata Xpg 8gb Ddr5 5600mhz - Ad5s56008g-S",
+      "descricao": "Memória Adata Xpg 8gb Ddr5 5600mhz - Ad5s56008g-S",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F575908",
       "rede": "Awin"
     },
     {
@@ -2675,6 +3119,30 @@
       "rede": "Awin"
     },
     {
+      "id": "50aade4c95c99e0659",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Microfone Gamer Usb Rgb Condensador, Cardioide, Plug & Play Para Pc E Streaming, Gravação Alta Qualidade Mt-1060r",
+      "descricao": "Microfone Gamer Usb Rgb Condensador, Cardioide, Plug & Play Para Pc E Streaming, Gravação Alta Qualidade Mt-1060r",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F776824",
+      "rede": "Awin"
+    },
+    {
+      "id": "0d71816e790d62ab90",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Mini Rack Desmontável De Parede 8u - 19 X 570mm - Intelbras Mrd 857",
+      "descricao": "Mini Rack Desmontável De Parede 8u - 19 X 570mm - Intelbras Mrd 857",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F303758",
+      "rede": "Awin"
+    },
+    {
       "id": "0742663f1d38dba838",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2684,6 +3152,30 @@
       "cupom": "",
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F949380",
+      "rede": "Awin"
+    },
+    {
+      "id": "38860724a1c58fc137",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Monitor Acer 23.8” Mk241y Cbmi Led Ips Full Hd 100hz 1ms",
+      "descricao": "Monitor Acer 23.8” Mk241y Cbmi Led Ips Full Hd 100hz 1ms",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F937827",
+      "rede": "Awin"
+    },
+    {
+      "id": "0d5d4ca478a8c2360b",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Monitor Brazilpc 19\" Led, 60hz, 5ms, Hdmi, Vga, Widescreen, Preto - Bpc-19we02-B",
+      "descricao": "Monitor Brazilpc 19\" Led, 60hz, 5ms, Hdmi, Vga, Widescreen, Preto - Bpc-19we02-B",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F585837",
       "rede": "Awin"
     },
     {
@@ -2747,6 +3239,18 @@
       "rede": "Awin"
     },
     {
+      "id": "48e4352d12092c2de3",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Monitor Gamer Alltek 21.5 Led Fhd Hdmi 100hz Mnt-Atk125",
+      "descricao": "Monitor Gamer Alltek 21.5 Led Fhd Hdmi 100hz Mnt-Atk125",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F640433",
+      "rede": "Awin"
+    },
+    {
       "id": "d64adb1085bc8e0c72",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2768,6 +3272,30 @@
       "cupom": "",
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F340630",
+      "rede": "Awin"
+    },
+    {
+      "id": "7ed782196de145961e",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Monitor Gamer Philips Evnia 27' Fhd 180hz Ips 0,5ms - 27m2n3200l",
+      "descricao": "Monitor Gamer Philips Evnia 27' Fhd 180hz Ips 0,5ms - 27m2n3200l",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F695541",
+      "rede": "Awin"
+    },
+    {
+      "id": "a0033b6b26611feb56",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Monitor Gamer Samsung Odyssey G3 24pol, Full Hd, 144 Hz, 1ms, Hdmi, Display Port, Vga, Freesync Premium, Regulagem De Altura - Lf24g35tfwlxzd",
+      "descricao": "Monitor Gamer Samsung Odyssey G3 24pol, Full Hd, 144 Hz, 1ms, Hdmi, Display Port, Vga, Freesync Premium, Regulagem De Altura - Lf24g35tfwlxzd",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F232252",
       "rede": "Awin"
     },
     {
@@ -2867,6 +3395,18 @@
       "rede": "Awin"
     },
     {
+      "id": "a4838119c45e8f644c",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Mouse Gamer Redragon Griffin, Chroma Rgb, 7200 Dpi, 6 Botões, Branco - Paw3212",
+      "descricao": "Mouse Gamer Redragon Griffin, Chroma Rgb, 7200 Dpi, 6 Botões, Branco - Paw3212",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F151082",
+      "rede": "Awin"
+    },
+    {
       "id": "c93fe660df852db677",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2888,6 +3428,18 @@
       "cupom": "",
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F883179",
+      "rede": "Awin"
+    },
+    {
+      "id": "2cbc6dffecf4afc5cc",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Mouse Pad Fortrek Bap-102bk, 18x22cm, Preto - 73269",
+      "descricao": "Mouse Pad Fortrek Bap-102bk, 18x22cm, Preto - 73269",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F184219",
       "rede": "Awin"
     },
     {
@@ -2927,6 +3479,18 @@
       "rede": "Awin"
     },
     {
+      "id": "21b65185cd85a54dc4",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Nobreak Nhs 600va Mini 4, Ent. Monovolt 120v, Saida 120v, 6t, Bat. 1x 7ah/12v - 90.A1.006000",
+      "descricao": "Nobreak Nhs 600va Mini 4, Ent. Monovolt 120v, Saida 120v, 6t, Bat. 1x 7ah/12v - 90.A1.006000",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F298289",
+      "rede": "Awin"
+    },
+    {
       "id": "ab3fd2d606e05a0211",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -2960,6 +3524,30 @@
       "cupom": "",
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F782018",
+      "rede": "Awin"
+    },
+    {
+      "id": "9f7587d73c2e55bd6e",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Pc Completo I5 Quarta Geracao 8 Gb Ddr3 Nvme 256 Gb Monitor 19 W10",
+      "descricao": "Pc Completo I5 Quarta Geracao 8 Gb Ddr3 Nvme 256 Gb Monitor 19 W10",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F627647",
+      "rede": "Awin"
+    },
+    {
+      "id": "4933687d53211fd098",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Pc Computador Completo Intel I5-8500 8gb Ddr4 Ssd 480gb Mon 20 W11",
+      "descricao": "Pc Computador Completo Intel I5-8500 8gb Ddr4 Ssd 480gb Mon 20 W11",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F995180",
       "rede": "Awin"
     },
     {
@@ -2999,6 +3587,30 @@
       "rede": "Awin"
     },
     {
+      "id": "bf8f7733e4fd34da75",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Pen Drive 16gb Sandisk Cruzer Blade, Usb 2.0, Z50",
+      "descricao": "Pen Drive 16gb Sandisk Cruzer Blade, Usb 2.0, Z50",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F197014",
+      "rede": "Awin"
+    },
+    {
+      "id": "e50cda66556777da3f",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Pen Drive 64gb, Multi Pd590 Twist, Usb 2.0",
+      "descricao": "Pen Drive 64gb, Multi Pd590 Twist, Usb 2.0",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F120075",
+      "rede": "Awin"
+    },
+    {
       "id": "4086248f0e906d5285",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -3032,6 +3644,18 @@
       "cupom": "",
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1056509",
+      "rede": "Awin"
+    },
+    {
+      "id": "29b762fa48545e0faf",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Placa De Vídeo Vx Pro Nvidia Geforce Gtx1050 Ti, 4gb, 128bits, Gtx1050ti-4gd5 Vx Pro",
+      "descricao": "Placa De Vídeo Vx Pro Nvidia Geforce Gtx1050 Ti, 4gb, 128bits, Gtx1050ti-4gd5 Vx Pro",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F635959",
       "rede": "Awin"
     },
     {
@@ -3083,6 +3707,30 @@
       "rede": "Awin"
     },
     {
+      "id": "cca15ca01675c924dd",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Processador Am5 Amd Ryzen 9 9950x, 4.3 Ghz, Max Turbo 5.7 Ghz, 080 Mb Cache, Com Vídeo Integrado, Sem Cooler, Gar: Fab",
+      "descricao": "Processador Am5 Amd Ryzen 9 9950x, 4.3 Ghz, Max Turbo 5.7 Ghz, 080 Mb Cache, Com Vídeo Integrado, Sem Cooler, Gar: Fab",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F626455",
+      "rede": "Awin"
+    },
+    {
+      "id": "e179af1d7200ef4b49",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Processador Amd Ryzen 3 4100, 4.0ghz, Cache 6mb, Am4, Wraith Stealth, Sem Ví­deo Integrado - 100-100000510box",
+      "descricao": "Processador Amd Ryzen 3 4100, 4.0ghz, Cache 6mb, Am4, Wraith Stealth, Sem Ví­deo Integrado - 100-100000510box",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F357485",
+      "rede": "Awin"
+    },
+    {
       "id": "02573318d3506f3d65",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -3092,6 +3740,30 @@
       "cupom": "",
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F727405",
+      "rede": "Awin"
+    },
+    {
+      "id": "111b2ffcfdb609d1a0",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Processador Intel I3-2120, 3.3ghz, 3mb, Cache, Lga 1155",
+      "descricao": "Processador Intel I3-2120, 3.3ghz, 3mb, Cache, Lga 1155",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F532640",
+      "rede": "Awin"
+    },
+    {
+      "id": "14d31704e6b11ed5ca",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Relógio Smartwatch Huawei Band 10, Tela 1.47\" Amoled, Inteligente, Preto",
+      "descricao": "Relógio Smartwatch Huawei Band 10, Tela 1.47\" Amoled, Inteligente, Preto",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F729518",
       "rede": "Awin"
     },
     {
@@ -3107,6 +3779,30 @@
       "rede": "Awin"
     },
     {
+      "id": "d28c45b4d389942e41",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Roteador E Repetidor Tp-Link, Wi-Fi, N300 Mbps - Tl-Wr840nw V6",
+      "descricao": "Roteador E Repetidor Tp-Link, Wi-Fi, N300 Mbps - Tl-Wr840nw V6",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F132343",
+      "rede": "Awin"
+    },
+    {
+      "id": "57e56a3b3e5068f11f",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Roteador Huawei Wifi, 6 Ax2s Ax1500, 4 Antenas - Ws7000-42",
+      "descricao": "Roteador Huawei Wifi, 6 Ax2s Ax1500, 4 Antenas - Ws7000-42",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F463520",
+      "rede": "Awin"
+    },
+    {
       "id": "6516c568f5648c1ee3",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -3116,6 +3812,18 @@
       "cupom": "",
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F938269",
+      "rede": "Awin"
+    },
+    {
+      "id": "0a43a28e23852dd474",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Samsung Galaxy Watch7 Smartwatch 44mm Bluetooth, Galaxy Ai, Tela Em Cristal De Safira Prata",
+      "descricao": "Samsung Galaxy Watch7 Smartwatch 44mm Bluetooth, Galaxy Ai, Tela Em Cristal De Safira Prata",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F614209",
       "rede": "Awin"
     },
     {
@@ -3143,6 +3851,30 @@
       "rede": "Awin"
     },
     {
+      "id": "c1a96425ea8e21b677",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Smartwatch Amazfit Bip 6 Amoled 1,97 Gps Bluetooth Calls, Resistente À Água 5 Atm Bateria Longa Duração",
+      "descricao": "Smartwatch Amazfit Bip 6 Amoled 1,97 Gps Bluetooth Calls, Resistente À Água 5 Atm Bateria Longa Duração",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F753178",
+      "rede": "Awin"
+    },
+    {
+      "id": "a49a9842f538196f52",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Smartwatch Samsung Galaxy Fit3 Display 1.6\" - Rosé",
+      "descricao": "Smartwatch Samsung Galaxy Fit3 Display 1.6\" - Rosé",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F534183",
+      "rede": "Awin"
+    },
+    {
       "id": "d990020f354b1fb3d9",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -3152,6 +3884,18 @@
       "cupom": "",
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F85197",
+      "rede": "Awin"
+    },
+    {
+      "id": "4e29b804145ca513c9",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Ssd Masterdrive, 240gb, Sata Iii, Leitura 430mb/S E Gravação 400mb/S, M601",
+      "descricao": "Ssd Masterdrive, 240gb, Sata Iii, Leitura 430mb/S E Gravação 400mb/S, M601",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F578726",
       "rede": "Awin"
     },
     {
@@ -3215,6 +3959,78 @@
       "rede": "Awin"
     },
     {
+      "id": "90c782163bc5711775",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Suporte De Mesa North Bayou F80, Articulado, Com Pistão, Para Monitores 17 Até 30 Pol, Preto",
+      "descricao": "Suporte De Mesa North Bayou F80, Articulado, Com Pistão, Para Monitores 17 Até 30 Pol, Preto",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F643949",
+      "rede": "Awin"
+    },
+    {
+      "id": "87b64b9b4da2bcb7e7",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Suporte Ergonômico Articulado De Mesa, 2 Monitores 17\" A 35\", Pistão A Gás, Suporta Até 9kg Por Tela, Preto, F160n, Elg",
+      "descricao": "Suporte Ergonômico Articulado De Mesa, 2 Monitores 17\" A 35\", Pistão A Gás, Suporta Até 9kg Por Tela, Preto, F160n, Elg",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F165560",
+      "rede": "Awin"
+    },
+    {
+      "id": "19f7f85379edcd5ac8",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Suporte Ergonômico Para Notebook Dva Lima",
+      "descricao": "Suporte Ergonômico Para Notebook Dva Lima",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F184387",
+      "rede": "Awin"
+    },
+    {
+      "id": "76d332f4f4cd4e815d",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Suporte Masticmol, Para Cpu, Com Rodinhas, Ajustavel, Preto",
+      "descricao": "Suporte Masticmol, Para Cpu, Com Rodinhas, Ajustavel, Preto",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F292295",
+      "rede": "Awin"
+    },
+    {
+      "id": "e212fdee8f146fb1d2",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Suporte Para Headset Fortrek, Blackfire, Preto",
+      "descricao": "Suporte Para Headset Fortrek, Blackfire, Preto",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F227779",
+      "rede": "Awin"
+    },
+    {
+      "id": "87b09bd26d858ae8bd",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Suporte Para Notebook De 9 A 17 Polegadas Multi, Com Cooler 12cm, Com Led E Usb, Preto - Ac166",
+      "descricao": "Suporte Para Notebook De 9 A 17 Polegadas Multi, Com Cooler 12cm, Com Led E Usb, Preto - Ac166",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F148484",
+      "rede": "Awin"
+    },
+    {
       "id": "cf0cb9ff1da9377159",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -3224,6 +4040,18 @@
       "cupom": "",
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F397986",
+      "rede": "Awin"
+    },
+    {
+      "id": "de45ab8135e2e8e5aa",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Switch Hp Jl814a Aruba Instant On 1830, 48 Portas, Gerenciavel",
+      "descricao": "Switch Hp Jl814a Aruba Instant On 1830, 48 Portas, Gerenciavel",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F390277",
       "rede": "Awin"
     },
     {
@@ -3287,6 +4115,18 @@
       "rede": "Awin"
     },
     {
+      "id": "9799dbecee8468bc59",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Teclado Magnético Gamer Fortrek Ora Pro, 60%, Rgb, Switch Leobog, Abnt1, Preto",
+      "descricao": "Teclado Magnético Gamer Fortrek Ora Pro, 60%, Rgb, Switch Leobog, Abnt1, Preto",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1023397",
+      "rede": "Awin"
+    },
+    {
       "id": "6ed0d960dd6324c3ea",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -3299,6 +4139,18 @@
       "rede": "Awin"
     },
     {
+      "id": "fcf50a8d86dd3e7213",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Teclado Mecânico Gamer Redragon Kumara, Rgb, Switch Brown, Anti-Ghosting, Abnt2 - K552rgb-1",
+      "descricao": "Teclado Mecânico Gamer Redragon Kumara, Rgb, Switch Brown, Anti-Ghosting, Abnt2 - K552rgb-1",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F135180",
+      "rede": "Awin"
+    },
+    {
       "id": "3f9c85be72130e2752",
       "loja": "Kabum BR",
       "tipo": "promocao",
@@ -3308,6 +4160,42 @@
       "cupom": "",
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F506051",
+      "rede": "Awin"
+    },
+    {
+      "id": "fc370ca4a0e3f52036",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Teclado Mecânico Redragon Surara Pro, Rgb, Branco, Switch Azul Óptico, Abnt2 - K582w-Rgb-Pro",
+      "descricao": "Teclado Mecânico Redragon Surara Pro, Rgb, Branco, Switch Azul Óptico, Abnt2 - K582w-Rgb-Pro",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F399624",
+      "rede": "Awin"
+    },
+    {
+      "id": "ac5d76e91af19e9ac3",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Telefone Pleno Cinza Ártico, Sinalização De Linha Pulso E Tom, Funções Flash, Redial, Mute",
+      "descricao": "Telefone Pleno Cinza Ártico, Sinalização De Linha Pulso E Tom, Funções Flash, Redial, Mute",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F179150",
+      "rede": "Awin"
+    },
+    {
+      "id": "ac255743b94d943a9b",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Toner Original Hp 105a Preto Laser W1105ab W1105a Cx 1 Un 1k",
+      "descricao": "Toner Original Hp 105a Preto Laser W1105ab W1105a Cx 1 Un 1k",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F777210",
       "rede": "Awin"
     },
     {
@@ -3405,78 +4293,6 @@
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F887762",
       "rede": "Awin"
-    },
-    {
-      "id": "7771bf420ad72a1961",
-      "loja": "Keeta BR",
-      "tipo": "promocao",
-      "titulo": "Até 60% OFF no 1º pedido e cupons de até 50% na Keeta",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-09-22T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2118261.4&type=3",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "e64b08333f34e094d6",
-      "loja": "Keeta BR",
-      "tipo": "promocao",
-      "titulo": "Keeta",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-09-21T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2118261.3&type=3",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "6da9d2b967b75d1f2e",
-      "loja": "Keeta BR",
-      "tipo": "promocao",
-      "titulo": "logo",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-11-16T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2118261.3&type=4",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "d5144029b9bf5e4162",
-      "loja": "Keeta BR",
-      "tipo": "promocao",
-      "titulo": "Novos Usuários: Ganhe 40% OFF na sua primeira compra!",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-10-02T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2118261.6&type=3",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "fb3a1a4b5996c3bb84",
-      "loja": "Keeta BR",
-      "tipo": "promocao",
-      "titulo": "Novos Usuários: Ganhe 60% OFF na sua primeira compra!",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-10-02T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2118261.5&type=3",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "9887fbf43523ce0db3",
-      "loja": "Keeta BR",
-      "tipo": "promocao",
-      "titulo": "Novos Usuários: Ganhe R$40 OFF na sua primeira compra!",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-10-02T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2118261.7&type=3",
-      "rede": "Rakuten"
     },
     {
       "id": "b00401b8741cef6e49",
@@ -3608,870 +4424,6 @@
       "cupom": "",
       "validade": "2027-01-01T02:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2Fbusca%3Fq%3Dcloudmonster%2B3",
-      "rede": "Awin"
-    },
-    {
-      "id": "c64a3d5ed1444e5179",
-      "loja": "Lauri Esporte",
-      "tipo": "promocao",
-      "titulo": "On Cloudpulse Next por R$ 719,10 no Pix (de R$ 999)",
-      "descricao": "Tênis On Running Cloudpulse Next masculino branco com 20% OFF na Lauri Esporte, revenda oficial On: R$ 799 no cartão em até 12x sem juros ou R$ 719,10 no Pix. Últimos pares. Acumula com cupom de 10%. Frete grátis e 15% de cashback.",
-      "termos": "Preço de R$ 799 no cartão (12x sem juros) ou R$ 719,10 no Pix, modelo masculino. Válido enquanto durar o estoque; preços podem mudar sem aviso. Acumula com cupom de 10%. Frete grátis para todo o Brasil.",
-      "cupom": "",
-      "validade": "2027-01-01T02:59:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2Ftenis-on-running-cloudpulse-next-masculino-branco%2Fp",
-      "rede": "Awin"
-    },
-    {
-      "id": "9d8b0b479ce3a8bd18",
-      "loja": "Lauri Esporte",
-      "tipo": "promocao",
-      "titulo": "On Cloudsurfer 2 a partir de R$ 809,10 no Pix (de R$ 1.199)",
-      "descricao": "Tênis On Running Cloudsurfer 2 com até 25% OFF na Lauri Esporte, revenda oficial On: a partir de R$ 899 no cartão em até 12x sem juros ou R$ 809,10 no Pix. Masculino e feminino, várias cores. Acumula com cupom de 10%. Frete grátis e 15% de cashback.",
-      "termos": "Preços a partir de R$ 899 no cartão (12x sem juros) ou R$ 809,10 no Pix, conforme cor e tamanho. Válido enquanto durar o estoque; preços podem mudar sem aviso. Acumula com cupons de 10% do programa. Frete grátis para todo o Brasil.",
-      "cupom": "",
-      "validade": "2027-01-01T02:59:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2Fbusca%3Fq%3Dcloudsurfer%2B2",
-      "rede": "Awin"
-    },
-    {
-      "id": "f7e8c092cb0af37039",
-      "loja": "Lauri Esporte",
-      "tipo": "promocao",
-      "titulo": "On Cloudsurfer Max a partir de R$ 755,10 no Pix (de R$ 1.399)",
-      "descricao": "Tênis On Running Cloudsurfer Max com até 40% OFF na Lauri Esporte, revenda oficial On: a partir de R$ 839 no cartão em até 12x sem juros ou R$ 755,10 no Pix. Masculino e feminino, várias cores. Acumula com cupom de 10%. Frete grátis e 15% de cashback.",
-      "termos": "Preços a partir de R$ 839 no cartão (12x sem juros) ou R$ 755,10 no Pix, conforme cor e tamanho. Válido enquanto durar o estoque; preços podem mudar sem aviso. Acumula com cupons de 10% do programa. Frete grátis para todo o Brasil.",
-      "cupom": "",
-      "validade": "2027-01-01T02:59:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2Fbusca%3Fq%3Dcloudsurfer%2Bmax",
-      "rede": "Awin"
-    },
-    {
-      "id": "6fb9bba49162fe1b49",
-      "loja": "Lauri Esporte",
-      "tipo": "promocao",
-      "titulo": "On Cloudvista 2 Waterproof por R$ 876,60 no Pix (de R$ 1.299)",
-      "descricao": "Tênis On Running Cloudvista 2 Waterproof masculino preto com 25% OFF na Lauri Esporte, revenda oficial On: R$ 974 no cartão em até 12x sem juros ou R$ 876,60 no Pix. Últimos pares. Acumula com cupom de 10%. Frete grátis e 15% de cashback.",
-      "termos": "Preço de R$ 974 no cartão (12x sem juros) ou R$ 876,60 no Pix, modelo masculino. Válido enquanto durar o estoque; preços podem mudar sem aviso. Acumula com cupom de 10%. Frete grátis para todo o Brasil.",
-      "cupom": "",
-      "validade": "2027-01-01T02:59:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2Ftenis-on-running-cloudvista-2-waterproof-masculino-preto%2Fp",
-      "rede": "Awin"
-    },
-    {
-      "id": "93f50c873af4149e5a",
-      "loja": "Lauri Esporte",
-      "tipo": "promocao",
-      "titulo": "On Running com frete grátis e até 20% OFF no Pix + cupom",
-      "descricao": "Revenda oficial On Running na Lauri Esporte, loja de calçados esportivos desde 2008. Frete grátis para todo o Brasil, cupom de 10% + 10% no Pix e 15% de cashback.",
-      "termos": "Frete grátis para todo o Brasil em qualquer compra. Cupom de 10% (AWIN10, BLACKAWIN10 no período da Black Friday ou cupom exclusivo do afiliado) cumulativo com 10% de desconto no Pix, totalizando até 20% OFF, inclusive em modelos On já em promoção. A compra gera 15% de cashback para pedidos futuros. Sujeito à disponibilidade de estoque.",
-      "cupom": "",
-      "validade": "2027-01-01T02:59:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=118977&awinaffid=3110826&ued=https%3A%2F%2Fwww.lauriesporte.com.br%2Fmarcas%2Fon-running%3Fsort_by%3Drelevance",
-      "rede": "Awin"
-    },
-    {
-      "id": "d5994310d54145870b",
-      "loja": "Lenovo",
-      "tipo": "promocao",
-      "titulo": "43% OFF - LANÇAMENTO: TECNOLOGIA IA - IdeaPad Slim 3 Snapdragon X X1-26-100 16GB 512GB SSD Windows 11 Home 15.3\" WUXGA",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2031-11-27T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1943417.1131&type=3",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "73631b86a68d51dd65",
-      "loja": "Lenovo",
-      "tipo": "promocao",
-      "titulo": "43% OFF - LANÇAMENTO: TECNOLOGIA IA - IdeaPad Slim 3 Snapdragon X X1-26-100 16GB 512GB SSD Windows 11 Home 15.3\" WUXGA!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2031-11-27T02:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1943417.1131&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "6d905813b72124bd96",
-      "loja": "Lenovo",
-      "tipo": "promocao",
-      "titulo": "Cupom LENOVOTAB200 - Desconto de 200 reais no tablet Lenovo Tab",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2031-11-28T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1943417.1136&type=3",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "03d01f828695488427",
-      "loja": "Lenovo",
-      "tipo": "promocao",
-      "titulo": "Lenovo Friday: Headset Lenovo + R$50 Lenovo ThinkBook Intel Core i5-13420H 16GB 512GB SSD Non-OS 14\" WUXGA",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2031-11-27T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1943417.1132&type=3",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "f656bf06d1041b1e76",
-      "loja": "Lenovo",
-      "tipo": "promocao",
-      "titulo": "Lenovo Friday: Headset Lenovo Mias R$50 Lenovo ThinkBook Intel Core i5-13420H 16GB 512GB SSD Non-OS 14\" WUXGA!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2031-11-27T02:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1943417.1132&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "18f073bea17e74b5a5",
-      "loja": "Lenovo",
-      "tipo": "promocao",
-      "titulo": "Lenovo Friday: Mochila B210 + R$1 - IdeaPad 1 AMD Ryzen 3 7320U 4GB 256GB SSD Linux 15,6\" HD - 26% OFF",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2031-11-27T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1943417.1130&type=3",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "fac0d53382794094b5",
-      "loja": "Lenovo",
-      "tipo": "promocao",
-      "titulo": "Lenovo Friday: Mochila B210 + R$1 IdeaPad 1i Intel Core i3-1315U 8GB 512GB SSD Windows 11 Home 15.6\" FHD - 27% OFF",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2031-11-27T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1943417.1134&type=3",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "ef381e11f272acb3ce",
-      "loja": "Lenovo",
-      "tipo": "promocao",
-      "titulo": "Lenovo Friday: Mochila B210 Mias R$1 - IdeaPad 1 AMD Ryzen 3 7320U 4GB 256GB SSD Linux 15,6\" HD - 26% OFF!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2031-11-27T02:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1943417.1130&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "3d71a1bb25695200c2",
-      "loja": "Lenovo",
-      "tipo": "promocao",
-      "titulo": "Lenovo Friday: Mochila B210 Mias R$1 IdeaPad 1i Intel Core i3-1315U 8GB 512GB SSD Windows 11 Home 15.6\" FHD - 27% OFF!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2031-11-27T02:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1943417.1134&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "6ffaa64932d6cfb590",
-      "loja": "Lenovo",
-      "tipo": "promocao",
-      "titulo": "Oferta Lenovo Friday Lenovo LOQ-e Intel Core i5-12450HX 16GB 512GB SSD Linux RTX 3050 - 34% OFF",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2031-11-27T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1943417.1133&type=3",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "4226ab8a1349e64804",
-      "loja": "Lenovo",
-      "tipo": "promocao",
-      "titulo": "Oferta Lenovo Friday Lenovo LOQ-e Intel Core i5-12450HX 16GB 512GB SSD Linux RTX 3050 - 34% OFF!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2031-11-27T02:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1943417.1133&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "3b2253bfe0c3c685d3",
-      "loja": "Lenovo",
-      "tipo": "promocao",
-      "titulo": "R$400 off no loq com cupom LENOVO400!!!!!!!!!!!!!!!!!!!!",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2031-11-28T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1943417.1135&type=3",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "fdf9977caf9604dd22",
-      "loja": "Leroy Merlin BR",
-      "tipo": "promocao",
-      "titulo": "Promoção! Ripados com até 30%OFF",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-12-28T23:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1532244.1522&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "c03e1dc979ef410542",
-      "loja": "Litet",
-      "tipo": "promocao",
-      "titulo": "Carrinhos de Bebê, Bebê Conforto, Cadeirinha e Muito Mais: Seleção de produtos com até 20% OFF!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-02-26T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1958602.13&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "0e7874a03d8cee8380",
-      "loja": "Loja iPlace",
-      "tipo": "promocao",
-      "titulo": "Acessórios para iPad com até 31% de desconto*!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-12-01T02:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1758570.905&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "0d11b661dd84a46d7a",
-      "loja": "Loja iPlace",
-      "tipo": "promocao",
-      "titulo": "Acessórios para Mac com até 15% de desconto*!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-12-01T02:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1758570.904&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "aeba77f3138fed65a9",
-      "loja": "Loja iPlace",
-      "tipo": "promocao",
-      "titulo": "Capa iPhone Duo MegSafe com 10% OFF no PIX!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-10-26T02:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1758570.909&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "d60386df46362b5420",
-      "loja": "Loja iPlace",
-      "tipo": "promocao",
-      "titulo": "iPad A16 — de R$ 5.999 a partir de R$ 4.669 no Pix",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-11-30T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1758570.913&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "e06fc954cfa5ed9182",
-      "loja": "Loja iPlace",
-      "tipo": "promocao",
-      "titulo": "iPhone 15 128GB — de R$ 6.499,90 por R$ 3.499 no Pix",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-11-30T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1758570.916&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "188f4d39bfcab24db0",
-      "loja": "Loja iPlace",
-      "tipo": "promocao",
-      "titulo": "iPhone 16e — de R$ 5.799 a partir de R$ 2.999 no Pix",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-11-30T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1758570.918&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "4fc88b1ff580a3b386",
-      "loja": "Loja iPlace",
-      "tipo": "promocao",
-      "titulo": "iPhone 17 — de R$ 7.999 a partir de R$ 5.399 no Pix",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-11-30T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1758570.917&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "4ed0805820772ab8f1",
-      "loja": "Loja iPlace",
-      "tipo": "promocao",
-      "titulo": "iPhone 18 Pro a partir de R$ 10.799,00!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-12-01T02:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1758570.906&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "4233cbe6ded88dc2d8",
-      "loja": "Loja iPlace",
-      "tipo": "promocao",
-      "titulo": "iPhone 18 Pro a partir de R$ 11.699,00!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-12-01T02:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1758570.907&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "a1bf65a22092ab9332",
-      "loja": "Loja iPlace",
-      "tipo": "promocao",
-      "titulo": "iPhone 18 Pro — de R$ 11.999,90 a partir de R$ 10.799",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-11-30T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1758570.915&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "6534474497f0ee6944",
-      "loja": "Loja iPlace",
-      "tipo": "promocao",
-      "titulo": "JBL Boombox 4 — de R$ 3.199,90 por R$ 2.099 no Pix (somente na cor preta)",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-11-30T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1758570.912&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "5d36a3030039652d8e",
-      "loja": "Loja iPlace",
-      "tipo": "promocao",
-      "titulo": "️ 200OFF na compra de seminovos — Cupom: SEMINOVO",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-11-30T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1758570.914&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "789e71a3e0cebe984e",
-      "loja": "Lottoland BR",
-      "tipo": "promocao",
-      "titulo": "Home",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-05-08T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2032292.3&type=3",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "4ad06d22f463aa7a49",
-      "loja": "Megaloterias",
-      "tipo": "promocao",
-      "titulo": "Aposte online nas principais loterias aqui",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-06-23T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2065106.4&type=4",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "882495b6bd35258d28",
-      "loja": "Mizuno BR",
-      "tipo": "promocao",
-      "titulo": "Black Friday Imperdível - Até 60% Off + Desconto Extra no Pix. Frete Grátis e Até 10x sem Juros",
-      "descricao": "Black Friday Imperdível - Até 60% Off + Desconto Extra no Pix. Frete Grátis e Até 10x sem Juros",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-26T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=51271&awinaffid=3110826&ued=https%3A%2F%2Fwww.mizuno.com.br%2Fblack-friday",
-      "rede": "Awin"
-    },
-    {
-      "id": "c896cf45d43d9b67c9",
-      "loja": "Mizuno BR",
-      "tipo": "promocao",
-      "titulo": "Black Friday Kits Mizuno - O Kit Ideal Para Seu Corre. Válido para lista selecionada",
-      "descricao": "Black Friday Kits Mizuno - O Kit Ideal Para Seu Corre. Válido para lista selecionada",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-12-01T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=51271&awinaffid=3110826&ued=https%3A%2F%2Fwww.mizuno.com.br%2Fkits-mizuno",
-      "rede": "Awin"
-    },
-    {
-      "id": "8a5adf6ee226cb7441",
-      "loja": "Mizuno BR",
-      "tipo": "promocao",
-      "titulo": "BLACK FRIDAY: Cupons de R$ 40 + Desconto extra no Pix e Frete Grátis. Até 10x sem juros",
-      "descricao": "BLACK FRIDAY: Cupons de R$ 40 + Desconto extra no Pix e Frete Grátis. Até 10x sem juros",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-26T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=51271&awinaffid=3110826&ued=https%3A%2F%2Fwww.mizuno.com.br%2Fblack-friday-cupons",
-      "rede": "Awin"
-    },
-    {
-      "id": "188121c63a469a0b0a",
-      "loja": "Mizuno BR",
-      "tipo": "promocao",
-      "titulo": "Kits Mizuno Sky 9 por R$ 799.99 no PIX",
-      "descricao": "Kits Mizuno Sky 9 por R$ 799.99 no PIX",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-26T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=51271&awinaffid=3110826&ued=https%3A%2F%2Fwww.mizuno.com.br%2Fsh%2FSKY%25209%3F_q%3DSKY%2B9%26map%3Dft%26utm_source%3Dawin%26utm_medium%3Dafiliados-email%26utm_campaign%3Dsky9",
-      "rede": "Awin"
-    },
-    {
-      "id": "060ab8bd5c25b8015a",
-      "loja": "Movida BR",
-      "tipo": "promocao",
-      "titulo": "Home",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2031-06-25T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1837174.3&type=3",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "0587d750d376411f1c",
-      "loja": "Mundo Danone",
-      "tipo": "promocao",
-      "titulo": "Aptanutri com até 28% OFF!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-12-01T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.8&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "3e89ab9db92df2e890",
-      "loja": "Mundo Danone",
-      "tipo": "promocao",
-      "titulo": "Compre produtos do Mundo Danone com desconto",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-10-09T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.3&type=4",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "ce251faab131670e76",
-      "loja": "Mundo Danone",
-      "tipo": "promocao",
-      "titulo": "Compre produtos do Mundo Danone com desconto.",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-10-12T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.3&type=3",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "3c4c4142754d6eecf8",
-      "loja": "Mundo Danone",
-      "tipo": "promocao",
-      "titulo": "Cubitan com 35% Off!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-12-01T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.9&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "5b96c97b26e3029c16",
-      "loja": "Mundo Danone",
-      "tipo": "promocao",
-      "titulo": "Fortini com até 30% Off!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-12-01T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.10&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "60b794c4b5af8c58c5",
-      "loja": "Mundo Danone",
-      "tipo": "promocao",
-      "titulo": "Home",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-11-06T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.4&type=3",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "1b4b1634d53cf1d39d",
-      "loja": "Mundo Danone",
-      "tipo": "promocao",
-      "titulo": "Neo com até 40% Off!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-12-01T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.11&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "b7716cb5fbe5f99efd",
-      "loja": "Mundo Danone",
-      "tipo": "promocao",
-      "titulo": "Nutridrink com até 30% Off!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-12-01T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.12&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "96f59542d7b210d3b9",
-      "loja": "Mundo Danone",
-      "tipo": "promocao",
-      "titulo": "Ofertas Gerais até 50% Off!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-12-01T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.16&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "9e1825565898b772f7",
-      "loja": "Mundo Danone",
-      "tipo": "promocao",
-      "titulo": "Silk com 50% Off!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-12-01T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.13&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "75cc815bd25e1a2d11",
-      "loja": "Mundo Danone",
-      "tipo": "promocao",
-      "titulo": "Souvenaid com 35% Off!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-12-01T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.14&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "ab69a100fa158d0a6e",
-      "loja": "Mundo Danone",
-      "tipo": "promocao",
-      "titulo": "YoPro com até 36% Off!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2026-12-01T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.15&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "d9f95f4099290983c0",
-      "loja": "Netshoes WL",
-      "tipo": "promocao",
-      "titulo": "5% Em Itens Asics!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2030-11-07T23:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=951620.2224&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "2dcc913ff6060869d4",
-      "loja": "Netshoes WL",
-      "tipo": "promocao",
-      "titulo": "Under Armor Com Até 30% Off!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2030-11-07T23:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=951620.2223&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "5b7ace2c714de46092",
-      "loja": "Olympikus BR",
-      "tipo": "promocao",
-      "titulo": "Black Friday Acessórios Leve 3 Pague 2 + Frete Grátis e Desconto no Pix à Vista. Válido para lista selecionada e enquanto durarem os estoques.",
-      "descricao": "Black Friday Acessórios Leve 3 Pague 2 + Frete Grátis e Desconto no Pix à Vista. Válido para lista selecionada e enquanto durarem os estoques.",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-26T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17698&awinaffid=3110826&ued=https%3A%2F%2Fwww.olympikus.com.br%2Fblack-friday-acessorios",
-      "rede": "Awin"
-    },
-    {
-      "id": "d596cd4f85b99bb86f",
-      "loja": "Olympikus BR",
-      "tipo": "promocao",
-      "titulo": "Black Friday Desconto Progressivo em Vestuários 25% OFF em 2 itens e 30% OFF em 3 ou mais itens",
-      "descricao": "Black Friday Desconto Progressivo em Vestuários 25% OFF em 2 itens e 30% OFF em 3 ou mais itens",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-26T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17698&awinaffid=3110826&ued=https%3A%2F%2Fwww.olympikus.com.br%2Fdesconto-progressivo",
-      "rede": "Awin"
-    },
-    {
-      "id": "c961f4edc1e8bc762a",
-      "loja": "Olympikus BR",
-      "tipo": "promocao",
-      "titulo": "Black Friday Imperdível - Preços exclusivos com até 60% OFF + desconto extra no Pix e frete grátis. Até 10x sem juros. Válido para lista selecionada enquanto durarem os estoques",
-      "descricao": "Black Friday Imperdível - Preços exclusivos com até 60% OFF + desconto extra no Pix e frete grátis. Até 10x sem juros. Válido para lista selecionada enquanto durarem os estoques",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-26T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17698&awinaffid=3110826&ued=https%3A%2F%2Fwww.olympikus.com.br%2Fblackfriday",
-      "rede": "Awin"
-    },
-    {
-      "id": "8491c3d45a503d628e",
-      "loja": "Olympikus BR",
-      "tipo": "promocao",
-      "titulo": "Black Friday Kits Olympikus - O Kit Ideal Para Seu Corre. Válido para lista selecionada",
-      "descricao": "Black Friday Kits Olympikus - O Kit Ideal Para Seu Corre. Válido para lista selecionada",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-12-01T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17698&awinaffid=3110826&ued=https%3A%2F%2Fwww.olympikus.com.br%2Fkits-olympikus",
-      "rede": "Awin"
-    },
-    {
-      "id": "6b93f3283737127c87",
-      "loja": "Olympikus BR",
-      "tipo": "promocao",
-      "titulo": "Black Friday Olympikus com até 60% OFF + Frete Grátis + Benefícios no PIX",
-      "descricao": "Black Friday Olympikus com até 60% OFF + Frete Grátis + Benefícios no PIX",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-26T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17698&awinaffid=3110826&ued=https%3A%2F%2Fwww.olympikus.com.br%2Fblackfriday%3Futm_source%3Dawin%26utm_medium%3Dafiliados-email%26utm_campaign%3Dblackfriday",
-      "rede": "Awin"
-    },
-    {
-      "id": "0002c74fd79aac75b4",
-      "loja": "Perfumaria Sumire",
-      "tipo": "promocao",
-      "titulo": "Até 66% de desconto, nos melhores produtos de beleza! - https://www.perfumariasumire.com.br/promocoes!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-08-10T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2097180.3&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "5d5bad92d455b6068b",
-      "loja": "Perfumaria Sumire",
-      "tipo": "promocao",
-      "titulo": "Frete grátis em todo site para todo Brasil nas compras acima de R$199!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-10-21T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2097180.14&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "09d7b222f9124a49db",
-      "loja": "Positivo",
-      "tipo": "promocao",
-      "titulo": "Frete Grátis Para Todo Brasil!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2031-07-01T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1752486.611&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "ca56a7fb0526cb6284",
-      "loja": "Positivo",
-      "tipo": "promocao",
-      "titulo": "Notebook 2 em 1 Positivo Duo C4128E Intel® Celeron® N4500 Windows 11 Home 4GB RAM 128GB eMMC 11” LED HD IPS - Cinza - Inclui Microsoft 365* De: R$ 2.599,00 R$ 1.799,00 no PIX!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-06-09T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1752486.817&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "e82528e4dd55840609",
-      "loja": "Positivo",
-      "tipo": "promocao",
-      "titulo": "Notebook Positivo Vision R15M AMD Ryzen 5-5625U, Linux, 16GB RAM, 512GB SSD, Tela 15” Full HD IPS com Minitela De: R$ 4.519,00 Por: R$ 3.399,00 no PIX 10x de R$ 399,88 sem juros",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-07-16T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1752486.822&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "9f3a05d3397ea761d2",
-      "loja": "Positivo",
-      "tipo": "promocao",
-      "titulo": "Notebook Positivo Vision R15M AMD Ryzen 7-5825U, Linux, 32GB RAM, 512GB SSD, Tela 15” Full HD IPS com Minitela De: R$ 5.240,00 Por: R$ 3.799,00 no PIX 10x de R$ 446,94 sem juros",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-07-16T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1752486.821&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "2521be0dc5be2b4a92",
-      "loja": "Positivo",
-      "tipo": "promocao",
-      "titulo": "Notebook Positivo Vision R15M AMD® Ryzen 5-5625U Linux 16GB RAM 512GB SSD Wi-Fi 6 15” Full HD IPS Minitela - Preto De: R$ 4.089,77 R$ 3.599,00 no PIX!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-06-09T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1752486.815&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "4a73b1592a800df2cb",
-      "loja": "Positivo",
-      "tipo": "promocao",
-      "titulo": "Notebook Positivo Vision R15M AMD® Ryzen 7-5825U Linux 32GB RAM 512GB SSD Wi-Fi 6 Tela 15” Full HD IPS - Minitela Preto De: R$ 6.299,00 R$ 3.999,00 no PIX!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-06-09T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1752486.816&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "dbe2e78d2c1958dda4",
-      "loja": "Positivo",
-      "tipo": "promocao",
-      "titulo": "Tablet Positivo Vision TAB 11 com Capa Teclado + Caneta, 8GB RAM, 128GB, Wi-Fi AC e 4G, Octa-Core, 13MP + 5MP, 6000mAh, Tela 11” Full HD IPS - Preto De: 1.999 Preço no PIX: 1.549,00 no PIX!",
-      "descricao": "",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-06-09T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1752486.818&type=3&subid=0",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "7176c037e4f0700d1b",
-      "loja": "Sem Parar",
-      "tipo": "promocao",
-      "titulo": "Logo vertical - branco",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2031-06-17T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.353&type=4",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "48458f75b8a453a170",
-      "loja": "Sem Parar",
-      "tipo": "promocao",
-      "titulo": "Planos a partir de R$5,39",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-04-08T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.87&type=3",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "ee046a362c2b3b5996",
-      "loja": "Sem Parar",
-      "tipo": "promocao",
-      "titulo": "sem_parar_vertical_color_negativa",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2031-06-17T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.354&type=4",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "8b70ea7444a3e85b92",
-      "loja": "Sem Parar",
-      "tipo": "promocao",
-      "titulo": "sem_parar_vertical_color_positiva",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2031-06-17T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.355&type=4",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "b6b4e40b0212ab8876",
-      "loja": "Sem Parar",
-      "tipo": "promocao",
-      "titulo": "Tag com oferta",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
-      "termos": "",
-      "cupom": "",
-      "validade": "2032-04-08T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.365&type=4",
-      "rede": "Rakuten"
-    },
-    {
-      "id": "aa3890d2e982459c82",
-      "loja": "Sinocare",
-      "tipo": "promocao",
-      "titulo": "50% OFF Sinocare Safe Accu Blood Glucose Monitor Kit",
-      "descricao": "50% OFF at checkout — limited stock! For: 1pc meter + 100pcs × (strips + lancets) (mg/dL). Applies to one-time purchases.",
-      "termos": "50% off the Sinocare Safe Accu Blood Glucose Monitor Kit: 1pc meter + 100pcs strips and lancets (mg/dL). Available to all customers and applies to one-time purchases only. Discount applied at checkout. Limited stock. Offer ends 30 November 2026.",
-      "cupom": "",
-      "validade": "2026-11-30T15:59:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=114180&awinaffid=3110826&campaign=safe+accu+kit+50+off+oct26&ued=https%3A%2F%2Fen.sinocare.com%2Fproducts%2Fsinocare-blood-glucose-monitor-safe-accu%3Fvariant%3D43072245825768",
       "rede": "Awin"
     }
   ]
