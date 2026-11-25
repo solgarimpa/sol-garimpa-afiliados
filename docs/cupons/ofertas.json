@@ -1,97 +1,9 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-25T01:42:41.060610Z",
-  "total": 171,
+  "atualizado_em": "2026-11-25T10:32:41.602943Z",
+  "total": 162,
   "ofertas": [
-    {
-      "id": "4180291",
-      "loja": "C&A BR",
-      "tipo": "promocao",
-      "titulo": "Looks para fim de ano",
-      "descricao": "Looks para fim de ano",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-25T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fblack-friday%2Fmoda-feminina%2Ffestas"
-    },
-    {
-      "id": "4180290",
-      "loja": "C&A BR",
-      "tipo": "promocao",
-      "titulo": "Cuidados com Cabelo até 50% Off",
-      "descricao": "Cuidados com Cabelo até 50% Off",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-25T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fofertas%2Fbeleza%2Fcabelos%2Ftratamento"
-    },
-    {
-      "id": "4180289",
-      "loja": "C&A BR",
-      "tipo": "promocao",
-      "titulo": "Liquida Esportivo - Até 70% Off",
-      "descricao": "Liquida Esportivo - Até 70% Off",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-25T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fofertas%2Fliquida%2Fesportivo"
-    },
-    {
-      "id": "4180288",
-      "loja": "C&A BR",
-      "tipo": "promocao",
-      "titulo": "Skincare até 50%",
-      "descricao": "Skincare até 50%",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-25T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fbeleza%2Fcuidados-pessoais"
-    },
-    {
-      "id": "4180287",
-      "loja": "C&A BR",
-      "tipo": "promocao",
-      "titulo": "Calças a partir de R$79,99",
-      "descricao": "Calças a partir de R$79,99",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-25T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fblack-friday%2Fcalcas"
-    },
-    {
-      "id": "4180285",
-      "loja": "C&A BR",
-      "tipo": "promocao",
-      "titulo": "Shorts e Bermudas a partir de R$79,99",
-      "descricao": "Shorts e Bermudas a partir de R$79,99",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-25T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fblack-friday%2Fshorts-e-bermudas"
-    },
-    {
-      "id": "4180284",
-      "loja": "C&A BR",
-      "tipo": "promocao",
-      "titulo": "Black Friday: algodão peruano a patir R$29,99",
-      "descricao": "Black Friday: algodão peruano a patir R$29,99",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-25T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fblack-friday%2Falgodao-peruano"
-    },
-    {
-      "id": "4177745",
-      "loja": "C&A BR",
-      "tipo": "cupom",
-      "titulo": "40% OFF em itens selecionados na campanha Antecipa Black. Aproveite ofertas especiais em produtos participantes da seleção exclusiva",
-      "descricao": "40% OFF em itens selecionados na campanha Antecipa Black. Aproveite ofertas especiais em produtos participantes da seleção exclusiva",
-      "termos": ".",
-      "cupom": "VEMBLACK",
-      "validade": "2026-11-25T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17648&awinaffid=3110826&ued=https%3A%2F%2Fwww.cea.com.br%2Fvitrine%2Fcea%2F20011"
-    },
     {
       "id": "4175931",
       "loja": "Mizuno BR",
@@ -1488,17 +1400,6 @@
       "cupom": "AFFSRBFBO",
       "validade": "2027-01-01T05:56:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=3110826&ued=https%3A%2F%2Fstore.sirui.com%2Fpages%2Fexclusive-deals"
-    },
-    {
-      "id": "4168288",
-      "loja": "SIRUI",
-      "tipo": "promocao",
-      "titulo": "BFCM Clearance Sale",
-      "descricao": "Enjoy exclusive deals and save up to 80% OFF on selected lenses and photography gear. Don't miss out on these limited-time offers. Find your next creative essential at an unbeatable price!",
-      "termos": "/",
-      "cupom": "",
-      "validade": "2027-01-01T08:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=3110826&campaign=sirui+exclusive+deals+event&ued=https%3A%2F%2Fstore.sirui.com%2Fpages%2Fsales-1"
     },
     {
       "id": "4182082",
