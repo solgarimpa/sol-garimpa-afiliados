@@ -78,6 +78,9 @@ jobs:
           path: ./docs
           name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
 
+      - name: Aguardar indexacao do artefato GitHub Pages
+        run: sleep 20
+
       - name: Publicar site
         id: deployment
         uses: actions/deploy-pages@v4
