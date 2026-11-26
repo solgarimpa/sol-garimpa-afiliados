@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-26T04:12:03+00:00",
+  "atualizado_em": "2026-11-26T13:58:30+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -905,16 +905,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-4b9b960efb57990bdbfe",
+      "id": "lc-aececb702863515c5d47",
       "loja": "Gazin",
-      "tipo": "cupom",
-      "titulo": "Cupom Exclusivo da Madrugada",
-      "imagem": "",
-      "link": "https://lmdee.link/Z4rY1OICWAUD",
+      "tipo": "promocao",
+      "titulo": "Esquenta Black Friday Gazin!! Aproveite as melhores ofertas do mercado",
+      "imagem": "https://cdn.lomadee.com.br/offer/d3e77253-472a-4ea3-9fff-43766ab891c1/banners/Smartphones.png",
+      "link": "https://lmdee.link/M3Rq5aKARRmI",
       "preco": null,
       "preco_anterior": null,
-      "cupom": "MADRUGADA",
-      "validade": "2026-11-26T09:00:00.000Z",
+      "cupom": null,
+      "validade": "2026-11-28T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1017,16 +1017,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-ecdfbc9599bf3846d9e3",
+      "id": "lc-bc1371e697df5d87ed13",
       "loja": "Malwee",
       "tipo": "promocao",
-      "titulo": "Malwee Kids - DESCONTO EXTRA 🔥 Black November - Desconto de até 60% OFF + 10% OFF Extra 🎟️ Usando o cupom EXTRA10",
-      "imagem": "https://cdn.lomadee.com.br/offer/ec5e31c4-a106-412c-9a83-053c593d366d/banners/imagem%20-%202026-11-24T170602.510.png",
-      "link": "https://lmdee.link/EL7KMFAtNO9L",
+      "titulo": "Malwee Kids - ATÉ 70% OFF 🔥   Black November - Todo site até 70% OFF 🎟️ Usando o cupom EXTRA5 ganhe mais 5% OFF Extra",
+      "imagem": "https://cdn.lomadee.com.br/offer/17a0d4ee-e7b1-4954-a91d-8a6f145b5f44/banners/imagem%20-%202026-11-23T141700.721.png",
+      "link": "https://lmdee.link/6AisYsGH6JRL",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-26T13:00:00.000Z",
+      "validade": "2026-12-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1577,20 +1577,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-aececb702863515c5d47",
-      "loja": "Gazin",
-      "tipo": "promocao",
-      "titulo": "Esquenta Black Friday Gazin!! Aproveite as melhores ofertas do mercado",
-      "imagem": "https://cdn.lomadee.com.br/offer/d3e77253-472a-4ea3-9fff-43766ab891c1/banners/Smartphones.png",
-      "link": "https://lmdee.link/M3Rq5aKARRmI",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-28T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-1d3069bfc9dc469158b8",
       "loja": "Homedock",
       "tipo": "promocao",
@@ -1642,20 +1628,6 @@
       "preco": null,
       "preco_anterior": null,
       "cupom": "BLACKFRIDAY",
-      "validade": "2026-12-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-bc1371e697df5d87ed13",
-      "loja": "Malwee",
-      "tipo": "promocao",
-      "titulo": "Malwee Kids - ATÉ 70% OFF 🔥   Black November - Todo site até 70% OFF 🎟️ Usando o cupom EXTRA5 ganhe mais 5% OFF Extra",
-      "imagem": "https://cdn.lomadee.com.br/offer/17a0d4ee-e7b1-4954-a91d-8a6f145b5f44/banners/imagem%20-%202026-11-23T141700.721.png",
-      "link": "https://lmdee.link/6AisYsGH6JRL",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
@@ -1843,6 +1815,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-50c013a4b2ef1516be9a",
+      "loja": "Anhanguera Ferramentas",
+      "tipo": "promocao",
+      "titulo": "Black Friday Anhanguera Ferramentas",
+      "imagem": "",
+      "link": "https://lmdee.link/ScDIP120Exls",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": null,
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lc-c30efa0726c01faa8459",
       "loja": "Autoamerica Store",
       "tipo": "cupom",
@@ -1881,6 +1867,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-b28d58a6e7953fe29c27",
+      "loja": "Camisaria Colombo",
+      "tipo": "promocao",
+      "titulo": "Black November Colombo!",
+      "imagem": "https://cdn.lomadee.com.br/offer/b96c3904-2ec5-4a77-a326-e8718a66082a/banners/Colombo_Black_November_Google_960x1200_com_CTA.jpg",
+      "link": "https://lmdee.link/t4kA4sc6UUOv",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-12-01T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
