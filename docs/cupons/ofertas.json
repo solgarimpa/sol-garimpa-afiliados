@@ -1,8 +1,8 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-25T20:14:43.388942Z",
-  "total": 391,
+  "atualizado_em": "2026-11-26T02:55:03.350270Z",
+  "total": 437,
   "ofertas": [
     {
       "id": "4189235",
@@ -36,6 +36,39 @@
       "cupom": "OFERTADODIA",
       "validade": "2026-11-26T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17612&awinaffid=3110826&ued=https%3A%2F%2Fwww.elens.com.br%2Fbiofinity-biofinity-toric-6-cvcvbft06%2Fp"
+    },
+    {
+      "id": "4189460",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "R$ 100 OFF no Processador AMD Ryzen 7 5800X3D",
+      "descricao": "R$ 100 OFF no Processador AMD Ryzen 7 5800X3D",
+      "termos": ".",
+      "cupom": "BLACK5800",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1053828%2Fprocessador-amd-ryzen-7-5800x3d-3-4ghz-8-core-cache-100mb-am4-100-100000651pof"
+    },
+    {
+      "id": "4189455",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "R$ 75 OFF em produtos participantes da campanha 50MAIS25",
+      "descricao": "R$ 75 OFF em produtos participantes da campanha 50MAIS25",
+      "termos": ".",
+      "cupom": "50MAIS25",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP150MAIS25"
+    },
+    {
+      "id": "4189436",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "13% OFF em produtos selecionados da campanha Zafadinho",
+      "descricao": "13% OFF em produtos selecionados da campanha Zafadinho",
+      "termos": ".",
+      "cupom": "ZAFADINHO13",
+      "validade": "2026-11-26T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1ZAFADINHO13"
     },
     {
       "id": "4189042",
@@ -2557,6 +2590,50 @@
       "link": "https://www.awin1.com/cread.php?awinmid=18864&awinaffid=3110826&ued=https%3A%2F%2Fwww.underarmour.com.br%2Fblack-friday"
     },
     {
+      "id": "4189233",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF em itens selecionados. Promoção Corujão válida até 2026-11-26 às 09h",
+      "descricao": "10% OFF em itens selecionados. Promoção Corujão válida até 2026-11-26 às 09h",
+      "termos": ".",
+      "cupom": "KORUJAO",
+      "validade": "2026-11-26T12:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FKORUJAO"
+    },
+    {
+      "id": "4189466",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "7% OFF em produtos selecionados da campanha BLACKX3D",
+      "descricao": "7% OFF em produtos selecionados da campanha BLACKX3D",
+      "termos": ".",
+      "cupom": "BLACKX3D",
+      "validade": "2026-11-26T13:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1BLACKX3D"
+    },
+    {
+      "id": "4189449",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "12% OFF em produtos selecionados da campanha Tela Ninja",
+      "descricao": "12% OFF em produtos selecionados da campanha Tela Ninja",
+      "termos": ".",
+      "cupom": "TELANINJA12",
+      "validade": "2026-11-26T13:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1TELANINJA12"
+    },
+    {
+      "id": "4189419",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "5% OFF no Headset Sem Fio Pulse EL",
+      "descricao": "5% OFF no Headset Sem Fio Pulse EL",
+      "termos": ".",
+      "cupom": "PULSE5OFF",
+      "validade": "2026-11-27T01:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1008206%2Fheadset-sem-fio-pulse-el"
+    },
+    {
       "id": "4189292",
       "loja": "Eotica BR",
       "tipo": "promocao",
@@ -2590,6 +2667,50 @@
       "link": "https://www.awin1.com/cread.php?awinmid=17854&awinaffid=3110826&ued=https%3A%2F%2Fwww.eotica.com.br%2Foculos%2Foculos-de-grau%3Forder%3D"
     },
     {
+      "id": "4189439",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF em produtos selecionados Nintendo",
+      "descricao": "10% OFF em produtos selecionados Nintendo",
+      "termos": ".",
+      "cupom": "BFNINTENDO",
+      "validade": "2026-11-27T15:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1BFNINTENDO"
+    },
+    {
+      "id": "4189433",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "15% OFF em produtos selecionados da campanha Play Classic",
+      "descricao": "15% OFF em produtos selecionados da campanha Play Classic",
+      "termos": ".",
+      "cupom": "PLAYCLASSIC",
+      "validade": "2026-11-27T15:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1PLAYCLASSIC"
+    },
+    {
+      "id": "4189426",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "R$ 45 OFF no Controle Husky Hunter Sem Fio RGB",
+      "descricao": "R$ 45 OFF no Controle Husky Hunter Sem Fio RGB",
+      "termos": ".",
+      "cupom": "JOGAHUSKY",
+      "validade": "2026-11-27T15:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F761443%2Fcontrole-husky-hunter-sem-fio-compativel-com-pc-android-ios-24-botoes-programaveis-rgb-preto-hjk002pt"
+    },
+    {
+      "id": "4189330",
+      "loja": "Kabum BR",
+      "tipo": "promocao",
+      "titulo": "Black das Blacks - Ofertas de Black Friday KaBuM!",
+      "descricao": "Black das Blacks - Ofertas de Black Friday KaBuM!",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-11-29T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fofertas%2Fblackfriday"
+    },
+    {
       "id": "4167260",
       "loja": "Kabum BR",
       "tipo": "cupom",
@@ -2599,6 +2720,72 @@
       "cupom": "ANTENA50",
       "validade": "2026-11-29T15:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1074997%2Fkit-starlink-mini-x-antena-roteador-internet-via-satelite-wi-fi-5-branca-02535308-501"
+    },
+    {
+      "id": "4189445",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "R$ 100 OFF no Console PlayStation 5 Slim Digital 825GB",
+      "descricao": "R$ 100 OFF no Console PlayStation 5 Slim Digital 825GB",
+      "termos": ".",
+      "cupom": "PS100",
+      "validade": "2026-11-30T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F939943%2Fconsole-playstation-5-slim-digital-ssd-825gb-4k-uhd-120hz-ray-tracing-controle-dualsense-e-2-jogos-bivolt-branco"
+    },
+    {
+      "id": "4189409",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "8% OFF em produtos selecionados da campanha Casadinho",
+      "descricao": "8% OFF em produtos selecionados da campanha Casadinho",
+      "termos": ".",
+      "cupom": "CASADINHO",
+      "validade": "2026-11-30T12:30:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1CASADINHO"
+    },
+    {
+      "id": "4189462",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF em produtos gamers selecionados",
+      "descricao": "10% OFF em produtos gamers selecionados",
+      "termos": ".",
+      "cupom": "GAMER10OFF",
+      "validade": "2026-11-30T13:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1GAMER10OFF"
+    },
+    {
+      "id": "4189456",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "15% OFF em notebooks selecionados",
+      "descricao": "15% OFF em notebooks selecionados",
+      "termos": ".",
+      "cupom": "NOTE15OFF",
+      "validade": "2026-11-30T13:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1NOTE15OFF"
+    },
+    {
+      "id": "4189440",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "10% OFF no Notebook Gamer Dell Alienware 15 RTX 4050",
+      "descricao": "10% OFF no Notebook Gamer Dell Alienware 15 RTX 4050",
+      "termos": ".",
+      "cupom": "ALIEN10OFF",
+      "validade": "2026-11-30T13:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1066088%2Fnotebook-gamer-dell-alienware-15-intel-core-i5-8gb-ram-ssd-512gb-15-3-wuxga-nvidia-geforce-rtx-4050-windows-11-preto-da15-c5210h-a30"
+    },
+    {
+      "id": "4189429",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "R$ 330 OFF no Bundle Nintendo Switch 2 ABC",
+      "descricao": "R$ 330 OFF no Bundle Nintendo Switch 2 ABC",
+      "termos": ".",
+      "cupom": "JOGAFIFINHA",
+      "validade": "2026-11-30T13:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1076479%2Fbundle-nintendo-switch-2-abc"
     },
     {
       "id": "4178354",
@@ -2742,6 +2929,259 @@
       "cupom": "",
       "validade": "2026-11-30T15:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=114180&awinaffid=3110826&campaign=safe+accu+kit+50+off+oct26&ued=https%3A%2F%2Fen.sinocare.com%2Fproducts%2Fsinocare-blood-glucose-monitor-safe-accu%3Fvariant%3D43072245825768"
+    },
+    {
+      "id": "4189416",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "R$ 150 OFF em produtos selecionados da campanha iPhone",
+      "descricao": "R$ 150 OFF em produtos selecionados da campanha iPhone",
+      "termos": ".",
+      "cupom": "IPHONE150",
+      "validade": "2026-11-30T20:00:00Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP3IPHONE150"
+    },
+    {
+      "id": "4189352",
+      "loja": "Decathlon BR",
+      "tipo": "promocao",
+      "titulo": "Black Friday: Ofertas Válidas Enquanto Durar o Estoque",
+      "descricao": "Black Friday: Ofertas Válidas Enquanto Durar o Estoque",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=19296&awinaffid=3110826&ued=https%3A%2F%2Fwww.decathlon.com.br%2Fcampanha%2Fblack-friday-decathlon%2Fcalcados"
+    },
+    {
+      "id": "4189350",
+      "loja": "Decathlon BR",
+      "tipo": "promocao",
+      "titulo": "CORRE15: Cupom 15% OFF em Olympikus",
+      "descricao": "CORRE15: Cupom 15% OFF em Olympikus",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=19296&awinaffid=3110826&ued=https%3A%2F%2Fwww.decathlon.com.br%2Fcampanha%2Fdecathlon-partners%2Fcupom-corre15"
+    },
+    {
+      "id": "4189347",
+      "loja": "Decathlon BR",
+      "tipo": "promocao",
+      "titulo": "Black Friday: Cashback em Dobro em Compras acima de R$350",
+      "descricao": "Black Friday: Cashback em Dobro em Compras acima de R$350",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=19296&awinaffid=3110826&ued=https%3A%2F%2Fwww.decathlon.com.br%2Fcampanha%2Fblack-friday-decathlon%2Ftodos-os-produtos"
+    },
+    {
+      "id": "4189345",
+      "loja": "Decathlon BR",
+      "tipo": "promocao",
+      "titulo": "Black Friday: Desconto Progressivo | 2 itens 15% OFF | 3+ itens 20% OFF",
+      "descricao": "Black Friday: Desconto Progressivo | 2 itens 15% OFF | 3+ itens 20% OFF",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=19296&awinaffid=3110826&ued=https%3A%2F%2Fwww.decathlon.com.br%2Fcampanha%2Fblack-friday-decathlon%2Fdesconto-progressivo-por-tempo-limitado"
+    },
+    {
+      "id": "4189344",
+      "loja": "Decathlon BR",
+      "tipo": "promocao",
+      "titulo": "Black Friday: Tudo para Trilha e Trekking",
+      "descricao": "Black Friday: Tudo para Trilha e Trekking",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=19296&awinaffid=3110826&ued=https%3A%2F%2Fwww.decathlon.com.br%2Fesportes%2Ftrilha%2Ftodos-os-produtos"
+    },
+    {
+      "id": "4189341",
+      "loja": "Decathlon BR",
+      "tipo": "promocao",
+      "titulo": "Black Friday: Esportes Aquáticos com até 60% OFF",
+      "descricao": "Black Friday: Esportes Aquáticos com até 60% OFF",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=19296&awinaffid=3110826&ued=https%3A%2F%2Fwww.decathlon.com.br%2Fesportes%2Fnatacao%2Fequipamentos-e-acessorios"
+    },
+    {
+      "id": "4189339",
+      "loja": "Decathlon BR",
+      "tipo": "promocao",
+      "titulo": "Black Friday: Seu Jogo com até 50% OFF",
+      "descricao": "Black Friday: Seu Jogo com até 50% OFF",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=19296&awinaffid=3110826&ued=https%3A%2F%2Fwww.decathlon.com.br%2Fesportes%2Ffutebol%2Fequipamentos-e-acessorios"
+    },
+    {
+      "id": "4189338",
+      "loja": "Decathlon BR",
+      "tipo": "promocao",
+      "titulo": "Tudo para sua Corrida com até 60% OFF",
+      "descricao": "Tudo para sua Corrida com até 60% OFF",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=19296&awinaffid=3110826&ued=https%3A%2F%2Fwww.decathlon.com.br%2Fesportes%2Fcorrida%2Ftodos-os-produtos"
+    },
+    {
+      "id": "4189335",
+      "loja": "Decathlon BR",
+      "tipo": "promocao",
+      "titulo": "Oportunidade: Ganhe 20% OFF em Produtos de Corrida",
+      "descricao": "Oportunidade: Ganhe 20% OFF em Produtos de Corrida",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=19296&awinaffid=3110826&ued=https%3A%2F%2Fwww.decathlon.com.br%2Fcampanha%2Fofertas-decathlon-com-cupom"
+    },
+    {
+      "id": "4189334",
+      "loja": "Decathlon BR",
+      "tipo": "promocao",
+      "titulo": "Ofertas Ciclismo: Bikes. Roupas e Acessórios",
+      "descricao": "Ofertas Ciclismo: Bikes. Roupas e Acessórios",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=19296&awinaffid=3110826&ued=https%3A%2F%2Fwww.decathlon.com.br%2Fesportes%2Fciclismo%2Ftodos-os-produtos"
+    },
+    {
+      "id": "4189331",
+      "loja": "Decathlon BR",
+      "tipo": "promocao",
+      "titulo": "Black Friday: Equipamentos e Acessórios em Oferta",
+      "descricao": "Black Friday: Equipamentos e Acessórios em Oferta",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=19296&awinaffid=3110826&ued=https%3A%2F%2Fwww.decathlon.com.br%2Fesportes%2Ffitness-e-musculacao%2Fequipamentos-e-acessorios"
+    },
+    {
+      "id": "4189328",
+      "loja": "Decathlon BR",
+      "tipo": "promocao",
+      "titulo": "Black Friday: Grandes Marcas Esportivas com Desconto",
+      "descricao": "Black Friday: Grandes Marcas Esportivas com Desconto",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=19296&awinaffid=3110826&ued=https%3A%2F%2Fwww.decathlon.com.br%2Fcolecao%2Fgrandes-marcas%2F%3Fq%3D4114%26sort%3Dscore_desc%26page%3D2"
+    },
+    {
+      "id": "4189327",
+      "loja": "Decathlon BR",
+      "tipo": "promocao",
+      "titulo": "Black Friday: Roupas e Calçados de Trilha até 40% OFF",
+      "descricao": "Black Friday: Roupas e Calçados de Trilha até 40% OFF",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=19296&awinaffid=3110826&ued=https%3A%2F%2Fwww.decathlon.com.br%2Fesportes%2Ftrilha%2Fvestuario"
+    },
+    {
+      "id": "4189325",
+      "loja": "Decathlon BR",
+      "tipo": "promocao",
+      "titulo": "Black Friday: Seleção de Produtos até 50% OFF",
+      "descricao": "Black Friday: Seleção de Produtos até 50% OFF",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=19296&awinaffid=3110826&ued=https%3A%2F%2Fwww.decathlon.com.br%2Fcollection%2F%3Fq%3D4268"
+    },
+    {
+      "id": "4189323",
+      "loja": "Decathlon BR",
+      "tipo": "promocao",
+      "titulo": "10% OFF em Mochilas e Malas",
+      "descricao": "10% OFF em Mochilas e Malas",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=19296&awinaffid=3110826&ued=https%3A%2F%2Fwww.decathlon.com.br%2Fcolecao%2Fbolsas-e-mochilas"
+    },
+    {
+      "id": "4189319",
+      "loja": "Decathlon BR",
+      "tipo": "promocao",
+      "titulo": "R$ 200 OFF em Tabela de Basquete Infantil",
+      "descricao": "R$ 200 OFF em Tabela de Basquete Infantil",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=19296&awinaffid=3110826&ued=https%3A%2F%2Fwww.decathlon.com.br%2Ftabela-basquetebol-pe-regulavel-dunk-crianca-1-60-m-2-20-m-k900-v2-azul-preto-8935351-tarmak%2Fp"
+    },
+    {
+      "id": "4189317",
+      "loja": "Decathlon BR",
+      "tipo": "promocao",
+      "titulo": "R$ 500 OFF em Bicicleta Ergométrica Domyos",
+      "descricao": "R$ 500 OFF em Bicicleta Ergométrica Domyos",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=19296&awinaffid=3110826&ued=https%3A%2F%2Fwww.decathlon.com.br%2Fbicicleta-ergometrica-de-treino-eb-120-8680698-domyos%2Fp"
+    },
+    {
+      "id": "4189315",
+      "loja": "Decathlon BR",
+      "tipo": "promocao",
+      "titulo": "Kit Feminino de Corrida Short e Top Kiprun por R$ 200",
+      "descricao": "Kit Feminino de Corrida Short e Top Kiprun por R$ 200",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=19296&awinaffid=3110826&ued=https%3A%2F%2Fwww.decathlon.com.br%2Fkit-feminino-de-corrida-kiprun-marrom-top-short-mid-tight-5-bolsos-kit-mthqcejqomhw%2Fkit"
+    },
+    {
+      "id": "4189314",
+      "loja": "Decathlon BR",
+      "tipo": "promocao",
+      "titulo": "Grandes Marcas com até 50% OFF na Black Friday Decathlon",
+      "descricao": "Grandes Marcas com até 50% OFF na Black Friday Decathlon",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=19296&awinaffid=3110826&ued=https%3A%2F%2Fwww.decathlon.com.br%2Fcampanha%2Fblack-friday-decathlon%2Fgrandes-marcas"
+    },
+    {
+      "id": "4189311",
+      "loja": "Decathlon BR",
+      "tipo": "promocao",
+      "titulo": "Black Friday Decathlon: Produtos de Corrida com até 50% OFF",
+      "descricao": "Black Friday Decathlon: Produtos de Corrida com até 50% OFF",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=19296&awinaffid=3110826&ued=https%3A%2F%2Fwww.decathlon.com.br%2Fesportes%2Fcorrida%2Ftudo-para-corrida"
+    },
+    {
+      "id": "4189309",
+      "loja": "Decathlon BR",
+      "tipo": "promocao",
+      "titulo": "Black Friday Decathlon: Produtos de Trilha e Montanha com até 50% OFF",
+      "descricao": "Black Friday Decathlon: Produtos de Trilha e Montanha com até 50% OFF",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=19296&awinaffid=3110826&ued=https%3A%2F%2Fwww.decathlon.com.br%2Fesportes%2Fmontanha-camping-trilha%2Fequipamentos-e-acessorios"
+    },
+    {
+      "id": "4189307",
+      "loja": "Decathlon BR",
+      "tipo": "promocao",
+      "titulo": "Começou a Black Friday: Produtos com até 50% de Desconto",
+      "descricao": "Começou a Black Friday: Produtos com até 50% de Desconto",
+      "termos": ".",
+      "cupom": "",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=19296&awinaffid=3110826&ued=https%3A%2F%2Fwww.decathlon.com.br%2Fcampanha%2Fblack-friday-decathlon%2Ftodos-os-produtos"
     },
     {
       "id": "4189263",
@@ -2942,6 +3382,50 @@
       "link": "https://www.awin1.com/cread.php?awinmid=125582&awinaffid=3110826&ued=https%3A%2F%2Fwww.evas.com.br%2Fbrae-divine-plume-sensation-serum-reparador-capilar-60ml"
     },
     {
+      "id": "4189451",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "25% OFF em produtos selecionados Attack Shark",
+      "descricao": "25% OFF em produtos selecionados Attack Shark",
+      "termos": ".",
+      "cupom": "ATTACKSHARK25",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1ATTACKSHARK25"
+    },
+    {
+      "id": "4189423",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "11% OFF no produto participante da campanha DRAMOFF11",
+      "descricao": "11% OFF no produto participante da campanha DRAMOFF11",
+      "termos": ".",
+      "cupom": "DRAMOFF11",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F110765%2F"
+    },
+    {
+      "id": "4189407",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "12% OFF no Microfone Gamer Fifine Ampligame A9 RGB USB Condensador Cardioide Preto A9",
+      "descricao": "12% OFF no Microfone Gamer Fifine Ampligame A9 RGB USB Condensador Cardioide Preto A9",
+      "termos": ".",
+      "cupom": "MIC12OFF",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F592319%2Fmicrofone-gamer-fifine-ampligame-a9-rgb-usb-condensador-cardioide-preto-a9"
+    },
+    {
+      "id": "4189406",
+      "loja": "Kabum BR",
+      "tipo": "cupom",
+      "titulo": "15% OFF em produtos selecionados da campanha PCYES",
+      "descricao": "15% OFF em produtos selecionados da campanha PCYES",
+      "termos": ".",
+      "cupom": "PCYES15OFF",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1PCYES15OFF"
+    },
+    {
       "id": "4175532",
       "loja": "Kabum BR",
       "tipo": "cupom",
@@ -3072,6 +3556,28 @@
       "cupom": "100IMPRESSORA",
       "validade": "2026-12-01T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F699106%2Fmultifuncional-tanque-de-tinta-brother-dcp-t530dw-bivolt"
+    },
+    {
+      "id": "4189483",
+      "loja": "Mizuno BR",
+      "tipo": "cupom",
+      "titulo": "BLACK FRIDAY: Cupom de R$ 60 OFF",
+      "descricao": "BLACK FRIDAY: Cupom de R$ 60 OFF",
+      "termos": ".",
+      "cupom": "BLACK60",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=51271&awinaffid=3110826&ued=https%3A%2F%2Fwww.mizuno.com.br%2Fblack-friday-ofertas-incriveis"
+    },
+    {
+      "id": "4189480",
+      "loja": "Mizuno BR",
+      "tipo": "cupom",
+      "titulo": "BLACK FRIDAY: Cupom de R$ 100 OFF",
+      "descricao": "BLACK FRIDAY: Cupom de R$ 100 OFF",
+      "termos": ".",
+      "cupom": "BLACK100",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://www.awin1.com/cread.php?awinmid=51271&awinaffid=3110826&ued=https%3A%2F%2Fwww.mizuno.com.br%2Fblack-friday-cupons-100"
     },
     {
       "id": "4175937",
