@@ -74,6 +74,9 @@ jobs:
           path: ./docs
           name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
 
+      - name: Aguardar disponibilidade do artefato Pages
+        run: sleep 20
+
       - name: Publicar vitrine
         id: deployment
         uses: actions/deploy-pages@v4
