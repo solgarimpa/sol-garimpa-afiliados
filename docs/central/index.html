@@ -38,6 +38,9 @@ const FEED=BASE+'paginas_ofertas.json';
 const SHEIN='https://sol-garimpa-shein-cupons.contato-solgarimpa.workers.dev/api/cupons';
 const SHOPEE='https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Shopee';
 const DIRETORIO=BASE+'central/lojas-referencia.json';
+const ML_WORKER='https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Mercado%20Livre';
+const ML_FEED=BASE+'central/mercado-livre-cupons.json';
+const ML_LINK='https://www.mercadolivre.com.br/social/sa20260928144535570';
 const SHEIN_LINK='https://onelink.shein.com/58/66nnzcmvg0zu';
 const LOJAS=[
 {id:'todas',nome:'Todas'},
@@ -91,10 +94,12 @@ function desenhar(){
  $('pagina').textContent=pagina+' de '+max;$('voltar').disabled=pagina===1;$('avancar').disabled=pagina===max;desenharReferencia();
 }
 function menu(){const nav=$('menu');for(const l of LOJAS){const b=el('button',l.id===id?'sel':'',l.nome);b.type='button';b.addEventListener('click',()=>{const next=new URL(location.href);next.searchParams.set('loja',l.id);location.href=next.href});nav.append(b);}}
-function fallback(){const l=LOJAS.find(x=>x.id===id);if(id==='todas'||!l?.url)return;const area=$('vitrine');area.hidden=false;const label=el('span','',tipo==='cupons'?'Veja também os cupons da loja':'Explore a vitrine de produtos');const a=el('a','',l.nome==='SHEIN'?'Abrir vitrine SHEIN':'Ver página '+l.nome);a.href=l.url;a.target='_blank';a.rel='noopener noreferrer';area.replaceChildren(label,a);}
+function fallback(){const l=LOJAS.find(x=>x.id===id);if(id==='todas'||!l?.url)return;const area=$('vitrine');area.hidden=false;const label=el('span','',tipo==='cupons'?'Veja também os cupons da loja':'Explore a vitrine de produtos');const a=el('a','',l.nome==='SHEIN'?'Abrir vitrine SHEIN':'Ver página '+l.nome);a.href=id==='mercado-livre'?ML_LINK:l.url;a.target='_blank';a.rel='noopener noreferrer';area.replaceChildren(label,a);}
 async function json(url){const ctl=new AbortController();const tm=setTimeout(()=>ctl.abort(),14000);try{const r=await fetch(url,{cache:'no-store',signal:ctl.signal});if(!r.ok)throw Error('HTTP '+r.status);return await r.json()}finally{clearTimeout(tm)}}
 async function carregar(){
- const respostas=await Promise.allSettled([json(FEED),tipo==='cupons'?json(SHEIN):Promise.resolve({cupons:[]}),tipo==='cupons'&&id==='shopee'?json(SHOPEE):Promise.resolve(null)]);
+ const respostas=await Promise.allSettled([json(FEED),tipo==='cupons'?json(SHEIN):Promise.resolve({cupons:[]}),tipo==='cupons'&&id==='shopee'?json(SHOPEE):Promise.resolve(null),
+ tipo==='cupons'&&id==='mercado-livre'?json(ML_WORKER):Promise.resolve(null),
+ tipo==='cupons'&&id==='mercado-livre'?json(ML_FEED):Promise.resolve(null)]);
  let total=0, falhas=[];
  if(respostas[0].status==='fulfilled'){
   const data=respostas[0].value;
@@ -102,6 +107,7 @@ async function carregar(){
    for(const p of data.cards){if(!p||p.historico||!p.titulo||!seguro(p.link)||!valido(p.validade))continue;
     // A página de cupons Shopee tem fonte dedicada com data de publicação auditável.
     if(tipo==='cupons'&&id==='shopee'&&lojaId(p.loja)==='shopee')continue;
+    if(tipo==='cupons'&&id==='mercado-livre'&&lojaId(p.loja)==='mercado-livre')continue;
     if(tipo==='cupons'&&!(p.tipo==='cupom'&&p.cupom))continue;
     if(tipo==='achadinhos'&&p.tipo!=='produto'&&p.tipo!=='promocao')continue;
     itens.push({idLoja:lojaId(p.loja),loja:p.loja,titulo:p.titulo,descricao:p.descricao||'',cupom:tipo==='cupons'?p.cupom:'',imagem:p.imagem,preco:p.preco,validade:p.validade,link:p.link,rede:p.rede});total++;
@@ -147,13 +153,36 @@ async function carregar(){
    }
   }else falhas.push('fonte Shopee indisponível');
  }
+ // Mercado Livre: fonte em tempo real e JSON dedicado como contingência.
+ if(tipo==='cupons'&&id==='mercado-livre'){
+  const worker=respostas[3].status==='fulfilled'?respostas[3].value:null;
+  const backup=respostas[4].status==='fulfilled'?respostas[4].value:null;
+  const dados=worker?.data?.stores?worker.data:worker;
+  const cupons=Array.isArray(dados?.stores)?dados.stores.flatMap(x=>Array.isArray(x?.coupons)?x.coupons:[]):Array.isArray(dados?.coupons)?dados.coupons:[];
+  function mlAdicionar(c,origem){
+   const codigo=String(c?.couponCode||'').trim(),titulo=String(c?.title||'').trim();
+   const publicado=c?.createdAt||c?.publishedAt||null;
+   const ate=c?.expiresAt||c?.expirationDate||c?.validUntil||null;
+   const data=Date.parse(publicado||'');
+   if(!codigo||!titulo||!valido(ate)||!Number.isFinite(data)||data>Date.now()+300000||Date.now()-data>7*86400000)return;
+   itens.push({idLoja:'mercado-livre',loja:'Mercado Livre',titulo:titulo.slice(0,190),descricao:String(c.rulesDescription||c.description||'Consulte as condições no Mercado Livre.').trim().slice(0,270),cupom:codigo.slice(0,80),validade:ate,link:ML_LINK,rede:origem,publicadoEm:publicado});
+  }
+  for(const c of cupons)if(c?.status==='active')mlAdicionar(c,'Cupom público · conferir no carrinho');
+  if(!itens.some(c=>c.idLoja==='mercado-livre')){
+   for(const c of (Array.isArray(backup?.coupons)?backup.coupons:[])){
+    if(c?.status==='listed'&&Date.now()-Date.parse(c.publishedAt||'')<=48*3600000)mlAdicionar(c,'Última sincronização · conferir no carrinho');
+   }
+   if(itens.some(c=>c.idLoja==='mercado-livre'))falhas.push('exibindo última sincronização disponível');
+   else falhas.push('fonte Mercado Livre temporariamente indisponível ou sem códigos recentes');
+  }
+ }
  const visto=new Set();itens=itens.filter(c=>{
-  const identificador=c.idLoja==='shopee'?(c.cupom||c.titulo):(c.cupom||c.link);
+  const identificador=['shopee','mercado-livre'].includes(c.idLoja)?(c.cupom||c.titulo):(c.cupom||c.link);
   const k=norm(c.loja)+'|'+norm(identificador);
   if(visto.has(k))return false;visto.add(k);return true;
  });
  itens.sort((a,b)=>{
-  if(tipo==='cupons'&&id==='shopee')return (Date.parse(b.publicadoEm||'')||0)-(Date.parse(a.publicadoEm||'')||0);
+  if(tipo==='cupons'&&['shopee','mercado-livre'].includes(id))return (Date.parse(b.publicadoEm||'')||0)-(Date.parse(a.publicadoEm||'')||0);
   return a.loja.localeCompare(b.loja,'pt-BR');
  });
  const lojas=[...new Set(itens.filter(x=>serveLoja(x)).map(x=>x.loja))].sort((a,b)=>a.localeCompare(b,'pt-BR'));
