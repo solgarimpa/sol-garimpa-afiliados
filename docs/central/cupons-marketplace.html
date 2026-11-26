@@ -175,6 +175,46 @@ function desenhar(){
     paginacao.append(anterior,marcador,proximo);
   }else paginacao.style.display="none";
 }
+// Mercado Livre: se o catálogo GitHub atrasar, consultar diretamente a fonte
+// existente. Nunca atualizar a data de um catálogo antigo artificialmente.
+async function mercadoLivreAoVivo(){
+  if(escolhido!=="mercado-livre")return false;
+  try{
+    const url="https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Mercado%20Livre";
+    const ctl=new AbortController(),timer=setTimeout(()=>ctl.abort(),12000);
+    let bruto;
+    try{
+      const r=await fetch(url+"&v="+Date.now(),{cache:"no-store",signal:ctl.signal});
+      if(!r.ok)throw Error("HTTP "+r.status);
+      bruto=await r.json();
+    }finally{clearTimeout(timer)}
+    function linhas(v,d=0){
+      if(!v||d>7)return [];
+      if(Array.isArray(v))return v.flatMap(x=>linhas(x,d+1));
+      if(typeof v!=="object")return [];
+      if(typeof v.title==="string"&&("couponCode" in v||"solGarimpaSource" in v))return [v];
+      return ["data","stores","coupons","cupons","items","result","results","offers","vouchers"].flatMap(k=>linhas(v[k],d+1));
+    }
+    const agora=Date.now(),vistos=new Set(),lista=[];
+    for(const c of linhas(bruto)){
+      const publicada=Date.parse(c.createdAt||c.publishedAt||"");
+      if(!["active","ativo","listed"].includes(norm(c.status||"active"))||!norm(c.solGarimpaSource).includes("pelando")||!Number.isFinite(publicada)||publicada>agora+300000||agora-publicada>86400000)continue;
+      const codigo=txt(c.couponCode||c.code).toUpperCase();
+      if(!/^[A-Z0-9_-]{4,50}$/.test(codigo)||["CUPOM","CUPOMAQUI","CUPOMNOLINK","OFERTANOLINK","COPIAR","VERCUPOM","GANHECUPOM","PEGARCUPOM","CUPOMAUTOMATICO","PROMONOLINK","PEGUEAQUI","CONFIRANOLINK","GANHEAQUI","ATIVEAPROMO","APROVEITEAQUI","DESCONTOJAATIVO","CLIQUEEGANHE"].includes(codigo))continue;
+      const title=txt(c.title),expiresAt=c.expiresAt||c.expirationDate||c.validUntil||c.endDate||null;
+      if(!title||indisponivel({title})||!aindaValido({expiresAt})||vistos.has(codigo))continue;
+      vistos.add(codigo);
+      const percentual=title.match(/\d+(?:[.,]\d+)?\s*%/),reais=title.match(/R\$\s*[\d.,]+/i);
+      lista.push({title,couponCode:codigo,discountText:percentual?percentual[0]+" OFF":reais?reais[0]+" OFF":"OFERTA",description:txt(c.rulesDescription||c.description)||"Consulte as condições na loja.",expiresAt,status:"listed",publishedAt:publicada});
+    }
+    if(!lista.length)return false;
+    todos=lista.sort((a,b)=>b.publishedAt-a.publishedAt);
+    el("data").textContent="Consulta direta realizada: "+fmt.format(new Date());
+    el("fontes").textContent="Cupons recentes divulgados publicamente, não validados no carrinho. Confira as condições e a disponibilidade no Mercado Livre.";
+    desenhar();
+    return true;
+  }catch(e){return false}
+}
 async function atualizar(){
   try{
     const resposta=await fetch(JSON_URL+"?v="+Date.now(),{cache:"no-store"});
@@ -185,6 +225,7 @@ async function atualizar(){
     if(!Number.isFinite(data.getTime()))throw new Error("Data do catálogo inválida");
     const idade=Date.now()-data.getTime();
     if(idade>IDADE_MAXIMA_MS||idade< -5*60*1000){
+      if(await mercadoLivreAoVivo())return;
       todos=[];
       el("data").textContent="Catálogo desatualizado · última coleta: "+fmt.format(data);
       el("fontes").textContent="Sem coleta recente. Não exibimos cupons antigos como se estivessem atualizados.";
@@ -196,6 +237,7 @@ async function atualizar(){
     el("fontes").textContent="Cupons divulgados publicamente. Podem se esgotar antes da próxima atualização. Confira as condições na "+atual.nome+".";
     desenhar();
   }catch(e){
+    if(await mercadoLivreAoVivo())return;
     todos=[];el("data").textContent="A atualização automática está indisponível";
     el("fontes").textContent="A fonte de dados não respondeu. Nenhum código antigo será apresentado como atualizado.";
     desenhar();
