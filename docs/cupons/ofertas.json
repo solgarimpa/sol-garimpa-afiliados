@@ -1,31 +1,9 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-26T12:47:09.288836Z",
-  "total": 201,
+  "atualizado_em": "2026-11-26T21:08:53.487190Z",
+  "total": 199,
   "ofertas": [
-    {
-      "id": "4189466",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "7% OFF em produtos selecionados da campanha BLACKX3D",
-      "descricao": "7% OFF em produtos selecionados da campanha BLACKX3D",
-      "termos": ".",
-      "cupom": "BLACKX3D",
-      "validade": "2026-11-26T13:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1BLACKX3D"
-    },
-    {
-      "id": "4189449",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "12% OFF em produtos selecionados da campanha Tela Ninja",
-      "descricao": "12% OFF em produtos selecionados da campanha Tela Ninja",
-      "termos": ".",
-      "cupom": "TELANINJA12",
-      "validade": "2026-11-26T13:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1TELANINJA12"
-    },
     {
       "id": "4189419",
       "loja": "Kabum BR",
