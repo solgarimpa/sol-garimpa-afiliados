@@ -1,6 +1,6 @@
 {
   "fonte": "Lomadee",
-  "atualizado_em": "2026-11-25T21:47:24+00:00",
+  "atualizado_em": "2026-11-26T04:12:03+00:00",
   "parceiros": [
     {
       "id": "0527fd20-994b-4839-b255-341c59d25127",
@@ -835,20 +835,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-b28a0aff99ef48e6c71b",
-      "loja": "ECO FLAME GARDEN",
-      "tipo": "promocao",
-      "titulo": "Black November: Todo o site com até 68% OFF",
-      "imagem": "https://cdn.lomadee.com.br/offer/43ff01d0-cfc4-4e3f-92fd-82fb06db7d1b/banners/1%20GOOGLE%20BANNER%20-%20ECO%20Black%20November.png",
-      "link": "https://lmdee.link/xTVeMEtr6pcU",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-26T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-370a3ec95fdd57a421e0",
       "loja": "eles.®",
       "tipo": "promocao",
@@ -919,16 +905,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-aececb702863515c5d47",
+      "id": "lc-4b9b960efb57990bdbfe",
       "loja": "Gazin",
-      "tipo": "promocao",
-      "titulo": "Esquenta Black Friday Gazin!! Aproveite as melhores ofertas do mercado",
-      "imagem": "https://cdn.lomadee.com.br/offer/d3e77253-472a-4ea3-9fff-43766ab891c1/banners/Smartphones.png",
-      "link": "https://lmdee.link/M3Rq5aKARRmI",
+      "tipo": "cupom",
+      "titulo": "Cupom Exclusivo da Madrugada",
+      "imagem": "",
+      "link": "https://lmdee.link/Z4rY1OICWAUD",
       "preco": null,
       "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-28T02:30:00.000Z",
+      "cupom": "MADRUGADA",
+      "validade": "2026-11-26T09:00:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -985,20 +971,6 @@
       "preco_anterior": null,
       "cupom": "BLACKLOMADEE10",
       "validade": "2026-12-02T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-586c8344a9ac616d8093",
-      "loja": "LITTLE DUCK",
-      "tipo": "promocao",
-      "titulo": "Black dos Sonhos",
-      "imagem": "https://cdn.lomadee.com.br/offer/9a90974f-c1a1-4bac-a25a-cd31461e5d3f/banners/1%20LD_BLACK_HORIZONTAL.png",
-      "link": "https://lmdee.link/c9XUIHjblpax",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-26T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1115,16 +1087,16 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-e8254c229e9c1ab05bb4",
+      "id": "lc-5bdad806948c557408d7",
       "loja": "Multimóveis",
       "tipo": "promocao",
-      "titulo": "Multimóveis - É Black, É Multi",
-      "imagem": "https://cdn.lomadee.com.br/offer/028032f2-88b7-4ff1-961e-dbc9290da05b/banners/Image%20%2839%29.jpg",
-      "link": "https://lmdee.link/5X4vIne0bWry",
+      "titulo": "É Black, É Multi - Cozinha Milano Vanilla",
+      "imagem": "https://cdn.lomadee.com.br/offer/4f1a8fd3-6e7c-4410-8a34-73bee36f8b79/banners/Image%20%2840%29.jpg",
+      "link": "https://lmdee.link/4XI9vpkd6skL",
       "preco": null,
       "preco_anterior": null,
       "cupom": null,
-      "validade": "2026-11-26T02:30:00.000Z",
+      "validade": "2026-11-27T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1311,20 +1283,6 @@
       "origem": "Lomadee"
     },
     {
-      "id": "lc-e958ebfff6ed294a228a",
-      "loja": "Sofá na Caixa",
-      "tipo": "promocao",
-      "titulo": "Black November",
-      "imagem": "https://cdn.lomadee.com.br/offer/489e23dd-7ab6-4420-97ce-d73b52e61ee0/banners/SNC_BLACK%20NOVEMBER_FEED%201.png",
-      "link": "https://lmdee.link/MI2jwKvFSzTv",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-26T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
       "id": "lc-8044644cf4d8102344c3",
       "loja": "Soulier",
       "tipo": "promocao",
@@ -1391,20 +1349,6 @@
       "preco_anterior": null,
       "cupom": "BLACK2",
       "validade": "2026-12-01T02:30:00.000Z",
-      "descricao": "",
-      "origem": "Lomadee"
-    },
-    {
-      "id": "lc-7307a0bff6b876a326d7",
-      "loja": "Vinícola Jolimont",
-      "tipo": "promocao",
-      "titulo": "BLACK JOLIMONT",
-      "imagem": "https://cdn.lomadee.com.br/offer/d8b86539-a13f-4e48-a36a-e287bf659c8e/banners/Lomadee%201.png",
-      "link": "https://lmdee.link/AVBgiiFLyKRO",
-      "preco": null,
-      "preco_anterior": null,
-      "cupom": null,
-      "validade": "2026-11-26T02:30:00.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
@@ -1630,6 +1574,20 @@
       "cupom": null,
       "validade": null,
       "descricao": "Ar Condicionado Split Inverter Philco 12000 BTUs Frio 220V PAC12FC – Eficiência, conforto e sustentabilidade   O   Ar Condicionado Split Inverter   Philco 12000 BTUs Frio 220V PAC12FC combina tecnologia Eco Inverter, alt",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-aececb702863515c5d47",
+      "loja": "Gazin",
+      "tipo": "promocao",
+      "titulo": "Esquenta Black Friday Gazin!! Aproveite as melhores ofertas do mercado",
+      "imagem": "https://cdn.lomadee.com.br/offer/d3e77253-472a-4ea3-9fff-43766ab891c1/banners/Smartphones.png",
+      "link": "https://lmdee.link/M3Rq5aKARRmI",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": null,
+      "validade": "2026-11-28T02:30:00.000Z",
+      "descricao": "",
       "origem": "Lomadee"
     },
     {
@@ -2039,6 +1997,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-9bf7f751e97a1685d857",
+      "loja": "Brinox",
+      "tipo": "cupom",
+      "titulo": "Cupom de R$ 30,00 de desconto",
+      "imagem": "",
+      "link": "https://lmdee.link/ZRRmk8yWNuhM",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "BF30",
+      "validade": "2026-12-21T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lp-ba0ef6e5adc41c889889",
       "loja": "Friopeças",
       "tipo": "produto",
@@ -2109,6 +2081,20 @@
       "origem": "Lomadee"
     },
     {
+      "id": "lc-57489fdbdbf12c83d0b3",
+      "loja": "Brinox",
+      "tipo": "cupom",
+      "titulo": "Cupom de R$ 25,00 de desconto",
+      "imagem": "",
+      "link": "https://lmdee.link/GqRkhjRYPgqQ",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "BF25",
+      "validade": "2026-12-21T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
       "id": "lp-9254cb54cff36cda6a49",
       "loja": "Friopeças",
       "tipo": "produto",
@@ -2175,6 +2161,20 @@
       "preco_anterior": null,
       "cupom": null,
       "validade": "2026-12-01T02:30:00.000Z",
+      "descricao": "",
+      "origem": "Lomadee"
+    },
+    {
+      "id": "lc-fdf5d392c0b511cc39c6",
+      "loja": "Brinox",
+      "tipo": "cupom",
+      "titulo": "Cupom de R$ 15,00 de desconto",
+      "imagem": "",
+      "link": "https://lmdee.link/dmjDKSrBDuLU",
+      "preco": null,
+      "preco_anterior": null,
+      "cupom": "BF15",
+      "validade": "2026-12-21T02:59:59.000Z",
       "descricao": "",
       "origem": "Lomadee"
     },
