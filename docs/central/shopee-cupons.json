@@ -1,7 +1,7 @@
 {
   "market": "shopee",
   "name": "Shopee",
-  "generatedAt": "2026-11-27T15:07:33+00:00",
+  "generatedAt": "2026-11-27T17:30:15+00:00",
   "refreshMinutes": 30,
   "count": 43,
   "sources": {
@@ -22,63 +22,63 @@
   "note": "Cupons divulgados, nao validados no carrinho. Ofertas da Amazon com link especifico sao cadastradas manualmente ate autorizacao da API oficial.",
   "coupons": [
     {
-      "title": "Cupom Shopee R$ 10 Acima de R$ 40",
-      "couponCode": "RAKUTENBF10PB",
+      "title": "Cupom Shopee oferece R$ 10 OFF em R$ 40",
+      "couponCode": "LATAMBF10PB",
       "discountText": "R$ 10 OFF",
-      "description": "Cupom Shopee R$ 10 Acima de R$ 40",
-      "sources": [],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Shopee",
-      "publishedAt": "2026-11-27T14:27:33.812Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Shopee oferece R$ 5 OFF em R$ 25",
-      "couponCode": "5D3D3SC0NT0",
-      "discountText": "R$ 5 OFF",
       "description": "Consulte as regras e a validade do cupom diretamente na loja.",
       "sources": [],
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Shopee",
-      "publishedAt": "2026-11-27T14:00:30.686Z",
+      "publishedAt": "2026-11-27T17:14:33.691Z",
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom R$ 10 em compras acima de R$ 40",
-      "couponCode": "CORREIOSPB",
-      "discountText": "R$ 10 OFF",
-      "description": "Ganhe R$10,00 de desconto em compras a partir de R$40,00",
-      "sources": [],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Shopee",
-      "publishedAt": "2026-11-27T13:57:11.870Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "Cupom Shopee oferece R$ 15 OFF em R$ 75",
-      "couponCode": "4ND4RN0V",
-      "discountText": "R$ 15 OFF",
-      "description": "Consulte as regras e a validade do cupom diretamente na loja.",
-      "sources": [],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Shopee",
-      "publishedAt": "2026-11-27T12:49:54.617Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
       "title": "Cupom Shopee oferece R$ 10 OFF em R$ 40",
-      "couponCode": "MELHORESDESCONTOSPB",
+      "couponCode": "ESFERABF10PB",
       "discountText": "R$ 10 OFF",
       "description": "Consulte as regras e a validade do cupom diretamente na loja.",
       "sources": [],
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Shopee",
-      "publishedAt": "2026-11-27T12:43:13.879Z",
+      "publishedAt": "2026-11-27T17:11:25.469Z",
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom Shopee oferece R$ 10 OFF em R$ 40",
+      "couponCode": "CUPONOMIABF10PB",
+      "discountText": "R$ 10 OFF",
+      "description": "Consulte as regras e a validade do cupom diretamente na loja.",
+      "sources": [],
+      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Shopee",
+      "publishedAt": "2026-11-27T17:01:46.388Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-27T17:30:15+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom Shopee oferece R$ 10 OFF em R$ 40",
+      "couponCode": "INTERBF10PB",
+      "discountText": "R$ 10 OFF",
+      "description": "Consulte as regras e a validade do cupom diretamente na loja.",
+      "sources": [],
+      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Shopee",
+      "publishedAt": "2026-11-27T16:58:54.270Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-27T17:30:15+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom Shopee oferece R$ 70 OFF em R$ 350",
+      "couponCode": "C4RR1NH070",
+      "discountText": "R$ 70 OFF",
+      "description": "Consulte as regras e a validade do cupom diretamente na loja.",
+      "sources": [],
+      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=Shopee",
+      "publishedAt": "2026-11-27T16:00:56.543Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -90,7 +90,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -102,7 +102,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -114,7 +114,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -126,7 +126,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -138,7 +138,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -150,7 +150,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -162,7 +162,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -174,7 +174,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -186,7 +186,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -198,7 +198,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -210,7 +210,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -222,7 +222,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -234,7 +234,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -246,7 +246,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -258,7 +258,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -270,7 +270,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -282,7 +282,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -294,7 +294,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -306,7 +306,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -318,7 +318,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -330,7 +330,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -342,7 +342,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -354,7 +354,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -366,7 +366,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -378,7 +378,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -390,7 +390,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -402,7 +402,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -414,7 +414,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -426,7 +426,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -438,7 +438,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -450,7 +450,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -462,7 +462,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -474,7 +474,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -486,7 +486,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -498,7 +498,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -510,7 +510,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -522,7 +522,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     },
     {
@@ -534,7 +534,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-shopee",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T15:07:33+00:00",
+      "observedAt": "2026-11-27T17:30:15+00:00",
       "status": "listed"
     }
   ]
