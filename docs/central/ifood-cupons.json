@@ -1,9 +1,9 @@
 {
   "market": "ifood",
   "name": "iFood",
-  "generatedAt": "2026-11-27T17:30:15+00:00",
+  "generatedAt": "2026-11-27T22:33:42+00:00",
   "refreshMinutes": 30,
-  "count": 43,
+  "count": 46,
   "sources": {
     "Cuponomia": {
       "ok": false,
@@ -16,15 +16,39 @@
     },
     "Seletronic": {
       "ok": true,
-      "quantidade": 2
+      "quantidade": 5
     },
     "WorkerExistente": {
       "ok": true,
-      "quantidade": 4
+      "quantidade": 6
     }
   },
   "note": "Cupons divulgados, nao validados no carrinho. Ofertas da Amazon com link especifico sao cadastradas manualmente ate autorizacao da API oficial.",
   "coupons": [
+    {
+      "title": "Cupom iFood oferece R$ 20 OFF em R$ 70 em Farmácias",
+      "couponCode": "BLACKRANGEL",
+      "discountText": "R$ 20 OFF",
+      "description": "Confira a elegibilidade do código diretamente no iFood",
+      "sources": [],
+      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=iFood",
+      "publishedAt": "2026-11-27T21:14:07.738Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-27T22:33:42+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom iFood oferece R$ 20 OFF em R$ 70 em Bebidas",
+      "couponCode": "BLACKNAY",
+      "discountText": "R$ 20 OFF",
+      "description": "Confira a elegibilidade do código diretamente no iFood",
+      "sources": [],
+      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=iFood",
+      "publishedAt": "2026-11-27T21:12:31.724Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-27T22:33:42+00:00",
+      "status": "listed"
+    },
     {
       "title": "Black Friday com R$25 OFF no cupom iFood",
       "couponCode": "GANHE25",
@@ -34,43 +58,55 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
-      "title": "Cupom iFood oferece R$ 30 OFF em R$ 100 em Pet Shop",
-      "couponCode": "BLACKPET",
-      "discountText": "R$ 30 OFF",
-      "description": "válido em pet shops",
+      "title": "Cupom iFood oferece R$ 35 OFF Sem Mínimo na Pague Menos!",
+      "couponCode": "PGM35OFF",
+      "discountText": "R$ 35 OFF",
+      "description": "Cupom iFood oferece R$ 35 OFF Sem Mínimo na Pague Menos!",
       "sources": [],
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=iFood",
-      "publishedAt": "2026-11-27T14:20:40.213Z",
+      "publishedAt": "2026-11-27T22:33:07.154Z",
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
-      "title": "Cupom iFood oferece R$ 30 OFF em R$ 100 em Shopping",
-      "couponCode": "SHOPPINGBF",
-      "discountText": "R$ 30 OFF",
-      "description": "válido em produtos shopping",
+      "title": "Cupom iFood oferece R$ 20 OFF em R$ 70 em Mercados",
+      "couponCode": "BLACKTHEO",
+      "discountText": "R$ 20 OFF",
+      "description": "Válido em mercados",
       "sources": [],
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=iFood",
-      "publishedAt": "2026-11-27T14:19:19.497Z",
+      "publishedAt": "2026-11-27T21:13:10.075Z",
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
-      "title": "Cupom iFood oferece R$ 20 OFF Sem Mínimo em Mercados",
-      "couponCode": "BFGONDOLA",
+      "title": "Cupom iFood oferece R$ 12 OFF em R$ 27",
+      "couponCode": "TUDOBLACK",
+      "discountText": "R$ 12 OFF",
+      "description": "válido em lojas de todos os tipos",
+      "sources": [],
+      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=iFood",
+      "publishedAt": "2026-11-27T18:31:22.116Z",
+      "expiresAt": null,
+      "observedAt": "2026-11-27T22:33:42+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "Cupom iFood oferece R$ 20 OFF em Mercados",
+      "couponCode": "HOJETEMBF",
       "discountText": "R$ 20 OFF",
       "description": "válido em mercados",
       "sources": [],
       "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=iFood",
-      "publishedAt": "2026-11-26T18:00:48.799Z",
+      "publishedAt": "2026-11-27T18:00:43.724Z",
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -82,7 +118,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -94,7 +130,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -106,7 +142,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -118,7 +154,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -130,7 +166,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -142,7 +178,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -154,7 +190,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -166,7 +202,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -178,7 +214,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -190,7 +226,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -202,7 +238,7 @@
       "sourceUrl": "https://ofertas.seletronic.com.br/loja/ifood/cupons/",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -214,7 +250,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -226,7 +262,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -238,7 +274,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -250,7 +286,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -262,7 +298,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -274,7 +310,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -286,7 +322,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -298,7 +334,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -310,7 +346,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -322,7 +358,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -334,7 +370,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -346,7 +382,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -358,7 +394,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -370,7 +406,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -382,7 +418,19 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
+      "status": "listed"
+    },
+    {
+      "title": "R$30 OFF no iFood em Drogasil",
+      "couponCode": "RD30OFF",
+      "discountText": "R$ 30 OFF",
+      "description": "Confira a elegibilidade do código diretamente no iFood",
+      "sources": [],
+      "sourceUrl": "https://ofertas.seletronic.com.br/loja/ifood/cupons/",
+      "publishedAt": null,
+      "expiresAt": null,
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -394,19 +442,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
-      "status": "listed"
-    },
-    {
-      "title": "(Regional) Todos os Azeites com 80% OFF na Segunda Unidade no Carrefour",
-      "couponCode": "",
-      "discountText": "80% OFF",
-      "description": "selecione qualquer carrefour",
-      "sources": [],
-      "sourceUrl": "https://sol-garimpa-cupons.contato-solgarimpa.workers.dev/?loja=iFood",
-      "publishedAt": "2026-11-27T03:45:39.545Z",
-      "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -418,7 +454,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -430,7 +466,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -442,7 +478,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -454,7 +490,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -466,7 +502,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -478,7 +514,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -490,7 +526,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -502,7 +538,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -514,7 +550,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -526,7 +562,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     },
     {
@@ -538,7 +574,7 @@
       "sourceUrl": "https://www.meliuz.com.br/desconto/cupom-ifood",
       "publishedAt": null,
       "expiresAt": null,
-      "observedAt": "2026-11-27T17:30:15+00:00",
+      "observedAt": "2026-11-27T22:33:42+00:00",
       "status": "listed"
     }
   ]
