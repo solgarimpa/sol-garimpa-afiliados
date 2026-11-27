@@ -1,53 +1,9 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-26T21:59:03.476459Z",
-  "total": 199,
+  "atualizado_em": "2026-11-27T04:18:21.561526Z",
+  "total": 195,
   "ofertas": [
-    {
-      "id": "4189419",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "5% OFF no Headset Sem Fio Pulse EL",
-      "descricao": "5% OFF no Headset Sem Fio Pulse EL",
-      "termos": ".",
-      "cupom": "PULSE5OFF",
-      "validade": "2026-11-27T01:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1008206%2Fheadset-sem-fio-pulse-el"
-    },
-    {
-      "id": "4189292",
-      "loja": "Eotica BR",
-      "tipo": "promocao",
-      "titulo": "Armação + Lente com 40% OFF + 5% OFF no Pix",
-      "descricao": "Armação + Lente com 40% OFF + 5% OFF no Pix",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-27T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17854&awinaffid=3110826&ued=https%3A%2F%2Fwww.eotica.com.br%2Foculos%2Foculos-de-grau%3Forder%3D"
-    },
-    {
-      "id": "4189290",
-      "loja": "Eotica BR",
-      "tipo": "promocao",
-      "titulo": "50% OFF em itens selecionados + Site Todo com 20% OFF + 5% OFF no Pix",
-      "descricao": "50% OFF em itens selecionados + Site Todo com 20% OFF + 5% OFF no Pix",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-27T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17854&awinaffid=3110826&ued=https%3A%2F%2Fwww.eotica.com.br%2Foculos%3F_q%3Doculos%26map%3Dft%26order%3DOrderByBestDiscountDESC"
-    },
-    {
-      "id": "4189236",
-      "loja": "Eotica BR",
-      "tipo": "cupom",
-      "titulo": "10% OFF em lentes Kodak",
-      "descricao": "10% OFF em lentes Kodak",
-      "termos": ".",
-      "cupom": "KODAK10",
-      "validade": "2026-11-27T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17854&awinaffid=3110826&ued=https%3A%2F%2Fwww.eotica.com.br%2Foculos%2Foculos-de-grau%3Forder%3D"
-    },
     {
       "id": "4189439",
       "loja": "Kabum BR",

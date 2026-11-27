@@ -1,11 +1,11 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-26T21:59:05.002384Z",
-  "total": 311,
-  "total_cupons": 144,
-  "total_promocoes": 167,
+  "atualizado_em": "2026-11-27T04:18:22.721970Z",
+  "total": 307,
+  "total_cupons": 142,
+  "total_promocoes": 165,
   "fontes": {
-    "Awin": 199,
+    "Awin": 195,
     "Rakuten": 112,
     "Lomadee": "desatualizada"
   },
@@ -683,18 +683,6 @@
       "rede": "Awin"
     },
     {
-      "id": "9cf580a21bb114d5ad",
-      "loja": "Eotica BR",
-      "tipo": "cupom",
-      "titulo": "10% OFF em lentes Kodak",
-      "descricao": "10% OFF em lentes Kodak",
-      "termos": ".",
-      "cupom": "KODAK10",
-      "validade": "2026-11-27T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17854&awinaffid=3110826&ued=https%3A%2F%2Fwww.eotica.com.br%2Foculos%2Foculos-de-grau%3Forder%3D",
-      "rede": "Awin"
-    },
-    {
       "id": "cdeff649f429655f3f",
       "loja": "Eurorelogios BR",
       "tipo": "cupom",
@@ -1088,18 +1076,6 @@
       "cupom": "MULTI5OFF",
       "validade": "2026-11-30T13:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F996897%2Fmultifuncional-epson-ecotank-l4360-c11cl41302",
-      "rede": "Awin"
-    },
-    {
-      "id": "acee7a111895802373",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "5% OFF no Headset Sem Fio Pulse EL",
-      "descricao": "5% OFF no Headset Sem Fio Pulse EL",
-      "termos": ".",
-      "cupom": "PULSE5OFF",
-      "validade": "2026-11-27T01:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1008206%2Fheadset-sem-fio-pulse-el",
       "rede": "Awin"
     },
     {
@@ -1567,7 +1543,7 @@
       "termos": "",
       "cupom": "BEMVINDO10",
       "validade": "2029-06-21T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=951620.1097&type=3&subid=0",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1822618.1097&type=3&subid=0",
       "rede": "Rakuten"
     },
     {
@@ -1790,12 +1766,12 @@
       "id": "6d0d36bdf904a0f998",
       "loja": "ASUS BR",
       "tipo": "promocao",
-      "titulo": "Aproveite até 60% de desconto nos melhores notebooks e notebooks gamers!",
-      "descricao": "Material oficial divulgado pela loja parceira. Consulte as condicoes na loja.",
+      "titulo": "Aproveite Até 60% De Desconto Nos Melhores Notebooks E Notebooks Gamers!",
+      "descricao": "",
       "termos": "",
       "cupom": "",
-      "validade": "2031-12-03T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1940053.7&type=3",
+      "validade": "2031-12-03T02:00:00Z",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1940053.7&type=3&subid=0",
       "rede": "Rakuten"
     },
     {
@@ -2132,30 +2108,6 @@
       "cupom": "",
       "validade": "2026-12-01T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=19296&awinaffid=3110826&ued=https%3A%2F%2Fwww.decathlon.com.br%2Fesportes%2Fcorrida%2Ftodos-os-produtos",
-      "rede": "Awin"
-    },
-    {
-      "id": "b97832b0b365656d79",
-      "loja": "Eotica BR",
-      "tipo": "promocao",
-      "titulo": "50% OFF em itens selecionados + Site Todo com 20% OFF + 5% OFF no Pix",
-      "descricao": "50% OFF em itens selecionados + Site Todo com 20% OFF + 5% OFF no Pix",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-27T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17854&awinaffid=3110826&ued=https%3A%2F%2Fwww.eotica.com.br%2Foculos%3F_q%3Doculos%26map%3Dft%26order%3DOrderByBestDiscountDESC",
-      "rede": "Awin"
-    },
-    {
-      "id": "ba5873b605c417d88f",
-      "loja": "Eotica BR",
-      "tipo": "promocao",
-      "titulo": "Armação + Lente com 40% OFF + 5% OFF no Pix",
-      "descricao": "Armação + Lente com 40% OFF + 5% OFF no Pix",
-      "termos": ".",
-      "cupom": "",
-      "validade": "2026-11-27T02:59:59Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17854&awinaffid=3110826&ued=https%3A%2F%2Fwww.eotica.com.br%2Foculos%2Foculos-de-grau%3Forder%3D",
       "rede": "Awin"
     },
     {
@@ -3091,7 +3043,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-06-23T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2065106.3&type=4",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2065106.4&type=4",
       "rede": "Rakuten"
     },
     {
@@ -3283,7 +3235,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2030-11-07T23:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=951620.2224&type=3&subid=0",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1822618.2224&type=3&subid=0",
       "rede": "Rakuten"
     },
     {
@@ -3295,7 +3247,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2030-11-07T23:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=951620.2223&type=3&subid=0",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1822618.2223&type=3&subid=0",
       "rede": "Rakuten"
     },
     {
@@ -3475,7 +3427,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-04-08T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.363&type=4",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2043350.373&type=4",
       "rede": "Rakuten"
     },
     {
