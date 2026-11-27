@@ -1,13 +1,13 @@
 {
   "titulo": "Os melhores cupons de Desconto atualizados",
-  "atualizado_em": "2026-11-27T14:26:37.634737Z",
-  "total": 308,
-  "total_cupons": 143,
+  "atualizado_em": "2026-11-27T17:31:13.210122Z",
+  "total": 320,
+  "total_cupons": 155,
   "total_promocoes": 165,
   "fontes": {
-    "Awin": 195,
+    "Awin": 192,
     "Rakuten": 113,
-    "Lomadee": "desatualizada"
+    "Lomadee": 15
   },
   "ofertas": [
     {
@@ -23,6 +23,30 @@
       "rede": "Awin"
     },
     {
+      "id": "3087181d05808d7ae4",
+      "loja": "Autoamerica Store",
+      "tipo": "cupom",
+      "titulo": "Lançamento FOG FREE 10%OFF",
+      "descricao": "",
+      "termos": "",
+      "cupom": "FOG10",
+      "validade": "2027-01-01T02:30:00Z",
+      "link": "https://lmdee.link/k09qDyTHAOyy",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "fda8d28c2bd0304388",
+      "loja": "BALAROTI",
+      "tipo": "cupom",
+      "titulo": "Black Balaroti",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BlackBalaroti",
+      "validade": "2026-12-01T02:30:00Z",
+      "link": "https://lmdee.link/VxXHnjRMxY5E",
+      "rede": "Lomadee"
+    },
+    {
       "id": "25c8608776b2a8194f",
       "loja": "Beleza Na Web",
       "tipo": "cupom",
@@ -33,6 +57,18 @@
       "validade": "2030-01-18T01:00:00Z",
       "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1345283.2786&type=3&subid=0",
       "rede": "Rakuten"
+    },
+    {
+      "id": "6eb3d38baa0b5f6569",
+      "loja": "BioVittare Farmácia de Manipulação",
+      "tipo": "cupom",
+      "titulo": "Cupom Black com 15% de desconto",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK15",
+      "validade": "2026-11-30T02:30:00Z",
+      "link": "https://lmdee.link/U90H1Wx0K6Y3",
+      "rede": "Lomadee"
     },
     {
       "id": "46414c611ad3e8fa67",
@@ -167,6 +203,30 @@
       "rede": "Awin"
     },
     {
+      "id": "4370d254d1ce09390a",
+      "loja": "China in Box",
+      "tipo": "cupom",
+      "titulo": "20% OFF em pedidos acima de R$70",
+      "descricao": "",
+      "termos": "",
+      "cupom": "MEUCHINA",
+      "validade": "2026-11-28T02:30:00Z",
+      "link": "https://lmdee.link/CvIpRQ7syitt",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "22a80103f617a12385",
+      "loja": "Concórdia Informática",
+      "tipo": "cupom",
+      "titulo": "10% OFF em todos os computadores",
+      "descricao": "",
+      "termos": "",
+      "cupom": "COMPUTADOR10",
+      "validade": "2026-12-01T02:30:00Z",
+      "link": "https://lmdee.link/xsIeqqDRFpse",
+      "rede": "Lomadee"
+    },
+    {
       "id": "7d4a5dbb2653d78cc5",
       "loja": "Dafiti Fashion Creators BR",
       "tipo": "cupom",
@@ -273,6 +333,18 @@
       "validade": "2026-12-01T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=102893&awinaffid=3110826&ued=https%3A%2F%2Floja.decorcolors.com.br%2F",
       "rede": "Awin"
+    },
+    {
+      "id": "1f91898008ff8aef8d",
+      "loja": "DeÔnibus",
+      "tipo": "cupom",
+      "titulo": "Black Friday com 12% off sem regras",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK12",
+      "validade": "2026-11-28T02:30:00Z",
+      "link": "https://lmdee.link/iz1edBmBbTel",
+      "rede": "Lomadee"
     },
     {
       "id": "1c2e91a8ab21a85834",
@@ -803,6 +875,30 @@
       "rede": "Awin"
     },
     {
+      "id": "03f430555f90c39e07",
+      "loja": "Gazin",
+      "tipo": "cupom",
+      "titulo": "BF6 para itens acima de 500 reais",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BF6",
+      "validade": "2026-11-28T02:30:00Z",
+      "link": "https://lmdee.link/u0Mcttl8ZTh4",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "bc85303d887a12e821",
+      "loja": "Gazin",
+      "tipo": "cupom",
+      "titulo": "cupom BF5 para itens abaixo de 500 reais",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BF5",
+      "validade": "2026-11-28T02:30:00Z",
+      "link": "https://lmdee.link/a0gOEgymOYpd",
+      "rede": "Lomadee"
+    },
+    {
       "id": "a4c9a41cc74e2f6e9b",
       "loja": "Hipervarejo BR",
       "tipo": "cupom",
@@ -813,6 +909,18 @@
       "validade": "2027-01-01T02:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=46269&awinaffid=3110826&ued=https%3A%2F%2Fhipervarejo.com.br%2F",
       "rede": "Awin"
+    },
+    {
+      "id": "bed06892b1c94e4370",
+      "loja": "Homedock",
+      "tipo": "cupom",
+      "titulo": "Cupom de 7% off em todo o site",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK7",
+      "validade": "2026-11-28T02:30:00Z",
+      "link": "https://lmdee.link/0eGhl8Q9JeT7",
+      "rede": "Lomadee"
     },
     {
       "id": "b63e666f0a4a9598a6",
@@ -884,18 +992,6 @@
       "cupom": "GAMER10OFF",
       "validade": "2026-11-30T13:00:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1GAMER10OFF",
-      "rede": "Awin"
-    },
-    {
-      "id": "15e02c109f10767712",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "10% OFF em produtos selecionados Nintendo",
-      "descricao": "10% OFF em produtos selecionados Nintendo",
-      "termos": ".",
-      "cupom": "BFNINTENDO",
-      "validade": "2026-11-27T15:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1BFNINTENDO",
       "rede": "Awin"
     },
     {
@@ -980,18 +1076,6 @@
       "cupom": "PCYES15OFF",
       "validade": "2026-12-01T02:59:59Z",
       "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1PCYES15OFF",
-      "rede": "Awin"
-    },
-    {
-      "id": "e9ced5af34f1f4a957",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "15% OFF em produtos selecionados da campanha Play Classic",
-      "descricao": "15% OFF em produtos selecionados da campanha Play Classic",
-      "termos": ".",
-      "cupom": "PLAYCLASSIC",
-      "validade": "2026-11-27T15:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1PLAYCLASSIC",
       "rede": "Awin"
     },
     {
@@ -1235,18 +1319,6 @@
       "rede": "Awin"
     },
     {
-      "id": "f22cabcf4f34940ace",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "R$ 45 OFF no Controle Husky Hunter Sem Fio RGB",
-      "descricao": "R$ 45 OFF no Controle Husky Hunter Sem Fio RGB",
-      "termos": ".",
-      "cupom": "JOGAHUSKY",
-      "validade": "2026-11-27T15:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F761443%2Fcontrole-husky-hunter-sem-fio-compativel-com-pc-android-ios-24-botoes-programaveis-rgb-preto-hjk002pt",
-      "rede": "Awin"
-    },
-    {
       "id": "972f646e1533ab06a1",
       "loja": "Kabum BR",
       "tipo": "cupom",
@@ -1389,6 +1461,18 @@
       "validade": "2027-01-04T03:11:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=22031&awinaffid=3110826&ued=https%3A%2F%2Fwww.kaspersky.com.br%2Fsafe-kids%3Futm_source%3Daffiliate%26utm_medium%3Dcpa%26utm_campaign%3Dbr_affccl_acq_ona_afm__all_b2c_awin_affiliatelink____kprem____",
       "rede": "Awin"
+    },
+    {
+      "id": "4e4df59916bf9be1e4",
+      "loja": "Kidy Calçados",
+      "tipo": "cupom",
+      "titulo": "20% OFF em todo site acima de R$99",
+      "descricao": "",
+      "termos": "",
+      "cupom": "LOMABLACK",
+      "validade": "2026-11-28T02:30:00Z",
+      "link": "https://lmdee.link/ZNHm3CdmEQNy",
+      "rede": "Lomadee"
     },
     {
       "id": "90072377eff1fdf178",
@@ -1715,6 +1799,30 @@
       "rede": "Rakuten"
     },
     {
+      "id": "cd80fcac768431312b",
+      "loja": "UP Kids",
+      "tipo": "cupom",
+      "titulo": "São até 80% OFF + 15% EXTRA em todo o site",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK15",
+      "validade": "2026-12-01T02:59:59Z",
+      "link": "https://lmdee.link/Oal016CZO0yX",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "3d44bd7be37f1e36d2",
+      "loja": "Vapza Alimentos",
+      "tipo": "cupom",
+      "titulo": "Cupom 2% OFF Black Friday",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACK2",
+      "validade": "2026-12-01T02:30:00Z",
+      "link": "https://lmdee.link/kLjUgwtOicFu",
+      "rede": "Lomadee"
+    },
+    {
       "id": "451715af7e7d96a240",
       "loja": "VX Case BR",
       "tipo": "cupom",
@@ -1725,6 +1833,42 @@
       "validade": "2027-01-01T02:59:00Z",
       "link": "https://www.awin1.com/cread.php?awinmid=117795&awinaffid=3110826&campaign=Primeira+Compra+com+10+OFF&ued=https%3A%2F%2Fwww.vxcase.com.br%2Fdiscount%2FPRIMEIRACOMPRA",
       "rede": "Awin"
+    },
+    {
+      "id": "4c14066957b1e7de20",
+      "loja": "Zupper",
+      "tipo": "cupom",
+      "titulo": "10% OFF, sem compra mínima e limite de uso, pagando no PIX.",
+      "descricao": "",
+      "termos": "",
+      "cupom": "BLACKFRIDAYVIAGENS",
+      "validade": "2026-12-01T02:30:00Z",
+      "link": "https://lmdee.link/undcVJobtc0g",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "305d7f33050f6f63ee",
+      "loja": "Zupper",
+      "tipo": "cupom",
+      "titulo": "20% OFF em compras acima de 4.000 reais, exclusivo para pacotes, sem limite de uso.",
+      "descricao": "",
+      "termos": "",
+      "cupom": "PACOTES20OFF",
+      "validade": "2026-12-01T02:30:00Z",
+      "link": "https://lmdee.link/SRNmzPfTv4a0",
+      "rede": "Lomadee"
+    },
+    {
+      "id": "e5b6bc968ad8e45fbb",
+      "loja": "Zupper",
+      "tipo": "cupom",
+      "titulo": "5% OFF, sem compra mínima e limite de uso. Qualquer meio de pagamento",
+      "descricao": "",
+      "termos": "",
+      "cupom": "ZUPPER5OFF",
+      "validade": "2026-12-01T02:30:00Z",
+      "link": "https://lmdee.link/v8Up5j1rSBht",
+      "rede": "Lomadee"
     },
     {
       "id": "707052ca3d7e6b2a24",
@@ -1783,7 +1927,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2031-12-03T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1940053.7&type=3",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1940053.3&type=4",
       "rede": "Rakuten"
     },
     {
@@ -3055,7 +3199,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-06-23T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2065106.4&type=4",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2065106.3&type=4",
       "rede": "Rakuten"
     },
     {
@@ -3103,7 +3247,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-10-09T00:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.4&type=4",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=2142287.3&type=4",
       "rede": "Rakuten"
     },
     {
@@ -3379,7 +3523,7 @@
       "termos": "",
       "cupom": "",
       "validade": "2032-06-09T03:00:00Z",
-      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1752486.819&type=3&subid=0",
+      "link": "https://click.linksynergy.com/fs-bin/click?id=ANi/csO07bU&offerid=1752486.818&type=3&subid=0",
       "rede": "Rakuten"
     },
     {

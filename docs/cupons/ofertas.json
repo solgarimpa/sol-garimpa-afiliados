@@ -1,42 +1,9 @@
 {
   "fonte": "Awin Offers API",
   "publisher_id": 3110826,
-  "atualizado_em": "2026-11-27T14:26:36.497685Z",
-  "total": 195,
+  "atualizado_em": "2026-11-27T17:31:12.010288Z",
+  "total": 192,
   "ofertas": [
-    {
-      "id": "4189439",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "10% OFF em produtos selecionados Nintendo",
-      "descricao": "10% OFF em produtos selecionados Nintendo",
-      "termos": ".",
-      "cupom": "BFNINTENDO",
-      "validade": "2026-11-27T15:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1BFNINTENDO"
-    },
-    {
-      "id": "4189433",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "15% OFF em produtos selecionados da campanha Play Classic",
-      "descricao": "15% OFF em produtos selecionados da campanha Play Classic",
-      "termos": ".",
-      "cupom": "PLAYCLASSIC",
-      "validade": "2026-11-27T15:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fpromocao%2FCP1PLAYCLASSIC"
-    },
-    {
-      "id": "4189426",
-      "loja": "Kabum BR",
-      "tipo": "cupom",
-      "titulo": "R$ 45 OFF no Controle Husky Hunter Sem Fio RGB",
-      "descricao": "R$ 45 OFF no Controle Husky Hunter Sem Fio RGB",
-      "termos": ".",
-      "cupom": "JOGAHUSKY",
-      "validade": "2026-11-27T15:00:00Z",
-      "link": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=3110826&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F761443%2Fcontrole-husky-hunter-sem-fio-compativel-com-pc-android-ios-24-botoes-programaveis-rgb-preto-hjk002pt"
-    },
     {
       "id": "4189330",
       "loja": "Kabum BR",
